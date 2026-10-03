@@ -2,7 +2,7 @@
 
 # 🚀 AI-Driven Future Service Concept: "MindBridge AI"
 
-> **Horowitz Andreessen Academy Proof of Work**  
+
 > Author: Park Seyoung  
 > Date: 2026-10-03  
 
