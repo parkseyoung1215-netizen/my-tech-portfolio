@@ -50,3 +50,17 @@ To validate the semantic divergence hypothesis, we plan to implement a lightweig
 3. **Similarity Metrics:** Apply cosine similarity and semantic distance algorithms between input vectors and intermediate hidden states to quantify "Semantic Drift".
 4. **Visualization:** Plot divergence scores across processing steps to identify threshold points where intent loss sharply increases.
 
+---
+
+##  Repository Structure
+
+- `README.md`: Research conceptualization, hypothesis, and structural architecture.
+- `simulate_drift.py`: Prototype simulation script for measuring semantic divergence and intent drift.
+
+##  Getting Started (Prototype)
+
+To run the simulation script locally:
+
+```bash
+python simulate_drift.py
+
