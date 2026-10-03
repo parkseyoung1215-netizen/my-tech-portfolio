@@ -103,6 +103,11 @@ final measurement. Next: a larger test set and a contradiction-aware scorer.
 
 ## Experiment 2: Does a contradiction-aware scorer catch what embeddings miss?
 
+
+> **Update:** this is a preliminary run on 30 pairs. The 360-pair run in Experiment 3 found
+> NLI false alarms on paraphrases and a few misses, so the "no overlap" result below did
+> not hold at scale.
+
 `evaluate_nli.py` adds a second scorer on the same 30 pairs: a natural-language-inference
 model (`cross-encoder/nli-MiniLM2-L6-H768`) reads the new state and the original
 instruction and returns P(entailment). The NLI score is `1 - P(entailment)`.
@@ -146,3 +151,54 @@ easy ones, so the 0% false-alarm rate is not yet established. Next: a larger tes
 with harder paraphrases, multi-constraint instructions and longer text, and a combined
 score that uses both scorers.
 
+
+## Experiment 3: 360 pairs, harder paraphrases, typed constraint violations
+
+`testset_v2.csv` has 60 instructions with six variants each (levels 0-5, 360 pairs).
+Level 1 paraphrases share few words with the original. Level 3 (a constraint is
+violated) is split by kind: `negation`, `number`, `entity` (who/what/direction) and
+`scope`. The test sentences were drafted with Claude's help.
+
+Run:
+
+```bash
+python3 evaluate_drift.py testset_v2.csv results_v2
+python3 evaluate_nli.py testset_v2.csv results_v2
+```
+
+![Embedding vs NLI vs mean of both](results_v2/compare_embedding_vs_nli.png)
+
+Share of pairs flagged (embedding score > 0.3, NLI score > 0.5; thresholds were set
+before running this test set and not tuned on it). Identical and paraphrase rows
+should be near 0%, all others near 100%.
+
+| Kind | Pairs | Embedding | NLI |
+|---|---|---|---|
+| identical | 60 | 0% | 0% |
+| paraphrase | 60 | 30% | 12% |
+| part dropped | 60 | 7% | 100% |
+| flipped: negation | 15 | 0% | 100% |
+| flipped: number | 16 | 0% | 100% |
+| flipped: scope | 13 | 0% | 100% |
+| flipped: entity | 16 | 25% | 88% |
+| different task | 60 | 85% | 100% |
+| unrelated | 60 | 100% | 100% |
+
+**Findings:**
+- The embedding score flags none of the 44 pairs where a negation, number or scope
+  constraint was flipped (mean score 0.08-0.13), while it flags 30% of harmless
+  paraphrases (mean score 0.27). Changing the threshold does not fix this: at 0.2 it
+  flags 82% of paraphrases but only 22% of the 60 level-3 pairs.
+- NLI flags 238 of the 240 pairs at levels 2-5 and 7 of 60 paraphrases (12%).
+  Most of those 7 look like valid paraphrases on inspection
+  (e.g. "Convert the instruction booklet from English to Korean").
+- Both NLI misses are direction reversals with the same words in swapped roles
+  (Berlin to Seoul vs. Seoul to Berlin; English to Korean vs. Korean to English).
+  With only 2 cases this is a lead, not a conclusion.
+- Flagging a pair when either scorer fires raises false alarms on paraphrases to 37%,
+  so the two scores should not simply be OR-ed.
+
+**Limitations:** one author, hand-written pairs, one small NLI model
+(`cross-encoder/nli-MiniLM2-L6-H768`), one embedding model, and no independent check of
+the labels yet. Next: use NLI to decide whether a constraint was violated and embeddings
+only to rank severity, add direction-reversal cases on purpose, and try a larger NLI model.
