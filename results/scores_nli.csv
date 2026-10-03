@@ -1,0 +1,31 @@
+intent,state,level,score_embedding,p_entail,p_contradiction,score_nli
+Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks and summarize key points for the executive board.,0,0.0,0.9880943191985092,0.0036376650237893177,0.011905680801490792
+Analyze the financial risks and summarize key points for the executive board.,Summarize the key financial risks for the executive board.,1,0.05523455,0.910722237711005,0.0012620034115638252,0.08927776228899498
+Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks.,2,0.2397691,0.0017839960366192451,0.0030528317877360684,0.9982160039633807
+Analyze the financial risks and summarize key points for the executive board.,Ignore the financial risks and summarize only the positive points for the executive board.,3,0.21148884,0.006714002112506033,0.9903364452826211,0.9932859978874939
+Analyze the financial risks and summarize key points for the executive board.,Analyze the marketing strategy and summarize key points for the executive board.,4,0.3037209,0.00075275327409085,0.995477815488091,0.9992472467259091
+Analyze the financial risks and summarize key points for the executive board.,Make some coffee and check the weather.,5,1.0,0.0003019121560000665,0.9886184305202397,0.9996980878439999
+Write a polite email declining the meeting invitation for Friday.,Write a polite email declining the meeting invitation for Friday.,0,0.0,0.9896334250045589,0.0013924751429907644,0.010366574995441136
+Write a polite email declining the meeting invitation for Friday.,Draft a courteous email to turn down Friday's meeting invite.,1,0.22926372,0.9920335607043859,0.0015926670863995974,0.007966439295614136
+Write a polite email declining the meeting invitation for Friday.,Write an email about the Friday meeting.,2,0.21115804,0.004196050806349886,0.08975895935446584,0.9958039491936501
+Write a polite email declining the meeting invitation for Friday.,Write a polite email accepting the meeting invitation for Friday.,3,0.059340835,0.0006109136442247687,0.9975698474853875,0.9993890863557753
+Write a polite email declining the meeting invitation for Friday.,Write a polite email asking to reschedule a dentist appointment.,4,0.48460484,0.00239513712432649,0.8290090201029193,0.9976048628756735
+Write a polite email declining the meeting invitation for Friday.,Recommend a good pasta recipe for dinner tonight.,5,0.8561297,0.00030041538454750105,0.9924180751225767,0.9996995846154525
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend without changing the database schema.,0,0.0,0.9911970988618161,0.0011447100874277044,0.008802901138183938
+Fix the login bug in the Python backend without changing the database schema.,Resolve the login bug in the Python server code and leave the database schema untouched.,1,0.06512582,0.9284585258736653,0.05909499306057293,0.07154147412633471
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend.,2,0.15905559,0.002317608928418366,0.003298961065619921,0.9976823910715816
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend by redesigning the database schema.,3,0.017284274,0.0010534512034049781,0.9970909237629555,0.9989465487965951
+Fix the login bug in the Python backend without changing the database schema.,Add a dark mode toggle to the mobile app.,4,0.96268785,0.00031643991300569184,0.9746659991688112,0.9996835600869943
+Fix the login bug in the Python backend without changing the database schema.,Plan a weekend hiking trip in the mountains.,5,1.0,0.0001899532548429992,0.9970919106247459,0.999810046745157
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,0,1.1920929e-07,0.9886094397227797,0.0021464511856258877,0.011390560277220296
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Reserve a plane ticket from Berlin to Seoul for the coming Tuesday costing less than 900 euros.,1,0.18719971,0.9917222756084282,0.0024705412543740255,0.008277724391571817
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul.,2,0.147551,0.0015129307882624185,0.004573779393723935,0.9984870692117376
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Seoul to Berlin for next Tuesday with no price limit.,3,0.19215786,0.003934784228885896,0.004803336741720755,0.9960652157711141
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a hotel in Seoul for next Tuesday under 900 euros.,4,0.29851842,0.0007536183615207337,0.9829602116167345,0.9992463816384792
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Explain how photosynthesis works.,5,1.0,0.0003142565292627193,0.9529001230187409,0.9996857434707372
+Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in three bullet points for a high school student.,0,0.0,0.9804921445392385,0.0027900610207959617,0.019507855460761503
+Summarize this research paper in three bullet points for a high school student.,Give a three-bullet summary of this research paper that a high school student can understand.,1,0.1132099,0.9847291835532033,0.0031021704998292652,0.015270816446796731
+Summarize this research paper in three bullet points for a high school student.,Summarize this research paper.,2,0.2590934,0.001424966551091892,0.005827713992644519,0.9985750334489081
+Summarize this research paper in three bullet points for a high school student.,Write a detailed technical review of this research paper for expert researchers.,3,0.5729569,0.0014518505071073311,0.5898101922408872,0.9985481494928927
+Summarize this research paper in three bullet points for a high school student.,Translate this research paper into French.,4,0.6295092,0.0014047202671497504,0.016612072335511187,0.9985952797328502
+Summarize this research paper in three bullet points for a high school student.,Suggest names for a new puppy.,5,0.982761,0.0002934032718553981,0.9888541367632023,0.9997065967281445
