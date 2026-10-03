@@ -39,3 +39,14 @@ To analyze how human intent transforms and suffers from semantic loss during mod
                  ▼
 [ Empirical Analysis: Tracking Semantic Drift ]
 
+---
+
+##  Experimental Design & Methodology (Planned)
+
+To validate the semantic divergence hypothesis, we plan to implement a lightweight evaluation framework:
+
+1. **Baseline Setup:** Use open-source embedding models to capture high-dimensional vector states of input prompts.
+2. **Perturbation Tracking:** Introduce controlled variations (paraphrasing, ambiguity) into instructions to observe how internal representations shift.
+3. **Similarity Metrics:** Apply cosine similarity and semantic distance algorithms between input vectors and intermediate hidden states to quantify "Semantic Drift".
+4. **Visualization:** Plot divergence scores across processing steps to identify threshold points where intent loss sharply increases.
+
