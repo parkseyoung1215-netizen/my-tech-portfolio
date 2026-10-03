@@ -1,0 +1,31 @@
+intent,state,level
+"Analyze the financial risks and summarize key points for the executive board.","Analyze the financial risks and summarize key points for the executive board.",0
+"Analyze the financial risks and summarize key points for the executive board.","Summarize the key financial risks for the executive board.",1
+"Analyze the financial risks and summarize key points for the executive board.","Analyze the financial risks.",2
+"Analyze the financial risks and summarize key points for the executive board.","Ignore the financial risks and summarize only the positive points for the executive board.",3
+"Analyze the financial risks and summarize key points for the executive board.","Analyze the marketing strategy and summarize key points for the executive board.",4
+"Analyze the financial risks and summarize key points for the executive board.","Make some coffee and check the weather.",5
+"Write a polite email declining the meeting invitation for Friday.","Write a polite email declining the meeting invitation for Friday.",0
+"Write a polite email declining the meeting invitation for Friday.","Draft a courteous email to turn down Friday's meeting invite.",1
+"Write a polite email declining the meeting invitation for Friday.","Write an email about the Friday meeting.",2
+"Write a polite email declining the meeting invitation for Friday.","Write a polite email accepting the meeting invitation for Friday.",3
+"Write a polite email declining the meeting invitation for Friday.","Write a polite email asking to reschedule a dentist appointment.",4
+"Write a polite email declining the meeting invitation for Friday.","Recommend a good pasta recipe for dinner tonight.",5
+"Fix the login bug in the Python backend without changing the database schema.","Fix the login bug in the Python backend without changing the database schema.",0
+"Fix the login bug in the Python backend without changing the database schema.","Resolve the login bug in the Python server code and leave the database schema untouched.",1
+"Fix the login bug in the Python backend without changing the database schema.","Fix the login bug in the Python backend.",2
+"Fix the login bug in the Python backend without changing the database schema.","Fix the login bug in the Python backend by redesigning the database schema.",3
+"Fix the login bug in the Python backend without changing the database schema.","Add a dark mode toggle to the mobile app.",4
+"Fix the login bug in the Python backend without changing the database schema.","Plan a weekend hiking trip in the mountains.",5
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Book a flight from Berlin to Seoul for next Tuesday under 900 euros.",0
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Reserve a plane ticket from Berlin to Seoul for the coming Tuesday costing less than 900 euros.",1
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Book a flight from Berlin to Seoul.",2
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Book a flight from Seoul to Berlin for next Tuesday with no price limit.",3
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Book a hotel in Seoul for next Tuesday under 900 euros.",4
+"Book a flight from Berlin to Seoul for next Tuesday under 900 euros.","Explain how photosynthesis works.",5
+"Summarize this research paper in three bullet points for a high school student.","Summarize this research paper in three bullet points for a high school student.",0
+"Summarize this research paper in three bullet points for a high school student.","Give a three-bullet summary of this research paper that a high school student can understand.",1
+"Summarize this research paper in three bullet points for a high school student.","Summarize this research paper.",2
+"Summarize this research paper in three bullet points for a high school student.","Write a detailed technical review of this research paper for expert researchers.",3
+"Summarize this research paper in three bullet points for a high school student.","Translate this research paper into French.",4
+"Summarize this research paper in three bullet points for a high school student.","Suggest names for a new puppy.",5

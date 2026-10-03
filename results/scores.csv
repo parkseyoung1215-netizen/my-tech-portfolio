@@ -1,0 +1,31 @@
+intent,state,level,score
+Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks and summarize key points for the executive board.,0,0.0
+Analyze the financial risks and summarize key points for the executive board.,Summarize the key financial risks for the executive board.,1,0.05523455
+Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks.,2,0.2397691
+Analyze the financial risks and summarize key points for the executive board.,Ignore the financial risks and summarize only the positive points for the executive board.,3,0.21148884
+Analyze the financial risks and summarize key points for the executive board.,Analyze the marketing strategy and summarize key points for the executive board.,4,0.3037209
+Analyze the financial risks and summarize key points for the executive board.,Make some coffee and check the weather.,5,1.0
+Write a polite email declining the meeting invitation for Friday.,Write a polite email declining the meeting invitation for Friday.,0,0.0
+Write a polite email declining the meeting invitation for Friday.,Draft a courteous email to turn down Friday's meeting invite.,1,0.22926372
+Write a polite email declining the meeting invitation for Friday.,Write an email about the Friday meeting.,2,0.21115804
+Write a polite email declining the meeting invitation for Friday.,Write a polite email accepting the meeting invitation for Friday.,3,0.059340835
+Write a polite email declining the meeting invitation for Friday.,Write a polite email asking to reschedule a dentist appointment.,4,0.48460484
+Write a polite email declining the meeting invitation for Friday.,Recommend a good pasta recipe for dinner tonight.,5,0.8561297
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend without changing the database schema.,0,0.0
+Fix the login bug in the Python backend without changing the database schema.,Resolve the login bug in the Python server code and leave the database schema untouched.,1,0.06512582
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend.,2,0.15905559
+Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend by redesigning the database schema.,3,0.017284274
+Fix the login bug in the Python backend without changing the database schema.,Add a dark mode toggle to the mobile app.,4,0.96268785
+Fix the login bug in the Python backend without changing the database schema.,Plan a weekend hiking trip in the mountains.,5,1.0
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,0,1.1920929e-07
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Reserve a plane ticket from Berlin to Seoul for the coming Tuesday costing less than 900 euros.,1,0.18719971
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul.,2,0.147551
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Seoul to Berlin for next Tuesday with no price limit.,3,0.19215786
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a hotel in Seoul for next Tuesday under 900 euros.,4,0.29851842
+Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Explain how photosynthesis works.,5,1.0
+Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in three bullet points for a high school student.,0,0.0
+Summarize this research paper in three bullet points for a high school student.,Give a three-bullet summary of this research paper that a high school student can understand.,1,0.1132099
+Summarize this research paper in three bullet points for a high school student.,Summarize this research paper.,2,0.2590934
+Summarize this research paper in three bullet points for a high school student.,Write a detailed technical review of this research paper for expert researchers.,3,0.5729569
+Summarize this research paper in three bullet points for a high school student.,Translate this research paper into French.,4,0.6295092
+Summarize this research paper in three bullet points for a high school student.,Suggest names for a new puppy.,5,0.982761
