@@ -21,3 +21,8 @@
 
 ## 3. Impact & Vision (기대 효과 및 비전)
 이 서비스를 통해 사람들은 아이디어를 머릿속에만 담아두지 않고, 누구나 쉽게 '증거(Proof of Work)'로 남길 수 있게 됩니다. AI 시대에 가장 중요한 덕목인 **'실행력'**을 극대화하는 촉매제가 될 것입니다.
+
+---
+## 🌐 Live Demo & Project Link
+- **Project Concept Page:** [View MindBridge AI Overview](https://github.com/parkseyoung1215-netizen/my-tech-portfolio)
+- **Status:** Phase 1 (Concept & Planning Completed)
