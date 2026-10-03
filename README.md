@@ -36,23 +36,21 @@
 - **The Problem:** LLMs often suffer from semantic loss or divergence between user instructions and predicted actions because token-based probabilistic prediction doesn't 100% guarantee intent preservation.
 - **The Approach:** Designing a structured validation flow (`User Instruction` $\rightarrow$ `Semantic Understanding` $\rightarrow$ `Consistency Check` $\rightarrow$ `Action`) to catch discrepancies before execution.
 
-- Markdown
 ---
 
-### System Architecture: Intent Verification Pipeline
+###  System Architecture: Intent Verification Pipeline
 
 To bridge the gap between user intention and model execution, we propose a modular validation pipeline prior to tool invocation:
 
-[ User Instruction ]
-│
-▼
+```text
+[ User Instruction ] 
+        │
+        ▼
 [ Semantic Understanding & Intent Extraction ]
-│
-▼
+        │
+        ▼
 [ Consistency Check (Semantic Divergence Measurement) ]
-│
-├── 🟢 High Match (> 95%) ──> [ Execute Action ]
-├── 🟡 Moderate Match ────> [ Ask Human Confirmation ]
-└── 🔴 Low Match / Risk ──> [ Block & Report Divergence ]
-
-- **Objective:** Prevent unintended AI behavior by intercepting actions, measuring meaning loss, and putting the core control back in human hands.
+        │
+        ├── 🟢 High Match (> 95%) ──> [ Execute Action ]
+        ├── 🟡 Moderate Match ────> [ Ask Human Confirmation ]
+        └── 🔴 Low Match / Risk ──> [ Block & Report Divergence ]
