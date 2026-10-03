@@ -1,0 +1,361 @@
+id,intent,state,level,kind
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks and summarize key points for the executive board.,0,identical
+1,Analyze the financial risks and summarize key points for the executive board.,Look into the money-related risks and give the executives' board a short digest of what matters most.,1,paraphrase
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks.,2,part_dropped
+1,Analyze the financial risks and summarize key points for the executive board.,Ignore the financial risks and summarize only the positive points for the executive board.,3,negation
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the marketing strategy and summarize key points for the executive board.,4,different_task
+1,Analyze the financial risks and summarize key points for the executive board.,Recommend a good pasta recipe for dinner tonight.,5,unrelated
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email declining the meeting invitation for Friday.,0,identical
+2,Write a polite email declining the meeting invitation for Friday.,Compose a courteous message telling them I can't attend the Friday meeting.,1,paraphrase
+2,Write a polite email declining the meeting invitation for Friday.,Write an email about the Friday meeting.,2,part_dropped
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email accepting the meeting invitation for Friday.,3,negation
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email asking to reschedule a dentist appointment.,4,different_task
+2,Write a polite email declining the meeting invitation for Friday.,Explain how photosynthesis works.,5,unrelated
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend without changing the database schema.,0,identical
+3,Fix the login bug in the Python backend without changing the database schema.,Repair the sign-in defect in the server-side Python code while leaving the database tables as they are.,1,paraphrase
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend.,2,part_dropped
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend by redesigning the database schema.,3,negation
+3,Fix the login bug in the Python backend without changing the database schema.,Add a dark mode toggle to the mobile app.,4,different_task
+3,Fix the login bug in the Python backend without changing the database schema.,Plan a weekend hiking trip in the mountains.,5,unrelated
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,0,identical
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,"Reserve a plane ticket leaving Berlin for Seoul next Tuesday, costing less than 900 euros.",1,paraphrase
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul.,2,part_dropped
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Seoul to Berlin for next Tuesday under 900 euros.,3,entity
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a hotel in Seoul for next Tuesday under 900 euros.,4,different_task
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Suggest names for a new puppy.,5,unrelated
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in three bullet points for a high school student.,0,identical
+5,Summarize this research paper in three bullet points for a high school student.,Give a high schooler the gist of this study in exactly three short points.,1,paraphrase
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper.,2,part_dropped
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in thirty bullet points for a high school student.,3,number
+5,Summarize this research paper in three bullet points for a high school student.,Translate this research paper into French.,4,different_task
+5,Summarize this research paper in three bullet points for a high school student.,Describe the plot of a classic detective novel.,5,unrelated
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,0,identical
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Put the engineers' daily sync on the calendar Monday at 9:30 and send an invite to each of the five of them.,1,paraphrase
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for Monday.,2,part_dropped
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for 9:30 on Monday and invite all fifty engineers.,3,number
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule a one-on-one review with the design lead on Wednesday.,4,different_task
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Tell me a joke about penguins.,5,unrelated
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German and keep all clause numbers unchanged.,0,identical
+7,Translate the contract into German and keep all clause numbers unchanged.,"Render the agreement in German, making sure every clause keeps its original number.",1,paraphrase
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German.,2,part_dropped
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German and renumber all clauses.,3,negation
+7,Translate the contract into German and keep all clause numbers unchanged.,Proofread the contract in English and flag ambiguous clauses.,4,different_task
+7,Translate the contract into German and keep all clause numbers unchanged.,List the planets of the solar system in order.,5,unrelated
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,0,identical
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Create a Python helper that orders a list of dicts from youngest to oldest using their 'age' field.,1,paraphrase
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries.,2,part_dropped
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries by the 'age' key in descending order.,3,negation
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that removes duplicate entries from a list of dictionaries.,4,different_task
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Give me tips for growing tomatoes on a balcony.,5,unrelated
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.","Draft a press release announcing our Series A funding, without mentioning the investors' names.",0,identical
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Prepare a news announcement about closing our Series A round that leaves out who the investors are.,1,paraphrase
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Draft a press release announcing our Series A funding.,2,part_dropped
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.","Draft a press release announcing our Series A funding, and list every investor by name.",3,negation
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Draft a press release announcing our new product launch.,4,different_task
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",What is the tallest mountain in South America?,5,unrelated
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,0,identical
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Suggest a trio of meat-free places to eat in Berlin that serve guests on Sundays.,1,paraphrase
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three restaurants in Berlin.,2,part_dropped
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three steakhouses in Berlin that are open on Sundays.,3,entity
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three museums in Berlin that are open on Sundays.,4,different_task
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Describe what a rainy afternoon in a small town feels like.,5,unrelated
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint with an apology and offer a full refund.,0,identical
+11,Reply to the customer's complaint with an apology and offer a full refund.,Answer the unhappy customer by saying sorry and promising to give all their money back.,1,paraphrase
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint.,2,part_dropped
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint by denying responsibility and refusing any refund.,3,negation
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's question about shipping times.,4,different_task
+11,Reply to the customer's complaint with an apology and offer a full refund.,Explain the rules of chess to a beginner.,5,unrelated
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.","Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",0,identical
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Build a sheet to plan wedding expenses so that the overall spending cap is fifteen thousand dollars.,1,paraphrase
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Create a budget spreadsheet for a wedding.,2,part_dropped
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.","Create a budget spreadsheet for a wedding with a total limit of 150,000 dollars.",3,number
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Create a budget spreadsheet for a small business's quarterly marketing spend.,4,different_task
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",How can I stretch my back after sitting all day?,5,unrelated
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay for grammar mistakes only and do not change the author's wording.,0,identical
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,"Check the essay for grammatical errors alone, leaving the writer's phrasing as it is.",1,paraphrase
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay.,2,part_dropped
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay for grammar mistakes and rewrite the author's wording to be more formal.,3,scope
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Write a short summary of the essay's main argument.,4,different_task
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Describe how a bill becomes a law.,5,unrelated
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes and send them to everyone who attended.,0,identical
+14,Summarize the meeting notes and send them to everyone who attended.,Condense what was discussed in the meeting and mail it to all the participants.,1,paraphrase
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes.,2,part_dropped
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes and send them to everyone who did not attend.,3,entity
+14,Summarize the meeting notes and send them to everyone who attended.,Create an agenda for next week's meeting.,4,different_task
+14,Summarize the meeting notes and send them to everyone who attended.,Recommend three board games for a rainy evening.,5,unrelated
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four that avoids peanuts.,0,identical
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,"Put together seven days of dinners for four people at home, making sure nothing contains peanuts.",1,paraphrase
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four.,2,part_dropped
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four that features peanuts in every dish.,3,negation
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a grocery shopping list for a family of four for the weekend.,4,different_task
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Explain why the sky is blue.,5,unrelated
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops and recommend the one that lasts longer.,0,identical
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Look at how long each of the two notebooks runs on a charge and suggest whichever holds out the longest.,1,paraphrase
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops.,2,part_dropped
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops and recommend the one with the worse battery life.,3,negation
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the screen quality of the two laptops and recommend the sharper one.,4,different_task
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Which houseplants do well in low light?,5,unrelated
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist tomorrow at 10 a.m.,0,identical
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Remind me to phone the dentist's office tomorrow morning at ten.,1,paraphrase
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist.,2,part_dropped
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist next month at 10 p.m.,3,number
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to water the plants every Sunday evening.,4,different_task
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Tell me the history of the bicycle.,5,unrelated
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function that covers the empty-cart case.,0,identical
+18,Write a unit test for the checkout function that covers the empty-cart case.,Add a test for the checkout routine that exercises what happens when the cart has nothing in it.,1,paraphrase
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function.,2,part_dropped
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function that covers every case except the empty-cart case.,3,scope
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the login function that covers the wrong-password case.,4,different_task
+18,Write a unit test for the checkout function that covers the empty-cart case.,Describe the migration route of monarch butterflies.,5,unrelated
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how vaccines work to a ten-year-old in under 100 words.,0,identical
+19,Explain how vaccines work to a ten-year-old in under 100 words.,"Tell a fifth-grader how immunizations function, keeping it shorter than a hundred words.",1,paraphrase
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how vaccines work.,2,part_dropped
+19,Explain how vaccines work to a ten-year-old in under 100 words.,"Explain how vaccines work to a ten-year-old in at least 1,000 words.",3,number
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how airplanes stay in the air to a ten-year-old in under 100 words.,4,different_task
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how tides are caused by the moon.,5,unrelated
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase but do not rename the subfolders.,0,identical
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,"Convert every file name in the directory to lower case, leaving the nested directories' names alone.",1,paraphrase
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase.,2,part_dropped
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase and rename the subfolders too.,3,scope
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Delete all temporary files in the folder older than seven days.,4,different_task
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,What should I pack for a week at the beach?,5,unrelated
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.","Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",0,identical
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Write a vacancy announcement for an experienced data engineer in Munich with a hybrid setup of three office days per week.,1,paraphrase
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Draft a job posting for a senior data engineer.,2,part_dropped
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.","Draft a job posting for a junior data engineer based in Madrid, fully remote.",3,entity
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Draft a rejection letter for a candidate who interviewed for a data engineer role.,4,different_task
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Recommend a good pasta recipe for dinner tonight.,5,unrelated
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",0,identical
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Work out what the monthly installment would be for a 300,000 euro home loan at a 4 percent rate lasting 25 years.",1,paraphrase
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",Calculate the monthly payment on a mortgage.,2,part_dropped
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the monthly payment on a 30,000 euro mortgage at 14 percent over 5 years.",3,number
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the total interest paid on a 300,000 euro mortgage at 4 percent over 25 years.",4,different_task
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",Explain how photosynthesis works.,5,unrelated
+23,Review the pull request and approve it only if all tests pass.,Review the pull request and approve it only if all tests pass.,0,identical
+23,Review the pull request and approve it only if all tests pass.,Go over the code change and sign off on it solely when every test succeeds.,1,paraphrase
+23,Review the pull request and approve it only if all tests pass.,Review the pull request.,2,part_dropped
+23,Review the pull request and approve it only if all tests pass.,Review the pull request and approve it even if tests fail.,3,negation
+23,Review the pull request and approve it only if all tests pass.,Write the release notes for the pull request.,4,different_task
+23,Review the pull request and approve it only if all tests pass.,Plan a weekend hiking trip in the mountains.,5,unrelated
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck of ten slides about renewable energy for investors.,0,identical
+24,Create a slide deck of ten slides about renewable energy for investors.,Make a presentation with ten slides on green power aimed at people who put money into companies.,1,paraphrase
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck about renewable energy.,2,part_dropped
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck of ten slides about renewable energy for school children.,3,entity
+24,Create a slide deck of ten slides about renewable energy for investors.,Write a one-page memo about renewable energy for investors.,4,different_task
+24,Create a slide deck of ten slides about renewable energy for investors.,Suggest names for a new puppy.,5,unrelated
+25,"Archive all emails older than one year, but keep anything flagged as important.","Archive all emails older than one year, but keep anything flagged as important.",0,identical
+25,"Archive all emails older than one year, but keep anything flagged as important.","Move every message more than twelve months old into the archive, except those marked important.",1,paraphrase
+25,"Archive all emails older than one year, but keep anything flagged as important.",Archive all emails older than one year.,2,part_dropped
+25,"Archive all emails older than one year, but keep anything flagged as important.","Archive only the emails flagged as important, and keep everything else.",3,negation
+25,"Archive all emails older than one year, but keep anything flagged as important.",Unsubscribe from all promotional newsletters.,4,different_task
+25,"Archive all emails older than one year, but keep anything flagged as important.",Describe the plot of a classic detective novel.,5,unrelated
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.","Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",0,identical
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Tell a goodnight tale featuring a fire-fearing dragon that finishes cheerfully.,1,paraphrase
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Write a bedtime story about a dragon.,2,part_dropped
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.","Write a bedtime story about a dragon who loves fire, ending on a sad note.",3,negation
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Write a poem about a dragon who is afraid of fire.,4,different_task
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Tell me a joke about penguins.,5,unrelated
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every night at 2 a.m. and keep the last seven copies.,0,identical
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,"Create a nightly snapshot of the live database at 02:00, retaining the seven most recent ones.",1,paraphrase
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every night.,2,part_dropped
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every week at 2 p.m. and keep only the last copy.,3,number
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Restore the staging database from last night's backup.,4,different_task
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,List the planets of the solar system in order.,5,unrelated
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on sleep and memory published after 2020.,0,identical
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,"Locate a trio of scholarly papers that were reviewed by experts, dealing with rest and recall, from 2021 onward.",1,paraphrase
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three articles on sleep and memory.,2,part_dropped
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on sleep and memory published before 2000.,3,number
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on diet and heart disease published after 2020.,4,different_task
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Give me tips for growing tomatoes on a balcony.,5,unrelated
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the kitchen is and walk them through the badge system.,0,identical
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Show the newcomer the way to the break room and explain how the door passes work.,1,paraphrase
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the kitchen is.,2,part_dropped
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the parking garage is and walk them through the payroll system.,3,entity
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Prepare the new hire's laptop and set up their email account.,4,different_task
+29,Tell the new hire where the kitchen is and walk them through the badge system.,What is the tallest mountain in South America?,5,unrelated
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the ten most recent orders for customer 4821.,0,identical
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Compose a database query fetching the latest ten purchases made by the customer with ID 4821.,1,paraphrase
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the most recent orders.,2,part_dropped
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the ten oldest orders for customer 4821.,3,negation
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that counts how many customers signed up last month.,4,different_task
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Describe what a rainy afternoon in a small town feels like.,5,unrelated
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,0,identical
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,"Remove repeated entries in the sheet, retaining the earliest instance of each one.",1,paraphrase
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Delete the duplicate rows from the spreadsheet.,2,part_dropped
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,"Delete every row from the spreadsheet, not just the duplicates.",3,scope
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Sort the spreadsheet rows alphabetically by last name.,4,different_task
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Explain the rules of chess to a beginner.,5,unrelated
+32,"Send the invoice to the finance team, not to the client.","Send the invoice to the finance team, not to the client.",0,identical
+32,"Send the invoice to the finance team, not to the client.",Forward the bill to the accounting department rather than the customer.,1,paraphrase
+32,"Send the invoice to the finance team, not to the client.",Send the invoice.,2,part_dropped
+32,"Send the invoice to the finance team, not to the client.","Send the invoice to the client, not to the finance team.",3,entity
+32,"Send the invoice to the finance team, not to the client.",Create the invoice for the client's latest order.,4,different_task
+32,"Send the invoice to the finance team, not to the client.",How can I stretch my back after sitting all day?,5,unrelated
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order twelve pizzas for the party on Saturday at 7 p.m.,0,identical
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Place an order for a dozen pies for Saturday evening's party at seven.,1,paraphrase
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order pizzas for the party.,2,part_dropped
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order two pizzas for the party on Sunday at 7 a.m.,3,number
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order balloons and decorations for the party.,4,different_task
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Describe how a bill becomes a law.,5,unrelated
+34,Update only the footer of the website and leave the rest of the page as it is.,Update only the footer of the website and leave the rest of the page as it is.,0,identical
+34,Update only the footer of the website and leave the rest of the page as it is.,"Change just the bottom section of the site, keeping everything else on the page untouched.",1,paraphrase
+34,Update only the footer of the website and leave the rest of the page as it is.,Update the website.,2,part_dropped
+34,Update only the footer of the website and leave the rest of the page as it is.,"Update the entire website, including the header, body and footer.",3,scope
+34,Update only the footer of the website and leave the rest of the page as it is.,Run a speed test on the website and report the load time.,4,different_task
+34,Update only the footer of the website and leave the rest of the page as it is.,Recommend three board games for a rainy evening.,5,unrelated
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain the quarterly results to the sales team in a friendly tone.,0,identical
+35,Explain the quarterly results to the sales team in a friendly tone.,"Walk the salespeople through this quarter's numbers in a warm, approachable way.",1,paraphrase
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain the quarterly results.,2,part_dropped
+35,Explain the quarterly results to the sales team in a friendly tone.,"Explain the quarterly results to the board of directors in a strict, formal tone.",3,entity
+35,Explain the quarterly results to the sales team in a friendly tone.,Prepare next quarter's sales forecast for the sales team.,4,different_task
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain why the sky is blue.,5,unrelated
+36,Include only the top five customers in the report.,Include only the top five customers in the report.,0,identical
+36,Include only the top five customers in the report.,Limit the report to the five biggest clients.,1,paraphrase
+36,Include only the top five customers in the report.,Include the top customers in the report.,2,part_dropped
+36,Include only the top five customers in the report.,"Include all customers in the report, not just the top five.",3,scope
+36,Include only the top five customers in the report.,Add a chart of monthly revenue to the report.,4,different_task
+36,Include only the top five customers in the report.,Which houseplants do well in low light?,5,unrelated
+37,Limit the presentation to 10 minutes so that there is time for questions.,Limit the presentation to 10 minutes so that there is time for questions.,0,identical
+37,Limit the presentation to 10 minutes so that there is time for questions.,"Keep the talk down to ten minutes, leaving room to take questions afterwards.",1,paraphrase
+37,Limit the presentation to 10 minutes so that there is time for questions.,Limit the presentation so that there is time for questions.,2,part_dropped
+37,Limit the presentation to 10 minutes so that there is time for questions.,Stretch the presentation to 90 minutes so that there is no time for questions.,3,number
+37,Limit the presentation to 10 minutes so that there is time for questions.,Rehearse the presentation twice and record yourself.,4,different_task
+37,Limit the presentation to 10 minutes so that there is time for questions.,Tell me the history of the bicycle.,5,unrelated
+38,Translate the user manual from English into Korean.,Translate the user manual from English into Korean.,0,identical
+38,Translate the user manual from English into Korean.,Convert the instruction booklet from English to Korean.,1,paraphrase
+38,Translate the user manual from English into Korean.,Translate the user manual.,2,part_dropped
+38,Translate the user manual from English into Korean.,Translate the user manual from Korean into English.,3,entity
+38,Translate the user manual from English into Korean.,Write a quick-start guide for the user manual in English.,4,different_task
+38,Translate the user manual from English into Korean.,Describe the migration route of monarch butterflies.,5,unrelated
+39,Back up the documents folder but exclude the downloads folder.,Back up the documents folder but exclude the downloads folder.,0,identical
+39,Back up the documents folder but exclude the downloads folder.,"Make a copy of the documents directory, skipping the downloads directory.",1,paraphrase
+39,Back up the documents folder but exclude the downloads folder.,Back up the documents folder.,2,part_dropped
+39,Back up the documents folder but exclude the downloads folder.,Back up only the downloads folder and exclude the documents folder.,3,scope
+39,Back up the documents folder but exclude the downloads folder.,Free up disk space by clearing the downloads folder.,4,different_task
+39,Back up the documents folder but exclude the downloads folder.,Explain how tides are caused by the moon.,5,unrelated
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet of at most 280 characters announcing our product launch on March 3.,0,identical
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,"Post a short message, no longer than 280 characters, saying our product goes live on the third of March.",1,paraphrase
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet announcing our product launch.,2,part_dropped
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,"Write a blog post of at least 2,000 words announcing our product launch on December 25.",3,number
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet thanking our customers for their feedback.,4,different_task
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,What should I pack for a week at the beach?,5,unrelated
+41,Assign the login bug to Maria and set its priority to high.,Assign the login bug to Maria and set its priority to high.,0,identical
+41,Assign the login bug to Maria and set its priority to high.,Give Maria ownership of the sign-in defect and mark it as high priority.,1,paraphrase
+41,Assign the login bug to Maria and set its priority to high.,Assign the login bug to Maria.,2,part_dropped
+41,Assign the login bug to Maria and set its priority to high.,Assign the payment bug to Daniel and set its priority to low.,3,entity
+41,Assign the login bug to Maria and set its priority to high.,Close the login bug and add a comment with the fix.,4,different_task
+41,Assign the login bug to Maria and set its priority to high.,Recommend a good pasta recipe for dinner tonight.,5,unrelated
+42,Answer using only the information in the attached document.,Answer using only the information in the attached document.,0,identical
+42,Answer using only the information in the attached document.,Base your reply exclusively on what is written in the attached file.,1,paraphrase
+42,Answer using only the information in the attached document.,Answer the question.,2,part_dropped
+42,Answer using only the information in the attached document.,"Answer using any information you can find, ignoring the attached document.",3,scope
+42,Answer using only the information in the attached document.,Summarize the attached document in two sentences.,4,different_task
+42,Answer using only the information in the attached document.,Explain how photosynthesis works.,5,unrelated
+43,"Generate five name ideas for a coffee shop, each under three words.","Generate five name ideas for a coffee shop, each under three words.",0,identical
+43,"Generate five name ideas for a coffee shop, each under three words.","Come up with five possible titles for a cafe, every one shorter than three words.",1,paraphrase
+43,"Generate five name ideas for a coffee shop, each under three words.",Generate name ideas for a coffee shop.,2,part_dropped
+43,"Generate five name ideas for a coffee shop, each under three words.","Generate fifty name ideas for a coffee shop, each over ten words long.",3,number
+43,"Generate five name ideas for a coffee shop, each under three words.",Generate five slogan ideas for a coffee shop.,4,different_task
+43,"Generate five name ideas for a coffee shop, each under three words.",Plan a weekend hiking trip in the mountains.,5,unrelated
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,0,identical
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Write to the Vietnamese vendor requesting a price offer for five hundred items.,1,paraphrase
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam.,2,part_dropped
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the customer in Vietnam offering a discount on 500 units.,3,entity
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam about a delayed shipment.,4,different_task
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Suggest names for a new puppy.,5,unrelated
+45,"Check the code for security vulnerabilities, but do not modify any files.","Check the code for security vulnerabilities, but do not modify any files.",0,identical
+45,"Check the code for security vulnerabilities, but do not modify any files.",Inspect the source for security weaknesses without making changes to any file.,1,paraphrase
+45,"Check the code for security vulnerabilities, but do not modify any files.",Check the code for security vulnerabilities.,2,part_dropped
+45,"Check the code for security vulnerabilities, but do not modify any files.",Check the code for security vulnerabilities and patch every file you find a problem in.,3,scope
+45,"Check the code for security vulnerabilities, but do not modify any files.",Add logging statements to the payment module.,4,different_task
+45,"Check the code for security vulnerabilities, but do not modify any files.",Describe the plot of a classic detective novel.,5,unrelated
+46,Cut the video down to 60 seconds and add English subtitles.,Cut the video down to 60 seconds and add English subtitles.,0,identical
+46,Cut the video down to 60 seconds and add English subtitles.,Trim the clip to a minute long and put English captions on it.,1,paraphrase
+46,Cut the video down to 60 seconds and add English subtitles.,Cut the video down and add English subtitles.,2,part_dropped
+46,Cut the video down to 60 seconds and add English subtitles.,Extend the video to 60 minutes and add English subtitles.,3,number
+46,Cut the video down to 60 seconds and add English subtitles.,Add background music to the video and export it as MP4.,4,different_task
+46,Cut the video down to 60 seconds and add English subtitles.,Tell me a joke about penguins.,5,unrelated
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya on her promotion in a short card.,0,identical
+47,Congratulate Priya on her promotion in a short card.,Write a brief note celebrating Priya's step up to a higher role.,1,paraphrase
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya.,2,part_dropped
+47,Congratulate Priya on her promotion in a short card.,Apologize to Priya for missing her birthday in a short card.,3,entity
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya on her promotion in a speech at the team lunch.,4,different_task
+47,Congratulate Priya on her promotion in a short card.,List the planets of the solar system in order.,5,unrelated
+48,Translate only the headings of the document into Spanish and leave the body in English.,Translate only the headings of the document into Spanish and leave the body in English.,0,identical
+48,Translate only the headings of the document into Spanish and leave the body in English.,"Put just the section titles of the document into Spanish, keeping the main text in English.",1,paraphrase
+48,Translate only the headings of the document into Spanish and leave the body in English.,Translate the headings of the document into Spanish.,2,part_dropped
+48,Translate only the headings of the document into Spanish and leave the body in English.,"Translate the entire document into Spanish, including the body.",3,scope
+48,Translate only the headings of the document into Spanish and leave the body in English.,Check the Spanish headings of the document for spelling mistakes.,4,different_task
+48,Translate only the headings of the document into Spanish and leave the body in English.,Give me tips for growing tomatoes on a balcony.,5,unrelated
+49,"Show the monthly sales as a bar chart, grouped by region.","Show the monthly sales as a bar chart, grouped by region.",0,identical
+49,"Show the monthly sales as a bar chart, grouped by region.","Display each month's revenue in a bar graph, split up by area.",1,paraphrase
+49,"Show the monthly sales as a bar chart, grouped by region.",Show the monthly sales as a chart.,2,part_dropped
+49,"Show the monthly sales as a bar chart, grouped by region.","Show the yearly sales as a pie chart, grouped by product.",3,entity
+49,"Show the monthly sales as a bar chart, grouped by region.",Calculate the average monthly sales per region.,4,different_task
+49,"Show the monthly sales as a bar chart, grouped by region.",What is the tallest mountain in South America?,5,unrelated
+50,Use a maximum of three sentences to describe the product's main benefit.,Use a maximum of three sentences to describe the product's main benefit.,0,identical
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's chief advantage in no more than three sentences.,1,paraphrase
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's main benefit.,2,part_dropped
+50,Use a maximum of three sentences to describe the product's main benefit.,Use at least ten sentences to describe the product's main benefit.,3,number
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's main competitor in three sentences.,4,different_task
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe what a rainy afternoon in a small town feels like.,5,unrelated
+51,Apply the discount code only to orders above 50 euros.,Apply the discount code only to orders above 50 euros.,0,identical
+51,Apply the discount code only to orders above 50 euros.,The promo code should work solely on purchases that exceed fifty euros.,1,paraphrase
+51,Apply the discount code only to orders above 50 euros.,Apply the discount code to orders.,2,part_dropped
+51,Apply the discount code only to orders above 50 euros.,"Apply the discount code to all orders, regardless of the amount.",3,scope
+51,Apply the discount code only to orders above 50 euros.,Generate a new discount code for first-time customers.,4,different_task
+51,Apply the discount code only to orders above 50 euros.,Explain the rules of chess to a beginner.,5,unrelated
+52,Keep the tone of the email professional and avoid using emojis.,Keep the tone of the email professional and avoid using emojis.,0,identical
+52,Keep the tone of the email professional and avoid using emojis.,Make the message sound businesslike and refrain from adding any emoticons.,1,paraphrase
+52,Keep the tone of the email professional and avoid using emojis.,Keep the tone of the email professional.,2,part_dropped
+52,Keep the tone of the email professional and avoid using emojis.,Make the tone of the email casual and use plenty of emojis.,3,negation
+52,Keep the tone of the email professional and avoid using emojis.,Write the subject line for the email.,4,different_task
+52,Keep the tone of the email professional and avoid using emojis.,How can I stretch my back after sitting all day?,5,unrelated
+53,Fix the typos in the first paragraph only.,Fix the typos in the first paragraph only.,0,identical
+53,Fix the typos in the first paragraph only.,Correct the spelling errors that appear solely in the opening paragraph.,1,paraphrase
+53,Fix the typos in the first paragraph only.,Fix the typos.,2,part_dropped
+53,Fix the typos in the first paragraph only.,Fix the typos in every paragraph except the first.,3,scope
+53,Fix the typos in the first paragraph only.,Rewrite the first paragraph to sound more engaging.,4,different_task
+53,Fix the typos in the first paragraph only.,Describe how a bill becomes a law.,5,unrelated
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a birthday playlist for my grandmother with songs from the 1960s.,0,identical
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Put together a set of tunes from the sixties for my grandma's birthday.,1,paraphrase
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a birthday playlist for my grandmother.,2,part_dropped
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a workout playlist for my brother with songs from the 2020s.,3,entity
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Find a restaurant for my grandmother's birthday dinner.,4,different_task
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Recommend three board games for a rainy evening.,5,unrelated
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches but do not delete either of them afterwards.,0,identical
+55,Merge the two branches but do not delete either of them afterwards.,Combine the pair of branches and leave both in place once done.,1,paraphrase
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches.,2,part_dropped
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches and delete both of them afterwards.,3,negation
+55,Merge the two branches but do not delete either of them afterwards.,Resolve the merge conflict in the settings file.,4,different_task
+55,Merge the two branches but do not delete either of them afterwards.,Explain why the sky is blue.,5,unrelated
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the interviewer after the second round.,0,identical
+56,Write a thank-you note to the interviewer after the second round.,Send a note of appreciation to the person who interviewed me following the second stage.,1,paraphrase
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the interviewer.,2,part_dropped
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the hiring manager before the first round.,3,entity
+56,Write a thank-you note to the interviewer after the second round.,Prepare answers for the third interview round.,4,different_task
+56,Write a thank-you note to the interviewer after the second round.,Which houseplants do well in low light?,5,unrelated
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Plan a two-day trip to Prague with a budget of 400 euros.,0,identical
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Sketch out a 48-hour visit to Prague that stays within 400 euros.,1,paraphrase
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Plan a trip to Prague.,2,part_dropped
+57,Plan a two-day trip to Prague with a budget of 400 euros.,"Plan a two-week trip to Prague with a budget of 4,000 euros.",3,number
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Book a hotel in Prague for two nights with a budget of 400 euros.,4,different_task
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Tell me the history of the bicycle.,5,unrelated
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline three days before it is due.,0,identical
+58,Remind the team about the deadline three days before it is due.,Give the team a heads-up about the due date 72 hours ahead of it.,1,paraphrase
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline.,2,part_dropped
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline three days after it has passed.,3,number
+58,Remind the team about the deadline three days before it is due.,Extend the deadline by one week and inform the team.,4,different_task
+58,Remind the team about the deadline three days before it is due.,Describe the migration route of monarch butterflies.,5,unrelated
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team with view-only access.,0,identical
+59,Share the document with the marketing team with view-only access.,Give the marketing group read-only permission to the file.,1,paraphrase
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team.,2,part_dropped
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team with full edit access.,3,scope
+59,Share the document with the marketing team with view-only access.,Revoke the marketing team's access to the document.,4,different_task
+59,Share the document with the marketing team with view-only access.,Explain how tides are caused by the moon.,5,unrelated
+60,Cancel my subscription to the streaming service and confirm by email.,Cancel my subscription to the streaming service and confirm by email.,0,identical
+60,Cancel my subscription to the streaming service and confirm by email.,Terminate my membership with the video platform and send me an email confirming it.,1,paraphrase
+60,Cancel my subscription to the streaming service and confirm by email.,Cancel my subscription to the streaming service.,2,part_dropped
+60,Cancel my subscription to the streaming service and confirm by email.,Upgrade my subscription to the streaming service and confirm by text message.,3,entity
+60,Cancel my subscription to the streaming service and confirm by email.,Find a cheaper alternative to my streaming service.,4,different_task
+60,Cancel my subscription to the streaming service and confirm by email.,What should I pack for a week at the beach?,5,unrelated

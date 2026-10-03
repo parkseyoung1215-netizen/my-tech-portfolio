@@ -2,16 +2,18 @@
 
 Does the divergence score track how far an instruction has drifted?
 
-Reads testset.csv (columns: intent, state, level), scores every row, and prints
-the mean score per drift level, the rank correlation between level and score,
-and how often each threshold raises an alert. Saves results/scores.csv and
-results/drift_by_level.png.
+Reads a CSV with columns intent, state, level (and optionally kind), scores
+every row, and prints the mean score per drift level, the rank correlation
+between level and score, and how often each threshold raises an alert.
+Saves <out_dir>/scores.csv and <out_dir>/drift_by_level.png.
 
 Drift levels:
   0 identical     1 reworded only    2 part dropped
   3 condition flipped    4 related but different task    5 unrelated
 
-Usage:  python3 evaluate_drift.py [path/to/testset.csv]
+Usage:
+  python3 evaluate_drift.py                                  # testset.csv -> results/
+  python3 evaluate_drift.py testset_v2.csv results_v2        # bigger set -> results_v2/
 """
 import sys
 from pathlib import Path
@@ -19,18 +21,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-MODEL_NAME = "all-MiniLM-L6-v2"  # change to the model used in simulate_drift.py
-DATA_PATH = Path("testset.csv")
-OUT_DIR = Path("results")
+MODEL_NAME = "all-MiniLM-L6-v2"  # same model as simulate_drift.py
 THRESHOLDS = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
+ALERT_THRESHOLD = 0.3
 
 
 def divergence_scores(intents, states):
-    """1 - cosine similarity, clipped to [0, 1].
-
-    If simulate_drift.py computes its score differently, replace this function
-    so both scripts measure the same thing.
-    """
+    """1 - cosine similarity, clipped to [0, 1] (same score as simulate_drift.py)."""
     from sentence_transformers import SentenceTransformer
 
     model = SentenceTransformer(MODEL_NAME)
@@ -51,6 +48,15 @@ def analyze(df):
         {f">{t}": (df["score"] > t).groupby(df["level"]).mean() for t in THRESHOLDS}
     ).round(2)
     return by_level, rho, monotonic, alerts
+
+
+def kind_table(df):
+    """Mean score and alert rate per (level, kind). Only used when a kind column exists."""
+    d = df.assign(flagged=df["score"] > ALERT_THRESHOLD)
+    g = d.groupby(["level", "kind"])
+    t = g.agg(n=("score", "size"), mean=("score", "mean"), flagged=("flagged", "mean"))
+    t = t.rename(columns={"flagged": f"flagged>{ALERT_THRESHOLD}"})
+    return t.round(3)
 
 
 def make_plot(df, by_level, path):
@@ -78,7 +84,8 @@ def make_plot(df, by_level, path):
 
 
 def main():
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else DATA_PATH
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("testset.csv")
+    out_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("results")
     df = pd.read_csv(path)
     missing = {"intent", "state", "level"} - set(df.columns)
     if missing:
@@ -87,11 +94,11 @@ def main():
     df["score"] = divergence_scores(df["intent"], df["state"])
     by_level, rho, monotonic, alerts = analyze(df)
 
-    OUT_DIR.mkdir(exist_ok=True)
-    df.to_csv(OUT_DIR / "scores.csv", index=False)
-    make_plot(df, by_level, OUT_DIR / "drift_by_level.png")
+    out_dir.mkdir(exist_ok=True)
+    df.to_csv(out_dir / "scores.csv", index=False)
+    make_plot(df, by_level, out_dir / "drift_by_level.png")
 
-    print(f"\nRows: {len(df)}   Model: {MODEL_NAME}")
+    print(f"\nRows: {len(df)}   Model: {MODEL_NAME}   Data: {path}")
     print("\n== Score per drift level ==")
     print(by_level.to_string())
     print(f"\nSpearman correlation (level vs score): {rho:.3f}")
@@ -99,7 +106,10 @@ def main():
     print("\n== Share of rows that raise an alert, by threshold ==")
     print("(level 0-1 should stay low = few false alarms; 4-5 should be high)")
     print(alerts.to_string())
-    print(f"\nSaved: {OUT_DIR / 'scores.csv'} and {OUT_DIR / 'drift_by_level.png'}")
+    if "kind" in df.columns:
+        print(f"\n== By kind (alert threshold {ALERT_THRESHOLD}) ==")
+        print(kind_table(df).to_string())
+    print(f"\nSaved: {out_dir / 'scores.csv'} and {out_dir / 'drift_by_level.png'}")
 
 
 if __name__ == "__main__":
