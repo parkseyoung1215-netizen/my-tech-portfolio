@@ -56,6 +56,9 @@ To validate the semantic divergence hypothesis, we plan to implement a lightweig
 
 - `README.md`: Research conceptualization, hypothesis, and structural architecture.
 - `simulate_drift.py`: Prototype simulation script for measuring semantic divergence and intent drift.
+- `evaluate_drift.py`: Scores a labeled test set and reports how the divergence score changes with drift level.
+- `testset.csv`: Instruction pairs labeled with six drift levels (0 = identical, 5 = unrelated).
+- `results/`: Scores and the divergence-by-level plot from the latest run.
 
 ##  Getting Started (Prototype)
 
@@ -63,7 +66,7 @@ To run the simulation script locally:
 
 ```bash
 python simulate_drift.py
-
+```
 
 ## Experiment 1: Does an embedding-based divergence score catch intent drift?
 
