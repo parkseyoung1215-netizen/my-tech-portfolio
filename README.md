@@ -1,15 +1,20 @@
 # my-tech-portfolio
 
-# AI-Driven Future Service Concept: "MindBridge AI"
+## Does an AI's output still do what it was asked? Measuring intent drift
 
+> Author: Park Seyoung
+> Created: 2026-10-03 · Last updated: 2026-10-06
 
-> Author: Park Seyoung  
-> Date: 2026-10-03  
+Small, reproducible experiments on one question: when an AI system's output
+drifts away from the instruction it was given, can a cheap automatic score
+detect it? I compare embedding similarity and an NLI model on a hand-built
+360-pair test set, and record what worked, what didn't, and where the methods
+fail (Experiments 1–4 below). All results come from synthetic data.
 
 
 # Semantic Alignment & Intent Preservation
 
-A deep-dive research framework investigating how Large Language Models (LLMs) process human language, measure semantic loss, and track information divergence during token and context transformation.
+
 
 ---
 
