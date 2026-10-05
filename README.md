@@ -250,9 +250,25 @@ entity, scope (n=60). Alert threshold fixed at 0.5 (0.3 and 0.7 also reported).
 | part_dropped | 100% | 0% | 100% |
 | unrelated | 100% | 90% | 100% |
 
-**Conclusion.** On this data A is the safer default. B is only suitable if
-contradictions are the only concern. A rule that keeps A's coverage while
-cutting its paraphrase false alarms (12%) was not found here.
+
+**Conclusion (revised).** At the pre-set threshold of 0.5, A has 12% false alarms and B only 3%, but B misses drift that is not a contradiction. Looking at other thresholds afterwards, A at 0.7 flagged 3% of paraphrases and at least 88% of every other kind, which beats B at 0.5 on this data. The threshold was chosen after seeing the results, so this is exploratory and needs validation on separate data.
+
+Share flagged by A at other thresholds (n=60 per kind except entity 16, negation 15, number 16, scope 13):
+
+| Kind | 0.5 | 0.7 | 0.9 |
+|------|-----|-----|-----|
+| paraphrase (false alarm) | 12% | 3% | 2% |
+| different_task | 100% | 98% | 95% |
+| part_dropped | 100% | 100% | 100% |
+| unrelated | 100% | 100% | 100% |
+| negation | 100% | 100% | 100% |
+| number | 100% | 100% | 100% |
+| entity | 88% | 88% | 81% |
+| scope | 100% | 100% | 92% |
+
+
+**Error analysis.** A flagged 7 of 60 paraphrases at 0.5. Most rewrite key words (user manual → instruction booklet, two-day → 48-hour, view-only → read-only). I suspected paraphrases that carry a condition ("only", "within", "after") were over-represented; a rough keyword check does not support this (4 of 24 with such words vs 3 of 36 without). One flagged pair (kitchen → break room) may be a questionable paraphrase label.
+
 
 **Limitations.** Hand-built synthetic data; 13–16 rows per meaning-changing
 violation kind; one NLI model. Results show what happened on this test set, not
