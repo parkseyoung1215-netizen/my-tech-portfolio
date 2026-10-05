@@ -297,3 +297,25 @@ python3 evaluate_heldout.py results_v2/scores_nli_v3.csv
 ```
 
 Steps run in this order: embedding scores, NLI scores (experiment 3), scoring rules (experiment 4), then the split-half threshold check.
+
+
+### Experiment 5 — Can the NLI score catch direction swaps?
+
+**Question.** In Experiment 4, two "entity" cases were missed: same words, but the direction or roles were reversed (Seoul→Berlin vs Berlin→Seoul). Is that a one-off, or a systematic blind spot?
+
+**Setup.** 30 pairs, written with AI assistance before the run: 20 reorder the same words (from savings to checking → from checking to savings), 10 also change a verb (upload to the cloud → download from the cloud). Scorer A (1 − P(entailment)) with thresholds fixed beforehand (0.5, and 0.75 from the split-half check), and scorer B at 0.5. Rule D, a check without NLI, flags pairs that use the same words in a different order.
+
+| Rule | Swaps detected (n=30) |
+|------|------|
+| A > 0.5 | 13% |
+| A > 0.75 | 10% |
+| B > 0.5 | 10% |
+| D (same words, new order) | 67% |
+
+
+**Findings.**
+1. The NLI score misses about 9 in 10 direction swaps. Half of the 30 pairs scored between 0.02 and 0.05, almost the same as an identical sentence (0.00): the model treats them as saying the same thing.
+2. Rule D flags all 20 pure reorders and none of the 10 reworded swaps. Its 67% is set by how many pure reorders I wrote, so it says nothing about how common they are in real use. Its 0% false alarms on the 60 paraphrases is also weak evidence, because those paraphrases never reorder words alone, so harmless reorderings were not tested.
+3. This supports the pattern seen in Experiment 4 on a larger set: swaps of direction or role are a blind spot of the NLI score.
+
+**Limitations.** 30 AI-written sentences; one NLI model; embedding scores were not computed for these pairs.
