@@ -1,0 +1,4 @@
+scorer,AUC(violation vs harmless),false_alarm@0.3,false_alarm@0.5,false_alarm@0.7,detect@0.3,detect@0.5,detect@0.7
+A: 1-entail,0.982,0.2,0.12,0.03,0.97,0.97,0.97
+B: contradiction,0.983,0.05,0.03,0.03,0.95,0.95,0.93
+"C: 1-min(fwd,rev)",0.978,0.43,0.28,0.15,0.97,0.97,0.97
