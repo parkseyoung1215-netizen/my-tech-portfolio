@@ -1,0 +1,4 @@
+rule,thr_mean,thr_std,test_false_alarm,test_detection,false_alarm_at_0_5,detection_at_0_5
+A,0.745,0.068,0.038,0.976,0.117,0.981
+B,0.362,0.166,0.062,0.773,0.032,0.766
+C,0.908,0.052,0.044,0.966,0.275,0.981
