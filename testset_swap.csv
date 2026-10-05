@@ -1,0 +1,31 @@
+id,intent,state,level,kind
+1,Transfer 200 euros from my savings to my checking account.,Transfer 200 euros from my checking to my savings account.,3,direction_swap
+2,Move the meeting from Tuesday to Thursday.,Move the meeting from Thursday to Tuesday.,3,direction_swap
+3,Translate the contract from German into English.,Translate the contract from English into German.,3,direction_swap
+4,Forward the invoice to the client and copy the manager.,Forward the invoice to the manager and copy the client.,3,direction_swap
+5,Give the intern read access and the lead write access.,Give the lead read access and the intern write access.,3,direction_swap
+6,Book a flight from Seoul to Berlin for next Tuesday.,Book a flight from Berlin to Seoul for next Tuesday.,3,direction_swap
+7,Ask Alice to send the draft to Bob.,Ask Bob to send the draft to Alice.,3,direction_swap
+8,Copy the files from the laptop to the server.,Copy the files from the server to the laptop.,3,direction_swap
+9,Send the report from the sales team to the finance team.,Send the report from the finance team to the sales team.,3,direction_swap
+10,Reply to Carol and copy Dan on the thread.,Reply to Dan and copy Carol on the thread.,3,direction_swap
+11,Convert the document from Word to PDF.,Convert the document from PDF to Word.,3,direction_swap
+12,Charge the client and refund the vendor.,Charge the vendor and refund the client.,3,direction_swap
+13,Ask the manager to approve the request from the intern.,Ask the intern to approve the request from the manager.,3,direction_swap
+14,Pay Maria 300 dollars and Tom 500 dollars.,Pay Maria 500 dollars and Tom 300 dollars.,3,direction_swap
+15,Schedule the call after the demo and before the review.,Schedule the call after the review and before the demo.,3,direction_swap
+16,Rank the cheapest option first and the priciest option last.,Rank the priciest option first and the cheapest option last.,3,direction_swap
+17,Route calls from the office to the mobile phone.,Route calls from the mobile phone to the office.,3,direction_swap
+18,Assign the budget task to Priya and the design task to Leo.,Assign the budget task to Leo and the design task to Priya.,3,direction_swap
+19,Switch the account from the free plan to the paid plan.,Switch the account from the paid plan to the free plan.,3,direction_swap
+20,Copy the data from the old database into the new database.,Copy the data from the new database into the old database.,3,direction_swap
+21,Move the file from the desktop to the archive folder.,Copy the file from the archive folder to the desktop.,3,direction_swap
+22,Send the summary to the board and notify the team.,Notify the board and email the summary to the team.,3,direction_swap
+23,Lend 50 euros to my brother.,Borrow 50 euros from my brother.,3,direction_swap
+24,Upload the photos from my phone to the cloud.,Download the photos from the cloud to my phone.,3,direction_swap
+25,Ask the landlord to refund the tenant.,Tell the tenant to repay the landlord.,3,direction_swap
+26,Hire a consultant to train our staff.,Have our staff train the consultant.,3,direction_swap
+27,Import the contacts from the spreadsheet into the app.,Export the contacts from the app into the spreadsheet.,3,direction_swap
+28,Ask the supplier to deliver the parts to our warehouse.,Ask our warehouse to ship the parts to the supplier.,3,direction_swap
+29,Subscribe the team to the vendor newsletter.,Enroll the vendor in the team newsletter.,3,direction_swap
+30,Put Sam in charge of Jo.,Make Jo the boss of Sam.,3,direction_swap

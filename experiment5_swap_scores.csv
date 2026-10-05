@@ -1,0 +1,31 @@
+id,intent,state,level,kind,score_a,score_b,rule_d,pure_reorder
+1,Transfer 200 euros from my savings to my checking account.,Transfer 200 euros from my checking to my savings account.,3,direction_swap,0.020606208598079157,0.010164118721810174,True,True
+2,Move the meeting from Tuesday to Thursday.,Move the meeting from Thursday to Tuesday.,3,direction_swap,0.01863696993412156,0.00795099529551145,True,True
+3,Translate the contract from German into English.,Translate the contract from English into German.,3,direction_swap,0.05304091063464855,0.03596148506924077,True,True
+4,Forward the invoice to the client and copy the manager.,Forward the invoice to the manager and copy the client.,3,direction_swap,0.04837141538688061,0.03624061360054724,True,True
+5,Give the intern read access and the lead write access.,Give the lead read access and the intern write access.,3,direction_swap,0.36061574741898517,0.33725720050626967,True,True
+6,Book a flight from Seoul to Berlin for next Tuesday.,Book a flight from Berlin to Seoul for next Tuesday.,3,direction_swap,0.020139982770853937,0.00861268251486169,True,True
+7,Ask Alice to send the draft to Bob.,Ask Bob to send the draft to Alice.,3,direction_swap,0.9830359320953393,0.9791415542442308,True,True
+8,Copy the files from the laptop to the server.,Copy the files from the server to the laptop.,3,direction_swap,0.02607368665811638,0.01083025193298111,True,True
+9,Send the report from the sales team to the finance team.,Send the report from the finance team to the sales team.,3,direction_swap,0.0408596835826337,0.027999398118551587,True,True
+10,Reply to Carol and copy Dan on the thread.,Reply to Dan and copy Carol on the thread.,3,direction_swap,0.043930489906660486,0.026632629483667725,True,True
+11,Convert the document from Word to PDF.,Convert the document from PDF to Word.,3,direction_swap,0.018559638922370447,0.008067192118026013,True,True
+12,Charge the client and refund the vendor.,Charge the vendor and refund the client.,3,direction_swap,0.20710022916685034,0.1827650415908689,True,True
+13,Ask the manager to approve the request from the intern.,Ask the intern to approve the request from the manager.,3,direction_swap,0.423502093823369,0.4030636352225201,True,True
+14,Pay Maria 300 dollars and Tom 500 dollars.,Pay Maria 500 dollars and Tom 300 dollars.,3,direction_swap,0.018335729545654322,0.008717245211864798,True,True
+15,Schedule the call after the demo and before the review.,Schedule the call after the review and before the demo.,3,direction_swap,0.016017245796323687,0.007833294072426241,True,True
+16,Rank the cheapest option first and the priciest option last.,Rank the priciest option first and the cheapest option last.,3,direction_swap,0.482078845490592,0.46859577163435995,True,True
+17,Route calls from the office to the mobile phone.,Route calls from the mobile phone to the office.,3,direction_swap,0.13981446480935444,0.10444302974733143,True,True
+18,Assign the budget task to Priya and the design task to Leo.,Assign the budget task to Leo and the design task to Priya.,3,direction_swap,0.10622171160596316,0.08594888937786425,True,True
+19,Switch the account from the free plan to the paid plan.,Switch the account from the paid plan to the free plan.,3,direction_swap,0.7718587857017556,0.7552615148985011,True,True
+20,Copy the data from the old database into the new database.,Copy the data from the new database into the old database.,3,direction_swap,0.029565762734985235,0.016705846399298296,True,True
+21,Move the file from the desktop to the archive folder.,Copy the file from the archive folder to the desktop.,3,direction_swap,0.5277516231210022,0.49849454605544924,False,False
+22,Send the summary to the board and notify the team.,Notify the board and email the summary to the team.,3,direction_swap,0.016322365439107145,0.007409850777807506,False,False
+23,Lend 50 euros to my brother.,Borrow 50 euros from my brother.,3,direction_swap,0.06844208620943093,0.049346030356845025,False,False
+24,Upload the photos from my phone to the cloud.,Download the photos from the cloud to my phone.,3,direction_swap,0.06592127029020922,0.04881323776482186,False,False
+25,Ask the landlord to refund the tenant.,Tell the tenant to repay the landlord.,3,direction_swap,0.023489108930168423,0.013916018319980948,False,False
+26,Hire a consultant to train our staff.,Have our staff train the consultant.,3,direction_swap,0.09641796419982263,0.0751818999252581,False,False
+27,Import the contacts from the spreadsheet into the app.,Export the contacts from the app into the spreadsheet.,3,direction_swap,0.08854053519176996,0.06600906059767256,False,False
+28,Ask the supplier to deliver the parts to our warehouse.,Ask our warehouse to ship the parts to the supplier.,3,direction_swap,0.455529400000119,0.43612664703314774,False,False
+29,Subscribe the team to the vendor newsletter.,Enroll the vendor in the team newsletter.,3,direction_swap,0.049317043206082545,0.030337915045767078,False,False
+30,Put Sam in charge of Jo.,Make Jo the boss of Sam.,3,direction_swap,0.8070755545788455,0.796603831201137,False,False
