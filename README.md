@@ -284,3 +284,16 @@ A with a threshold around 0.75 gave far fewer false alarms than A at 0.5 and kep
 **Limitations.** Hand-built synthetic data; 13–16 rows per meaning-changing
 violation kind; one NLI model. Results show what happened on this test set, not
 how it would do on real agent output.
+
+
+### How to reproduce
+
+```
+pip install sentence-transformers pandas numpy matplotlib
+python3 evaluate_drift.py testset_v2.csv results_v2
+python3 evaluate_nli.py testset_v2.csv results_v2
+python3 evaluate_nli_v3.py testset_v2.csv results_v2
+python3 evaluate_heldout.py results_v2/scores_nli_v3.csv
+```
+
+Steps run in this order: embedding scores, NLI scores (experiment 3), scoring rules (experiment 4), then the split-half threshold check.
