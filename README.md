@@ -316,6 +316,29 @@ Steps run in this order: embedding scores, NLI scores (experiment 3), scoring ru
 **Findings.**
 1. The NLI score misses about 9 in 10 direction swaps. Half of the 30 pairs scored between 0.02 and 0.05, almost the same as an identical sentence (0.00): the model treats them as saying the same thing.
 2. Rule D flags all 20 pure reorders and none of the 10 reworded swaps. Its 67% is set by how many pure reorders I wrote, so it says nothing about how common they are in real use. Its 0% false alarms on the 60 paraphrases is also weak evidence, because those paraphrases never reorder words alone, so harmless reorderings were not tested.
-3. This supports the pattern seen in Experiment 4 on a larger set: swaps of direction or role are a blind spot of the NLI score.
+3. This supports the pattern seen in Experiment 4 for this model (MiniLM): swaps of direction or role are a blind spot of its NLI score. Experiment 6 shows this is specific to the model.
 
 **Limitations.** 30 AI-written sentences; one NLI model; embedding scores were not computed for these pairs.
+
+
+### Experiment 6 — Is the direction-swap blind spot specific to one model?
+
+**Setup.** Same test sets (360 pairs + 30 direction swaps), two NLI cross-encoders: nli-MiniLM2-L6-H768 (used so far) and nli-deberta-v3-base. Scorer A (1 − P(entailment)), same thresholds for both models, not tuned per model.
+
+| Metric | MiniLM | DeBERTa-v3-base |
+|------|------|------|
+| AUC, violations vs harmless | 0.982 | 0.998 |
+| AUC, swaps vs paraphrase | 0.482 | 0.958 |
+| False alarm @0.5 (paraphrase) | 11.7% | 10.0% |
+| False alarm @0.75 (paraphrase) | 3.3% | 10.0% |
+| Violations detected @0.5 | 96.7% | 100% |
+| Swaps detected @0.5 | 13.3% | 96.7% |
+| Swaps detected @0.75 | 10.0% | 93.3% |
+
+**Findings.**
+1. The direction-swap blind spot is specific to the small model. MiniLM separates swaps from paraphrases no better than chance (AUC 0.48); DeBERTa does (0.96) and flags 97% of swaps at 0.5.
+2. The conclusion of Experiments 4 and 5 ("NLI misses swaps") therefore holds for MiniLM only.
+3. DeBERTa's false alarms on paraphrases did not fall at 0.75 (10% at both thresholds), so the 0.75 found in the split-half check is specific to MiniLM. Thresholds need to be chosen per model.
+4. Not measured: speed and cost of the larger model. Not checked: whether DeBERTa's false alarms are model errors or questionable paraphrase labels.
+
+**Limitations.** 30 AI-written swap sentences; two models; thresholds not tuned per model.
