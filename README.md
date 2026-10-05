@@ -202,3 +202,39 @@ should be near 0%, all others near 100%.
 (`cross-encoder/nli-MiniLM2-L6-H768`), one embedding model, and no independent check of
 the labels yet. Next: use NLI to decide whether a constraint was violated and embeddings
 only to rank severity, add direction-reversal cases on purpose, and try a larger NLI model.
+
+
+### Experiment 4 — Does the NLI scoring rule matter?
+
+**Question.** Experiment 3 flagged ~12% of harmless paraphrases. Can a different
+way of turning NLI probabilities into a drift score reduce that without losing
+real violations?
+
+**Setup.** Same 360-pair testset_v2, same NLI model. Three scoring rules:
+A = 1 − P(entailment), B = P(contradiction) only,
+C = 1 − min(P(entail) forward, P(entail) reverse).
+Harmless = identical + paraphrase (n=120); violations = negation, number,
+entity, scope (n=60). Alert threshold fixed at 0.5 (0.3 and 0.7 also reported).
+
+| Rule | AUC | False alarm @0.5 (paraphrase, n=60) | Detected @0.5 (violations, n=60) |
+|------|-----|------|------|
+| A    | 0.982 | 12% | 97% |
+| B    | 0.983 | 3%  | 95% |
+| C    | 0.978 | 28% | 97% |
+
+**Findings.**
+1. Ranking quality is the same for all three rules (AUC ≈ 0.98). The rules only
+   move the operating point.
+2. B (contradiction only) had fewer false alarms on this set (12% → 3%) and
+   missed 2 points more violations. The difference is a handful of rows out of 60.
+3. Adding the reverse direction (C) made it worse: false alarms rose to 28%.
+4. All three rules missed the same 2 of 16 entity cases. Both are direction
+   swaps with identical words (Seoul→Berlin vs Berlin→Seoul; English→Korean vs
+   Korean→English), scored 0.01–0.04. This suggests the NLI model treats high
+   word overlap as agreement when only the order flips. Based on two examples;
+   not tested further.
+
+**Limitations.** Hand-built synthetic data; 13–16 rows per violation kind;
+one NLI model; different_task / part_dropped / unrelated rows not used here.
+Results show what happened on this test set, not how it would do on real
+agent output.
