@@ -251,7 +251,7 @@ entity, scope (n=60). Alert threshold fixed at 0.5 (0.3 and 0.7 also reported).
 | unrelated | 100% | 90% | 100% |
 
 
-**Conclusion (revised).** At the pre-set threshold of 0.5, A has 12% false alarms and B only 3%, but B misses drift that is not a contradiction. Looking at other thresholds afterwards, A at 0.7 flagged 3% of paraphrases and at least 88% of every other kind, which beats B at 0.5 on this data. The threshold was chosen after seeing the results, so this is exploratory and needs validation on separate data.
+**Conclusion (revised).** The threshold was chosen after seeing the results, so I checked it with a split-half test (below). This is still the same 360 rows, not independent data.
 
 Share flagged by A at other thresholds (n=60 per kind except entity 16, negation 15, number 16, scope 13):
 
@@ -265,6 +265,17 @@ Share flagged by A at other thresholds (n=60 per kind except entity 16, negation
 | number | 100% | 100% | 100% |
 | entity | 88% | 88% | 81% |
 | scope | 100% | 100% | 92% |
+
+
+**Split-half check.** For 200 random splits (each kind split in half), the threshold was chosen on one half and measured on the other. Detection is averaged over the 7 drift kinds; false alarm is measured on paraphrase rows only.
+
+| Rule | Threshold chosen (mean ± sd) | False alarm | Detection | At fixed 0.5: false alarm / detection |
+|------|------|------|------|------|
+| A | 0.75 ± 0.07 | 3.8% | 97.6% | 11.7% / 98.1% |
+| B | 0.36 ± 0.17 | 6.2% | 77.3% | 3.2% / 76.6% |
+| C | 0.91 ± 0.05 | 4.4% | 96.6% | 27.5% / 98.1% |
+
+A with a threshold around 0.75 gave far fewer false alarms than A at 0.5 and kept almost all detection. B stayed behind A on every split. The splits overlap, and only 30 paraphrases fall in each half, so this supports the threshold choice on this test set but does not show it holds on new data.
 
 
 **Error analysis.** A flagged 7 of 60 paraphrases at 0.5. Most rewrite key words (user manual → instruction booklet, two-day → 48-hour, view-only → read-only). I suspected paraphrases that carry a condition ("only", "within", "after") were over-represented; a rough keyword check does not support this (4 of 24 with such words vs 3 of 36 without). One flagged pair (kitchen → break room) may be a questionable paraphrase label.
