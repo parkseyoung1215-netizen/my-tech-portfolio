@@ -225,8 +225,11 @@ entity, scope (n=60). Alert threshold fixed at 0.5 (0.3 and 0.7 also reported).
 **Findings.**
 1. Ranking quality is the same for all three rules (AUC ≈ 0.98). The rules only
    move the operating point.
-2. B (contradiction only) had fewer false alarms on this set (12% → 3%) and
-   missed 2 points more violations. The difference is a handful of rows out of 60.
+2. B (contradiction only) had fewer false alarms on paraphrases (12% → 3%)
+   and kept 95% of the four violation kinds above. However, those four kinds
+   all change the meaning of a statement. When B was checked on the other
+   three kinds in the test set, it missed most of them (see table below). The
+   low false-alarm rate came from ignoring drift that is not a contradiction.
 3. Adding the reverse direction (C) made it worse: false alarms rose to 28%.
 4. All three rules missed the same 2 of 16 entity cases. Both are direction
    swaps with identical words (Seoul→Berlin vs Berlin→Seoul; English→Korean vs
@@ -234,7 +237,18 @@ entity, scope (n=60). Alert threshold fixed at 0.5 (0.3 and 0.7 also reported).
    word overlap as agreement when only the order flips. Based on two examples;
    not tested further.
 
-**Limitations.** Hand-built synthetic data; 13–16 rows per violation kind;
-one NLI model; different_task / part_dropped / unrelated rows not used here.
-Results show what happened on this test set, not how it would do on real
-agent output.
+**Added after the first run: the other three kinds** (share flagged at 0.5, n=60 each)
+
+| Kind | A | B | C |
+|------|---|---|---|
+| different_task | 100% | 65% | 100% |
+| part_dropped | 100% | 0% | 100% |
+| unrelated | 100% | 90% | 100% |
+
+**Conclusion.** On this data A is the safer default. B is only suitable if
+contradictions are the only concern. A rule that keeps A's coverage while
+cutting its paraphrase false alarms (12%) was not found here.
+
+**Limitations.** Hand-built synthetic data; 13–16 rows per meaning-changing
+violation kind; one NLI model. Results show what happened on this test set, not
+how it would do on real agent output.
