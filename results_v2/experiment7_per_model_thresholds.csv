@@ -1,0 +1,6 @@
+,MiniLM,DeBERTa
+threshold chosen (mean),0.746,0.624
+threshold chosen (sd),0.068,0.32
+held-out false alarm,0.038,0.112
+held-out detection,0.976,0.999
+swaps detected at that threshold,0.082,0.949

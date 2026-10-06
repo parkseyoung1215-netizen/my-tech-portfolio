@@ -1,0 +1,10 @@
+,nli-MiniLM2-L6-H768,nli-deberta-v3-base
+AUC violations vs harmless,0.982,0.998
+AUC swaps vs paraphrase,0.482,0.958
+false alarm @0.5,0.117,0.1
+false alarm @0.75,0.033,0.1
+detect violations @0.5,0.967,1.0
+detect violations @0.75,0.967,1.0
+detect swaps @0.5,0.133,0.967
+detect swaps @0.75,0.1,0.933
+mean score of swaps,0.201,0.951

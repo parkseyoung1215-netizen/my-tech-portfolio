@@ -1,0 +1,391 @@
+id,intent,state,level,kind,a_MiniLM,a_DeBERTa
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks and summarize key points for the executive board.,0,identical,0.011905680801490792,0.016878953333113067
+1,Analyze the financial risks and summarize key points for the executive board.,Look into the money-related risks and give the executives' board a short digest of what matters most.,1,paraphrase,0.01999924989348867,0.0016987024393062544
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the financial risks.,2,part_dropped,0.9982160039633807,0.9999020945899579
+1,Analyze the financial risks and summarize key points for the executive board.,Ignore the financial risks and summarize only the positive points for the executive board.,3,negation,0.9932859978874939,0.9997172463594548
+1,Analyze the financial risks and summarize key points for the executive board.,Analyze the marketing strategy and summarize key points for the executive board.,4,different_task,0.9992472467259091,0.9999924842235676
+1,Analyze the financial risks and summarize key points for the executive board.,Recommend a good pasta recipe for dinner tonight.,5,unrelated,0.9997783676424604,0.9999890675561335
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email declining the meeting invitation for Friday.,0,identical,0.010366574995441136,0.011764532240227
+2,Write a polite email declining the meeting invitation for Friday.,Compose a courteous message telling them I can't attend the Friday meeting.,1,paraphrase,0.07169992434294647,0.005981368764429562
+2,Write a polite email declining the meeting invitation for Friday.,Write an email about the Friday meeting.,2,part_dropped,0.9958039491936501,0.999891634399376
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email accepting the meeting invitation for Friday.,3,negation,0.9993890863557753,0.9999680447475786
+2,Write a polite email declining the meeting invitation for Friday.,Write a polite email asking to reschedule a dentist appointment.,4,different_task,0.9976048628756735,0.9999144123009606
+2,Write a polite email declining the meeting invitation for Friday.,Explain how photosynthesis works.,5,unrelated,0.9996456156882527,0.999995002579711
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend without changing the database schema.,0,identical,0.008802901138183938,0.0061461083904789104
+3,Fix the login bug in the Python backend without changing the database schema.,Repair the sign-in defect in the server-side Python code while leaving the database tables as they are.,1,paraphrase,0.2708913109987182,0.14345015535664207
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend.,2,part_dropped,0.9976823910715816,0.9999392553641705
+3,Fix the login bug in the Python backend without changing the database schema.,Fix the login bug in the Python backend by redesigning the database schema.,3,negation,0.9989465487965951,0.9999685372962388
+3,Fix the login bug in the Python backend without changing the database schema.,Add a dark mode toggle to the mobile app.,4,different_task,0.9996835600869943,0.999997498722606
+3,Fix the login bug in the Python backend without changing the database schema.,Plan a weekend hiking trip in the mountains.,5,unrelated,0.999810046745157,0.9999797736494117
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,0,identical,0.011390560277220296,0.02064083793953242
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,"Reserve a plane ticket leaving Berlin for Seoul next Tuesday, costing less than 900 euros.",1,paraphrase,0.0081489625559924,0.002241924074176782
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Berlin to Seoul.,2,part_dropped,0.9984870692117376,0.9998919270101032
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a flight from Seoul to Berlin for next Tuesday under 900 euros.,3,entity,0.014384244519030753,0.993877603658502
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Book a hotel in Seoul for next Tuesday under 900 euros.,4,different_task,0.9992463816384792,0.9997329521804907
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,Suggest names for a new puppy.,5,unrelated,0.9997792889734863,0.9999855876108052
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in three bullet points for a high school student.,0,identical,0.019507855460761503,0.013606015190450016
+5,Summarize this research paper in three bullet points for a high school student.,Give a high schooler the gist of this study in exactly three short points.,1,paraphrase,0.11644375072886637,0.10074150099306811
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper.,2,part_dropped,0.9985750334489081,0.9999378464486959
+5,Summarize this research paper in three bullet points for a high school student.,Summarize this research paper in thirty bullet points for a high school student.,3,number,0.9992899503899826,0.9998799692711707
+5,Summarize this research paper in three bullet points for a high school student.,Translate this research paper into French.,4,different_task,0.9985952797328502,0.9999342956059835
+5,Summarize this research paper in three bullet points for a high school student.,Describe the plot of a classic detective novel.,5,unrelated,0.9992683172103024,0.9999510932160712
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,0,identical,0.01161837581093661,0.00792902128729478
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Put the engineers' daily sync on the calendar Monday at 9:30 and send an invite to each of the five of them.,1,paraphrase,0.24579823489131114,0.871545446227509
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for Monday.,2,part_dropped,0.998406999193685,0.9999255192165468
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule the team stand-up for 9:30 on Monday and invite all fifty engineers.,3,number,0.9991413890644465,0.9997321579699444
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Schedule a one-on-one review with the design lead on Wednesday.,4,different_task,0.9996970263600503,0.9999803209646977
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Tell me a joke about penguins.,5,unrelated,0.999199024451201,0.9999508744207118
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German and keep all clause numbers unchanged.,0,identical,0.01200994709813552,0.004929938604780193
+7,Translate the contract into German and keep all clause numbers unchanged.,"Render the agreement in German, making sure every clause keeps its original number.",1,paraphrase,0.013677002100105584,0.0042707122071662384
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German.,2,part_dropped,0.9974461746589962,0.999910227853235
+7,Translate the contract into German and keep all clause numbers unchanged.,Translate the contract into German and renumber all clauses.,3,negation,0.9932887125665153,0.9999857683831163
+7,Translate the contract into German and keep all clause numbers unchanged.,Proofread the contract in English and flag ambiguous clauses.,4,different_task,0.99943814361094,0.9999978771801654
+7,Translate the contract into German and keep all clause numbers unchanged.,List the planets of the solar system in order.,5,unrelated,0.9997604087506239,0.9999963388670798
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,0,identical,0.016577212419181975,0.00900879729214965
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Create a Python helper that orders a list of dicts from youngest to oldest using their 'age' field.,1,paraphrase,0.3676116344471022,0.008492431784807408
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries.,2,part_dropped,0.9968692615433884,0.999945040317719
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that sorts a list of dictionaries by the 'age' key in descending order.,3,negation,0.9980619744308702,0.9997027522592031
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Write a Python function that removes duplicate entries from a list of dictionaries.,4,different_task,0.9901584023512356,0.999945638741501
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Give me tips for growing tomatoes on a balcony.,5,unrelated,0.9995404821543055,0.9999889498034681
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.","Draft a press release announcing our Series A funding, without mentioning the investors' names.",0,identical,0.010171164839597013,0.01037349699382939
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Prepare a news announcement about closing our Series A round that leaves out who the investors are.,1,paraphrase,0.13006126458088652,0.0045746035807968655
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Draft a press release announcing our Series A funding.,2,part_dropped,0.998085693126383,0.9999225154883213
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.","Draft a press release announcing our Series A funding, and list every investor by name.",3,negation,0.9988391071443694,0.9999842553706715
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Draft a press release announcing our new product launch.,4,different_task,0.9987346064845268,0.9999833441304815
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",What is the tallest mountain in South America?,5,unrelated,0.9996255435153347,0.9999946547426296
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,0,identical,0.012791855101342509,0.013131366386625376
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Suggest a trio of meat-free places to eat in Berlin that serve guests on Sundays.,1,paraphrase,0.23000220131261095,0.007255122603023745
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three restaurants in Berlin.,2,part_dropped,0.9981707785396676,0.9999439731135695
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three steakhouses in Berlin that are open on Sundays.,3,entity,0.9981666508847131,0.9999899858775295
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Recommend three museums in Berlin that are open on Sundays.,4,different_task,0.9995049879034296,0.9999724151767347
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Describe what a rainy afternoon in a small town feels like.,5,unrelated,0.9990531584951174,0.9998801373869611
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint with an apology and offer a full refund.,0,identical,0.01058935314062448,0.007419824847768819
+11,Reply to the customer's complaint with an apology and offer a full refund.,Answer the unhappy customer by saying sorry and promising to give all their money back.,1,paraphrase,0.047916901893944375,0.003673165960905167
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint.,2,part_dropped,0.9985147013632024,0.9999601545510708
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's complaint by denying responsibility and refusing any refund.,3,negation,0.9991807004820455,0.9999873171108465
+11,Reply to the customer's complaint with an apology and offer a full refund.,Reply to the customer's question about shipping times.,4,different_task,0.9989261197351704,0.9999807664980118
+11,Reply to the customer's complaint with an apology and offer a full refund.,Explain the rules of chess to a beginner.,5,unrelated,0.9997433823345808,0.9999891449549887
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.","Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",0,identical,0.017319556250797508,0.015023886100865469
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Build a sheet to plan wedding expenses so that the overall spending cap is fifteen thousand dollars.,1,paraphrase,0.053539486868862785,0.002901531970209592
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Create a budget spreadsheet for a wedding.,2,part_dropped,0.9983373789660153,0.9999391209880338
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.","Create a budget spreadsheet for a wedding with a total limit of 150,000 dollars.",3,number,0.9989303828232583,0.9998898686263828
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Create a budget spreadsheet for a small business's quarterly marketing spend.,4,different_task,0.9992766715349986,0.999965224747941
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",How can I stretch my back after sitting all day?,5,unrelated,0.9993335640312951,0.9999949229111045
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay for grammar mistakes only and do not change the author's wording.,0,identical,0.014109497713357344,0.0036614929527992723
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,"Check the essay for grammatical errors alone, leaving the writer's phrasing as it is.",1,paraphrase,0.03126736284299236,0.0033411070025869405
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay.,2,part_dropped,0.998748885511977,0.999918255062474
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Proofread the essay for grammar mistakes and rewrite the author's wording to be more formal.,3,scope,0.9995524775779564,0.9999630723983213
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Write a short summary of the essay's main argument.,4,different_task,0.999580602406946,0.9999944967345199
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,Describe how a bill becomes a law.,5,unrelated,0.9997289467827919,0.9999951002062033
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes and send them to everyone who attended.,0,identical,0.012016421002815747,0.007705888066371291
+14,Summarize the meeting notes and send them to everyone who attended.,Condense what was discussed in the meeting and mail it to all the participants.,1,paraphrase,0.04823678522992103,0.0021157135652524195
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes.,2,part_dropped,0.9976375790631932,0.9998680243215857
+14,Summarize the meeting notes and send them to everyone who attended.,Summarize the meeting notes and send them to everyone who did not attend.,3,entity,0.9960081324780062,0.9997142730031602
+14,Summarize the meeting notes and send them to everyone who attended.,Create an agenda for next week's meeting.,4,different_task,0.9969313750609473,0.9998504506286945
+14,Summarize the meeting notes and send them to everyone who attended.,Recommend three board games for a rainy evening.,5,unrelated,0.9995413985199278,0.9999843173612672
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four that avoids peanuts.,0,identical,0.01803712674969138,0.012702664622917803
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,"Put together seven days of dinners for four people at home, making sure nothing contains peanuts.",1,paraphrase,0.0749876880308048,0.0021087737200026213
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four.,2,part_dropped,0.998428962372106,0.9999409741044077
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a weekly meal plan for a family of four that features peanuts in every dish.,3,negation,0.9993122351928714,0.9999587886829433
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Generate a grocery shopping list for a family of four for the weekend.,4,different_task,0.9981983587619924,0.9998944954168908
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,Explain why the sky is blue.,5,unrelated,0.9997648133393963,0.9998584575282714
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops and recommend the one that lasts longer.,0,identical,0.009537326734197715,0.004909190396067076
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Look at how long each of the two notebooks runs on a charge and suggest whichever holds out the longest.,1,paraphrase,0.17623352725732822,0.0033324288795378854
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops.,2,part_dropped,0.9975585954134232,0.9999247162515789
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the battery life of the two laptops and recommend the one with the worse battery life.,3,negation,0.9953139797106928,0.999553566296832
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Compare the screen quality of the two laptops and recommend the sharper one.,4,different_task,0.997093421827498,0.9999931716791848
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Which houseplants do well in low light?,5,unrelated,0.9995589838101056,0.9999888763465049
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist tomorrow at 10 a.m.,0,identical,0.009001034786180195,0.01094137804828732
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Remind me to phone the dentist's office tomorrow morning at ten.,1,paraphrase,0.01160420833230702,0.002005395962747958
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist.,2,part_dropped,0.9985664528380461,0.9998578969405907
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to call the dentist next month at 10 p.m.,3,number,0.9914589375418202,0.999835106521568
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Set a reminder to water the plants every Sunday evening.,4,different_task,0.9997584668802533,0.9999958916579882
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Tell me the history of the bicycle.,5,unrelated,0.9997109574830505,0.9999947471720501
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function that covers the empty-cart case.,0,identical,0.018138697915014768,0.009596540406468623
+18,Write a unit test for the checkout function that covers the empty-cart case.,Add a test for the checkout routine that exercises what happens when the cart has nothing in it.,1,paraphrase,0.09234114529106541,0.01793166730910667
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function.,2,part_dropped,0.9981850090937316,0.9998956066081032
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the checkout function that covers every case except the empty-cart case.,3,scope,0.9521265054521666,0.999570362477379
+18,Write a unit test for the checkout function that covers the empty-cart case.,Write a unit test for the login function that covers the wrong-password case.,4,different_task,0.9992520498688064,0.999994264655475
+18,Write a unit test for the checkout function that covers the empty-cart case.,Describe the migration route of monarch butterflies.,5,unrelated,0.9996904461473362,0.9999911889847015
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how vaccines work to a ten-year-old in under 100 words.,0,identical,0.018688516868659466,0.013381005394784484
+19,Explain how vaccines work to a ten-year-old in under 100 words.,"Tell a fifth-grader how immunizations function, keeping it shorter than a hundred words.",1,paraphrase,0.07710182922315845,0.9796524909497375
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how vaccines work.,2,part_dropped,0.9983078977347708,0.9998448959092676
+19,Explain how vaccines work to a ten-year-old in under 100 words.,"Explain how vaccines work to a ten-year-old in at least 1,000 words.",3,number,0.9759207677825665,0.9999882111767874
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how airplanes stay in the air to a ten-year-old in under 100 words.,4,different_task,0.9991690088698266,0.9999924548291017
+19,Explain how vaccines work to a ten-year-old in under 100 words.,Explain how tides are caused by the moon.,5,unrelated,0.9996898122991804,0.999938112409236
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase but do not rename the subfolders.,0,identical,0.00971648743760356,0.0029834615315798008
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,"Convert every file name in the directory to lower case, leaving the nested directories' names alone.",1,paraphrase,0.5021966357773237,0.11866711194185009
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase.,2,part_dropped,0.9978612707968187,0.9999237437122228
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Rename all files in the folder to lowercase and rename the subfolders too.,3,scope,0.9996365448284474,0.9999372120965082
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,Delete all temporary files in the folder older than seven days.,4,different_task,0.995351429845597,0.9999884624364037
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,What should I pack for a week at the beach?,5,unrelated,0.9996844635327046,0.9999471266849351
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.","Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",0,identical,0.020392263828177715,0.013261733402450848
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Write a vacancy announcement for an experienced data engineer in Munich with a hybrid setup of three office days per week.,1,paraphrase,0.0720309153445663,0.007657535896457679
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Draft a job posting for a senior data engineer.,2,part_dropped,0.9984178113350514,0.999950353712957
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.","Draft a job posting for a junior data engineer based in Madrid, fully remote.",3,entity,0.9997553185722062,0.9999855855143907
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Draft a rejection letter for a candidate who interviewed for a data engineer role.,4,different_task,0.9976902880301886,0.9999372262994616
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Recommend a good pasta recipe for dinner tonight.,5,unrelated,0.9997672022237297,0.9999962350787299
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",0,identical,0.018286847187411692,0.027543912107552138
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Work out what the monthly installment would be for a 300,000 euro home loan at a 4 percent rate lasting 25 years.",1,paraphrase,0.026604845180359105,0.0016284416372065458
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",Calculate the monthly payment on a mortgage.,2,part_dropped,0.9984559927634228,0.9999525328668443
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the monthly payment on a 30,000 euro mortgage at 14 percent over 5 years.",3,number,0.9982805306654774,0.9999861266697073
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Calculate the total interest paid on a 300,000 euro mortgage at 4 percent over 25 years.",4,different_task,0.971205753647604,0.998747677323975
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.",Explain how photosynthesis works.,5,unrelated,0.999774908887184,0.9999897174635769
+23,Review the pull request and approve it only if all tests pass.,Review the pull request and approve it only if all tests pass.,0,identical,0.011901673861082429,0.004765404459683653
+23,Review the pull request and approve it only if all tests pass.,Go over the code change and sign off on it solely when every test succeeds.,1,paraphrase,0.2855179477652716,0.9948914465595788
+23,Review the pull request and approve it only if all tests pass.,Review the pull request.,2,part_dropped,0.9986098607186805,0.9999324707624718
+23,Review the pull request and approve it only if all tests pass.,Review the pull request and approve it even if tests fail.,3,negation,0.9955700008723677,0.9999831961781942
+23,Review the pull request and approve it only if all tests pass.,Write the release notes for the pull request.,4,different_task,0.9992965068854195,0.9999462011290371
+23,Review the pull request and approve it only if all tests pass.,Plan a weekend hiking trip in the mountains.,5,unrelated,0.9996653963471713,0.9999929506305113
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck of ten slides about renewable energy for investors.,0,identical,0.013037833877261762,0.015337167013523945
+24,Create a slide deck of ten slides about renewable energy for investors.,Make a presentation with ten slides on green power aimed at people who put money into companies.,1,paraphrase,0.3362552539819669,0.006323626469923127
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck about renewable energy.,2,part_dropped,0.9983254176796393,0.9999181873309028
+24,Create a slide deck of ten slides about renewable energy for investors.,Create a slide deck of ten slides about renewable energy for school children.,3,entity,0.9996775655724325,0.999983052940789
+24,Create a slide deck of ten slides about renewable energy for investors.,Write a one-page memo about renewable energy for investors.,4,different_task,0.999168726463731,0.9999961348819731
+24,Create a slide deck of ten slides about renewable energy for investors.,Suggest names for a new puppy.,5,unrelated,0.9997128773471984,0.9999848316228787
+25,"Archive all emails older than one year, but keep anything flagged as important.","Archive all emails older than one year, but keep anything flagged as important.",0,identical,0.013742508405890863,0.018273303257509088
+25,"Archive all emails older than one year, but keep anything flagged as important.","Move every message more than twelve months old into the archive, except those marked important.",1,paraphrase,0.054018876596598875,0.09303732613148541
+25,"Archive all emails older than one year, but keep anything flagged as important.",Archive all emails older than one year.,2,part_dropped,0.9976978254307479,0.9999311920283437
+25,"Archive all emails older than one year, but keep anything flagged as important.","Archive only the emails flagged as important, and keep everything else.",3,negation,0.9955750467756361,0.999942947822382
+25,"Archive all emails older than one year, but keep anything flagged as important.",Unsubscribe from all promotional newsletters.,4,different_task,0.9933713603659098,0.9999588948555517
+25,"Archive all emails older than one year, but keep anything flagged as important.",Describe the plot of a classic detective novel.,5,unrelated,0.9994387256644397,0.9999884791574598
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.","Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",0,identical,0.016686460123591984,0.008918132550377322
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Tell a goodnight tale featuring a fire-fearing dragon that finishes cheerfully.,1,paraphrase,0.24236001182289846,0.001872932694607865
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Write a bedtime story about a dragon.,2,part_dropped,0.9984415050980628,0.9999467552618642
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.","Write a bedtime story about a dragon who loves fire, ending on a sad note.",3,negation,0.9996677128061844,0.9999915790224901
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Write a poem about a dragon who is afraid of fire.,4,different_task,0.9971753069241633,0.999879442023594
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Tell me a joke about penguins.,5,unrelated,0.9997114544577653,0.9999881405945344
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every night at 2 a.m. and keep the last seven copies.,0,identical,0.009938334620249956,0.005676787199580424
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,"Create a nightly snapshot of the live database at 02:00, retaining the seven most recent ones.",1,paraphrase,0.17060460056202775,0.03204949054138562
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every night.,2,part_dropped,0.9982495950897956,0.9998982320882062
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Back up the production database every week at 2 p.m. and keep only the last copy.,3,number,0.998088954921081,0.9998017548028841
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,Restore the staging database from last night's backup.,4,different_task,0.9983636700185292,0.9999180995809199
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,List the planets of the solar system in order.,5,unrelated,0.9990877998974229,0.9999610537654435
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on sleep and memory published after 2020.,0,identical,0.012167728370846342,0.016236643938179696
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,"Locate a trio of scholarly papers that were reviewed by experts, dealing with rest and recall, from 2021 onward.",1,paraphrase,0.671197551747303,0.012086016589692217
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three articles on sleep and memory.,2,part_dropped,0.9980997212551629,0.9999536620247776
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on sleep and memory published before 2000.,3,number,0.9958196223289445,0.9999550760155481
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Find three peer-reviewed articles on diet and heart disease published after 2020.,4,different_task,0.999613574978241,0.9999949830011282
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,Give me tips for growing tomatoes on a balcony.,5,unrelated,0.9997971413493697,0.9999948143864644
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the kitchen is and walk them through the badge system.,0,identical,0.015686865723208765,0.007738697112646298
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Show the newcomer the way to the break room and explain how the door passes work.,1,paraphrase,0.9980641006077233,0.9999267975086599
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the kitchen is.,2,part_dropped,0.9978465444509914,0.9998924245392922
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Tell the new hire where the parking garage is and walk them through the payroll system.,3,entity,0.9994050741238765,0.99998824629614
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Prepare the new hire's laptop and set up their email account.,4,different_task,0.9997330851120494,0.9999835250258768
+29,Tell the new hire where the kitchen is and walk them through the badge system.,What is the tallest mountain in South America?,5,unrelated,0.9997965394071177,0.999987575712931
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the ten most recent orders for customer 4821.,0,identical,0.015400564899269997,0.01286510990362566
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Compose a database query fetching the latest ten purchases made by the customer with ID 4821.,1,paraphrase,0.1295003168122837,0.002645205492785463
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the most recent orders.,2,part_dropped,0.9984503413921636,0.9999090573355779
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that returns the ten oldest orders for customer 4821.,3,negation,0.9774188384333734,0.9999624217144555
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Write a SQL query that counts how many customers signed up last month.,4,different_task,0.996715507331954,0.9999084814616392
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Describe what a rainy afternoon in a small town feels like.,5,unrelated,0.9997169005013725,0.9999926739793122
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,0,identical,0.009093147478944963,0.005953245619709668
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,"Remove repeated entries in the sheet, retaining the earliest instance of each one.",1,paraphrase,0.04141545011561465,0.001978841099999351
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Delete the duplicate rows from the spreadsheet.,2,part_dropped,0.9979264735641354,0.9998232274562494
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,"Delete every row from the spreadsheet, not just the duplicates.",3,scope,0.9936271936613551,0.9998497613817143
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Sort the spreadsheet rows alphabetically by last name.,4,different_task,0.9984572062574079,0.999993022235422
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,Explain the rules of chess to a beginner.,5,unrelated,0.9997469570176023,0.9999955183248916
+32,"Send the invoice to the finance team, not to the client.","Send the invoice to the finance team, not to the client.",0,identical,0.008581426528538882,0.0030738033969188727
+32,"Send the invoice to the finance team, not to the client.",Forward the bill to the accounting department rather than the customer.,1,paraphrase,0.4070059077790299,0.002895627163316594
+32,"Send the invoice to the finance team, not to the client.",Send the invoice.,2,part_dropped,0.9985679341323443,0.9999361490698261
+32,"Send the invoice to the finance team, not to the client.","Send the invoice to the client, not to the finance team.",3,entity,0.9987290700842898,0.9998704661785783
+32,"Send the invoice to the finance team, not to the client.",Create the invoice for the client's latest order.,4,different_task,0.9997514323193033,0.9999821672216263
+32,"Send the invoice to the finance team, not to the client.",How can I stretch my back after sitting all day?,5,unrelated,0.9995260440741972,0.9999948095804667
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order twelve pizzas for the party on Saturday at 7 p.m.,0,identical,0.010838095267633574,0.008636485871700406
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Place an order for a dozen pies for Saturday evening's party at seven.,1,paraphrase,0.01175043087521832,0.02136305308873132
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order pizzas for the party.,2,part_dropped,0.9984335382220596,0.9999315267524654
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order two pizzas for the party on Sunday at 7 a.m.,3,number,0.9993602525572314,0.9999884311140961
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Order balloons and decorations for the party.,4,different_task,0.9997099270823501,0.9999700406294698
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Describe how a bill becomes a law.,5,unrelated,0.9996920820313733,0.9999778460834009
+34,Update only the footer of the website and leave the rest of the page as it is.,Update only the footer of the website and leave the rest of the page as it is.,0,identical,0.013444863746742364,0.006597485309515427
+34,Update only the footer of the website and leave the rest of the page as it is.,"Change just the bottom section of the site, keeping everything else on the page untouched.",1,paraphrase,0.06339340355986922,0.9795228161712037
+34,Update only the footer of the website and leave the rest of the page as it is.,Update the website.,2,part_dropped,0.9977958408314713,0.9999743462502073
+34,Update only the footer of the website and leave the rest of the page as it is.,"Update the entire website, including the header, body and footer.",3,scope,0.999326864097839,0.999990543650634
+34,Update only the footer of the website and leave the rest of the page as it is.,Run a speed test on the website and report the load time.,4,different_task,0.9993006858203821,0.9999949231459647
+34,Update only the footer of the website and leave the rest of the page as it is.,Recommend three board games for a rainy evening.,5,unrelated,0.9996581812605646,0.9999849938986968
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain the quarterly results to the sales team in a friendly tone.,0,identical,0.01484444853183342,0.007642649138486668
+35,Explain the quarterly results to the sales team in a friendly tone.,"Walk the salespeople through this quarter's numbers in a warm, approachable way.",1,paraphrase,0.07669384139967705,0.002191921000983532
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain the quarterly results.,2,part_dropped,0.9979519486375731,0.9998761417020601
+35,Explain the quarterly results to the sales team in a friendly tone.,"Explain the quarterly results to the board of directors in a strict, formal tone.",3,entity,0.999538174739277,0.9999807945601109
+35,Explain the quarterly results to the sales team in a friendly tone.,Prepare next quarter's sales forecast for the sales team.,4,different_task,0.9775745037072969,0.9998392831039896
+35,Explain the quarterly results to the sales team in a friendly tone.,Explain why the sky is blue.,5,unrelated,0.9989284403604375,0.9999624705673736
+36,Include only the top five customers in the report.,Include only the top five customers in the report.,0,identical,0.010620076230885234,0.006075006282811324
+36,Include only the top five customers in the report.,Limit the report to the five biggest clients.,1,paraphrase,0.02363821129844046,0.0024834985501185347
+36,Include only the top five customers in the report.,Include the top customers in the report.,2,part_dropped,0.9969334611503089,0.9998619645555599
+36,Include only the top five customers in the report.,"Include all customers in the report, not just the top five.",3,scope,0.9982270335541379,0.9999823504900495
+36,Include only the top five customers in the report.,Add a chart of monthly revenue to the report.,4,different_task,0.9992878719608049,0.999955478762124
+36,Include only the top five customers in the report.,Which houseplants do well in low light?,5,unrelated,0.9992718659900637,0.9999597175889816
+37,Limit the presentation to 10 minutes so that there is time for questions.,Limit the presentation to 10 minutes so that there is time for questions.,0,identical,0.01032595284779858,0.004923084717141424
+37,Limit the presentation to 10 minutes so that there is time for questions.,"Keep the talk down to ten minutes, leaving room to take questions afterwards.",1,paraphrase,0.02994120245248688,0.0399603858866483
+37,Limit the presentation to 10 minutes so that there is time for questions.,Limit the presentation so that there is time for questions.,2,part_dropped,0.9979061516696517,0.9998469522052535
+37,Limit the presentation to 10 minutes so that there is time for questions.,Stretch the presentation to 90 minutes so that there is no time for questions.,3,number,0.9981647689831044,0.9999882891930637
+37,Limit the presentation to 10 minutes so that there is time for questions.,Rehearse the presentation twice and record yourself.,4,different_task,0.9993505099369393,0.9999623644078266
+37,Limit the presentation to 10 minutes so that there is time for questions.,Tell me the history of the bicycle.,5,unrelated,0.9986137996732379,0.9999456438081217
+38,Translate the user manual from English into Korean.,Translate the user manual from English into Korean.,0,identical,0.01219120659567452,0.00413503502353163
+38,Translate the user manual from English into Korean.,Convert the instruction booklet from English to Korean.,1,paraphrase,0.6700408587951333,0.01313303206983607
+38,Translate the user manual from English into Korean.,Translate the user manual.,2,part_dropped,0.9982496825613879,0.9998801603375878
+38,Translate the user manual from English into Korean.,Translate the user manual from Korean into English.,3,entity,0.039504338171270414,0.9996423051859299
+38,Translate the user manual from English into Korean.,Write a quick-start guide for the user manual in English.,4,different_task,0.9968590508874503,0.9999722300215481
+38,Translate the user manual from English into Korean.,Describe the migration route of monarch butterflies.,5,unrelated,0.9995444680126782,0.9999546521343319
+39,Back up the documents folder but exclude the downloads folder.,Back up the documents folder but exclude the downloads folder.,0,identical,0.011768190870621642,0.00854304656210747
+39,Back up the documents folder but exclude the downloads folder.,"Make a copy of the documents directory, skipping the downloads directory.",1,paraphrase,0.01627097842532199,0.003186640561176901
+39,Back up the documents folder but exclude the downloads folder.,Back up the documents folder.,2,part_dropped,0.998214572696483,0.9999360343256023
+39,Back up the documents folder but exclude the downloads folder.,Back up only the downloads folder and exclude the documents folder.,3,scope,0.8049317867132906,0.9998283660262066
+39,Back up the documents folder but exclude the downloads folder.,Free up disk space by clearing the downloads folder.,4,different_task,0.9986489241773445,0.9999933464209896
+39,Back up the documents folder but exclude the downloads folder.,Explain how tides are caused by the moon.,5,unrelated,0.9994147723157104,0.999772890172141
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet of at most 280 characters announcing our product launch on March 3.,0,identical,0.012843966334185386,0.009236526040551474
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,"Post a short message, no longer than 280 characters, saying our product goes live on the third of March.",1,paraphrase,0.07225010018296474,0.4824530738199545
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet announcing our product launch.,2,part_dropped,0.9980526592742358,0.9999305926376646
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,"Write a blog post of at least 2,000 words announcing our product launch on December 25.",3,number,0.999228789799545,0.9999955166375527
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,Write a tweet thanking our customers for their feedback.,4,different_task,0.9988574578213296,0.9999559834217088
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,What should I pack for a week at the beach?,5,unrelated,0.9993310055031132,0.9999870678843008
+41,Assign the login bug to Maria and set its priority to high.,Assign the login bug to Maria and set its priority to high.,0,identical,0.011355393161154526,0.0048689782804932635
+41,Assign the login bug to Maria and set its priority to high.,Give Maria ownership of the sign-in defect and mark it as high priority.,1,paraphrase,0.030644811946277994,0.0024445640430270643
+41,Assign the login bug to Maria and set its priority to high.,Assign the login bug to Maria.,2,part_dropped,0.9961601724234153,0.9999025770948607
+41,Assign the login bug to Maria and set its priority to high.,Assign the payment bug to Daniel and set its priority to low.,3,entity,0.9995284513552437,0.999997083368807
+41,Assign the login bug to Maria and set its priority to high.,Close the login bug and add a comment with the fix.,4,different_task,0.9994089503615077,0.9999758443199027
+41,Assign the login bug to Maria and set its priority to high.,Recommend a good pasta recipe for dinner tonight.,5,unrelated,0.9997281249561162,0.9999886783245576
+42,Answer using only the information in the attached document.,Answer using only the information in the attached document.,0,identical,0.009877557782760893,0.01807543724186944
+42,Answer using only the information in the attached document.,Base your reply exclusively on what is written in the attached file.,1,paraphrase,0.022337677858324745,0.002322740645824495
+42,Answer using only the information in the attached document.,Answer the question.,2,part_dropped,0.9975798026879076,0.9998443499092093
+42,Answer using only the information in the attached document.,"Answer using any information you can find, ignoring the attached document.",3,scope,0.998765125335086,0.999949061670498
+42,Answer using only the information in the attached document.,Summarize the attached document in two sentences.,4,different_task,0.9839251450355756,0.9747846019214295
+42,Answer using only the information in the attached document.,Explain how photosynthesis works.,5,unrelated,0.9941958358846361,0.999097870252952
+43,"Generate five name ideas for a coffee shop, each under three words.","Generate five name ideas for a coffee shop, each under three words.",0,identical,0.015965157816071995,0.013666862588051498
+43,"Generate five name ideas for a coffee shop, each under three words.","Come up with five possible titles for a cafe, every one shorter than three words.",1,paraphrase,0.012501874973939064,0.0018587933728345662
+43,"Generate five name ideas for a coffee shop, each under three words.",Generate name ideas for a coffee shop.,2,part_dropped,0.9978898435972984,0.9998136994600602
+43,"Generate five name ideas for a coffee shop, each under three words.","Generate fifty name ideas for a coffee shop, each over ten words long.",3,number,0.9986174450534772,0.9999837140277739
+43,"Generate five name ideas for a coffee shop, each under three words.",Generate five slogan ideas for a coffee shop.,4,different_task,0.987241569752563,0.9681657518171342
+43,"Generate five name ideas for a coffee shop, each under three words.",Plan a weekend hiking trip in the mountains.,5,unrelated,0.9997201356235148,0.9999954105504555
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,0,identical,0.017855397499517256,0.00644631877827162
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Write to the Vietnamese vendor requesting a price offer for five hundred items.,1,paraphrase,0.21806883494906437,0.0020946260059683253
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam.,2,part_dropped,0.9984820966789504,0.9999484731791907
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the customer in Vietnam offering a discount on 500 units.,3,entity,0.8532153960372308,0.999971839813654
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Draft a message to the supplier in Vietnam about a delayed shipment.,4,different_task,0.9986284566718394,0.9999722749888624
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Suggest names for a new puppy.,5,unrelated,0.9995963435984524,0.9999732769484414
+45,"Check the code for security vulnerabilities, but do not modify any files.","Check the code for security vulnerabilities, but do not modify any files.",0,identical,0.00949713815452824,0.0039441072305002045
+45,"Check the code for security vulnerabilities, but do not modify any files.",Inspect the source for security weaknesses without making changes to any file.,1,paraphrase,0.053527725876089005,0.03445658070926694
+45,"Check the code for security vulnerabilities, but do not modify any files.",Check the code for security vulnerabilities.,2,part_dropped,0.9982150163584471,0.9999481280422355
+45,"Check the code for security vulnerabilities, but do not modify any files.",Check the code for security vulnerabilities and patch every file you find a problem in.,3,scope,0.9996424499695128,0.9999887555379049
+45,"Check the code for security vulnerabilities, but do not modify any files.",Add logging statements to the payment module.,4,different_task,0.999707209804358,0.9999960654383655
+45,"Check the code for security vulnerabilities, but do not modify any files.",Describe the plot of a classic detective novel.,5,unrelated,0.9997876725323427,0.9999912225987174
+46,Cut the video down to 60 seconds and add English subtitles.,Cut the video down to 60 seconds and add English subtitles.,0,identical,0.00921797024212545,0.004628043471503918
+46,Cut the video down to 60 seconds and add English subtitles.,Trim the clip to a minute long and put English captions on it.,1,paraphrase,0.22143731530644584,0.002747005984301887
+46,Cut the video down to 60 seconds and add English subtitles.,Cut the video down and add English subtitles.,2,part_dropped,0.9975774415569072,0.9996508644728379
+46,Cut the video down to 60 seconds and add English subtitles.,Extend the video to 60 minutes and add English subtitles.,3,number,0.9978197162702068,0.9999857122616364
+46,Cut the video down to 60 seconds and add English subtitles.,Add background music to the video and export it as MP4.,4,different_task,0.9996699092575758,0.9999892126465711
+46,Cut the video down to 60 seconds and add English subtitles.,Tell me a joke about penguins.,5,unrelated,0.9996307957862333,0.9999687364648306
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya on her promotion in a short card.,0,identical,0.02219354492511616,0.014728605038907272
+47,Congratulate Priya on her promotion in a short card.,Write a brief note celebrating Priya's step up to a higher role.,1,paraphrase,0.21063928561354472,0.0036876929423853566
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya.,2,part_dropped,0.9978913918105334,0.9998011255237749
+47,Congratulate Priya on her promotion in a short card.,Apologize to Priya for missing her birthday in a short card.,3,entity,0.9992092533669269,0.9999957083315141
+47,Congratulate Priya on her promotion in a short card.,Congratulate Priya on her promotion in a speech at the team lunch.,4,different_task,0.9802273923656175,0.9998129113481292
+47,Congratulate Priya on her promotion in a short card.,List the planets of the solar system in order.,5,unrelated,0.9997100554153239,0.9999807479609716
+48,Translate only the headings of the document into Spanish and leave the body in English.,Translate only the headings of the document into Spanish and leave the body in English.,0,identical,0.013401009328593005,0.007974987800572597
+48,Translate only the headings of the document into Spanish and leave the body in English.,"Put just the section titles of the document into Spanish, keeping the main text in English.",1,paraphrase,0.69295257885301,0.002936038353055781
+48,Translate only the headings of the document into Spanish and leave the body in English.,Translate the headings of the document into Spanish.,2,part_dropped,0.9963123460335066,0.9996048254139589
+48,Translate only the headings of the document into Spanish and leave the body in English.,"Translate the entire document into Spanish, including the body.",3,scope,0.9994750027931781,0.9999884825281968
+48,Translate only the headings of the document into Spanish and leave the body in English.,Check the Spanish headings of the document for spelling mistakes.,4,different_task,0.9991796857376563,0.9999845603117601
+48,Translate only the headings of the document into Spanish and leave the body in English.,Give me tips for growing tomatoes on a balcony.,5,unrelated,0.9996595063761573,0.9999915014827645
+49,"Show the monthly sales as a bar chart, grouped by region.","Show the monthly sales as a bar chart, grouped by region.",0,identical,0.012557039870243925,0.008334559809489273
+49,"Show the monthly sales as a bar chart, grouped by region.","Display each month's revenue in a bar graph, split up by area.",1,paraphrase,0.010115001769092524,0.002272680823610651
+49,"Show the monthly sales as a bar chart, grouped by region.",Show the monthly sales as a chart.,2,part_dropped,0.9974919261681011,0.9997282417165532
+49,"Show the monthly sales as a bar chart, grouped by region.","Show the yearly sales as a pie chart, grouped by product.",3,entity,0.9982397515329123,0.9999937753077051
+49,"Show the monthly sales as a bar chart, grouped by region.",Calculate the average monthly sales per region.,4,different_task,0.9651126370485505,0.9999349016094149
+49,"Show the monthly sales as a bar chart, grouped by region.",What is the tallest mountain in South America?,5,unrelated,0.9995690664274927,0.9999294670951945
+50,Use a maximum of three sentences to describe the product's main benefit.,Use a maximum of three sentences to describe the product's main benefit.,0,identical,0.012893677353001176,0.0074753389096278156
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's chief advantage in no more than three sentences.,1,paraphrase,0.018921416613145503,0.0016483031255344338
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's main benefit.,2,part_dropped,0.9971238383225179,0.9999007004144622
+50,Use a maximum of three sentences to describe the product's main benefit.,Use at least ten sentences to describe the product's main benefit.,3,number,0.9975187139106311,0.9999878886859365
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's main competitor in three sentences.,4,different_task,0.7637149451981798,0.9974191739912459
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe what a rainy afternoon in a small town feels like.,5,unrelated,0.9964441016662037,0.9998198317842238
+51,Apply the discount code only to orders above 50 euros.,Apply the discount code only to orders above 50 euros.,0,identical,0.013243544445974198,0.006038107999887465
+51,Apply the discount code only to orders above 50 euros.,The promo code should work solely on purchases that exceed fifty euros.,1,paraphrase,0.08279418439525199,0.0018106454621106272
+51,Apply the discount code only to orders above 50 euros.,Apply the discount code to orders.,2,part_dropped,0.9985677095783702,0.9999497569581152
+51,Apply the discount code only to orders above 50 euros.,"Apply the discount code to all orders, regardless of the amount.",3,scope,0.9983932904419694,0.9999846216627654
+51,Apply the discount code only to orders above 50 euros.,Generate a new discount code for first-time customers.,4,different_task,0.9984764301986915,0.9999724608985072
+51,Apply the discount code only to orders above 50 euros.,Explain the rules of chess to a beginner.,5,unrelated,0.9993506017517467,0.9994699514011306
+52,Keep the tone of the email professional and avoid using emojis.,Keep the tone of the email professional and avoid using emojis.,0,identical,0.011181581025604515,0.004453136823075354
+52,Keep the tone of the email professional and avoid using emojis.,Make the message sound businesslike and refrain from adding any emoticons.,1,paraphrase,0.41069696462818195,0.9764991370718489
+52,Keep the tone of the email professional and avoid using emojis.,Keep the tone of the email professional.,2,part_dropped,0.9972211246250287,0.999921971812116
+52,Keep the tone of the email professional and avoid using emojis.,Make the tone of the email casual and use plenty of emojis.,3,negation,0.9982768378200174,0.9999911507023556
+52,Keep the tone of the email professional and avoid using emojis.,Write the subject line for the email.,4,different_task,0.9952605079621523,0.9997879824559021
+52,Keep the tone of the email professional and avoid using emojis.,How can I stretch my back after sitting all day?,5,unrelated,0.9993612604803144,0.9999945597076574
+53,Fix the typos in the first paragraph only.,Fix the typos in the first paragraph only.,0,identical,0.008983264387977696,0.00624326715890644
+53,Fix the typos in the first paragraph only.,Correct the spelling errors that appear solely in the opening paragraph.,1,paraphrase,0.02802158594768822,0.0032918664268505315
+53,Fix the typos in the first paragraph only.,Fix the typos.,2,part_dropped,0.9980891905874653,0.9999006232092003
+53,Fix the typos in the first paragraph only.,Fix the typos in every paragraph except the first.,3,scope,0.9386974456222529,0.9998175632465063
+53,Fix the typos in the first paragraph only.,Rewrite the first paragraph to sound more engaging.,4,different_task,0.9711193639101672,0.9998676039782496
+53,Fix the typos in the first paragraph only.,Describe how a bill becomes a law.,5,unrelated,0.9990074156953186,0.9999885698329616
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a birthday playlist for my grandmother with songs from the 1960s.,0,identical,0.011468843687878816,0.006358262415276483
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Put together a set of tunes from the sixties for my grandma's birthday.,1,paraphrase,0.013223800195075297,0.007370227045946809
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a birthday playlist for my grandmother.,2,part_dropped,0.9979654463350651,0.9999389838704573
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Create a workout playlist for my brother with songs from the 2020s.,3,entity,0.9996828781799708,0.9999962610191829
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Find a restaurant for my grandmother's birthday dinner.,4,different_task,0.9993654697068165,0.9999869637335375
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Recommend three board games for a rainy evening.,5,unrelated,0.9996562425112866,0.99997731826175
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches but do not delete either of them afterwards.,0,identical,0.00849258996351454,0.003140589032034291
+55,Merge the two branches but do not delete either of them afterwards.,Combine the pair of branches and leave both in place once done.,1,paraphrase,0.47387702677901233,0.009510232763984772
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches.,2,part_dropped,0.9971479366238652,0.9999174813499528
+55,Merge the two branches but do not delete either of them afterwards.,Merge the two branches and delete both of them afterwards.,3,negation,0.9988015985104584,0.9999239891896001
+55,Merge the two branches but do not delete either of them afterwards.,Resolve the merge conflict in the settings file.,4,different_task,0.9930893417118756,0.9998962634588383
+55,Merge the two branches but do not delete either of them afterwards.,Explain why the sky is blue.,5,unrelated,0.9995223906340391,0.9999537236452083
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the interviewer after the second round.,0,identical,0.011015062998981584,0.005321832176976571
+56,Write a thank-you note to the interviewer after the second round.,Send a note of appreciation to the person who interviewed me following the second stage.,1,paraphrase,0.02363854537326837,0.0018092254705689426
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the interviewer.,2,part_dropped,0.9975395251709958,0.9999025662209761
+56,Write a thank-you note to the interviewer after the second round.,Write a thank-you note to the hiring manager before the first round.,3,entity,0.9963314401331247,0.9999828327861613
+56,Write a thank-you note to the interviewer after the second round.,Prepare answers for the third interview round.,4,different_task,0.9970738108657654,0.9999911773226845
+56,Write a thank-you note to the interviewer after the second round.,Which houseplants do well in low light?,5,unrelated,0.999561227223653,0.9999868174430292
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Plan a two-day trip to Prague with a budget of 400 euros.,0,identical,0.013336929354143101,0.011976668486409436
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Sketch out a 48-hour visit to Prague that stays within 400 euros.,1,paraphrase,0.5324774681553036,0.006174962027941988
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Plan a trip to Prague.,2,part_dropped,0.9981779611233144,0.9999288352766336
+57,Plan a two-day trip to Prague with a budget of 400 euros.,"Plan a two-week trip to Prague with a budget of 4,000 euros.",3,number,0.9801149392451974,0.9999893477756817
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Book a hotel in Prague for two nights with a budget of 400 euros.,4,different_task,0.5456375035328327,0.758844711594406
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Tell me the history of the bicycle.,5,unrelated,0.9992782230707632,0.9999682373729942
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline three days before it is due.,0,identical,0.010751193385831748,0.012169857815253038
+58,Remind the team about the deadline three days before it is due.,Give the team a heads-up about the due date 72 hours ahead of it.,1,paraphrase,0.23878150617326566,0.004030924802853275
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline.,2,part_dropped,0.9984546745467624,0.9999372898257629
+58,Remind the team about the deadline three days before it is due.,Remind the team about the deadline three days after it has passed.,3,number,0.9194645481896577,0.999966132525164
+58,Remind the team about the deadline three days before it is due.,Extend the deadline by one week and inform the team.,4,different_task,0.7716030580438749,0.999974947687718
+58,Remind the team about the deadline three days before it is due.,Describe the migration route of monarch butterflies.,5,unrelated,0.9992466824486369,0.9999783881291816
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team with view-only access.,0,identical,0.014848480807524767,0.006299125333741329
+59,Share the document with the marketing team with view-only access.,Give the marketing group read-only permission to the file.,1,paraphrase,0.7554983486117103,0.003308954639661188
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team.,2,part_dropped,0.9968232798848058,0.9998829083730081
+59,Share the document with the marketing team with view-only access.,Share the document with the marketing team with full edit access.,3,scope,0.9947699646915675,0.9999724131810381
+59,Share the document with the marketing team with view-only access.,Revoke the marketing team's access to the document.,4,different_task,0.9828457285655018,0.9998716592362854
+59,Share the document with the marketing team with view-only access.,Explain how tides are caused by the moon.,5,unrelated,0.9990816146811718,0.9999110112351858
+60,Cancel my subscription to the streaming service and confirm by email.,Cancel my subscription to the streaming service and confirm by email.,0,identical,0.009584058831539344,0.006870512470577683
+60,Cancel my subscription to the streaming service and confirm by email.,Terminate my membership with the video platform and send me an email confirming it.,1,paraphrase,0.0458324275327856,0.002033552887198975
+60,Cancel my subscription to the streaming service and confirm by email.,Cancel my subscription to the streaming service.,2,part_dropped,0.9975930691878482,0.9999162825826177
+60,Cancel my subscription to the streaming service and confirm by email.,Upgrade my subscription to the streaming service and confirm by text message.,3,entity,0.999020504275679,0.9999936862481366
+60,Cancel my subscription to the streaming service and confirm by email.,Find a cheaper alternative to my streaming service.,4,different_task,0.9987582023022552,0.999978176159862
+60,Cancel my subscription to the streaming service and confirm by email.,What should I pack for a week at the beach?,5,unrelated,0.9997611055014569,0.9999843945591482
+1,Transfer 200 euros from my savings to my checking account.,Transfer 200 euros from my checking to my savings account.,3,direction_swap,0.020606208598079157,0.999759488674178
+2,Move the meeting from Tuesday to Thursday.,Move the meeting from Thursday to Tuesday.,3,direction_swap,0.01863696993412156,0.9998425127602245
+3,Translate the contract from German into English.,Translate the contract from English into German.,3,direction_swap,0.05304091063464855,0.9997360287102178
+4,Forward the invoice to the client and copy the manager.,Forward the invoice to the manager and copy the client.,3,direction_swap,0.04837141538688061,0.990415933269093
+5,Give the intern read access and the lead write access.,Give the lead read access and the intern write access.,3,direction_swap,0.36061574741898517,0.9987915069645682
+6,Book a flight from Seoul to Berlin for next Tuesday.,Book a flight from Berlin to Seoul for next Tuesday.,3,direction_swap,0.020139982770853937,0.9890065477819416
+7,Ask Alice to send the draft to Bob.,Ask Bob to send the draft to Alice.,3,direction_swap,0.9830359320953393,0.999969675630879
+8,Copy the files from the laptop to the server.,Copy the files from the server to the laptop.,3,direction_swap,0.02607368665811638,0.9998404120263754
+9,Send the report from the sales team to the finance team.,Send the report from the finance team to the sales team.,3,direction_swap,0.0408596835826337,0.9999308368245234
+10,Reply to Carol and copy Dan on the thread.,Reply to Dan and copy Carol on the thread.,3,direction_swap,0.043930489906660486,0.9991288282150256
+11,Convert the document from Word to PDF.,Convert the document from PDF to Word.,3,direction_swap,0.018559638922370447,0.9998042256629621
+12,Charge the client and refund the vendor.,Charge the vendor and refund the client.,3,direction_swap,0.20710022916685034,0.99924518802475
+13,Ask the manager to approve the request from the intern.,Ask the intern to approve the request from the manager.,3,direction_swap,0.423502093823369,0.997830982800059
+14,Pay Maria 300 dollars and Tom 500 dollars.,Pay Maria 500 dollars and Tom 300 dollars.,3,direction_swap,0.018335729545654322,0.9994351471863552
+15,Schedule the call after the demo and before the review.,Schedule the call after the review and before the demo.,3,direction_swap,0.016017245796323687,0.9988674714526472
+16,Rank the cheapest option first and the priciest option last.,Rank the priciest option first and the cheapest option last.,3,direction_swap,0.482078845490592,0.9996732205377638
+17,Route calls from the office to the mobile phone.,Route calls from the mobile phone to the office.,3,direction_swap,0.13981446480935444,0.9283987672881797
+18,Assign the budget task to Priya and the design task to Leo.,Assign the budget task to Leo and the design task to Priya.,3,direction_swap,0.10622171160596316,0.9994361812320856
+19,Switch the account from the free plan to the paid plan.,Switch the account from the paid plan to the free plan.,3,direction_swap,0.7718587857017556,0.9998224769957925
+20,Copy the data from the old database into the new database.,Copy the data from the new database into the old database.,3,direction_swap,0.029565762734985235,0.9994111373084898
+21,Move the file from the desktop to the archive folder.,Copy the file from the archive folder to the desktop.,3,direction_swap,0.5277516231210022,0.9991256243154757
+22,Send the summary to the board and notify the team.,Notify the board and email the summary to the team.,3,direction_swap,0.016322365439107145,0.0025646509490436786
+23,Lend 50 euros to my brother.,Borrow 50 euros from my brother.,3,direction_swap,0.06844208408880725,0.9997787486810592
+24,Upload the photos from my phone to the cloud.,Download the photos from the cloud to my phone.,3,direction_swap,0.06592127029020922,0.9999378753271365
+25,Ask the landlord to refund the tenant.,Tell the tenant to repay the landlord.,3,direction_swap,0.023489108930168423,0.9996937743342532
+26,Hire a consultant to train our staff.,Have our staff train the consultant.,3,direction_swap,0.09641796419982263,0.9997487516618044
+27,Import the contacts from the spreadsheet into the app.,Export the contacts from the app into the spreadsheet.,3,direction_swap,0.08854053519176996,0.9999462379544151
+28,Ask the supplier to deliver the parts to our warehouse.,Ask our warehouse to ship the parts to the supplier.,3,direction_swap,0.455529400000119,0.9999329464486738
+29,Subscribe the team to the vendor newsletter.,Enroll the vendor in the team newsletter.,3,direction_swap,0.049317043206082545,0.6353193164939379
+30,Put Sam in charge of Jo.,Make Jo the boss of Sam.,3,direction_swap,0.8070755499384867,0.9999585688087061

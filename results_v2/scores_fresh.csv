@@ -1,0 +1,161 @@
+id,intent,state,level,kind,set,a_MiniLM,flag_MiniLM,a_DeBERTa,flag_DeBERTa
+1,Analyze the financial risks and summarize key points for the executive board.,Look into the money-related risks and give the executives' board a short digest of what matters most.,1,paraphrase,old,0.01999924989348867,False,0.0016987024393062544,False
+2,Write a polite email declining the meeting invitation for Friday.,Compose a courteous message telling them I can't attend the Friday meeting.,1,paraphrase,old,0.07169992434294647,False,0.005981368764429562,False
+3,Fix the login bug in the Python backend without changing the database schema.,Repair the sign-in defect in the server-side Python code while leaving the database tables as they are.,1,paraphrase,old,0.2708913109987182,False,0.14345015535664207,False
+4,Book a flight from Berlin to Seoul for next Tuesday under 900 euros.,"Reserve a plane ticket leaving Berlin for Seoul next Tuesday, costing less than 900 euros.",1,paraphrase,old,0.0081489625559924,False,0.002241924074176782,False
+5,Summarize this research paper in three bullet points for a high school student.,Give a high schooler the gist of this study in exactly three short points.,1,paraphrase,old,0.11644375072886637,False,0.10074150099306811,False
+6,Schedule the team stand-up for 9:30 on Monday and invite all five engineers.,Put the engineers' daily sync on the calendar Monday at 9:30 and send an invite to each of the five of them.,1,paraphrase,old,0.24579823489131114,False,0.871545446227509,True
+7,Translate the contract into German and keep all clause numbers unchanged.,"Render the agreement in German, making sure every clause keeps its original number.",1,paraphrase,old,0.013677002100105584,False,0.0042707122071662384,False
+8,Write a Python function that sorts a list of dictionaries by the 'age' key in ascending order.,Create a Python helper that orders a list of dicts from youngest to oldest using their 'age' field.,1,paraphrase,old,0.3676116344471022,False,0.008492431784807408,False
+9,"Draft a press release announcing our Series A funding, without mentioning the investors' names.",Prepare a news announcement about closing our Series A round that leaves out who the investors are.,1,paraphrase,old,0.13006126458088652,False,0.0045746035807968655,False
+10,Recommend three vegetarian restaurants in Berlin that are open on Sundays.,Suggest a trio of meat-free places to eat in Berlin that serve guests on Sundays.,1,paraphrase,old,0.23000220131261095,False,0.007255122603023745,False
+11,Reply to the customer's complaint with an apology and offer a full refund.,Answer the unhappy customer by saying sorry and promising to give all their money back.,1,paraphrase,old,0.047916901893944375,False,0.003673165960905167,False
+12,"Create a budget spreadsheet for a wedding with a total limit of 15,000 dollars.",Build a sheet to plan wedding expenses so that the overall spending cap is fifteen thousand dollars.,1,paraphrase,old,0.053539486868862785,False,0.002901531970209592,False
+13,Proofread the essay for grammar mistakes only and do not change the author's wording.,"Check the essay for grammatical errors alone, leaving the writer's phrasing as it is.",1,paraphrase,old,0.03126736284299236,False,0.0033411070025869405,False
+14,Summarize the meeting notes and send them to everyone who attended.,Condense what was discussed in the meeting and mail it to all the participants.,1,paraphrase,old,0.04823678522992103,False,0.0021157135652524195,False
+15,Generate a weekly meal plan for a family of four that avoids peanuts.,"Put together seven days of dinners for four people at home, making sure nothing contains peanuts.",1,paraphrase,old,0.0749876880308048,False,0.0021087737200026213,False
+16,Compare the battery life of the two laptops and recommend the one that lasts longer.,Look at how long each of the two notebooks runs on a charge and suggest whichever holds out the longest.,1,paraphrase,old,0.17623352725732822,False,0.0033324288795378854,False
+17,Set a reminder to call the dentist tomorrow at 10 a.m.,Remind me to phone the dentist's office tomorrow morning at ten.,1,paraphrase,old,0.01160420833230702,False,0.002005395962747958,False
+18,Write a unit test for the checkout function that covers the empty-cart case.,Add a test for the checkout routine that exercises what happens when the cart has nothing in it.,1,paraphrase,old,0.09234114529106541,False,0.01793166730910667,False
+19,Explain how vaccines work to a ten-year-old in under 100 words.,"Tell a fifth-grader how immunizations function, keeping it shorter than a hundred words.",1,paraphrase,old,0.07710182922315845,False,0.9796524909497375,True
+20,Rename all files in the folder to lowercase but do not rename the subfolders.,"Convert every file name in the directory to lower case, leaving the nested directories' names alone.",1,paraphrase,old,0.5021966357773237,False,0.11866711194185009,False
+21,"Draft a job posting for a senior data engineer based in Munich, hybrid, three days in the office.",Write a vacancy announcement for an experienced data engineer in Munich with a hybrid setup of three office days per week.,1,paraphrase,old,0.0720309153445663,False,0.007657535896457679,False
+22,"Calculate the monthly payment on a 300,000 euro mortgage at 4 percent over 25 years.","Work out what the monthly installment would be for a 300,000 euro home loan at a 4 percent rate lasting 25 years.",1,paraphrase,old,0.026604845180359105,False,0.0016284416372065458,False
+23,Review the pull request and approve it only if all tests pass.,Go over the code change and sign off on it solely when every test succeeds.,1,paraphrase,old,0.2855179477652716,False,0.9948914465595788,True
+24,Create a slide deck of ten slides about renewable energy for investors.,Make a presentation with ten slides on green power aimed at people who put money into companies.,1,paraphrase,old,0.3362552539819669,False,0.006323626469923127,False
+25,"Archive all emails older than one year, but keep anything flagged as important.","Move every message more than twelve months old into the archive, except those marked important.",1,paraphrase,old,0.054018876596598875,False,0.09303732613148541,False
+26,"Write a bedtime story about a dragon who is afraid of fire, ending on a happy note.",Tell a goodnight tale featuring a fire-fearing dragon that finishes cheerfully.,1,paraphrase,old,0.24236001182289846,False,0.001872932694607865,False
+27,Back up the production database every night at 2 a.m. and keep the last seven copies.,"Create a nightly snapshot of the live database at 02:00, retaining the seven most recent ones.",1,paraphrase,old,0.17060460056202775,False,0.03204949054138562,False
+28,Find three peer-reviewed articles on sleep and memory published after 2020.,"Locate a trio of scholarly papers that were reviewed by experts, dealing with rest and recall, from 2021 onward.",1,paraphrase,old,0.671197551747303,False,0.012086016589692217,False
+29,Tell the new hire where the kitchen is and walk them through the badge system.,Show the newcomer the way to the break room and explain how the door passes work.,1,paraphrase,old,0.9980641006077233,True,0.9999267975086599,True
+30,Write a SQL query that returns the ten most recent orders for customer 4821.,Compose a database query fetching the latest ten purchases made by the customer with ID 4821.,1,paraphrase,old,0.1295003168122837,False,0.002645205492785463,False
+31,Delete the duplicate rows from the spreadsheet and keep the first occurrence of each.,"Remove repeated entries in the sheet, retaining the earliest instance of each one.",1,paraphrase,old,0.04141545011561465,False,0.001978841099999351,False
+32,"Send the invoice to the finance team, not to the client.",Forward the bill to the accounting department rather than the customer.,1,paraphrase,old,0.4070059077790299,False,0.002895627163316594,False
+33,Order twelve pizzas for the party on Saturday at 7 p.m.,Place an order for a dozen pies for Saturday evening's party at seven.,1,paraphrase,old,0.01175043087521832,False,0.02136305308873132,False
+34,Update only the footer of the website and leave the rest of the page as it is.,"Change just the bottom section of the site, keeping everything else on the page untouched.",1,paraphrase,old,0.06339340355986922,False,0.9795228161712037,True
+35,Explain the quarterly results to the sales team in a friendly tone.,"Walk the salespeople through this quarter's numbers in a warm, approachable way.",1,paraphrase,old,0.07669384139967705,False,0.002191921000983532,False
+36,Include only the top five customers in the report.,Limit the report to the five biggest clients.,1,paraphrase,old,0.02363821129844046,False,0.0024834985501185347,False
+37,Limit the presentation to 10 minutes so that there is time for questions.,"Keep the talk down to ten minutes, leaving room to take questions afterwards.",1,paraphrase,old,0.02994120245248688,False,0.0399603858866483,False
+38,Translate the user manual from English into Korean.,Convert the instruction booklet from English to Korean.,1,paraphrase,old,0.6700408587951333,False,0.01313303206983607,False
+39,Back up the documents folder but exclude the downloads folder.,"Make a copy of the documents directory, skipping the downloads directory.",1,paraphrase,old,0.01627097842532199,False,0.003186640561176901,False
+40,Write a tweet of at most 280 characters announcing our product launch on March 3.,"Post a short message, no longer than 280 characters, saying our product goes live on the third of March.",1,paraphrase,old,0.07225010018296474,False,0.4824530738199545,False
+41,Assign the login bug to Maria and set its priority to high.,Give Maria ownership of the sign-in defect and mark it as high priority.,1,paraphrase,old,0.030644811946277994,False,0.0024445640430270643,False
+42,Answer using only the information in the attached document.,Base your reply exclusively on what is written in the attached file.,1,paraphrase,old,0.022337677858324745,False,0.002322740645824495,False
+43,"Generate five name ideas for a coffee shop, each under three words.","Come up with five possible titles for a cafe, every one shorter than three words.",1,paraphrase,old,0.012501874973939064,False,0.0018587933728345662,False
+44,Draft a message to the supplier in Vietnam asking for a quote on 500 units.,Write to the Vietnamese vendor requesting a price offer for five hundred items.,1,paraphrase,old,0.21806883494906437,False,0.0020946260059683253,False
+45,"Check the code for security vulnerabilities, but do not modify any files.",Inspect the source for security weaknesses without making changes to any file.,1,paraphrase,old,0.053527725876089005,False,0.03445658070926694,False
+46,Cut the video down to 60 seconds and add English subtitles.,Trim the clip to a minute long and put English captions on it.,1,paraphrase,old,0.22143731530644584,False,0.002747005984301887,False
+47,Congratulate Priya on her promotion in a short card.,Write a brief note celebrating Priya's step up to a higher role.,1,paraphrase,old,0.21063928561354472,False,0.0036876929423853566,False
+48,Translate only the headings of the document into Spanish and leave the body in English.,"Put just the section titles of the document into Spanish, keeping the main text in English.",1,paraphrase,old,0.69295257885301,False,0.002936038353055781,False
+49,"Show the monthly sales as a bar chart, grouped by region.","Display each month's revenue in a bar graph, split up by area.",1,paraphrase,old,0.010115001769092524,False,0.002272680823610651,False
+50,Use a maximum of three sentences to describe the product's main benefit.,Describe the product's chief advantage in no more than three sentences.,1,paraphrase,old,0.018921416613145503,False,0.0016483031255344338,False
+51,Apply the discount code only to orders above 50 euros.,The promo code should work solely on purchases that exceed fifty euros.,1,paraphrase,old,0.08279418439525199,False,0.0018106454621106272,False
+52,Keep the tone of the email professional and avoid using emojis.,Make the message sound businesslike and refrain from adding any emoticons.,1,paraphrase,old,0.41069696462818195,False,0.9764991370718489,True
+53,Fix the typos in the first paragraph only.,Correct the spelling errors that appear solely in the opening paragraph.,1,paraphrase,old,0.02802158594768822,False,0.0032918664268505315,False
+54,Create a birthday playlist for my grandmother with songs from the 1960s.,Put together a set of tunes from the sixties for my grandma's birthday.,1,paraphrase,old,0.013223800195075297,False,0.007370227045946809,False
+55,Merge the two branches but do not delete either of them afterwards.,Combine the pair of branches and leave both in place once done.,1,paraphrase,old,0.47387702677901233,False,0.009510232763984772,False
+56,Write a thank-you note to the interviewer after the second round.,Send a note of appreciation to the person who interviewed me following the second stage.,1,paraphrase,old,0.02363854537326837,False,0.0018092254705689426,False
+57,Plan a two-day trip to Prague with a budget of 400 euros.,Sketch out a 48-hour visit to Prague that stays within 400 euros.,1,paraphrase,old,0.5324774681553036,False,0.006174962027941988,False
+58,Remind the team about the deadline three days before it is due.,Give the team a heads-up about the due date 72 hours ahead of it.,1,paraphrase,old,0.23878150617326566,False,0.004030924802853275,False
+59,Share the document with the marketing team with view-only access.,Give the marketing group read-only permission to the file.,1,paraphrase,old,0.7554983486117103,True,0.003308954639661188,False
+60,Cancel my subscription to the streaming service and confirm by email.,Terminate my membership with the video platform and send me an email confirming it.,1,paraphrase,old,0.0458324275327856,False,0.002033552887198975,False
+1,Remind the team to submit their timesheets by Friday.,Let everyone on the team know their timesheets are due on Friday at the latest.,1,paraphrase,fresh,0.03654752762408486,False,0.002965334876287695,False
+2,Summarize the quarterly report in three bullet points.,Condense the quarterly report into three short bullets.,1,paraphrase,fresh,0.03376650441479356,False,0.0025527834260340443,False
+3,Reserve a table for four at an Italian restaurant on Saturday evening.,Book a Saturday evening table for four people at an Italian place.,1,paraphrase,fresh,0.01687970284545892,False,0.0018020752475564894,False
+4,Resize all product images to 800 pixels wide.,Scale every product picture so that it is 800 pixels across.,1,paraphrase,fresh,0.02239529162892462,False,0.0015996182507445056,False
+5,Cancel my gym membership at the end of this month.,Terminate my gym subscription when this month ends.,1,paraphrase,fresh,0.014500299306413611,False,0.0015745445720289908,False
+6,Draft a polite reply declining the invitation.,Write a courteous response turning down the invite.,1,paraphrase,fresh,0.011062898912212571,False,0.001560175891985427,False
+7,Back up the database every night at midnight.,Run a nightly database backup at 12 AM.,1,paraphrase,fresh,0.9934290607166468,True,0.8187550785479452,True
+8,Find the cheapest direct flight from Tokyo to Singapore next month.,Search for the least expensive nonstop flight from Tokyo to Singapore next month.,1,paraphrase,fresh,0.009985634563760448,False,0.0015794784297564757,False
+9,Rename the folder Invoices to Billing.,Change the name of the Invoices folder to Billing.,1,paraphrase,fresh,0.03252984655566571,False,0.002174614956401588,False
+10,Proofread the cover letter and fix any grammar mistakes.,Check the cover letter and correct all grammatical errors.,1,paraphrase,fresh,0.027995301983542276,False,0.0032386940607036507,False
+11,Set a reminder to call the dentist tomorrow morning.,Create a reminder for tomorrow morning to phone the dentist.,1,paraphrase,fresh,0.008900873334917625,False,0.001654373705400558,False
+12,List the three biggest risks in the project plan.,Name the three largest risks in the project plan.,1,paraphrase,fresh,0.009141420402080214,False,0.0017399574648556682,False
+13,Convert the spreadsheet to a PDF and email it to Anna.,Turn the spreadsheet into a PDF file and send it to Anna by email.,1,paraphrase,fresh,0.00801200213025166,False,0.0016385365139934827,False
+14,Turn off notifications between 10 pm and 7 am.,Silence notifications from 10 pm until 7 am.,1,paraphrase,fresh,0.3419297007675045,False,0.002012009652005431,False
+15,Translate the product description into French.,Render the product description in French.,1,paraphrase,fresh,0.10298915150823917,False,0.0018880698666855489,False
+16,Order two pizzas with mushrooms and no onions.,Get two mushroom pizzas without any onions.,1,paraphrase,fresh,0.0068184617273509,False,0.0018924464258502915,False
+17,Check whether the website loads in under two seconds.,Verify that the site takes less than two seconds to load.,1,paraphrase,fresh,0.013542971821795646,False,0.0016271467883284263,False
+18,Delete the temporary files older than thirty days.,Remove temp files that are more than thirty days old.,1,paraphrase,fresh,0.022716819176026415,False,0.0018736146737490245,False
+19,Pick a color palette that works for colorblind users.,Select a color scheme that is accessible to people with color blindness.,1,paraphrase,fresh,0.014485432588131175,False,0.0022166137352515047,False
+20,Ask the vendor for a revised quote including shipping costs.,Request an updated price quote from the vendor that covers shipping.,1,paraphrase,fresh,0.008592686739032906,False,0.002015725230340659,False
+21,Water the plants every other day.,Give the plants water on alternate days.,1,paraphrase,fresh,0.9641345800198046,True,0.17835175414798576,False
+22,Keep the report to a maximum of two pages.,Do not let the report run past two pages.,1,paraphrase,fresh,0.7544196629123782,True,0.005876596463528672,False
+23,Add a dark mode toggle to the settings screen.,Put a switch for dark mode on the settings page.,1,paraphrase,fresh,0.016135498398598513,False,0.0015585433091070966,False
+24,Email the invoice to the client as a PDF attachment.,Send the client the invoice by email with a PDF attached.,1,paraphrase,fresh,0.013546541219404351,False,0.0016118098196203912,False
+25,Pause the advertising campaign until further notice.,Stop running the ad campaign until we say otherwise.,1,paraphrase,fresh,0.9647404792497274,True,0.003038811149414733,False
+26,Update the password and enable two-factor authentication.,Change the password and turn on two-step verification.,1,paraphrase,fresh,0.02012403751549019,False,0.0022254770951941616,False
+27,Share the slide deck with the whole sales team.,Give the entire sales team access to the presentation.,1,paraphrase,fresh,0.992597808070304,True,0.9935209642294374,True
+28,Find a hotel near the conference venue under 150 dollars a night.,Look for a hotel close to the conference site that costs less than 150 dollars per night.,1,paraphrase,fresh,0.007132960042840142,False,0.0019013845909324756,False
+29,Round all prices to the nearest dollar.,Adjust every price to the closest whole dollar.,1,paraphrase,fresh,0.03707263552388207,False,0.0048003122964029865,False
+30,Wake me up at 6:30 tomorrow.,Set my alarm for 6:30 in the morning tomorrow.,1,paraphrase,fresh,0.10053319102961633,False,0.004637659950630146,False
+31,Check the logs for errors from the last hour.,Look through the log files for any errors in the past sixty minutes.,1,paraphrase,fresh,0.07962413680242963,False,0.0031940184817664807,False
+32,Write a short thank-you note to the interviewer.,Compose a brief note thanking the person who interviewed me.,1,paraphrase,fresh,0.04272807014444524,False,0.0020041321653873068,False
+33,Compress the images before uploading them.,Reduce the size of the pictures prior to uploading.,1,paraphrase,fresh,0.9447241301479141,True,0.0021386689671415438,False
+34,Plan a vegetarian menu for six guests.,Put together a meat-free menu for six people.,1,paraphrase,fresh,0.7764899592254895,True,0.002178832985986867,False
+35,Make the title bigger and the subtitle smaller.,Increase the size of the title and decrease the size of the subtitle.,1,paraphrase,fresh,0.03317208363719226,False,0.002465364118581115,False
+36,Review the contract and flag unusual clauses.,Go through the agreement and mark any clauses that look out of the ordinary.,1,paraphrase,fresh,0.01653870781073785,False,0.0022441721691633942,False
+37,Print two copies of the agenda for tomorrow's meeting.,Make a pair of printouts of the agenda for the meeting tomorrow.,1,paraphrase,fresh,0.02325356783637955,False,0.001879051239249141,False
+38,Install the latest security update tonight.,Apply the newest security patch this evening.,1,paraphrase,fresh,0.029775589626510612,False,0.0019217037445885543,False
+39,Ask Priya whether she can cover Thursday's shift.,Check with Priya if she is able to take over the shift on Thursday.,1,paraphrase,fresh,0.01198501480946923,False,0.0015221275933772205,False
+40,Rewrite the introduction in simpler language.,Redo the opening section using plainer wording.,1,paraphrase,fresh,0.03414495694456687,False,0.0019277927170667786,False
+41,Archive all emails from last year.,Move every email from the previous year into the archive.,1,paraphrase,fresh,0.032746559184850144,False,0.001835356388313003,False
+42,Turn the survey results into a bar chart.,Show the survey results as a bar graph.,1,paraphrase,fresh,0.03840152895814786,False,0.0021468956219533597,False
+43,Schedule a follow-up call two weeks after the launch.,Book a follow-up call for fourteen days following the launch.,1,paraphrase,fresh,0.9672782481233122,True,0.49006268318725044,False
+44,Replace the broken link on the homepage.,Fix the dead link on the main page by swapping it for a working one.,1,paraphrase,fresh,0.07352849950803753,False,0.004160171567201831,False
+45,Charge the customer only after the item has shipped.,Wait until the item has been sent out before billing the customer.,1,paraphrase,fresh,0.24521638724174843,False,0.0028804803910251753,False
+46,Walk the new intern through the onboarding checklist.,Guide the new intern step by step through the onboarding list.,1,paraphrase,fresh,0.01373215901157332,False,0.001715790355735436,False
+47,Pick up the dry cleaning on the way home.,Collect the dry cleaning while heading home.,1,paraphrase,fresh,0.008852706516034758,False,0.0015416453999186341,False
+48,Limit the budget to 5000 euros.,Do not spend more than 5000 euros on the budget.,1,paraphrase,fresh,0.059888133876034866,False,0.0058029754867469086,False
+49,Create a backup copy of the file before editing it.,Duplicate the file first as a backup and only then make changes.,1,paraphrase,fresh,0.11780096585745747,False,0.003056814226630511,False
+50,Give the presentation in English but keep the handout in German.,Present in English while leaving the handout in German.,1,paraphrase,fresh,0.11833918793430265,False,0.0019996289484933705,False
+51,Explain the refund policy to the customer in plain words.,Describe the refund rules to the customer using simple language.,1,paraphrase,fresh,0.013683674312167216,False,0.0015128146466417691,False
+52,Turn the lights off when the last person leaves.,Switch off the lights once everyone has left.,1,paraphrase,fresh,0.010119694501562693,False,0.005194678772723504,False
+53,Reply to every comment on the blog post.,Respond to each comment that was left on the blog entry.,1,paraphrase,fresh,0.02080807239104676,False,0.0016940313216394776,False
+54,Add the new employee to the payroll system by Monday.,Enter the new hire into the payroll system no later than Monday.,1,paraphrase,fresh,0.014470391614042732,False,0.001947495270066324,False
+55,Hide the prices from the public page but keep them in the admin view.,Remove prices from the public page while still showing them in the admin view.,1,paraphrase,fresh,0.03339586826526664,False,0.003763477776866253,False
+56,Restart the server only if the memory usage exceeds 90 percent.,Reboot the server solely when memory usage goes above 90 percent.,1,paraphrase,fresh,0.07896935142586592,False,0.0019277133305832805,False
+57,Send a weekly summary to the manager every Friday afternoon.,Every Friday afternoon email the manager a summary of the week.,1,paraphrase,fresh,0.010469712331122816,False,0.002126580706839354,False
+58,Unsubscribe me from all marketing emails except order updates.,Stop all promotional emails to me but keep the order update emails coming.,1,paraphrase,fresh,0.2896918024049635,False,0.00730840172244096,False
+59,Sort the contacts alphabetically by last name.,Order the contact list from A to Z using surnames.,1,paraphrase,fresh,0.37989352709672464,False,0.0015526752598993276,False
+60,Take a screenshot of the error and attach it to the ticket.,Capture the error on screen and add the image to the ticket.,1,paraphrase,fresh,0.4810544065836688,False,0.00263568522083113,False
+61,Send the quote to the customer today.,Do not send the quote to the customer today.,3,negation,fresh,0.9980829577737761,True,0.9999057342278528,True
+62,Include the attachment in the email.,Do not include the attachment in the email.,3,negation,fresh,0.9986113660234481,True,0.9999700913031625,True
+63,Turn on automatic updates.,Do not turn on automatic updates.,3,negation,fresh,0.9975191027527323,True,0.9999525247856965,True
+64,Approve the expense report.,Do not approve the expense report.,3,negation,fresh,0.9983715125073873,True,0.9999469922847752,True
+65,Share the file with external contractors.,Never share the file with external contractors.,3,negation,fresh,0.9982251128048167,True,0.999894102515799,True
+66,Use emojis in the announcement.,Avoid using emojis in the announcement.,3,negation,fresh,0.9978207863069254,True,0.9999212855553617,True
+67,Book the refundable ticket.,Do not book the refundable ticket.,3,negation,fresh,0.9981112477562094,True,0.9997680899182497,True
+68,Notify the customer about the delay.,Do not notify the customer about the delay.,3,negation,fresh,0.9974253453542845,True,0.9997516430681509,True
+69,Merge the branch before the release.,Do not merge the branch before the release.,3,negation,fresh,0.9980300252430545,True,0.9999279250160267,True
+70,Keep the old version of the file.,Do not keep the old version of the file.,3,negation,fresh,0.9978578396595094,True,0.9999597085841415,True
+71,Order 20 chairs for the new office.,Order 200 chairs for the new office.,3,number,fresh,0.99825415768666,True,0.9999469644884381,True
+72,Schedule the meeting for 3 pm.,Schedule the meeting for 5 pm.,3,number,fresh,0.9984397129587985,True,0.9999569377806186,True
+73,Transfer 150 euros to the landlord.,Transfer 1500 euros to the landlord.,3,number,fresh,0.9966728904989383,True,0.9998965566796618,True
+74,Invite five engineers to the workshop.,Invite fifteen engineers to the workshop.,3,number,fresh,0.9992239469157739,True,0.9999460283869053,True
+75,Set the timer for ten minutes.,Set the timer for forty minutes.,3,number,fresh,0.9992045600898877,True,0.9999580620567354,True
+76,Limit the summary to 100 words.,Limit the summary to 1000 words.,3,number,fresh,0.9962196361634016,True,0.999978340839398,True
+77,Print three copies of the contract.,Print thirty copies of the contract.,3,number,fresh,0.9994008222403308,True,0.9998924844811192,True
+78,Book a hotel for two nights.,Book a hotel for seven nights.,3,number,fresh,0.9993655163645365,True,0.9999537977931308,True
+79,Apply a 10 percent discount to the order.,Apply a 50 percent discount to the order.,3,number,fresh,0.9993259412865582,True,0.9999512755633535,True
+80,Reserve the room from 9 am to 11 am.,Reserve the room from 9 am to 1 pm.,3,number,fresh,0.9544129271273728,True,0.9997000035648627,True
+81,Send the invoice to Daniel.,Send the invoice to Marcus.,3,entity,fresh,0.9970038590840802,True,0.9999453978583357,True
+82,Book a flight to Lisbon.,Book a flight to Madrid.,3,entity,fresh,0.9996215478535475,True,0.999955968734752,True
+83,Upload the report to Dropbox.,Upload the report to Google Drive.,3,entity,fresh,0.9984129807100567,True,0.99996274987736,True
+84,Schedule a call with the Toyota team.,Schedule a call with the Honda team.,3,entity,fresh,0.9991031215541135,True,0.9999821592490126,True
+85,Order the laptop from Dell.,Order the laptop from Lenovo.,3,entity,fresh,0.9996328170576907,True,0.9999772338278966,True
+86,Ask Sofia to review the design.,Ask Elena to review the design.,3,entity,fresh,0.9929580139417218,True,0.999957740404115,True
+87,Add the event to the Outlook calendar.,Add the event to the Google calendar.,3,entity,fresh,0.9990341897302176,True,0.9999857746880122,True
+88,Translate the brochure into Japanese.,Translate the brochure into Korean.,3,entity,fresh,0.9996113538674444,True,0.999979309480005,True
+89,Pay the supplier in Poland.,Pay the supplier in Portugal.,3,entity,fresh,0.9996844213123929,True,0.9997432869916453,True
+90,Message the Berlin office about the outage.,Message the Vienna office about the outage.,3,entity,fresh,0.9993832797549527,True,0.9999730070238911,True
+91,Delete the draft emails from last week.,Delete all emails from last week.,3,scope,fresh,0.9941826295777529,True,0.9995568147273478,True
+92,Update the footer of the website.,Update every page of the website.,3,scope,fresh,0.9952010633101062,True,0.9997846753960354,True
+93,Email the summary to the project leads.,Email the summary to the whole company.,3,scope,fresh,0.9893180544095534,True,0.9998800121368145,True
+94,Reset the password for one user.,Reset the passwords for all users.,3,scope,fresh,0.999064246011698,True,0.9999890349537378,True
+95,Apply the discount to the winter jackets.,Apply the discount to every item in the store.,3,scope,fresh,0.998786195050166,True,0.9999512374014974,True
+96,Back up all photos on the laptop.,Back up the photos from the vacation.,3,scope,fresh,0.9970214039577453,True,0.9998035443582951,True
+97,Fix the typos on every page.,Fix the typos on the first page.,3,scope,fresh,0.9913199250379295,True,0.9990402048052919,True
+98,Remove duplicates from the customer list for every country.,Remove duplicates from the customer list for Germany.,3,scope,fresh,0.9956969305483953,True,0.9997991648358752,True
+99,Give the intern access to all company folders.,Give the intern access to the shared folder.,3,scope,fresh,0.9970155664718977,True,0.9996741578123455,True
+100,Cancel all meetings this week.,Cancel Tuesday's meeting.,3,scope,fresh,0.9736481411667555,True,0.9999453748265503,True

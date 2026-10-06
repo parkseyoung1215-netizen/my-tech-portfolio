@@ -1,0 +1,101 @@
+id,intent,state,level,kind
+1,Remind the team to submit their timesheets by Friday.,Let everyone on the team know their timesheets are due on Friday at the latest.,1,paraphrase
+2,Summarize the quarterly report in three bullet points.,Condense the quarterly report into three short bullets.,1,paraphrase
+3,Reserve a table for four at an Italian restaurant on Saturday evening.,Book a Saturday evening table for four people at an Italian place.,1,paraphrase
+4,Resize all product images to 800 pixels wide.,Scale every product picture so that it is 800 pixels across.,1,paraphrase
+5,Cancel my gym membership at the end of this month.,Terminate my gym subscription when this month ends.,1,paraphrase
+6,Draft a polite reply declining the invitation.,Write a courteous response turning down the invite.,1,paraphrase
+7,Back up the database every night at midnight.,Run a nightly database backup at 12 AM.,1,paraphrase
+8,Find the cheapest direct flight from Tokyo to Singapore next month.,Search for the least expensive nonstop flight from Tokyo to Singapore next month.,1,paraphrase
+9,Rename the folder Invoices to Billing.,Change the name of the Invoices folder to Billing.,1,paraphrase
+10,Proofread the cover letter and fix any grammar mistakes.,Check the cover letter and correct all grammatical errors.,1,paraphrase
+11,Set a reminder to call the dentist tomorrow morning.,Create a reminder for tomorrow morning to phone the dentist.,1,paraphrase
+12,List the three biggest risks in the project plan.,Name the three largest risks in the project plan.,1,paraphrase
+13,Convert the spreadsheet to a PDF and email it to Anna.,Turn the spreadsheet into a PDF file and send it to Anna by email.,1,paraphrase
+14,Turn off notifications between 10 pm and 7 am.,Silence notifications from 10 pm until 7 am.,1,paraphrase
+15,Translate the product description into French.,Render the product description in French.,1,paraphrase
+16,Order two pizzas with mushrooms and no onions.,Get two mushroom pizzas without any onions.,1,paraphrase
+17,Check whether the website loads in under two seconds.,Verify that the site takes less than two seconds to load.,1,paraphrase
+18,Delete the temporary files older than thirty days.,Remove temp files that are more than thirty days old.,1,paraphrase
+19,Pick a color palette that works for colorblind users.,Select a color scheme that is accessible to people with color blindness.,1,paraphrase
+20,Ask the vendor for a revised quote including shipping costs.,Request an updated price quote from the vendor that covers shipping.,1,paraphrase
+21,Water the plants every other day.,Give the plants water on alternate days.,1,paraphrase
+22,Keep the report to a maximum of two pages.,Do not let the report run past two pages.,1,paraphrase
+23,Add a dark mode toggle to the settings screen.,Put a switch for dark mode on the settings page.,1,paraphrase
+24,Email the invoice to the client as a PDF attachment.,Send the client the invoice by email with a PDF attached.,1,paraphrase
+25,Pause the advertising campaign until further notice.,Stop running the ad campaign until we say otherwise.,1,paraphrase
+26,Update the password and enable two-factor authentication.,Change the password and turn on two-step verification.,1,paraphrase
+27,Share the slide deck with the whole sales team.,Give the entire sales team access to the presentation.,1,paraphrase
+28,Find a hotel near the conference venue under 150 dollars a night.,Look for a hotel close to the conference site that costs less than 150 dollars per night.,1,paraphrase
+29,Round all prices to the nearest dollar.,Adjust every price to the closest whole dollar.,1,paraphrase
+30,Wake me up at 6:30 tomorrow.,Set my alarm for 6:30 in the morning tomorrow.,1,paraphrase
+31,Check the logs for errors from the last hour.,Look through the log files for any errors in the past sixty minutes.,1,paraphrase
+32,Write a short thank-you note to the interviewer.,Compose a brief note thanking the person who interviewed me.,1,paraphrase
+33,Compress the images before uploading them.,Reduce the size of the pictures prior to uploading.,1,paraphrase
+34,Plan a vegetarian menu for six guests.,Put together a meat-free menu for six people.,1,paraphrase
+35,Make the title bigger and the subtitle smaller.,Increase the size of the title and decrease the size of the subtitle.,1,paraphrase
+36,Review the contract and flag unusual clauses.,Go through the agreement and mark any clauses that look out of the ordinary.,1,paraphrase
+37,Print two copies of the agenda for tomorrow's meeting.,Make a pair of printouts of the agenda for the meeting tomorrow.,1,paraphrase
+38,Install the latest security update tonight.,Apply the newest security patch this evening.,1,paraphrase
+39,Ask Priya whether she can cover Thursday's shift.,Check with Priya if she is able to take over the shift on Thursday.,1,paraphrase
+40,Rewrite the introduction in simpler language.,Redo the opening section using plainer wording.,1,paraphrase
+41,Archive all emails from last year.,Move every email from the previous year into the archive.,1,paraphrase
+42,Turn the survey results into a bar chart.,Show the survey results as a bar graph.,1,paraphrase
+43,Schedule a follow-up call two weeks after the launch.,Book a follow-up call for fourteen days following the launch.,1,paraphrase
+44,Replace the broken link on the homepage.,Fix the dead link on the main page by swapping it for a working one.,1,paraphrase
+45,Charge the customer only after the item has shipped.,Wait until the item has been sent out before billing the customer.,1,paraphrase
+46,Walk the new intern through the onboarding checklist.,Guide the new intern step by step through the onboarding list.,1,paraphrase
+47,Pick up the dry cleaning on the way home.,Collect the dry cleaning while heading home.,1,paraphrase
+48,Limit the budget to 5000 euros.,Do not spend more than 5000 euros on the budget.,1,paraphrase
+49,Create a backup copy of the file before editing it.,Duplicate the file first as a backup and only then make changes.,1,paraphrase
+50,Give the presentation in English but keep the handout in German.,Present in English while leaving the handout in German.,1,paraphrase
+51,Explain the refund policy to the customer in plain words.,Describe the refund rules to the customer using simple language.,1,paraphrase
+52,Turn the lights off when the last person leaves.,Switch off the lights once everyone has left.,1,paraphrase
+53,Reply to every comment on the blog post.,Respond to each comment that was left on the blog entry.,1,paraphrase
+54,Add the new employee to the payroll system by Monday.,Enter the new hire into the payroll system no later than Monday.,1,paraphrase
+55,Hide the prices from the public page but keep them in the admin view.,Remove prices from the public page while still showing them in the admin view.,1,paraphrase
+56,Restart the server only if the memory usage exceeds 90 percent.,Reboot the server solely when memory usage goes above 90 percent.,1,paraphrase
+57,Send a weekly summary to the manager every Friday afternoon.,Every Friday afternoon email the manager a summary of the week.,1,paraphrase
+58,Unsubscribe me from all marketing emails except order updates.,Stop all promotional emails to me but keep the order update emails coming.,1,paraphrase
+59,Sort the contacts alphabetically by last name.,Order the contact list from A to Z using surnames.,1,paraphrase
+60,Take a screenshot of the error and attach it to the ticket.,Capture the error on screen and add the image to the ticket.,1,paraphrase
+61,Send the quote to the customer today.,Do not send the quote to the customer today.,3,negation
+62,Include the attachment in the email.,Do not include the attachment in the email.,3,negation
+63,Turn on automatic updates.,Do not turn on automatic updates.,3,negation
+64,Approve the expense report.,Do not approve the expense report.,3,negation
+65,Share the file with external contractors.,Never share the file with external contractors.,3,negation
+66,Use emojis in the announcement.,Avoid using emojis in the announcement.,3,negation
+67,Book the refundable ticket.,Do not book the refundable ticket.,3,negation
+68,Notify the customer about the delay.,Do not notify the customer about the delay.,3,negation
+69,Merge the branch before the release.,Do not merge the branch before the release.,3,negation
+70,Keep the old version of the file.,Do not keep the old version of the file.,3,negation
+71,Order 20 chairs for the new office.,Order 200 chairs for the new office.,3,number
+72,Schedule the meeting for 3 pm.,Schedule the meeting for 5 pm.,3,number
+73,Transfer 150 euros to the landlord.,Transfer 1500 euros to the landlord.,3,number
+74,Invite five engineers to the workshop.,Invite fifteen engineers to the workshop.,3,number
+75,Set the timer for ten minutes.,Set the timer for forty minutes.,3,number
+76,Limit the summary to 100 words.,Limit the summary to 1000 words.,3,number
+77,Print three copies of the contract.,Print thirty copies of the contract.,3,number
+78,Book a hotel for two nights.,Book a hotel for seven nights.,3,number
+79,Apply a 10 percent discount to the order.,Apply a 50 percent discount to the order.,3,number
+80,Reserve the room from 9 am to 11 am.,Reserve the room from 9 am to 1 pm.,3,number
+81,Send the invoice to Daniel.,Send the invoice to Marcus.,3,entity
+82,Book a flight to Lisbon.,Book a flight to Madrid.,3,entity
+83,Upload the report to Dropbox.,Upload the report to Google Drive.,3,entity
+84,Schedule a call with the Toyota team.,Schedule a call with the Honda team.,3,entity
+85,Order the laptop from Dell.,Order the laptop from Lenovo.,3,entity
+86,Ask Sofia to review the design.,Ask Elena to review the design.,3,entity
+87,Add the event to the Outlook calendar.,Add the event to the Google calendar.,3,entity
+88,Translate the brochure into Japanese.,Translate the brochure into Korean.,3,entity
+89,Pay the supplier in Poland.,Pay the supplier in Portugal.,3,entity
+90,Message the Berlin office about the outage.,Message the Vienna office about the outage.,3,entity
+91,Delete the draft emails from last week.,Delete all emails from last week.,3,scope
+92,Update the footer of the website.,Update every page of the website.,3,scope
+93,Email the summary to the project leads.,Email the summary to the whole company.,3,scope
+94,Reset the password for one user.,Reset the passwords for all users.,3,scope
+95,Apply the discount to the winter jackets.,Apply the discount to every item in the store.,3,scope
+96,Back up all photos on the laptop.,Back up the photos from the vacation.,3,scope
+97,Fix the typos on every page.,Fix the typos on the first page.,3,scope
+98,Remove duplicates from the customer list for every country.,Remove duplicates from the customer list for Germany.,3,scope
+99,Give the intern access to all company folders.,Give the intern access to the shared folder.,3,scope
+100,Cancel all meetings this week.,Cancel Tuesday's meeting.,3,scope

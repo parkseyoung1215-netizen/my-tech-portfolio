@@ -1,0 +1,4 @@
+,MiniLM (threshold 0.75),DeBERTa (threshold 0.5)
+false alarm (paraphrase),"3.3%  [0.0%, 8.3%]","10.0%  [3.3%, 18.3%]"
+"detection (7 drift kinds, mean)","98.0%  [95.3%, 100.0%]","100.0%  [100.0%, 100.0%]"
+swaps detected,"10.0%  [0.0%, 23.3%]","96.7%  [90.0%, 100.0%]"

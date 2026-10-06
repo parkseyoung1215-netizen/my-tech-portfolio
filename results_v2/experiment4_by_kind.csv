@@ -1,0 +1,7 @@
+kind,A: 1-entail,B: contradiction,"C: 1-min(fwd,rev)"
+identical,0.0,0.0,0.0
+paraphrase,0.12,0.03,0.28
+negation,1.0,0.93,1.0
+number,1.0,1.0,1.0
+entity,0.88,0.88,0.88
+scope,1.0,1.0,1.0
