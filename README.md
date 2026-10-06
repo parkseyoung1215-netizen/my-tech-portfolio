@@ -379,6 +379,29 @@ how it would do on real agent output.
 
 **Limitations.** The intervals reflect sampling noise on this test set only, not any bias in how the sentences were written. The thresholds differ between the two models.
 
+## Experiment 9: Fresh out-of-sample test with frozen thresholds
+
+**Question.** Experiments 4–8 chose thresholds and compared models on the same 360 pairs. Do the results hold on sentences neither the thresholds nor my earlier analysis ever saw?
+
+**Setup.** I wrote 100 new pairs (`testset_fresh.csv`): 60 paraphrases and 40 violations (10 each of negation, number, entity, scope; scope has 5 broadening and 5 narrowing cases). Thresholds were fixed before running (MiniLM 0.75, DeBERTa 0.5) and the set was run once. Scorer A (1 − P(entailment)), same prefix as before. I also pooled the new paraphrases with the 60 old ones (n = 120). Intervals are bootstrap 95% CIs.
+
+**Results.**
+
+| | MiniLM (0.75) | DeBERTa (0.5) |
+|---|---|---|
+| False alarm, new paraphrases (n=60) | 13.3% [5.0, 21.7] | 3.3% [0.0, 8.3] |
+| False alarm, old + new pooled (n=120) | 8.3% [4.1, 14.2] | 6.7% [2.5, 11.7] |
+| Detection, new violations (n=40) | 100% [100, 100] | 100% [100, 100] |
+
+**What this shows.**
+- Both models flagged all 40 new violations, including scope broadening and narrowing. This set cannot separate the models, because these violation types are the easy ones.
+- On the old paraphrases MiniLM had 2/60 false alarms and DeBERTa 6/60. On the new ones it was 8/60 and 2/60. The ranking flipped, and the pooled intervals overlap, so I cannot say which model has fewer false alarms. What is clear is that the false-alarm rate depends heavily on which paraphrases are used.
+- 3 of MiniLM's 8 new false alarms re-express a quantity or time in other words (e.g. "midnight" vs "12 AM", "two weeks" vs "fourteen days"). This is an observation, not a tested explanation.
+- Two paraphrases (ids 7 and 27) were flagged by both models; by my reading they are valid paraphrases.
+
+**Limits.** I wrote the new sentences myself with an AI's help, in the same style as the first set, so this is not a test on real AI outputs. The violations are simple single edits. I did not test real outputs from a deployed assistant, larger models, or harder drift types; those remain untested.
+
+
 ### How to reproduce
 
 ```
