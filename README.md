@@ -443,6 +443,22 @@ how it would do on real agent output.
 **Limits.** One generator (`gpt-4o-mini`), one summarizer, 14 rule-breaking outputs, and one family of rules (format and wording constraints). This does not say anything about other kinds of drift.
 
 
+## Experiment 12: Do the summaries keep the counts?
+
+**Question.** In Experiments 10–11 I guessed that the summary step drops the details needed to check a request's rules. I checked the simplest case: counts.
+
+**Setup.** For the 88 outputs, I looked for summaries that state a word count or a sentence count (a digit or a number word up to ten, followed by "word(s)" or "sentence(s)") and compared the stated number with the real count (`check_summary_counts.py`). Words are alphanumeric tokens, with internal hyphens and apostrophes kept.
+
+| | Summaries stating a count | Equal to the real count | Mean absolute error | Max error |
+|---|---|---|---|---|
+| Word count | 62 / 88 | 2 / 62 (3%) | 5.9 words | 32 words |
+| Sentence count | 28 / 88 | 17 / 28 (61%) | 0.9 sentences | 4 sentences |
+
+**What this shows.** When a summary states a word count it is almost always wrong, so a rule like "exactly 40 words" cannot be checked from this kind of summary. This supports, but does not prove, my explanation for Experiments 10–11. Sentence counts were more reliable but still wrong in 39% of cases.
+
+**Limits.** Exact equality is strict (a summary saying "about 30 words" counts as wrong). My word counter may differ slightly from the summarizer's convention for hyphens and emoji. I did not test other rule types such as banned words or letters, and I used one summarizer model.
+
+
 ### How to reproduce
 
 ```
