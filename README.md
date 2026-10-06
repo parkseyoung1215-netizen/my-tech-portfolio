@@ -407,6 +407,41 @@ how it would do on real agent output.
 **Limits.** I wrote the new sentences myself with an AI's help, in the same style as the first set, so this is not a test on real AI outputs. The violations are simple single edits. I did not test real outputs from a deployed assistant, larger models, or harder drift types; those remain untested.
 
 
+## Experiment 10: Real outputs from an AI model
+
+**Question.** Everything so far used sentences I wrote. Does the same approach separate outputs that follow a request from outputs that break it, when the outputs come from a real model?
+
+**Setup.** I gave `gpt-4o-mini` (temperature 1.0) two sets of requests with checkable rules: 50 "easy" requests (e.g. "exactly two sentences", "do not use the word X") and 40 "hard" requests designed to make it fail (exact word counts, banned letters, several rules at once). A second model call summarized each output in one sentence. I then scored request vs. summary with scorer A and the thresholds frozen earlier (MiniLM 0.75, DeBERTa 0.5).
+
+**Labels.** Hard set: computed by code from the rules (no human judgment). Easy set: assigned by an AI assistant (Claude) reading the outputs, with word counts for 6 borderline rows checked by script; 2 ambiguous rows were excluded. Counts: 74 outputs followed all rules, 14 broke at least one (easy: 2, hard: 12). AUC treats rule-breaking as the positive class.
+
+| | MiniLM | DeBERTa |
+|---|---|---|
+| Compliant outputs flagged (all 74) | 91.9% [85.1, 97.3] | 100% [100, 100] |
+| Rule-breaking outputs flagged (all 14) | 100% | 100% |
+| AUC, all | 0.530 [0.394, 0.665] | 0.599 [0.448, 0.745] |
+| AUC, hard set | 0.455 [0.283, 0.628] | 0.476 [0.283, 0.670] |
+
+**What this shows.** Almost every output was flagged, so the 100% detection is meaningless, and the AUC intervals include 0.5: I found no evidence that either model's score separates the two groups. My untested guess was a format mismatch (a summary describes a text, a request is a command).
+
+## Experiment 11: Rewriting both sides as "what the assistant did"
+
+**Question.** Does the failure in Experiment 10 come from that format mismatch?
+
+**Setup.** Same 88 outputs. The summary was rewritten as one sentence starting "The assistant ..." (what it did, including length and format), and each request was rewritten as one sentence describing what a fully correct response would have done. Same scorer, frozen thresholds, one run. I decided in advance: if the AUC interval excludes 0.5, the hypothesis is partly supported; otherwise not.
+
+| | MiniLM | DeBERTa |
+|---|---|---|
+| Compliant flagged | 83.8% [75.7, 91.9] | 90.5% [83.8, 96.0] |
+| Rule-breaking flagged | 92.9% [78.6, 100] | 92.9% [78.6, 100] |
+| AUC, all | 0.446 [0.286, 0.602] | 0.620 [0.460, 0.766] |
+| AUC, hard set | 0.405 [0.193, 0.631] | 0.580 [0.375, 0.765] |
+
+**What this shows.** The hypothesis is not supported: matching the format did not help, and all AUC intervals still include 0.5. With only 14 rule-breaking outputs the intervals are wide, so a modest effect cannot be ruled out. A possible cause I have not tested is that the summary step drops the details needed to check the rules (exact counts, excluded letters).
+
+**Limits.** One generator (`gpt-4o-mini`), one summarizer, 14 rule-breaking outputs, and one family of rules (format and wording constraints). This does not say anything about other kinds of drift.
+
+
 ### How to reproduce
 
 ```
