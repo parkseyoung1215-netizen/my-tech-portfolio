@@ -9,7 +9,13 @@ Small, reproducible experiments on one question: when an AI system's output
 drifts away from the instruction it was given, can a cheap automatic score
 detect it? I compare embedding similarity and an NLI model on a hand-built
 360-pair test set, and record what worked, what didn't, and where the methods
-fail (Experiments 1–4 below). All results come from synthetic data.
+fail (Experiments 1–6 below). All results come from synthetic data.
+
+**Key findings (Experiments 4–6)**
+1. Scoring with the contradiction probability only looked better at first (fewer false alarms) but missed drift that is not a contradiction (0% of dropped-part cases).
+2. With a threshold chosen on one half of the data, the plain 1 − P(entailment) score gave 3.8% false alarms and 97.6% detection on the other half (small model).
+3. The small NLI model could not tell direction swaps from paraphrases (AUC 0.48); a larger model could (AUC 0.96).
+4. Two of my early conclusions turned out to be wrong and were corrected after further tests. The corrections are recorded in each write-up.
 
 
 # Semantic Alignment & Intent Preservation
@@ -286,19 +292,6 @@ violation kind; one NLI model. Results show what happened on this test set, not
 how it would do on real agent output.
 
 
-### How to reproduce
-
-```
-pip install sentence-transformers pandas numpy matplotlib
-python3 evaluate_drift.py testset_v2.csv results_v2
-python3 evaluate_nli.py testset_v2.csv results_v2
-python3 evaluate_nli_v3.py testset_v2.csv results_v2
-python3 evaluate_heldout.py results_v2/scores_nli_v3.csv
-```
-
-Steps run in this order: embedding scores, NLI scores (experiment 3), scoring rules (experiment 4), then the split-half threshold check.
-
-
 ### Experiment 5 — Can the NLI score catch direction swaps?
 
 **Question.** In Experiment 4, two "entity" cases were missed: same words, but the direction or roles were reversed (Seoul→Berlin vs Berlin→Seoul). Is that a one-off, or a systematic blind spot?
@@ -342,3 +335,17 @@ Steps run in this order: embedding scores, NLI scores (experiment 3), scoring ru
 4. Not measured: speed and cost of the larger model. Not checked: whether DeBERTa's false alarms are model errors or questionable paraphrase labels.
 
 **Limitations.** 30 AI-written swap sentences; two models; thresholds not tuned per model.
+
+### How to reproduce
+
+```
+pip install sentence-transformers pandas numpy matplotlib
+python3 evaluate_drift.py testset_v2.csv results_v2
+python3 evaluate_nli.py testset_v2.csv results_v2
+python3 evaluate_nli_v3.py testset_v2.csv results_v2
+python3 evaluate_heldout.py results_v2/scores_nli_v3.csv
+python3 evaluate_swap.py
+python3 evaluate_models.py
+```
+
+Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder.
