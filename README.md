@@ -336,6 +336,28 @@ how it would do on real agent output.
 
 **Limitations.** 30 AI-written swap sentences; two models; thresholds not tuned per model.
 
+
+### Experiment 7 — Choosing the threshold per model
+
+**Question.** Experiment 6 showed that DeBERTa catches direction swaps, but its false alarms did not fall at 0.75. Which threshold does each model need, and why does DeBERTa keep raising false alarms?
+
+**Setup.** Same test sets. For each model, the threshold for scorer A was chosen on one random half of the test set (200 splits) and measured on the other half. The 30 direction swaps were not used to choose the threshold.
+
+| | MiniLM | DeBERTa-v3-base |
+|------|------|------|
+| Threshold chosen (mean ± sd) | 0.75 ± 0.07 | 0.62 ± 0.32 |
+| Held-out false alarm (paraphrase) | 3.8% | 11.2% |
+| Held-out detection (7 drift kinds) | 97.6% | 99.9% |
+| Swaps detected at that threshold | 8.2% | 94.9% |
+
+**Findings.**
+1. MiniLM is quiet but blind to direction swaps; DeBERTa catches almost everything but raises more false alarms. Neither is better on all three measures.
+2. DeBERTa's threshold is unstable (sd 0.32): its scores are mostly close to 0 or 1, so many thresholds give almost the same result and the choice is close to arbitrary.
+3. DeBERTa flagged 6 paraphrases with scores of 0.87–1.00. By my reading, five of them look like valid paraphrases (for example "approve it only if all tests pass" → "sign off on it solely when every test succeeds"); one (kitchen → break room) is a questionable label. Most of its false alarms therefore look like strictness about heavily reworded sentences, which a higher threshold cannot fix.
+4. MiniLM scored these six paraphrases low (0.06–0.41, except the kitchen pair) but also scored most direction swaps low, so MiniLM cannot be used to tell DeBERTa's false alarms from real swaps. A combined rule was not tested.
+
+**Limitations.** Same small, partly AI-written test set; "valid paraphrase" is my own judgment; two models.
+
 ### How to reproduce
 
 ```
