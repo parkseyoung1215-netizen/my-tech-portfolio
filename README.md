@@ -351,12 +351,33 @@ how it would do on real agent output.
 | Swaps detected at that threshold | 8.2% | 94.9% |
 
 **Findings.**
-1. MiniLM is quiet but blind to direction swaps; DeBERTa catches almost everything but raises more false alarms. Neither is better on all three measures.
+1. MiniLM is blind to direction swaps; DeBERTa catches almost everything. DeBERTa's false alarm rate looks higher (see Experiment 8: this difference is within noise). Only the swap difference is clearly beyond noise.
 2. DeBERTa's threshold is unstable (sd 0.32): its scores are mostly close to 0 or 1, so many thresholds give almost the same result and the choice is close to arbitrary.
 3. DeBERTa flagged 6 paraphrases with scores of 0.87–1.00. By my reading, five of them look like valid paraphrases (for example "approve it only if all tests pass" → "sign off on it solely when every test succeeds"); one (kitchen → break room) is a questionable label. Most of its false alarms therefore look like strictness about heavily reworded sentences, which a higher threshold cannot fix.
 4. MiniLM scored these six paraphrases low (0.06–0.41, except the kitchen pair) but also scored most direction swaps low, so MiniLM cannot be used to tell DeBERTa's false alarms from real swaps. A combined rule was not tested.
 
 **Limitations.** Same small, partly AI-written test set; "valid paraphrase" is my own judgment; two models.
+
+
+### Experiment 8 — How much do these numbers move? (confidence intervals)
+
+**Question.** With 13–60 rows per kind, which differences between the two models are larger than sampling noise?
+
+**Setup.** 95% bootstrap intervals (2,000 resamples, rows resampled within each kind). Thresholds fixed in advance: MiniLM 0.75 (the mean chosen in Experiment 7), DeBERTa 0.5 (default).
+
+| Measure | MiniLM (0.75) | DeBERTa (0.5) |
+|------|------|------|
+| False alarm (60 paraphrases) | 3.3% [0.0, 8.3] | 10.0% [3.3, 18.3] |
+| Detection (7 drift kinds, mean) | 98.0% [95.3, 100] | 100% [100, 100] |
+| Swaps detected (30 pairs) | 10.0% [0.0, 23.3] | 96.7% [90.0, 100] |
+
+**Findings.**
+1. Only the swap result is clearly beyond noise: the intervals do not overlap (0–23% vs 90–100%).
+2. The false-alarm difference (3.3% vs 10.0%) looks large, but the intervals overlap, so I cannot say that DeBERTa raises more false alarms on this test set. Detection on the 7 drift kinds also overlaps.
+3. DeBERTa's detection interval is [100%, 100%] only because every drift row was caught in this sample; the true rate is not exactly 100%.
+4. This corrects the wording of Experiments 6 and 7: "DeBERTa has more false alarms" is a suggestion, not a result.
+
+**Limitations.** The intervals reflect sampling noise on this test set only, not any bias in how the sentences were written. The thresholds differ between the two models.
 
 ### How to reproduce
 
