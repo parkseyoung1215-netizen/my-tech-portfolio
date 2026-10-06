@@ -9,13 +9,18 @@ Small, reproducible experiments on one question: when an AI system's output
 drifts away from the instruction it was given, can a cheap automatic score
 detect it? I compare embedding similarity and an NLI model on a hand-built
 360-pair test set, and record what worked, what didn't, and where the methods
-fail (Experiments 1–6 below). All results come from synthetic data.
+fail (Experiments 1–9 below). All results come from synthetic data.
 
-**Key findings (Experiments 4–6)**
-1. Scoring with the contradiction probability only looked better at first (fewer false alarms) but missed drift that is not a contradiction (0% of dropped-part cases).
-2. With a threshold chosen on one half of the data, the plain 1 − P(entailment) score gave 3.8% false alarms and 97.6% detection on the other half (small model).
-3. The small NLI model could not tell direction swaps from paraphrases (AUC 0.48); a larger model could (AUC 0.96).
-4. Two of my early conclusions turned out to be wrong and were corrected after further tests. The corrections are recorded in each write-up.
+## Key findings (Experiments 4–9)
+
+1. **Contradiction-only scoring missed most non-contradiction drift.** At threshold 0.5 it detected 0% of dropped-part cases, 65% of different-task cases and 90% of unrelated cases, while an entailment-based score caught about 97% overall (Experiment 4).
+2. **A threshold chosen on half the data held up on the other half** (200 random splits, MiniLM): threshold 0.745 ± 0.068, held-out false alarm 3.8%, detection 97.6%. I treat this as exploratory (Experiment 4).
+3. **The small NLI model (MiniLM) is nearly blind to direction swaps** (same words, roles reversed): it detected only 10–13% of 30 swaps, and its AUC for swaps vs. paraphrases was 0.48 (chance). The larger DeBERTa model detected 95–97% (AUC 0.96) (Experiments 5–7).
+4. **With bootstrap intervals, the swap difference is the only model difference clearly beyond noise** (10% [0, 23.3] vs. 96.7% [90, 100]). The false-alarm differences between models overlap and are only suggestive (Experiment 8).
+5. **On 100 fresh pairs with thresholds frozen in advance, both models flagged all 40 violations.** False-alarm rates were 13.3% (MiniLM) and 3.3% (DeBERTa) on the fresh paraphrases, but the order was reversed on the earlier set (3.3% vs. 10%), so I cannot rank them on false alarms (Experiment 9).
+6. **Several of my early conclusions were wrong and are corrected in the write-ups:** "contradiction scoring is best", "NLI cannot detect swaps" (true only for the small model), and "DeBERTa has more false alarms" (not supported once intervals are shown).
+
+**Not tested:** real outputs from deployed AI assistants, larger models, harder drift types. All test sentences were written by me with AI help.
 
 
 # Semantic Alignment & Intent Preservation
@@ -405,13 +410,16 @@ how it would do on real agent output.
 ### How to reproduce
 
 ```
-pip install sentence-transformers pandas numpy matplotlib
-python3 evaluate_drift.py testset_v2.csv results_v2
-python3 evaluate_nli.py testset_v2.csv results_v2
-python3 evaluate_nli_v3.py testset_v2.csv results_v2
-python3 evaluate_heldout.py results_v2/scores_nli_v3.csv
-python3 evaluate_swap.py
+pip install sentence-transformers pandas numpy scikit-learn
+python3 evaluate_drift.py
+python3 evaluate_nli.py
+python3 evaluate_nli_v3.py
+python3 evaluate_heldout.py
+python3 evaluate_swap.py       # needs testset_swap.csv
 python3 evaluate_models.py
+python3 evaluate_models_v2.py
+python3 evaluate_ci.py
+python3 evaluate_fresh.py      # needs testset_v2.csv and testset_fresh.csv
 ```
 
-Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder.
+Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6), per-model thresholds (Experiment 7), bootstrap confidence intervals (Experiment 8), fresh out-of-sample test (Experiment 9). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder; `evaluate_fresh.py` needs `testset_v2.csv` and `testset_fresh.csv`. Results are written to `results_v2/`.
