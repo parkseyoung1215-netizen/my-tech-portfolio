@@ -1,0 +1,138 @@
+id,intent,output,label
+1,Write a product description for a water bottle in exactly two sentences.,"Stay hydrated on-the-go with our sleek, eco-friendly stainless steel water bottle, designed to keep beverages cold for 24 hours and hot for 12. With a spill-proof lid and a stylish, customizable exterior, it’s the perfect companion for both your fitness adventures and everyday hydration needs.",1
+2,"Summarize the benefits of sleep in exactly three bullet points. Do not use the word ""health"".","- Enhances cognitive function, improving memory, problem-solving skills, and creativity.  
+- Boosts emotional well-being, reducing stress and anxiety while promoting a positive mood.  
+- Supports physical recovery and immune system efficiency, helping the body repair and rejuvenate.",1
+3,Write a tweet announcing a new coffee shop. Keep it under 20 words and include no hashtags.,Exciting news! ☕️ We're thrilled to announce the opening of our new coffee shop next week. Can’t wait to serve you!,0
+4,Explain what a database index is in one sentence of at most 25 words.,A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional space.,1
+5,"Write a polite email declining a meeting. Do not use the word ""unfortunately"".","Subject: Meeting Request
+
+Dear [Recipient's Name],
+
+Thank you for reaching out and inviting me to the meeting scheduled for [date and time]. I appreciate the opportunity to discuss [briefly mention the meeting topic].
+
+Regrettably, I will not be able to attend due to prior commitments. I hope to stay updated on any outcomes and would welcome a summary of the discussion if possible.
+
+Thank you for your understanding. I look forward to connecting at another time.
+
+Best regards,
+
+[Your Name]  
+[Your Position]  
+[Your Contact Information]",1
+6,"List five fruits in alphabetical order, separated by semicolons, with no other text.",Apple; Banana; Cherry; Grape; Orange,1
+7,Describe the color blue to a child in exactly four sentences.,"Blue is the color of the sky on a clear sunny day, making everything feel bright and happy. It’s also the color of the ocean, where the water glistens like sparkling gems. Imagine the coolness of a calm breeze; that's how blue can feel, fresh and peaceful. Sometimes, blue is even found in flowers like forget-me-nots, making the world look more beautiful.",1
+8,"Write a haiku about winter and do not use the word ""snow"".","Whispers in the chill,  
+Branches bare against the pale,  
+Silence wraps the night.",1
+9,Give three tips for saving money. Each tip must be under ten words.,"1. Create a monthly budget and stick to it.  
+2. Use coupons and promo codes for purchases.  
+3. Avoid impulse buys; wait 24 hours.",1
+10,"Translate ""Where is the train station?"" into French and Spanish. Give only the two translations, one per line.","Où est la gare ?  
+¿Dónde está la estación de tren?",1
+11,Write a two-sentence horror story set in a library.,"As the librarian arranged the dusty tomes on the shelf, she heard a faint whisper coming from an empty aisle, calling her name. When she turned to investigate, every book in the section began to tremble violently, and the whisper grew louder, revealing something terrifying within the shelves that should never be read.",1
+12,Explain photosynthesis in exactly 40 words.,"Photosynthesis is the process by which green plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into glucose and oxygen. This occurs primarily in chloroplasts, using chlorophyll to capture light energy, essential for sustaining life on Earth.",0
+13,Write a slogan for a bicycle brand in all capital letters and with no punctuation.,RIDE FREE LIVE LIGHT,1
+14,"Name three planets and do not mention Earth, Mars, or Jupiter.","Sure! Three other planets are Venus, Saturn, and Neptune.",1
+15,Write a thank-you note to a teacher in under 30 words.,"Dear [Teacher's Name],  
+Thank you for your unwavering support and inspiration. Your passion for teaching has made a lasting impact on my life. I truly appreciate everything you do!  
+Warm regards,  
+[Your Name]",?
+16,"Describe a sunset in one sentence without using the words ""red"", ""orange"" or ""gold"".","The sky melted into a breathtaking spectrum of vibrant hues as the sun dipped below the horizon, casting a warm glow that enveloped the landscape in tranquility.",1
+17,Give a numbered list of four steps to boil an egg. Each step must start with a verb.,"1. **Place** the eggs in a saucepan and cover them with cold water.
+2. **Bring** the water to a boil over medium heat.
+3. **Reduce** the heat to low and let the eggs simmer for the desired time (about 9-12 minutes, depending on preferred firmness).
+4. **Remove** the eggs from the saucepan and transfer them to an ice bath to cool.",1
+18,Write a four-line poem about a cat where every line begins with the letter C.,"Curled in sunlight, dreams anew,  
+Chasing shadows, playful too.  
+Clever paws and emerald eyes,  
+Cotton-soft, a purr that sighs.",1
+19,Explain gravity to a ten-year-old in at most three sentences.,"Gravity is a force that pulls things toward each other, like how the Earth pulls you down so you don’t float away. It’s what keeps us and everything else on the ground, and it helps the moon stay around the Earth. Imagine if you dropped a ball; it falls to the ground because of gravity!",1
+20,"Write a job title and a one-sentence description for a data analyst role. Do not use the word ""data"" in the description.","**Job Title:** Business Intelligence Analyst
+
+**Description:** This role involves analyzing trends and patterns to provide actionable insights that drive strategic decision-making and enhance operational efficiency.",1
+21,Suggest a name for a bakery and explain it in exactly one sentence.,"**Flourish Bakery** - This name captures the idea of both baking with flour and the notion of growth and prosperity, suggesting that each delicious creation is crafted to nourish both the body and spirit.",1
+22,Write a short apology message to a customer for a late delivery. Mention the order number 4471 and offer a 10 percent discount.,"Subject: Apology for Late Delivery - Order #4471
+
+Dear [Customer's Name],
+
+I sincerely apologize for the delay in delivering your order (#4471). We understand how important it is for you to receive your items on time, and we are sorry for any inconvenience this may have caused.
+
+As a token of our appreciation for your patience, we would like to offer you a 10% discount on your next purchase. Please use the code THANKYOU10 at checkout.
+
+Thank you for your understanding. If you have any further questions or concerns, feel free to reach out.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Company]",1
+23,"List the days of the week in reverse order starting from Sunday, separated by commas, with no other text.","Sunday, Saturday, Friday, Thursday, Wednesday, Tuesday, Monday",1
+24,Write a motivational quote with exactly seven words.,"""Believe in yourself; your potential is limitless.""",1
+25,Describe how to tie a shoe in exactly five numbered steps.,"Sure! Here are five numbered steps to tie a shoe:
+
+1. **Hold the Laces**: Take one lace in each hand and pull them tight to ensure the shoe is snug on your foot.
+
+2. **Cross the Laces**: Cross the left lace over the right lace, forming an ""X"" shape. 
+
+3. **Create the First Knot**: Take the right lace and tuck it under the left lace, pulling it through the gap created at the bottom of the ""X."" Pull both laces tight to secure the knot.
+
+4. **Make a Loop**: Form a loop with one lace (let's say the left lace) by folding it back towards your shoe. 
+
+5. **Wrap and Secure**: With the right lace, wrap it around the base of the loop, then tuck it through the hole formed below the loop. Pull both loops tight to complete the bow.
+
+And you're done!",1
+26,Write a two-line rhyming couplet about the rain.,"In gentle whispers, raindrops fall and dance,  
+A soothing symphony, nature’s sweet romance.",1
+27,Give an example of a metaphor and then an example of a simile. Label each.,"Certainly! 
+
+**Metaphor:** ""Time is a thief.""  
+(This implies that time stealthily takes away moments from our lives, suggesting the loss of opportunities or experiences without using ""like"" or ""as."")
+
+**Simile:** ""Her smile was like a ray of sunshine.""  
+(This compares her smile to sunshine, using ""like"" to make the comparison explicit.)",1
+28,Write a welcome message for a new employee named Priya. Keep it to exactly two sentences and mention the Tuesday orientation.,"Welcome to the team, Priya! We're excited to have you with us and look forward to seeing you at the orientation this Tuesday.",1
+29,"Write a product review of headphones in the first person without using the word ""sound"".","I recently got my hands on a pair of the XYZ headphones, and I have to say, I've been really impressed. First off, the comfort level is outstanding. The cushioned ear cups fit snugly without applying too much pressure, making them perfect for long listening sessions. I often wear them for hours while working or during my daily commute, and I hardly notice they're there.
+
+The design is sleek and modern, which I appreciate. They come in a couple of colors, but I opted for the classic black, which feels timeless and elegant. The build quality also feels robust—definitely not flimsy, which gives me confidence that they’ll withstand a bit of wear and tear.
+
+One of the standout features for me is the battery life. I can go for days without needing to charge them, even with regular use. When I do need to plug them in, the quick charge feature is a nice bonus; just a short charge can give me hours of playtime. 
+
+The connectivity is seamless as well. Pairing with my devices was a breeze, and I’ve experienced no dropouts while moving around my home. The controls are intuitive; I love the tactile response of the buttons – adjusting volume or skipping tracks is easy without fumbling.
+
+Lastly, I should mention the noise isolation. Engaging with my music or podcasts feels immersive, as if I’m in my own little world. Overall, I'm really happy with the XYZ headphones; they've become an essential part of my daily routine, whether I'm working or just relaxing. I'd definitely recommend them to anyone in the market for a reliable, high-quality pair of headphones.",1
+30,"Explain what inflation is in under 50 words and without using the word ""prices"".","Inflation is the rate at which the general level of currency decreases in value, leading to a decline in purchasing power. It results from increased demand, rising production costs, or monetary policies, affecting the cost of goods and services over time.",1
+31,Write a text message inviting a friend to dinner on Friday at 7 pm. Include the restaurant name Luigi's.,Hey! 😊 I’d love for you to join me for dinner at Luigi's this Friday at 7 PM. Let me know if you can make it! 🍝✨,1
+32,"Give three synonyms for ""happy"" in a single line separated by slashes.",Joyful / Elated / Cheerful,1
+33,Write a short bio for a photographer named Lena in the third person in exactly three sentences.,"Lena is a passionate photographer known for her captivating portraits and evocative landscapes. With a keen eye for detail and a love for natural light, she brings an artistic flair to every shoot, capturing the essence of her subjects and surroundings. Based in a vibrant city, Lena continually seeks inspiration in everyday moments, turning the ordinary into extraordinary visual stories.",1
+34,Describe the water cycle using exactly four bullet points.,"- **Evaporation**: Water from rivers, lakes, and oceans heats up and transforms into water vapor, rising into the atmosphere.
+- **Condensation**: Water vapor cools and condenses to form clouds as it rises, gathering into tiny droplets.
+- **Precipitation**: Eventually, the droplets in clouds combine and fall to the Earth as rain, snow, or other forms of precipitation.
+- **Collection**: The water collects in bodies like rivers, lakes, and oceans, replenishing the water sources and continuing the cycle.",1
+35,"Write a question I could ask in a job interview. Do not use the word ""weakness"".",Can you describe a challenge you've faced in a previous role and how you approached it?,1
+36,Write a sentence that contains every vowel at least once and is under 15 words.,A jolly fox jumps quickly over the lazy dog while enjoying vibrant flowers.,1
+37,"Rewrite this sentence in a formal tone: ""Hey, can you send me that file asap?"" Reply with only the rewritten sentence.",Could you please send me that file at your earliest convenience?,1
+38,"Write a fun fact about octopuses in exactly one sentence and do not use the word ""brain"".","Octopuses have three hearts, two of which pump blood to the gills while the third pumps it to the rest of the body!",1
+39,Write a reminder message about a dentist appointment on Monday at 9 am. Keep it under 15 words.,Reminder: Dentist appointment on Monday at 9 AM. Don’t forget!,1
+40,List four renewable energy sources in a bulleted list. Do not include solar.,"- Wind energy
+- Hydropower
+- Biomass
+- Geothermal energy",1
+41,"Write a one-paragraph description of autumn that includes the words ""leaves"" and ""wind"" but not ""cold"".","Autumn arrives in a vibrant tapestry of color as leaves transform into brilliant shades of gold, crimson, and amber, drifting gracefully to the ground with each gentle gust of wind. The air carries a crispness that invigorates the senses, while the rustling foliage dances in harmony with the breeze, creating a soothing symphony of nature’s transition. As the days grow shorter, the sun casts a softer light, illuminating the beauty of this fleeting season, inviting everyone to revel in the rich aromas of harvest and the warmth of cozy gatherings.",1
+42,Explain what an API is in exactly two sentences.,"An API, or Application Programming Interface, is a set of rules and protocols that allow different software applications to communicate with each other. It enables developers to access specific features or data of a service without needing to understand its underlying code.",1
+43,Give two pros and two cons of remote work in a four-line list where each line starts with Pro or Con.,"- Pro: Increased flexibility allows employees to create a work-life balance that suits their needs.  
+- Pro: Reduced commute time leads to cost savings and more time for personal activities.  
+- Con: Potential for isolation and lack of social interaction can affect mental well-being.  
+- Con: Difficulty in separating work from personal life can lead to overworking and burnout.",1
+44,Write a headline for a news story about a city opening a new park. Use at most eight words.,"""City Unveils New Park for Community Enjoyment""",1
+45,Describe your ideal weekend in the second person in exactly three sentences.,"You wake up to the gentle sound of rain tapping against your window, savoring a leisurely morning with a warm cup of coffee in hand. Later, you gather with friends for a cozy afternoon filled with laughter, board games, and homemade treats, creating cherished memories. As the sun sets, you unwind by a crackling fire, wrapped in a soft blanket, reflecting on the joys of the weekend.",1
+46,"Write a riddle whose answer is ""clock"". Do not include the word ""clock"" in the riddle.","I have hands that do not touch,  
+I tell you time, but cannot speak much.  
+I tick and tock without a care,  
+Yet when I stop, all is laid bare.  
+What am I?",1
+47,Give three questions to ask a new neighbor. Number them and keep each under eight words.,"1. What brought you to this neighborhood?  
+2. Do you have any local recommendations?  
+3. How long have you lived here?",1
+48,Write the opening line of a mystery novel that includes a lighthouse and a missing key.,"As the storm battered the cliffs surrounding Blackstone Lighthouse, the old keeper's journal slipped from the desk, revealing a single rusted key tucked within its brittle pages—the key to a secret long buried in the shadow of its flickering beam.",?
+49,"Explain recursion in one sentence that includes the word ""itself"".","Recursion is a programming concept where a function calls itself to solve a problem by breaking it down into smaller, more manageable sub-problems.",1
+50,Write a short goodbye message to a coworker who is leaving. Keep it to two sentences and do not use exclamation marks.,"Wishing you all the best in your new journey. Your contributions will be missed, and we hope you stay in touch.",1
