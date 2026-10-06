@@ -9,19 +9,19 @@ Small, reproducible experiments on one question: when an AI system's output
 drifts away from the instruction it was given, can a cheap automatic score
 detect it? I compare embedding similarity and an NLI model on a hand-built
 360-pair test set, and record what worked, what didn't, and where the methods
-fail (Experiments 1–11 below). All results come from synthetic data.
+fail (Experiments 1–12 below). All results come from synthetic data.
 
-## Key findings (Experiments 4–11)
+## Key findings (Experiments 4–12)
 
 1. **Contradiction-only scoring missed most non-contradiction drift.** At threshold 0.5 it detected 0% of dropped-part cases, 65% of different-task cases and 90% of unrelated cases, while an entailment-based score caught about 97% overall (Experiment 4).
 2. **A threshold chosen on half the data held up on the other half** (200 random splits, MiniLM): threshold 0.745 ± 0.068, held-out false alarm 3.8%, detection 97.6%. I treat this as exploratory (Experiment 4).
 3. **The small NLI model (MiniLM) is nearly blind to direction swaps** (same words, roles reversed): it detected only 10–13% of 30 swaps, and its AUC for swaps vs. paraphrases was 0.48 (chance). The larger DeBERTa model detected 95–97% (AUC 0.96) (Experiments 5–7).
 4. **With bootstrap intervals, the swap difference is the only model difference clearly beyond noise** (10% [0, 23.3] vs. 96.7% [90, 100]). The false-alarm differences between models overlap and are only suggestive (Experiment 8).
 5. **On 100 fresh pairs with thresholds frozen in advance, both models flagged all 40 violations.** False-alarm rates were 13.3% (MiniLM) and 3.3% (DeBERTa) on the fresh paraphrases, but the order was reversed on the earlier set (3.3% vs. 10%), so I cannot rank them on false alarms (Experiment 9).
-6. **On real outputs from an AI model, the approach did not work.** Neither model's score separated outputs that followed a request's rules from outputs that broke them (AUC 0.53–0.62, intervals include 0.5), and 84–100% of compliant outputs were flagged. Rewriting both sides in the same form did not fix it (Experiments 10–11). A likely culprit is that the summary step drops the checkable details, which I have not tested.
+6. **On real outputs from an AI model, the approach did not work.** Neither model's score separated outputs that followed a request's rules from outputs that broke them (AUC 0.53–0.62, intervals include 0.5), and 84–100% of compliant outputs were flagged. Rewriting both sides in the same form did not fix it (Experiments 10–11). When the summaries stated a word count, it matched the real count in only 2 of 62 cases (Experiment 12), which supports the explanation that the summary step loses the details needed to check the rules.
 7. **Several of my early conclusions were wrong and are corrected in the write-ups:** "contradiction scoring is best", "NLI cannot detect swaps" (true only for the small model), and "DeBERTa has more false alarms" (not supported once intervals are shown).
 
-**Not tested:** other generators or summarizers, whether the summaries keep the details needed to check the rules, larger models, harder drift types. The sentence sets in Experiments 1–9 were written by me with AI help.
+**Not tested:** other generators or summarizers, whether the same holds for other rule types (banned words or letters), larger models, harder drift types. The sentence sets in Experiments 1–9 were written by me with AI help.
 
 
 # Semantic Alignment & Intent Preservation
@@ -477,6 +477,7 @@ python3 apply_labels.py
 python3 make_real_hard.py
 python3 evaluate_real.py
 python3 evaluate_real_action.py
+python3 check_summary_counts.py
 ```
 
 Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6), per-model thresholds (Experiment 7), bootstrap confidence intervals (Experiment 8), fresh out-of-sample test (Experiment 9), real model outputs (Experiments 10–11). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder; `evaluate_fresh.py` needs `testset_v2.csv` and `testset_fresh.csv`. Results are written to `results_v2/`. The real-output scripts need your own `OPENAI_API_KEY` in the environment (never commit it). Outputs are random (temperature 1.0), so regenerating them will not match the committed labels; to reproduce Experiments 10–11 use the committed `results_v2/real_outputs.csv`, `results_v2/real_hard.csv` and `real_labeled.csv`.
