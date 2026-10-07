@@ -1,9 +1,9 @@
 # my-tech-portfolio
 
-## Does an AI's output still do what it was asked? Measuring intent drift
+## Measuring how AI outputs drift from their instructions, using embeddings and NLI.
 
 > Author: Park Seyoung
-> Created: 2026-10-03 · Last updated: 2026-10-06
+> Created: 2026-10-03 · Last updated: 2026-10-09
 
 Small, reproducible experiments on one question: when an AI system's output
 drifts away from the instruction it was given, can a cheap automatic score
@@ -24,67 +24,26 @@ fail (Experiments 1–12 below). All results come from synthetic data.
 **Not tested:** other generators or summarizers, whether the same holds for other rule types (banned words or letters), larger models, harder drift types. The sentence sets in Experiments 1–9 were written by me with AI help.
 
 
-# Semantic Alignment & Intent Preservation
+## Background and future ideas (not done yet)
 
+This repository started from a broader idea: that an LLM may lose part of a human instruction between the input and its internal representation, and that this could be measured inside the model (tokenization, embedding space, hidden states). **I have not done that.** Every experiment below measures only the model's outputs against the instruction, using embedding similarity and NLI. Measuring internal states is a possible future direction, not a result of this repository.
 
+Possible future direction (not implemented):
 
----
-
-##  Research Hypothesis & Core Problem
-
-- **The Problem:** LLMs perform probabilistic token prediction, which can lead to semantic drift and loss of original human intent between input instruction and internal representation.
-- **The Goal:** Moving beyond black-box generation by measuring how much original meaning is preserved or lost across internal model states.
-
----
-
-##  Research Architecture: Semantic Divergence & Information Flow
-
-To analyze how human intent transforms and suffers from semantic loss during model processing, we propose a structural information-tracking pipeline:
-
-```text
-[ User Instruction (Original Intent) ] 
-                 │
-                 ▼
-[ Tokenization & Embedding Space ]
-                 │
-                 ▼
-[ Semantic Representation & Context Extraction ]
-                 │
-                 ▼
-[ Divergence & Loss Measurement (Comparing Input vs. AI State) ]
-                 │
-                 ▼
-[ Empirical Analysis: Tracking Semantic Drift ]
+1. Capture embeddings of prompts with open-source models.
+2. Add controlled variations (paraphrasing, ambiguity) and see how the representations shift.
+3. Compare input vectors with intermediate hidden states using cosine similarity.
+4. Plot divergence across processing steps to find where intent loss increases.
 
 ---
 
-##  Experimental Design & Methodology (Planned)
+## Repository structure
 
-To validate the semantic divergence hypothesis, we plan to implement a lightweight evaluation framework:
-
-1. **Baseline Setup:** Use open-source embedding models to capture high-dimensional vector states of input prompts.
-2. **Perturbation Tracking:** Introduce controlled variations (paraphrasing, ambiguity) into instructions to observe how internal representations shift.
-3. **Similarity Metrics:** Apply cosine similarity and semantic distance algorithms between input vectors and intermediate hidden states to quantify "Semantic Drift".
-4. **Visualization:** Plot divergence scores across processing steps to identify threshold points where intent loss sharply increases.
-
----
-
-##  Repository Structure
-
-- `README.md`: Research conceptualization, hypothesis, and structural architecture.
-- `simulate_drift.py`: Prototype simulation script for measuring semantic divergence and intent drift.
-- `evaluate_drift.py`: Scores a labeled test set and reports how the divergence score changes with drift level.
-- `testset.csv`: Instruction pairs labeled with six drift levels (0 = identical, 5 = unrelated).
-- `results/`: Scores and the divergence-by-level plot from the latest run.
-
-##  Getting Started (Prototype)
-
-To run the simulation script locally:
-
-```bash
-python simulate_drift.py
-```
-
+- `evaluate_*.py`: one script per experiment (see "How to reproduce" at the end).
+- `testset*.csv`: the hand-built instruction pairs (`testset.csv`, `testset_v2.csv`, `testset_swap.csv`, `testset_fresh.csv`).
+- `simulate_drift.py`: the early prototype; Experiment 1 uses the same divergence score.
+- `results/`, `results_v2/`: scores, labels and plots from the runs.
+  
 ## Experiment 1: Does an embedding-based divergence score catch intent drift?
 
 `testset.csv` pairs each original instruction with variants at six drift levels
@@ -480,4 +439,4 @@ python3 evaluate_real_action.py
 python3 check_summary_counts.py
 ```
 
-Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6), per-model thresholds (Experiment 7), bootstrap confidence intervals (Experiment 8), fresh out-of-sample test (Experiment 9), real model outputs (Experiments 10–11). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder; `evaluate_fresh.py` needs `testset_v2.csv` and `testset_fresh.csv`. Results are written to `results_v2/`. The real-output scripts need your own `OPENAI_API_KEY` in the environment (never commit it). Outputs are random (temperature 1.0), so regenerating them will not match the committed labels; to reproduce Experiments 10–11 use the committed `results_v2/real_outputs.csv`, `results_v2/real_hard.csv` and `real_labeled.csv`.
+Steps run in this order: embedding scores, NLI scores (Experiment 3), scoring rules and the split-half threshold check (Experiment 4), direction swaps (Experiment 5), model comparison (Experiment 6), per-model thresholds (Experiment 7), bootstrap confidence intervals (Experiment 8), fresh out-of-sample test (Experiment 9), real model outputs (Experiments 10–11), summary counts (Experiment 12). `evaluate_swap.py` and `evaluate_models.py` need `testset_swap.csv` in the same folder; `evaluate_fresh.py` needs `testset_v2.csv` and `testset_fresh.csv`. Results are written to `results_v2/`. The real-output scripts need your own `OPENAI_API_KEY` in the environment (never commit it). Outputs are random (temperature 1.0), so regenerating them will not match the committed labels; to reproduce Experiments 10–11 use the committed `results_v2/real_outputs.csv`, `results_v2/real_hard.csv` and `real_labeled.csv`.
