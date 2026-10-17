@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis HUD</title>
+<style>
+  :root {
+    --cyan: 0, 200, 255;
+    --amber: 255, 176, 32;
+    --red: 255, 70, 70;
+    --green: 60, 230, 150;
+    --text: #dff6ff;
+    --dim: rgba(223, 246, 255, .55);
+  }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: #05070c;
+    color: var(--text);
+    font-family: -apple-system, "SF Pro Text", "Apple SD Gothic Neo", sans-serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    overflow: hidden; user-select: none;
+  }
+  body.live { background: transparent; }
+  #stage { position: relative; width: 300px; height: 300px; cursor: grab; }
+  canvas { width: 300px; height: 300px; display: block; }
+  #label {
+    position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);
+    text-align: center; font-size: 11px; letter-spacing: .35em; color: var(--dim);
+    pointer-events: none; font-weight: 600;
+  }
+  #caption {
+    max-width: 300px; box-sizing: border-box; text-align: center;
+    font-size: 15px; font-weight: 600; line-height: 1.4; color: #ffffff;
+    margin-top: 4px; padding: 7px 14px; border-radius: 12px;
+    background: rgba(6, 10, 18, .82);                  /* 어두운 바탕: 밝은 화면 위에서도 잘 보이게 */
+    border: 1px solid rgba(0, 200, 255, .35);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    transition: opacity .3s;
+  }
+  #caption:empty { opacity: 0; }
+  #card {
+    margin-top: 12px; width: 300px; max-width: calc(100vw - 32px); box-sizing: border-box;
+    border: 1px solid rgba(var(--c), .6);
+    background: linear-gradient(rgba(var(--c), .10), rgba(var(--c), .10)), rgba(6, 10, 18, .85);  /* 어두운 바탕 */
+    border-radius: 14px; padding: 12px 14px; font-size: 13px; line-height: 1.45;
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    opacity: 0; transform: translateY(6px); transition: opacity .25s, transform .25s;
+    --c: var(--cyan);
+  }
+  #card.show { opacity: 1; transform: none; }
+  #card .kind { font-size: 10px; letter-spacing: .25em; color: rgb(var(--c)); font-weight: 700; margin-bottom: 4px; }
+  #card .hint { color: rgba(223, 246, 255, .75); font-size: 12px; margin-top: 6px; }
+  #card button {
+    margin-top: 8px; background: transparent; color: rgb(var(--c));
+    border: 1px solid rgba(var(--c), .6); border-radius: 8px; padding: 5px 10px;
+    font: inherit; font-size: 12px; cursor: pointer;
+  }
+  #card button:hover { background: rgba(var(--c), .15); }
+  #demo {
+    position: fixed; bottom: 16px; left: 16px; right: 16px;
+    display: flex; flex-wrap: wrap; gap: 6px; justify-content: center;
+  }
+  #demo button {
+    background: #0e1420; color: var(--text); border: 1px solid #22304a;
+    border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
+  }
+  #demo button.on { border-color: rgb(var(--cyan)); color: rgb(var(--cyan)); }
+  body.live #demo { display: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="orb" width="600" height="600"></canvas>
+  <div id="label">STANDBY</div>
+</div>
+<div id="caption"></div>
+<div id="card"></div>
+
+<div id="demo">
+  <button data-s="idle">대기</button>
+  <button data-s="listening">듣는 중</button>
+  <button data-s="thinking">생각 중</button>
+  <button data-s="speaking">말하는 중</button>
+  <button data-s="confirm">허락 대기</button>
+  <button data-s="secure">Touch ID</button>
+  <button data-s="done">완료</button>
+  <button data-s="blocked">차단</button>
+</div>
+
+<script>
+/* 자비스 HUD
+   - 보여주기만 함. 여기서는 아무것도 실행하지 않음 (기본법은 자비스 본체가 지킴)
+   - 본체가 부르는 함수: jarvisHUD.set(state, data) / jarvisHUD.level(0~1)
+   - 주소 끝에 ?live 를 붙이면 배경이 투명해지고 시연 버튼이 사라짐 */
+const COLORS = { idle: "0,200,255", listening: "0,200,255", thinking: "0,200,255",
+                 speaking: "0,200,255", confirm: "255,176,32", secure: "176,128,255", done: "60,230,150", blocked: "255,70,70" };
+const LABELS = { idle: "STANDBY", listening: "LISTENING", thinking: "THINKING",
+                 speaking: "SPEAKING", confirm: "AWAITING YOU", secure: "TOUCH ID", done: "DONE", blocked: "BLOCKED" };
+
+const cvs = document.getElementById("orb"), ctx = cvs.getContext("2d");
+const labelEl = document.getElementById("label"), capEl = document.getElementById("caption"),
+      cardEl = document.getElementById("card");
+let state = "idle", color = COLORS.idle, inputLevel = 0, smooth = 0, t0 = performance.now();
+const LIVE = location.search.includes("live") || window.JARVIS_LIVE === true;
+let simulate = !LIVE, lastLevelAt = 0, lastConfirm = "", hideTimer = null;
+
+// 맥 패널로 신호 보내기 (되돌리기 요청, 끌어서 옮기기). 미리보기에서는 아무 일도 안 함
+function post(msg) {
+  try { window.webkit?.messageHandlers?.jarvis?.postMessage(msg); } catch (e) {}
+  try { window.pywebview?.api?.request_undo?.(); } catch (e) {}
+}
+
+// 원을 마우스로 끌어서 옮기기
+(function () {
+  let last = null;
+  document.getElementById("stage").addEventListener("mousedown", e => { last = [e.screenX, e.screenY]; e.preventDefault(); });
+  window.addEventListener("mousemove", e => {
+    if (!last) return;
+    const dx = e.screenX - last[0], dy = e.screenY - last[1];
+    last = [e.screenX, e.screenY];
+    if (dx || dy) try { window.webkit?.messageHandlers?.jarvis?.postMessage({ dx, dy }); } catch (err) {}
+  });
+  window.addEventListener("mouseup", () => { last = null; });
+})();
+
+function esc(s) { const d = document.createElement("div"); d.textContent = s ?? ""; return d.innerHTML; }
+
+function showCard(kind, body, hint, button) {
+  if (!kind) { cardEl.classList.remove("show"); return; }
+  cardEl.style.setProperty("--c", color);
+  cardEl.innerHTML = `<div class="kind">${esc(kind)}</div><div>${esc(body)}</div>` +
+    (hint ? `<div class="hint">${esc(hint)}</div>` : "") +
+    (button ? `<button id="cardBtn">${esc(button)}</button>` : "");
+  cardEl.classList.add("show");
+  const b = document.getElementById("cardBtn");
+  if (b) b.onclick = () => { b.disabled = true; b.textContent = "요청함"; post("undo"); };   // 본체에 "되돌려줘"를 요청만 함
+}
+
+const jarvisHUD = {
+  set(next, data = {}) {
+    const prev = state;
+    clearTimeout(hideTimer);
+    state = next in COLORS ? next : "idle";
+    color = COLORS[state];
+    labelEl.textContent = LABELS[state];
+    labelEl.style.color = `rgba(${color}, .75)`;
+    if (data.caption !== undefined) capEl.textContent = data.caption;
+    if (state === "confirm") {
+      if (data.text) lastConfirm = data.text;           // 다시 물을 때는 같은 질문 유지
+      showCard("PERMISSION · 기본법", lastConfirm || "Quit Safari?", "\"Yes\" 또는 \"No\"로 대답하세요. 애매하면 거절로 처리돼요.");
+    }
+    else if (state === "secure")
+      showCard("TOUCH ID · 기본법", data.text || "Delete memory number 3",
+               "지문(또는 Mac 암호)으로만 허락돼요. 말로 \"yes\" 해도 통과 안 돼요. 30초 안에 안 하면 거절.");
+    else if (state === "done")
+      showCard("DONE", data.text || "Volume set to 30", null, data.undo ? "되돌리기" : null);
+    else if (state === "blocked")
+      showCard("BLOCKED · 기본법", data.text || "Finder is a protected app — I can't quit it.");
+    else if (state === "idle") {
+      // 방금 한 일 카드는 대기로 돌아가도 잠깐 남겨둠 (되돌리기 버튼 누를 시간)
+      const linger = (prev === "done" || prev === "blocked") ? 10000 : 0;
+      hideTimer = setTimeout(() => { if (state === "idle") { showCard(null); capEl.textContent = ""; } }, linger);
+    }
+    else showCard(null);
+    document.querySelectorAll("#demo button").forEach(b => b.classList.toggle("on", b.dataset.s === state));
+  },
+  level(v) { inputLevel = Math.max(0, Math.min(1, v)); lastLevelAt = performance.now(); },
+};
+window.jarvisHUD = jarvisHUD;
+
+/* ---------- 그리기 ---------- */
+function draw(now) {
+  const t = (now - t0) / 1000, W = cvs.width, C = W / 2;
+  ctx.clearRect(0, 0, W, W);
+
+  // 소리 크기: 실제 값이 없으면(미리보기) 흉내
+  // 실제 마이크 값이 최근에 왔으면 그걸 쓰고, 아니면(미리보기·말하는 중) 흉내
+  let target = performance.now() - lastLevelAt < 400 ? inputLevel : 0;
+  if (simulate || (state === "speaking" && target === 0)) {
+    target = state === "listening" ? .35 + .35 * Math.abs(Math.sin(t * 5.3) * Math.sin(t * 2.1))
+           : state === "speaking"  ? .25 + .3 * Math.abs(Math.sin(t * 7.7) * Math.cos(t * 1.7)) : 0;
+  }
+  smooth += (target - smooth) * .18;
+
+  const breathe = state === "idle" ? .5 + .5 * Math.sin(t * 1.4) : 1;
+  const base = 120 + smooth * 40;
+
+  // 바깥 빛
+  const glow = ctx.createRadialGradient(C, C, 40, C, C, 270);
+  glow.addColorStop(0, `rgba(${color}, ${.20 + .15 * breathe})`);
+  glow.addColorStop(1, `rgba(${color}, 0)`);
+  ctx.fillStyle = glow; ctx.beginPath(); ctx.arc(C, C, 270, 0, Math.PI * 2); ctx.fill();
+
+  // 눈금 링 (천천히 회전)
+  ctx.save(); ctx.translate(C, C); ctx.rotate(t * .08);
+  for (let i = 0; i < 72; i++) {
+    const a = i / 72 * Math.PI * 2, long = i % 6 === 0;
+    ctx.strokeStyle = `rgba(${color}, ${long ? .55 : .2})`; ctx.lineWidth = long ? 3 : 2;
+    ctx.beginPath(); ctx.moveTo(Math.cos(a) * 232, Math.sin(a) * 232);
+    ctx.lineTo(Math.cos(a) * (long ? 214 : 222), Math.sin(a) * (long ? 214 : 222)); ctx.stroke();
+  }
+  ctx.restore();
+
+  // 생각 중: 도는 호 / 허락 대기: 깜빡이는 링
+  if (state === "thinking") {
+    for (let k = 0; k < 3; k++) {
+      ctx.strokeStyle = `rgba(${color}, ${.85 - k * .22})`; ctx.lineWidth = 6 - k * 1.5;
+      const r = 190 - k * 16, s = t * (2.4 - k * .6) * (k % 2 ? -1 : 1);
+      ctx.beginPath(); ctx.arc(C, C, r, s, s + Math.PI * (.55 + k * .2)); ctx.stroke();
+    }
+  } else {
+    const pulse = (state === "confirm" || state === "secure") ? .45 + .45 * Math.abs(Math.sin(t * 3)) : .45;
+    ctx.strokeStyle = `rgba(${color}, ${pulse})`; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(C, C, 190, 0, Math.PI * 2); ctx.stroke();
+  }
+
+  // 파형 링 (듣기·말하기 때 출렁임)
+  ctx.beginPath();
+  for (let i = 0; i <= 180; i++) {
+    const a = i / 180 * Math.PI * 2;
+    const wob = smooth * 22 * Math.sin(a * 6 + t * 6) * Math.sin(a * 3 - t * 3.4)
+              + smooth * 10 * Math.sin(a * 11 - t * 9);
+    const r = base + wob + 4 * breathe;
+    const x = C + Math.cos(a) * r, y = C + Math.sin(a) * r;
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  ctx.closePath();
+  ctx.strokeStyle = `rgba(${color}, .95)`; ctx.lineWidth = 4;
+  ctx.shadowColor = `rgba(${color}, .9)`; ctx.shadowBlur = 24; ctx.stroke(); ctx.shadowBlur = 0;
+
+  // 가운데 코어
+  const core = ctx.createRadialGradient(C, C, 0, C, C, base - 10);
+  core.addColorStop(0, `rgba(${color}, ${.35 + smooth * .4})`);
+  core.addColorStop(.7, `rgba(${color}, .06)`);
+  core.addColorStop(1, `rgba(${color}, 0)`);
+  ctx.fillStyle = core; ctx.beginPath(); ctx.arc(C, C, base - 10, 0, Math.PI * 2); ctx.fill();
+
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+
+/* ---------- 미리보기용 시연 ---------- */
+const DEMO = {
+  idle:      [{}],
+  listening: [{ caption: "자비스 볼륨 한 칸 낮춰줘" }],
+  thinking:  [{ caption: "자비스 볼륨 한 칸 낮춰줘" }],
+  speaking:  [{ caption: "Done — volume is one step lower." }],
+  confirm:   [{ caption: "사파리 꺼줘", text: "Quit Safari?" }],
+  secure:    [{ caption: "3번 기억 지워줘", text: "Delete memory number 3" }],
+  done:      [{ caption: "Volume set to 30.", text: "set_volume → 30 (was 45)", undo: true }],
+  blocked:   [{ caption: "파인더 꺼줘", text: "Finder is a protected app — I can't quit it." }],
+};
+document.querySelectorAll("#demo button").forEach(b =>
+  b.onclick = () => { simulate = true; jarvisHUD.set(b.dataset.s, DEMO[b.dataset.s][0]); });
+
+if (LIVE) document.body.classList.add("live");
+jarvisHUD.set("idle");
+</script>
+</body>
+</html>

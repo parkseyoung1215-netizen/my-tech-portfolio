@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis Hands</title>
+<style>
+  :root { --cyan: 0, 200, 255; --text: #dff6ff; }
+  html, body { margin: 0; height: 100%; overflow: hidden; }
+  body {
+    background: radial-gradient(ellipse at 50% 40%, #0b1a2a 0%, #04070d 70%);
+    color: var(--text); font-family: -apple-system, "SF Pro Text", "Apple SD Gothic Neo", sans-serif;
+    user-select: none;
+  }
+  /* 바닥 격자: 공간감 */
+  #floor {
+    position: fixed; left: -50%; right: -50%; bottom: -10%; height: 60%;
+    background-image: linear-gradient(rgba(var(--cyan), .12) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(var(--cyan), .12) 1px, transparent 1px);
+    background-size: 60px 60px; transform: perspective(600px) rotateX(70deg);
+    mask-image: linear-gradient(transparent, #000 60%); -webkit-mask-image: linear-gradient(transparent, #000 60%);
+    pointer-events: none;
+  }
+  #space { position: fixed; inset: 0; perspective: 1100px; perspective-origin: 50% 45%; }
+  .panel {
+    position: absolute; width: 320px; height: 240px; margin: -120px 0 0 -160px; overflow: hidden;
+    border: 1px solid rgba(var(--cyan), .55); border-radius: 14px;
+    background: linear-gradient(160deg, rgba(var(--cyan), .16), rgba(var(--cyan), .04) 60%), rgba(4, 12, 22, .55);
+    box-shadow: 0 0 24px rgba(var(--cyan), .25), inset 0 0 30px rgba(var(--cyan), .08);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    padding: 14px 16px; box-sizing: border-box; transform-style: preserve-3d;
+    transition: box-shadow .15s, border-color .15s;
+  }
+  .panel::after {   /* 스캔라인 */
+    content: ""; position: absolute; inset: 0; border-radius: 14px; pointer-events: none;
+    background: repeating-linear-gradient(transparent 0 3px, rgba(var(--cyan), .05) 3px 4px);
+  }
+  .panel.hover { border-color: rgba(var(--cyan), .9); box-shadow: 0 0 34px rgba(var(--cyan), .45), inset 0 0 30px rgba(var(--cyan), .12); }
+  .panel.held  { border-color: #fff; box-shadow: 0 0 50px rgba(var(--cyan), .75), inset 0 0 40px rgba(var(--cyan), .2); }
+  .panel h3 { margin: 0 0 8px; font-size: 11px; letter-spacing: .3em; color: rgb(var(--cyan)); }
+  .panel .big { font-size: 26px; font-weight: 700; margin: 2px 0 6px; }
+  .panel .row { font-size: 13px; line-height: 1.7; opacity: .9; }
+  .panel .row b { color: rgb(var(--cyan)); font-weight: 600; }
+  .panel .row.dim { opacity: .6; font-size: 12px; }
+  .panel .line { font-size: 12px; line-height: 1.5; opacity: .9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .panel .line .t { color: rgb(var(--cyan)); margin-right: 6px; }
+  .panel .sub { font-size: 10px; letter-spacing: .2em; color: rgba(var(--cyan), .8); margin: 8px 0 2px; }
+  .hand-btn {
+    margin-top: 8px; background: rgba(var(--cyan), .12); color: var(--text); border: 1px solid rgba(var(--cyan), .6);
+    border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 12px; cursor: pointer; max-width: 100%;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; position: relative; z-index: 2;
+  }
+  .hand-btn.hover { background: rgba(var(--cyan), .35); }
+  .state-idle { color: var(--text); } .state-confirm { color: #ffb020; } .state-secure { color: #b080ff; }
+  .state-done { color: #3ce696; } .state-blocked { color: #ff4646; }
+  .cursor {
+    position: fixed; width: 22px; height: 22px; margin: -11px 0 0 -11px; border-radius: 50%;
+    border: 2px solid rgb(var(--cyan)); box-shadow: 0 0 16px rgba(var(--cyan), .9);
+    pointer-events: none; display: none; transition: transform .08s, background .08s;
+  }
+  .cursor.pinch { transform: scale(.6); background: rgba(var(--cyan), .8); }
+  #bar {
+    position: fixed; top: 16px; left: 16px; right: 16px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  }
+  #bar button {
+    background: rgba(4, 12, 22, .8); color: var(--text); border: 1px solid rgba(var(--cyan), .5);
+    border-radius: 999px; padding: 8px 16px; font: inherit; font-size: 13px; cursor: pointer;
+  }
+  #bar button:hover { background: rgba(var(--cyan), .15); }
+  #status { font-size: 13px; opacity: .85; }
+  #cam {
+    display: none; color: #ff5a5a; font-weight: 700; font-size: 12px; letter-spacing: .1em;
+    border: 1px solid rgba(255, 90, 90, .6); border-radius: 999px; padding: 6px 12px; background: rgba(40, 0, 0, .5);
+  }
+  #preview { position: fixed; left: 16px; bottom: 16px; width: 200px; border-radius: 10px; overflow: hidden;
+             border: 1px solid rgba(var(--cyan), .4); display: none; }
+  #preview video, #preview canvas { width: 200px; display: block; transform: scaleX(-1); }
+  #preview canvas { position: absolute; inset: 0; }
+  #guide {
+    position: fixed; right: 16px; bottom: 16px; font-size: 12px; line-height: 1.7; opacity: .75; text-align: right;
+  }
+</style>
+</head>
+<body>
+<div id="floor"></div>
+<div id="space"></div>
+<div class="cursor" id="c0"></div>
+<div class="cursor" id="c1"></div>
+
+<div id="bar">
+  <button id="startBtn">손 모드 시작</button>
+  <button id="stopBtn" style="display:none">카메라 끄기</button>
+  <span id="cam">● CAMERA ON · 영상은 저장·전송 안 함</span>
+  <span id="status">버튼을 누르면 카메라가 켜져요. (손이 2분 동안 안 보이면 자동으로 꺼짐)</span>
+</div>
+<div id="preview"><video id="video" playsinline muted></video><canvas id="skeleton"></canvas></div>
+<div id="guide">
+  엄지·검지 집기 → 패널 잡고 옮기기<br>
+  잡은 채로 손을 카메라에 가까이 → 패널이 앞으로<br>
+  양손으로 같은 패널 집고 벌리기·모으기 → 크기<br>
+  손바닥 펴고 1초 → 원래 자리로
+</div>
+
+<script type="module">
+/* 자비스 손 모드 (시제품)
+   카메라 기본법
+   1) 네가 버튼을 누를 때만 켜짐. 손이 2분 동안 안 보이면 자동으로 꺼짐
+   2) 켜져 있는 동안 화면에 항상 "CAMERA ON" 표시
+   3) 영상은 이 페이지 안에서 손 위치만 읽고 버림. 저장·전송 없음 (손 인식도 이 노트북 안에서 실행)
+   4) 손짓은 패널 움직이기만. 허락이 필요한 행동은 손짓으로 승인할 수 없음 */
+
+const MP_VERSION = "0.10.14";
+const AUTO_OFF_MS = 120000;
+const PINCH_ON = 0.33, PINCH_OFF = 0.45;
+
+const space = document.getElementById("space");
+const statusEl = document.getElementById("status");
+const W = () => window.innerWidth, H = () => window.innerHeight;
+
+/* ---------- 패널 ---------- */
+const PANELS = [
+  { id: "jarvis", html: `<h3>JARVIS</h3><div class="big" id="jState">STANDBY</div>
+     <div class="row" id="jCaption">자비스 연결 안 됨 (따로 연 시제품 모드)</div>
+     <div class="row dim" id="jCard"></div>
+     <div class="row dim">손 <b id="handsN">0</b>개 · <span id="fps">— fps</span> · 카메라 <b id="camState">꺼짐</b></div>` },
+  { id: "actions", html: `<h3>RECENT ACTIONS</h3><div id="aList"><div class="row dim">기록 없음</div></div>
+     <button class="hand-btn" id="undoBtn" style="display:none"></button>` },
+  { id: "today", html: `<h3>TODAY</h3><div id="tBody"><div class="row dim">자비스와 연결되면 날씨·일정·관심 종목이 떠요</div></div>` },
+];
+const state = {};
+function home(i) {   // 기본 자리: 가운데 기준 좌·중·우, 살짝 비스듬히
+  const x = W() / 2 + (i - 1) * Math.min(340, W() / 3.2);
+  return { x, y: H() * 0.45, z: 0, rot: (1 - i) * 18, scale: 1 };
+}
+PANELS.forEach((p, i) => {
+  const el = document.createElement("div");
+  el.className = "panel"; el.dataset.id = p.id; el.innerHTML = p.html;
+  space.appendChild(el);
+  state[p.id] = { el, ...home(i), i };
+});
+let topOrder = 0;   // 마지막으로 잡은 패널이 맨 앞
+function render(id) {
+  const s = state[id];
+  s.el.style.zIndex = 400000 + Math.round(s.z) * 1000 + ((s.order || 0) % 1000);   // 앞으로 당긴 패널이 실제로 앞에 그려지게
+  s.el.style.left = s.x + "px"; s.el.style.top = s.y + "px";
+  s.el.style.transform = `translateZ(${s.z}px) rotateY(${s.rot}deg) scale(${s.scale})`;
+}
+function resetAll() {
+  Object.values(state).forEach(s => { Object.assign(s, home(s.i)); render(s.el.dataset.id); });
+}
+Object.keys(state).forEach(render);
+window.addEventListener("resize", resetAll);
+let t0 = performance.now();
+(function float() {   // 둥둥 떠 있는 느낌
+  const t = (performance.now() - t0) / 1000;
+  Object.values(state).forEach((s, k) => { if (!s.held) s.el.style.marginTop = (-100 + Math.sin(t * 1.1 + k) * 4) + "px"; });
+  requestAnimationFrame(float);
+})();
+
+/* ---------- 손 모양 읽기 ---------- */
+const d = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+function readHand(lm) {
+  const size = d(lm[0], lm[9]) || 1e-6;          // 손 크기 (손목~가운뎃손가락 뿌리)
+  const pinchRatio = d(lm[4], lm[8]) / size;
+  const mid = { x: (lm[4].x + lm[8].x) / 2, y: (lm[4].y + lm[8].y) / 2 };
+  const extended = [[8, 6], [12, 10], [16, 14], [20, 18]].every(([tip, pip]) => lm[tip].y < lm[pip].y - 0.02);
+  return { size, pinchRatio, open: extended && pinchRatio > 0.6,
+           sx: (1 - mid.x) * W(), sy: mid.y * H() };   // 거울처럼 좌우 뒤집기
+}
+
+/* ---------- 손짓 → 패널 ---------- */
+const hands = {};      // "Left"/"Right" -> 상태
+let palmSince = 0;
+function panelAt(x, y) {
+  for (const el of document.elementsFromPoint(x, y)) if (el.classList?.contains("panel")) return el.dataset.id;
+  return null;
+}
+function buttonAt(x, y) {
+  for (const el of document.elementsFromPoint(x, y)) if (el.classList?.contains("hand-btn") && el.style.display !== "none") return el;
+  return null;
+}
+function update(frameHands) {
+  const seen = new Set();
+  frameHands.forEach(({ label, lm }, k) => {
+    if (seen.has(label)) label += k;                 // 양손이 같은 쪽으로 잘못 인식돼도 따로 다루기
+    seen.add(label);
+    const r = readHand(lm);
+    const h = hands[label] ??= { x: r.sx, y: r.sy, pinch: false, held: null, cursor: document.getElementById("c" + k) };
+    h.cursor = document.getElementById("c" + Math.min(k, 1));
+    h.x += (r.sx - h.x) * 0.35; h.y += (r.sy - h.y) * 0.35;          // 떨림 줄이기
+    const was = h.pinch;
+    h.pinch = was ? r.pinchRatio < PINCH_OFF : r.pinchRatio < PINCH_ON;
+    h.open = r.open; h.size = r.size;
+
+    if (h.pinch && !was) {                                   // 집기 시작
+      const other = Object.entries(hands).find(([l, o]) => l !== label && o.pinch && o.held);
+      const id = panelAt(h.x, h.y);
+      if (other && (id === other[1].held || !id)) {           // 양손 → 크기 조절
+        const s = state[other[1].held];
+        h.scaling = { id: other[1].held, d0: Math.hypot(h.x - other[1].x, h.y - other[1].y), s0: s.scale, partner: other[0] };
+      } else if (buttonAt(h.x, h.y)) {                         // 버튼 위에서 집기 → 누르기
+        buttonAt(h.x, h.y).click();
+      } else if (id) {                                         // 한 손 → 잡기
+        const s = state[id];
+        s.order = ++topOrder; render(id);
+        h.held = id; h.dx = s.x - h.x; h.dy = s.y - h.y; h.size0 = r.size; h.z0 = s.z;
+        s.held = true; s.el.classList.add("held");
+      }
+    }
+    if (!h.pinch && was) {                                   // 놓기
+      if (h.held) { state[h.held].held = false; state[h.held].el.classList.remove("held"); }
+      h.held = null; h.scaling = null;
+    }
+    if (h.pinch && h.scaling) {
+      const p = hands[h.scaling.partner];
+      if (p && p.pinch) {
+        const dist = Math.hypot(h.x - p.x, h.y - p.y);
+        const s = state[h.scaling.id];
+        s.scale = Math.min(2.5, Math.max(0.5, h.scaling.s0 * dist / Math.max(h.scaling.d0, 1)));
+        render(h.scaling.id);
+      }
+    } else if (h.pinch && h.held) {
+      const s = state[h.held];
+      s.x = h.x + h.dx; s.y = h.y + h.dy;
+      s.z = Math.min(300, Math.max(-300, h.z0 + (r.size / h.size0 - 1) * 600));   // 손을 가까이 → 앞으로
+      render(h.held);
+    }
+    h.cursor.style.display = "block";
+    h.cursor.style.left = h.x + "px"; h.cursor.style.top = h.y + "px";
+    h.cursor.classList.toggle("pinch", h.pinch);
+  });
+  // 안 보이는 손 정리
+  for (const label of Object.keys(hands)) if (!seen.has(label)) {
+    const h = hands[label];
+    if (h.held) { state[h.held].held = false; state[h.held].el.classList.remove("held"); }
+    h.cursor.style.display = "none"; delete hands[label];
+  }
+  // 마우스 올린 패널 표시
+  document.querySelectorAll(".panel, .hand-btn").forEach(el => el.classList.remove("hover"));
+  Object.values(hands).forEach(h => buttonAt(h.x, h.y)?.classList.add("hover"));
+  Object.values(hands).forEach(h => { const id = panelAt(h.x, h.y); if (id) state[id].el.classList.add("hover"); });
+  // 손바닥 1초 → 원래 자리
+  const anyOpen = Object.values(hands).some(h => h.open && !h.pinch);
+  if (anyOpen) { palmSince ||= performance.now(); if (performance.now() - palmSince > 1000) { resetAll(); palmSince = 0; } }
+  else palmSince = 0;
+  document.getElementById("handsN").textContent = frameHands.length;
+}
+
+/* ---------- 카메라 + 손 인식 ---------- */
+const video = document.getElementById("video");
+const skel = document.getElementById("skeleton"), sctx = skel.getContext("2d");
+let landmarker = null, stream = null, running = false, lastSeen = 0, frames = 0, fpsT = performance.now();
+
+async function loadModel() {
+  statusEl.textContent = "손 인식 모델 준비 중... (처음 한 번은 인터넷으로 내려받음)";
+  const { FilesetResolver, HandLandmarker } =
+    await import(`https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VERSION}/vision_bundle.mjs`);
+  const files = await FilesetResolver.forVisionTasks(`https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@${MP_VERSION}/wasm`);
+  return HandLandmarker.createFromOptions(files, {
+    baseOptions: { modelAssetPath: "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task", delegate: "GPU" },
+    runningMode: "VIDEO", numHands: 2 });
+}
+
+async function start() {
+  try {
+    landmarker ??= await loadModel();
+    stream = await navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 480 }, audio: false });
+  } catch (e) {
+    statusEl.textContent = "시작 실패: " + (e.message || e) + " (인터넷 연결과 카메라 허용을 확인하고 '손 모드 시작'을 눌러주세요)";
+    return false;
+  }
+  video.srcObject = stream; await video.play();
+  skel.width = video.videoWidth; skel.height = video.videoHeight;
+  running = true; lastSeen = performance.now();
+  setCamUI(true);
+  loop();
+  return true;
+}
+
+function stop(reason) {
+  running = false;
+  stream?.getTracks().forEach(t => t.stop());          // 카메라 실제로 끄기 (맥 초록 불도 꺼짐)
+  stream = null; video.srcObject = null;
+  update([]);
+  setCamUI(false, reason);
+}
+
+function setCamUI(on, reason) {
+  document.getElementById("cam").style.display = on ? "inline-block" : "none";
+  document.getElementById("preview").style.display = on ? "block" : "none";
+  document.getElementById("startBtn").style.display = on ? "none" : "inline-block";
+  document.getElementById("stopBtn").style.display = on ? "inline-block" : "none";
+  document.getElementById("camState").textContent = on ? "켜짐" : "꺼짐";
+  statusEl.textContent = on ? "손을 카메라에 보여주세요." : (reason || "카메라 꺼짐.");
+}
+
+let lastVideoTime = -1;
+function loop() {
+  if (!running) return;
+  if (video.currentTime !== lastVideoTime) {
+    lastVideoTime = video.currentTime;
+    const res = landmarker.detectForVideo(video, performance.now());
+    const list = (res.landmarks || []).map((lm, i) => ({ label: res.handedness?.[i]?.[0]?.categoryName || "H" + i, lm }));
+    update(list);
+    drawSkeleton(res.landmarks || []);
+    if (list.length) lastSeen = performance.now();
+    if (performance.now() - lastSeen > AUTO_OFF_MS) return stop("손이 2분 동안 안 보여서 카메라를 껐어요.");
+    frames++;
+    if (performance.now() - fpsT > 1000) { document.getElementById("fps").textContent = frames + " fps"; frames = 0; fpsT = performance.now(); }
+  }
+  requestAnimationFrame(loop);
+}
+
+const BONES = [[0,1],[1,2],[2,3],[3,4],[0,5],[5,6],[6,7],[7,8],[5,9],[9,10],[10,11],[11,12],[9,13],[13,14],[14,15],[15,16],[13,17],[17,18],[18,19],[19,20],[0,17]];
+function drawSkeleton(all) {
+  sctx.clearRect(0, 0, skel.width, skel.height);
+  sctx.strokeStyle = "rgba(0,200,255,.9)"; sctx.lineWidth = 3;
+  all.forEach(lm => BONES.forEach(([a, b]) => {
+    sctx.beginPath(); sctx.moveTo(lm[a].x * skel.width, lm[a].y * skel.height);
+    sctx.lineTo(lm[b].x * skel.width, lm[b].y * skel.height); sctx.stroke();
+  }));
+}
+
+document.getElementById("startBtn").onclick = start;
+document.getElementById("stopBtn").onclick = () => stop("카메라를 껐어요.");
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden && running) { userStopped = true; stop("다른 탭으로 가서 카메라를 껐어요. 다시 쓰려면 '손 모드 시작'."); }
+});
+
+/* ---------- 자비스 연결 ----------
+   자비스가 연 화면이면(/api/state가 응답) 자동으로 카메라를 켜고, 0.5초마다 자비스 상태를 읽음.
+   자비스가 "꺼"라고 하거나 연결이 끊기면 카메라를 끔 (기본법). */
+let jarvis = false, fails = 0;
+const esc = t => { const e = document.createElement("div"); e.textContent = t ?? ""; return e.innerHTML; };
+const LABELS = { idle: "STANDBY", listening: "LISTENING", thinking: "THINKING", speaking: "SPEAKING",
+                 confirm: "AWAITING YOU", secure: "TOUCH ID", done: "DONE", blocked: "BLOCKED" };
+async function poll() {
+  let st;
+  try {
+    const res = await fetch("/api/state", { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    st = await res.json(); fails = 0;
+  } catch (e) {
+    if (jarvis && ++fails >= 4 && running) stop("자비스와 연결이 끊겨서 카메라를 껐어요.");
+    return;
+  }
+  if (!jarvis) { jarvis = true; document.getElementById("guide").innerHTML += "<br>버튼 위에서 집기 → 누르기"; }
+  if (!st.on) { if (running) stop("자비스가 손 모드를 껐어요. 이 탭은 닫아도 돼요."); return; }
+  if (!running && !starting && !userStopped) autoStart();
+  const hs = st.hud || {}, stateEl = document.getElementById("jState");
+  stateEl.textContent = LABELS[hs.state] || "STANDBY";
+  stateEl.className = "big state-" + (hs.state || "idle");
+  document.getElementById("jCaption").textContent = hs.caption || "\"헤이 자비스\"라고 불러보세요";
+  document.getElementById("jCard").textContent = ["confirm", "secure", "done", "blocked"].includes(hs.state) ? (hs.text || "") : "";
+  document.getElementById("aList").innerHTML = (st.recent || []).map(e =>
+    `<div class="line"><span class="t">${esc(e.time)}</span>${esc(e.heard)}</div>` +
+    e.acts.map(a => `<div class="line" style="opacity:.6;padding-left:42px">${esc(a)}</div>`).join("")
+  ).join("") || `<div class="row dim">기록 없음</div>`;
+  const ub = document.getElementById("undoBtn");
+  ub.style.display = st.undo ? "inline-block" : "none";
+  ub.textContent = "되돌리기: " + (st.undo || "");
+  const t = st.today || {};
+  const block = (title, text, wrap) => text ? `<div class="sub">${title}</div>` +
+    String(text).split("\n").slice(0, 3).map(l => `<div class="line"${wrap ? ' style="white-space:normal"' : ""}>${esc(l)}</div>`).join("") : "";
+  document.getElementById("tBody").innerHTML = (block("WEATHER", t.weather, true) + block("EVENTS", t.events) + block("WATCHLIST", t.quotes))
+    || `<div class="row dim">불러오는 중...</div>`;
+}
+let starting = false, userStopped = false;
+// 자동 시작은 한 번만 시도. 실패하면 버튼을 누를 때까지 다시 안 함 (카메라 허용 창이 계속 뜨지 않게)
+async function autoStart() { starting = true; if (!(await start())) userStopped = true; starting = false; }
+document.getElementById("undoBtn").onclick = async () => {
+  // "되돌려줘"라고 말한 것과 같음. 지우는 종류는 자비스가 지문·말로 다시 허락받음
+  try { await fetch("/api/undo", { method: "POST", headers: { "X-Jarvis": "1" } }); } catch (e) {}
+  const ub = document.getElementById("undoBtn"); ub.textContent = "요청함 — 자비스가 처리 중";
+};
+document.getElementById("stopBtn").addEventListener("click", () => { userStopped = true; });
+document.getElementById("startBtn").addEventListener("click", () => { userStopped = false; });
+if (location.protocol.startsWith("http")) { poll(); setInterval(poll, 500); }
+
+/* ---------- 점검용 ---------- */
+window.__jarvisHands = { update, state, hands, resetAll };
+</script>
+</body>
+</html>
