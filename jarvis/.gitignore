@@ -1,0 +1,17 @@
+# 비밀 (절대 올리면 안 됨)
+.env
+
+# 개인 데이터
+voice/
+jarvis_memory.json
+jarvis_memory.bak.json
+
+# 자동으로 생기는 것
+venv/
+__pycache__/
+Jarvis.app/
+.jarvis_run.sh
+.DS_Store
+
+# 백업
+*_backup.py
