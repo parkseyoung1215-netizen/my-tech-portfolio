@@ -1,0 +1,1965 @@
+strategy,category,question,expected,raw_response,original_status,original_prediction,original_correct,content_prediction,content_parse_mode,content_correct,content_resolvable,failure_kind,primary_selected_model,model_sequence,model_calls,final_recorded_model,answer_source,tool_calls,last_attempt_response,selection_reason,general_adapter,elapsed_seconds
+fixed,arithmetic,92 * 34,3128,FINAL_ANSWER: 3268,answered,3268,False,3268,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 3268,,False,0.18274095794185996
+adaptive,arithmetic,92 * 34,3128,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.0005222500767558813
+coverage,arithmetic,92 * 34,3128,FINAL_ANSWER: 3128,answered,3128,True,3128,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,qwen2.5:1.5b,model,0,FINAL_ANSWER: 3128,small_confidence_insufficient,False,0.3721028750296682
+tool,arithmetic,92 * 34,3128,FINAL_ANSWER: 3128,answered,3128,True,3128,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00012374995276331902
+adaptive,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.13903566705994308
+coverage,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07545725000090897
+tool,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07694983296096325
+fixed,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.0744242500513792
+coverage,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.13708104193210602
+tool,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07611499982886016
+fixed,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.0739138750359416
+adaptive,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07501137489452958
+tool,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",A,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.1707841670140624
+fixed,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",A,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07615533308126032
+adaptive,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",A,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07739654206670821
+coverage,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",A,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07550941593945026
+fixed,arithmetic,(827 * 48) - 51,39645,FINAL_ANSWER: 3886,answered,3886,False,3886,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 3886,,False,0.18363779201172292
+adaptive,arithmetic,(827 * 48) - 51,39645,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.00046387501060962677
+coverage,arithmetic,(827 * 48) - 51,39645,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 3926,small_confidence_insufficient,False,0.37380354199558496
+tool,arithmetic,(827 * 48) - 51,39645,FINAL_ANSWER: 39645,answered,39645,True,39645,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00012158392928540707
+adaptive,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",D,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17596458294428885
+coverage,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",D,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.0775014169048518
+tool,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",D,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.075634750071913
+fixed,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",D,FINAL_ANSWER: C,answered,C,False,C,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.075711082899943
+coverage,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.17068387498147786
+tool,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07694425014778972
+fixed,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07502716709859669
+adaptive,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07424587500281632
+tool,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.12156979204155505
+fixed,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029426000081002712
+adaptive,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029460125137120485
+coverage,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.031134875025600195
+fixed,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12323554116301239
+adaptive,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029317667009308934
+coverage,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029734167037531734
+tool,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030298082856461406
+adaptive,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.09158537490293384
+coverage,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.02993216598406434
+tool,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.02960395789705217
+fixed,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.028234584024176
+coverage,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17292262497358024
+tool,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07503791688941419
+fixed,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07507533393800259
+adaptive,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07556095789186656
+tool,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12406950001604855
+fixed,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030259791994467378
+adaptive,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029655916849151254
+coverage,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029447375098243356
+fixed,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.09061016701161861
+adaptive,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.02857754100114107
+coverage,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029224042082205415
+tool,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.0289571660105139
+adaptive,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.17201783298514783
+coverage,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07656654203310609
+tool,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07729370798915625
+fixed,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07563387486152351
+coverage,arithmetic,18 + 18,36,FINAL_ANSWER: 36,answered,36,True,36,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 36,calibrated_small,False,0.07474325015209615
+tool,arithmetic,18 + 18,36,FINAL_ANSWER: 36,answered,36,True,36,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00013829185627400875
+fixed,arithmetic,18 + 18,36,FINAL_ANSWER: 36,answered,36,True,36,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 36,,False,0.17303158319555223
+adaptive,arithmetic,18 + 18,36,FINAL_ANSWER: 36,answered,36,True,36,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 36,"Eligible calibrated models, then supported legacy fallback; ",False,0.051618124824017286
+tool,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.1199754998087883
+fixed,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02891795802861452
+adaptive,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030575457960367203
+coverage,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029874708969146013
+fixed,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",B,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.12463633297011256
+adaptive,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",B,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.028286375105381012
+coverage,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",B,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029245541896671057
+tool,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",B,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.030257416889071465
+adaptive,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",C,FINAL_ANSWER: D,answered,D,False,D,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.16963804210536182
+coverage,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",C,FINAL_ANSWER: D,answered,D,False,D,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07566945906728506
+tool,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",C,FINAL_ANSWER: D,answered,D,False,D,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07439733296632767
+fixed,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",C,FINAL_ANSWER: D,answered,D,False,D,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07425729185342789
+coverage,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.15155204199254513
+tool,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029185791965574026
+fixed,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.02947408310137689
+adaptive,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030714709078893065
+tool,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17208920791745186
+fixed,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07614295813255012
+adaptive,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07537812483496964
+coverage,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07485537510365248
+fixed,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.1237045000307262
+adaptive,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028396834153681993
+coverage,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029123040847480297
+tool,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029430042020976543
+adaptive,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.1232995840255171
+coverage,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029598958091810346
+tool,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030136709101498127
+fixed,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029300583992153406
+coverage,arithmetic,(299 * 19) - 82,5599,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 5652,small_confidence_insufficient,False,0.39838324999436736
+tool,arithmetic,(299 * 19) - 82,5599,FINAL_ANSWER: 5599,answered,5599,True,5599,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.0001646659802645445
+fixed,arithmetic,(299 * 19) - 82,5599,FINAL_ANSWER: 123,answered,123,False,123,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 123,,False,0.17283583316020668
+adaptive,arithmetic,(299 * 19) - 82,5599,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.0004724168684333563
+tool,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17136812512762845
+fixed,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.0761628751643002
+adaptive,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07502695801667869
+coverage,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07449358305893838
+fixed,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12193337501958013
+adaptive,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030013666953891516
+coverage,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030069625005126
+tool,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029904334107413888
+adaptive,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.1246409157756716
+coverage,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029677417129278183
+tool,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029903833055868745
+fixed,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02973545785062015
+coverage,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17064841696992517
+tool,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07499837502837181
+fixed,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07447637501172721
+adaptive,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07463129214011133
+tool,arithmetic,(489 * 41) - 30,20019,FINAL_ANSWER: 20019,answered,20019,True,20019,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00014054193161427975
+fixed,arithmetic,(489 * 41) - 30,20019,FINAL_ANSWER: 1949,answered,1949,False,1949,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1949,,False,0.18356375000439584
+adaptive,arithmetic,(489 * 41) - 30,20019,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.00046470784582197666
+coverage,arithmetic,(489 * 41) - 30,20019,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 1950,small_confidence_insufficient,False,0.38138166605494916
+fixed,arithmetic,77 * 87,6699,FINAL_ANSWER: 6779,answered,6779,False,6779,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 6779,,False,0.18096504197455943
+adaptive,arithmetic,77 * 87,6699,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.0003932500258088112
+coverage,arithmetic,77 * 87,6699,FINAL_ANSWER: 6699,answered,6699,True,6699,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,qwen2.5:1.5b,model,0,FINAL_ANSWER: 6699,small_confidence_insufficient,False,0.37308866693638265
+tool,arithmetic,77 * 87,6699,FINAL_ANSWER: 6699,answered,6699,True,6699,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00010016700252890587
+adaptive,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.17261866689659655
+coverage,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07590229087509215
+tool,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.0747926658950746
+fixed,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07465483387932181
+coverage,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.16641691699624062
+tool,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07545195799320936
+fixed,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.0748614170588553
+adaptive,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07414045790210366
+tool,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.1669855418149382
+fixed,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07496666698716581
+adaptive,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07432804186828434
+coverage,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07305454183369875
+fixed,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.17264449992217124
+adaptive,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07599462498910725
+coverage,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07491154107265174
+tool,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07282874989323318
+adaptive,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.16899866703897715
+coverage,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07455016719177365
+tool,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07417229190468788
+fixed,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07413216680288315
+coverage,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12145783309824765
+tool,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029287875164300203
+fixed,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029648666037246585
+adaptive,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",D,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029873250052332878
+tool,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12151591596193612
+fixed,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028191874967887998
+adaptive,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028428958961740136
+coverage,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028663957957178354
+fixed,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.1212641668971628
+adaptive,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.028172332793474197
+coverage,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029874082887545228
+tool,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030566333094611764
+adaptive,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.17050904198549688
+coverage,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07705412502400577
+tool,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07510616700164974
+fixed,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",C,FINAL_ANSWER: A,answered,A,False,A,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07430825009942055
+coverage,arithmetic,3 + 10,13,FINAL_ANSWER: 13,answered,13,True,13,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 13,calibrated_small,False,0.07095145899802446
+tool,arithmetic,3 + 10,13,FINAL_ANSWER: 13,answered,13,True,13,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.0001112909521907568
+fixed,arithmetic,3 + 10,13,FINAL_ANSWER: 13,answered,13,True,13,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 13,,False,0.15942466584965587
+adaptive,arithmetic,3 + 10,13,FINAL_ANSWER: 13,answered,13,True,13,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 13,"Eligible calibrated models, then supported legacy fallback; ",False,0.053840958047658205
+tool,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.08838987513445318
+fixed,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030964958015829325
+adaptive,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029394250130280852
+coverage,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028739959001541138
+fixed,arithmetic,(500 * 21) - 70,10430,FINAL_ANSWER: 1010,answered,1010,False,1010,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1010,,False,0.1838344580028206
+adaptive,arithmetic,(500 * 21) - 70,10430,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.0003784170839935541
+coverage,arithmetic,(500 * 21) - 70,10430,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 990,small_confidence_insufficient,False,0.36368487519212067
+tool,arithmetic,(500 * 21) - 70,10430,FINAL_ANSWER: 10430,answered,10430,True,10430,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.0001442090142518282
+adaptive,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12214316613972187
+coverage,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02955400012433529
+tool,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.031210958026349545
+fixed,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029483499936759472
+coverage,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12355966586619616
+tool,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029718125006183982
+fixed,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02874879096634686
+adaptive,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030138750094920397
+tool,arithmetic,11 + 13,24,FINAL_ANSWER: 24,answered,24,True,24,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00010583293624222279
+fixed,arithmetic,11 + 13,24,FINAL_ANSWER: 24,answered,24,True,24,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 24,,False,0.18232258292846382
+adaptive,arithmetic,11 + 13,24,FINAL_ANSWER: 24,answered,24,True,24,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 24,"Eligible calibrated models, then supported legacy fallback; ",False,0.0752731659449637
+coverage,arithmetic,11 + 13,24,FINAL_ANSWER: 24,answered,24,True,24,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 24,calibrated_small,False,0.05247187498025596
+fixed,arithmetic,(857 * 57) - 63,48786,FINAL_ANSWER: 485,answered,485,False,485,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 485,,False,0.16828920785337687
+adaptive,arithmetic,(857 * 57) - 63,48786,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.00043249991722404957
+coverage,arithmetic,(857 * 57) - 63,48786,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 4800,small_confidence_insufficient,False,0.38495675008744
+tool,arithmetic,(857 * 57) - 63,48786,FINAL_ANSWER: 48786,answered,48786,True,48786,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00010699988342821598
+adaptive,arithmetic,45 * 56,2520,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.00037141679786145687
+coverage,arithmetic,45 * 56,2520,FINAL_ANSWER: 2520,answered,2520,True,2520,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 2520,small_confidence_insufficient,False,0.18587341695092618
+tool,arithmetic,45 * 56,2520,FINAL_ANSWER: 2520,answered,2520,True,2520,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00012029078789055347
+fixed,arithmetic,45 * 56,2520,FINAL_ANSWER: 2520,answered,2520,True,2520,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 2520,,False,0.18398120813071728
+coverage,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.12262416607700288
+tool,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02841379097662866
+fixed,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029094333993270993
+adaptive,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029227667022496462
+tool,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17026000004261732
+fixed,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.0756755000911653
+adaptive,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07416341686621308
+coverage,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07392229186370969
+fixed,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.13624170888215303
+adaptive,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07502970797941089
+coverage,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07592549989931285
+tool,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",A,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07432708400301635
+adaptive,arithmetic,4 + 16,20,FINAL_ANSWER: 20,answered,20,True,20,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 20,"Eligible calibrated models, then supported legacy fallback; ",False,0.07157199992798269
+coverage,arithmetic,4 + 16,20,FINAL_ANSWER: 20,answered,20,True,20,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 20,calibrated_small,False,0.05220499983988702
+tool,arithmetic,4 + 16,20,FINAL_ANSWER: 20,answered,20,True,20,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00010520895011723042
+fixed,arithmetic,4 + 16,20,FINAL_ANSWER: 20,answered,20,True,20,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 20,,False,0.15837741713039577
+coverage,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.1253690419252962
+tool,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030416666064411402
+fixed,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029569707810878754
+adaptive,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029425624990835786
+tool,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.12393433414399624
+fixed,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029443457955494523
+adaptive,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02936329203657806
+coverage,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.03056641691364348
+fixed,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12344833393581212
+adaptive,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.031069000018760562
+coverage,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029784792102873325
+tool,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02981225005351007
+adaptive,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.1698960829526186
+coverage,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07565579190850258
+tool,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07468750001862645
+fixed,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07346845883876085
+coverage,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17103895801119506
+tool,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07582391705363989
+fixed,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07530720788054168
+adaptive,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07413933309726417
+tool,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.12288083392195404
+fixed,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.03172208298929036
+adaptive,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.03037595795467496
+coverage,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.02858050004579127
+fixed,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17135258414782584
+adaptive,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07460391684435308
+coverage,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07462287484668195
+tool,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07507345802150667
+adaptive,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12230241717770696
+coverage,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030550875002518296
+tool,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029587167082354426
+fixed,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028760500019416213
+coverage,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12667208397760987
+tool,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030209749937057495
+fixed,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029477667063474655
+adaptive,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",C,B,rejected,,False,B,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029758375138044357
+tool,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17523137503303587
+fixed,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07418833416886628
+adaptive,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07485179207287729
+coverage,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07467279094271362
+fixed,arithmetic,25 * 66,1650,FINAL_ANSWER: 1650,answered,1650,True,1650,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1650,,False,0.18202254199422896
+adaptive,arithmetic,25 * 66,1650,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.0004063751548528671
+coverage,arithmetic,25 * 66,1650,FINAL_ANSWER: 1650,answered,1650,True,1650,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1650,small_confidence_insufficient,False,0.16278570797294378
+tool,arithmetic,25 * 66,1650,FINAL_ANSWER: 1650,answered,1650,True,1650,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00011929101310670376
+adaptive,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17024537501856685
+coverage,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.0756195830181241
+tool,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07463020784780383
+fixed,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07356058293953538
+coverage,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",C,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.12311933399178088
+tool,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",C,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029444916872307658
+fixed,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",C,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.030563624808564782
+adaptive,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",C,D,rejected,,False,D,bare_answer,False,True,format_and_content_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.028939917217940092
+tool,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17075358307920396
+fixed,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07562766713090241
+adaptive,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07449274999089539
+coverage,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07388820894993842
+fixed,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.12678266712464392
+adaptive,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.030028583016246557
+coverage,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.03090050001628697
+tool,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.030064542079344392
+adaptive,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.12534004217013717
+coverage,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.030449124984443188
+tool,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029631499899551272
+fixed,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029135582968592644
+coverage,arithmetic,(443 * 29) - 18,12829,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 12555,small_confidence_insufficient,False,0.431209750007838
+tool,arithmetic,(443 * 29) - 18,12829,FINAL_ANSWER: 12829,answered,12829,True,12829,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00012183305807411671
+fixed,arithmetic,(443 * 29) - 18,12829,FINAL_ANSWER: 123,answered,123,False,123,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 123,,False,0.16801445791497827
+adaptive,arithmetic,(443 * 29) - 18,12829,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.00042812502942979336
+tool,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.08988154190592468
+fixed,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.03001212514936924
+adaptive,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029473959002643824
+coverage,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.02888608304783702
+fixed,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.17184633389115334
+adaptive,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07546325004659593
+coverage,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07526083313859999
+tool,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",A,FINAL_ANSWER: A,answered,A,True,A,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: A,common_1.5B_general_adapter,True,0.07459870888851583
+adaptive,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.09134337515570223
+coverage,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029908707831054926
+tool,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029174708062782884
+fixed,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029879292007535696
+coverage,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.09354637516662478
+tool,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029345166869461536
+fixed,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029866457916796207
+adaptive,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02840633294545114
+tool,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.17631029221229255
+fixed,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07731583388522267
+adaptive,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.0746653750538826
+coverage,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07448183302767575
+fixed,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.20511062489822507
+adaptive,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07490816712379456
+coverage,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.0761124580167234
+tool,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07420775014907122
+adaptive,arithmetic,20 + 20,40,FINAL_ANSWER: 40,answered,40,True,40,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 40,"Eligible calibrated models, then supported legacy fallback; ",False,0.070300874998793
+coverage,arithmetic,20 + 20,40,FINAL_ANSWER: 40,answered,40,True,40,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 40,calibrated_small,False,0.05324820918031037
+tool,arithmetic,20 + 20,40,FINAL_ANSWER: 40,answered,40,True,40,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00011045904830098152
+fixed,arithmetic,20 + 20,40,FINAL_ANSWER: 40,answered,40,True,40,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 40,,False,0.1596047079656273
+coverage,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12245137500576675
+tool,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02960983314551413
+fixed,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02915116585791111
+adaptive,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030358416959643364
+tool,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.1263506249524653
+fixed,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030169500038027763
+adaptive,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.02945608296431601
+coverage,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028073500143364072
+fixed,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.12705391715280712
+adaptive,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.028600458055734634
+coverage,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.02906233398243785
+tool,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.030199124943464994
+adaptive,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.12582658394239843
+coverage,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.02978074993006885
+tool,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.028849999886006117
+fixed,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.029167083092033863
+coverage,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.125785208074376
+tool,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029669542098417878
+fixed,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029753959039226174
+adaptive,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.028568125097081065
+tool,arithmetic,96 * 48,4608,FINAL_ANSWER: 4608,answered,4608,True,4608,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00012625008821487427
+fixed,arithmetic,96 * 48,4608,FINAL_ANSWER: 4608,answered,4608,True,4608,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 4608,,False,0.1872279169037938
+adaptive,arithmetic,96 * 48,4608,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.00038820900954306126
+coverage,arithmetic,96 * 48,4608,FINAL_ANSWER: 4608,answered,4608,True,4608,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 4608,small_confidence_insufficient,False,0.16158020799048245
+fixed,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.16946504195220768
+adaptive,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07444445881992579
+coverage,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07466670800931752
+tool,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07406641589477658
+adaptive,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.12369145918637514
+coverage,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.03086329181678593
+tool,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02994675002992153
+fixed,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.028613541973754764
+coverage,arithmetic,39 * 67,2613,FINAL_ANSWER: 2613,answered,2613,True,2613,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,qwen2.5:1.5b,model,0,FINAL_ANSWER: 2613,small_confidence_insufficient,False,0.4070605840533972
+tool,arithmetic,39 * 67,2613,FINAL_ANSWER: 2613,answered,2613,True,2613,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00013766600750386715
+fixed,arithmetic,39 * 67,2613,FINAL_ANSWER: 2619,answered,2619,False,2619,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 2619,,False,0.18506700010038912
+adaptive,arithmetic,39 * 67,2613,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.0010339159052819014
+tool,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.12331950012594461
+fixed,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.028439666843041778
+adaptive,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029621583176776767
+coverage,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.02956204186193645
+fixed,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.09335149987600744
+adaptive,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.03055291692726314
+coverage,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02805866696871817
+tool,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.02961833286099136
+adaptive,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.1268742501270026
+coverage,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028616083087399602
+tool,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028683542041108012
+fixed,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029372625052928925
+coverage,arithmetic,6 + 15,21,FINAL_ANSWER: 21,answered,21,True,21,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 21,calibrated_small,False,0.07742283307015896
+tool,arithmetic,6 + 15,21,FINAL_ANSWER: 21,answered,21,True,21,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00010970816947519779
+fixed,arithmetic,6 + 15,21,FINAL_ANSWER: 21,answered,21,True,21,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 21,,False,0.1657019581180066
+adaptive,arithmetic,6 + 15,21,FINAL_ANSWER: 21,answered,21,True,21,final_line,True,True,format_valid_content_correct,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,qwen2.5:0.5b,model,0,FINAL_ANSWER: 21,"Eligible calibrated models, then supported legacy fallback; ",False,0.05311112501658499
+tool,arithmetic,25 * 62,1550,FINAL_ANSWER: 1550,answered,1550,True,1550,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.00011620903387665749
+fixed,arithmetic,25 * 62,1550,FINAL_ANSWER: 1560,answered,1560,False,1560,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1560,,False,0.18213870795443654
+adaptive,arithmetic,25 * 62,1550,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for medium; qwen2.5:1.5b: insufficient calibration confidence for medium,False,0.0003953329287469387
+coverage,arithmetic,25 * 62,1550,FINAL_ANSWER: 1550,answered,1550,True,1550,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 1550,small_confidence_insufficient,False,0.15752399992197752
+fixed,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.172742374939844
+adaptive,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07605316606350243
+coverage,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.075323540950194
+tool,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07482191710732877
+adaptive,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17325166705995798
+coverage,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07521937508136034
+tool,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07722108298912644
+fixed,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",B,FINAL_ANSWER: B,answered,B,True,B,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.074486083118245
+coverage,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.17280175001360476
+tool,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07665466703474522
+fixed,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07618258311413229
+adaptive,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",C,FINAL_ANSWER: B,answered,B,False,B,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: B,common_1.5B_general_adapter,True,0.07410116703249514
+tool,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.08923058304935694
+fixed,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.028970541898161173
+adaptive,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029049082892015576
+coverage,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",D,D,rejected,,False,D,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,D,extraction_failed,True,0.029449000023305416
+fixed,arithmetic,(314 * 58) - 20,18192,FINAL_ANSWER: 17520,answered,17520,False,17520,final_line,False,True,format_valid_content_wrong,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: 17520,,False,0.20075012487359345
+adaptive,arithmetic,(314 * 58) - 20,18192,,rejected,,False,,unresolved,False,False,policy_rejection,,[],0,,none,0,,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for hard; qwen2.5:1.5b: insufficient calibration confidence for hard,False,0.000379917211830616
+coverage,arithmetic,(314 * 58) - 20,18192,,rejected,,False,,unresolved,False,False,withheld_validation_failure,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,,model,0,FINAL_ANSWER: 18060,small_confidence_insufficient,False,0.40066270902752876
+tool,arithmetic,(314 * 58) - 20,18192,FINAL_ANSWER: 18192,answered,18192,True,18192,final_line,True,True,format_valid_content_correct,,[],0,,tool,1,,direct_calculator_result,False,0.0001398748718202114
+adaptive,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.12925449991598725
+coverage,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028327584033831954
+tool,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.028647958068177104
+fixed,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029626250034198165
+coverage,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.14143912494182587
+tool,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07528808293864131
+fixed,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07507829112000763
+adaptive,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.0745580829679966
+tool,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.1565076250117272
+fixed,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.030979541828855872
+adaptive,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.029854124877601862
+coverage,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",B,B,rejected,,False,B,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,B,extraction_failed,True,0.03022979199886322
+fixed,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.12796299997717142
+adaptive,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030656584072858095
+coverage,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.030383167089894414
+tool,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",C,C,rejected,,False,C,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,C,extraction_failed,True,0.03151274984702468
+adaptive,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.14226599992252886
+coverage,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07653470803052187
+tool,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07644491689279675
+fixed,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",C,FINAL_ANSWER: C,answered,C,True,C,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: C,common_1.5B_general_adapter,True,0.07496916712261736
+coverage,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.1741788750514388
+tool,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07850991701707244
+fixed,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.0759193329140544
+adaptive,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",D,FINAL_ANSWER: D,answered,D,True,D,final_line,True,True,format_valid_content_correct,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,FINAL_ANSWER: D,common_1.5B_general_adapter,True,0.07562020886689425
+tool,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.1303445000667125
+fixed,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.030152917141094804
+adaptive,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.03062495798803866
+coverage,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",A,A,rejected,,False,A,bare_answer,True,True,format_only_error,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,qwen2.5:1.5b,model,0,A,extraction_failed,True,0.029701624996960163

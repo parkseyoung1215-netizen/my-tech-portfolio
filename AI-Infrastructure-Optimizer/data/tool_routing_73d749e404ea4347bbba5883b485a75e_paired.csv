@@ -1,0 +1,7 @@
+dataset,baseline,accuracy_strictly_improved,answer_rate_strictly_improved,success_both_improved,common_answered,baseline_common_correct,tool_common_correct,baseline_common_seconds,tool_common_seconds,common_speed_ratio,lost_answers,correct_to_wrong
+replay200,fixed,True,True,True,195,110,195,44.30833129910752,0.02094299648888409,2115.663406744352,0,0
+replay200,adaptive,True,True,True,100,99,100,8.806155549595132,0.010407744906842709,846.1156214354763,0,0
+replay200,coverage,True,True,True,129,129,129,15.384078324306756,0.013899040408432484,1106.8446361932517,0,0
+unseen100,fixed,True,True,True,98,33,98,33.315576328430325,0.011493121040984988,2898.740577918346,0,0
+unseen100,adaptive,True,True,True,20,20,20,2.2135784989222884,0.002240541158244014,987.9660057917182,0,0
+unseen100,coverage,True,True,True,44,44,44,9.622066583484411,0.004959623562172055,1940.080020764812,0,0

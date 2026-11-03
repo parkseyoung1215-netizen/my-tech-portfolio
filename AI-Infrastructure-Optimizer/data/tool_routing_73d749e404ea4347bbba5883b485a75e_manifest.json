@@ -1,0 +1,1948 @@
+{
+  "version": "safe-integer-tool-routing-v1",
+  "datasets": {
+    "replay200": [
+      {
+        "question": "96 * 68",
+        "expected": 6528,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(140 * 93) - 28",
+        "expected": 12992,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "20 * 97",
+        "expected": 1940,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "9 + 14",
+        "expected": 23,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(638 * 19) - 24",
+        "expected": 12098,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "5 + 13",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "7 + 17",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 14",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "29 * 67",
+        "expected": 1943,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "9 + 16",
+        "expected": 25,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "3 + 13",
+        "expected": 16,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "81 * 73",
+        "expected": 5913,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "8 + 16",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "17 + 17",
+        "expected": 34,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "67 * 87",
+        "expected": 5829,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(499 * 36) - 33",
+        "expected": 17931,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "11 + 11",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 19",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 13",
+        "expected": 15,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "86 * 47",
+        "expected": 4042,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "57 * 61",
+        "expected": 3477,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "21 * 29",
+        "expected": 609,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(739 * 71) - 11",
+        "expected": 52458,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "40 * 22",
+        "expected": 880,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "58 * 68",
+        "expected": 3944,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "46 * 98",
+        "expected": 4508,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(688 * 14) - 67",
+        "expected": 9565,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(160 * 38) - 51",
+        "expected": 6029,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(781 * 48) - 58",
+        "expected": 37430,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(720 * 24) - 78",
+        "expected": 17202,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(231 * 23) - 68",
+        "expected": 5245,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(117 * 28) - 47",
+        "expected": 3229,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "10 + 16",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(206 * 62) - 56",
+        "expected": 12716,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "13 + 19",
+        "expected": 32,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(957 * 22) - 21",
+        "expected": 21033,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "6 + 16",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "1 + 17",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "44 * 34",
+        "expected": 1496,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(196 * 64) - 59",
+        "expected": 12485,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "2 + 15",
+        "expected": 17,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "11 + 19",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "4 + 4",
+        "expected": 8,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "40 * 99",
+        "expected": 3960,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "23 * 61",
+        "expected": 1403,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "13 + 18",
+        "expected": 31,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "49 * 99",
+        "expected": 4851,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "92 * 13",
+        "expected": 1196,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(272 * 57) - 65",
+        "expected": 15439,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "18 + 19",
+        "expected": 37,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(116 * 23) - 78",
+        "expected": 2590,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "7 + 12",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "71 * 86",
+        "expected": 6106,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "17 + 18",
+        "expected": 35,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(789 * 93) - 74",
+        "expected": 73303,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(345 * 22) - 51",
+        "expected": 7539,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(133 * 25) - 49",
+        "expected": 3276,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "3 + 18",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "11 + 17",
+        "expected": 28,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "16 + 16",
+        "expected": 32,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "9 + 10",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "7 + 15",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(481 * 91) - 66",
+        "expected": 43705,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(148 * 33) - 28",
+        "expected": 4856,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "3 + 15",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 13",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "10 + 19",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "12 + 14",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "13 + 14",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 11",
+        "expected": 16,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "70 * 30",
+        "expected": 2100,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "92 * 83",
+        "expected": 7636,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(396 * 16) - 40",
+        "expected": 6296,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "14 + 18",
+        "expected": 32,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(277 * 28) - 65",
+        "expected": 7691,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "3 + 9",
+        "expected": 12,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "2 + 12",
+        "expected": 14,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(152 * 77) - 12",
+        "expected": 11692,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(598 * 33) - 47",
+        "expected": 19687,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "7 + 10",
+        "expected": 17,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "13 + 13",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(519 * 78) - 66",
+        "expected": 40416,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "10 + 12",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 11",
+        "expected": 13,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(631 * 94) - 93",
+        "expected": 59221,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "11 + 16",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 12",
+        "expected": 17,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "55 * 53",
+        "expected": 2915,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "51 * 68",
+        "expected": 3468,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "8 + 11",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "16 + 20",
+        "expected": 36,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 18",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(990 * 11) - 91",
+        "expected": 10799,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "11 + 18",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "7 + 18",
+        "expected": 25,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "15 + 15",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "60 * 86",
+        "expected": 5160,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "78 * 97",
+        "expected": 7566,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(914 * 84) - 79",
+        "expected": 76697,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "16 + 18",
+        "expected": 34,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "27 * 39",
+        "expected": 1053,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "38 * 38",
+        "expected": 1444,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "12 + 15",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "9 + 20",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "13 + 20",
+        "expected": 33,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 20",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(305 * 59) - 31",
+        "expected": 17964,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(641 * 74) - 68",
+        "expected": 47366,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(239 * 56) - 94",
+        "expected": 13290,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "10 + 17",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "8 + 13",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "1 + 19",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "14 + 16",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "58 * 18",
+        "expected": 1044,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "16 + 19",
+        "expected": 35,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "3 + 5",
+        "expected": 8,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "12 + 17",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(869 * 93) - 73",
+        "expected": 80744,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "59 * 58",
+        "expected": 3422,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(709 * 81) - 68",
+        "expected": 57361,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "57 * 32",
+        "expected": 1824,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(523 * 61) - 26",
+        "expected": 31877,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(395 * 46) - 67",
+        "expected": 18103,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "15 + 16",
+        "expected": 31,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "68 * 32",
+        "expected": 2176,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(626 * 65) - 29",
+        "expected": 40661,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "24 * 89",
+        "expected": 2136,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "58 * 56",
+        "expected": 3248,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "4 + 17",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "8 + 19",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(856 * 83) - 38",
+        "expected": 71010,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "4 + 15",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "25 * 23",
+        "expected": 575,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "11 + 15",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "47 * 69",
+        "expected": 3243,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "7 + 14",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "74 * 58",
+        "expected": 4292,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "8 + 12",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(912 * 75) - 41",
+        "expected": 68359,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "5 + 10",
+        "expected": 15,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "36 * 25",
+        "expected": 900,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(630 * 33) - 86",
+        "expected": 20704,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "14 + 14",
+        "expected": 28,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 5",
+        "expected": 10,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "11 + 14",
+        "expected": 25,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "13 + 16",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(343 * 19) - 25",
+        "expected": 6492,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(996 * 46) - 72",
+        "expected": 45744,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "70 * 45",
+        "expected": 3150,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "54 * 26",
+        "expected": 1404,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "9 + 15",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "90 * 62",
+        "expected": 5580,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "83 * 47",
+        "expected": 3901,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "58 * 82",
+        "expected": 4756,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "5 + 17",
+        "expected": 22,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(356 * 61) - 35",
+        "expected": 21681,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "69 * 87",
+        "expected": 6003,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "10 + 18",
+        "expected": 28,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "23 * 98",
+        "expected": 2254,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(254 * 93) - 98",
+        "expected": 23524,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(339 * 35) - 46",
+        "expected": 11819,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(683 * 79) - 71",
+        "expected": 53886,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "43 * 92",
+        "expected": 3956,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "34 * 43",
+        "expected": 1462,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(301 * 29) - 73",
+        "expected": 8656,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(821 * 88) - 19",
+        "expected": 72229,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "12 + 13",
+        "expected": 25,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "8 + 18",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 16",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "14 + 19",
+        "expected": 33,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(346 * 53) - 46",
+        "expected": 18292,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "1 + 14",
+        "expected": 15,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 6",
+        "expected": 11,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "3 + 12",
+        "expected": 15,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "7 + 7",
+        "expected": 14,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "7 + 16",
+        "expected": 23,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "15 + 20",
+        "expected": 35,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "1 + 16",
+        "expected": 17,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 15",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "33 * 59",
+        "expected": 1947,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "3 + 17",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(741 * 82) - 64",
+        "expected": 60698,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "10 + 11",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 10",
+        "expected": 12,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "2 + 19",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "10 + 20",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "8 + 17",
+        "expected": 25,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "73 * 92",
+        "expected": 6716,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "31 * 63",
+        "expected": 1953,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "14 + 15",
+        "expected": 29,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "5 + 9",
+        "expected": 14,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "(434 * 54) - 31",
+        "expected": 23405,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "13 + 17",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "2 + 18",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 6",
+        "expected": 12,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "26 * 44",
+        "expected": 1144,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "20 * 15",
+        "expected": 300,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "4 + 14",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "99 * 47",
+        "expected": 4653,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "1 + 12",
+        "expected": 13,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      }
+    ],
+    "unseen100": [
+      {
+        "question": "(835 * 55) - 66",
+        "expected": 45859,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "74 * 29",
+        "expected": 2146,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "7 + 19",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "34 * 11",
+        "expected": 374,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "4 + 11",
+        "expected": 15,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "96 * 96",
+        "expected": 9216,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "4 + 12",
+        "expected": 16,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "96 * 44",
+        "expected": 4224,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "31 * 64",
+        "expected": 1984,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "51 * 37",
+        "expected": 1887,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(588 * 41) - 21",
+        "expected": 24087,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(634 * 15) - 39",
+        "expected": 9471,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "61 * 35",
+        "expected": 2135,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "92 * 53",
+        "expected": 4876,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "51 * 79",
+        "expected": 4029,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "76 * 39",
+        "expected": 2964,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(672 * 37) - 35",
+        "expected": 24829,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "59 * 81",
+        "expected": 4779,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(312 * 93) - 65",
+        "expected": 28951,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(916 * 13) - 71",
+        "expected": 11837,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "69 * 19",
+        "expected": 1311,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "10 + 14",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "12 + 16",
+        "expected": 28,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(716 * 65) - 81",
+        "expected": 46459,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "55 * 87",
+        "expected": 4785,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(511 * 51) - 96",
+        "expected": 25965,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "5 + 16",
+        "expected": 21,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "23 * 83",
+        "expected": 1909,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(580 * 56) - 48",
+        "expected": 32432,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(124 * 83) - 94",
+        "expected": 10198,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "5 + 14",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(536 * 64) - 45",
+        "expected": 34259,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(847 * 80) - 50",
+        "expected": 67710,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "71 * 65",
+        "expected": 4615,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "92 * 38",
+        "expected": 3496,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "7 + 20",
+        "expected": 27,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "81 * 58",
+        "expected": 4698,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "7 + 13",
+        "expected": 20,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "68 * 62",
+        "expected": 4216,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(401 * 78) - 25",
+        "expected": 31253,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(734 * 38) - 16",
+        "expected": 27876,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(641 * 23) - 48",
+        "expected": 14695,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "15 + 18",
+        "expected": 33,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "83 * 77",
+        "expected": 6391,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(870 * 86) - 26",
+        "expected": 74794,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(714 * 17) - 71",
+        "expected": 12067,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(183 * 72) - 45",
+        "expected": 13131,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "51 * 20",
+        "expected": 1020,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "99 * 75",
+        "expected": 7425,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "49 * 20",
+        "expected": 980,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(311 * 28) - 37",
+        "expected": 8671,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(742 * 60) - 59",
+        "expected": 44461,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(919 * 29) - 71",
+        "expected": 26580,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "23 * 32",
+        "expected": 736,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(821 * 67) - 17",
+        "expected": 54990,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(445 * 72) - 88",
+        "expected": 31952,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "9 + 9",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "73 * 46",
+        "expected": 3358,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(287 * 71) - 30",
+        "expected": 20347,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(408 * 98) - 13",
+        "expected": 39971,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "66 * 17",
+        "expected": 1122,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "50 * 87",
+        "expected": 4350,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "6 + 7",
+        "expected": 13,
+        "difficulty": "easy",
+        "bucket": "addition_small"
+      },
+      {
+        "question": "(765 * 24) - 40",
+        "expected": 18320,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "6 + 12",
+        "expected": 18,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "74 * 74",
+        "expected": 5476,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "65 * 13",
+        "expected": 845,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(664 * 65) - 20",
+        "expected": 43140,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(279 * 98) - 92",
+        "expected": 27250,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "54 * 61",
+        "expected": 3294,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "35 * 78",
+        "expected": 2730,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "23 * 79",
+        "expected": 1817,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "17 + 19",
+        "expected": 36,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "79 * 43",
+        "expected": 3397,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(110 * 64) - 57",
+        "expected": 6983,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(380 * 13) - 37",
+        "expected": 4903,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "21 * 18",
+        "expected": 378,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "38 * 82",
+        "expected": 3116,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "60 * 63",
+        "expected": 3780,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "82 * 83",
+        "expected": 6806,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "80 * 27",
+        "expected": 2160,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "(182 * 48) - 57",
+        "expected": 8679,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "59 * 35",
+        "expected": 2065,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "2 + 17",
+        "expected": 19,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(678 * 68) - 69",
+        "expected": 46035,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(379 * 76) - 91",
+        "expected": 28713,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "4 + 20",
+        "expected": 24,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(102 * 26) - 52",
+        "expected": 2600,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(110 * 77) - 33",
+        "expected": 8437,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "40 * 29",
+        "expected": 1160,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "77 * 32",
+        "expected": 2464,
+        "difficulty": "medium",
+        "bucket": "medium"
+      },
+      {
+        "question": "11 + 20",
+        "expected": 31,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "12 + 18",
+        "expected": 30,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 20",
+        "expected": 26,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "6 + 11",
+        "expected": 17,
+        "difficulty": "easy",
+        "bucket": "addition_large"
+      },
+      {
+        "question": "(283 * 73) - 21",
+        "expected": 20638,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(735 * 75) - 60",
+        "expected": 55065,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(829 * 70) - 44",
+        "expected": 57986,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(409 * 53) - 27",
+        "expected": 21650,
+        "difficulty": "hard",
+        "bucket": "hard"
+      },
+      {
+        "question": "(600 * 81) - 35",
+        "expected": 48565,
+        "difficulty": "hard",
+        "bucket": "hard"
+      }
+    ]
+  },
+  "safety_cases": [
+    {
+      "id": "precedence",
+      "question": "2 + 3 * 4",
+      "expected_tool": true,
+      "value": 14
+    },
+    {
+      "id": "signed_parentheses",
+      "question": "-(2 + 3) * 4",
+      "expected_tool": true,
+      "value": -20
+    },
+    {
+      "id": "natural_language",
+      "question": "Explain AI",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "text_with_expression",
+      "question": "Calculate 2 + 3",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "units",
+      "question": "2 + 3 people",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "function_call",
+      "question": "__import__('os')",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "power",
+      "question": "2 ** 1000000",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "division",
+      "question": "1 / 0",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "decimal",
+      "question": "1.5 + 2",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "plain_number",
+      "question": "42",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "leading_zero_model_fallback",
+      "question": "0002 + 0003",
+      "expected_tool": false,
+      "value": 5
+    },
+    {
+      "id": "depth_limit",
+      "question": "--------------------(1 + 2)",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "result_limit",
+      "question": "999999999999 * 999999999999 * 999999999999 * 999999999999",
+      "expected_tool": false,
+      "value": null
+    },
+    {
+      "id": "length_limit",
+      "question": "1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1",
+      "expected_tool": false,
+      "value": null
+    }
+  ],
+  "source_manifest_sha256": "b33d52151dc5633d86787d6f32bfb661a88dc62a0212b3f07200ae0f8c397de3",
+  "profile_sha256": "d1035599d630348b48d5653df91f59a9e0a46e3ba68617eebea0f2063c0a0a21",
+  "preserved_sha256": {
+    "./src/coverage_runner.py": "df21346c4a10c5849904eef8f33cb1b36058c4ff8c32c38d2b582f660711adf5",
+    "./src/tool_experiment.py": "83b7717d611f6e5a47cc012afbf484d03039c915a2af594db4414516224ff0d6",
+    "./src/verification_audit.py": "e13c0076c31003fd832ff401f259abd4e2dfde24777db0a5fe522028b1120c1d",
+    "./src/benchmark.py": "e803d3f67beae3fa446fc4293779bf8eace453506d5cfc15e386f9907e534b08",
+    "./src/answer_validator.py": "41903433920fb1d3048b5e85d9e424189ffa12bca048a86b5bbef8b3ffc51960",
+    "./src/coverage_experiment.py": "d421ae3cffae8eaf7011afc6ea729a523802ae5e1be04978edd8a8dff67c856c",
+    "./src/verify_routing200.py": "4ef9da1bc2abd6468911f32423e9778a7ae57c6fad61d7cc2dd73dc3470d8894",
+    "./src/tool_router.py": "f688ec63d678851c5467e17dfc8857d102260b7eb5b701c1f74b42c01247c4d5",
+    "./src/coverage_policy.py": "9435ba13ec8a795bc0183dcb3abf7143e3b725c628bb6368def9ed9a48932898",
+    "./src/adaptive_experiment.py": "76a1fea943005af37f03510f9df258b5ab1e6539619a6806baa99eeb11f45ecd",
+    "./src/adaptive_router.py": "1706e8e7399f09e5a370d504de6c80b05bbd980423022afb061e9809151e2b51",
+    "./src/request_verifier.py": "044501227b76f0a58912ee44f34ff67afdd5c3e19db6fbbd1ac95568e093dbb6",
+    "./src/cost_analyzer.py": "72e109ed1221d2806f862f5c9f5e995f68844e6e199c30d4289288f516b49826",
+    "./src/model_router.py": "13dabab1b2b8ba3c59942f13fc9073fe21d0bc921eb80e510a20553de76b1c25",
+    "./src/main.py": "72cdd55fb3d1a35c3da635e8c02aa94c4341949c44e897f5fc569c680d1f9f6a",
+    "./src/benchmark_v2.py": "55bc3003d70e1800c3109182a957b7d938dc4ba462ce7ddf03c0ed7edb135663",
+    "./src/safe_calculator.py": "c8f848e319e04fa4d7ad45606a63d409003dabd7b09caad81247312a885003e5",
+    "./src/routing_runner.py": "a37d49da1ea267e9dd0727bdf4a13fcc1e570d84803194ebbb4356e959d7ecba",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_metadata.json": "1866ba6e94f2944eecdea531e07d1124d8ed77d3f4f05e6fd375c529c71b3616",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_evaluation.csv": "2ce24c605ce10e5b15de49c943d28daddea5abd513a545a4e71e14af2500722a",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_summary.csv": "8aabc749f7965e9aac301a91e900790c617da0f9b376f1b68f1ae981b13cdb41",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_calibration.csv": "7e87e877ec4a2ac13fd9bd89145966cc1321948167f1535ae9919319d9b6cb3a",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_splits.json": "62a51ccdf0e0087195fd9a492725314f5e142098277bd4f6131cc6e5ea9f3a57",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_summary.csv": "87d477eb0b847948f2070809730f659c70d57daf862ba1a2c6b4a40e1a188b0b",
+    "./data/benchmark_results.csv": "3ea250dd3f26dfd77200208f5bb0de67d0796bfed72d213d0e0d5fc5254ec750",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_profile.json": "d1035599d630348b48d5653df91f59a9e0a46e3ba68617eebea0f2063c0a0a21",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_summary.csv": "1b5117e8deedc907f234854c7f2d2458cfc60dc476de1e943b91b056829cc024",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_timing.json": "1c502856fd7ac60a10db63998fa0b00840090b4edc85eaf7f5cca548d0245773",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_report.md": "f43065f3f9949f81132b34598a5bcfb586c0becb1265dc1635cd5f569f8b158d",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_metadata.json": "105af4ebea94350a4e1a6a1c6416943c093920db25dc35343ba513e91a422291",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_summary.csv": "36aa0132335a6faad6e652a98562df9a0809881eb4258efae1031a2371a7f4b3",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_resources.csv": "d32e02351ec2ae9c7a5144c904d68102d69b58f7402b6284d521761cedbd373d",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_splits.json": "81eb63a7874be8bf939a5547359b73c33194fababb824e0ecc33accb1d274c3e",
+    "./data/routing_summary_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "bcbcd836bfb2d80e2af038ba76483f38a7a3d495d428c62b02e464b7b84c9d0c",
+    "./data/benchmark_v2.csv": "35ae3ccd2ff2967874db06ee9f576caf78a096ac64361338f29c6a08dc4b85d9",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_report.md": "3bad693301bb06e342ef647ee84b5de9562d29163d881540249eb262b3a201ba",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_paired.csv": "1a5af89e29081b7db55414c8a8665287ffc6c744944b093c93878fb540700a69",
+    "./data/benchmark_v2_f2be12734ce5444397f2ca02a62c1869.csv": "9d974fc3625c7b8c3741d38d78085f6cbda7830176e46e3e06fb59cbe8035ae5",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_pairs.csv": "cd8425ee73e11615085e516db8ce10843bef4c3cd7ded4573d7ed2a93d201442",
+    "./data/routing_comparison_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "f7002538b611c1632522b0c75f9e1b5455969bc9ff4c8081831085696ccedcf2",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_evaluation.csv": "387c75052878e37e39ccded53d14db63c85bc0dde5f4bd7cc8192b58d2916410",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_evaluation.csv": "8deb548f74f9536d979f929dcf207d60749163f7b398336f7c3f69b1066f62e8",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_assessment.md": "c70a030343e77b1fb0ca43c93bcbda6c38139113db72ea6138574a2beb92eceb",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_paired.csv": "147008c4c0955064c98c8a4a913f2c4acbd57a9e968a0f3693f5821412e2abb3",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_manifest.json": "b33d52151dc5633d86787d6f32bfb661a88dc62a0212b3f07200ae0f8c397de3",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_paired.csv": "424cd7810749bf40cd0f296db033f873f2154b801ce63c13540682f11b8bf91a",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_report.md": "5d3e82868387e1b29fa7aae7d5c41f497e83e2e68aa6a9eb0310528bf91460aa",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_attempts.csv": "2d72805725b8052dc10889475f7565817a6266967e98653cd08b58492ec95654"
+  },
+  "success_rule": "accuracy AND answer_rate strictly improve vs every baseline on each dataset"
+}

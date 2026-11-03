@@ -1,0 +1,6 @@
+{
+  "calibration_seconds": 36.72515979106538,
+  "evaluation_seconds": 32.26966029196046,
+  "warmup_and_io_excluded": true,
+  "threshold": 0.8
+}

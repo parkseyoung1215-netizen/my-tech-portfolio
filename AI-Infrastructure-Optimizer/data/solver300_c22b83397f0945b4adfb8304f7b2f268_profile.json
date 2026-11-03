@@ -1,0 +1,77 @@
+{
+  "version": "solver-choice-v1",
+  "threshold": 0.8,
+  "min_samples": 20,
+  "categories": {
+    "arithmetic": {
+      "qwen2.5:0.5b": {
+        "samples": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "lower_bound": -1.1641658116749259e-17
+      },
+      "qwen2.5:1.5b": {
+        "samples": 20,
+        "correct": 11,
+        "accuracy": 0.55,
+        "lower_bound": 0.34208200830759966
+      }
+    },
+    "knowledge": {
+      "qwen2.5:1.5b": {
+        "samples": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "lower_bound": 0.8388698745050667
+      },
+      "qwen2.5:0.5b": {
+        "samples": 20,
+        "correct": 13,
+        "accuracy": 0.65,
+        "lower_bound": 0.43285051021946475
+      }
+    },
+    "comprehension": {
+      "qwen2.5:1.5b": {
+        "samples": 20,
+        "correct": 10,
+        "accuracy": 0.5,
+        "lower_bound": 0.2992949144298199
+      },
+      "qwen2.5:0.5b": {
+        "samples": 20,
+        "correct": 8,
+        "accuracy": 0.4,
+        "lower_bound": 0.21880396741419272
+      }
+    },
+    "coding": {
+      "qwen2.5:1.5b": {
+        "samples": 20,
+        "correct": 15,
+        "accuracy": 0.75,
+        "lower_bound": 0.5312949900419365
+      },
+      "qwen2.5:0.5b": {
+        "samples": 20,
+        "correct": 3,
+        "accuracy": 0.15,
+        "lower_bound": 0.05236779195949582
+      }
+    },
+    "logic": {
+      "qwen2.5:0.5b": {
+        "samples": 20,
+        "correct": 1,
+        "accuracy": 0.05,
+        "lower_bound": 0.008881219432873143
+      },
+      "qwen2.5:1.5b": {
+        "samples": 20,
+        "correct": 12,
+        "accuracy": 0.6,
+        "lower_bound": 0.38657794231520604
+      }
+    }
+  }
+}

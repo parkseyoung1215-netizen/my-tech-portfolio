@@ -1,0 +1,172 @@
+question,reference_output,expected_option_text,matches
+"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",3,3,True
+"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]","[7, 9]","[7, 9]",True
+"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",9,9,True
+"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",8,8,True
+"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None","[1, 2, 3]","[1, 2, 3]",True
+"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",3,3,True
+"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",6,6,True
+"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",7,7,True
+"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",True,True,True
+"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",7,7,True
+"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",ababab,ababab,True
+"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",12,12,True
+"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",False,False,True
+"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",ROUTE,ROUTE,True
+"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]","[2, 4, 6]","[2, 4, 6]",True
+"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]","[1, 2, 5]","[1, 2, 5]",True
+"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]","[4, 9]","[4, 9]",True
+"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']","['a', 'b', 'c']","['a', 'b', 'c']",True
+"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",1,1,True
+"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",3,3,True

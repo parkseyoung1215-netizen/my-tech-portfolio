@@ -1,0 +1,5 @@
+dataset,baseline,common_answered,baseline_correct,coverage_correct,correct_to_wrong,wrong_to_correct,lost_answers,lost_correct_answers,baseline_common_seconds,coverage_common_seconds,common_speed_ratio
+replay200,fixed,124,108,124,0,16,71,2,22.855655960040167,12.838178670266643,1.780288041400616
+replay200,adaptive_old,100,99,100,0,1,0,0,6.8126586673315614,7.091971047222614,0.9606156908945027
+unseen100,fixed,43,33,43,0,10,55,0,11.641023457050323,7.687346543651074,1.5143097024375158
+unseen100,adaptive_old,20,20,20,0,0,0,0,2.1089846240356565,1.8565650028176606,1.1359605620244404

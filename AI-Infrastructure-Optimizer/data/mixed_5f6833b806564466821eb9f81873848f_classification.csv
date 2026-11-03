@@ -1,0 +1,1965 @@
+strategy,question,category,inferred_category,source,classification_error,tool_misapplication
+fixed,92 * 34,arithmetic,arithmetic,model,False,False
+adaptive,92 * 34,arithmetic,arithmetic,none,False,False
+coverage,92 * 34,arithmetic,arithmetic,model,False,False
+tool,92 * 34,arithmetic,arithmetic,tool,False,False
+adaptive,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,knowledge,model,False,False
+coverage,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,knowledge,model,False,False
+tool,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,knowledge,model,False,False
+fixed,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,knowledge,model,False,False
+coverage,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,knowledge,model,False,False
+tool,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,knowledge,model,False,False
+fixed,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,knowledge,model,False,False
+adaptive,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,knowledge,model,False,False
+tool,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+fixed,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+coverage,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+fixed,(827 * 48) - 51,arithmetic,arithmetic,model,False,False
+adaptive,(827 * 48) - 51,arithmetic,arithmetic,none,False,False
+coverage,(827 * 48) - 51,arithmetic,arithmetic,model,False,False
+tool,(827 * 48) - 51,arithmetic,arithmetic,tool,False,False
+adaptive,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,coding,model,False,False
+coverage,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+tool,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+tool,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",comprehension,comprehension,model,False,False
+fixed,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,knowledge,model,False,False
+adaptive,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,knowledge,model,False,False
+coverage,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,knowledge,model,False,False
+tool,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,knowledge,model,False,False
+adaptive,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,knowledge,model,False,False
+coverage,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,knowledge,model,False,False
+tool,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,knowledge,model,False,False
+fixed,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,knowledge,model,False,False
+coverage,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+tool,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,comprehension,model,False,False
+tool,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,comprehension,model,False,False
+fixed,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,comprehension,model,False,False
+coverage,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,comprehension,model,False,False
+fixed,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,knowledge,model,False,False
+adaptive,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,knowledge,model,False,False
+coverage,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,knowledge,model,False,False
+tool,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,knowledge,model,False,False
+adaptive,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,comprehension,model,False,False
+tool,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,comprehension,model,False,False
+coverage,18 + 18,arithmetic,arithmetic,model,False,False
+tool,18 + 18,arithmetic,arithmetic,tool,False,False
+fixed,18 + 18,arithmetic,arithmetic,model,False,False
+adaptive,18 + 18,arithmetic,arithmetic,model,False,False
+tool,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,logic,model,False,False
+fixed,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,logic,model,False,False
+adaptive,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,logic,model,False,False
+coverage,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,logic,model,False,False
+fixed,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,logic,model,False,False
+adaptive,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,logic,model,False,False
+coverage,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,logic,model,False,False
+tool,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,logic,model,False,False
+adaptive,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,logic,model,False,False
+coverage,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,logic,model,False,False
+tool,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,logic,model,False,False
+fixed,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,logic,model,False,False
+coverage,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,logic,model,False,False
+tool,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,logic,model,False,False
+fixed,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,logic,model,False,False
+adaptive,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,logic,model,False,False
+tool,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,coding,model,False,False
+fixed,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,logic,model,False,False
+adaptive,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,logic,model,False,False
+coverage,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,logic,model,False,False
+tool,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,logic,model,False,False
+adaptive,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,coding,model,False,False
+coverage,(299 * 19) - 82,arithmetic,arithmetic,model,False,False
+tool,(299 * 19) - 82,arithmetic,arithmetic,tool,False,False
+fixed,(299 * 19) - 82,arithmetic,arithmetic,model,False,False
+adaptive,(299 * 19) - 82,arithmetic,arithmetic,none,False,False
+tool,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+fixed,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+coverage,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,comprehension,model,False,False
+fixed,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,coding,model,False,False
+adaptive,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",comprehension,comprehension,model,False,False
+tool,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",comprehension,comprehension,model,False,False
+coverage,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,logic,model,False,False
+tool,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,logic,model,False,False
+fixed,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,logic,model,False,False
+adaptive,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,logic,model,False,False
+tool,(489 * 41) - 30,arithmetic,arithmetic,tool,False,False
+fixed,(489 * 41) - 30,arithmetic,arithmetic,model,False,False
+adaptive,(489 * 41) - 30,arithmetic,arithmetic,none,False,False
+coverage,(489 * 41) - 30,arithmetic,arithmetic,model,False,False
+fixed,77 * 87,arithmetic,arithmetic,model,False,False
+adaptive,77 * 87,arithmetic,arithmetic,none,False,False
+coverage,77 * 87,arithmetic,arithmetic,model,False,False
+tool,77 * 87,arithmetic,arithmetic,tool,False,False
+adaptive,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,coding,model,False,False
+fixed,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,comprehension,model,False,False
+tool,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,comprehension,model,False,False
+coverage,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,comprehension,model,False,False
+tool,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,comprehension,model,False,False
+fixed,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,comprehension,model,False,False
+coverage,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,logic,model,False,False
+tool,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,logic,model,False,False
+fixed,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,logic,model,False,False
+adaptive,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,logic,model,False,False
+tool,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,knowledge,model,False,False
+fixed,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,knowledge,model,False,False
+adaptive,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,knowledge,model,False,False
+coverage,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,knowledge,model,False,False
+fixed,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,knowledge,model,False,False
+adaptive,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,knowledge,model,False,False
+coverage,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,knowledge,model,False,False
+tool,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,knowledge,model,False,False
+adaptive,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,coding,model,False,False
+coverage,3 + 10,arithmetic,arithmetic,model,False,False
+tool,3 + 10,arithmetic,arithmetic,tool,False,False
+fixed,3 + 10,arithmetic,arithmetic,model,False,False
+adaptive,3 + 10,arithmetic,arithmetic,model,False,False
+tool,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,knowledge,model,False,False
+fixed,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,knowledge,model,False,False
+adaptive,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,knowledge,model,False,False
+coverage,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,knowledge,model,False,False
+fixed,(500 * 21) - 70,arithmetic,arithmetic,model,False,False
+adaptive,(500 * 21) - 70,arithmetic,arithmetic,none,False,False
+coverage,(500 * 21) - 70,arithmetic,arithmetic,model,False,False
+tool,(500 * 21) - 70,arithmetic,arithmetic,tool,False,False
+adaptive,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,knowledge,model,False,False
+coverage,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,knowledge,model,False,False
+tool,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,knowledge,model,False,False
+fixed,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,knowledge,model,False,False
+coverage,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,knowledge,model,False,False
+tool,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,knowledge,model,False,False
+fixed,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,knowledge,model,False,False
+adaptive,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,knowledge,model,False,False
+tool,11 + 13,arithmetic,arithmetic,tool,False,False
+fixed,11 + 13,arithmetic,arithmetic,model,False,False
+adaptive,11 + 13,arithmetic,arithmetic,model,False,False
+coverage,11 + 13,arithmetic,arithmetic,model,False,False
+fixed,(857 * 57) - 63,arithmetic,arithmetic,model,False,False
+adaptive,(857 * 57) - 63,arithmetic,arithmetic,none,False,False
+coverage,(857 * 57) - 63,arithmetic,arithmetic,model,False,False
+tool,(857 * 57) - 63,arithmetic,arithmetic,tool,False,False
+adaptive,45 * 56,arithmetic,arithmetic,none,False,False
+coverage,45 * 56,arithmetic,arithmetic,model,False,False
+tool,45 * 56,arithmetic,arithmetic,tool,False,False
+fixed,45 * 56,arithmetic,arithmetic,model,False,False
+coverage,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,coding,model,False,False
+tool,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,logic,model,False,False
+fixed,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,logic,model,False,False
+adaptive,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,logic,model,False,False
+coverage,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,logic,model,False,False
+fixed,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,coding,model,False,False
+adaptive,4 + 16,arithmetic,arithmetic,model,False,False
+coverage,4 + 16,arithmetic,arithmetic,model,False,False
+tool,4 + 16,arithmetic,arithmetic,tool,False,False
+fixed,4 + 16,arithmetic,arithmetic,model,False,False
+coverage,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,logic,model,False,False
+tool,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,logic,model,False,False
+fixed,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,logic,model,False,False
+adaptive,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,logic,model,False,False
+tool,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,knowledge,model,False,False
+fixed,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,knowledge,model,False,False
+adaptive,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,knowledge,model,False,False
+coverage,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,knowledge,model,False,False
+fixed,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",comprehension,comprehension,model,False,False
+tool,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,comprehension,model,False,False
+coverage,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,comprehension,model,False,False
+tool,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,comprehension,model,False,False
+fixed,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+tool,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+tool,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,coding,model,False,False
+adaptive,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,knowledge,model,False,False
+coverage,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,knowledge,model,False,False
+tool,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,knowledge,model,False,False
+fixed,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,knowledge,model,False,False
+coverage,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,logic,model,False,False
+tool,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,logic,model,False,False
+fixed,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,logic,model,False,False
+adaptive,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,logic,model,False,False
+tool,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,comprehension,model,False,False
+fixed,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,comprehension,model,False,False
+coverage,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,comprehension,model,False,False
+fixed,25 * 66,arithmetic,arithmetic,model,False,False
+adaptive,25 * 66,arithmetic,arithmetic,none,False,False
+coverage,25 * 66,arithmetic,arithmetic,model,False,False
+tool,25 * 66,arithmetic,arithmetic,tool,False,False
+adaptive,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+tool,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,comprehension,model,False,False
+coverage,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,logic,model,False,False
+tool,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,logic,model,False,False
+fixed,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,logic,model,False,False
+adaptive,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,logic,model,False,False
+tool,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,comprehension,model,False,False
+fixed,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,logic,model,False,False
+adaptive,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,logic,model,False,False
+coverage,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,logic,model,False,False
+tool,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,logic,model,False,False
+adaptive,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+coverage,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+tool,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+fixed,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+coverage,(443 * 29) - 18,arithmetic,arithmetic,model,False,False
+tool,(443 * 29) - 18,arithmetic,arithmetic,tool,False,False
+fixed,(443 * 29) - 18,arithmetic,arithmetic,model,False,False
+adaptive,(443 * 29) - 18,arithmetic,arithmetic,none,False,False
+tool,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,coding,model,False,False
+fixed,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,comprehension,model,False,False
+coverage,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,comprehension,model,False,False
+tool,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,comprehension,model,False,False
+adaptive,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,coding,model,False,False
+coverage,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,knowledge,model,False,False
+tool,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,knowledge,model,False,False
+fixed,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,knowledge,model,False,False
+adaptive,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,knowledge,model,False,False
+tool,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,logic,model,False,False
+fixed,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,logic,model,False,False
+adaptive,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,logic,model,False,False
+coverage,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,logic,model,False,False
+fixed,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,coding,model,False,False
+adaptive,20 + 20,arithmetic,arithmetic,model,False,False
+coverage,20 + 20,arithmetic,arithmetic,model,False,False
+tool,20 + 20,arithmetic,arithmetic,tool,False,False
+fixed,20 + 20,arithmetic,arithmetic,model,False,False
+coverage,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,knowledge,model,False,False
+tool,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,knowledge,model,False,False
+fixed,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,knowledge,model,False,False
+adaptive,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,knowledge,model,False,False
+tool,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,comprehension,model,False,False
+fixed,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,comprehension,model,False,False
+fixed,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,coding,model,False,False
+adaptive,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,coding,model,False,False
+coverage,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,logic,model,False,False
+tool,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,logic,model,False,False
+fixed,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,logic,model,False,False
+adaptive,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,logic,model,False,False
+tool,96 * 48,arithmetic,arithmetic,tool,False,False
+fixed,96 * 48,arithmetic,arithmetic,model,False,False
+adaptive,96 * 48,arithmetic,arithmetic,none,False,False
+coverage,96 * 48,arithmetic,arithmetic,model,False,False
+fixed,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,logic,model,False,False
+adaptive,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,logic,model,False,False
+coverage,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,logic,model,False,False
+tool,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,logic,model,False,False
+adaptive,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,coding,model,False,False
+coverage,39 * 67,arithmetic,arithmetic,model,False,False
+tool,39 * 67,arithmetic,arithmetic,tool,False,False
+fixed,39 * 67,arithmetic,arithmetic,model,False,False
+adaptive,39 * 67,arithmetic,arithmetic,none,False,False
+tool,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,knowledge,model,False,False
+fixed,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,knowledge,model,False,False
+adaptive,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,knowledge,model,False,False
+coverage,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,knowledge,model,False,False
+fixed,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,knowledge,model,False,False
+adaptive,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,knowledge,model,False,False
+coverage,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,knowledge,model,False,False
+tool,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,knowledge,model,False,False
+adaptive,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,knowledge,model,False,False
+coverage,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,knowledge,model,False,False
+tool,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,knowledge,model,False,False
+fixed,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,knowledge,model,False,False
+coverage,6 + 15,arithmetic,arithmetic,model,False,False
+tool,6 + 15,arithmetic,arithmetic,tool,False,False
+fixed,6 + 15,arithmetic,arithmetic,model,False,False
+adaptive,6 + 15,arithmetic,arithmetic,model,False,False
+tool,25 * 62,arithmetic,arithmetic,tool,False,False
+fixed,25 * 62,arithmetic,arithmetic,model,False,False
+adaptive,25 * 62,arithmetic,arithmetic,none,False,False
+coverage,25 * 62,arithmetic,arithmetic,model,False,False
+fixed,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,logic,model,False,False
+adaptive,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,logic,model,False,False
+coverage,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,logic,model,False,False
+tool,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,logic,model,False,False
+adaptive,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,coding,model,False,False
+coverage,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,comprehension,model,False,False
+tool,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,comprehension,model,False,False
+fixed,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,comprehension,model,False,False
+tool,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,knowledge,model,False,False
+fixed,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,knowledge,model,False,False
+adaptive,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,knowledge,model,False,False
+coverage,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,knowledge,model,False,False
+fixed,(314 * 58) - 20,arithmetic,arithmetic,model,False,False
+adaptive,(314 * 58) - 20,arithmetic,arithmetic,none,False,False
+coverage,(314 * 58) - 20,arithmetic,arithmetic,model,False,False
+tool,(314 * 58) - 20,arithmetic,arithmetic,tool,False,False
+adaptive,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,coding,model,False,False
+coverage,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,coding,model,False,False
+tool,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,coding,model,False,False
+fixed,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,coding,model,False,False
+coverage,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,knowledge,model,False,False
+tool,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,knowledge,model,False,False
+fixed,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,knowledge,model,False,False
+adaptive,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,knowledge,model,False,False
+tool,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+fixed,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+adaptive,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+coverage,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,logic,model,False,False
+fixed,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",comprehension,comprehension,model,False,False
+adaptive,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",comprehension,comprehension,model,False,False
+coverage,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",comprehension,comprehension,model,False,False
+tool,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",comprehension,comprehension,model,False,False
+adaptive,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,knowledge,model,False,False
+coverage,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,knowledge,model,False,False
+tool,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,knowledge,model,False,False
+fixed,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,knowledge,model,False,False
+coverage,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,logic,model,False,False
+tool,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,logic,model,False,False
+fixed,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,logic,model,False,False
+adaptive,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,logic,model,False,False
+tool,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,logic,model,False,False
+fixed,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,logic,model,False,False
+adaptive,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,logic,model,False,False
+coverage,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,logic,model,False,False

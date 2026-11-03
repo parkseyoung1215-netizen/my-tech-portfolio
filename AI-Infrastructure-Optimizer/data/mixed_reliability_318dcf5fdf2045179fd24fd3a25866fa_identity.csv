@@ -1,0 +1,492 @@
+question,category,identical_final_responses,common_general_adapter,actual_models,observed_model_calls,reconstructed_common_payload_sha256,responses
+92 * 34,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 3268"", ""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 3128"", ""tool"": ""FINAL_ANSWER: 3128""}"
+"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,812f2ac1cdc902453d81ef5082259915bd1934a6163c94b8eb415ac210e90f40,"{""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A""}"
+"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,c0bdafd3e2b994458a654c2f51dfda6e67f0d92cba3576f7a578933778837ffe,"{""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C""}"
+"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,f25ea74c3dc8734877cc35f9fbb7876ed066981bfe63f55c37caba0c20245b35,"{""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C""}"
+(827 * 48) - 51,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 3886"", ""adaptive"": """", ""coverage"": """", ""tool"": ""FINAL_ANSWER: 39645""}"
+"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,9b3cc5a2ffec739e8c40efb2339226a9f7365d087118197e363f8b1446bd7235,"{""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C""}"
+"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,da3d73d862209975917e1dae560d7dd2823819ce04d83b9dc83b3172def75283,"{""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A"", ""adaptive"": ""FINAL_ANSWER: A""}"
+"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,f07847c889a90279cb61049f2ba3a2c01cd8764f3396e74915855a846586d458,"{""tool"": ""C"", ""fixed"": ""C"", ""adaptive"": ""C"", ""coverage"": ""C""}"
+"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,295bd1d708bcfb3e9668c3c4315745066e44e30f86631c56b051f4446f1b4f2c,"{""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B""}"
+"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,5e6f8c7df98ae2673f8e682d58a9f103c9a428a8fc76176ad9c01c84252c6da1,"{""adaptive"": ""A"", ""coverage"": ""A"", ""tool"": ""A"", ""fixed"": ""A""}"
+"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,995cc480d35fd481a7aa02075a71129bc4432f7c99dd4296db6418c62e45999d,"{""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C""}"
+"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,40aaccf132936c29d2485acd995378a6f1f9cf9193a9e03920bc8c9a6a3b5f78,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,45227934edcaf5850fb0ef42c5287d4aa6be5aa2cadda67a4896686c92af1b54,"{""fixed"": ""A"", ""adaptive"": ""A"", ""coverage"": ""A"", ""tool"": ""A""}"
+"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,c91e3880de720f3422806df1f5b3ec42ca7909b27866cf7b2ad633a0bf1b7572,"{""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A""}"
+18 + 18,arithmetic,True,False,"{""coverage"": [""qwen2.5:0.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:0.5b""]}",3,,"{""coverage"": ""FINAL_ANSWER: 36"", ""tool"": ""FINAL_ANSWER: 36"", ""fixed"": ""FINAL_ANSWER: 36"", ""adaptive"": ""FINAL_ANSWER: 36""}"
+"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,abbc0724379c6070a4a25866c87d87971478a8f7e034513a323109aa418c395a,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,0018df080a68ccf6f942b0f869e4a86afc53a2842d0932c3a67eefacfddfaef7,"{""fixed"": ""D"", ""adaptive"": ""D"", ""coverage"": ""D"", ""tool"": ""D""}"
+"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,bb5259035d19cf65bdf47c9ffe5090d5020e783701c5f02a9d3a07c6e5974bbd,"{""adaptive"": ""FINAL_ANSWER: D"", ""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D"", ""fixed"": ""FINAL_ANSWER: D""}"
+"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,b85eef4dd109c225023e5979189d3a497a308cf4096b5297429dcd28536f2810,"{""coverage"": ""C"", ""tool"": ""C"", ""fixed"": ""C"", ""adaptive"": ""C""}"
+"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,d68a6b8152f470e852eba3ba4147063c38e36bea6bb5c6b70bdaec452f012cfa,"{""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C""}"
+"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,f28c068a0294994670cc6a6d2a29d32c7cf671968616faa6ffc3eea0a9544c49,"{""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B""}"
+"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,b631d502900cbb23ef94857d3196902c774505c52fb987d8ac3e4251105b6a24,"{""adaptive"": ""C"", ""coverage"": ""C"", ""tool"": ""C"", ""fixed"": ""C""}"
+(299 * 19) - 82,arithmetic,False,False,"{""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": []}",3,,"{""coverage"": """", ""tool"": ""FINAL_ANSWER: 5599"", ""fixed"": ""FINAL_ANSWER: 123"", ""adaptive"": """"}"
+"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,e7ed3cf23920c24b88b9b488f211e6179b2e8cd4f867248beea642b7c659f595,"{""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B""}"
+"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,d7ed1c77559bf82e68b00f11f549ef1e1214c756c6ee73426676f60e8df411b7,"{""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B""}"
+"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",comprehension,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,56776071d4f6f6e4110e5b9544cc473ec832c291591c23dea459cc030e92ba57,"{""adaptive"": ""D"", ""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D""}"
+"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,36319c501c33262a7c4d2e21ba91d014bd8e6d7d95df7a1ae7abdb78c364e53a,"{""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B""}"
+(489 * 41) - 30,arithmetic,False,False,"{""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""]}",3,,"{""tool"": ""FINAL_ANSWER: 20019"", ""fixed"": ""FINAL_ANSWER: 1949"", ""adaptive"": """", ""coverage"": """"}"
+77 * 87,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 6779"", ""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 6699"", ""tool"": ""FINAL_ANSWER: 6699""}"
+"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,3c80c3cb308e364b8e4b820875cf52cbb82cea0395529982a438705724ffa206,"{""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A""}"
+"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,f41c7e53574ebba5b9d7b28ff9f952b4df5e8c015ad4fdfeb69f40813bc6fc8e,"{""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D"", ""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D""}"
+"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,7709f29add743ab6a7c97b46d18bb7bb04b09ae246a0d0f059fc845ce9c5d347,"{""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A"", ""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A""}"
+"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,9b15f63bab30cfee7db5a3e0cdaddcb5a9b08ad773667c244a0197a1ea8dcef3,"{""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D"", ""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D""}"
+"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,700c15e42248ffda0b5035299382747142cdbe2a5bc18bd8cf2520dc1ce56315,"{""adaptive"": ""FINAL_ANSWER: D"", ""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D"", ""fixed"": ""FINAL_ANSWER: D""}"
+"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,9ed764e37d622f13f936916910612da1a26fee93de61acef58d55233eb3416d1,"{""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B""}"
+"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,4db7ca1d6edf52e54509241a9c250dd87d22a8665eeeece90a609146bb908404,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,65cbac7650a082f595ae85a6f8ee4b96aca75923dc3adcefb07f34c9e6e29fbe,"{""fixed"": ""C"", ""adaptive"": ""C"", ""coverage"": ""C"", ""tool"": ""C""}"
+"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,0c6d9a9a428d98299126fb76318abfb14dadeb6567fc9fc05b00f13e920ca657,"{""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A"", ""fixed"": ""FINAL_ANSWER: A""}"
+3 + 10,arithmetic,True,False,"{""coverage"": [""qwen2.5:0.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:0.5b""]}",3,,"{""coverage"": ""FINAL_ANSWER: 13"", ""tool"": ""FINAL_ANSWER: 13"", ""fixed"": ""FINAL_ANSWER: 13"", ""adaptive"": ""FINAL_ANSWER: 13""}"
+"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,f7a13e209a0136c746f464625edce9ac96676833738b0ca7e6a1be9b49100092,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+(500 * 21) - 70,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 1010"", ""adaptive"": """", ""coverage"": """", ""tool"": ""FINAL_ANSWER: 10430""}"
+"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,42577934747a1f39831b4a2726d003b66cbd32260e0217ec103a3085328928fe,"{""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B""}"
+"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,12635b0c6827375f9397b4cdc19713854c91150b2e6174416216c195a1979f1c,"{""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B""}"
+11 + 13,arithmetic,True,False,"{""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:0.5b""], ""coverage"": [""qwen2.5:0.5b""]}",3,,"{""tool"": ""FINAL_ANSWER: 24"", ""fixed"": ""FINAL_ANSWER: 24"", ""adaptive"": ""FINAL_ANSWER: 24"", ""coverage"": ""FINAL_ANSWER: 24""}"
+(857 * 57) - 63,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 485"", ""adaptive"": """", ""coverage"": """", ""tool"": ""FINAL_ANSWER: 48786""}"
+45 * 56,arithmetic,False,False,"{""adaptive"": [], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""]}",2,,"{""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 2520"", ""tool"": ""FINAL_ANSWER: 2520"", ""fixed"": ""FINAL_ANSWER: 2520""}"
+"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,08c9d9b521402f31090fdb3abee81692a1921d2ecde3792c3e0608a701c57afd,"{""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D"", ""adaptive"": ""D""}"
+"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,c777a3256688c15e5a302cfc021c4cf651ac9bac80ad36961b9272a31d43935d,"{""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B""}"
+"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,c9dd6fec15d9ec8eea8fd0c22b5eca558d62e8651fa07470e1dd87998ffac575,"{""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B""}"
+4 + 16,arithmetic,True,False,"{""adaptive"": [""qwen2.5:0.5b""], ""coverage"": [""qwen2.5:0.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""]}",3,,"{""adaptive"": ""FINAL_ANSWER: 20"", ""coverage"": ""FINAL_ANSWER: 20"", ""tool"": ""FINAL_ANSWER: 20"", ""fixed"": ""FINAL_ANSWER: 20""}"
+"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,0fcc46f1a53a632f0a4d20536021dc5993ce4a38fe6dd057cd27e900eb8084e0,"{""coverage"": ""C"", ""tool"": ""C"", ""fixed"": ""C"", ""adaptive"": ""C""}"
+"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,8dcf47e0f9c72cb71b5bc6dcca455d5ddca01e03b4d41583a4457bf1ad7bfbba,"{""tool"": ""D"", ""fixed"": ""D"", ""adaptive"": ""D"", ""coverage"": ""D""}"
+"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",comprehension,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,3b6fb1ac4184519d03b731aa78a2a5c95043180a41092b6f810da46c179a19d5,"{""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B""}"
+"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,5c14941be3903937161fc0011cb92dff52467fe7da447a7b1e96bf7734dc8141,"{""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C""}"
+"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,af50112940f4c9177a04ef31b96adffe7031cc875a7fe477adb8a507d1520099,"{""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C""}"
+"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,2a3c950a658715015514616ca8c13989f72b073fe7c70ccec952e004e475633e,"{""tool"": ""C"", ""fixed"": ""C"", ""adaptive"": ""C"", ""coverage"": ""C""}"
+"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,42304f1fa9c58d86ef7e1c1b70a0f321ba05af97fbe261fb3d2c4812df8e68d8,"{""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B""}"
+"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,170eefbd2e6d29c16fffef70cddebdfe6d4dd187248a979eabad09ebae1b6cdc,"{""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B""}"
+"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,049cc7f2ce5f304e9201d7b32fc21bebf4dc0782c809ca3f96fb8f5819aecb31,"{""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B""}"
+"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,7d1b90955aa35b535f68f937d97a766fe6527ab6641f746faae4d30dcff4c1dc,"{""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B""}"
+25 * 66,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b""], ""tool"": []}",2,,"{""fixed"": ""FINAL_ANSWER: 1650"", ""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 1650"", ""tool"": ""FINAL_ANSWER: 1650""}"
+"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,40403f8d8d90c0a023d7edc5bbd73cf981c51b8ac320b5573ff0b2ca9eb76903,"{""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C""}"
+"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,7c21d1703cd0c117e58cf88eac3e736e5662c46873e9279b2ea070569bf39355,"{""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D"", ""adaptive"": ""D""}"
+"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,3b95508332f10c8014b9f0490be07ad8b8d063fc38d3fa351370aa0f18cf9541,"{""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C""}"
+"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,0a65f344c0bd6687c9aa4edfbf6ff091abe18e4357f6609d66b1aa659ff8de57,"{""fixed"": ""A"", ""adaptive"": ""A"", ""coverage"": ""A"", ""tool"": ""A""}"
+"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,da4f7d500f8a481e4466e2669f7efa80db96471de7004ead53488a9324e899e3,"{""adaptive"": ""A"", ""coverage"": ""A"", ""tool"": ""A"", ""fixed"": ""A""}"
+(443 * 29) - 18,arithmetic,False,False,"{""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": []}",3,,"{""coverage"": """", ""tool"": ""FINAL_ANSWER: 12829"", ""fixed"": ""FINAL_ANSWER: 123"", ""adaptive"": """"}"
+"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,c07a1bc2a57b7118d4919c9f3a2978f5a10db061ec6795bee30e1135f9f2937d,"{""tool"": ""C"", ""fixed"": ""C"", ""adaptive"": ""C"", ""coverage"": ""C""}"
+"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,6f688878516cb90e6c8a99960a832f12066656153baf87a1c9403c99d787ac2b,"{""fixed"": ""FINAL_ANSWER: A"", ""adaptive"": ""FINAL_ANSWER: A"", ""coverage"": ""FINAL_ANSWER: A"", ""tool"": ""FINAL_ANSWER: A""}"
+"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,0b75881152c2b424a8f846a650dcb00b900f0c380a055db8211a927670216096,"{""adaptive"": ""D"", ""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D""}"
+"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,dde447b3162839694b282b3e239fc3b37e14d875b4c3831c1ae6eec6733d4186,"{""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D"", ""adaptive"": ""D""}"
+"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,0eb161a0b9b5ec3cb9696352761d88c2f8ef6ffa3492494101c43fa6aaa82fa8,"{""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C"", ""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C""}"
+"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,745f45a19f05a8b871539fbb6a8ab226eb8f4ae1375bc8ed835dc15f8db4ef34,"{""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B""}"
+20 + 20,arithmetic,True,False,"{""adaptive"": [""qwen2.5:0.5b""], ""coverage"": [""qwen2.5:0.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""]}",3,,"{""adaptive"": ""FINAL_ANSWER: 40"", ""coverage"": ""FINAL_ANSWER: 40"", ""tool"": ""FINAL_ANSWER: 40"", ""fixed"": ""FINAL_ANSWER: 40""}"
+"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,8d2b7737129eab27f6f406b3ffc3ce77765c175119832154b196ecd0207ad67a,"{""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B""}"
+"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,97e9107765a189115d53271092698c129a570a65c905e3700c7b55137fcba835,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,7505aeda8a50602864dd10532bac891ea981a3b285fa48b000a3c05c2403a1c5,"{""fixed"": ""A"", ""adaptive"": ""A"", ""coverage"": ""A"", ""tool"": ""A""}"
+"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,0b425873ee418b932b5212751f72af10072aa4f807a4010f3a259347f153e7eb,"{""adaptive"": ""C"", ""coverage"": ""C"", ""tool"": ""C"", ""fixed"": ""C""}"
+"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,a1dbfb75c4cd8fbc768465f1805a2c4d994524144db75e75ae87c1adb783963c,"{""coverage"": ""A"", ""tool"": ""A"", ""fixed"": ""A"", ""adaptive"": ""A""}"
+96 * 48,arithmetic,False,False,"{""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b""]}",2,,"{""tool"": ""FINAL_ANSWER: 4608"", ""fixed"": ""FINAL_ANSWER: 4608"", ""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 4608""}"
+"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,4f2dfcce7d5b19e42c90ee67cfb97267b26bd17b15e9a2dc40a7aa105d2cc48c,"{""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D"", ""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D""}"
+"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,0e4c1ea6704b7f7d68f411705918e8713291b882c7efebdaf3e1b117e8f3b5bc,"{""adaptive"": ""D"", ""coverage"": ""D"", ""tool"": ""D"", ""fixed"": ""D""}"
+39 * 67,arithmetic,False,False,"{""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": []}",3,,"{""coverage"": ""FINAL_ANSWER: 2613"", ""tool"": ""FINAL_ANSWER: 2613"", ""fixed"": ""FINAL_ANSWER: 2619"", ""adaptive"": """"}"
+"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,23606e948ea4c586576dd60fa1459eb1c4e460f756f58c39ea6940f4ded39ea8,"{""tool"": ""A"", ""fixed"": ""A"", ""adaptive"": ""A"", ""coverage"": ""A""}"
+"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,c494d664466738c8d90beaf040c0f8fb603d29f5b9f631ad05ce9fca5615d3da,"{""fixed"": ""D"", ""adaptive"": ""D"", ""coverage"": ""D"", ""tool"": ""D""}"
+"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,8101b4ca86b49630ee408e9786f1f2df0c20dcaff6884288f50ea63882952832,"{""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B""}"
+6 + 15,arithmetic,True,False,"{""coverage"": [""qwen2.5:0.5b""], ""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:0.5b""]}",3,,"{""coverage"": ""FINAL_ANSWER: 21"", ""tool"": ""FINAL_ANSWER: 21"", ""fixed"": ""FINAL_ANSWER: 21"", ""adaptive"": ""FINAL_ANSWER: 21""}"
+25 * 62,arithmetic,False,False,"{""tool"": [], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b""]}",2,,"{""tool"": ""FINAL_ANSWER: 1550"", ""fixed"": ""FINAL_ANSWER: 1560"", ""adaptive"": """", ""coverage"": ""FINAL_ANSWER: 1550""}"
+"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,bc5f902a0251f7e613d17429ae59e1e32689b440775f518e6b3c4656adea1210,"{""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D"", ""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D""}"
+"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,f7f36969c6a89341d67a244f77be96ddd937781d6d67f393fbb07966bca909c3,"{""adaptive"": ""FINAL_ANSWER: B"", ""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B""}"
+"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,3b50f07f76fbc701537903e711d569e594a0cbf8233876f094b385097ecc5fcd,"{""coverage"": ""FINAL_ANSWER: B"", ""tool"": ""FINAL_ANSWER: B"", ""fixed"": ""FINAL_ANSWER: B"", ""adaptive"": ""FINAL_ANSWER: B""}"
+"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,ed95eebb610cbc8f970bf7aa2f5b6d7d246c8cad9f0ddae06d5fa3c2e0db375b,"{""tool"": ""D"", ""fixed"": ""D"", ""adaptive"": ""D"", ""coverage"": ""D""}"
+(314 * 58) - 20,arithmetic,False,False,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [], ""coverage"": [""qwen2.5:1.5b"", ""qwen2.5:1.5b""], ""tool"": []}",3,,"{""fixed"": ""FINAL_ANSWER: 17520"", ""adaptive"": """", ""coverage"": """", ""tool"": ""FINAL_ANSWER: 18192""}"
+"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,a53afb4c09f765ff295038e9c35a604f32f8b90bf95972f75df61edba4102716,"{""adaptive"": ""B"", ""coverage"": ""B"", ""tool"": ""B"", ""fixed"": ""B""}"
+"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,b844a284b44a76b6abaf85b82c1b9631c976dd125c312e63421aceb91c1eabca,"{""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D"", ""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D""}"
+"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,fbf822cc48564ceb8c318a36351fb55d9292cbce9b292fea60318e59baeff1d2,"{""tool"": ""B"", ""fixed"": ""B"", ""adaptive"": ""B"", ""coverage"": ""B""}"
+"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",comprehension,True,True,"{""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""]}",4,86b7c132512fc8389351f275f71495d6ce0dac0a8e6ba95c318dffdfc70e3f62,"{""fixed"": ""C"", ""adaptive"": ""C"", ""coverage"": ""C"", ""tool"": ""C""}"
+"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,True,True,"{""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""]}",4,8ff390f677a67a903e136550494faa9a356acef4ac292e2cec28fb50ea0d4212,"{""adaptive"": ""FINAL_ANSWER: C"", ""coverage"": ""FINAL_ANSWER: C"", ""tool"": ""FINAL_ANSWER: C"", ""fixed"": ""FINAL_ANSWER: C""}"
+"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,True,True,"{""coverage"": [""qwen2.5:1.5b""], ""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""]}",4,ca01e7d780404b5add721520a531eeaf748813fadbaf830deb81a148b1c79dc1,"{""coverage"": ""FINAL_ANSWER: D"", ""tool"": ""FINAL_ANSWER: D"", ""fixed"": ""FINAL_ANSWER: D"", ""adaptive"": ""FINAL_ANSWER: D""}"
+"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,True,True,"{""tool"": [""qwen2.5:1.5b""], ""fixed"": [""qwen2.5:1.5b""], ""adaptive"": [""qwen2.5:1.5b""], ""coverage"": [""qwen2.5:1.5b""]}",4,0739e6afeee1fb50cf598d5edaf3b4ba94f8234ddd26b342723e4dae36194af4,"{""tool"": ""A"", ""fixed"": ""A"", ""adaptive"": ""A"", ""coverage"": ""A""}"

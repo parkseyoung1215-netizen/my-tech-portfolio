@@ -1,0 +1,79 @@
+{
+  "run_id": "951686cca01344ed8b732fc1e66d7cab",
+  "prefix_name": "coverage_951686cca01344ed8b732fc1e66d7cab",
+  "evaluation_wall_seconds": 165.27154883393086,
+  "unseen_distribution": {
+    "hard": 40,
+    "medium": 40,
+    "easy": 20
+  },
+  "historical_causes": {
+    "requests": 200,
+    "unanswered": 100,
+    "small_confidence_and_large_policy_rejection": 100,
+    "large_model_calls": 0,
+    "fallback_requests": 0,
+    "api_errors": 0,
+    "extraction_failures": 0,
+    "rejection_buckets": {
+      "medium": 50,
+      "hard": 50
+    }
+  },
+  "ollama_tags": {
+    "models": [
+      {
+        "name": "qwen2.5:1.5b",
+        "model": "qwen2.5:1.5b",
+        "modified_at": "2026-11-03T08:59:27.172184341+09:00",
+        "size": 986061892,
+        "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "1.5B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1536,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      },
+      {
+        "name": "qwen2.5:0.5b",
+        "model": "qwen2.5:0.5b",
+        "modified_at": "2026-11-03T08:55:19.457542609+09:00",
+        "size": 397821319,
+        "digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "494.03M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 896,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "manifest_sha256": "b33d52151dc5633d86787d6f32bfb661a88dc62a0212b3f07200ae0f8c397de3",
+  "real_inference": true,
+  "preserved_files_unchanged": true,
+  "cost_status": "unmeasured"
+}

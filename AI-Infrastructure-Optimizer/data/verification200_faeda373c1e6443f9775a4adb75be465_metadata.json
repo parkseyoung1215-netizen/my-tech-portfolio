@@ -1,0 +1,71 @@
+{
+  "run_id": "faeda373c1e6443f9775a4adb75be465",
+  "prefix_name": "verification200_faeda373c1e6443f9775a4adb75be465",
+  "evaluation_wall_seconds": 95.00534362508915,
+  "python": "3.14.6",
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "cpu_count": 10,
+  "ollama_tags": {
+    "models": [
+      {
+        "name": "qwen2.5:1.5b",
+        "model": "qwen2.5:1.5b",
+        "modified_at": "2026-11-03T08:59:27.172184341+09:00",
+        "size": 986061892,
+        "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "1.5B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1536,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      },
+      {
+        "name": "qwen2.5:0.5b",
+        "model": "qwen2.5:0.5b",
+        "modified_at": "2026-11-03T08:55:19.457542609+09:00",
+        "size": 397821319,
+        "digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "494.03M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 896,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "profile_sha256": "d1035599d630348b48d5653df91f59a9e0a46e3ba68617eebea0f2063c0a0a21",
+  "dataset_sha256": "81eb63a7874be8bf939a5547359b73c33194fababb824e0ecc33accb1d274c3e",
+  "bucket_counts": {
+    "medium": 50,
+    "hard": 50,
+    "addition_large": 88,
+    "addition_small": 12
+  },
+  "prior_files_unchanged": true,
+  "real_inference": true,
+  "cost_status": "unmeasured"
+}

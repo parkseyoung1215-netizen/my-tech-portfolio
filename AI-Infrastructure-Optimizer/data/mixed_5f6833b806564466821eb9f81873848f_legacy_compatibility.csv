@@ -1,0 +1,70 @@
+strategy,category,question,status,reason,model_calls
+adaptive,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+coverage,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",rejected,unsupported_request,0
+tool,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+adaptive,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+coverage,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",rejected,unsupported_request,0
+tool,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+adaptive,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+coverage,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",rejected,unsupported_request,0
+tool,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+adaptive,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0
+coverage,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",rejected,unsupported_request,0
+tool,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",rejected,Neither model is sufficiently reliable for this request; qwen2.5:0.5b: insufficient calibration confidence for None; qwen2.5:1.5b: insufficient calibration confidence for None,0

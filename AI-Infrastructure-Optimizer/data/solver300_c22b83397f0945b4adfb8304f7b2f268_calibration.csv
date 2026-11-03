@@ -1,0 +1,993 @@
+question,category,expected,task_format,model,client_request_id,request_sha256,request_payload,answer,status,error,input_tokens,output_tokens,eval_seconds,load_seconds,done_reason,elapsed_seconds,inferred_category,prediction,parse_mode,correct
+92 * 34,arithmetic,3128,integer,qwen2.5:0.5b,72e76c8e61a94ecaa50fb015e1471357,16a07b330361ec338338aee7ad2ba07b45e78d53a0ab9c160dc9409740b9a77a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""92 * 34\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 92 * 34 results in an integer of 312.,generated,,51,20,0.143902,0.000879,stop,0.16761725000105798,arithmetic,,unresolved,False
+92 * 34,arithmetic,3128,integer,qwen2.5:1.5b,5ec137001bfa43c1836e9e581bce63e9,ef7f1fecff4c48ef73534172ae74e75b1bbf9b1107ce8fcf67b81fe7fea78f74,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""92 * 34\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",3128,generated,,51,5,0.057307,0.000463709,stop,0.10400945786386728,arithmetic,3128,bare_answer,True
+"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,A,choice,qwen2.5:1.5b,8a4f7aeffe6846ceb17b03d880f389df,0683b309a4b7626508d7326e7647abb690944672a810afe68da199f91df47cd3,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""How many sides does a hexagon have?\nA) Six\nB) Seven\nC) Five\nD) Eight\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,73,2,0.087399,0.002921333,stop,0.17891491716727614,knowledge,A,bare_answer,True
+"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,A,choice,qwen2.5:0.5b,2d0f22c3063f45f488c68a4daa66bbaa,7b467532d5bffe72a5725a1b934384a0516b4718fd499e7b7fc5697a17478586,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""How many sides does a hexagon have?\nA) Six\nB) Seven\nC) Five\nD) Eight\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A. Six,generated,,73,4,0.042646,0.001532875,stop,0.10446033393964171,knowledge,,unresolved,False
+"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,C,choice,qwen2.5:0.5b,f6388812db7b481caa8c63ac38967639,6dc5d3c6cfa0251ec35d5552fa494fdb28979f2501b4e6daf09ffcc24344f826,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which ocean is the largest by area?\nA) Indian Ocean\nB) Arctic Ocean\nC) Pacific Ocean\nD) Atlantic Ocean\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Indian Ocean,generated,,76,5,0.035056,0.002317875,stop,0.07746195909567177,knowledge,,unresolved,False
+"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,C,choice,qwen2.5:1.5b,4c00f1786aa24bcebe0f5cd9a49db090,c780a8ccece93994d75dc3c4f287d904025419d9e834654c5d27e1ceb4103eff,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which ocean is the largest by area?\nA) Indian Ocean\nB) Arctic Ocean\nC) Pacific Ocean\nD) Atlantic Ocean\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,76,2,0.013947,0.000556083,stop,0.09560474986210465,knowledge,C,bare_answer,True
+"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,A,choice,qwen2.5:1.5b,8b53cd3139cc4d02958b0245a6a2e7cf,4323e05d3c3f79d6558278da354ad3d7b9b2ae933bb8af5b52199f071e90ca78,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 2 + 3\nB) Room closed\nC) 23\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,107,2,0.015063,0.000459,stop,0.12681562500074506,comprehension,B,bare_answer,False
+"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,A,choice,qwen2.5:0.5b,37de0ebcd9de43d2ae02a97766c96526,b114091d2ea8cc351ada74f48dd1a851c5b3f2d620c9d21909464ffe2a2f67d5,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 2 + 3\nB) Room closed\nC) 23\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,107,2,0.009331,0.00066,stop,0.0484736249782145,comprehension,A,bare_answer,True
+(827 * 48) - 51,arithmetic,39645,integer,qwen2.5:0.5b,e32d3e2a3a1d43cabe77f1b73f20e167,3d88f566ef8013f5a20b5ac4af377015e7e72b1b73b17a604382161d28c22aa2,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(827 * 48) - 51\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression (827 * 48) - 51 simplifies to 3969 - 51 = 3918. The final integer is 3918.,generated,,58,45,0.350664,0.000911667,stop,0.38325520791113377,arithmetic,,unresolved,False
+(827 * 48) - 51,arithmetic,39645,integer,qwen2.5:1.5b,e0d2014e9ab74ba6a59796c25c9a7170,99f17237b2f9c9e9cf32442074445bdc9feae8dca111a35eeab0fc7a82c07d2e,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(827 * 48) - 51\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",3886,generated,,58,5,0.059051,0.000635125,stop,0.1338249589316547,arithmetic,3886,bare_answer,False
+"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,D,choice,qwen2.5:1.5b,6edc87ef70fc44a2b40413fd75c61053,75ed752e8dc365674483340ece21ac10001120e8756619f436cbe71e1a1da679,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(len({2, 2, 4, 4, 6}))\n```\nA) 5\nB) 6\nC) 2\nD) 3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,97,2,0.014343,0.000621542,stop,0.12783541716635227,coding,C,bare_answer,False
+"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,D,choice,qwen2.5:0.5b,8ee43836a1d34a3ba26fda2e7d7aa22c,c9dd5c1b5af854fa95c583e4f95a47213c99cfdf73b3d6c49c7e189a241fe6e8,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(len({2, 2, 4, 4, 6}))\n```\nA) 5\nB) 6\nC) 2\nD) 3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) 5,generated,,97,5,0.030137,0.000731,stop,0.07201637513935566,coding,,unresolved,False
+"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,A,choice,qwen2.5:0.5b,e0a8e8f9d9a048adb72970ebb93a05eb,eefc34951a7795f4eb789eb3bbc27b04184b66cc0947e1e3c1b84695b99284eb,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?\nA) Nothing\nB) Tea\nC) Coffee\nD) Both tea and coffee\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,92,2,0.00686,0.000754958,stop,0.04147220798768103,comprehension,B,bare_answer,False
+"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,A,choice,qwen2.5:1.5b,48a323e427cc48519b7af2f78f3713e4,998c92e4c91603433420e585b71eee167ec8ec3258e618629f6d9fc752e49e8f,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?\nA) Nothing\nB) Tea\nC) Coffee\nD) Both tea and coffee\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,92,2,0.015767,0.000415458,stop,0.09608683292753994,comprehension,A,bare_answer,True
+"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,B,choice,qwen2.5:1.5b,e4beee2996b6473394fd4ce3a5070f0c,11b16515729bda8458c8b47a10165f3efd32f8e8926dd45519cd3e09a351e693,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does a CPU primarily do in a computer?\nA) Supply mains electricity\nB) Execute instructions\nC) Print paper\nD) Cool the room\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,80,2,0.012474,0.00136625,stop,0.09042308293282986,knowledge,B,bare_answer,True
+"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,B,choice,qwen2.5:0.5b,f982409ad4694b4e970f3809d10cd6c0,4a66496b39479b4830490d7833f1ab16f6d654a26452cced44fd861f8835f61b,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does a CPU primarily do in a computer?\nA) Supply mains electricity\nB) Execute instructions\nC) Print paper\nD) Cool the room\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,80,2,0.007495,0.001155375,stop,0.04185545793734491,knowledge,B,bare_answer,True
+"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,A,choice,qwen2.5:0.5b,69ca800202674e8db750a37b0f57f31f,02a1d37ddb51818a9a9d659b0d4ccd5e3521a3d34d7cbae4d7ad78c177bbd01a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which protocol is used to transfer web pages?\nA) HTTP\nB) POP3\nC) IMAP\nD) SMTP\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) HTTP,generated,,75,4,0.020035,0.000438541,stop,0.04896433302201331,knowledge,,unresolved,False
+"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,A,choice,qwen2.5:1.5b,028e3bea48684e1cabc46b92296fde0b,233b2e6faeb49c1b2354be3549af4c682714df5d6eefa97f61b4f315707bb6d7,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which protocol is used to transfer web pages?\nA) HTTP\nB) POP3\nC) IMAP\nD) SMTP\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,75,2,0.013819,0.000375584,stop,0.09021862503141165,knowledge,A,bare_answer,True
+"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,C,choice,qwen2.5:1.5b,f1f9e3c594ae48f8864d1083af23bab8,55413795a876a1d62f3d95221c237ab8047e19316237a9ce8e73626d7967bb78,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?\nA) Coffee\nB) Tea\nC) Nothing\nD) Both tea and coffee\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,95,2,0.012807,0.000458167,stop,0.12133624986745417,comprehension,C,bare_answer,True
+"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,C,choice,qwen2.5:0.5b,1cccd9a6175a4fc0b680f85a47b9336f,e48f322c9c50ef03ef0ba0a2761be1e92f291e39c8a3e5eff580bf4fe5f48189,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?\nA) Coffee\nB) Tea\nC) Nothing\nD) Both tea and coffee\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,95,2,0.00764,0.000588167,stop,0.04667208390310407,comprehension,B,bare_answer,False
+"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,C,choice,qwen2.5:0.5b,ad863bf9369949d983d910f7d794dc96,90c255a36a3ba1fbb2d06c138c9edef140343e45a5421ecfc88e4038d8f6eee2,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?\nA) Monday\nB) Friday\nC) Wednesday\nD) Tuesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Monday,generated,,89,4,0.021438,0.000649,stop,0.053243499947711825,comprehension,,unresolved,False
+"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,C,choice,qwen2.5:1.5b,07082bff727d4ca29d0aabb235326a44,6d7671dbfd038ce7fd0e542c4badbb5cefeca54f0490586dbeb6d40981f702ef,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?\nA) Monday\nB) Friday\nC) Wednesday\nD) Tuesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.016754,0.00053425,stop,0.1069414580706507,comprehension,B,bare_answer,False
+"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,A,choice,qwen2.5:1.5b,67ee5ddc9a52464eaec95519561835c4,94bf71401d2308203c6680db92fa9773acd40f6dee7bb4936693ac486fda14e4,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which instrument measures temperature?\nA) Thermometer\nB) Ruler\nC) Compass\nD) Barometer\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,72,2,0.014353,0.000539292,stop,0.09242858411744237,knowledge,A,bare_answer,True
+"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,A,choice,qwen2.5:0.5b,2b336be83ed9464eb7adc5e912707c18,b589ec742aff811838fd7e37a6583b0b48c548d30cfdd89e439a1b5f2c6c1254,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which instrument measures temperature?\nA) Thermometer\nB) Ruler\nC) Compass\nD) Barometer\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Thermometer,generated,,72,5,0.025437,0.000597,stop,0.054493416799232364,knowledge,,unresolved,False
+"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,A,choice,qwen2.5:0.5b,bd6ae5b78ac945a39d8eb3b25e37e643,6fed4d3d88b1c934bfec5d44e0da76c0d0a4ef15dc3a4662472a447c55e77fa0,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) Rain was forecast\nB) The morning was dark\nC) The umbrella was broken\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,101,2,0.006842,0.000366333,stop,0.045165250077843666,comprehension,A,bare_answer,True
+"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,A,choice,qwen2.5:1.5b,3cdb7c92408c4269baf7474846ad444d,dd2d77800772147ecb1076707f4d8af642a1fb3a5dfbf7f1e8e6ec106d7bb813,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) Rain was forecast\nB) The morning was dark\nC) The umbrella was broken\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,101,2,0.015182,0.000434541,stop,0.12444579205475748,comprehension,A,bare_answer,True
+18 + 18,arithmetic,36,integer,qwen2.5:1.5b,4497deeef91446ca8b2702bfcc779cba,6c59a4d780e4abf5d454a4043ee468ffdc79d67ef164cd2b03a0674f0ec571c7,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""18 + 18\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",36,generated,,51,3,0.029941,0.000411292,stop,0.07877325010485947,arithmetic,36,bare_answer,True
+18 + 18,arithmetic,36,integer,qwen2.5:0.5b,c7c78a697b234120a5d65a43ad076c35,f95a2596b1fe25b16cd6819dac79acaad4da4d2d70f7abc0eaed1ed454f1cded,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""18 + 18\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",18 + 18 = 36,generated,,51,11,0.060468,0.000420375,stop,0.08076495793648064,arithmetic,,unresolved,False
+"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,D,choice,qwen2.5:0.5b,5cce9d5b13ab48b4a005389a25284828,787af24d2450b5b1825fbff1a6a2d9e060cf9ae0f66f19ffcce1aa186138cd4c,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?\nA) Juno\nB) Cannot be determined\nC) Iris\nD) Kian\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C) Iris,generated,,89,4,0.018264,0.000450292,stop,0.05712579214014113,logic,,unresolved,False
+"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,D,choice,qwen2.5:1.5b,9738ce52f6024c57bc9a3e4f8e32c534,8c47444eb450af2ea736a6a0efeddadd7a4b620f3ec8807735984fa17fe8ff09,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?\nA) Juno\nB) Cannot be determined\nC) Iris\nD) Kian\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.012278,0.000440209,stop,0.11915470799431205,logic,B,bare_answer,False
+"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,B,choice,qwen2.5:1.5b,33d1e29360e046a0819fe37b63ff85f8,d747e57dfb8d001fdc6ae16491660385933a092a45c224818481e57bbb3099fa,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?\nA) Only if it is gold\nB) No\nC) Only on Tuesdays\nD) Yes, necessarily\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,99,2,0.012267,0.000448625,stop,0.12121416698209941,logic,B,bare_answer,True
+"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,B,choice,qwen2.5:0.5b,53a07e27663b422287748e5ac4dea374,63eb2292b12266e25b441854cedf53b03776443b61d0e25c34343427da201a88,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?\nA) Only if it is gold\nB) No\nC) Only on Tuesdays\nD) Yes, necessarily\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","D) Yes, necessarily",generated,,99,6,0.033775,0.000418292,stop,0.07288708281703293,logic,,unresolved,False
+"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,C,choice,qwen2.5:0.5b,edf61eaf902d4fa98b534664300615a4,ebfe5fe81aecb5f0264faa0c7c35bda07147727364505d362a2f7be46c46ea03,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?\nA) Cannot be determined\nB) Mira\nC) Pavel\nD) Oren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B) Mira,generated,,90,5,0.026272,0.000596292,stop,0.055978708900511265,logic,,unresolved,False
+"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,C,choice,qwen2.5:1.5b,376435ded3b24c969a879b677777b11a,01a2130df52966d7a692125b919889d68ca247e62c9ead4c6030f0a0b77d5716,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?\nA) Cannot be determined\nB) Mira\nC) Pavel\nD) Oren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,90,2,0.014341,0.000394958,stop,0.09646375011652708,logic,D,bare_answer,False
+"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,C,choice,qwen2.5:1.5b,588c09e026ca4d62a81b668c63c4131b,a49122017be7acde82d7398c769befb771e9f8a312830920fa4fb3d3b62e9dc3,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?\nA) All objects are zorks\nB) No blue object can be a zork\nC) No; being blue does not establish it is a zork\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,113,2,0.014566,0.000758625,stop,0.13043558411300182,logic,C,bare_answer,True
+"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,C,choice,qwen2.5:0.5b,0b0ad00cd89c4c5c8d004ba3067a8cf2,dcf690ec1cd447cd89f48dfaeb9927b708416dd2c558ce7d00ed3865b8bcbc99,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?\nA) All objects are zorks\nB) No blue object can be a zork\nC) No; being blue does not establish it is a zork\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) All objects are zorks,generated,,113,8,0.046567,0.001267583,stop,0.08803570899181068,logic,,unresolved,False
+"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,C,choice,qwen2.5:0.5b,943fd83058b74a01bb71d63a3c39c8d7,6cc9a3fd8042852bb24fc91441f068af6620dd2ec48ceb0b6d4f2c92c7180a28,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint([4, 7, 9, 12][1:3])\n```\nA) [7, 9, 12]\nB) 9\nC) [7, 9]\nD) [4, 7]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","The Python code `[4, 7, 9, 12][1:3]` prints the elements at indices 1 and 2 of the list `[4, 7, 9, 12]`, which are 7 and 9. Therefore, the correct answer is C.",generated,,111,64,0.387918,0.000505625,length,0.4256160829681903,coding,,unresolved,False
+"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,C,choice,qwen2.5:1.5b,eaff6acf2fa5433f811da68a421bded3,9e49d09e04a803b6b2166d2104f042fbde8fe04be591c23e320c59f6a7e2c19b,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint([4, 7, 9, 12][1:3])\n```\nA) [7, 9, 12]\nB) 9\nC) [7, 9]\nD) [4, 7]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,111,2,0.014278,0.000649041,stop,0.12667183298617601,coding,C,bare_answer,True
+"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,D,choice,qwen2.5:1.5b,5b25fe02e82040d78b35f16ad1e2beac,515540750c6cc9d738acba06aa60598de240609d694365f49a8d561af123f57c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor is active\nC) The sensor must be broken\nD) The sensor is not active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,103,2,0.012972,0.000427666,stop,0.12351370905525982,logic,B,bare_answer,False
+"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,D,choice,qwen2.5:0.5b,fb335397c86b49b8aeee333523022587,1cc2fdae9a4a030c10a1b95c817b8372fd0d5e79b22099a93e17fa5c9479014e,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor is active\nC) The sensor must be broken\nD) The sensor is not active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,103,2,0.00835,0.000375625,stop,0.047515708953142166,logic,D,bare_answer,True
+"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,C,choice,qwen2.5:0.5b,09462cb6bd1943d09469d592d04de3c1,00161fefc7ae898c27e4709fa303a4a7aa61138a1e9c0da5a8b4b96404dcc442,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\ndef f(x):\n    return x + 1\nprint(f(8))\n```\nA) None\nB) 8\nC) 9\nD) 1\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,95,2,0.007351,0.000703542,stop,0.04537154198624194,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,C,choice,qwen2.5:1.5b,d4c0e11032c24ad89b094ceb3f52c0b8,7e19dfff883a002880c8a1ac3143feb4ddfc27a96c334e77245bc9ac65399796,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\ndef f(x):\n    return x + 1\nprint(f(8))\n```\nA) None\nB) 8\nC) 9\nD) 1\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,95,2,0.013367,0.000600375,stop,0.09098187508061528,coding,C,bare_answer,True
+(299 * 19) - 82,arithmetic,5599,integer,qwen2.5:1.5b,e67ff10a7e92487881517f7ae0a1ec6a,f3686421df2f364df2513a2b833b2e1f65889f7ef415cf784c8604f7c4230ddb,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(299 * 19) - 82\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",5658,generated,,58,5,0.049295,0.000587125,stop,0.1250899168662727,arithmetic,5658,bare_answer,False
+(299 * 19) - 82,arithmetic,5599,integer,qwen2.5:0.5b,a2aef883d2ff4db4bbb822873b3c5ed7,60b769b11053efac6ec6ee3b9acc43c9939a79fc78c0a3ffe7075722ab5781c3,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(299 * 19) - 82\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","The expression (299 * 19) - 82 simplifies as follows:
+
+299 * 19 = 5781
+5781 - 82 = 5699
+
+Therefore, the final integer result is 5699.",generated,,58,63,0.382563,0.000526833,stop,0.4110307910013944,arithmetic,,unresolved,False
+"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,B,choice,qwen2.5:0.5b,19e641fb84794503b14100190c364815,e0a26c9b41b10b904072d48588e22cbf83a61128cb6d470999cf9332fbd07f20,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 2 + 3\nC) 23\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,107,2,0.008957,0.000536,stop,0.04938329104334116,comprehension,A,bare_answer,False
+"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,B,choice,qwen2.5:1.5b,55041838cdcc43d08bbbd6e78d6d4f71,a5909bef36b691ada396ea312a3fc256846ea1796f7d67b8f04ef4aa91b29cd7,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 2 + 3\nC) 23\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,107,2,0.01268,0.000560375,stop,0.12340741697698832,comprehension,B,bare_answer,True
+"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,B,choice,qwen2.5:1.5b,af9ff677e7c54fdc8f43ad91dbb64c71,de58011eaf26a193cf171e5c91214fc3542a37116bfc019f73722aa899bbb669,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint({'x': 3}.get('y', 8))\n```\nA) Error\nB) 8\nC) 3\nD) None\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,92,2,0.013549,0.000490042,stop,0.08994354191236198,coding,B,bare_answer,True
+"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,B,choice,qwen2.5:0.5b,3bec04cfd41744c1975f4193b3294a67,41f5f2eb8c2c49c4a47ad4b969cb7e8b4f55bc388ad39c9aa516c6e5721f52a0,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint({'x': 3}.get('y', 8))\n```\nA) Error\nB) 8\nC) 3\nD) None\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,92,2,0.006585,0.00040175,stop,0.035066458862274885,coding,B,bare_answer,True
+"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,A,choice,qwen2.5:0.5b,f3843200027645f791a5fe282102561f,e9860108d256943d04a6b374fe97026984e0882c0896a5ca67ed2c7f1b19cd63,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?\nA) Kian\nB) Iris\nC) Cannot be determined\nD) Juno\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Kian,generated,,90,5,0.02705,0.000354,stop,0.055375416995957494,logic,,unresolved,False
+"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,A,choice,qwen2.5:1.5b,e03329a8471e42c2b5d7b0bcaccd5a0d,66f0679f655357bbd117efb4f768f78ca669b6a615cff27ca3dfa77717c20a36,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?\nA) Kian\nB) Iris\nC) Cannot be determined\nD) Juno\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,90,2,0.014641,0.000475125,stop,0.09506450011394918,logic,A,bare_answer,True
+(489 * 41) - 30,arithmetic,20019,integer,qwen2.5:1.5b,b4825f01d63b4981a67f1280d5c31098,72dd6a3449c848e73903d9a34c096caf22e5d2a37780d775062c59fad2630567,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(489 * 41) - 30\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",19590,generated,,58,6,0.06883,0.000427875,stop,0.1449892921373248,arithmetic,19590,bare_answer,False
+(489 * 41) - 30,arithmetic,20019,integer,qwen2.5:0.5b,05547a8c9b864296ba46d86dfab2d13b,1bc7bbe2f601d5d8e87b07df62d218a75aa14e947d26df6a7988a21593c4f49a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(489 * 41) - 30\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression (489 * 41) - 30 simplifies to 20019 - 30 = 19989. The final integer is 19989.,generated,,58,48,0.298379,0.000847666,stop,0.32803537510335445,arithmetic,,unresolved,False
+77 * 87,arithmetic,6699,integer,qwen2.5:0.5b,0ef62381b1b34dedb44361ca03e34a76,02395919bcf54df082d2be1eea9f63334d44fb481cb0a0ccde5934602c89431d,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""77 * 87\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 77 * 87 results in an integer of 6839.,generated,,51,21,0.132116,0.000594625,stop,0.15390604198910296,arithmetic,,unresolved,False
+77 * 87,arithmetic,6699,integer,qwen2.5:1.5b,08c66a3c0be6453eabeef329d378adf0,0d321dc28e3d57797501e160d4aa5c99b77325b44ab848b70f1963be8eb7f5e8,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""77 * 87\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",6689,generated,,51,5,0.047673,0.000395417,stop,0.09481200017035007,arithmetic,6689,bare_answer,False
+"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,C,choice,qwen2.5:1.5b,7573333c12e546a890936ef86465b41d,9549605c1d19c54aa488518604954c0e0976ac7bde9b82168846ba44847bb109,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [3, 1, 2]\nprint(sorted(a))\n```\nA) [3, 2, 1]\nB) [3, 1, 2]\nC) [1, 2, 3]\nD) None\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,112,2,0.012364,0.000404375,stop,0.1219860001001507,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,C,choice,qwen2.5:0.5b,1df45c7f57cf482fbe8952891c2f3727,875f7b7a296bf66b74ef9a0e1a570581e569ac5e8087d16f0b84687319c2c8b0,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [3, 1, 2]\nprint(sorted(a))\n```\nA) [3, 2, 1]\nB) [3, 1, 2]\nC) [1, 2, 3]\nD) None\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","A) [3, 2, 1]",generated,,112,12,0.074703,0.000419542,stop,0.11324537498876452,coding,,unresolved,False
+"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,D,choice,qwen2.5:0.5b,316dbba9092c49ee9657e2799e98bf44,1764227ddb5fd7bc35f1b3c4e38529dc554fdd0cdbf91f9114a39ef746da37d3,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(7 // 2)\n```\nA) 1\nB) 4\nC) 3.5\nD) 3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) 1,generated,,89,5,0.026038,0.000435917,stop,0.05424537509679794,coding,,unresolved,False
+"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,D,choice,qwen2.5:1.5b,afdec64cf6324436aa0b6957124a0b60,7457f8186e469e35b6c39afe02afce343064bca2c073534a4e1898f76ef62692,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(7 // 2)\n```\nA) 1\nB) 4\nC) 3.5\nD) 3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,89,2,0.013259,0.000479,stop,0.08968758303672075,coding,D,bare_answer,True
+"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,A,choice,qwen2.5:1.5b,20926c2ab93c4b8db7af231cd0fedbd5,e68040d926c956f36a1e098079b199c62c2e9c1fcff1c1ac440260b7a841c0d8,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [4, 5, 6]\nprint(a[-1])\n```\nA) 6\nB) 5\nC) 4\nD) Error\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,95,2,0.014024,0.000394416,stop,0.09327858407050371,coding,A,bare_answer,True
+"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,A,choice,qwen2.5:0.5b,33b64c83c0df4527aebf1c7ff612f561,1123efc982c5d4e771cb83b24659a6a286cecb6c742b648748cfcb4f6e090b09,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [4, 5, 6]\nprint(a[-1])\n```\nA) 6\nB) 5\nC) 4\nD) Error\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A. 6,generated,,95,5,0.024523,0.000498167,stop,0.05562195787206292,coding,,unresolved,False
+"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,D,choice,qwen2.5:0.5b,b21dad49c26046df830f5133f8c29e3d,1c556e97405fd02f16283caebf9d98de3e7da87d201e7a862bfdeeed395bc1cb,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?\nA) Both tea and coffee\nB) Tea\nC) Coffee\nD) Nothing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,92,2,0.00684,0.000528625,stop,0.036985708167776465,comprehension,D,bare_answer,True
+"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,D,choice,qwen2.5:1.5b,46cdcc3953484de4bc6869b8a4421341,523d7522fd88b870c1a39928139bcad4aa4414abcafec01989b937e082146026,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?\nA) Both tea and coffee\nB) Tea\nC) Coffee\nD) Nothing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,92,2,0.013983,0.000416667,stop,0.09389816713519394,comprehension,D,bare_answer,True
+"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,D,choice,qwen2.5:1.5b,c459359c5e044fb7ba93f4f316ac0aea,95295e7e5f20b23c447cf01b35a69d72a8b5a283fef2244d068a4b10516e5c9d,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?\nA) Friday\nB) Tuesday\nC) Monday\nD) Wednesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.013086,0.001350584,stop,0.09477108297869563,comprehension,B,bare_answer,False
+"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,D,choice,qwen2.5:0.5b,70108efe768540bd82146057ab4b1e83,7d0570a0ab3478661b531a6e3727cb059db0063af9c8d94a153e4428eb976a6b,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?\nA) Friday\nB) Tuesday\nC) Monday\nD) Wednesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,89,2,0.006762,0.000437958,stop,0.034562667133286595,comprehension,C,bare_answer,False
+"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,D,choice,qwen2.5:0.5b,ccaf11403cc642bfb54db7b8c74682ea,f69efd3f59788e9d397876655be9bccb843997d01a968686a4d98679d9390cc0,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?\nA) Vik\nB) Cannot be determined\nC) Nora\nD) Wren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C) Nora,generated,,87,4,0.018235,0.0003825,stop,0.046872708946466446,logic,,unresolved,False
+"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,D,choice,qwen2.5:1.5b,d3b5cb8372f84052a566b21ff2481cd5,d489cac9e6895fc1aec528b37d106b945dc871b7fd9444f8e8af4097a958be43,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?\nA) Vik\nB) Cannot be determined\nC) Nora\nD) Wren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,87,2,0.013087,0.000424625,stop,0.0909127090126276,logic,B,bare_answer,False
+"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,B,choice,qwen2.5:1.5b,70ab8fc962364dfeb36bc79c3426b3bb,3cc7e5eeaabcb1468220364815c095afa4cd707cd3b50a6e42d4de8c6e128f9c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which state of matter has a fixed volume and a fixed shape?\nA) Plasma\nB) Solid\nC) Liquid\nD) Gas\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.013563,0.000394292,stop,0.0909743329975754,knowledge,B,bare_answer,True
+"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,B,choice,qwen2.5:0.5b,076c8e67e6d34a4cbb61137df8a7d101,7ee81f04c83e2a914246a2189ef2c3b58d70f15bf7de89124eb6dfb016a8214e,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which state of matter has a fixed volume and a fixed shape?\nA) Plasma\nB) Solid\nC) Liquid\nD) Gas\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.006656,0.000535291,stop,0.037155084079131484,knowledge,B,bare_answer,True
+"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,C,choice,qwen2.5:0.5b,59f640704e45461780f415f91e3149b9,3bd8546524b66997a6e600d2fd83b2e5bb4e7e55edfab97bc0741fe88541a4af,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What kind of astronomical object is the Sun?\nA) A comet\nB) A planet\nC) A star\nD) A moon\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,77,2,0.006847,0.000382542,stop,0.03398166713304818,knowledge,C,bare_answer,True
+"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,C,choice,qwen2.5:1.5b,0b42aa90ded04a56bd5a55793c410fa7,e13a725b4c7fe2155ec6ebe35c8bbcf8da7021c6a9c5133c68812c2909e9adbc,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What kind of astronomical object is the Sun?\nA) A comet\nB) A planet\nC) A star\nD) A moon\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,77,2,0.013538,0.000385458,stop,0.0901582499500364,knowledge,C,bare_answer,True
+"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,C,choice,qwen2.5:1.5b,4211f52e612e4c648c8e70f3dc69009e,c5b79394f5c345ca8c689703b4b969211eaa9ad87193e0e84ddd2d729d52f623,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nx = 5\nx += 2\nprint(x)\n```\nA) 10\nB) 5\nC) 7\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,94,2,0.014589,0.000369458,stop,0.091742959106341,coding,A,bare_answer,False
+"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,C,choice,qwen2.5:0.5b,1223402e6c8b494da36d58b33db00e14,4a32766505a535f6e272f5239230173869110a3efcf4264396d0fd8162783893,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nx = 5\nx += 2\nprint(x)\n```\nA) 10\nB) 5\nC) 7\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,94,2,0.007703,0.00070425,stop,0.03870929218828678,coding,B,bare_answer,False
+3 + 10,arithmetic,13,integer,qwen2.5:0.5b,106830e83e474b0fafa560513ba89a00,a91a87b8b65e856e97b7fc5e0d30880dd9b4efa494337c9d9dcd0f3d34b4bc7b,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""3 + 10\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 3 + 10 evaluates to 13.,generated,,50,15,0.092438,0.00029825,stop,0.11220420803874731,arithmetic,,unresolved,False
+3 + 10,arithmetic,13,integer,qwen2.5:1.5b,6555fc3a32c3455abbea766d67517177,ea4c6505b9b07bb53a52403199803e75b3e09a92058cba2012c331064ed4ce7a,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""3 + 10\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",13,generated,,50,3,0.025746,0.00054525,stop,0.07447441690601408,arithmetic,13,bare_answer,True
+"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,B,choice,qwen2.5:1.5b,315919047cec469da14fb43b70c66d65,5cf8525a2f5ba96378e35b56a3625cfda324c99bc21df2cb449063173c458c24,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What is the SI unit of electric current?\nA) Volt\nB) Ampere\nC) Watt\nD) Ohm\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,75,2,0.012657,0.000399291,stop,0.0888940840959549,knowledge,B,bare_answer,True
+"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,B,choice,qwen2.5:0.5b,07962f60f5e14aafa9448b47a0943517,a7066530fb46b5dce8f13ec587e5425ca91f6e6bbe49d8cf67f02a14b6a3adbd,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What is the SI unit of electric current?\nA) Volt\nB) Ampere\nC) Watt\nD) Ohm\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,75,2,0.006847,0.000348166,stop,0.034046749817207456,knowledge,B,bare_answer,True
+(500 * 21) - 70,arithmetic,10430,integer,qwen2.5:0.5b,a8f9a0cbe29145258796d8fbadc836b5,29a59baad9c4e7bfc7ba169c40f5d1bffa8554afebb9891dab198af80117750b,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(500 * 21) - 70\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression (500 * 21) - 70 simplifies to 10500 - 70 = 10430. The final integer is 10430.,generated,,58,48,0.281565,0.000680542,stop,0.30909491586498916,arithmetic,,unresolved,False
+(500 * 21) - 70,arithmetic,10430,integer,qwen2.5:1.5b,d71c620090ba47e68260582203f751ca,af98ba968684993aa5e5c8289aea1340db32de5688c0ec2145ce4254b2042583,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(500 * 21) - 70\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",970,generated,,58,4,0.036343,0.000455833,stop,0.11134829092770815,arithmetic,970,bare_answer,False
+"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,B,choice,qwen2.5:1.5b,8bbcc9ce11a74cc295ffe3a8317ec420,1f6d924ce8c26bd0b019f53dc3e287c1b46c7c2221529947570031dcfb7f537a,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which force attracts objects with mass toward one another?\nA) Buoyancy\nB) Gravity\nC) Friction\nD) Surface tension\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,78,2,0.012569,0.000370542,stop,0.08836866589263082,knowledge,B,bare_answer,True
+"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,B,choice,qwen2.5:0.5b,76e97fc7a3024fdf884a1e0189ecc6fe,7f3943efdd7bd991cce89ac2f33727b53f1691bf8f1f9c0305c6fc40c7dcdf56,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which force attracts objects with mass toward one another?\nA) Buoyancy\nB) Gravity\nC) Friction\nD) Surface tension\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,78,2,0.006671,0.000397625,stop,0.035883833188563585,knowledge,B,bare_answer,True
+"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,B,choice,qwen2.5:0.5b,4147298260594eccb2de9bf418044812,f6ce24c1dac18839e0236698460c74c9d83190564fa2d8ab4c6c9e2b0e517ed8,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which process allows green plants to use light to make sugars?\nA) Condensation\nB) Photosynthesis\nC) Freezing\nD) Erosion\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,81,2,0.007562,0.000541458,stop,0.036061958875507116,knowledge,B,bare_answer,True
+"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,B,choice,qwen2.5:1.5b,3813c34f973d4bd0ac238ec060d9f367,89779ded4ee035d081093afd05d77dda67f2d7cb64b2b17ba05887240300ed5c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which process allows green plants to use light to make sugars?\nA) Condensation\nB) Photosynthesis\nC) Freezing\nD) Erosion\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,81,2,0.014644,0.000444458,stop,0.09224291704595089,knowledge,B,bare_answer,True
+11 + 13,arithmetic,24,integer,qwen2.5:1.5b,9412d100db9d4eb49af50639c237959a,2cb76af77f76d3ef3a244eb9f4effa9bed7e0aac7404b7736bf5df0397e461d6,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""11 + 13\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",24,generated,,51,3,0.029107,0.00043775,stop,0.07898924988694489,arithmetic,24,bare_answer,True
+11 + 13,arithmetic,24,integer,qwen2.5:0.5b,65971a4f2ffc4d9b9545411f15105538,cbb9c01b7c235d402a84ce3cb4dbc38dd441362101ce4c15acfe39a05b2f73f5,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""11 + 13\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 11 + 13 equals 24.,generated,,51,15,0.094308,0.000665084,stop,0.11708358395844698,arithmetic,,unresolved,False
+(857 * 57) - 63,arithmetic,48786,integer,qwen2.5:0.5b,71ba5bcd0a704404a63468653c02b043,ae024086de1a1b05518dd522cd2af78bd2b48ca158a97555ad82b73021cda1df,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(857 * 57) - 63\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression (857 * 57) - 63 simplifies to 4829 - 63 = 4766. The final integer is 4766.,generated,,58,45,0.275436,0.000528083,stop,0.302766292123124,arithmetic,,unresolved,False
+(857 * 57) - 63,arithmetic,48786,integer,qwen2.5:1.5b,cc67ba66a02f45b4bf476559d8c3c28e,92bd429ecf18fd58eb69fcaaf32db0692ca56b8fae78bc942eb2b0d97fa69da5,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(857 * 57) - 63\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",4608,generated,,58,5,0.050235,0.000586166,stop,0.12716404208913445,arithmetic,4608,bare_answer,False
+45 * 56,arithmetic,2520,integer,qwen2.5:1.5b,883efb97d6f7435f94cce642a163e0f1,15231a46fb02ed875646169f38513a42bf98cad5a2537242a8b6c8826415d21c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""45 * 56\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",2520,generated,,51,5,0.04882,0.000544375,stop,0.09645958407782018,arithmetic,2520,bare_answer,True
+45 * 56,arithmetic,2520,integer,qwen2.5:0.5b,062035c832d5492e824db92635d890c5,fa5a7ff0d8f8d956bcf3e0534f8d09356c5bf8d53f2a9a36e0be8466cb497caf,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""45 * 56\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 45 * 56 results in an integer of 2520.,generated,,51,21,0.127874,0.000504667,stop,0.14839033409953117,arithmetic,,unresolved,False
+"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,D,choice,qwen2.5:0.5b,711f0c7b046441159de755e5a73b04cc,b1a4fce5609000729130f0e1e66bd2d530f46d486c8bf525ec6c617346cf1ef3,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(3 < 2 or 5 > 4)\n```\nA) Error\nB) False\nC) None\nD) True\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.007393,0.000482875,stop,0.03598962491378188,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,D,choice,qwen2.5:1.5b,d8a8d55b934b463b92109c24945e5a10,60b4c5410a693e5b5d5b825b92520bd43b848f5881ae3c11315c51d0de896ab5,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(3 < 2 or 5 > 4)\n```\nA) Error\nB) False\nC) None\nD) True\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,89,2,0.014071,0.000617458,stop,0.12817416712641716,coding,D,bare_answer,True
+"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,A,choice,qwen2.5:1.5b,1219a6f9ed7047f3bff785144f6db872,00d1f69ce73b69f4a6f2f2fa827add8fb2c7988edb0a97d66f1a0e6fe1d28108,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?\nA) Pavel\nB) Mira\nC) Oren\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,89,2,0.013759,0.000574666,stop,0.09367591701447964,logic,D,bare_answer,False
+"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,A,choice,qwen2.5:0.5b,d7b0cf3975bc4844afd6c334b4b94925,93cef48d48b92f5dc716f6bd72021f0931a2ce6fd7869ddb8721e162a36c00b9,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?\nA) Pavel\nB) Mira\nC) Oren\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,89,2,0.007157,0.000508417,stop,0.03623533295467496,logic,C,bare_answer,False
+"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,A,choice,qwen2.5:0.5b,76b499ee1ed6481fbc0e8891e07167ac,c8153bae15e17a6110c7726f515f8ca0b1bd4de877fe95748d45f5281b0e4e1d,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(len('routing'))\n```\nA) 7\nB) 8\nC) Error\nD) 6\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A.,generated,,84,3,0.013326,0.000551416,stop,0.041399542009457946,coding,,unresolved,False
+"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,A,choice,qwen2.5:1.5b,9b32113bbfb448dd9cb5abad5ad7d6a0,50a872cd9c53a1cb9202705af555c7f1d39b9961a80f226130e0bb284b4fedbc,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(len('routing'))\n```\nA) 7\nB) 8\nC) Error\nD) 6\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,84,2,0.012338,0.0008435,stop,0.09230504184961319,coding,A,bare_answer,True
+4 + 16,arithmetic,20,integer,qwen2.5:1.5b,ecc94d5ae6c2474ab9c645e75c172684,6f762a43c258752c57b2857c91564d1feca66362e621a346eeacf939f4319696,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""4 + 16\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",20,generated,,50,3,0.026637,0.000411458,stop,0.07415820797905326,arithmetic,20,bare_answer,True
+4 + 16,arithmetic,20,integer,qwen2.5:0.5b,8864ea46a8f84c2b8be409a221233fe3,2596f84c550a56482e512e6b002fef0c3fdbb0e263049f07d434fc79f00ea43a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""4 + 16\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 4 + 16 equals 20.,generated,,50,14,0.079376,0.000390375,stop,0.0995400829706341,arithmetic,,unresolved,False
+"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,C,choice,qwen2.5:0.5b,998f3393d02f440b8ffb8072ba7714e2,7c3af3d3d2129cb1b39738885e4398b29624c68ea84512d08f27c0d4c94cd011,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor must be broken\nC) The sensor is not active\nD) The sensor is active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,103,2,0.007196,0.000451667,stop,0.04457320901565254,logic,D,bare_answer,False
+"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,C,choice,qwen2.5:1.5b,c9a590e7435d4645bc3912c693f3c7ac,00c92d15c9350abe008e31e76b76e993f1d58a6b3cf1e03bb9ad5026604771d5,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor must be broken\nC) The sensor is not active\nD) The sensor is active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,103,2,0.014908,0.001141917,stop,0.12927425000816584,logic,C,bare_answer,True
+"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,D,choice,qwen2.5:1.5b,b4e15a80172743609fcd542623ec1994,b6f6dd530ee3120e7f74d10497d8247acff458bea11fef4cee27dafe68d7cea1,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which gas do plants take in during photosynthesis?\nA) Hydrogen\nB) Neon\nC) Helium\nD) Carbon dioxide\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,77,2,0.014562,0.000640083,stop,0.09345887484960258,knowledge,D,bare_answer,True
+"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,D,choice,qwen2.5:0.5b,6027c97ff07b4a029b9655779a4da083,3371878a4c1c3fc359bb8c6b019a904ed663667740120ac14f48bd8ffcff21be,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which gas do plants take in during photosynthesis?\nA) Hydrogen\nB) Neon\nC) Helium\nD) Carbon dioxide\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,77,2,0.007406,0.000402625,stop,0.035209417110309005,knowledge,D,bare_answer,True
+"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,C,choice,qwen2.5:0.5b,6ff8a56364ec4f3da4dcea839fb34542,2f628bc36216529848d90ae641af46b987f2b2c23fd36b4e3bd5858e2db1137c,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Monday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,89,2,0.007205,0.000451916,stop,0.03519837511703372,comprehension,C,bare_answer,True
+"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,C,choice,qwen2.5:1.5b,9376cd167d3f4656b17a025d04cafef3,535f24bcf7fb479ed6d43511ee42e7ea4f90dc25549c28e1c0a269f2222612c1,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Monday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.014614,0.000408459,stop,0.09366470784880221,comprehension,B,bare_answer,False
+"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,qwen2.5:1.5b,0d1e3aea2df0456eb2a9cbd8df459279,10105d52bb5c71e9733d2fe1fe248baaafe504f4f7aedd7b59372ebda2e3b8f3,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The umbrella was broken\nB) The morning was dark\nC) Rain was forecast\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,102,2,0.01359,0.000406459,stop,0.12663316680118442,comprehension,C,bare_answer,True
+"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,qwen2.5:0.5b,159f2befc766466790652d254c26f119,703d420da44650abad6bdb299d513470a3040f88dde916756f243ca853995165,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The umbrella was broken\nB) The morning was dark\nC) Rain was forecast\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,102,2,0.008025,0.000545459,stop,0.047733499901369214,comprehension,C,bare_answer,True
+"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,C,choice,qwen2.5:0.5b,1cb80b37eb7f4dc5ad959e2fdc5c6de5,f36b2c1948b58a2a7426afa3760191dc79ffee1a53f2958bdbd4fdf996d49a50,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('ab' * 3)\n```\nA) aaabbb\nB) Error\nC) ababab\nD) ab3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) ababab,generated,,89,6,0.031712,0.000557917,stop,0.06123974989168346,coding,,unresolved,False
+"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,C,choice,qwen2.5:1.5b,6f30ef76728d46668d859fcb96481300,b432a818fddb96e034581c5ef41545054022fd1da87525ac3f2875ea09cf0bec,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('ab' * 3)\n```\nA) aaabbb\nB) Error\nC) ababab\nD) ab3\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,89,2,0.014356,0.000505167,stop,0.09308287501335144,coding,C,bare_answer,True
+"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,B,choice,qwen2.5:1.5b,c8532de383fc4b52b21d2584e4bf1902,54e2b0c60b38e2dbf39eaa987f83a1e6705b13f4f27c19fbd33d4177839eb6ba,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(sum([2, 4, 6]))\n```\nA) 10\nB) 12\nC) 3\nD) 24\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,94,2,0.01329,0.000428417,stop,0.09253366710618138,coding,A,bare_answer,False
+"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,B,choice,qwen2.5:0.5b,7e1c5a95e0214cdb82bba6817be6cc6d,22be770d5095cc8649e5ae5a52bd0cffd43b7fc3401bf570c5692caf86241ab5,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(sum([2, 4, 6]))\n```\nA) 10\nB) 12\nC) 3\nD) 24\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A.,generated,,94,3,0.013632,0.000529792,stop,0.042469375068321824,coding,,unresolved,False
+"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,B,choice,qwen2.5:0.5b,e18c3adcf73046e289bda01e9ac8395f,9c2e00d8a6f984b0d1f1ea4298617f44b09d6fb65ae8da84090b9cdd4e0e6270,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which change turns a liquid into a gas?\nA) Freezing\nB) Evaporation\nC) Condensation\nD) Deposition\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.006928,0.000431958,stop,0.03471170808188617,knowledge,B,bare_answer,True
+"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,B,choice,qwen2.5:1.5b,e875a936c2de4012a79a991e0aa1f009,d6025ee09d2f5bf4c8e3537c3fffd9fa1ef5142a128951ae068a1586a79baa9d,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which change turns a liquid into a gas?\nA) Freezing\nB) Evaporation\nC) Condensation\nD) Deposition\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.012574,0.00055875,stop,0.09201733395457268,knowledge,B,bare_answer,True
+"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,C,choice,qwen2.5:1.5b,d564a7a2c6ed4154ad60749f02506d55,6db93c68a60fa82b76d9a31ca8b4470e68462e3369990749d0f871c293c78f51,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Yes, necessarily\nC) No\nD) Only if it is gold\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,99,2,0.012387,0.000343625,stop,0.12502162507735193,logic,B,bare_answer,False
+"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,C,choice,qwen2.5:0.5b,ef945f0fd6fa476ea371bdec521b5f0c,5211d6b759cb6890308d266602c4696b4146dc6b4f9e3673b1bb93dea951f1a7,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Yes, necessarily\nC) No\nD) Only if it is gold\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C) No,generated,,99,4,0.02057,0.000487958,stop,0.060207291040569544,logic,,unresolved,False
+"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,C,choice,qwen2.5:0.5b,896b067b9c53421e9b5db44819beabca,c315c8f06cd0ee6013ebd2593fc9cf385ab54da996866f32cbcf6ae050d9e791,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 23\nC) 2 + 3\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,107,2,0.007977,0.000562125,stop,0.04787599993869662,comprehension,D,bare_answer,False
+"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,C,choice,qwen2.5:1.5b,4aea7b104f724fd2a3fede2c3b3cdf6a,52ee864c98a30919dfbec17d6f3bf5918170841d08b5110f7a31f3970aae5714,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 23\nC) 2 + 3\nD) 5\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,107,2,0.013813,0.0005885,stop,0.12958416598848999,comprehension,B,bare_answer,False
+25 * 66,arithmetic,1650,integer,qwen2.5:1.5b,796a61a143da45c4a4d5ab1cf99b3744,c671dbf0c9fd97670f446c4a28ba7ca3601de875feb9e853d3aee22b65e2dea1,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""25 * 66\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",1650,generated,,51,5,0.053149,0.000463125,stop,0.10263583296909928,arithmetic,1650,bare_answer,True
+25 * 66,arithmetic,1650,integer,qwen2.5:0.5b,8e3907ceb9144c959f28bc37e2860c54,78028493fb5e3b9b001211f31345c78b137c094e98f508e9fcbd278e36ea4bc2,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""25 * 66\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",25 * 66 = 1650,generated,,51,13,0.077765,0.000605709,stop,0.09991954080760479,arithmetic,,unresolved,False
+"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,qwen2.5:0.5b,1b2fd274d443442da017eeefb1a6d787,1b5ec550ea05371cfe18a062f3c6a32e93bad8edd4ba4cd9759d1b2361480309,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The morning was dark\nB) The umbrella was broken\nC) Rain was forecast\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,101,2,0.007475,0.000559625,stop,0.04636491695418954,comprehension,C,bare_answer,True
+"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,qwen2.5:1.5b,6471eef2cde648f3975cf547ab0ae635,7e4d17987547f03b464e01837a05691309565384731f24d5112f1e849bf82616,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The morning was dark\nB) The umbrella was broken\nC) Rain was forecast\nD) It was already snowing\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,101,2,0.013875,0.000605083,stop,0.12919404194690287,comprehension,C,bare_answer,True
+"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,C,choice,qwen2.5:1.5b,1ad2fe4231eb482b946abfbec261cb61,23ca8e74181b86421913fb3f97e538c93f71d756d596cdc69a18656c23dcc648,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) No\nD) Yes, necessarily\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,99,2,0.014527,0.000646208,stop,0.13421229203231633,logic,C,bare_answer,True
+"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,C,choice,qwen2.5:0.5b,e9f4649233294289a68d8576f7d939b1,2bb30ddac82dd994ccf9ed9a59963b7c5478904826cbe3403070336b6d724bfa,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) No\nD) Yes, necessarily\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C) No,generated,,99,4,0.021035,0.000604083,stop,0.06062575010582805,logic,,unresolved,False
+"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,C,choice,qwen2.5:0.5b,2882bd2399be483dba3d022a7ad4dcbb,ccef585de0df62b9d90ac9c89c4f40904b036dacce27a489f67a646d45dbb124,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?\nA) Coffee\nB) Both tea and coffee\nC) Nothing\nD) Tea\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D) Tea,generated,,92,4,0.019093,0.00099875,stop,0.048458209028467536,comprehension,,unresolved,False
+"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,C,choice,qwen2.5:1.5b,6aaaa537283044d68f9df3021305be15,a640b138221a263771e31cae73df703d5ce68803581b1144c0bb038931b84c61,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?\nA) Coffee\nB) Both tea and coffee\nC) Nothing\nD) Tea\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,92,2,0.01542,0.00054925,stop,0.10000462480820715,comprehension,C,bare_answer,True
+"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,A,choice,qwen2.5:1.5b,f6d6fdbf61bb44aebb01571644dd155c,2b18d6f734b32385d0c5739c1ba208f4bfd7348c7945afe15ed71788938dc7c2,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) All objects are zorks\nC) Yes, always\nD) No blue object can be a zork\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,113,2,0.014301,0.000702917,stop,0.1350665830541402,logic,A,bare_answer,True
+"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,A,choice,qwen2.5:0.5b,54d9cc7b2b9e415589d0b72a1b3de316,babb3cbc7cfa6905666d6650c2e0cebd8e87e7f5913d478d15aa5e0f72c05d32,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) All objects are zorks\nC) Yes, always\nD) No blue object can be a zork\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) No; being blue does not establish it is a zork,generated,,113,15,0.090587,0.000555875,stop,0.13158145803026855,logic,,unresolved,False
+"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,A,choice,qwen2.5:0.5b,e1d78d70544544cbaabd8d7b3b2ed93b,3338909869ed79c0a8055a0b4866168936de5d4780a97aeec8ceb1f547ac8207,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) No blue object can be a zork\nC) All objects are zorks\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) No; being blue does not establish it is a zork,generated,,113,15,0.089072,0.000559583,stop,0.12936533405445516,logic,,unresolved,False
+"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,A,choice,qwen2.5:1.5b,8da6da02e48e4dc78bf6d8140dfc6188,b501dfebf5db1ab5f46ec6768207a10cf25b66ff21e450b02edf9872190f2907,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) No blue object can be a zork\nC) All objects are zorks\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,113,2,0.01313,0.001228583,stop,0.12777912500314415,logic,A,bare_answer,True
+(443 * 29) - 18,arithmetic,12829,integer,qwen2.5:1.5b,bd96e848bf6a48cb82a8eed52f0626ed,14f3a886fd5dc54117910d51fb438ec7e7eb41506de0cc83d2608be22abe833c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(443 * 29) - 18\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",1255,generated,,58,5,0.051999,0.000441084,stop,0.13050170801579952,arithmetic,1255,bare_answer,False
+(443 * 29) - 18,arithmetic,12829,integer,qwen2.5:0.5b,857c76044f1f4b66be3a6afea7c4bd0e,b5ee80738d287c5b3e33558fd423d45b4ff21c4af27634f49e555841d7d3c5be,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(443 * 29) - 18\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","The expression (443 * 29) - 18 simplifies as follows:
+
+443 * 29 = 12,937
+12,937 - 18 = 12,919
+
+Therefore, the final integer is 12",generated,,58,64,0.392512,0.00049325,length,0.42137633403763175,arithmetic,,unresolved,False
+"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,C,choice,qwen2.5:0.5b,ae798e466123413f8078054d3e535fa1,0b6ce1a606605a31f025d92d7a2cf3167eec408f029f0eebce2c53090068d450,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(bool([]))\n```\nA) None\nB) True\nC) False\nD) Error\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,80,2,0.00779,0.000549875,stop,0.03636195813305676,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,C,choice,qwen2.5:1.5b,8b2b0c5399df4847998870ae26cf5940,eeeefb93a22f6a47fd57f012a6765eb15d2d971edafa137b3bbfb4399c5fe369,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(bool([]))\n```\nA) None\nB) True\nC) False\nD) Error\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,80,2,0.014534,0.000523334,stop,0.0935417499858886,coding,C,bare_answer,True
+"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,A,choice,qwen2.5:1.5b,22e8d2e6b571426a8eb1e48fa3dc5df8,a33530eb092c7acd98696837532a44592733edee802f5d202fe47e92f5f75219,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?\nA) Wednesday\nB) Friday\nC) Monday\nD) Tuesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,89,2,0.014202,0.000627125,stop,0.09695691685192287,comprehension,A,bare_answer,True
+"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,A,choice,qwen2.5:0.5b,5584eaff978642228a2c60ddca82ed22,ac1d8dcd7b014fcf0ab50fed03eed250ee4bb1bcb789d2b1f0697faef8797fc5,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?\nA) Wednesday\nB) Friday\nC) Monday\nD) Tuesday\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Wednesday,generated,,89,4,0.022344,0.000783375,stop,0.052811792120337486,comprehension,,unresolved,False
+"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,D,choice,qwen2.5:0.5b,392a1e9dc3c944c88c66a3157361230b,e6e318f976f0ac0c679d55c36342beebf4d681574542daeae4fac9423c4174d1,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('route'.upper())\n```\nA) Error\nB) Route\nC) route\nD) ROUTE\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,83,2,0.007545,0.000499208,stop,0.03673787508159876,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,D,choice,qwen2.5:1.5b,2e52a013a5ab48ab86807e77d034b420,f5411c8f21ca8669788cc247f1542b64a3c2cc258554f8ec1ff1ad47a39ab8d9,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('route'.upper())\n```\nA) Error\nB) Route\nC) route\nD) ROUTE\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,83,2,0.012951,0.000598708,stop,0.09317695908248425,coding,D,bare_answer,True
+"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,D,choice,qwen2.5:1.5b,afb202823e674a55b8fa690eaea3fcee,7239f325c682ca6166739aca215a2acfd6a0392474c4edf23ada5d5afe7f5a0a,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which instrument indicates magnetic north?\nA) Clock\nB) Microscope\nC) Thermometer\nD) Compass\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,72,2,0.013069,0.000692,stop,0.09293174999766052,knowledge,D,bare_answer,True
+"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,D,choice,qwen2.5:0.5b,0c245c69a24c470a9f9382fcd7b5fac5,6c9753a956876cd6a9bb7cb91c7c5bbd42933611db7ee8ad4fc367eb122cd0cb,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which instrument indicates magnetic north?\nA) Clock\nB) Microscope\nC) Thermometer\nD) Compass\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,72,2,0.007585,0.000484375,stop,0.036846542032435536,knowledge,D,bare_answer,True
+"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,C,choice,qwen2.5:0.5b,b87c033fabb04184ace3de7894b21b16,b913018bfda13494c7121c220926d16b44375556a3d5926d0303a01964bb3000,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?\nA) Soren\nB) Lena\nC) Tavi\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,89,2,0.007915,0.000553416,stop,0.04693012498319149,logic,B,bare_answer,False
+"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,C,choice,qwen2.5:1.5b,5976c53491b142edace2b5f282d3ade9,152c47326c780dc182e3ab1312481276746aa938195d019123ceb74c047287dc,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?\nA) Soren\nB) Lena\nC) Tavi\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,89,2,0.013636,0.000482042,stop,0.12758620805107057,logic,D,bare_answer,False
+"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,B,choice,qwen2.5:1.5b,228cbce17fb84490b4ca9254d3da2f80,fd7dff43863640878a0d662259c32e1388ec4d3dd90c9a56e834d79cfbbc47b4,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(list(range(2, 8, 2)))\n```\nA) [2, 3, 4, 5, 6, 7]\nB) [2, 4, 6]\nC) [0, 2, 4, 6]\nD) [2, 4, 6, 8]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,131,2,0.013162,0.000421833,stop,0.13566308398731053,coding,A,bare_answer,False
+"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,B,choice,qwen2.5:0.5b,46f0270cdb804584b8e08c63f238002a,aa3ab4f24ca8f4e86cf8b2fdb05ebc75b96bc675f3ece0e238520294118e0d57,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(list(range(2, 8, 2)))\n```\nA) [2, 3, 4, 5, 6, 7]\nB) [2, 4, 6]\nC) [0, 2, 4, 6]\nD) [2, 4, 6, 8]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,131,2,0.007378,0.000489542,stop,0.04827999998815358,coding,B,bare_answer,True
+20 + 20,arithmetic,40,integer,qwen2.5:0.5b,9ff9a9b78fc14d77ab6971f7e577d3a5,caaad8f1fb6a823bf78c8a86f6f0517d500f88621c4cdec7b95bfba10f6c626e,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""20 + 20\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 20 + 20 equals 40.,generated,,51,15,0.0863,0.00051325,stop,0.1074487091973424,arithmetic,,unresolved,False
+20 + 20,arithmetic,40,integer,qwen2.5:1.5b,2e5bf3ed41704fc1b3ed6919824066a8,c9fa4d13415ef14d5efc1b24dc3176656e761c243286287b2307045a3d7b1cb9,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""20 + 20\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",40,generated,,51,3,0.025007,0.000548666,stop,0.07371712499298155,arithmetic,40,bare_answer,True
+"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,B,choice,qwen2.5:1.5b,4cb248fde0a447708dbc5e7a7092cc5b,ab511dca99947cab1d83c8f5045a9238db6ef925783d812440c25045e3dedc8b,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What is the chemical formula of water?\nA) CO2\nB) H2O\nC) NaCl\nD) O2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.013236,0.000447959,stop,0.09618133306503296,knowledge,B,bare_answer,True
+"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,B,choice,qwen2.5:0.5b,ec43c8cdbfbe43d0ae186e641bb69e45,588d2a6324c20607e8add228721a951035212a513403bf3fc533ce63682523cc,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What is the chemical formula of water?\nA) CO2\nB) H2O\nC) NaCl\nD) O2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,77,2,0.007274,0.000476208,stop,0.03583399998024106,knowledge,B,bare_answer,True
+"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,B,choice,qwen2.5:0.5b,99da6da14b0046b9b71b6fc01ab8c238,082c47a843e52eef31dcdfd2d3e044c2427b0e80d8fe7029e50c53eeec78c264,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) It was already snowing\nB) Rain was forecast\nC) The morning was dark\nD) The umbrella was broken\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,101,2,0.007311,0.00042425,stop,0.04667062498629093,comprehension,B,bare_answer,True
+"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,B,choice,qwen2.5:1.5b,449c7f4bb620445999e46b4c0d126e52,5c287bbcd6e540908999ee93b024a17c2fb778eeb868c2dd53c10a7e722bc171,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) It was already snowing\nB) Rain was forecast\nC) The morning was dark\nD) The umbrella was broken\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,101,2,0.013934,0.000523125,stop,0.12886283383704722,comprehension,B,bare_answer,True
+"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,A,choice,qwen2.5:1.5b,b751b8aad8c44e66a8ef9ead0bebae16,81c2bc1da7a7616adca3183e7d919f7121974bac0fa6887728ee52fcb860c0cc,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [1, 2]\na.append(5)\nprint(a)\n```\nA) [1, 2, 5]\nB) [1, 2, [5]]\nC) [1, 2]\nD) [5]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,111,2,0.013443,0.000453875,stop,0.1300527499988675,coding,A,bare_answer,True
+"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,A,choice,qwen2.5:0.5b,ab5df3caf99c46318c040d4915ba40de,52be650681179e92a55bee63bb6987ddc513da00d8543beb9e300f50c9a38614,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [1, 2]\na.append(5)\nprint(a)\n```\nA) [1, 2, 5]\nB) [1, 2, [5]]\nC) [1, 2]\nD) [5]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","A) [1, 2, 5]",generated,,111,12,0.071127,0.000396875,stop,0.11182570899836719,coding,,unresolved,False
+"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,C,choice,qwen2.5:0.5b,ae08970f7a5641d3a714eac776f8910b,5cb2bfb2977f064647a9da874f71ce3c0ac4834c69d7778aa842ed4b7817d975,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint([x * x for x in [2, 3]])\n```\nA) [2, 2, 3, 3]\nB) [2, 3]\nC) [4, 9]\nD) [4, 6]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,112,2,0.007237,0.00046675,stop,0.04617012501694262,coding,C,bare_answer,True
+"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,C,choice,qwen2.5:1.5b,8a0b4c5576994f5fb8a3621edd94688d,31862f6ba32a3be2a28c9ebd4f49872e554757158dc3dab2df8e101e5c7f30d6,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint([x * x for x in [2, 3]])\n```\nA) [2, 2, 3, 3]\nB) [2, 3]\nC) [4, 9]\nD) [4, 6]\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,112,2,0.014645,0.000542417,stop,0.1307322911452502,coding,C,bare_answer,True
+"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,A,choice,qwen2.5:1.5b,1ea688e83a234c8c8e4df22c1de9f2ab,1204952900993436ce77a058381c3bef9ade388139077a55e004307003b20ec3,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The lamp is on\nD) The sensor is active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,103,2,0.015246,0.0006655,stop,0.1337525830604136,logic,A,bare_answer,True
+"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,A,choice,qwen2.5:0.5b,ded86b99b91c48fea94010a2f0d1b6fe,51a3d438f545eaa4513d36a219e6724ef59f49601ddb84aa88c7306d0bed44bc,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The lamp is on\nD) The sensor is active\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,103,2,0.007589,0.000534792,stop,0.048655999824404716,logic,D,bare_answer,False
+96 * 48,arithmetic,4608,integer,qwen2.5:0.5b,3fd546ed1b744ac5b292573d3d29790d,56e8f40d64e098ec30ec9946359b684e97a71e172c936c69674c31e421b8b78f,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""96 * 48\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 96 * 48 results in an integer of 4608.,generated,,51,21,0.150639,0.00102675,stop,0.17429374996572733,arithmetic,,unresolved,False
+96 * 48,arithmetic,4608,integer,qwen2.5:1.5b,596d19d2472c44db857075700ced473d,7c8fa05e251ea6caac1490a1f8db371eb5f6c08b8d59d7539209e7bca73027d5,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""96 * 48\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",4608,generated,,51,5,0.051778,0.00068775,stop,0.10483170906081796,arithmetic,4608,bare_answer,True
+"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,D,choice,qwen2.5:1.5b,75fbaa0e7a064f64a2a3ce5ed3a5d7d9,4a8779b8ae5f4b00af782e188dfaf0c4069d473f8a221d8d7d5b34a535c0d709,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?\nA) Cannot be determined\nB) Soren\nC) Lena\nD) Tavi\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,90,2,0.01397,0.000578667,stop,0.13156258407980204,logic,D,bare_answer,True
+"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,D,choice,qwen2.5:0.5b,0be7382d791945878d61ccfe2792702d,d3823edc0785cf00b1c05a8b730b7711976dcc8c335ccd567b9cb58640588a4b,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?\nA) Cannot be determined\nB) Soren\nC) Lena\nD) Tavi\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B) Soren,generated,,90,5,0.025727,0.000533791,stop,0.06611449993215501,logic,,unresolved,False
+"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,D,choice,qwen2.5:0.5b,6c0dec5043914b30b81329ca27a89549,f1e49dd0f26330482a4e7c416303fd10476ddf9143e2544c30d614097d708803,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('a,b,c'.split(','))\n```\nA) 'abc'\nB) ['a,b,c']\nC) 3\nD) ['a', 'b', 'c']\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,97,2,0.007848,0.000849666,stop,0.03759429091587663,coding,B,bare_answer,False
+"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,D,choice,qwen2.5:1.5b,3d0676b4e2d644f1b1afa989e4fceea0,8fc1fccec47c607d490c5422acebca53f40cb60057ea4a4067a7655765c19864,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint('a,b,c'.split(','))\n```\nA) 'abc'\nB) ['a,b,c']\nC) 3\nD) ['a', 'b', 'c']\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,97,2,0.012928,0.000509417,stop,0.09357249992899597,coding,D,bare_answer,True
+39 * 67,arithmetic,2613,integer,qwen2.5:1.5b,f3540cee01df4279952f298475c10727,c95460a0379d7e7c06b3dc1335aad152ddc75811e343f0563e5f88b36266d1c8,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""39 * 67\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",2593,generated,,51,5,0.057209,0.000472334,stop,0.10660508298315108,arithmetic,2593,bare_answer,False
+39 * 67,arithmetic,2613,integer,qwen2.5:0.5b,9f1bac21b6e8445db3950044ac5666e1,921c8d4465099107dff7b1a13c312c3f7dc040e4f27b07fc53882af08984949f,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""39 * 67\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",39 * 67 = 2573,generated,,51,13,0.082783,0.000632833,stop,0.1064481670036912,arithmetic,,unresolved,False
+"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,A,choice,qwen2.5:0.5b,833b335c8370467288e614aaf26af47a,2b62d43f1368e36e2aee43fe4357c1bc0d720d1b702f0dbb0d138f0eab6dfbbe,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which number system uses only the digits zero and one?\nA) Binary\nB) Hexadecimal\nC) Octal\nD) Decimal\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Binary,generated,,77,4,0.022543,0.000839083,stop,0.05311300000175834,knowledge,,unresolved,False
+"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,A,choice,qwen2.5:1.5b,b274fe3434804d209e0871a53d68cc80,fabf902e3e438a5062b3108c94a7dc24005c9af6851d0d66c75fbe40207e0ed4,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which number system uses only the digits zero and one?\nA) Binary\nB) Hexadecimal\nC) Octal\nD) Decimal\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,77,2,0.013724,0.00062675,stop,0.09581599989905953,knowledge,A,bare_answer,True
+"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,D,choice,qwen2.5:1.5b,118cc61ce22b484580befd4e956acd0a,43a4c930261c194e7b4e43e56298b92c27ca90c7bb5c82cb0e2a80649a5255db,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which material is generally a good electrical conductor?\nA) Glass\nB) Dry wood\nC) Rubber\nD) Copper\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,74,2,0.012942,0.000739042,stop,0.09338083397597075,knowledge,D,bare_answer,True
+"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,D,choice,qwen2.5:0.5b,478f5ec5b063437cb448b7d4f05c9230,262178d2ab623a555373c108f1e04f68083614d76c3647cd74760518f8c41350,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which material is generally a good electrical conductor?\nA) Glass\nB) Dry wood\nC) Rubber\nD) Copper\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,74,2,0.007224,0.000512083,stop,0.03693599998950958,knowledge,D,bare_answer,True
+"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,B,choice,qwen2.5:0.5b,257a2a283969444983d104c598350657,8337ac1eb81773356044aa36dbefe036c6fe34905eb7393af00ac3c0c8db200d,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What causes day and night on Earth?\nA) Earth changing size\nB) Earth rotating on its axis\nC) Clouds blocking all sunlight\nD) The Moon changing shape\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,85,2,0.008389,0.000524417,stop,0.038201750023290515,knowledge,B,bare_answer,True
+"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,B,choice,qwen2.5:1.5b,b44c987a315b48daad296f5fbb07edfb,1d25f75dad4c0608e9be1c4c491eaa38dea2d7e885f959d8ef1335ba2a44a846,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What causes day and night on Earth?\nA) Earth changing size\nB) Earth rotating on its axis\nC) Clouds blocking all sunlight\nD) The Moon changing shape\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,85,2,0.015882,0.001041458,stop,0.0997211670037359,knowledge,B,bare_answer,True
+6 + 15,arithmetic,21,integer,qwen2.5:1.5b,18c4f20a7e9945e9a2deb4af03499477,94548275c7cbd4336a2a82ce2b657537a93988ae10f010f341e6a7b4cd97329e,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""6 + 15\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",21,generated,,50,3,0.027034,0.000773375,stop,0.07940066698938608,arithmetic,21,bare_answer,True
+6 + 15,arithmetic,21,integer,qwen2.5:0.5b,408d1a4a1d6447fda39d1b795e0d8665,7a07f8828de47bf8379fafeb12b5443b140e0af2cf35c316c45789685df6db44,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""6 + 15\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression 6 + 15 equals 21.,generated,,50,14,0.08949,0.000605292,stop,0.11261099996045232,arithmetic,,unresolved,False
+25 * 62,arithmetic,1550,integer,qwen2.5:0.5b,86944c2b74d44d68839c1997680da210,a06529093e79ee581e5849ddd5c2e7e091b172d6a0461aa5f9e2f7f3ba8de1d1,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""25 * 62\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",25 * 62 = 1550,generated,,51,13,0.090256,0.000737333,stop,0.11291362484917045,arithmetic,,unresolved,False
+25 * 62,arithmetic,1550,integer,qwen2.5:1.5b,2b1a7dc9c3bb40c0a824cf38ebcf7677,af474fcac75961eeb96472f9c84c34891df2a6dc189678f7c91c7d13d941a04c,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""25 * 62\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",1550,generated,,51,5,0.053925,0.001311167,stop,0.10695345816202462,arithmetic,1550,bare_answer,True
+"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,D,choice,qwen2.5:1.5b,cd2ba7cda6004b85913d9cbe762aa1f5,b01c973426c3a5b0e78027cdc8392d38d864b7579005352077c28e965397538f,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) Yes, necessarily\nD) No\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,99,2,0.0153,0.000803834,stop,0.13441533292643726,logic,D,bare_answer,True
+"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,D,choice,qwen2.5:0.5b,5b567a2365fc42998e064a8cb20f4c53,e74591094f54ef4cffdf191101043bf2427ef18dd02d9c3b89e35608f7d0f1a5,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) Yes, necessarily\nD) No\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}","C) Yes, necessarily",generated,,99,6,0.035704,0.000762542,stop,0.07777887489646673,logic,,unresolved,False
+"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,B,choice,qwen2.5:0.5b,3990028c9e8d494c80e748ee81fb49e1,dc705aab69f9723a94abac3abe8abc2068d97f163d9e7b37bffb7f276e7d9bf0,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(7 % 3)\n```\nA) 3\nB) 1\nC) 0\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,87,2,0.009144,0.000593583,stop,0.04088975000195205,coding,C,bare_answer,False
+"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,B,choice,qwen2.5:1.5b,2e5a7ccb6a234c24a6bb918646d806f7,50138fbbf6aa276ca4dbd65dc111fcafbaa839a74b748200d73334a9b155bfb8,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\nprint(7 % 3)\n```\nA) 3\nB) 1\nC) 0\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,87,2,0.013554,0.001168708,stop,0.10489066690206528,coding,B,bare_answer,True
+"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,C,choice,qwen2.5:1.5b,dfc4e7022f4c4a39a8bfb8f6deb31cb9,ccc69f65c0af81a6f9e749694b60774d2f1d1adc8cd17dfa3d67f03e23153935,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 23\nB) 5\nC) 2 + 3\nD) Room closed\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,107,2,0.014408,0.000618708,stop,0.1374805411323905,comprehension,B,bare_answer,False
+"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,C,choice,qwen2.5:0.5b,ac3700f53cba48a5af1e231b5843b248,67075228acd4a0016d714afc80ede5e4a7bb84dc774e8aa4ac6715927998b783,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 23\nB) 5\nC) 2 + 3\nD) Room closed\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,107,2,0.007761,0.000820792,stop,0.049452041974291205,comprehension,A,bare_answer,False
+"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,D,choice,qwen2.5:0.5b,390fed74273b49409173ff7c5f13ce5c,2000dd75016177a1ae0bdf28a609b2cb780d29916110cc0ff36203cda16653fd,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which data structure follows first-in, first-out order?\nA) Stack\nB) Set\nC) Binary tree\nD) Queue\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Stack,generated,,76,4,0.021652,0.000672417,stop,0.051716707879677415,knowledge,,unresolved,False
+"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,D,choice,qwen2.5:1.5b,2498333f6e124967a31a879de3d0a818,329c9e180296c537cad4a017b3897334a058f9dbbf8074c206d11e4066588631,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which data structure follows first-in, first-out order?\nA) Stack\nB) Set\nC) Binary tree\nD) Queue\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,76,2,0.014073,0.000657083,stop,0.09685558290220797,knowledge,D,bare_answer,True
+(314 * 58) - 20,arithmetic,18192,integer,qwen2.5:1.5b,36c67f8ed2dc4dd0886aac0370a867f4,5e54864bc20d988fd5c5cfe43ae62d128615b7b0d1a8774a4b566ab8920c86a6,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""(314 * 58) - 20\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",18060,generated,,58,6,0.062655,0.000968458,stop,0.14713887521065772,arithmetic,18060,bare_answer,False
+(314 * 58) - 20,arithmetic,18192,integer,qwen2.5:0.5b,2ccfdbf023b748d791751dda3cfe4c57,14766afd69ea093113382d8a275799d54a5ea5ae5bf642a554e873d2b752d893,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""(314 * 58) - 20\nCalculate the expression and return only the final integer. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",The expression (314 * 58) - 20 simplifies to 17956 - 20 = 17936. The final integer is 17936.,generated,,58,48,0.317409,0.000629917,stop,0.34701750008389354,arithmetic,,unresolved,False
+"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,B,choice,qwen2.5:0.5b,de9d985a61434a328cd418165d86d55e,e8e37d91dac0c9d9f91a114b6c40ae19415dfb6b165055b77f2f152fafb4cdf7,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [1, 2]\nb = a\nb.append(3)\nprint(len(a))\n```\nA) 1\nB) 3\nC) Error\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A.,generated,,100,3,0.015287,0.001110708,stop,0.04715124983340502,coding,,unresolved,False
+"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,B,choice,qwen2.5:1.5b,6052a42a868c427aa09a32451461932f,aa8aba8bcc674087cfc3e6283521ba4ff990c68e115584baf4a57db21ca646de,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""What does this Python code print?\n```python\na = [1, 2]\nb = a\nb.append(3)\nprint(len(a))\n```\nA) 1\nB) 3\nC) Error\nD) 2\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,100,2,0.013135,0.000585292,stop,0.1293158328626305,coding,B,bare_answer,True
+"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,D,choice,qwen2.5:1.5b,795414a24b1e4421a8154eb1a0458674,c4fb2b6c4009a5425ad36936138a3b4afb4c213d3f1af15670fde9da179716dd,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which planet is the largest in the Solar System?\nA) Earth\nB) Venus\nC) Mars\nD) Jupiter\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,74,2,0.012817,0.000921042,stop,0.09482912509702146,knowledge,D,bare_answer,True
+"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,D,choice,qwen2.5:0.5b,f9801b968a164ae789d66e75690b4526,e960386783fe91a450ad0e532722d3f32e8de8918e11ea379d14d85d2f40657e,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which planet is the largest in the Solar System?\nA) Earth\nB) Venus\nC) Mars\nD) Jupiter\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,74,2,0.007379,0.000542166,stop,0.03707104199565947,knowledge,D,bare_answer,True
+"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,B,choice,qwen2.5:0.5b,8a1ee1007fc3414db2f8acc15d2a8a37,c9d9fbc1a2df7428ce0ee4dce0e2fc94189531ac3899b5cf0b7d644d4189bd79,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?\nA) No blue object can be a zork\nB) No; being blue does not establish it is a zork\nC) All objects are zorks\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B) No; being blue does not establish it is a zork,generated,,113,15,0.090858,0.000529583,stop,0.13071374990977347,logic,,unresolved,False
+"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,B,choice,qwen2.5:1.5b,e58578217930448da804c066a4e1ce49,35ae190510d634ecf4c413e12dc867cf059b9e66dac2d8a4e857694a87d58b77,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?\nA) No blue object can be a zork\nB) No; being blue does not establish it is a zork\nC) All objects are zorks\nD) Yes, always\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,113,2,0.014155,0.000567459,stop,0.13401433313265443,logic,B,bare_answer,True
+"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,C,choice,qwen2.5:1.5b,9a4a710a2c2c4ab3a69119a2d7611ae9,232c9f9344cc280e152db760c52903464c749124b8cea1009c260bbb3c4ebc2a,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Which symbol represents the element oxygen?\nA) Au\nB) Fe\nC) O\nD) N\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,71,2,0.013237,0.000978625,stop,0.09422145900316536,knowledge,C,bare_answer,True
+"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,C,choice,qwen2.5:0.5b,02bf57166ffb45ef88913764e909d977,eca3734c4f6a1804d6c33f511ceee4baf5859b28f2776165dd0c7181e0edb59a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Which symbol represents the element oxygen?\nA) Au\nB) Fe\nC) O\nD) N\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C) O,generated,,71,4,0.020885,0.00049425,stop,0.04988791700452566,knowledge,,unresolved,False
+"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,D,choice,qwen2.5:0.5b,6c21e550afeb4e4f862d744f907847fd,e94a67a1ddba7612522e3e9d66ae5ea731ac24ff490ca0960913f2e89366444a,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?\nA) Cannot be determined\nB) Nora\nC) Vik\nD) Wren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,86,2,0.007929,0.000525917,stop,0.03714775014668703,logic,B,bare_answer,False
+"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,D,choice,qwen2.5:1.5b,30dc9975ae1842269a362165eba78580,70748a632c1b3ceb0a139e028b27d74cd21bff07857b0a4477131062c5f5ebf0,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?\nA) Cannot be determined\nB) Nora\nC) Vik\nD) Wren\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,86,2,0.013975,0.000713167,stop,0.0973841252271086,logic,A,bare_answer,False
+"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,A,choice,qwen2.5:1.5b,2dc440129aaa4068a15b3b4605684336,a474b75fd5497501903a5b49f0f0d95dfbe694b1cf664852d1e7c86d70f29199,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The sensor is active\nD) The lamp is on\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A,generated,,103,2,0.01433,0.000555375,stop,0.13562441593967378,logic,A,bare_answer,True
+"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,A,choice,qwen2.5:0.5b,fdf9e9f1317c46bfaec5c99a6adb70dd,6756d749e4b607b292b05feab8f47ba455c3e5c9e8f4a276e27ca09e40ccfa05,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The sensor is active\nD) The lamp is on\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,103,2,0.007809,0.001506542,stop,0.04959029098972678,logic,C,bare_answer,False
+"Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Neri
+B) Sol
+C) Nobody
+D) Cannot be determined",comprehension,A,choice,qwen2.5:0.5b,61099805caca426a83e46583e714dd4f,a926171feef7a067c277b6c9efb47098e9b931ab7a82cc0ed96468292de4521e,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Neri\nB) Sol\nC) Nobody\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Neri,generated,,98,5,0.027167,0.000532959,stop,0.06759541714563966,comprehension,,unresolved,False
+"Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Neri
+B) Sol
+C) Nobody
+D) Cannot be determined",comprehension,A,choice,qwen2.5:1.5b,7760b7389fb541d98f2edd01d5c7cfc3,26959522c34b030653848f8ba87f86921f71d64f710b9cf9269ca18cc5dc9b59,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Neri\nB) Sol\nC) Nobody\nD) Cannot be determined\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,98,2,0.01481,0.000559209,stop,0.13669700012542307,comprehension,B,bare_answer,False
+"Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Neri
+D) Nobody",comprehension,C,choice,qwen2.5:1.5b,b8351513b5de4cbab0db8aa3e7e10e4b,d9106d52d060f65468e699ab1f025b0e7787adb7fba4859bfcbe71f39172053d,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Neri\nD) Nobody\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,98,2,0.017181,0.000678083,stop,0.10439566592685878,comprehension,B,bare_answer,False
+"Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Neri
+D) Nobody",comprehension,C,choice,qwen2.5:0.5b,eef4d03598554e7ab86bf496277830a2,ec92eaba77571618a4e9b9f2f52b81dee3249cd5413b3da47ce7934c0e5e9c9d,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Neri\nD) Nobody\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Sol,generated,,98,4,0.022676,0.001356792,stop,0.05560495890676975,comprehension,,unresolved,False
+"Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Nobody
+D) Neri",comprehension,D,choice,qwen2.5:0.5b,666fb6139bf843d7b104a149decd8fca,5bb2a205fc1c736f5b343115751e641180cc835fe9d5a4b9c315957ebe908db8,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Nobody\nD) Neri\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",A) Sol,generated,,98,4,0.021364,0.000522958,stop,0.05099475011229515,comprehension,,unresolved,False
+"Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Nobody
+D) Neri",comprehension,D,choice,qwen2.5:1.5b,abd706d2abdc44afb2e4fa8eaa1050af,87d39d596d6379807f829a6584f1083241b58fb985bce7e22906da17f530ab60,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Nobody\nD) Neri\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",B,generated,,98,2,0.014018,0.000957083,stop,0.09808850008994341,comprehension,B,bare_answer,False
+"Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Cannot be determined
+B) Nobody
+C) Neri
+D) Sol",comprehension,C,choice,qwen2.5:1.5b,04de7d678d054ac0a7a3a7043b87ee90,fa1300460be5c3b4587f8b809fbfcd89278ab39409f4c149ddd7b374d74d80b0,"{""model"": ""qwen2.5:1.5b"", ""prompt"": ""Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Cannot be determined\nB) Nobody\nC) Neri\nD) Sol\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",D,generated,,98,2,0.01457,0.000672333,stop,0.09927291609346867,comprehension,D,bare_answer,False
+"Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Cannot be determined
+B) Nobody
+C) Neri
+D) Sol",comprehension,C,choice,qwen2.5:0.5b,d8e5505281c1466f9256c4451d553ea2,fc173076c30430782c2c584bf3b8bf880f118402fc55d19c17ce38339f3b06ee,"{""model"": ""qwen2.5:0.5b"", ""prompt"": ""Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Cannot be determined\nB) Nobody\nC) Neri\nD) Sol\nReturn only the best option letter A, B, C or D. Do not add explanations."", ""stream"": false, ""options"": {""temperature"": 0, ""seed"": 42, ""num_predict"": 64}}",C,generated,,98,2,0.007918,0.000635375,stop,0.0386484581977129,comprehension,C,bare_answer,True

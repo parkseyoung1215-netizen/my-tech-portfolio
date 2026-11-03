@@ -1,0 +1,9 @@
+{
+  "manifest_hash_verified": true,
+  "frozen_source_data_verified": true,
+  "prior_project_overlap": 0,
+  "task_rows_verified": 400,
+  "runtime_call_verified": "question, strategy, frozen profile, coverage policy only",
+  "pretraining_overlap": "not_measured",
+  "raw_HTTP_payload_capture": "not_recorded"
+}

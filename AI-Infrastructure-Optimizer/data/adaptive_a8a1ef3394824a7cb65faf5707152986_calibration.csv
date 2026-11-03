@@ -1,0 +1,161 @@
+question,expected,bucket,model,answer,wall_time,correct,status,reason,predicted
+6 + 17,23,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 23,0.08171170903369784,True,correct,,23
+6 + 17,23,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 23,0.18585758400149643,True,correct,,23
+81 * 29,2349,medium,qwen2.5:1.5b,FINAL_ANSWER: 2359,0.26963191595859826,False,incorrect,,2359
+81 * 29,2349,medium,qwen2.5:0.5b,FINAL_ANSWER: 2349,0.19117991719394922,True,correct,,2349
+7 + 4,11,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 11,0.21583783393725753,True,correct,,11
+7 + 4,11,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 11,0.8013678330462426,True,correct,,11
+27 * 64,1728,medium,qwen2.5:1.5b,FINAL_ANSWER: 1728,0.6924722089897841,True,correct,,1728
+27 * 64,1728,medium,qwen2.5:0.5b,FINAL_ANSWER: 1728,0.17066254187375307,True,correct,,1728
+(757 * 87) - 96,65763,hard,qwen2.5:0.5b,FINAL_ANSWER: 64059,0.16729662497527897,False,incorrect,,64059
+(757 * 87) - 96,65763,hard,qwen2.5:1.5b,FINAL_ANSWER: 65511,0.3161527921911329,False,incorrect,,65511
+46 * 62,2852,medium,qwen2.5:1.5b,FINAL_ANSWER: 2772,0.32762520806863904,False,incorrect,,2772
+46 * 62,2852,medium,qwen2.5:0.5b,FINAL_ANSWER: 2852,0.16658970806747675,True,correct,,2852
+23 * 51,1173,medium,qwen2.5:0.5b,FINAL_ANSWER: 117.5,0.16230900003574789,False,extraction_failed,,
+23 * 51,1173,medium,qwen2.5:1.5b,FINAL_ANSWER: 1173,0.29219575016759336,True,correct,,1173
+12 + 20,32,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 32,0.2770399581640959,True,correct,,32
+12 + 20,32,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 32,0.16942512500099838,True,correct,,32
+8 + 1,9,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 9,0.1582769169472158,True,correct,,9
+8 + 1,9,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 9,0.18327345792204142,True,correct,,9
+44 * 39,1716,medium,qwen2.5:1.5b,FINAL_ANSWER: 1716,0.2782310829497874,True,correct,,1716
+44 * 39,1716,medium,qwen2.5:0.5b,FINAL_ANSWER: 1656,0.1550334170460701,False,incorrect,,1656
+9 + 18,27,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 27,0.12701387493871152,True,correct,,27
+9 + 18,27,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 27,0.24920158297754824,True,correct,,27
+14 + 8,22,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 22,0.28212162503041327,True,correct,,22
+14 + 8,22,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 22,0.15375983295962214,True,correct,,22
+1 + 7,8,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 8,0.10884916689246893,True,correct,,8
+1 + 7,8,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 8,0.1956004579551518,True,correct,,8
+(633 * 21) - 95,13198,hard,qwen2.5:1.5b,FINAL_ANSWER: 12608,0.34602175001055,False,incorrect,,12608
+(633 * 21) - 95,13198,hard,qwen2.5:0.5b,FINAL_ANSWER: 13188,0.1753708750475198,False,incorrect,,13188
+6 + 19,25,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 25,0.13119291700422764,True,correct,,25
+6 + 19,25,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 25,0.24345412501133978,True,correct,,25
+1 + 5,6,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 6,0.21115283388644457,True,correct,,6
+1 + 5,6,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 6,0.42729150014929473,True,correct,,6
+(889 * 43) - 14,38213,hard,qwen2.5:0.5b,FINAL_ANSWER: 36817,0.216333958087489,False,incorrect,,36817
+(889 * 43) - 14,38213,hard,qwen2.5:1.5b,FINAL_ANSWER: 3743,0.3497248338535428,False,incorrect,,3743
+(758 * 30) - 56,22684,hard,qwen2.5:1.5b,FINAL_ANSWER: 22924,0.3119317921809852,False,incorrect,,22924
+(758 * 30) - 56,22684,hard,qwen2.5:0.5b,FINAL_ANSWER: 22940,0.17964404192753136,False,incorrect,,22940
+(790 * 12) - 60,9420,hard,qwen2.5:0.5b,FINAL_ANSWER: 9080,0.16152762505225837,False,incorrect,,9080
+(790 * 12) - 60,9420,hard,qwen2.5:1.5b,FINAL_ANSWER: 9480,0.36900595808401704,False,incorrect,,9480
+51 * 85,4335,medium,qwen2.5:1.5b,FINAL_ANSWER: 4385,0.43690529209561646,False,incorrect,,4385
+51 * 85,4335,medium,qwen2.5:0.5b,FINAL_ANSWER: 4285,0.2079224579501897,False,incorrect,,4285
+(887 * 85) - 42,75353,hard,qwen2.5:0.5b,FINAL_ANSWER: 74090,0.1847961670719087,False,incorrect,,74090
+(887 * 85) - 42,75353,hard,qwen2.5:1.5b,FINAL_ANSWER: 75035,0.36643612501211464,False,incorrect,,75035
+(545 * 96) - 82,52238,hard,qwen2.5:1.5b,FINAL_ANSWER: 5168,0.4042971250601113,False,incorrect,,5168
+(545 * 96) - 82,52238,hard,qwen2.5:0.5b,FINAL_ANSWER: 49984,0.19495037500746548,False,incorrect,,49984
+98 * 19,1862,medium,qwen2.5:0.5b,FINAL_ANSWER: 1862,0.15092570893466473,True,correct,,1862
+98 * 19,1862,medium,qwen2.5:1.5b,FINAL_ANSWER: 1862,0.3088206248357892,True,correct,,1862
+16 + 17,33,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 33,0.2925458331592381,True,correct,,33
+16 + 17,33,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 33,0.13975170790217817,True,correct,,33
+21 * 47,987,medium,qwen2.5:0.5b,FINAL_ANSWER: 967,0.13864612486213446,False,incorrect,,967
+21 * 47,987,medium,qwen2.5:1.5b,FINAL_ANSWER: 1037,0.3108389168046415,False,incorrect,,1037
+(197 * 43) - 60,8411,hard,qwen2.5:1.5b,FINAL_ANSWER: 8310,0.34654408297501504,False,incorrect,,8310
+(197 * 43) - 60,8411,hard,qwen2.5:0.5b,FINAL_ANSWER: 8117,0.15292987483553588,False,incorrect,,8117
+(486 * 80) - 72,38808,hard,qwen2.5:0.5b,FINAL_ANSWER: 38880,0.15053404099307954,False,incorrect,,38880
+(486 * 80) - 72,38808,hard,qwen2.5:1.5b,FINAL_ANSWER: 38928,0.2980789171997458,False,incorrect,,38928
+(237 * 53) - 90,12471,hard,qwen2.5:1.5b,FINAL_ANSWER: 11841,0.3349342078436166,False,incorrect,,11841
+(237 * 53) - 90,12471,hard,qwen2.5:0.5b,FINAL_ANSWER: 11225,0.16182970791123807,False,incorrect,,11225
+69 * 35,2415,medium,qwen2.5:0.5b,FINAL_ANSWER: 2365,0.14983033412136137,False,incorrect,,2365
+69 * 35,2415,medium,qwen2.5:1.5b,FINAL_ANSWER: 2415,0.3130556249525398,True,correct,,2415
+18 + 20,38,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 38,0.30404229182749987,True,correct,,38
+18 + 20,38,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 38,0.1538120829500258,True,correct,,38
+3 + 16,19,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 19,0.13278287509456277,True,correct,,19
+3 + 16,19,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 19,0.2907960421871394,True,correct,,19
+36 * 61,2196,medium,qwen2.5:1.5b,FINAL_ANSWER: 2196,0.38799691712483764,True,correct,,2196
+36 * 61,2196,medium,qwen2.5:0.5b,FINAL_ANSWER: 2196,0.19620179082266986,True,correct,,2196
+13 + 4,17,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 17,0.1441078749485314,True,correct,,17
+13 + 4,17,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 17,0.29152554203756154,True,correct,,17
+30 * 19,570,medium,qwen2.5:1.5b,FINAL_ANSWER: 570,0.33864554087631404,True,correct,,570
+30 * 19,570,medium,qwen2.5:0.5b,FINAL_ANSWER: 570,0.14288195897825062,True,correct,,570
+1 + 9,10,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 10,0.113065917044878,True,correct,,10
+1 + 9,10,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 10,0.2073678330052644,True,correct,,10
+(345 * 83) - 76,28559,hard,qwen2.5:1.5b,FINAL_ANSWER: 27918,0.32537900004535913,False,incorrect,,27918
+(345 * 83) - 76,28559,hard,qwen2.5:0.5b,FINAL_ANSWER: 27091,0.19176504109054804,False,incorrect,,27091
+11 + 7,18,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 18,0.13121608295477927,True,correct,,18
+11 + 7,18,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 18,0.26468079118058085,True,correct,,18
+91 * 76,6916,medium,qwen2.5:1.5b,FINAL_ANSWER: 6996,0.34987758309580386,False,incorrect,,6996
+91 * 76,6916,medium,qwen2.5:0.5b,FINAL_ANSWER: 7064,0.1798450001515448,False,incorrect,,7064
+1 + 10,11,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 11,0.11929987510666251,True,correct,,11
+1 + 10,11,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 11,0.20916300010867417,True,correct,,11
+(694 * 25) - 35,17315,hard,qwen2.5:1.5b,FINAL_ANSWER: 16735,0.3422592089045793,False,incorrect,,16735
+(694 * 25) - 35,17315,hard,qwen2.5:0.5b,FINAL_ANSWER: 17450,0.18003399996086955,False,incorrect,,17450
+20 + 5,25,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 25,0.13492608279921114,True,correct,,25
+20 + 5,25,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 25,0.27851045900024474,True,correct,,25
+7 + 5,12,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 12,0.3255656249821186,True,correct,,12
+7 + 5,12,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 12,0.15148391597904265,True,correct,,12
+4 + 10,14,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 14,0.13250591699033976,True,correct,,14
+4 + 10,14,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 14,0.2860551248304546,True,correct,,14
+3 + 14,17,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 17,0.3245648748707026,True,correct,,17
+3 + 14,17,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 17,0.1430965829640627,True,correct,,17
+8 + 6,14,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 14,0.11383133311755955,True,correct,,14
+8 + 6,14,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 14,0.20632500015199184,True,correct,,14
+2 + 3,5,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 5,0.18248566705733538,True,correct,,5
+2 + 3,5,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 5,0.09638087498024106,True,correct,,5
+32 * 82,2624,medium,qwen2.5:0.5b,FINAL_ANSWER: 2624,0.13827712484635413,True,correct,,2624
+32 * 82,2624,medium,qwen2.5:1.5b,FINAL_ANSWER: 2624,0.2851196660194546,True,correct,,2624
+59 * 18,1062,medium,qwen2.5:1.5b,FINAL_ANSWER: 1062,0.31982083292678,True,correct,,1062
+59 * 18,1062,medium,qwen2.5:0.5b,FINAL_ANSWER: 1062,0.16756408382207155,True,correct,,1062
+66 * 40,2640,medium,qwen2.5:0.5b,FINAL_ANSWER: 2640,0.15524112479761243,True,correct,,2640
+66 * 40,2640,medium,qwen2.5:1.5b,FINAL_ANSWER: 2640,0.3359160420950502,True,correct,,2640
+9 + 19,28,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 28,0.3475434579886496,True,correct,,28
+9 + 19,28,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 28,0.17115512490272522,True,correct,,28
+5 + 18,23,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 23,0.1399554170202464,True,correct,,23
+5 + 18,23,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 23,0.30232029198668897,True,correct,,23
+13 + 9,22,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 22,0.3456457918509841,True,correct,,22
+13 + 9,22,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 22,0.1507492500822991,True,correct,,22
+73 * 90,6570,medium,qwen2.5:0.5b,"FINAL_ANSWER: 6,770",0.16319012502208352,False,extraction_failed,,
+73 * 90,6570,medium,qwen2.5:1.5b,FINAL_ANSWER: 6570,0.3078314159065485,True,correct,,6570
+7 + 9,16,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 16,0.2370991250500083,True,correct,,16
+7 + 9,16,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 16,0.11909204185940325,True,correct,,16
+(620 * 10) - 37,6163,hard,qwen2.5:0.5b,FINAL_ANSWER: 6163,0.14393945783376694,True,correct,,6163
+(620 * 10) - 37,6163,hard,qwen2.5:1.5b,FINAL_ANSWER: 6163,0.29414116591215134,True,correct,,6163
+6 + 4,10,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 10,0.20910604111850262,True,correct,,10
+6 + 4,10,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 10,0.1109487081412226,True,correct,,10
+19 + 20,39,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 39,0.12401458411477506,True,correct,,39
+19 + 20,39,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 39,0.257574959192425,True,correct,,39
+1 + 20,21,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 21,0.2921519579831511,True,correct,,21
+1 + 20,21,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 21,0.23282779194414616,True,correct,,21
+(557 * 97) - 94,53935,hard,qwen2.5:0.5b,FINAL_ANSWER: 52059,0.22020299988798797,False,incorrect,,52059
+(557 * 97) - 94,53935,hard,qwen2.5:1.5b,FINAL_ANSWER: 53666,0.36540870810858905,False,incorrect,,53666
+3 + 6,9,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 9,0.24596095900051296,True,correct,,9
+3 + 6,9,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 9,0.11897370801307261,True,correct,,9
+11 + 1,12,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 12,0.1302375418599695,True,correct,,12
+11 + 1,12,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 12,0.2837654158938676,True,correct,,12
+15 + 1,16,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 16,0.33317370899021626,True,correct,,16
+15 + 1,16,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 16,0.15781562495976686,True,correct,,16
+(692 * 25) - 23,17277,hard,qwen2.5:0.5b,FINAL_ANSWER: 14700,0.16330712498165667,False,incorrect,,14700
+(692 * 25) - 23,17277,hard,qwen2.5:1.5b,FINAL_ANSWER: 16732,0.3355227499268949,False,incorrect,,16732
+27 * 50,1350,medium,qwen2.5:1.5b,FINAL_ANSWER: 1350,0.3413386670872569,True,correct,,1350
+27 * 50,1350,medium,qwen2.5:0.5b,FINAL_ANSWER: 1350,0.17796962498687208,True,correct,,1350
+8 + 4,12,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 12,0.11221533315256238,True,correct,,12
+8 + 4,12,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 12,0.19067320902831852,True,correct,,12
+6 + 1,7,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 7,0.17613520799204707,True,correct,,7
+6 + 1,7,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 7,0.09821762493811548,True,correct,,7
+(665 * 59) - 79,39156,hard,qwen2.5:0.5b,FINAL_ANSWER: 37950,0.14608970819972456,False,incorrect,,37950
+(665 * 59) - 79,39156,hard,qwen2.5:1.5b,FINAL_ANSWER: 38466,0.3109984160400927,False,incorrect,,38466
+10 + 6,16,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 16,0.2936151248868555,True,correct,,16
+10 + 6,16,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 16,0.14544170792214572,True,correct,,16
+(833 * 77) - 44,64097,hard,qwen2.5:0.5b,FINAL_ANSWER: 62224,0.1733068749308586,False,incorrect,,62224
+(833 * 77) - 44,64097,hard,qwen2.5:1.5b,FINAL_ANSWER: 63528,0.3522360420320183,False,incorrect,,63528
+95 * 24,2280,medium,qwen2.5:1.5b,FINAL_ANSWER: 2280,0.36303137498907745,True,correct,,2280
+95 * 24,2280,medium,qwen2.5:0.5b,FINAL_ANSWER: 2280,0.177347999997437,True,correct,,2280
+73 * 61,4453,medium,qwen2.5:0.5b,FINAL_ANSWER: 4473,0.1433985000476241,False,incorrect,,4473
+73 * 61,4453,medium,qwen2.5:1.5b,FINAL_ANSWER: 4433,0.24717100011184812,False,incorrect,,4433
+10 + 10,20,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 20,0.20824558287858963,True,correct,,20
+10 + 10,20,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 20,0.11326700006611645,True,correct,,20
+(858 * 13) - 89,11065,hard,qwen2.5:0.5b,FINAL_ANSWER: 11774,0.1544462910387665,False,incorrect,,11774
+(858 * 13) - 89,11065,hard,qwen2.5:1.5b,FINAL_ANSWER: 10859,0.3300280829425901,False,incorrect,,10859
+34 * 69,2346,medium,qwen2.5:1.5b,FINAL_ANSWER: 2346,0.3598715830594301,True,correct,,2346
+34 * 69,2346,medium,qwen2.5:0.5b,FINAL_ANSWER: 2266,0.17764554196037352,False,incorrect,,2266
+(674 * 69) - 38,46468,hard,qwen2.5:0.5b,FINAL_ANSWER: 43062,0.1639676250051707,False,incorrect,,43062
+(674 * 69) - 38,46468,hard,qwen2.5:1.5b,FINAL_ANSWER: 46506,0.34251266601495445,False,incorrect,,46506
+2 + 4,6,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 6,0.22902608406729996,True,correct,,6
+2 + 4,6,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 6,0.11869850009679794,True,correct,,6
+(956 * 98) - 87,93601,hard,qwen2.5:0.5b,FINAL_ANSWER: 97080,0.1612937080208212,False,incorrect,,97080
+(956 * 98) - 87,93601,hard,qwen2.5:1.5b,FINAL_ANSWER: 93868,0.3106240420602262,False,incorrect,,93868
+10 + 13,23,addition_large,qwen2.5:1.5b,FINAL_ANSWER: 23,0.20956358290277421,True,correct,,23
+10 + 13,23,addition_large,qwen2.5:0.5b,FINAL_ANSWER: 23,0.11771179107017815,True,correct,,23
+2 + 9,11,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 11,0.11125641595572233,True,correct,,11
+2 + 9,11,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 11,0.19806816708296537,True,correct,,11
+8 + 10,18,addition_small,qwen2.5:1.5b,FINAL_ANSWER: 18,0.20634733396582305,True,correct,,18
+8 + 10,18,addition_small,qwen2.5:0.5b,FINAL_ANSWER: 18,0.11184366699308157,True,correct,,18

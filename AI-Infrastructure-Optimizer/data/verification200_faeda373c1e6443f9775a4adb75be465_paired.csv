@@ -1,0 +1,3 @@
+baseline,common_answered,lost_answers,new_answers,baseline_correct,improved_correct,baseline_total_seconds,improved_total_seconds,baseline_mean_seconds,improved_mean_seconds,same_coverage_speedup,scope
+fixed,96,99,4,95,95,14.019699959550053,7.354817958781496,0.14603854124531304,0.07661268707064058,1.906192653322008,common answered questions; includes every fallback attempt
+legacy_auto,96,0,4,95,95,13.082694918848574,7.354817958781496,0.13627807207133932,0.07661268707064058,1.77879248571042,common answered questions; includes every fallback attempt

@@ -1,0 +1,1965 @@
+strategy,category,question,source,selected_first_model,model_sequence,model_calls,tool_calls,output_tokens,output_tokens_recorded_calls,input_tokens,input_tokens_recorded_calls,input_tokens_recorded_subtotal,ollama_eval_seconds,elapsed_seconds,cpu_seconds,rss_boundary_max_mib,cost,cost_status
+fixed,arithmetic,92 * 34,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.109243,0.18274095794185996,0.18999999999999806,1724.796875,,unmeasured
+adaptive,arithmetic,92 * 34,none,,[],0,0,0,0,0,0,0,0,0.0005222500767558813,0.0,1724.796875,,unmeasured
+coverage,arithmetic,92 * 34,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,20,2,,0,0,0.218711,0.3721028750296682,0.3800000000000051,1729.671875,,unmeasured
+tool,arithmetic,92 * 34,tool,,[],0,1,0,0,0,0,0,0,0.00012374995276331902,0.0,1729.671875,,unmeasured
+adaptive,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062916,0.13903566705994308,0.1499999999999999,1733.03125,,unmeasured
+coverage,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059251,0.07545725000090897,0.1100000000000001,1733.15625,,unmeasured
+tool,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059979,0.07694983296096325,0.1099999999999981,1734.890625,,unmeasured
+fixed,knowledge,"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058304,0.0744242500513792,0.09999999999999987,1734.984375,,unmeasured
+coverage,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061293,0.13708104193210602,0.13000000000000012,1736.96875,,unmeasured
+tool,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059325,0.07611499982886016,0.1299999999999979,1737.0,,unmeasured
+fixed,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058255,0.0739138750359416,0.09999999999999987,1737.0,,unmeasured
+adaptive,knowledge,"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059028,0.07501137489452958,0.10000000000000009,1736.96875,,unmeasured
+tool,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061693,0.1707841670140624,0.13000000000000522,1740.703125,,unmeasured
+fixed,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059608,0.07615533308126032,0.10999999999999988,1740.703125,,unmeasured
+adaptive,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060346,0.07739654206670821,0.11999999999999833,1740.859375,,unmeasured
+coverage,comprehension,"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058659,0.07550941593945026,0.09999999999999964,1740.859375,,unmeasured
+fixed,arithmetic,(827 * 48) - 51,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,72,1,72,0.109501,0.18363779201172292,0.18999999999999995,1744.0625,,unmeasured
+adaptive,arithmetic,(827 * 48) - 51,none,,[],0,0,0,0,0,0,0,0,0.00046387501060962677,0.0,1744.0625,,unmeasured
+coverage,arithmetic,(827 * 48) - 51,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,20,2,,0,0,0.21812199999999998,0.37380354199558496,0.3799999999999981,1746.21875,,unmeasured
+tool,arithmetic,(827 * 48) - 51,tool,,[],0,1,0,0,0,0,0,0,0.00012158392928540707,0.0,1746.21875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.064798,0.17596458294428885,0.14999999999999813,1751.328125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060206,0.0775014169048518,0.10999999999999988,1751.328125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059103,0.075634750071913,0.10000000000000009,1751.328125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058921,0.075711082899943,0.12000000000000499,1751.328125,,unmeasured
+coverage,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062008,0.17068387498147786,0.13000000000000034,1753.109375,,unmeasured
+tool,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060269,0.07694425014778972,0.13999999999999968,1753.109375,,unmeasured
+fixed,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059019,0.07502716709859669,0.12999999999999812,1753.109375,,unmeasured
+adaptive,comprehension,"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058305,0.07424587500281632,0.09999999999999964,1754.859375,,unmeasured
+tool,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015379,0.12156979204155505,0.05000000000000071,1758.015625,,unmeasured
+fixed,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011809,0.029426000081002712,0.06999999999999762,1758.015625,,unmeasured
+adaptive,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012501,0.029460125137120485,0.04999999999999982,1758.03125,,unmeasured
+coverage,comprehension,"Read the passage: Lena lent a red book to Soren. Soren returned it to Lena on Friday. Who originally owned the book?
+A) Nobody
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012903,0.031134875025600195,0.0600000000000005,1758.03125,,unmeasured
+fixed,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015386,0.12323554116301239,0.07000000000000473,1761.1875,,unmeasured
+adaptive,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012238,0.029317667009308934,0.0600000000000005,1761.1875,,unmeasured
+coverage,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012135,0.029734167037531734,0.05999999999999783,1761.1875,,unmeasured
+tool,knowledge,"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012955,0.030298082856461406,0.05999999999999961,1761.1875,,unmeasured
+adaptive,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01424,0.09158537490293384,0.0600000000000005,1762.15625,,unmeasured
+coverage,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012274,0.02993216598406434,0.05999999999999783,1762.15625,,unmeasured
+tool,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012061,0.02960395789705217,0.06999999999999762,1762.15625,,unmeasured
+fixed,knowledge,"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012084,0.028234584024176,0.04999999999999982,1763.90625,,unmeasured
+coverage,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061817,0.17292262497358024,0.14000000000000057,1764.375,,unmeasured
+tool,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058484,0.07503791688941419,0.12000000000000455,1764.390625,,unmeasured
+fixed,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058852,0.07507533393800259,0.11000000000000032,1764.390625,,unmeasured
+adaptive,comprehension,"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059132,0.07556095789186656,0.11000000000000032,1764.390625,,unmeasured
+tool,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015522,0.12406950001604855,0.06999999999999762,1767.59375,,unmeasured
+fixed,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012014,0.030259791994467378,0.0600000000000005,1767.59375,,unmeasured
+adaptive,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012159,0.029655916849151254,0.06999999999999762,1767.59375,,unmeasured
+coverage,comprehension,"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012184,0.029447375098243356,0.04999999999999982,1767.59375,,unmeasured
+fixed,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014218,0.09061016701161861,0.07000000000000028,1770.5,,unmeasured
+adaptive,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012053,0.02857754100114107,0.07000000000000473,1770.515625,,unmeasured
+coverage,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012063,0.029224042082205415,0.05000000000000071,1770.515625,,unmeasured
+tool,knowledge,"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012118,0.0289571660105139,0.06999999999999762,1770.515625,,unmeasured
+adaptive,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061943,0.17201783298514783,0.13999999999999968,1770.6875,,unmeasured
+coverage,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059343,0.07656654203310609,0.11000000000000032,1770.6875,,unmeasured
+tool,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059738,0.07729370798915625,0.1999999999999984,1770.6875,,unmeasured
+fixed,comprehension,"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058171,0.07563387486152351,0.14999999999999947,1770.671875,,unmeasured
+coverage,arithmetic,18 + 18,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.042804,0.07474325015209615,0.119999999999998,1776.484375,,unmeasured
+tool,arithmetic,18 + 18,tool,,[],0,1,0,0,0,0,0,0,0.00013829185627400875,0.0,1774.53125,,unmeasured
+fixed,arithmetic,18 + 18,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,66,1,66,0.096803,0.17303158319555223,0.1800000000000006,1777.75,,unmeasured
+adaptive,arithmetic,18 + 18,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.04199,0.051618124824017286,0.14,1777.84375,,unmeasured
+tool,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014154,0.1199754998087883,0.03999999999999915,1780.0,,unmeasured
+fixed,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012107,0.02891795802861452,0.060000000000005826,1780.0,,unmeasured
+adaptive,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012055,0.030575457960367203,0.06999999999999762,1780.0,,unmeasured
+coverage,logic,"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011947,0.029874708969146013,0.04999999999999982,1780.0,,unmeasured
+fixed,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015246,0.12463633297011256,0.08000000000000007,1780.109375,,unmeasured
+adaptive,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011945,0.028286375105381012,0.05999999999999783,1780.109375,,unmeasured
+coverage,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011996,0.029245541896671057,0.0600000000000005,1780.109375,,unmeasured
+tool,logic,"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012715,0.030257416889071465,0.05999999999999783,1780.109375,,unmeasured
+adaptive,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060657,0.16963804210536182,0.13999999999999968,1783.234375,,unmeasured
+coverage,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058692,0.07566945906728506,0.1200000000000001,1783.234375,,unmeasured
+tool,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058069,0.07439733296632767,0.11000000000000565,1783.234375,,unmeasured
+fixed,logic,"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058335,0.07425729185342789,0.09999999999999964,1783.234375,,unmeasured
+coverage,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014924,0.15155204199254513,0.05999999999999783,1786.46875,,unmeasured
+tool,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011983,0.029185791965574026,0.0600000000000005,1786.46875,,unmeasured
+fixed,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012006,0.02947408310137689,0.05999999999999961,1786.46875,,unmeasured
+adaptive,logic,"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012317,0.030714709078893065,0.05999999999999783,1786.46875,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062288,0.17208920791745186,0.15000000000000036,1789.984375,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059014,0.07614295813255012,0.13000000000000522,1789.984375,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058681,0.07537812483496964,0.09999999999999964,1789.984375,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058859,0.07485537510365248,0.11000000000000032,1789.984375,,unmeasured
+fixed,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01424,0.1237045000307262,0.06999999999999851,1793.578125,,unmeasured
+adaptive,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011782,0.028396834153681993,0.05999999999999872,1793.578125,,unmeasured
+coverage,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012221,0.029123040847480297,0.05000000000000071,1793.578125,,unmeasured
+tool,logic,"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011748,0.029430042020976543,0.06999999999999851,1793.578125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014954,0.1232995840255171,0.05999999999999872,1796.109375,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012401,0.029598958091810346,0.0600000000000005,1796.109375,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012111,0.030136709101498127,0.05999999999999872,1796.109375,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012058,0.029300583992153406,0.05999999999999872,1796.109375,,unmeasured
+coverage,arithmetic,(299 * 19) - 82,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,20,2,,0,0,0.217062,0.39838324999436736,0.4000000000000057,1796.1875,,unmeasured
+tool,arithmetic,(299 * 19) - 82,tool,,[],0,1,0,0,0,0,0,0,0.0001646659802645445,0.0,1796.1875,,unmeasured
+fixed,arithmetic,(299 * 19) - 82,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,9,1,72,1,72,0.09772,0.17283583316020668,0.24999999999999822,1796.203125,,unmeasured
+adaptive,arithmetic,(299 * 19) - 82,none,,[],0,0,0,0,0,0,0,0,0.0004724168684333563,0.0,1796.203125,,unmeasured
+tool,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062375,0.17136812512762845,0.15000000000000036,1798.40625,,unmeasured
+fixed,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058985,0.0761628751643002,0.11999999999999922,1798.40625,,unmeasured
+adaptive,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058931,0.07502695801667869,0.10999999999999766,1798.40625,,unmeasured
+coverage,comprehension,"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058738,0.07449358305893838,0.10000000000000142,1798.40625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014624,0.12193337501958013,0.049999999999998934,1801.78125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01196,0.030013666953891516,0.07000000000000561,1801.78125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012366,0.030069625005126,0.05000000000000071,1801.78125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012244,0.029904334107413888,0.06999999999999673,1801.796875,,unmeasured
+adaptive,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014751,0.1246409157756716,0.0600000000000005,1801.796875,,unmeasured
+coverage,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012522,0.029677417129278183,0.06999999999999851,1801.8125,,unmeasured
+tool,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01197,0.029903833055868745,0.049999999999998934,1801.8125,,unmeasured
+fixed,comprehension,"Read the passage: Iris lent a red book to Juno. Juno returned it to Iris on Friday. Who originally owned the book?
+A) Nobody
+B) Juno
+C) Kian
+D) Iris",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012172,0.02973545785062015,0.0600000000000005,1801.8125,,unmeasured
+coverage,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.06074,0.17064841696992517,0.14999999999999858,1804.828125,,unmeasured
+tool,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058491,0.07499837502837181,0.10999999999999943,1804.828125,,unmeasured
+fixed,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057893,0.07447637501172721,0.16000000000000547,1804.828125,,unmeasured
+adaptive,logic,"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058805,0.07463129214011133,0.129999999999999,1804.828125,,unmeasured
+tool,arithmetic,(489 * 41) - 30,tool,,[],0,1,0,0,0,0,0,0,0.00014054193161427975,0.0,1804.828125,,unmeasured
+fixed,arithmetic,(489 * 41) - 30,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,72,1,72,0.108902,0.18356375000439584,0.21999999999999886,1806.953125,,unmeasured
+adaptive,arithmetic,(489 * 41) - 30,none,,[],0,0,0,0,0,0,0,0,0.00046470784582197666,0.0,1806.953125,,unmeasured
+coverage,arithmetic,(489 * 41) - 30,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,21,2,,0,0,0.226852,0.38138166605494916,0.41999999999999993,1806.953125,,unmeasured
+fixed,arithmetic,77 * 87,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.107724,0.18096504197455943,0.2099999999999973,1810.078125,,unmeasured
+adaptive,arithmetic,77 * 87,none,,[],0,0,0,0,0,0,0,0,0.0003932500258088112,0.0,1810.078125,,unmeasured
+coverage,arithmetic,77 * 87,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,20,2,,0,0,0.216246,0.37308866693638265,0.42000000000000526,1812.34375,,unmeasured
+tool,arithmetic,77 * 87,tool,,[],0,1,0,0,0,0,0,0,0.00010016700252890587,0.0,1812.34375,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061909,0.17261866689659655,0.15000000000000036,1815.453125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058801,0.07590229087509215,0.10999999999999943,1815.453125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059347,0.0747926658950746,0.129999999999999,1815.453125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05809,0.07465483387932181,0.09999999999999964,1815.5625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061117,0.16641691699624062,0.120000000000001,1816.078125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058904,0.07545195799320936,0.12999999999999723,1816.078125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058691,0.0748614170588553,0.10999999999999943,1816.078125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058487,0.07414045790210366,0.11000000000000121,1816.078125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060915,0.1669855418149382,0.1499999999999968,1819.015625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058626,0.07496666698716581,0.120000000000001,1819.015625,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057594,0.07432804186828434,0.10999999999999943,1819.015625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058382,0.07305454183369875,0.1300000000000061,1819.015625,,unmeasured
+fixed,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.065119,0.17264449992217124,0.1399999999999988,1822.109375,,unmeasured
+adaptive,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059498,0.07599462498910725,0.120000000000001,1822.109375,,unmeasured
+coverage,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058046,0.07491154107265174,0.12999999999999723,1822.109375,,unmeasured
+tool,comprehension,"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057615,0.07282874989323318,0.10999999999999943,1822.109375,,unmeasured
+adaptive,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061551,0.16899866703897715,0.120000000000001,1822.109375,,unmeasured
+coverage,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05794,0.07455016719177365,0.12999999999999723,1822.109375,,unmeasured
+tool,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058639,0.07417229190468788,0.12000000000000122,1822.109375,,unmeasured
+fixed,comprehension,"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058327,0.07413216680288315,0.10999999999999943,1822.109375,,unmeasured
+coverage,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014356,0.12145783309824765,0.05000000000000071,1825.15625,,unmeasured
+tool,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011762,0.029287875164300203,0.059999999999996945,1825.15625,,unmeasured
+fixed,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012122,0.029648666037246585,0.0600000000000005,1825.15625,,unmeasured
+adaptive,logic,"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011887,0.029873250052332878,0.060000000000005826,1825.15625,,unmeasured
+tool,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.013734,0.12151591596193612,0.06999999999999851,1825.203125,,unmeasured
+fixed,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01178,0.028191874967887998,0.05000000000000071,1825.203125,,unmeasured
+adaptive,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012293,0.028428958961740136,0.06999999999999851,1825.203125,,unmeasured
+coverage,knowledge,"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011974,0.028663957957178354,0.03999999999999915,1825.203125,,unmeasured
+fixed,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01355,0.1212641668971628,0.0799999999999983,1825.25,,unmeasured
+adaptive,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011805,0.028172332793474197,0.05000000000000071,1825.25,,unmeasured
+coverage,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012393,0.029874082887545228,0.07000000000000384,1825.25,,unmeasured
+tool,knowledge,"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012287,0.030566333094611764,0.05000000000000071,1825.25,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062626,0.17050904198549688,0.15000000000000036,1825.265625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060432,0.07705412502400577,0.13999999999999702,1825.25,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058266,0.07510616700164974,0.120000000000001,1825.25,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058595,0.07430825009942055,0.11999999999999922,1825.265625,,unmeasured
+coverage,arithmetic,3 + 10,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.043306,0.07095145899802446,0.129999999999998,1826.125,,unmeasured
+tool,arithmetic,3 + 10,tool,,[],0,1,0,0,0,0,0,0,0.0001112909521907568,0.0,1826.125,,unmeasured
+fixed,arithmetic,3 + 10,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,65,1,65,0.084448,0.15942466584965587,0.16999999999999993,1826.125,,unmeasured
+adaptive,arithmetic,3 + 10,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.043189,0.053840958047658205,0.11999999999999977,1827.9375,,unmeasured
+tool,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014097,0.08838987513445318,0.049999999999998934,1828.078125,,unmeasured
+fixed,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012612,0.030964958015829325,0.0600000000000005,1828.078125,,unmeasured
+adaptive,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011835,0.029394250130280852,0.05999999999999872,1828.078125,,unmeasured
+coverage,knowledge,"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012426,0.028739959001541138,0.060000000000005826,1828.078125,,unmeasured
+fixed,arithmetic,(500 * 21) - 70,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,72,1,72,0.107385,0.1838344580028206,0.21999999999999886,1830.03125,,unmeasured
+adaptive,arithmetic,(500 * 21) - 70,none,,[],0,0,0,0,0,0,0,0,0.0003784170839935541,0.0,1830.03125,,unmeasured
+coverage,arithmetic,(500 * 21) - 70,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,18,2,,0,0,0.206119,0.36368487519212067,0.4099999999999986,1832.25,,unmeasured
+tool,arithmetic,(500 * 21) - 70,tool,,[],0,1,0,0,0,0,0,0,0.0001442090142518282,0.0,1832.25,,unmeasured
+adaptive,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.013869,0.12214316613972187,0.05999999999999872,1835.53125,,unmeasured
+coverage,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012366,0.02955400012433529,0.07000000000000028,1835.53125,,unmeasured
+tool,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012331,0.031210958026349545,0.05999999999999872,1835.53125,,unmeasured
+fixed,knowledge,"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011994,0.029483499936759472,0.060000000000005826,1835.53125,,unmeasured
+coverage,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014656,0.12355966586619616,0.05999999999999872,1835.578125,,unmeasured
+tool,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012975,0.029718125006183982,0.05999999999999872,1835.578125,,unmeasured
+fixed,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012184,0.02874879096634686,0.05999999999999872,1835.578125,,unmeasured
+adaptive,knowledge,"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012495,0.030138750094920397,0.05000000000000071,1835.59375,,unmeasured
+tool,arithmetic,11 + 13,tool,,[],0,1,0,0,0,0,0,0,0.00010583293624222279,0.0,1835.59375,,unmeasured
+fixed,arithmetic,11 + 13,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,66,1,66,0.104244,0.18232258292846382,0.16999999999999815,1838.234375,,unmeasured
+adaptive,arithmetic,11 + 13,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.043992,0.0752731659449637,0.1299999999999999,1841.140625,,unmeasured
+coverage,arithmetic,11 + 13,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.041925,0.05247187498025596,0.13999999999999968,1841.140625,,unmeasured
+fixed,arithmetic,(857 * 57) - 63,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,9,1,72,1,72,0.093914,0.16828920785337687,0.17999999999999972,1844.90625,,unmeasured
+adaptive,arithmetic,(857 * 57) - 63,none,,[],0,0,0,0,0,0,0,0,0.00043249991722404957,0.0,1844.90625,,unmeasured
+coverage,arithmetic,(857 * 57) - 63,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,21,2,,0,0,0.225962,0.38495675008744,0.480000000000004,1845.0,,unmeasured
+tool,arithmetic,(857 * 57) - 63,tool,,[],0,1,0,0,0,0,0,0,0.00010699988342821598,0.0,1845.0,,unmeasured
+adaptive,arithmetic,45 * 56,none,,[],0,0,0,0,0,0,0,0,0.00037141679786145687,0.0,1845.0,,unmeasured
+coverage,arithmetic,45 * 56,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,,0,0,0.109334,0.18587341695092618,0.23000000000000043,1848.203125,,unmeasured
+tool,arithmetic,45 * 56,tool,,[],0,1,0,0,0,0,0,0,0.00012029078789055347,0.0,1848.203125,,unmeasured
+fixed,arithmetic,45 * 56,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.107904,0.18398120813071728,0.22999999999999687,1848.203125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014475,0.12262416607700288,0.05000000000000071,1848.265625,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012172,0.02841379097662866,0.05000000000000071,1848.265625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012213,0.029094333993270993,0.06999999999999673,1848.28125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011941,0.029227667022496462,0.0400000000000027,1848.28125,,unmeasured
+tool,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061402,0.17026000004261732,0.1600000000000037,1848.28125,,unmeasured
+fixed,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059156,0.0756755000911653,0.129999999999999,1850.03125,,unmeasured
+adaptive,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058009,0.07416341686621308,0.10999999999999943,1850.03125,,unmeasured
+coverage,logic,"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058324,0.07392229186370969,0.129999999999999,1850.03125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061421,0.13624170888215303,0.129999999999999,1851.046875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058978,0.07502970797941089,0.120000000000001,1851.046875,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059158,0.07592549989931285,0.13999999999999702,1851.046875,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058871,0.07432708400301635,0.120000000000001,1851.046875,,unmeasured
+adaptive,arithmetic,4 + 16,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.042423,0.07157199992798269,0.11999999999999988,1851.0625,,unmeasured
+coverage,arithmetic,4 + 16,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.041949,0.05220499983988702,0.1099999999999981,1851.109375,,unmeasured
+tool,arithmetic,4 + 16,tool,,[],0,1,0,0,0,0,0,0,0.00010520895011723042,0.0,1851.109375,,unmeasured
+fixed,arithmetic,4 + 16,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,65,1,65,0.084355,0.15837741713039577,0.1700000000000017,1853.90625,,unmeasured
+coverage,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015847,0.1253690419252962,0.04999999999999716,1853.90625,,unmeasured
+tool,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012555,0.030416666064411402,0.07000000000000739,1853.921875,,unmeasured
+fixed,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012227,0.029569707810878754,0.05000000000000071,1853.921875,,unmeasured
+adaptive,logic,"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012491,0.029425624990835786,0.05999999999999872,1853.921875,,unmeasured
+tool,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014348,0.12393433414399624,0.0799999999999983,1857.140625,,unmeasured
+fixed,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012296,0.029443457955494523,0.05999999999999872,1857.140625,,unmeasured
+adaptive,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011999,0.02936329203657806,0.05999999999999872,1857.140625,,unmeasured
+coverage,knowledge,"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012344,0.03056641691364348,0.05999999999999872,1857.140625,,unmeasured
+fixed,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.013423,0.12344833393581212,0.07000000000000028,1857.140625,,unmeasured
+adaptive,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012277,0.031069000018760562,0.060000000000005826,1857.140625,,unmeasured
+coverage,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012329,0.029784792102873325,0.05999999999999872,1857.140625,,unmeasured
+tool,comprehension,"Read the passage: Nora lent a red book to Vik. Vik returned it to Nora on Friday. Who originally owned the book?
+A) Nobody
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011956,0.02981225005351007,0.05999999999999872,1857.140625,,unmeasured
+adaptive,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060207,0.1698960829526186,0.14999999999999858,1860.015625,,unmeasured
+coverage,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058716,0.07565579190850258,0.14999999999999858,1860.015625,,unmeasured
+tool,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058846,0.07468750001862645,0.120000000000001,1860.015625,,unmeasured
+fixed,comprehension,"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058281,0.07346845883876085,0.11999999999999744,1860.015625,,unmeasured
+coverage,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062108,0.17103895801119506,0.14000000000000057,1861.140625,,unmeasured
+tool,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05863,0.07582391705363989,0.1300000000000061,1861.140625,,unmeasured
+fixed,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058489,0.07530720788054168,0.120000000000001,1861.140625,,unmeasured
+adaptive,comprehension,"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058423,0.07413933309726417,0.11999999999999744,1861.140625,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014803,0.12288083392195404,0.05999999999999872,1864.46875,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012946,0.03172208298929036,0.060000000000002274,1864.46875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012015,0.03037595795467496,0.06999999999999673,1864.46875,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012016,0.02858050004579127,0.05000000000000071,1864.46875,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062028,0.17135258414782584,0.14999999999999858,1864.46875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058685,0.07460391684435308,0.13999999999999702,1864.46875,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058207,0.07462287484668195,0.120000000000001,1864.46875,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059692,0.07507345802150667,0.120000000000001,1864.46875,,unmeasured
+adaptive,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015067,0.12230241717770696,0.060000000000005826,1867.671875,,unmeasured
+coverage,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012706,0.030550875002518296,0.04999999999999716,1867.671875,,unmeasured
+tool,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011862,0.029587167082354426,0.060000000000002274,1867.671875,,unmeasured
+fixed,knowledge,"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012021,0.028760500019416213,0.05999999999999872,1867.671875,,unmeasured
+coverage,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014843,0.12667208397760987,0.0799999999999983,1867.671875,,unmeasured
+tool,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012213,0.030209749937057495,0.04999999999999716,1869.421875,,unmeasured
+fixed,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011779,0.029477667063474655,0.060000000000002274,1869.421875,,unmeasured
+adaptive,logic,"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012244,0.029758375138044357,0.07000000000000384,1869.421875,,unmeasured
+tool,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062905,0.17523137503303587,0.14999999999999858,1869.4375,,unmeasured
+fixed,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05788,0.07418833416886628,0.13000000000000256,1869.4375,,unmeasured
+adaptive,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058071,0.07485179207287729,0.11999999999999744,1869.4375,,unmeasured
+coverage,comprehension,"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058941,0.07467279094271362,0.120000000000001,1869.453125,,unmeasured
+fixed,arithmetic,25 * 66,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.107088,0.18202254199422896,0.23999999999999844,1869.453125,,unmeasured
+adaptive,arithmetic,25 * 66,none,,[],0,0,0,0,0,0,0,0,0.0004063751548528671,0.0,1869.453125,,unmeasured
+coverage,arithmetic,25 * 66,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,,0,0,0.111999,0.16278570797294378,0.2699999999999996,1871.203125,,unmeasured
+tool,arithmetic,25 * 66,tool,,[],0,1,0,0,0,0,0,0,0.00011929101310670376,0.0,1871.203125,,unmeasured
+adaptive,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061578,0.17024537501856685,0.13999999999999702,1873.15625,,unmeasured
+coverage,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059264,0.0756195830181241,0.14000000000000057,1873.15625,,unmeasured
+tool,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058116,0.07463020784780383,0.11999999999999744,1873.171875,,unmeasured
+fixed,comprehension,"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057874,0.07356058293953538,0.120000000000001,1873.1875,,unmeasured
+coverage,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.013848,0.12311933399178088,0.07000000000000739,1876.46875,,unmeasured
+tool,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012165,0.029444916872307658,0.05999999999999872,1876.46875,,unmeasured
+fixed,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011947,0.030563624808564782,0.05999999999999872,1876.46875,,unmeasured
+adaptive,logic,"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011973,0.028939917217940092,0.05000000000000071,1876.46875,,unmeasured
+tool,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060941,0.17075358307920396,0.1599999999999966,1876.46875,,unmeasured
+fixed,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059103,0.07562766713090241,0.129999999999999,1876.46875,,unmeasured
+adaptive,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058406,0.07449274999089539,0.120000000000001,1876.46875,,unmeasured
+coverage,comprehension,"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057867,0.07388820894993842,0.14000000000000412,1876.46875,,unmeasured
+fixed,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015413,0.12678266712464392,0.05000000000000071,1876.6875,,unmeasured
+adaptive,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012057,0.030028583016246557,0.05999999999999872,1876.6875,,unmeasured
+coverage,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012465,0.03090050001628697,0.05000000000000071,1876.6875,,unmeasured
+tool,logic,"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012111,0.030064542079344392,0.07000000000000028,1876.6875,,unmeasured
+adaptive,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014817,0.12534004217013717,0.05999999999999872,1876.6875,,unmeasured
+coverage,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012045,0.030449124984443188,0.05999999999999872,1876.703125,,unmeasured
+tool,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01205,0.029631499899551272,0.05999999999999872,1876.703125,,unmeasured
+fixed,logic,"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012278,0.029135582968592644,0.05999999999999872,1876.703125,,unmeasured
+coverage,arithmetic,(443 * 29) - 18,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,22,2,,0,0,0.241346,0.431209750007838,0.5399999999999991,1876.703125,,unmeasured
+tool,arithmetic,(443 * 29) - 18,tool,,[],0,1,0,0,0,0,0,0,0.00012183305807411671,0.0,1876.703125,,unmeasured
+fixed,arithmetic,(443 * 29) - 18,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,9,1,72,1,72,0.094733,0.16801445791497827,0.23000000000000398,1879.9375,,unmeasured
+adaptive,arithmetic,(443 * 29) - 18,none,,[],0,0,0,0,0,0,0,0,0.00042812502942979336,0.0,1879.9375,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014147,0.08988154190592468,0.06000000000000072,1882.140625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011889,0.03001212514936924,0.05999999999999872,1882.140625,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012271,0.029473959002643824,0.05999999999999872,1882.140625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012092,0.02888608304783702,0.060000000000002274,1882.140625,,unmeasured
+fixed,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.06141,0.17184633389115334,0.14999999999999858,1882.140625,,unmeasured
+adaptive,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058764,0.07546325004659593,0.13999999999999702,1882.140625,,unmeasured
+coverage,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058403,0.07526083313859999,0.129999999999999,1882.140625,,unmeasured
+tool,comprehension,"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058317,0.07459870888851583,0.129999999999999,1882.140625,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014328,0.09134337515570223,0.060000000000002274,1885.09375,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012804,0.029908707831054926,0.060000000000005826,1885.09375,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012048,0.029174708062782884,0.04999999999999716,1885.09375,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01206,0.029879292007535696,0.07000000000000028,1885.09375,,unmeasured
+coverage,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015468,0.09354637516662478,0.05999999999999872,1885.09375,,unmeasured
+tool,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012033,0.029345166869461536,0.06999999999999673,1885.09375,,unmeasured
+fixed,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012041,0.029866457916796207,0.060000000000002274,1885.09375,,unmeasured
+adaptive,knowledge,"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011911,0.02840633294545114,0.060000000000005826,1885.09375,,unmeasured
+tool,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.065744,0.17631029221229255,0.14999999999999858,1887.453125,,unmeasured
+fixed,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058881,0.07731583388522267,0.14000000000000057,1887.453125,,unmeasured
+adaptive,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058595,0.0746653750538826,0.129999999999999,1887.453125,,unmeasured
+coverage,logic,"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058243,0.07448183302767575,0.129999999999999,1887.453125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062468,0.20511062489822507,0.14999999999999858,1887.75,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058861,0.07490816712379456,0.11999999999999744,1887.75,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059761,0.0761124580167234,0.13000000000000256,1887.75,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058336,0.07420775014907122,0.129999999999999,1887.75,,unmeasured
+adaptive,arithmetic,20 + 20,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.041809,0.070300874998793,0.10999999999999788,1887.828125,,unmeasured
+coverage,arithmetic,20 + 20,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.043184,0.05324820918031037,0.1200000000000001,1889.578125,,unmeasured
+tool,arithmetic,20 + 20,tool,,[],0,1,0,0,0,0,0,0,0.00011045904830098152,0.0,1889.578125,,unmeasured
+fixed,arithmetic,20 + 20,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,66,1,66,0.085025,0.1596047079656273,0.17999999999999972,1893.65625,,unmeasured
+coverage,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014008,0.12245137500576675,0.07000000000000584,1893.703125,,unmeasured
+tool,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012093,0.02960983314551413,0.05999999999999872,1893.71875,,unmeasured
+fixed,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012073,0.02915116585791111,0.05999999999999872,1893.734375,,unmeasured
+adaptive,knowledge,"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011918,0.030358416959643364,0.05999999999999872,1893.8125,,unmeasured
+tool,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015009,0.1263506249524653,0.07000000000000028,1893.8125,,unmeasured
+fixed,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012183,0.030169500038027763,0.05999999999999872,1893.8125,,unmeasured
+adaptive,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012111,0.02945608296431601,0.05000000000000071,1893.8125,,unmeasured
+coverage,comprehension,"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011881,0.028073500143364072,0.07000000000000384,1893.8125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015166,0.12705391715280712,0.07000000000000028,1896.96875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011904,0.028600458055734634,0.05999999999999872,1896.96875,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012327,0.02906233398243785,0.05999999999999872,1896.96875,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012254,0.030199124943464994,0.05999999999999872,1896.96875,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014705,0.12582658394239843,0.05999999999999872,1900.390625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011793,0.02978074993006885,0.060000000000002274,1900.390625,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011949,0.028849999886006117,0.05999999999999872,1900.390625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01224,0.029167083092033863,0.05999999999999872,1900.390625,,unmeasured
+coverage,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014316,0.125785208074376,0.09000000000000341,1903.84375,,unmeasured
+tool,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012124,0.029669542098417878,0.05000000000000071,1903.84375,,unmeasured
+fixed,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012002,0.029753959039226174,0.05999999999999872,1903.84375,,unmeasured
+adaptive,logic,"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011749,0.028568125097081065,0.05999999999999872,1903.84375,,unmeasured
+tool,arithmetic,96 * 48,tool,,[],0,1,0,0,0,0,0,0,0.00012625008821487427,0.0,1903.84375,,unmeasured
+fixed,arithmetic,96 * 48,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.108297,0.1872279169037938,0.25,1903.84375,,unmeasured
+adaptive,arithmetic,96 * 48,none,,[],0,0,0,0,0,0,0,0,0.00038820900954306126,0.0,1903.84375,,unmeasured
+coverage,arithmetic,96 * 48,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,,0,0,0.110831,0.16158020799048245,0.2699999999999996,1903.859375,,unmeasured
+fixed,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060653,0.16946504195220768,0.14000000000000412,1905.8125,,unmeasured
+adaptive,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.057768,0.07444445881992579,0.120000000000001,1905.8125,,unmeasured
+coverage,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058705,0.07466670800931752,0.129999999999999,1905.8125,,unmeasured
+tool,logic,"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058288,0.07406641589477658,0.14000000000000057,1905.8125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014402,0.12369145918637514,0.04999999999999716,1905.890625,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012649,0.03086329181678593,0.060000000000002274,1905.890625,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012035,0.02994675002992153,0.05999999999999872,1904.328125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011765,0.028613541973754764,0.05999999999999872,1904.328125,,unmeasured
+coverage,arithmetic,39 * 67,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,20,2,,0,0,0.217997,0.4070605840533972,0.519999999999996,1904.328125,,unmeasured
+tool,arithmetic,39 * 67,tool,,[],0,1,0,0,0,0,0,0,0.00013766600750386715,0.0,1904.328125,,unmeasured
+fixed,arithmetic,39 * 67,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.11014,0.18506700010038912,0.2600000000000051,1904.328125,,unmeasured
+adaptive,arithmetic,39 * 67,none,,[],0,0,0,0,0,0,0,0,0.0010339159052819014,0.0,1904.328125,,unmeasured
+tool,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014239,0.12331950012594461,0.07000000000000028,1904.9375,,unmeasured
+fixed,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011835,0.028439666843041778,0.05000000000000071,1904.9375,,unmeasured
+adaptive,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012095,0.029621583176776767,0.07000000000000028,1904.9375,,unmeasured
+coverage,knowledge,"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012122,0.02956204186193645,0.05999999999999517,1904.9375,,unmeasured
+fixed,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014946,0.09335149987600744,0.07000000000000028,1904.984375,,unmeasured
+adaptive,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012233,0.03055291692726314,0.05999999999999872,1904.984375,,unmeasured
+coverage,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01158,0.02805866696871817,0.05999999999999872,1904.984375,,unmeasured
+tool,knowledge,"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012172,0.02961833286099136,0.05000000000000071,1905.0,,unmeasured
+adaptive,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015193,0.1268742501270026,0.07000000000000384,1905.03125,,unmeasured
+coverage,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011846,0.028616083087399602,0.060000000000002274,1905.03125,,unmeasured
+tool,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011927,0.028683542041108012,0.05999999999999517,1905.03125,,unmeasured
+fixed,knowledge,"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012413,0.029372625052928925,0.060000000000002274,1905.03125,,unmeasured
+coverage,arithmetic,6 + 15,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.045102,0.07742283307015896,0.11999999999999789,1905.96875,,unmeasured
+tool,arithmetic,6 + 15,tool,,[],0,1,0,0,0,0,0,0,0.00010970816947519779,0.0,1905.96875,,unmeasured
+fixed,arithmetic,6 + 15,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,8,1,65,1,65,0.084921,0.1657019581180066,0.18999999999999773,1908.6875,,unmeasured
+adaptive,arithmetic,6 + 15,model,qwen2.5:0.5b,"[""qwen2.5:0.5b""]",1,0,8,1,,0,0,0.042384,0.05311112501658499,0.13000000000000522,1910.453125,,unmeasured
+tool,arithmetic,25 * 62,tool,,[],0,1,0,0,0,0,0,0,0.00011620903387665749,0.0,1910.453125,,unmeasured
+fixed,arithmetic,25 * 62,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,66,1,66,0.108706,0.18213870795443654,0.23000000000000398,1910.453125,,unmeasured
+adaptive,arithmetic,25 * 62,none,,[],0,0,0,0,0,0,0,0,0.0003953329287469387,0.0,1910.453125,,unmeasured
+coverage,arithmetic,25 * 62,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,10,1,,0,0,0.109205,0.15752399992197752,0.22999999999999687,1910.453125,,unmeasured
+fixed,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062281,0.172742374939844,0.14999999999999858,1910.453125,,unmeasured
+adaptive,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059007,0.07605316606350243,0.13000000000000256,1910.453125,,unmeasured
+coverage,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058462,0.075323540950194,0.13999999999999346,1910.453125,,unmeasured
+tool,logic,"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05872,0.07482191710732877,0.12000000000000455,1910.453125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.062902,0.17325166705995798,0.14000000000000057,1913.703125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059346,0.07521937508136034,0.15999999999999837,1913.5625,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060559,0.07722108298912644,0.12999999999999545,1913.5625,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058635,0.074486083118245,0.12000000000000455,1913.5625,,unmeasured
+coverage,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.06175,0.17280175001360476,0.14000000000000057,1913.5625,,unmeasured
+tool,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059495,0.07665466703474522,0.13000000000000256,1913.5625,,unmeasured
+fixed,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059941,0.07618258311413229,0.13000000000000256,1915.3125,,unmeasured
+adaptive,comprehension,"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.05834,0.07410116703249514,0.12999999999999545,1915.3125,,unmeasured
+tool,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01346,0.08923058304935694,0.060000000000002274,1915.328125,,unmeasured
+fixed,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012368,0.028970541898161173,0.04999999999999716,1915.328125,,unmeasured
+adaptive,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01214,0.029049082892015576,0.07000000000000028,1915.328125,,unmeasured
+coverage,knowledge,"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012245,0.029449000023305416,0.04999999999999716,1915.328125,,unmeasured
+fixed,arithmetic,(314 * 58) - 20,model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,11,1,72,1,72,0.122769,0.20075012487359345,0.2700000000000031,1915.328125,,unmeasured
+adaptive,arithmetic,(314 * 58) - 20,none,,[],0,0,0,0,0,0,0,0,0.000379917211830616,0.0,1915.328125,,unmeasured
+coverage,arithmetic,(314 * 58) - 20,model,qwen2.5:1.5b,"[""qwen2.5:1.5b"", ""qwen2.5:1.5b""]",2,0,22,2,,0,0,0.24004,0.40066270902752876,0.5499999999999972,1917.578125,,unmeasured
+tool,arithmetic,(314 * 58) - 20,tool,,[],0,1,0,0,0,0,0,0,0.0001398748718202114,0.0,1917.578125,,unmeasured
+adaptive,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015068,0.12925449991598725,0.060000000000002274,1917.578125,,unmeasured
+coverage,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012143,0.028327584033831954,0.05000000000000426,1917.578125,,unmeasured
+tool,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012147,0.028647958068177104,0.05999999999999517,1917.578125,,unmeasured
+fixed,coding,"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012131,0.029626250034198165,0.060000000000002274,1917.578125,,unmeasured
+coverage,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061334,0.14143912494182587,0.14999999999999858,1920.734375,,unmeasured
+tool,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.058599,0.07528808293864131,0.11999999999999744,1920.734375,,unmeasured
+fixed,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059004,0.07507829112000763,0.13000000000000256,1920.734375,,unmeasured
+adaptive,knowledge,"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059012,0.0745580829679966,0.12999999999999545,1920.734375,,unmeasured
+tool,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.014283,0.1565076250117272,0.07000000000000739,1920.984375,,unmeasured
+fixed,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012758,0.030979541828855872,0.05999999999999517,1920.984375,,unmeasured
+adaptive,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011926,0.029854124877601862,0.060000000000002274,1920.984375,,unmeasured
+coverage,logic,"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012429,0.03022979199886322,0.04999999999999716,1920.984375,,unmeasured
+fixed,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015061,0.12796299997717142,0.0799999999999983,1920.984375,,unmeasured
+adaptive,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012129,0.030656584072858095,0.07000000000000739,1920.984375,,unmeasured
+coverage,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012397,0.030383167089894414,0.04999999999999716,1920.53125,,unmeasured
+tool,comprehension,"Read the passage: Mira lent a red book to Oren. Oren returned it to Mira on Friday. Who originally owned the book?
+A) Oren
+B) Pavel
+C) Mira
+D) Nobody",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012211,0.03151274984702468,0.07000000000000028,1920.53125,,unmeasured
+adaptive,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.063647,0.14226599992252886,0.14000000000000057,1920.5625,,unmeasured
+coverage,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.060183,0.07653470803052187,0.14000000000000057,1920.5625,,unmeasured
+tool,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059248,0.07644491689279675,0.12999999999999545,1920.5625,,unmeasured
+fixed,knowledge,"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059445,0.07496916712261736,0.12000000000000455,1920.5625,,unmeasured
+coverage,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.063029,0.1741788750514388,0.12999999999999545,1920.5625,,unmeasured
+tool,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.061225,0.07850991701707244,0.14999999999999858,1920.5625,,unmeasured
+fixed,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059081,0.0759193329140544,0.12000000000000455,1920.5625,,unmeasured
+adaptive,logic,"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,6,1,,0,0,0.059683,0.07562020886689425,0.14000000000000057,1920.5625,,unmeasured
+tool,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.015207,0.1303445000667125,0.060000000000002274,1920.5625,,unmeasured
+fixed,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.012527,0.030152917141094804,0.04999999999999716,1920.5625,,unmeasured
+adaptive,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.01243,0.03062495798803866,0.07000000000000028,1920.5625,,unmeasured
+coverage,logic,"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",model,qwen2.5:1.5b,"[""qwen2.5:1.5b""]",1,0,2,1,,0,0,0.011982,0.029701624996960163,0.04999999999999716,1920.5625,,unmeasured

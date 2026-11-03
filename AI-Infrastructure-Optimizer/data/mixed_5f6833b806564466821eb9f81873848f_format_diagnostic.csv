@@ -1,0 +1,6 @@
+category,requests,strict_correct,bare_letter_responses,bare_letter_correct,content_correct_secondary_only
+knowledge,20,4,16,16,20
+logic,20,4,13,7,11
+coding,20,6,10,10,16
+comprehension,20,11,6,5,16
+all_non_arithmetic,80,25,45,38,63

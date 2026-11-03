@@ -1,0 +1,63 @@
+{
+  "run_id": "c22b83397f0945b4adfb8304f7b2f268",
+  "prefix_name": "solver300_c22b83397f0945b4adfb8304f7b2f268",
+  "calibration_seconds": 19.62973599997349,
+  "evaluation_seconds": 172.19724008301273,
+  "manifest_sha256": "b9be6cb8629b50a2096225cdecc612a51cfc831e4d9575d4b5d8d9732519e2dd",
+  "profile_sha256": "4663040cf4485b2c4218e7f0756c3c17647cbb040922bfac9a5687531fd04ab6",
+  "ollama_tags": {
+    "models": [
+      {
+        "name": "qwen2.5:1.5b",
+        "model": "qwen2.5:1.5b",
+        "modified_at": "2026-11-03T08:59:27.172184341+09:00",
+        "size": 986061892,
+        "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "1.5B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1536,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      },
+      {
+        "name": "qwen2.5:0.5b",
+        "model": "qwen2.5:0.5b",
+        "modified_at": "2026-11-03T08:55:19.457542609+09:00",
+        "size": 397821319,
+        "digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "494.03M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 896,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "preserved_files_unchanged": true,
+  "real_inference": true,
+  "cost_status": "unmeasured"
+}

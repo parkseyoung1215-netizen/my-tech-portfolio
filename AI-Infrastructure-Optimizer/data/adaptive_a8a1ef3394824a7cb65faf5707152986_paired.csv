@@ -1,0 +1,4 @@
+baseline,common_answered,lost_answers,new_answers,baseline_correct,improved_correct,baseline_total_seconds,improved_total_seconds,baseline_mean_seconds,improved_mean_seconds,same_coverage_speedup,scope
+fixed,20,20,0,20,20,5.240137708373368,2.7837585823144764,0.2620068854186684,0.1391879291157238,1.8823966063955895,common answered questions; includes every fallback attempt
+legacy_auto,20,0,0,20,20,4.408475417410955,2.7837585823144764,0.22042377087054774,0.1391879291157238,1.583641428325891,common answered questions; includes every fallback attempt
+fixed_prompt_control,20,20,0,20,20,4.4971910822205245,2.7837585823144764,0.22485955411102623,0.1391879291157238,1.6155104507954363,common answered questions; includes every fallback attempt

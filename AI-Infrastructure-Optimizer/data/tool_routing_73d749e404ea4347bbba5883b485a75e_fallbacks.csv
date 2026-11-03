@@ -1,0 +1,13 @@
+dataset,question,source,tool_calls,events,model_fallback,fallback_reason,model_calls,status,misapplication
+safety_probe,Explain AI,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,Calculate 2 + 3,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,2 + 3 people,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,__import__('os'),model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,2 ** 1000000,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""unsupported_operation""}]",True,unsupported_operation,0,rejected,False
+safety_probe,1 / 0,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,1.5 + 2,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""not_integer_expression""}]",True,not_integer_expression,0,rejected,False
+safety_probe,42,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""no_binary_operation""}]",True,no_binary_operation,0,rejected,False
+safety_probe,0002 + 0003,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""invalid_syntax""}]",True,invalid_syntax,1,answered,False
+safety_probe,--------------------(1 + 2),model_fallback,0,"[{""status"": ""declined"", ""reason"": ""depth_limit""}]",True,depth_limit,0,rejected,False
+safety_probe,999999999999 * 999999999999 * 999999999999 * 999999999999,model_fallback,1,"[{""status"": ""declined"", ""reason"": ""result_limit""}]",True,result_limit,0,rejected,False
+safety_probe,1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1,model_fallback,0,"[{""status"": ""declined"", ""reason"": ""length_limit""}]",True,length_limit,0,rejected,False

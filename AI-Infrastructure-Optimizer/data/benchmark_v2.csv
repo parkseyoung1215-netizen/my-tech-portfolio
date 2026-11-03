@@ -1,0 +1,483 @@
+difficulty,question,model,expected,answer,correct,wall_time,total_duration,load_duration,prompt_tokens,output_tokens,eval_duration
+easy,4 + 1,qwen2.5:0.5b,5,The final integer of the expression 4 + 1 is 5.,False,0.1187,0.1173,0.0006,43,16,0.1007
+easy,4 + 1,qwen2.5:1.5b,5,The final integer result of 4 + 1 is 5.,False,0.2216,0.2198,0.0006,43,15,0.1868
+easy,9 + 8,qwen2.5:0.5b,17,The final integer of the expression 9 + 8 is 10.,False,0.158,0.1559,0.0007,43,17,0.1362
+easy,9 + 8,qwen2.5:1.5b,17,17,True,0.0802,0.078,0.0008,43,3,0.0334
+easy,8 + 5,qwen2.5:0.5b,13,The final integer of the expression 8 + 5 is 10.,False,0.2044,0.2019,0.0011,43,17,0.1743
+easy,8 + 5,qwen2.5:1.5b,13,13,True,0.1038,0.1015,0.0009,43,3,0.0438
+easy,4 + 18,qwen2.5:0.5b,22,The final integer of the expression 4 + 18 is 20.,False,0.3239,0.321,0.002,44,18,0.2878
+easy,4 + 18,qwen2.5:1.5b,22,22,True,0.4679,0.4654,0.001,44,3,0.1689
+easy,3 + 19,qwen2.5:0.5b,22,The final integer of the expression 3 + 19 is 20.,False,0.5649,0.5624,0.0011,44,18,0.418
+easy,3 + 19,qwen2.5:1.5b,22,22,True,0.1911,0.188,0.0011,44,3,0.0571
+easy,14 + 2,qwen2.5:0.5b,16,The final integer of the expression 14 + 2 is 14.,False,0.2663,0.2638,0.0007,44,18,0.2275
+easy,14 + 2,qwen2.5:1.5b,16,The final integer is 16.,False,0.2589,0.2566,0.0012,44,9,0.1653
+easy,1 + 3,qwen2.5:0.5b,4,The final integer of the expression 1 + 3 is 4.,False,0.1997,0.1975,0.0007,43,16,0.1688
+easy,1 + 3,qwen2.5:1.5b,4,5,False,0.0744,0.0721,0.0008,43,2,0.0197
+easy,7 + 8,qwen2.5:0.5b,15,The final integer of the expression 7 + 8 is 14.,False,0.199,0.1967,0.0009,43,17,0.1656
+easy,7 + 8,qwen2.5:1.5b,15,15,True,0.0878,0.0856,0.001,43,3,0.0337
+easy,17 + 20,qwen2.5:0.5b,37,The final integer of the calculation \( 17 + 20 \) is \( 37 \).,False,0.2509,0.2487,0.0007,45,24,0.2149
+easy,17 + 20,qwen2.5:1.5b,37,37,True,0.0999,0.0979,0.001,45,3,0.0307
+easy,1 + 18,qwen2.5:0.5b,19,The final integer of the expression 1 + 18 is 20.,False,0.176,0.1739,0.0008,44,18,0.1518
+easy,1 + 18,qwen2.5:1.5b,19,20,False,0.0743,0.0723,0.0009,44,3,0.0304
+medium,45 * 93,qwen2.5:0.5b,4185,"The calculation of \( 45 \times 93 \) is as follows:
+
+\[ 45 \times 93 = 4135 \]
+
+The final integer is \( 4135 \).",False,0.4345,0.432,0.0014,45,48,0.4026
+medium,45 * 93,qwen2.5:1.5b,4185,45 * 93 = 4185,False,0.2295,0.2269,0.0009,45,13,0.1656
+medium,89 * 63,qwen2.5:0.5b,5607,The final integer of 89 * 63 is 547.,False,0.1949,0.1921,0.001,45,18,0.1591
+medium,89 * 63,qwen2.5:1.5b,5607,The final integer result of 89 * 63 is 5643.,False,0.3909,0.3879,0.0014,45,20,0.3169
+medium,48 * 67,qwen2.5:0.5b,3216,"The calculation of \( 48 \times 67 \) is as follows:
+
+\[ 48 \times 67 = 3216 \]
+
+The final integer is \( 3216 \).",False,0.611,0.6071,0.0011,45,48,0.5665
+medium,48 * 67,qwen2.5:1.5b,3216,3216,True,0.1784,0.1754,0.0012,45,5,0.0845
+medium,95 * 45,qwen2.5:0.5b,4275,"The calculation of \( 95 \times 45 \) is as follows:
+
+\[ 95 \times 45 = 4275 \]
+
+The final integer is \( 4275 \).",False,0.6133,0.6105,0.001,45,48,0.566
+medium,95 * 45,qwen2.5:1.5b,4275,"To calculate \( 95 \times 45 \), we can break it down as follows:
+
+First, we can use the distributive property of multiplication:
+\[ 95 \times 45 = (90 + 5) \times 45 \]
+
+Next, we distribute the 45:
+\[ 90 \times 45 + 5 \times 45 \]
+
+Now, we calculate each term separately:
+\[ 90 \times 45 = 4050 \]
+\[ 5 \times 45 = 225 \]
+
+Adding these results together:
+\[ 4050 + 225 = 4275 \]
+
+So, the final integer result is:
+\[ \boxed{4275} \]",False,3.8991,3.895,0.0012,45,169,3.8121
+medium,20 * 30,qwen2.5:0.5b,600,"The calculation of \( 20 \times 30 \) is as follows:
+
+\[ 20 \times 30 = 600 \]
+
+The final integer is \( 600 \).",False,0.5347,0.5322,0.0009,45,46,0.4858
+medium,20 * 30,qwen2.5:1.5b,600,600,True,0.128,0.1263,0.0008,45,4,0.048
+medium,74 * 53,qwen2.5:0.5b,3922,The final integer of 74 * 53 is 382.,False,0.1972,0.1948,0.0011,45,18,0.1595
+medium,74 * 53,qwen2.5:1.5b,3922,3822,False,0.1453,0.143,0.0008,45,5,0.0695
+medium,55 * 29,qwen2.5:0.5b,1595,"The calculation of 55 * 29 is as follows:
+
+\[ 55 \times 29 = 1595 \]
+
+The final integer is 1595.",False,0.4616,0.4591,0.0007,45,42,0.4227
+medium,55 * 29,qwen2.5:1.5b,1595,1585,False,0.1564,0.154,0.0012,45,5,0.0688
+medium,47 * 53,qwen2.5:0.5b,2491,The final integer of 47 * 53 is 231.,False,0.2164,0.2141,0.0013,45,18,0.1747
+medium,47 * 53,qwen2.5:1.5b,2491,2491,True,0.1634,0.16,0.001,45,5,0.0755
+medium,33 * 21,qwen2.5:0.5b,693,"To calculate \( 33 \times 21 \) and return only the final integer, we can follow these steps:
+
+1. **Multiply the numbers:**
+   \[
+   33 \times 21 = 693
+   \]
+
+2. **Identify the final integer:**
+   The product \( 693 \) is already an integer, so the final integer is \( 693 \).
+
+Therefore, the final answer is:
+\[
+\boxed{693}
+\]",False,1.1231,1.1187,0.0013,45,111,1.0776
+medium,33 * 21,qwen2.5:1.5b,693,791,False,0.1115,0.1084,0.0012,45,4,0.0432
+medium,68 * 22,qwen2.5:0.5b,1496,"The calculation of 68 * 22 is as follows:
+
+68 * 22 = 1456
+
+The final integer is 1456.",False,0.3831,0.38,0.0008,45,38,0.3488
+medium,68 * 22,qwen2.5:1.5b,1496,The final integer result of 68 * 22 is 1506.,False,0.3673,0.3645,0.001,45,20,0.2984
+hard,(467 * 54) - 87,qwen2.5:0.5b,25131,"To solve the expression \((467 \times 54) - 87\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 467 and 54.
+2. Subtract 87 from the result of the product.
+
+Let's start with the first step:
+
+\[ 467 \times 54 \]
+
+We can use the distributive property to make the calculation easier:
+
+\[ 467 \times 54 = 467 \times (50 + 4) = 467 \times 50 + 467 \times 4 \]
+
+Now, we can calculate each part separately:
+
+\[ 467 \times 50 = 23350 \]
+\[ 467 \times 4 = 1868 \]
+
+Adding these two results together:
+
+\[ 23350 + 1868 = 25218 \]
+
+So, the product of 467 and 54 is 25218.
+
+Next, we subtract 87 from 25218:
+
+\[ 25218 - 87 = 25131 \]
+
+Therefore, the final answer is:
+
+\[ \boxed{25131} \]",False,2.9808,2.9756,0.001,51,288,2.9398
+hard,(467 * 54) - 87,qwen2.5:1.5b,25131,"To solve the expression \((467 * 54) - 87\), we first need to perform the multiplication and then subtract the remainder.
+
+1. Calculate \(467 * 54\):
+   \[
+   467 * 54 = 25158
+   \]
+
+2. Subtract 87 from the result:
+   \[
+   25158 - 87 = 25071
+   \]
+
+So, the final answer is \(25071\).",False,2.7264,2.7222,0.0014,51,119,2.6274
+hard,(370 * 15) - 68,qwen2.5:0.5b,5482,"To solve the expression \((370 \times 15) - 68\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 370 and 15.
+2. Subtract 68 from the result of the product.
+
+Let's start with the first step:
+
+\[ 370 \times 15 = 5550 \]
+
+Now, we move to the second step:
+
+\[ 5550 - 68 = 5482 \]
+
+The final integer result is 5482. Therefore, the answer is:
+
+\[
+\boxed{5482}
+\]",False,1.6112,1.6083,0.0013,51,144,1.4159
+hard,(370 * 15) - 68,qwen2.5:1.5b,5482,"To solve the expression \((370 * 15) - 68\), we first need to perform the multiplication:
+
+\[370 * 15 = 5550\]
+
+Next, we subtract 68 from 5550:
+
+\[5550 - 68 = 5482\]
+
+So, the final answer is:
+
+\[\boxed{5482}\]",False,2.1316,2.1283,0.0008,51,93,1.9372
+hard,(649 * 25) - 58,qwen2.5:0.5b,16167,"To solve the expression \((649 \times 25) - 58\), we need to follow these steps:
+
+1. Calculate the product of 649 and 25.
+2. Subtract 58 from the result of the first step.
+
+Let's start with the first step:
+
+\[ 649 \times 25 \]
+
+We can break this down into simpler steps:
+\[ 649 \times 25 = 649 \times (20 + 5) = 649 \times 20 + 649 \times 5 \]
+
+Now, calculate each part separately:
+\[ 649 \times 20 = 12980 \]
+\[ 649 \times 5 = 3245 \]
+
+Add these two results together:
+\[ 12980 + 3245 = 16225 \]
+
+So, the product of 649 and 25 is 16225.
+
+Next, we move to the second step:
+\[ 16225 - 58 \]
+
+Now, perform the subtraction:
+\[ 16225 - 58 = 16167 \]
+
+Therefore, the final answer is:
+\[ \boxed{16167} \]",False,3.0751,3.0719,0.0013,51,291,3.0225
+hard,(649 * 25) - 58,qwen2.5:1.5b,16167,"To solve the expression \((649 \times 25) - 58\), we first need to calculate the product of 649 and 25, and then subtract 58 from the result.
+
+First, calculate \(649 \times 25\):
+\[649 \times 25 = 649 \times (20 + 5) = (649 \times 20) + (649 \times 5)\]
+\[649 \times 20 = 12980\]
+\[649 \times 5 = 3245\]
+\[649 \times 25 = 12980 + 3245 = 16225\]
+
+Now, subtract 58 from 16225:
+\[16225 - 58 = 16167\]
+
+So, the final answer is:
+\[\boxed{16167}\]",False,4.8735,4.87,0.0009,51,224,4.7551
+hard,(180 * 80) - 47,qwen2.5:0.5b,14353,"To solve the expression \((180 \times 80) - 47\), we need to follow these steps:
+
+1. Calculate the product of 180 and 80.
+2. Subtract 47 from the result of the first step.
+
+Let's start with the first step:
+
+\[ 180 \times 80 = 14400 \]
+
+Now, we move to the second step:
+
+\[ 14400 - 47 = 14353 \]
+
+The final result is 14353. Since 14353 is already an integer, we do not need to return only the final integer.
+
+Therefore, the final answer is \(\boxed{14353}\).",False,1.6679,1.665,0.001,51,165,1.6164
+hard,(180 * 80) - 47,qwen2.5:1.5b,14353,"To solve the expression \((180 \times 80) - 47\), we first perform the multiplication:
+
+\[180 \times 80 = 14400\]
+
+Next, we subtract 47 from 14400:
+
+\[14400 - 47 = 14353\]
+
+So, the final answer is:
+
+\[\boxed{14353}\]",False,2.2138,2.2102,0.001,51,98,2.1405
+hard,(949 * 90) - 89,qwen2.5:0.5b,85321,"To solve the expression \((949 \times 90) - 89\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 949 and 90.
+2. Subtract 89 from the result of the product.
+
+Let's start with the first step:
+
+\[ 949 \times 90 = 88410 \]
+
+Now, we move to the second step:
+
+\[ 88410 - 89 = 88321 \]
+
+The final integer result is 88321. Therefore, the answer is:
+
+\[
+\boxed{88321}
+\]",False,1.5739,1.5699,0.0016,51,149,1.5201
+hard,(949 * 90) - 89,qwen2.5:1.5b,85321,"To solve the expression \((949 \times 90) - 89\), we first perform the multiplication:
+
+\[949 \times 90 = 84410\]
+
+Next, we subtract 89 from 84410:
+
+\[84410 - 89 = 84321\]
+
+So, the final answer is:
+
+\[\boxed{84321}\]",False,2.235,2.231,0.001,51,98,2.1698
+hard,(982 * 56) - 83,qwen2.5:0.5b,54909,"To solve the expression \((982 \times 56) - 83\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 982 and 56.
+2. Subtract 83 from the result of the product.
+
+Let's start with the first step:
+
+\[ 982 \times 56 \]
+
+We can break this down into simpler steps. First, we can use the distributive property of multiplication over addition:
+
+\[ 982 \times 56 = 982 \times (50 + 6) = 982 \times 50 + 982 \times 6 \]
+
+Now, we can calculate each part separately:
+
+\[ 982 \times 50 = 982 \times 50 = 49100 \]
+\[ 982 \times 6 = 982 \times 6 = 5892 \]
+
+Adding these two results together gives us:
+
+\[ 49100 + 5892 = 54992 \]
+
+So, the product of 982 and 56 is 54992.
+
+Next, we subtract 83 from 54992:
+
+\[ 54992 - 83 = 54909 \]
+
+Therefore, the final answer is:
+
+\[ \boxed{54909} \]",False,3.1343,3.13,0.0016,51,319,3.0805
+hard,(982 * 56) - 83,qwen2.5:1.5b,54909,"To solve the expression \((982 \times 56) - 83\), we first need to calculate the product of 982 and 56, and then subtract 83 from the result.
+
+First, calculate \(982 \times 56\):
+\[
+982 \times 56 = 982 \times (50 + 6) = (982 \times 50) + (982 \times 6)
+\]
+\[
+982 \times 50 = 49100
+\]
+\[
+982 \times 6 = 5892
+\]
+\[
+982 \times 56 = 49100 + 5892 = 54992
+\]
+
+Now, subtract 83 from 54992:
+\[
+54992 - 83 = 54909
+\]
+
+So, the final answer is:
+\[
+\boxed{54909}
+\]",False,5.081,5.0774,0.0014,51,236,4.9749
+hard,(296 * 18) - 15,qwen2.5:0.5b,5313,"To solve the expression \((296 \times 18) - 15\), we need to follow these steps:
+
+1. Calculate the product of 296 and 18.
+2. Subtract 15 from the result of the first step.
+
+Let's start with the first step:
+
+\[ 296 \times 18 \]
+
+We can break this down into simpler steps. First, we can use the distributive property of multiplication over addition:
+
+\[ 296 \times 18 = 296 \times (20 + 8) = 296 \times 20 + 296 \times 8 \]
+
+Now, we can calculate each part separately:
+
+\[ 296 \times 20 = 5920 \]
+\[ 296 \times 8 = 2368 \]
+
+Adding these two results together gives us:
+
+\[ 5920 + 2368 = 8288 \]
+
+So, the product of 296 and 18 is 8288.
+
+Next, we move to the second step:
+
+\[ 8288 - 15 \]
+
+We can break this down into simpler steps. First, we can use the distributive property of subtraction over addition:
+
+\[ 8288 - 15 = 8288 - (15 \times 100) = 8288 - 1500 \]
+
+Now, we can calculate the subtraction:
+
+\[ 8288 - 1500 = 6788 \]
+
+So, the result of the expression \((296 \times 18) - 15\) is 6788.
+
+Therefore, the final answer is:
+
+\[
+\boxed{6788}
+\]",False,4.4064,4.4012,0.0014,51,400,4.3422
+hard,(296 * 18) - 15,qwen2.5:1.5b,5313,"To solve the expression \((296 \times 18) - 15\), we first need to perform the multiplication and then subtract the final number.
+
+1. Calculate \(296 \times 18\):
+   \[
+   296 \times 18 = 5288
+   \]
+
+2. Subtract 15 from the result:
+   \[
+   5288 - 15 = 5273
+   \]
+
+So, the final answer is \(5273\).",False,2.3541,2.3499,0.0015,51,119,2.2548
+hard,(777 * 39) - 47,qwen2.5:0.5b,30256,"To solve the expression \((777 \times 39) - 47\), we will break it down into smaller steps and perform the calculations.
+
+First, calculate \(777 \times 39\):
+\[ 777 \times 39 = 777 \times (40 - 1) = 777 \times 40 - 777 \times 1 = 31120 - 777 = 30343 \]
+
+Now, substitute this result back into the original expression:
+\[ 30343 - 47 = 30306 \]
+
+The final integer result is \(\boxed{30306}\).",False,1.5635,1.5581,0.001,51,160,1.5017
+hard,(777 * 39) - 47,qwen2.5:1.5b,30256,"To solve the expression \((777 \times 39) - 47\), we first need to calculate the product of 777 and 39, and then subtract 47 from the result.
+
+First, let's calculate \(777 \times 39\):
+
+\[
+777 \times 39 = 777 \times (40 - 1) = 777 \times 40 - 777 \times 1 = 31080 - 777 = 30203
+\]
+
+Now, we subtract 47 from 30203:
+
+\[
+30203 - 47 = 30156
+\]
+
+So, the final answer is:
+
+\[
+\boxed{30156}
+\]",False,4.4953,4.4913,0.0012,51,186,4.4298
+hard,(181 * 39) - 22,qwen2.5:0.5b,7037,"To solve the expression \((181 \times 39) - 22\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 181 and 39.
+2. Subtract 22 from the result of the product.
+
+Let's start with the first step:
+
+\[ 181 \times 39 \]
+
+We can use the distributive property to make the calculation easier:
+\[ 181 \times 39 = 181 \times (40 - 1) = 181 \times 40 - 181 \times 1 \]
+
+Now, calculate each part separately:
+\[ 181 \times 40 = 7240 \]
+\[ 181 \times 1 = 181 \]
+
+So, the expression becomes:
+\[ 7240 - 181 = 7059 \]
+
+Now, let's move to the second step:
+
+\[ 7059 - 22 \]
+
+We can use the subtraction property of arithmetic to simplify this:
+\[ 7059 - 22 = 7037 \]
+
+Therefore, the final integer result is:
+\[ \boxed{7037} \]",False,2.5906,2.5861,0.0009,51,277,2.5455
+hard,(181 * 39) - 22,qwen2.5:1.5b,7037,"Let's solve the expression step by step:
+
+1. First, calculate the multiplication:
+   (181 * 39) = 7079
+
+2. Then, subtract 22 from the result:
+   7079 - 22 = 7057
+
+So, the final answer is 7057.",False,1.7698,1.7651,0.0011,51,76,1.6973
+hard,(489 * 45) - 68,qwen2.5:0.5b,21937,"To solve the expression \((489 \times 45) - 68\) and return only the final integer, we can follow these steps:
+
+1. Calculate the product of 489 and 45.
+2. Subtract 68 from the result of the product.
+
+Let's start with the first step:
+
+\[ 489 \times 45 \]
+
+We can break this down into simpler steps. First, we can use the distributive property of multiplication over addition:
+
+\[ 489 \times 45 = 489 \times (40 + 5) = 489 \times 40 + 489 \times 5 \]
+
+Now, we can calculate each part separately:
+
+\[ 489 \times 40 = 489 \times 4 \times 10 = 1956 \times 10 = 19560 \]
+\[ 489 \times 5 = 2445 \]
+
+Adding these two results together:
+
+\[ 19560 + 2445 = 21995 \]
+
+So, the product of 489 and 45 is 21995.
+
+Next, we subtract 68 from 21995:
+
+\[ 21995 - 68 = 21927 \]
+
+Therefore, the final answer is:
+
+\[ \boxed{21927} \]",False,3.1536,3.1494,0.0016,51,323,3.0935
+hard,(489 * 45) - 68,qwen2.5:1.5b,21937,"To solve the expression \((489 * 45) - 68\), we first need to calculate the product of 489 and 45, and then subtract 68 from the result.
+
+First, calculate \(489 * 45\):
+\[489 * 45 = 22105\]
+
+Next, subtract 68 from 22105:
+\[22105 - 68 = 22037\]
+
+So, the final answer is:
+\[\boxed{22037}\]",False,2.922,2.9189,0.001,51,129,2.827
