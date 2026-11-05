@@ -1,0 +1,22 @@
+{
+  "existing_files_verified": 829,
+  "fresh_exact_stem_past_overlap": 0,
+  "replay_and_fresh_disjoint": true,
+  "model_policy_sources_frozen": true,
+  "no_training_or_threshold_tuning": true,
+  "actual_layer_counts_and_cache_verified": true,
+  "actual_attention_mlp_audit_verified": true,
+  "native_logits_smoke_exact": true,
+  "legacy_lean_token_disagreements": 0,
+  "legacy_lean_mask_disagreements": 0,
+  "option_prefix_disagreements": 0,
+  "replay_vs_previous_experiment_token_disagreements": 0,
+  "primary_requests": 3456,
+  "fixed_requests": 576,
+  "heavy_profile_requests": 144,
+  "checkpoint_complete_records": 4209,
+  "GPU_elapsed_power_money": "unmeasured",
+  "FLOPs": "analytical dense matmul estimate; physical copy bandwidth unmeasured",
+  "profile_first_logit_hash_disagreements": 0,
+  "option_possible_word_prefix_observations": 0
+}

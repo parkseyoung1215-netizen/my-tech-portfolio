@@ -1,0 +1,7 @@
+{
+  "natural_pairs": 600,
+  "natural_token_mismatches": 0,
+  "fixed_prediction_pairs": 600,
+  "fixed_prediction_mismatches": 0,
+  "note": "Fixed forced texts alone cannot prove equivalent computation, so actual per-step predictions are compared."
+}

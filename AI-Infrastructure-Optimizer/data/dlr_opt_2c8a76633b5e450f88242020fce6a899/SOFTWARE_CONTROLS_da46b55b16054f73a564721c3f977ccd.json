@@ -1,0 +1,43 @@
+{
+  "scope": "Actual GPU software controls ONLY; no evaluation score or latency claim",
+  "lightweight_actual_mlp_tap_counts": {
+    "8": 3,
+    "12": 3,
+    "16": 3,
+    "24": 3
+  },
+  "lightweight_four_forward_cached_reuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "poisoned_weight_reuse_exact_cached_output": true,
+  "poisoned_weight_fresh_nan_positive_control": true,
+  "gpu_projection_branches_reuse": 0,
+  "gpu_projection_branches_fresh": 3
+}

@@ -1,0 +1,626 @@
+dataset,repetition,task_id,variant,control,category,transition,baseline_answer,answer,baseline_correct,correct,format_ok,baseline_format_ok,skip_layers,baseline_tokens,output_tokens,baseline_wall,wall_seconds,question,reference,error_type
+replay64,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,legacy_stable1,legacy_full,logic,Wrong -> Wrong,C,C) Nemi30110,False,False,False,True,[24],2,10,0.1645658330526203,0.4465858330950141,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,content
+replay64,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,lean_stable1,lean_full,logic,Wrong -> Wrong,C,C) Nemi30110,False,False,False,True,[24],2,10,0.16530879097990692,0.4481886248104274,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,content
+replay64,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,legacy_stable1,legacy_full,logic,Wrong -> Wrong,B,B),False,False,False,True,[24],2,3,0.16907954099588096,0.1964255829807371,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,content
+replay64,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,lean_stable1,lean_full,logic,Wrong -> Wrong,B,B),False,False,False,True,[24],2,3,0.18457029201090336,0.1966123329475522,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,content
+replay64,1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,legacy_stable1,legacy_full,logic,Correct -> Correct,A,A) Nemi30103 is not blue,True,True,False,True,[24],2,13,0.16652991599403322,0.6102454590145499,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,none
+replay64,1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,legacy_sketch,legacy_full,logic,Correct -> Correct,A,A) Nemi30103 is not blue,True,True,False,True,[23],2,13,0.16652991599403322,0.5595518751069903,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,none
+replay64,1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,lean_stable1,lean_full,logic,Correct -> Correct,A,A) Nemi30103 is not blue,True,True,False,True,[24],2,13,0.16645487491041422,0.5521752079948783,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,none
+replay64,1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,lean_sketch,lean_full,logic,Correct -> Correct,A,A) Nemi30103 is not blue,True,True,False,True,[23],2,13,0.16645487491041422,0.5492835000623018,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,none
+replay64,1,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,legacy_stable1,legacy_full,logic,Wrong -> Wrong,B,B) Nemi30102,False,False,False,True,[24],2,10,0.16617450001649559,0.446718042017892,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,content
+replay64,1,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,lean_stable1,lean_full,logic,Wrong -> Wrong,B,B) Nemi30102,False,False,False,True,[24],2,10,0.16478233295492828,0.44004000001586974,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,content
+replay64,1,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,legacy_stable1,legacy_full,arithmetic,Correct -> Wrong,C),A) 410,True,False,False,False,[24],3,7,0.18533387500792742,0.32798304106108844,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,content
+replay64,1,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,lean_stable1,lean_full,arithmetic,Correct -> Wrong,C),A) 410,True,False,False,False,[24],3,7,0.18293333309702575,0.3134892920497805,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,content
+replay64,1,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,lean_option_stable1,lean_option_full,arithmetic,Correct -> Wrong,C,A,True,False,True,True,[24],1,1,0.11287724995054305,0.10792104201391339,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,content
+replay64,1,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,legacy_sketch,legacy_full,logic,Correct -> Wrong,D) Nemi30111 is not blue,C) Nemi30111 is not a merin,True,False,False,False,[23],13,15,0.5731093750800937,0.6633611251600087,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,content
+replay64,1,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,lean_sketch,lean_full,logic,Correct -> Wrong,D) Nemi30111 is not blue,C) Nemi30111 is not a merin,True,False,False,False,[23],13,15,0.5595467500388622,0.6225304170511663,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,content
+replay64,1,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,lean_option_sketch,lean_option_full,logic,Correct -> Wrong,D,C,True,False,True,True,[23],1,1,0.12897308310493827,0.12574091600254178,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,content
+replay64,1,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,legacy_sketch,legacy_full,reading,Correct -> Wrong,A) Nemi30100,D,True,False,True,False,"[12, 23]",10,2,0.45971491700038314,0.1590980829205364,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,content
+replay64,1,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,lean_sketch,lean_full,reading,Correct -> Wrong,A) Nemi30100,D,True,False,True,False,"[12, 23]",10,2,0.5405156249180436,0.15721029206179082,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,content
+replay64,1,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,lean_option_sketch,lean_option_full,reading,Correct -> Wrong,A,D,True,False,True,True,"[12, 23]",1,1,0.12986570806242526,0.12170941685326397,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,content
+replay64,1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,legacy_stable1,legacy_full,logic,Wrong -> Wrong,A,A) Nemi30109 is not a merin,False,False,False,True,[24],2,15,0.16232462506741285,0.6101223339792341,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,content
+replay64,1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,legacy_sketch,legacy_full,logic,Wrong -> Wrong,A,A) Nemi30109 is not a merin,False,False,False,True,[23],2,15,0.16232462506741285,0.6396164591424167,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,content
+replay64,1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,lean_stable1,lean_full,logic,Wrong -> Wrong,A,A) Nemi30109 is not a merin,False,False,False,True,[24],2,15,0.16135800001211464,0.6095004170201719,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,content
+replay64,1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,lean_sketch,lean_full,logic,Wrong -> Wrong,A,A) Nemi30109 is not a merin,False,False,False,True,[23],2,15,0.16135800001211464,0.6111274168360978,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,content
+replay64,1,940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd,legacy_stable1,legacy_full,logic,Wrong -> Wrong,A,A) Nemi30105 is not a merin,False,False,False,True,[24],2,15,0.16627383418381214,0.6330891670659184,"Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?
+A) Nemi30105 is not a merin
+B) Nemi30105 is not blue
+C) Nemi30105 is blue
+D) Nothing follows
+Return only the option letter.",B,content
+replay64,1,940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd,lean_stable1,lean_full,logic,Wrong -> Wrong,A,A) Nemi30105 is not a merin,False,False,False,True,[24],2,15,0.1755979999434203,0.6459790419321507,"Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?
+A) Nemi30105 is not a merin
+B) Nemi30105 is not blue
+C) Nemi30105 is blue
+D) Nothing follows
+Return only the option letter.",B,content
+replay64,1,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,legacy_stable1,legacy_full,logic,Correct -> Correct,A,A) Nemi30107 is not blue,True,True,False,True,[24],2,13,0.16301991697400808,0.5401439589913934,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,none
+replay64,1,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,lean_stable1,lean_full,logic,Correct -> Correct,A,A) Nemi30107 is not blue,True,True,False,True,[24],2,13,0.16269599995575845,0.5337273748591542,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,none
+replay64,1,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,legacy_stable1,legacy_full,logic,Wrong -> Wrong,A,A) Nemi30101 is not a merin,False,False,False,True,[24],2,15,0.1673733750358224,0.6389155830256641,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,content
+replay64,1,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,lean_stable1,lean_full,logic,Wrong -> Wrong,A,A) Nemi30101 is not a merin,False,False,False,True,[24],2,15,0.16708033299073577,0.6029397079255432,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,content
+replay64,1,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,legacy_stable1,legacy_full,reading,Wrong -> Correct,B) Wednesday,A),False,True,False,False,[24],4,3,0.22657891712151468,0.18089829199016094,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,none
+replay64,1,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,lean_stable1,lean_full,reading,Wrong -> Correct,B) Wednesday,A),False,True,False,False,[24],4,3,0.22781979199498892,0.18195108301006258,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,none
+replay64,1,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,lean_option_stable1,lean_option_full,reading,Wrong -> Correct,B,A,False,True,True,True,[24],1,1,0.11615233402699232,0.11056125001050532,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,none
+fresh64,1,5d0ef4540627f4df3251b43c584b33c9fd749243d5a535f0d126e91f962530e4,legacy_stable1,legacy_full,arithmetic,Correct -> Wrong,C),"To determine the change due, we need to follow these steps:
+
+1. Calculate",True,False,False,False,[24],3,16,0.19583416706882417,0.6190266250632703,"A shop ticket lists 3 identical pens at 70 credits each. The customer gives 276 credits. How many credits of change are due?
+A) 70
+B) 210
+C) 66
+D) 144
+Return only the option letter.",C,format_or_unresolved
+fresh64,1,5d0ef4540627f4df3251b43c584b33c9fd749243d5a535f0d126e91f962530e4,lean_stable1,lean_full,arithmetic,Correct -> Wrong,C),"To determine the change due, we need to follow these steps:
+
+1. Calculate",True,False,False,False,[24],3,16,0.18861029180698097,0.6343633329961449,"A shop ticket lists 3 identical pens at 70 credits each. The customer gives 276 credits. How many credits of change are due?
+A) 70
+B) 210
+C) 66
+D) 144
+Return only the option letter.",C,format_or_unresolved
+fresh64,1,5d0ef4540627f4df3251b43c584b33c9fd749243d5a535f0d126e91f962530e4,lean_option_stable1,lean_option_full,arithmetic,Correct -> Wrong,C,"To determine the change due, we need to follow these steps:
+
+1. Calculate",True,False,False,True,[24],1,16,0.11127941706217825,0.6356166249606758,"A shop ticket lists 3 identical pens at 70 credits each. The customer gives 276 credits. How many credits of change are due?
+A) 70
+B) 210
+C) 66
+D) 144
+Return only the option letter.",C,format_or_unresolved
+fresh64,1,901ecaae1595bf173869f9400cdd17f257cb8927ecbbb3eeb9fd91843841b385,legacy_sketch,legacy_full,arithmetic,Correct -> Wrong,D),B) 61,True,False,False,False,[23],3,6,0.1871693329885602,0.29280137503519654,"A rover at distance marker 57 travels forward 77 units and then backward 4 units. At which distance marker does it stop?
+A) -24
+B) 61
+C) 138
+D) 130
+Return only the option letter.",D,content
+fresh64,1,901ecaae1595bf173869f9400cdd17f257cb8927ecbbb3eeb9fd91843841b385,lean_sketch,lean_full,arithmetic,Correct -> Wrong,D),B) 61,True,False,False,False,[23],3,6,0.18444820819422603,0.2876592499669641,"A rover at distance marker 57 travels forward 77 units and then backward 4 units. At which distance marker does it stop?
+A) -24
+B) 61
+C) 138
+D) 130
+Return only the option letter.",D,content
+fresh64,1,901ecaae1595bf173869f9400cdd17f257cb8927ecbbb3eeb9fd91843841b385,lean_option_sketch,lean_option_full,arithmetic,Correct -> Wrong,D,B,True,False,True,True,[23],1,1,0.11286141676828265,0.10979595803655684,"A rover at distance marker 57 travels forward 77 units and then backward 4 units. At which distance marker does it stop?
+A) -24
+B) 61
+C) 138
+D) 130
+Return only the option letter.",D,content
+fresh64,1,a082f6dea6d158f5cc656c9a9b43945de14372cbc7ed0f9a5d6406e3c9acf777,legacy_sketch,legacy_full,logic,Correct -> Wrong,D,C,True,False,True,True,[23],2,2,0.15267112501896918,0.15086974995210767,"Shelf 41109 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) Green
+C) Red
+D) White
+Return only the option letter.",D,content
+fresh64,1,a082f6dea6d158f5cc656c9a9b43945de14372cbc7ed0f9a5d6406e3c9acf777,lean_sketch,lean_full,logic,Correct -> Wrong,D,C,True,False,True,True,[23],2,2,0.15224704216234386,0.14972562505863607,"Shelf 41109 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) Green
+C) Red
+D) White
+Return only the option letter.",D,content
+fresh64,1,a082f6dea6d158f5cc656c9a9b43945de14372cbc7ed0f9a5d6406e3c9acf777,lean_option_sketch,lean_option_full,logic,Correct -> Wrong,D,C,True,False,True,True,[23],1,1,0.11552650015801191,0.11524087493307889,"Shelf 41109 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) Green
+C) Red
+D) White
+Return only the option letter.",D,content
+fresh64,1,4a8bc630c9539d506977bba8def6ac6488647ee6eb5fec2c6b549657b2a11bcb,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42107"",
+  ""amount"": 19
+}
+```","```json
+{""code"":""tag4207"",""amount"":19}
+```",True,False,False,False,"[18, 23]",27,19,1.015479875029996,0.683084457879886,"Write one JSON object from this inventory row: code is ""tag42107"" and amount is the integer 19. Use exactly those two keys. Return only JSON.","{""code"":""tag42107"",""amount"":19}",content
+fresh64,1,4a8bc630c9539d506977bba8def6ac6488647ee6eb5fec2c6b549657b2a11bcb,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42107"",
+  ""amount"": 19
+}
+```","```json
+{""code"":""tag4207"",""amount"":19}
+```",True,False,False,False,"[18, 23]",27,19,1.0115860828664154,0.6805541669018567,"Write one JSON object from this inventory row: code is ""tag42107"" and amount is the integer 19. Use exactly those two keys. Return only JSON.","{""code"":""tag42107"",""amount"":19}",content
+fresh64,1,4a8bc630c9539d506977bba8def6ac6488647ee6eb5fec2c6b549657b2a11bcb,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42107"",
+  ""amount"": 19
+}
+```","```json
+{""code"":""tag4207"",""amount"":19}
+```",True,False,False,False,"[18, 23]",27,19,1.0154126668348908,0.6809044168330729,"Write one JSON object from this inventory row: code is ""tag42107"" and amount is the integer 19. Use exactly those two keys. Return only JSON.","{""code"":""tag42107"",""amount"":19}",content
+fresh64,1,92aba37918c3ba0961a7c542f63a4df30e95ab2486bb11bcb35ae1ed4961aedf,legacy_stable1,legacy_full,reading,Correct -> Correct,A,A) Wesi41110,True,True,False,True,[24],2,10,0.16771383304148912,0.45780133409425616,"Dispatch record 41110: Rilo41110 gives a sealed envelope to Tema41110. Tema41110 then gives it to Wesi41110. No other transfer occurs. Who holds it at the end?
+A) Wesi41110
+B) Rilo41110
+C) Nobody
+D) Tema41110
+Return only the option letter.",A,none
+fresh64,1,92aba37918c3ba0961a7c542f63a4df30e95ab2486bb11bcb35ae1ed4961aedf,legacy_sketch,legacy_full,reading,Correct -> Correct,A,A) Wesi41110,True,True,False,True,[23],2,10,0.16771383304148912,0.44937804201617837,"Dispatch record 41110: Rilo41110 gives a sealed envelope to Tema41110. Tema41110 then gives it to Wesi41110. No other transfer occurs. Who holds it at the end?
+A) Wesi41110
+B) Rilo41110
+C) Nobody
+D) Tema41110
+Return only the option letter.",A,none
+fresh64,1,92aba37918c3ba0961a7c542f63a4df30e95ab2486bb11bcb35ae1ed4961aedf,lean_stable1,lean_full,reading,Correct -> Correct,A,A) Wesi41110,True,True,False,True,[24],2,10,0.16273041581735015,0.4458606659900397,"Dispatch record 41110: Rilo41110 gives a sealed envelope to Tema41110. Tema41110 then gives it to Wesi41110. No other transfer occurs. Who holds it at the end?
+A) Wesi41110
+B) Rilo41110
+C) Nobody
+D) Tema41110
+Return only the option letter.",A,none
+fresh64,1,92aba37918c3ba0961a7c542f63a4df30e95ab2486bb11bcb35ae1ed4961aedf,lean_sketch,lean_full,reading,Correct -> Correct,A,A) Wesi41110,True,True,False,True,[23],2,10,0.16273041581735015,0.4398261250462383,"Dispatch record 41110: Rilo41110 gives a sealed envelope to Tema41110. Tema41110 then gives it to Wesi41110. No other transfer occurs. Who holds it at the end?
+A) Wesi41110
+B) Rilo41110
+C) Nobody
+D) Tema41110
+Return only the option letter.",A,none
+fresh64,1,ef0814e5530494c38bfa6ed94ea9458cc0631a7cc58e1ab78f3a348c13da9953,legacy_stable1,legacy_full,reading,Correct -> Correct,A,A) Wesi41108,True,True,False,True,[24],2,10,0.16909316694363952,0.44686495792120695,"Dispatch record 41108: Rilo41108 gives a sealed envelope to Tema41108. Tema41108 then gives it to Wesi41108. No other transfer occurs. Who holds it at the end?
+A) Wesi41108
+B) Nobody
+C) Tema41108
+D) Rilo41108
+Return only the option letter.",A,none
+fresh64,1,ef0814e5530494c38bfa6ed94ea9458cc0631a7cc58e1ab78f3a348c13da9953,legacy_sketch,legacy_full,reading,Correct -> Correct,A,A) Wesi41108,True,True,False,True,[23],2,10,0.16909316694363952,0.44944954104721546,"Dispatch record 41108: Rilo41108 gives a sealed envelope to Tema41108. Tema41108 then gives it to Wesi41108. No other transfer occurs. Who holds it at the end?
+A) Wesi41108
+B) Nobody
+C) Tema41108
+D) Rilo41108
+Return only the option letter.",A,none
+fresh64,1,ef0814e5530494c38bfa6ed94ea9458cc0631a7cc58e1ab78f3a348c13da9953,lean_stable1,lean_full,reading,Correct -> Correct,A,A) Wesi41108,True,True,False,True,[24],2,10,0.1656799998600036,0.46537237521260977,"Dispatch record 41108: Rilo41108 gives a sealed envelope to Tema41108. Tema41108 then gives it to Wesi41108. No other transfer occurs. Who holds it at the end?
+A) Wesi41108
+B) Nobody
+C) Tema41108
+D) Rilo41108
+Return only the option letter.",A,none
+fresh64,1,ef0814e5530494c38bfa6ed94ea9458cc0631a7cc58e1ab78f3a348c13da9953,lean_sketch,lean_full,reading,Correct -> Correct,A,A) Wesi41108,True,True,False,True,[23],2,10,0.1656799998600036,0.44414183404296637,"Dispatch record 41108: Rilo41108 gives a sealed envelope to Tema41108. Tema41108 then gives it to Wesi41108. No other transfer occurs. Who holds it at the end?
+A) Wesi41108
+B) Nobody
+C) Tema41108
+D) Rilo41108
+Return only the option letter.",A,none
+fresh64,1,13052d034da33fe4dffd274a5a4496a802c2ac45a83052e85ac306e8846eba6a,lean_option_stable1,lean_option_full,arithmetic,Wrong -> Wrong,C,"To determine the change due, we need to follow these steps:
+
+1. Calculate",False,False,False,True,[24],1,16,0.11412416584789753,0.636431667022407,"A shop ticket lists 4 identical pens at 64 credits each. The customer gives 291 credits. How many credits of change are due?
+A) 256
+B) 64
+C) 221
+D) 35
+Return only the option letter.",D,format_or_unresolved
+fresh64,1,cd80740bc6d89145ec6d7416a9709a139328d490ac0444e5cebd8f951b53dffc,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42104"",
+  ""amount"": 16
+}
+```","```json
+{""code"":""tag420"",""amount"":16}
+```",True,False,False,False,"[18, 23]",27,18,1.0343096249271184,0.6708239999134094,"Write one JSON object from this inventory row: code is ""tag42104"" and amount is the integer 16. Use exactly those two keys. Return only JSON.","{""code"":""tag42104"",""amount"":16}",content
+fresh64,1,cd80740bc6d89145ec6d7416a9709a139328d490ac0444e5cebd8f951b53dffc,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42104"",
+  ""amount"": 16
+}
+```","```json
+{""code"":""tag420"",""amount"":16}
+```",True,False,False,False,"[18, 23]",27,18,1.020269624888897,0.6451771669089794,"Write one JSON object from this inventory row: code is ""tag42104"" and amount is the integer 16. Use exactly those two keys. Return only JSON.","{""code"":""tag42104"",""amount"":16}",content
+fresh64,1,cd80740bc6d89145ec6d7416a9709a139328d490ac0444e5cebd8f951b53dffc,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42104"",
+  ""amount"": 16
+}
+```","```json
+{""code"":""tag420"",""amount"":16}
+```",True,False,False,False,"[18, 23]",27,18,1.021961292019114,0.653387957951054,"Write one JSON object from this inventory row: code is ""tag42104"" and amount is the integer 16. Use exactly those two keys. Return only JSON.","{""code"":""tag42104"",""amount"":16}",content
+fresh64,1,4ed85a6abde947a6217d90669a57990879ac3cc70a9772b99b3300c738831b27,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42101"",
+  ""amount"": 13
+}
+```","```json
+{""code"":""tag4201"",""amount"":13}
+```",True,False,False,False,"[18, 23]",27,19,1.0375181250274181,0.6967946249060333,"Write one JSON object from this inventory row: code is ""tag42101"" and amount is the integer 13. Use exactly those two keys. Return only JSON.","{""code"":""tag42101"",""amount"":13}",content
+fresh64,1,4ed85a6abde947a6217d90669a57990879ac3cc70a9772b99b3300c738831b27,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42101"",
+  ""amount"": 13
+}
+```","```json
+{""code"":""tag4201"",""amount"":13}
+```",True,False,False,False,"[18, 23]",27,19,1.0172509588301182,0.6902311670128256,"Write one JSON object from this inventory row: code is ""tag42101"" and amount is the integer 13. Use exactly those two keys. Return only JSON.","{""code"":""tag42101"",""amount"":13}",content
+fresh64,1,4ed85a6abde947a6217d90669a57990879ac3cc70a9772b99b3300c738831b27,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42101"",
+  ""amount"": 13
+}
+```","```json
+{""code"":""tag4201"",""amount"":13}
+```",True,False,False,False,"[18, 23]",27,19,1.0248826669994742,0.6822356670163572,"Write one JSON object from this inventory row: code is ""tag42101"" and amount is the integer 13. Use exactly those two keys. Return only JSON.","{""code"":""tag42101"",""amount"":13}",content
+fresh64,1,81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3,legacy_stable1,legacy_full,logic,Correct -> Correct,B,B) White,True,True,False,True,[24],2,4,0.14757920801639557,0.21828224998898804,"Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Green
+D) Red
+Return only the option letter.",B,none
+fresh64,1,81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3,legacy_sketch,legacy_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],2,2,0.14757920801639557,0.15224995906464756,"Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Green
+D) Red
+Return only the option letter.",B,content
+fresh64,1,81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3,lean_stable1,lean_full,logic,Correct -> Correct,B,B) White,True,True,False,True,[24],2,4,0.1499924580566585,0.21579983294941485,"Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Green
+D) Red
+Return only the option letter.",B,none
+fresh64,1,81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3,lean_sketch,lean_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],2,2,0.1499924580566585,0.14818554208613932,"Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Green
+D) Red
+Return only the option letter.",B,content
+fresh64,1,81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3,lean_option_sketch,lean_option_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],1,1,0.114966832799837,0.11280804220587015,"Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Green
+D) Red
+Return only the option letter.",B,content
+fresh64,1,03ba7944996773967ba9f1e60667eb56dd7f398efb116732520b1fed6166babe,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42102"",
+  ""amount"": 14
+}
+```","```json
+{""code"":""tag420"",""amount"":14}
+```",True,False,False,False,"[18, 23]",27,18,1.0091173748951405,0.6449889580253512,"Write one JSON object from this inventory row: code is ""tag42102"" and amount is the integer 14. Use exactly those two keys. Return only JSON.","{""code"":""tag42102"",""amount"":14}",content
+fresh64,1,03ba7944996773967ba9f1e60667eb56dd7f398efb116732520b1fed6166babe,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42102"",
+  ""amount"": 14
+}
+```","```json
+{""code"":""tag420"",""amount"":14}
+```",True,False,False,False,"[18, 23]",27,18,1.0041249999776483,0.6367161250673234,"Write one JSON object from this inventory row: code is ""tag42102"" and amount is the integer 14. Use exactly those two keys. Return only JSON.","{""code"":""tag42102"",""amount"":14}",content
+fresh64,1,03ba7944996773967ba9f1e60667eb56dd7f398efb116732520b1fed6166babe,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42102"",
+  ""amount"": 14
+}
+```","```json
+{""code"":""tag420"",""amount"":14}
+```",True,False,False,False,"[18, 23]",27,18,0.9931221660226583,0.6417274998966604,"Write one JSON object from this inventory row: code is ""tag42102"" and amount is the integer 14. Use exactly those two keys. Return only JSON.","{""code"":""tag42102"",""amount"":14}",content
+fresh64,1,050caf3b3a6ac3991ebaf4d6edf4222bcd71e23d92198c1bd33cb6cb0f742b7c,lean_option_stable1,lean_option_full,arithmetic,Wrong -> Wrong,B,"To determine the change due, we need to follow these steps:
+
+1. Calculate",False,False,False,True,[24],1,16,0.11336612491868436,0.6391881250310689,"A shop ticket lists 4 identical pens at 23 credits each. The customer gives 121 credits. How many credits of change are due?
+A) 29
+B) 63
+C) 23
+D) 92
+Return only the option letter.",A,format_or_unresolved
+fresh64,1,2b152a2faa9747b075e25e5390a3780ab1fabe99b566866bc73beb2269b43c2c,legacy_stable1,legacy_full,reading,Correct -> Correct,A,A) Wesi41102,True,True,False,True,[24],2,10,0.166123874951154,0.43959533399902284,"Dispatch record 41102: Rilo41102 gives a sealed envelope to Tema41102. Tema41102 then gives it to Wesi41102. No other transfer occurs. Who holds it at the end?
+A) Wesi41102
+B) Tema41102
+C) Rilo41102
+D) Nobody
+Return only the option letter.",A,none
+fresh64,1,2b152a2faa9747b075e25e5390a3780ab1fabe99b566866bc73beb2269b43c2c,legacy_sketch,legacy_full,reading,Correct -> Correct,A,A) Wesi41102,True,True,False,True,[23],2,10,0.166123874951154,0.4407141669653356,"Dispatch record 41102: Rilo41102 gives a sealed envelope to Tema41102. Tema41102 then gives it to Wesi41102. No other transfer occurs. Who holds it at the end?
+A) Wesi41102
+B) Tema41102
+C) Rilo41102
+D) Nobody
+Return only the option letter.",A,none
+fresh64,1,2b152a2faa9747b075e25e5390a3780ab1fabe99b566866bc73beb2269b43c2c,lean_stable1,lean_full,reading,Correct -> Correct,A,A) Wesi41102,True,True,False,True,[24],2,10,0.1634555421769619,0.43518070806749165,"Dispatch record 41102: Rilo41102 gives a sealed envelope to Tema41102. Tema41102 then gives it to Wesi41102. No other transfer occurs. Who holds it at the end?
+A) Wesi41102
+B) Tema41102
+C) Rilo41102
+D) Nobody
+Return only the option letter.",A,none
+fresh64,1,2b152a2faa9747b075e25e5390a3780ab1fabe99b566866bc73beb2269b43c2c,lean_sketch,lean_full,reading,Correct -> Correct,A,A) Wesi41102,True,True,False,True,[23],2,10,0.1634555421769619,0.4360938749741763,"Dispatch record 41102: Rilo41102 gives a sealed envelope to Tema41102. Tema41102 then gives it to Wesi41102. No other transfer occurs. Who holds it at the end?
+A) Wesi41102
+B) Tema41102
+C) Rilo41102
+D) Nobody
+Return only the option letter.",A,none
+fresh64,1,7eb7c4148ab880f5d834d7133f622b5f7f81820e3193366a838b15a21e623136,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42106"",
+  ""amount"": 18
+}
+```","```json
+{""code"":""tag4206"",""amount"":18}
+```",True,False,False,False,"[18, 23]",27,19,1.0201930420007557,0.6901794159784913,"Write one JSON object from this inventory row: code is ""tag42106"" and amount is the integer 18. Use exactly those two keys. Return only JSON.","{""code"":""tag42106"",""amount"":18}",content
+fresh64,1,7eb7c4148ab880f5d834d7133f622b5f7f81820e3193366a838b15a21e623136,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42106"",
+  ""amount"": 18
+}
+```","```json
+{""code"":""tag4206"",""amount"":18}
+```",True,False,False,False,"[18, 23]",27,19,1.014207832980901,0.6750228330492973,"Write one JSON object from this inventory row: code is ""tag42106"" and amount is the integer 18. Use exactly those two keys. Return only JSON.","{""code"":""tag42106"",""amount"":18}",content
+fresh64,1,7eb7c4148ab880f5d834d7133f622b5f7f81820e3193366a838b15a21e623136,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42106"",
+  ""amount"": 18
+}
+```","```json
+{""code"":""tag4206"",""amount"":18}
+```",True,False,False,False,"[18, 23]",27,19,1.1126731659751385,0.6853332910686731,"Write one JSON object from this inventory row: code is ""tag42106"" and amount is the integer 18. Use exactly those two keys. Return only JSON.","{""code"":""tag42106"",""amount"":18}",content
+fresh64,1,492787e7af41f008720b2b02dca8dbaafa10d0c2def1341f91c3ff29ff0ca49a,legacy_stable1,legacy_full,coding,Correct -> Wrong,C),A) 11,True,False,False,False,[24],3,6,0.18410883285105228,0.2930224579758942,"Python test 41102:
+```python
+x = 6
+print(x * 2 + 1)
+```
+What is printed?
+A) 11
+B) 12
+C) 13
+D) 7
+Return only the option letter.",C,content
+fresh64,1,492787e7af41f008720b2b02dca8dbaafa10d0c2def1341f91c3ff29ff0ca49a,lean_stable1,lean_full,coding,Correct -> Wrong,C),A) 11,True,False,False,False,[24],3,6,0.19294700003229082,0.28319733403623104,"Python test 41102:
+```python
+x = 6
+print(x * 2 + 1)
+```
+What is printed?
+A) 11
+B) 12
+C) 13
+D) 7
+Return only the option letter.",C,content
+fresh64,1,492787e7af41f008720b2b02dca8dbaafa10d0c2def1341f91c3ff29ff0ca49a,lean_option_stable1,lean_option_full,coding,Correct -> Wrong,C,A,True,False,True,True,[24],1,1,0.11052579083479941,0.11443945905193686,"Python test 41102:
+```python
+x = 6
+print(x * 2 + 1)
+```
+What is printed?
+A) 11
+B) 12
+C) 13
+D) 7
+Return only the option letter.",C,content
+fresh64,1,cc7c53fa89df2facc1a22c98cfca1afde2fe3dc7c5af980e393a1a3aa79948f8,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42100"",
+  ""amount"": 12
+}
+```","```json
+{""code"":""tag420"",""amount"":12}
+```",True,False,False,False,"[18, 23]",27,18,1.018477417062968,0.6602050000801682,"Write one JSON object from this inventory row: code is ""tag42100"" and amount is the integer 12. Use exactly those two keys. Return only JSON.","{""code"":""tag42100"",""amount"":12}",content
+fresh64,1,cc7c53fa89df2facc1a22c98cfca1afde2fe3dc7c5af980e393a1a3aa79948f8,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42100"",
+  ""amount"": 12
+}
+```","```json
+{""code"":""tag420"",""amount"":12}
+```",True,False,False,False,"[18, 23]",27,18,1.0478622501250356,0.6550481671001762,"Write one JSON object from this inventory row: code is ""tag42100"" and amount is the integer 12. Use exactly those two keys. Return only JSON.","{""code"":""tag42100"",""amount"":12}",content
+fresh64,1,cc7c53fa89df2facc1a22c98cfca1afde2fe3dc7c5af980e393a1a3aa79948f8,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42100"",
+  ""amount"": 12
+}
+```","```json
+{""code"":""tag420"",""amount"":12}
+```",True,False,False,False,"[18, 23]",27,18,1.0398774589411914,0.6564915000926703,"Write one JSON object from this inventory row: code is ""tag42100"" and amount is the integer 12. Use exactly those two keys. Return only JSON.","{""code"":""tag42100"",""amount"":12}",content
+fresh64,1,e50c3b628777bf9c701cc56ce8c0bc1ceae03b4a840464830f9d83dfa5466084,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42103"",
+  ""amount"": 15
+}
+```","```json
+{""code"":""tag4203"",""amount"":15}
+```",True,False,False,False,"[18, 23]",27,19,1.0389136672019958,0.6825310001149774,"Write one JSON object from this inventory row: code is ""tag42103"" and amount is the integer 15. Use exactly those two keys. Return only JSON.","{""code"":""tag42103"",""amount"":15}",content
+fresh64,1,e50c3b628777bf9c701cc56ce8c0bc1ceae03b4a840464830f9d83dfa5466084,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42103"",
+  ""amount"": 15
+}
+```","```json
+{""code"":""tag4203"",""amount"":15}
+```",True,False,False,False,"[18, 23]",27,19,1.0081237088888884,0.6823464999906719,"Write one JSON object from this inventory row: code is ""tag42103"" and amount is the integer 15. Use exactly those two keys. Return only JSON.","{""code"":""tag42103"",""amount"":15}",content
+fresh64,1,e50c3b628777bf9c701cc56ce8c0bc1ceae03b4a840464830f9d83dfa5466084,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42103"",
+  ""amount"": 15
+}
+```","```json
+{""code"":""tag4203"",""amount"":15}
+```",True,False,False,False,"[18, 23]",27,19,1.0112501250114292,0.6584123750217259,"Write one JSON object from this inventory row: code is ""tag42103"" and amount is the integer 15. Use exactly those two keys. Return only JSON.","{""code"":""tag42103"",""amount"":15}",content
+fresh64,1,01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661,legacy_stable1,legacy_full,logic,Correct -> Correct,B,B) White,True,True,False,True,[24],2,4,0.15269274986349046,0.21486966707743704,"Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Red
+D) Green
+Return only the option letter.",B,none
+fresh64,1,01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661,legacy_sketch,legacy_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],2,2,0.15269274986349046,0.14745820895768702,"Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Red
+D) Green
+Return only the option letter.",B,content
+fresh64,1,01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661,lean_stable1,lean_full,logic,Correct -> Correct,B,B) White,True,True,False,True,[24],2,4,0.1485439578536898,0.21444025007076561,"Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Red
+D) Green
+Return only the option letter.",B,none
+fresh64,1,01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661,lean_sketch,lean_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],2,2,0.1485439578536898,0.1479042919818312,"Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Red
+D) Green
+Return only the option letter.",B,content
+fresh64,1,01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661,lean_option_sketch,lean_option_full,logic,Correct -> Wrong,B,C,True,False,True,True,[23],1,1,0.11292650015093386,0.10958412499167025,"Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?
+A) Cannot be determined
+B) White
+C) Red
+D) Green
+Return only the option letter.",B,content
+fresh64,1,d7ff50a341e08ed2e48c10ad9c7d65f30d02a665678d71a07afe2d71dc50d3de,legacy_sketch,legacy_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42105"",
+  ""amount"": 17
+}
+```","```json
+{""code"":""tag4205"",""amount"":17}
+```",True,False,False,False,"[18, 23]",27,19,1.0041565420106053,0.693091084016487,"Write one JSON object from this inventory row: code is ""tag42105"" and amount is the integer 17. Use exactly those two keys. Return only JSON.","{""code"":""tag42105"",""amount"":17}",content
+fresh64,1,d7ff50a341e08ed2e48c10ad9c7d65f30d02a665678d71a07afe2d71dc50d3de,lean_sketch,lean_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42105"",
+  ""amount"": 17
+}
+```","```json
+{""code"":""tag4205"",""amount"":17}
+```",True,False,False,False,"[18, 23]",27,19,0.991571000078693,0.6780999999027699,"Write one JSON object from this inventory row: code is ""tag42105"" and amount is the integer 17. Use exactly those two keys. Return only JSON.","{""code"":""tag42105"",""amount"":17}",content
+fresh64,1,d7ff50a341e08ed2e48c10ad9c7d65f30d02a665678d71a07afe2d71dc50d3de,lean_option_sketch,lean_option_full,structured_output,Correct -> Wrong,"```json
+{
+  ""code"": ""tag42105"",
+  ""amount"": 17
+}
+```","```json
+{""code"":""tag4205"",""amount"":17}
+```",True,False,False,False,"[18, 23]",27,19,1.0067646249663085,0.6655013340059668,"Write one JSON object from this inventory row: code is ""tag42105"" and amount is the integer 17. Use exactly those two keys. Return only JSON.","{""code"":""tag42105"",""amount"":17}",content

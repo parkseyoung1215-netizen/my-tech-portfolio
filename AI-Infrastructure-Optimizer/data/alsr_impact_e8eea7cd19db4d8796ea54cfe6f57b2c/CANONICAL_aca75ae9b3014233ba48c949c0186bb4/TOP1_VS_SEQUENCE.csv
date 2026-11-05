@@ -1,0 +1,4 @@
+method,scope,n_repeat_observations,unique_questions,response_changed,correct_destroyed,correct_repaired
+stable1,only requests actually skipping exactly1 layer with first top1 unchanged,186,62,90,0,0
+random1,only requests actually skipping exactly1 layer with first top1 unchanged,126,57,69,5,0
+prelayer_gate,only requests actually skipping exactly1 layer with first top1 unchanged,0,0,0,0,0

@@ -1,0 +1,18 @@
+{
+  "run_id": "c038afc6c5df422aa9e58080a4fa5847",
+  "prefix_name": "rcav_c038afc6c5df422aa9e58080a4fa5847",
+  "real_inference": true,
+  "evaluation_seconds": 345.5048587080091,
+  "evaluated_rows": 4500,
+  "unique_evaluation_calls": 5332,
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "repeats": 3,
+  "preserved_files_checked": 197,
+  "preserved_unchanged": true,
+  "manifest_sha256": "676d9b24ec773537cda7408ca8b557ee117425b324fab4540ac3c253c57931af",
+  "profiles_sha256": "c447f6a51fc85eab343dd2c7e97c33275ddfc9dfc8b967d6d44e9df23181a382",
+  "cost_status": "unmeasured"
+}

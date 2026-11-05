@@ -1,0 +1,8 @@
+{
+  "matplotlib": "3.11.2",
+  "sources": [
+    "ALSR_RESULTS.csv",
+    "ALSR_COMPARISONS.csv"
+  ],
+  "no_synthetic_performance": true
+}

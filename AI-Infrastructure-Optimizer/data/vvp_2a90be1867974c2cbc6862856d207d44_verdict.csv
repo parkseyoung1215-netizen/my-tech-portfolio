@@ -1,0 +1,3 @@
+model,main_budget,success,criteria,limits
+qwen2.5:1.5b,25,False,"{""A_accuracy_not_lower"": false, ""B_conditional_accounted_cpu_lower"": true, ""D_benefit_over_no_verification"": false, ""C_two_cohorts_direction"": false}","Conditional measured-component CPU accounting, not independent production end-to-end proof; training acquisition overhead separate."
+qwen2.5:0.5b,25,False,"{""A_accuracy_not_lower"": false, ""B_conditional_accounted_cpu_lower"": true, ""D_benefit_over_no_verification"": false, ""C_two_cohorts_direction"": false}","Conditional measured-component CPU accounting, not independent production end-to-end proof; training acquisition overhead separate."

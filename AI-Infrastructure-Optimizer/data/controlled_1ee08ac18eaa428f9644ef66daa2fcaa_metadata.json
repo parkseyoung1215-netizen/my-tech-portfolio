@@ -1,0 +1,15 @@
+{
+  "run_id": "1ee08ac18eaa428f9644ef66daa2fcaa",
+  "prefix_name": "controlled_1ee08ac18eaa428f9644ef66daa2fcaa",
+  "real_inference": true,
+  "evaluation_loop_seconds": 913.2405917500146,
+  "outcome_rows": 18000,
+  "actual_verifier_calls": 7325,
+  "shared_primary_model_calls": 720,
+  "manifest_sha256": "45d478ae8d5f8d8e2ee9048cc15c7fa04b1a0a27c4525c54e0311a1919312965",
+  "profiles_sha256": "a94fcec1e81523c5d689849fa65281787f80153e8a28437d57d3aa1ed9ae7a6a",
+  "primary_cache_sha256": "6b2cf3b25fce19cbb8428cedd0d454888b0e9ed76994704c09381ef08f4d9da0",
+  "preserved_files_checked": 311,
+  "all_primaries_shared_and_not_regenerated": true,
+  "power_gpu_flops_money_status": "unmeasured"
+}

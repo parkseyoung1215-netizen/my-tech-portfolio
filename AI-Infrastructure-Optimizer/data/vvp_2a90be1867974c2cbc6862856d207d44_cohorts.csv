@@ -1,0 +1,9 @@
+model,cohort,control,control_budget,accuracy_delta,unique_questions
+qwen2.5:1.5b,A,selective,100,-0.02666666666666667,150
+qwen2.5:1.5b,B,selective,100,0,150
+qwen2.5:1.5b,A,none,0,0,150
+qwen2.5:1.5b,B,none,0,0,150
+qwen2.5:0.5b,A,selective,100,0.02,150
+qwen2.5:0.5b,B,selective,100,0.02666666666666667,150
+qwen2.5:0.5b,A,none,0,0.006666666666666667,150
+qwen2.5:0.5b,B,none,0,-0.006666666666666667,150

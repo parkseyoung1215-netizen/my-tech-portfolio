@@ -1,0 +1,8 @@
+method,phase,task_success,wall_seconds_per_repeat,cpu_seconds_per_repeat,fixed_wall_seconds_per_repeat
+baseline,"Original tie-noisy training labels, not primary corrected analysis",0.59375,24.19663939004143,6.025225666666661,10.229535112933567
+adaptive_sketch,"Original tie-noisy training labels, not primary corrected analysis",0.5625,23.852544638483476,5.8473160000001485,9.878547806525603
+static,"Original tie-noisy training labels, not primary corrected analysis",0.1875,29.718989071513835,7.365998,8.93822195668084
+random,"Original tie-noisy training labels, not primary corrected analysis",0.16666666666666666,31.612715180109564,7.911227000000063,8.855085388990119
+stable1,"Original tie-noisy training labels, not primary corrected analysis",0.59375,27.498947905997436,7.120481666666573,9.90591588957856
+random1,"Original tie-noisy training labels, not primary corrected analysis",0.4375,25.21591519416931,6.360984999999904,9.845120541828996
+prelayer_gate,"Original tie-noisy training labels, not primary corrected analysis",0.59375,24.179481624159962,6.135210999999913,10.27441723505035

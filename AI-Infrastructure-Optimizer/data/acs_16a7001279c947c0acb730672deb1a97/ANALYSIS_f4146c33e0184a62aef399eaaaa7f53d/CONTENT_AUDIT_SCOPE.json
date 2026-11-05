@@ -1,0 +1,9 @@
+{
+  "posthoc": true,
+  "reason": "All8 doctor cases used physician in Baseline; literal matching hid fact loss from stops at Dr.",
+  "equivalence_assumption": "doctor and physician treated as equivalent requested role for this limited audit",
+  "policy_or_threshold_or_model_output_changes": false,
+  "original_scores_overwritten": false,
+  "identified_fidelity_additions": "Dedicated/diligently and some invented patient/community details remain quality failures; audit is not full semantic evaluation",
+  "not_a_new_blind_holdout": true
+}

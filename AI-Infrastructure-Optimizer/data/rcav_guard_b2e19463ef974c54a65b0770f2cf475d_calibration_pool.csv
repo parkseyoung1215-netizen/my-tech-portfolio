@@ -1,0 +1,985 @@
+question,expected,category,primary_answer,primary_prediction,verification_answer,final_prediction,primary_correct,final_correct,response_status,verification_model_seconds,calibration_source
+"Read the passage: On schedule 11, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) Never
+B) 18:00
+C) 20:00
+D) 19:00",C,comprehension,C,C,C,C,True,True,bare,0.083303,historical_training100
+"What does this Python program output?
+```python
+print(sum(range(24, 31, 2)))
+```
+A) 31
+B) 96
+C) Error
+D) 108",D,coding,B,B,B,B,False,False,bare,0.08695,historical_training100
+"Reason about a weekly calendar: today is Friday. Which weekday is 14 days later?
+A) Thursday
+B) Friday
+C) Monday
+D) Sunday",B,logic,B,B,A,A,True,False,bare,0.082887,historical_training100
+"Reason about directed links: P14a->P14b, P14c->P14b, P14b->P14d. Starting at P14a, which listed node can be reached after exactly two links?
+A) P14a
+B) P14b
+C) P14d
+D) P14c",C,logic,"B, C, D",,"C, D",,False,False,unresolved,0.106431,historical_training100
+"What does this Python program output?
+```python
+v = [22, 24, 27]
+print(v[1:][0])
+```
+A) Error
+B) 24
+C) 27
+D) 22",B,coding,B,B,B,B,True,True,bare,0.08158599999999999,historical_training100
+1897 - 229,1668,arithmetic,1668,1668,1668,1668,True,True,bare,0.119903,historical_training100
+"Reason about bit parity case 13: bits=[1, 1, 1, 0, 0, 0, 1, 1, 0]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",C,logic,C,C,C,C,True,True,bare,0.085346,historical_training100
+1982 * 22,43604,arithmetic,43604,43604,43564,43564,True,False,bare,0.127544,historical_training100
+"What does this Python program output?
+```python
+v = [21, 23, 26]
+print(v[1:][0])
+```
+A) 23
+B) 26
+C) Error
+D) 21",A,coding,A,A,A,A,True,True,bare,0.081699,historical_training100
+"Which chemical element has the symbol F?
+A) Iron
+B) Fermium
+C) Fluorine
+D) Francium",C,knowledge,C,C,C,C,True,True,bare,0.081515,historical_training100
+"Read the passage: Booking 14 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Both rooms
+B) No room
+C) Room Pine
+D) Room Elm",C,comprehension,C,C,B,B,True,False,bare,0.084176,historical_training100
+"Reason about a weekly calendar: today is Saturday. Which weekday is 15 days later?
+A) Tuesday
+B) Sunday
+C) Friday
+D) Monday",B,logic,B,B,B,B,True,True,bare,0.082433,historical_training100
+1698 - 198,1500,arithmetic,1500,1500,401,401,True,False,bare,0.106074,historical_training100
+(1638 - 132) * 18,27108,arithmetic,27108,27108,27108,27108,True,True,bare,0.1277,historical_training100
+"What does this Python program output?
+```python
+print([n for n in range(24, 29) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [24, 26, 28]
+D) [24, 25, 26, 27, 28]",C,coding,C,C,C,C,True,True,bare,0.08477900000000001,historical_training100
+"What does this Python program output?
+```python
+print([n for n in range(22, 27) if n % 2 == 0])
+```
+A) [22, 23, 24, 25, 26]
+B) []
+C) [22, 24, 26]
+D) Error",C,coding,C,C,C,C,True,True,bare,0.084088,historical_training100
+"Read the passage: Mira14 paid 24 coins and received a refund of 14 coins. The receipt explicitly lists the refund as 14 coins. How many coins were refunded?
+A) Zero
+B) 14
+C) 24
+D) 10",B,comprehension,B,B,B,B,True,True,bare,0.08470599999999999,historical_training100
+"Which cell structure controls much of the exchange with its surroundings?
+A) Chromosome
+B) Cell membrane
+C) Nucleolus
+D) Ribosome",B,knowledge,B,B,B,B,True,True,bare,0.083185,historical_training100
+"Reason about bit parity case 14: bits=[0, 0, 1, 0, 1, 0, 1, 0, 0]. Is the count of 1 bits odd or even?
+A) Neither
+B) Cannot determine
+C) Even
+D) Odd",D,logic,C,C,D,D,False,True,bare,0.08439300000000001,historical_training100
+"Which organ contains the vocal cords?
+A) Esophagus
+B) Liver
+C) Larynx
+D) Stomach",C,knowledge,C,C,C,C,True,True,bare,0.08315099999999999,historical_training100
+"Read the passage: Mira13 paid 23 coins and received a refund of 13 coins. The receipt explicitly lists the refund as 13 coins. How many coins were refunded?
+A) 23
+B) Zero
+C) 10
+D) 13",D,comprehension,B,B,B,B,False,False,bare,0.084231,historical_training100
+"Which chemical element has the symbol Be?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",A,knowledge,A,A,A,A,True,True,bare,0.083811,historical_training100
+1471 - 297,1174,arithmetic,1174,1174,1174,1174,True,True,bare,0.117651,historical_training100
+(2288 - 133) * 19,40945,arithmetic,40945,40945,8855,8855,True,False,bare,0.119144,historical_training100
+"Reason about a four-person race: Karo14 finishes before Lumi14; Juna14 finishes before Karo14; Ivo14 finishes before Juna14. Who finishes in position 3?
+A) Ivo14
+B) Juna14
+C) Lumi14
+D) Karo14",D,logic,D,D,D,D,True,True,bare,0.085242,historical_training100
+2077 * 57,118389,arithmetic,118389,118389,118389,118389,True,True,bare,0.14199,historical_training100
+2532 * 48,121536,arithmetic,121536,121536,121536,121536,True,True,bare,0.13661800000000002,historical_training100
+"Read the passage: Booking 11 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Both rooms
+C) Room Pine
+D) No room",C,comprehension,B,B,D,D,False,False,bare,0.081245,historical_training100
+2832 - 124,2708,arithmetic,2708,2708,2708,2708,True,True,bare,0.11503,historical_training100
+2409 * 13,31317,arithmetic,31317,31317,31317,31317,True,True,bare,0.124912,historical_training100
+"Reason about a four-person race: Karo11 finishes before Lumi11; Ivo11 finishes before Juna11; Juna11 finishes before Karo11. Who finishes in position 4?
+A) Lumi11
+B) Ivo11
+C) Juna11
+D) Karo11",A,logic,D,D,D,D,False,False,bare,0.084549,historical_training100
+"Which chemical element has the symbol O?
+A) Gold
+B) Silver
+C) Oxygen
+D) Osmium",C,knowledge,C,C,D,D,True,False,bare,0.08284799999999999,historical_training100
+"Which chemical element has the symbol Mg?
+A) Magnesium
+B) Molybdenum
+C) Manganese
+D) Mercury",A,knowledge,A,A,A,A,True,True,bare,0.083235,historical_training100
+"Reason about set membership: X=[13, 15, 17] and Y=[12, 15, 18]. Which value belongs to both?
+A) 15
+B) 18
+C) 13
+D) 12",A,logic,A,A,A,A,True,True,bare,0.084569,historical_training100
+"Reason about a four-person race: Juna12 finishes before Karo12; Karo12 finishes before Lumi12; Ivo12 finishes before Juna12. Who finishes in position 1?
+A) Juna12
+B) Lumi12
+C) Karo12
+D) Ivo12",D,logic,B,B,B,B,False,False,bare,0.083519,historical_training100
+"Which gas do plants consume during photosynthesis?
+A) Neon
+B) Carbon dioxide
+C) Helium
+D) Hydrogen",B,knowledge,B,B,B,B,True,True,bare,0.082857,historical_training100
+"Read the passage: Mira12 wrote a poem. Niko12 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira12
+C) Niko12
+D) Both composed it",B,comprehension,B,B,B,B,True,True,bare,0.084479,historical_training100
+"Read the passage: Booking 13 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Room Pine
+C) Both rooms
+D) No room",B,comprehension,B,B,D,D,True,False,bare,0.085091,historical_training100
+"What does this Python program output?
+```python
+s = '  wave14 blue sky  '
+print(len(s.strip().split()))
+```
+A) 4
+B) 3
+C) 2
+D) Error",B,coding,A,A,A,A,False,False,bare,0.086088,historical_training100
+"Which SI unit measures frequency?
+A) Pascal
+B) Newton
+C) Hertz
+D) Joule",C,knowledge,C,C,C,C,True,True,bare,0.08369499999999999,historical_training100
+"Reason about set membership: X=[16, 18, 20] and Y=[15, 18, 21]. Which value belongs to both?
+A) 21
+B) 18
+C) 15
+D) 16",B,logic,B,B,B,B,True,True,bare,0.08301900000000001,historical_training100
+"What does this Python program output?
+```python
+print(sum(range(22, 29, 2)))
+```
+A) 88
+B) 29
+C) 100
+D) Error",C,coding,A,A,A,A,False,False,bare,0.082375,historical_training100
+"What does this Python program output?
+```python
+print([n for n in range(21, 26) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [21, 22, 23, 24, 25]
+D) [22, 24]",D,coding,B,B,B,B,False,False,bare,0.08388899999999999,historical_training100
+"Which SI unit measures electric resistance?
+A) Joule
+B) Volt
+C) Ohm
+D) Ampere",C,knowledge,C,C,D,D,True,False,bare,0.08426499999999999,historical_training100
+"Read the passage: On schedule 14, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 18:00
+B) 20:00
+C) Never
+D) 19:00",B,comprehension,B,B,B,B,True,True,bare,0.0844,historical_training100
+2167 - 233,1934,arithmetic,1934,1934,1934,1934,True,True,bare,0.116467,historical_training100
+"Read the passage: On schedule 12, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 18:00
+C) 20:00
+D) Never",C,comprehension,A,A,C,C,False,True,bare,0.081015,historical_training100
+1324 * 16,21184,arithmetic,21184,21184,21168,21168,True,False,bare,0.12545800000000001,historical_training100
+"What does this Python program output?
+```python
+s = '  wave13 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) 4
+D) Error",B,coding,A,A,D,D,False,False,bare,0.080873,historical_training100
+"Read the passage: Ticket 13 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Confirmed
+C) Unknown
+D) Cancelled",D,comprehension,D,D,D,D,True,True,bare,0.084543,historical_training100
+"What does this Python program output?
+```python
+v = [23, 25, 28]
+print(v[1:][0])
+```
+A) Error
+B) 23
+C) 25
+D) 28",C,coding,C,C,C,C,True,True,bare,0.083404,historical_training100
+"Read the passage: Mira12 paid 22 coins and received a refund of 12 coins. The receipt explicitly lists the refund as 12 coins. How many coins were refunded?
+A) 22
+B) 12
+C) Zero
+D) 10",B,comprehension,B,B,B,B,True,True,bare,0.084082,historical_training100
+"Reason about set membership: X=[15, 17, 19] and Y=[14, 17, 20]. Which value belongs to both?
+A) 15
+B) 14
+C) 17
+D) 20",C,logic,C,C,D,D,True,False,bare,0.08323,historical_training100
+"What does this Python program output?
+```python
+s = '  wave12 blue sky  '
+print(len(s.strip().split()))
+```
+A) Error
+B) 4
+C) 3
+D) 2",C,coding,B,B,B,B,False,False,bare,0.084551,historical_training100
+"Read the passage: Booking 12 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) No room
+B) Room Pine
+C) Both rooms
+D) Room Elm",B,comprehension,B,B,B,B,True,True,bare,0.08437,historical_training100
+"Which SI unit measures force?
+A) Pascal
+B) Newton
+C) Kelvin
+D) Watt",B,knowledge,B,B,B,B,True,True,bare,0.085618,historical_training100
+"Read the passage: Mira13 wrote a poem. Niko13 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira13
+C) Niko13
+D) Both composed it",B,comprehension,B,B,B,B,True,True,bare,0.083898,historical_training100
+2337 - 176,2161,arithmetic,2161,2161,2161,2161,True,True,bare,0.119613,historical_training100
+"Reason about bit parity case 11: bits=[1, 0, 0, 0, 1, 0, 1, 1, 1]. Is the count of 1 bits odd or even?
+A) Cannot determine
+B) Even
+C) Neither
+D) Odd",D,logic,B,B,D,D,False,True,bare,0.08371400000000001,historical_training100
+"Which process converts liquid water to water vapor?
+A) Freezing
+B) Melting
+C) Evaporation
+D) Condensation",C,knowledge,C,C,C,C,True,True,bare,0.08358700000000001,historical_training100
+"Which chemical element has the symbol Ne?
+A) Nitrogen
+B) Nickel
+C) Neon
+D) Sodium",C,knowledge,C,C,C,C,True,True,bare,0.08418300000000001,historical_training100
+"What does this Python program output?
+```python
+v = [24, 26, 29]
+print(v[1:][0])
+```
+A) Error
+B) 26
+C) 29
+D) 24",B,coding,B,B,B,B,True,True,bare,0.08433399999999999,historical_training100
+"Which SI unit measures electric potential difference?
+A) Hertz
+B) Ohm
+C) Volt
+D) Ampere",C,knowledge,C,C,C,C,True,True,bare,0.083635,historical_training100
+"Which SI unit measures pressure?
+A) Joule
+B) Newton
+C) Ampere
+D) Pascal",D,knowledge,D,D,D,D,True,True,bare,0.084069,historical_training100
+"Read the passage: On schedule 13, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 20:00
+C) Never
+D) 18:00",B,comprehension,B,B,B,B,True,True,bare,0.08465500000000001,historical_training100
+"Which blood components help initiate clotting?
+A) Egg cells
+B) Neurons
+C) Platelets
+D) Muscle cells",C,knowledge,C,C,C,C,True,True,bare,0.085079,historical_training100
+2643 * 23,60789,arithmetic,60789,60789,60789,60789,True,True,bare,0.130604,historical_training100
+"Reason about directed links: P13a->P13b, P13c->P13b, P13b->P13d. Starting at P13a, which listed node can be reached after exactly two links?
+A) P13b
+B) P13a
+C) P13c
+D) P13d",D,logic,A,A,D,D,False,True,bare,0.08539999999999999,historical_training100
+"Which chemical element has the symbol B?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",B,knowledge,B,B,B,B,True,True,bare,0.083338,historical_training100
+2354 - 137,2217,arithmetic,2217,2217,2217,2217,True,True,bare,0.11907100000000001,historical_training100
+"Reason about a weekly calendar: today is Monday. Which weekday is 17 days later?
+A) Tuesday
+B) Monday
+C) Saturday
+D) Thursday",D,logic,B,B,C,C,False,False,bare,0.08187599999999999,historical_training100
+(2033 - 151) * 17,31994,arithmetic,31994,31994,6194,6194,True,False,bare,0.115761,historical_training100
+"What does this Python program output?
+```python
+d = {'x': 22}
+print(d.get('z', 7) + d['x'])
+```
+A) 22
+B) 29
+C) Error
+D) 7",B,coding,B,B,B,B,True,True,bare,0.08259999999999999,historical_training100
+"What does this Python program output?
+```python
+d = {'x': 21}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 28
+C) 7
+D) 21",B,coding,B,B,B,B,True,True,bare,0.08685599999999999,historical_training100
+"Reason about directed links: P11a->P11b, P11c->P11b, P11b->P11d. Starting at P11a, which listed node can be reached after exactly two links?
+A) P11a
+B) P11b
+C) P11c
+D) P11d",D,logic,"B, C, D",,D,D,False,True,unresolved,0.08167400000000001,historical_training100
+(1730 - 220) * 45,67950,arithmetic,67950,67950,2100,2100,True,False,bare,0.115704,historical_training100
+"Reason about directed links: P12a->P12b, P12c->P12b, P12b->P12d. Starting at P12a, which listed node can be reached after exactly two links?
+A) P12b
+B) P12a
+C) P12d
+D) P12c",C,logic,A,A,A,A,False,False,bare,0.085037,historical_training100
+"Reason about a four-person race: Ivo13 finishes before Juna13; Juna13 finishes before Karo13; Karo13 finishes before Lumi13. Who finishes in position 2?
+A) Lumi13
+B) Juna13
+C) Karo13
+D) Ivo13",B,logic,B,B,A,A,True,False,bare,0.085339,historical_training100
+"What does this Python program output?
+```python
+d = {'x': 23}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 23
+C) 30
+D) 7",C,coding,B,B,B,B,False,False,bare,0.08414999999999999,historical_training100
+"Read the passage: Ticket 14 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Cancelled
+B) Confirmed
+C) Unknown
+D) Pending",A,comprehension,A,A,A,A,True,True,bare,0.083811,historical_training100
+"Read the passage: Mira11 paid 21 coins and received a refund of 11 coins. The receipt explicitly lists the refund as 11 coins. How many coins were refunded?
+A) 11
+B) 21
+C) Zero
+D) 10",A,comprehension,A,A,A,A,True,True,bare,0.083817,historical_training100
+"Reason about set membership: X=[14, 16, 18] and Y=[13, 16, 19]. Which value belongs to both?
+A) 19
+B) 14
+C) 16
+D) 13",C,logic,C,C,B,B,True,False,bare,0.08434799999999999,historical_training100
+"Read the passage: Ticket 11 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Unknown
+C) Cancelled
+D) Confirmed",C,comprehension,C,C,D,D,True,False,bare,0.08459,historical_training100
+"What does this Python program output?
+```python
+print(sum(range(21, 28, 2)))
+```
+A) Error
+B) 96
+C) 84
+D) 28",B,coding,B,B,B,B,True,True,bare,0.084425,historical_training100
+"Reason about a weekly calendar: today is Sunday. Which weekday is 16 days later?
+A) Monday
+B) Tuesday
+C) Friday
+D) Sunday",B,logic,D,D,A,A,False,False,bare,0.08484499999999999,historical_training100
+1305 * 34,44370,arithmetic,44370,44370,44370,44370,True,True,bare,0.129361,historical_training100
+"Read the passage: Mira14 wrote a poem. Niko14 copied that poem without composing a new one. Who composed the poem?
+A) Mira14
+B) Both composed it
+C) Nobody
+D) Niko14",A,comprehension,A,A,D,D,True,False,bare,0.082924,historical_training100
+"What does this Python program output?
+```python
+print(sum(range(23, 30, 2)))
+```
+A) 92
+B) 104
+C) 30
+D) Error",B,coding,A,A,B,B,False,True,bare,0.083208,historical_training100
+(2745 - 172) * 35,90055,arithmetic,90055,90055,90055,90055,True,True,bare,0.128525,historical_training100
+"What does this Python program output?
+```python
+print([n for n in range(23, 28) if n % 2 == 0])
+```
+A) [23, 24, 25, 26, 27]
+B) []
+C) Error
+D) [24, 26]",D,coding,D,D,D,D,True,True,bare,0.08285400000000001,historical_training100
+"Read the passage: Mira11 wrote a poem. Niko11 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Niko11
+C) Both composed it
+D) Mira11",D,comprehension,D,D,D,D,True,True,bare,0.085754,historical_training100
+"Which organ stores bile before release?
+A) Kidney
+B) Gallbladder
+C) Spleen
+D) Bladder",B,knowledge,B,B,B,B,True,True,bare,0.08352899999999999,historical_training100
+"Which chemical element has the symbol S?
+A) Silicon
+B) Sulfur
+C) Sodium
+D) Silver",B,knowledge,B,B,B,B,True,True,bare,0.084632,historical_training100
+"Reason about bit parity case 12: bits=[0, 1, 1, 1, 0, 1, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",C,logic,C,C,C,C,True,True,bare,0.083744,historical_training100
+"Which SI unit measures electric current?
+A) Ampere
+B) Ohm
+C) Watt
+D) Volt",A,knowledge,A,A,A,A,True,True,bare,0.083347,historical_training100
+"What does this Python program output?
+```python
+s = '  wave11 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) Error
+D) 4",B,coding,D,D,D,D,False,False,bare,0.083917,historical_training100
+"Which chemical element has the symbol Cl?
+A) Carbon
+B) Chlorine
+C) Cobalt
+D) Calcium",B,knowledge,B,B,B,B,True,True,bare,0.085122,historical_training100
+"Read the passage: Ticket 12 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Cancelled
+C) Unknown
+D) Confirmed",B,comprehension,B,B,B,B,True,True,bare,0.083675,historical_training100
+"What does this Python program output?
+```python
+d = {'x': 24}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 7
+C) 24
+D) 31",D,coding,C,C,D,D,False,True,bare,0.089004,historical_training100
+(2166 - 276) * 44,83160,arithmetic,83160,83160,10000,10000,True,False,bare,0.148673,historical_training100
+"What mainly causes the regular cycle of day and night on Earth?
+A) The Sun orbiting Earth daily
+B) Lunar eclipses
+C) Earth rotating
+D) Earth changing size",C,knowledge,C,C,C,C,True,True,bare,0.083873,new_training100
+(3733 * 62) - 295,231151,arithmetic,231151,231151,231151,231151,True,True,bare,0.143211,new_training100
+"What does this Python program output?
+```python
+v = [83, 87, 92]
+print(v[1:][0])
+```
+A) 92
+B) 87
+C) 83
+D) Error",B,coding,B,B,B,B,True,True,bare,0.080733,new_training100
+"What does this Python program output?
+```python
+d = {'x': 85}
+print(d.get('z', 9) + d['x'])
+```
+A) 94
+B) 9
+C) 85
+D) Error",A,coding,A,A,C,C,True,False,bare,0.081732,new_training100
+"Read the passage: Notice 213 says all parks close at 17:00 except Park Fern, which closes at 19:00. When does Park Fern close today?
+A) 17:00
+B) 16:00
+C) 19:00
+D) Never",C,comprehension,C,C,D,D,True,False,bare,0.08226499999999999,new_training100
+"Reason about set membership: X=[213, 215, 217], Y=[212, 215, 218]. Which value belongs to both sets?
+A) 213
+B) 218
+C) 215
+D) 212",C,logic,C,C,D,D,True,False,bare,0.083434,new_training100
+"Which material forms the main structural component of plant cell walls?
+A) Cholesterol
+B) Cellulose
+C) Hemoglobin
+D) Glycogen",B,knowledge,B,B,B,B,True,True,bare,0.08383,new_training100
+"Reason about directed links: N211a->N211b, N211b->N211c, N211c->N211d. Starting at N211a, which node is reached after exactly two links?
+A) N211a
+B) N211c
+C) N211d
+D) N211b",B,logic,B,B,B,B,True,True,bare,0.084717,new_training100
+"What is the outermost solid layer of Earth called?
+A) Inner core
+B) Mantle only
+C) Crust
+D) Outer core",C,knowledge,C,C,D,D,True,False,bare,0.088461,new_training100
+"What does this Python program output?
+```python
+d = {'x': 83}
+print(d.get('z', 9) + d['x'])
+```
+A) Error
+B) 92
+C) 83
+D) 9",B,coding,B,B,B,B,True,True,bare,0.084901,new_training100
+"What does this Python program output?
+```python
+print(sum(range(83, 92, 3)))
+```
+A) 83
+B) Error
+C) 249
+D) 258",D,coding,C,C,D,D,False,True,bare,0.08474999999999999,new_training100
+"What is counted by an atom's mass number?
+A) Protons plus neutrons
+B) Electrons only
+C) Protons minus neutrons
+D) Photons",A,knowledge,A,A,A,A,True,True,bare,0.084437,new_training100
+"Read the passage: Notice 211 says all parks close at 17:00 except Park Fern, which closes at 19:00. When does Park Fern close today?
+A) Never
+B) 16:00
+C) 19:00
+D) 17:00",C,comprehension,C,C,D,D,True,False,bare,0.083962,new_training100
+"Which optical instrument is commonly used to observe distant stars?
+A) Thermometer
+B) Ammeter
+C) Microscope
+D) Telescope",D,knowledge,D,D,D,D,True,True,bare,0.083977,new_training100
+"Read the passage: Notice 214 says all parks close at 17:00 except Park Fern, which closes at 19:00. When does Park Fern close today?
+A) Never
+B) 17:00
+C) 16:00
+D) 19:00",D,comprehension,D,D,D,D,True,True,bare,0.084606,new_training100
+"Reason about bit parity case 214: bits=[1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]. Is the number of 1 bits odd or even?
+A) Neither
+B) Odd
+C) Cannot determine
+D) Even",B,logic,B,B,D,D,True,False,bare,0.084014,new_training100
+"Read the passage: Nora213 composed a song. Olin213 performed it. Who composed the first song?
+A) Both named people
+B) Nora213
+C) Nobody
+D) Olin213",B,comprehension,B,B,B,B,True,True,bare,0.082537,new_training100
+"Which rock type forms when molten magma or lava cools?
+A) Metamorphic
+B) Coal only
+C) Sedimentary
+D) Igneous",D,knowledge,D,D,D,D,True,True,bare,0.08307200000000001,new_training100
+(5129 * 24) - 258,122838,arithmetic,122838,122838,122838,122838,True,True,bare,0.13994499999999999,new_training100
+"What does this Python program output?
+```python
+v = [82, 86, 91]
+print(v[1:][0])
+```
+A) 82
+B) 91
+C) 86
+D) Error",C,coding,C,C,C,C,True,True,bare,0.08095000000000001,new_training100
+"Which planet has the greatest mass in the Solar System?
+A) Mars
+B) Earth
+C) Venus
+D) Jupiter",D,knowledge,D,D,D,D,True,True,bare,0.08143,new_training100
+"What does this Python program output?
+```python
+s = '  leaf214 red blue green  '
+print(len(s.strip().split()))
+```
+A) Error
+B) 4
+C) 2
+D) 5",B,coding,B,B,B,B,True,True,bare,0.082542,new_training100
+"Reason about a race: Aro213 finishes before Beni213; Cato213 finishes before Dina213; Beni213 finishes before Cato213. Who finishes in position 2?
+A) Dina213
+B) Aro213
+C) Cato213
+D) Beni213",D,logic,B,B,B,B,False,False,bare,0.082348,new_training100
+"Which rock type is changed by heat and pressure without fully melting?
+A) Sedimentary
+B) Igneous
+C) Liquid magma
+D) Metamorphic",D,knowledge,D,D,D,D,True,True,bare,0.085308,new_training100
+"Reason about bit parity case 212: bits=[1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0]. Is the number of 1 bits odd or even?
+A) Odd
+B) Neither
+C) Even
+D) Cannot determine",A,logic,A,A,A,A,True,True,bare,0.084384,new_training100
+"Reason about directed links: N213a->N213b, N213b->N213c, N213c->N213d. Starting at N213a, which node is reached after exactly two links?
+A) N213b
+B) N213c
+C) N213d
+D) N213a",B,logic,B,B,C,C,True,False,bare,0.08544600000000001,new_training100
+"Which particle carries a positive elementary electric charge?
+A) Neutron
+B) Photon
+C) Proton
+D) Electron",C,knowledge,C,C,C,C,True,True,bare,0.083451,new_training100
+"What does this Python program output?
+```python
+v = [84, 88, 93]
+print(v[1:][0])
+```
+A) 88
+B) Error
+C) 93
+D) 84",A,coding,A,A,A) 88,A,True,True,bare,0.12917499999999998,new_training100
+"Reason about a race: Beni212 finishes before Cato212; Cato212 finishes before Dina212; Aro212 finishes before Beni212. Who finishes in position 1?
+A) Beni212
+B) Cato212
+C) Dina212
+D) Aro212",D,logic,B,B,C,C,False,False,bare,0.084178,new_training100
+"Reason about set membership: X=[212, 214, 216], Y=[211, 214, 217]. Which value belongs to both sets?
+A) 214
+B) 211
+C) 212
+D) 217",A,logic,A,A,A,A,True,True,bare,0.085337,new_training100
+3875 - 215,3660,arithmetic,3660,3660,3660,3660,True,True,bare,0.118625,new_training100
+4571 - 323,4248,arithmetic,4248,4248,4248,4248,True,True,bare,0.114904,new_training100
+"Reason about directed links: N212a->N212b, N212b->N212c, N212c->N212d. Starting at N212a, which node is reached after exactly two links?
+A) N212c
+B) N212b
+C) N212a
+D) N212d",A,logic,A,A,D,D,True,False,bare,0.084135,new_training100
+"Read the passage: Order 213 went from queued to shipped to returned. What is its latest state?
+A) Queued
+B) Shipped
+C) Returned
+D) Unknown",C,comprehension,C,C,C,C,True,True,bare,0.084624,new_training100
+"Read the passage: Nora214 composed a song. Olin214 performed it. Who composed the first song?
+A) Olin214
+B) Nora214
+C) Nobody
+D) Both named people",B,comprehension,B,B,B,B,True,True,bare,0.085725,new_training100
+"Read the passage: Order 214 went from queued to shipped to returned. What is its latest state?
+A) Unknown
+B) Returned
+C) Shipped
+D) Queued",B,comprehension,B,B,B,B,True,True,bare,0.08444199999999999,new_training100
+"Reason about a weekly calendar: today is Thursday. Which weekday is it 27 days later?
+A) Tuesday
+B) Monday
+C) Saturday
+D) Wednesday",D,logic,D,D,B,B,True,False,bare,0.08496999999999999,new_training100
+"What does this Python program output?
+```python
+print([n for n in range(83, 89) if n % 2 == 1])
+```
+A) [83, 84, 85, 86, 87, 88]
+B) Error
+C) []
+D) [83, 85, 87]",D,coding,D,D,D,D,True,True,bare,0.08437700000000001,new_training100
+(3872 * 22) - 374,84810,arithmetic,84810,84810,84810,84810,True,True,bare,0.129786,new_training100
+"Read the passage: Receipt 213 records payment 84 coins and refund 16 coins. What is the refund amount?
+A) 16
+B) Zero
+C) 84
+D) 68",A,comprehension,B,B,B,B,False,False,bare,0.086352,new_training100
+"Reason about a race: Beni211 finishes before Cato211; Aro211 finishes before Beni211; Cato211 finishes before Dina211. Who finishes in position 4?
+A) Dina211
+B) Beni211
+C) Cato211
+D) Aro211",A,logic,B,B,B,B,False,False,bare,0.08265800000000001,new_training100
+"What does this Python program output?
+```python
+d = {'x': 82}
+print(d.get('z', 9) + d['x'])
+```
+A) 91
+B) 82
+C) Error
+D) 9",A,coding,B,B,B,B,False,False,bare,0.08427899999999999,new_training100
+"What does this Python program output?
+```python
+print(sum(range(85, 94, 3)))
+```
+A) 264
+B) Error
+C) 85
+D) 255",A,coding,A,A,A,A,True,True,bare,0.084149,new_training100
+"Which organelle produces much of the ATP in typical aerobic animal cells?
+A) Mitochondrion
+B) Chloroplast
+C) Cell wall
+D) Vacuole",A,knowledge,A,A,A,A,True,True,bare,0.083784,new_training100
+(4648 * 18) - 355,83309,arithmetic,83309,83309,83309,83309,True,True,bare,0.13140600000000002,new_training100
+"Reason about a weekly calendar: today is Tuesday. Which weekday is it 25 days later?
+A) Saturday
+B) Wednesday
+C) Tuesday
+D) Friday",A,logic,B,B,A,A,False,True,bare,0.08171099999999999,new_training100
+"What does this Python program output?
+```python
+print(sum(range(84, 93, 3)))
+```
+A) 261
+B) 84
+C) 252
+D) Error",A,coding,A,A,C,C,True,False,bare,0.082319,new_training100
+(3279 * 27) - 389,88144,arithmetic,88144,88144,88144,88144,True,True,bare,0.127971,new_training100
+"Read the passage: Order 211 went from queued to shipped to returned. What is its latest state?
+A) Returned
+B) Queued
+C) Shipped
+D) Unknown",A,comprehension,A,A,A,A,True,True,bare,0.081399,new_training100
+"What does this Python program output?
+```python
+print([n for n in range(85, 91) if n % 2 == 1])
+```
+A) [85, 86, 87, 88, 89, 90]
+B) []
+C) [85, 87, 89]
+D) Error",C,coding,C,C,D,D,True,False,bare,0.08574,new_training100
+3186 - 355,2831,arithmetic,2831,2831,2831,2831,True,True,bare,0.11905099999999999,new_training100
+3548 - 259,3289,arithmetic,3289,3289,2249,2249,True,False,bare,0.115375,new_training100
+3615 - 243,3372,arithmetic,3372,3372,3372,3372,True,True,bare,0.11447,new_training100
+"Reason about set membership: X=[214, 216, 218], Y=[213, 216, 219]. Which value belongs to both sets?
+A) 216
+B) 213
+C) 214
+D) 219",A,logic,A,A,A,A,True,True,bare,0.08487499999999999,new_training100
+"Read the passage: Receipt 211 records payment 82 coins and refund 14 coins. What is the refund amount?
+A) 68
+B) 82
+C) 14
+D) Zero",C,comprehension,A,A,D,D,False,False,bare,0.08649,new_training100
+"During a solar eclipse, which body is between Earth and the Sun?
+A) Venus
+B) Mars
+C) Moon
+D) Jupiter",C,knowledge,C,C,C,C,True,True,bare,0.08358499999999999,new_training100
+"Which continent contains the geographic South Pole?
+A) Europe
+B) Antarctica
+C) Africa
+D) Australia",B,knowledge,B,B,B,B,True,True,bare,0.08485799999999999,new_training100
+"What is the pivot point of a lever called?
+A) Fulcrum
+B) Lens
+C) Valve
+D) Rotor",A,knowledge,A,A,A,A,True,True,bare,0.08463499999999999,new_training100
+3495 - 298,3197,arithmetic,3197,3197,2107,2107,True,False,bare,0.117457,new_training100
+(4927 * 17) - 399,83360,arithmetic,83360,83360,83360,83360,True,True,bare,0.128504,new_training100
+5081 - 263,4818,arithmetic,4818,4818,4818,4818,True,True,bare,0.1152,new_training100
+"Read the passage: Receipt 212 records payment 83 coins and refund 15 coins. What is the refund amount?
+A) 83
+B) 68
+C) 15
+D) Zero",C,comprehension,C,C,D,D,True,False,bare,0.082942,new_training100
+"Read the passage: Reservation 212 changed from Room Oak to Room Cedar. What room is finally reserved?
+A) No room
+B) Room Oak
+C) Room Cedar
+D) Both rooms",C,comprehension,C,C,D,D,True,False,bare,0.084872,new_training100
+"Reason about a weekly calendar: today is Wednesday. Which weekday is it 26 days later?
+A) Sunday
+B) Friday
+C) Monday
+D) Saturday",C,logic,D,D,B,B,False,False,bare,0.087699,new_training100
+"What does this Python program output?
+```python
+d = {'x': 84}
+print(d.get('z', 9) + d['x'])
+```
+A) 9
+B) 84
+C) Error
+D) 93",D,coding,D,D,D,D,True,True,bare,0.084249,new_training100
+"Read the passage: Reservation 211 changed from Room Oak to Room Cedar. What room is finally reserved?
+A) Room Oak
+B) Room Cedar
+C) Both rooms
+D) No room",B,comprehension,B,B,B,B,True,True,bare,0.084791,new_training100
+5592 - 279,5313,arithmetic,5313,5313,4313,4313,True,False,bare,0.11943999999999999,new_training100
+"What does this Python program output?
+```python
+v = [85, 89, 94]
+print(v[1:][0])
+```
+A) Error
+B) 85
+C) 89
+D) 94",C,coding,C,C,D,D,True,False,bare,0.083246,new_training100
+(4606 * 31) - 354,142432,arithmetic,142432,142432,142432,142432,True,True,bare,0.140953,new_training100
+"What does a hygrometer measure?
+A) Force
+B) Temperature only
+C) Humidity
+D) Voltage",C,knowledge,C,C,C,C,True,True,bare,0.08133599999999999,new_training100
+"How do opposite magnetic poles interact?
+A) They attract
+B) They repel
+C) They lose all magnetism
+D) They turn into electric charges",A,knowledge,B,B,B,B,False,False,bare,0.082479,new_training100
+"Read the passage: Receipt 214 records payment 85 coins and refund 17 coins. What is the refund amount?
+A) 17
+B) 68
+C) 85
+D) Zero",A,comprehension,B,B,B,B,False,False,bare,0.083953,new_training100
+"Reason about bit parity case 213: bits=[0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0]. Is the number of 1 bits odd or even?
+A) Neither
+B) Odd
+C) Cannot determine
+D) Even",B,logic,B,B,D,D,True,False,bare,0.08557,new_training100
+"Which listed particle has no net electric charge?
+A) Proton
+B) Neutron
+C) Electron
+D) Positron",B,knowledge,B,B,D,D,True,False,bare,0.085965,new_training100
+"Read the passage: Reservation 213 changed from Room Oak to Room Cedar. What room is finally reserved?
+A) Both rooms
+B) Room Oak
+C) Room Cedar
+D) No room",C,comprehension,A,A,C,C,False,True,bare,0.08553000000000001,new_training100
+(4759 * 54) - 220,256766,arithmetic,256766,256766,256766,256766,True,True,bare,0.143013,new_training100
+"Which star supplies most of the energy reaching Earth?
+A) Sirius
+B) Polaris
+C) Sun
+D) Vega",C,knowledge,C,C,C,C,True,True,bare,0.08147299999999999,new_training100
+"Reason about a weekly calendar: today is Friday. Which weekday is it 28 days later?
+A) Friday
+B) Saturday
+C) Wednesday
+D) Monday",A,logic,B,B,A,A,False,True,bare,0.08238,new_training100
+"What is molten rock below Earth's surface called?
+A) Lava only
+B) Magma
+C) Sediment
+D) Glacier",B,knowledge,B,B,B,B,True,True,bare,0.08302999999999999,new_training100
+"Which listed adult animal obtains oxygen mainly through gills?
+A) Seal
+B) Whale
+C) Dolphin
+D) Salmon",D,knowledge,B,B,B,B,False,False,bare,0.084395,new_training100
+"Read the passage: Notice 212 says all parks close at 17:00 except Park Fern, which closes at 19:00. When does Park Fern close today?
+A) Never
+B) 16:00
+C) 17:00
+D) 19:00",D,comprehension,D,D,D,D,True,True,bare,0.085785,new_training100
+"What does this Python program output?
+```python
+s = '  leaf211 red blue green  '
+print(len(s.strip().split()))
+```
+A) 5
+B) 4
+C) 2
+D) Error",B,coding,A,A,A,A,False,False,bare,0.084853,new_training100
+"Reason about set membership: X=[215, 217, 219], Y=[214, 217, 220]. Which value belongs to both sets?
+A) 214
+B) 220
+C) 215
+D) 217",D,logic,D,D,D,D,True,True,bare,0.084791,new_training100
+"Reason about bit parity case 211: bits=[0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1]. Is the number of 1 bits odd or even?
+A) Odd
+B) Neither
+C) Cannot determine
+D) Even",D,logic,A,A,D,D,False,True,bare,0.08547600000000001,new_training100
+"Read the passage: Reservation 214 changed from Room Oak to Room Cedar. What room is finally reserved?
+A) Both rooms
+B) Room Cedar
+C) No room
+D) Room Oak",B,comprehension,B,B,B,B,True,True,bare,0.086124,new_training100
+"Which simple machine is a sloped surface such as a ramp?
+A) Pulley
+B) Inclined plane
+C) Lever only
+D) Wheel and axle",B,knowledge,B,B,B,B,True,True,bare,0.086312,new_training100
+(4686 * 41) - 331,191795,arithmetic,191795,191795,191795,191795,True,True,bare,0.14358100000000001,new_training100
+(5267 * 63) - 399,331422,arithmetic,331422,331422,27000,27000,True,False,bare,0.12773800000000002,new_training100
+"What does this Python program output?
+```python
+print([n for n in range(82, 88) if n % 2 == 1])
+```
+A) [82, 83, 84, 85, 86, 87]
+B) []
+C) [83, 85, 87]
+D) Error",C,coding,C,C,C,C,True,True,bare,0.083171,new_training100
+"Read the passage: Nora211 composed a song. Olin211 performed it. Who composed the first song?
+A) Nora211
+B) Both named people
+C) Nobody
+D) Olin211",A,comprehension,A,A,A,A,True,True,bare,0.085906,new_training100
+4216 - 231,3985,arithmetic,3985,3985,1185,1185,True,False,bare,0.12026200000000001,new_training100
+"Reason about directed links: N214a->N214b, N214b->N214c, N214c->N214d. Starting at N214a, which node is reached after exactly two links?
+A) N214c
+B) N214b
+C) N214a
+D) N214d",A,logic,A,A,D,D,True,False,bare,0.08601400000000001,new_training100
+"Reason about a race: Aro214 finishes before Beni214; Cato214 finishes before Dina214; Beni214 finishes before Cato214. Who finishes in position 3?
+A) Dina214
+B) Aro214
+C) Beni214
+D) Cato214",D,logic,B,B,B,B,False,False,bare,0.083936,new_training100
+4149 - 401,3748,arithmetic,3748,3748,748,748,True,False,bare,0.10921,new_training100
+"Read the passage: Nora212 composed a song. Olin212 performed it. Who composed the first song?
+A) Nobody
+B) Nora212
+C) Olin212
+D) Both named people",B,comprehension,B,B,B,B,True,True,bare,0.085364,new_training100
+"What does this Python program output?
+```python
+print([n for n in range(84, 90) if n % 2 == 1])
+```
+A) [84, 85, 86, 87, 88, 89]
+B) Error
+C) []
+D) [85, 87, 89]",D,coding,A,A,D,D,False,True,bare,0.08555800000000001,new_training100
+"What does this Python program output?
+```python
+s = '  leaf213 red blue green  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 5
+C) 4
+D) Error",C,coding,B,B,B,B,False,False,bare,0.085782,new_training100
+"Read the passage: Order 212 went from queued to shipped to returned. What is its latest state?
+A) Shipped
+B) Unknown
+C) Returned
+D) Queued",C,comprehension,C,C,C,C,True,True,bare,0.085631,new_training100
+"What does this Python program output?
+```python
+s = '  leaf212 red blue green  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) 5
+D) Error",B,coding,B,B,B,B,True,True,bare,0.085378,new_training100
+"What does this Python program output?
+```python
+print(sum(range(82, 91, 3)))
+```
+A) Error
+B) 246
+C) 255
+D) 82",C,coding,B,B,B,B,False,False,bare,0.084366,new_training100

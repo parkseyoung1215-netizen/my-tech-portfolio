@@ -1,0 +1,2650 @@
+model,method,task_id,question,reference,answer,baseline_answer,skip_layers,grade,baseline_grade
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,B,B,"[17, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,The option letter A) Oren is the correct letter.,B,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,"C
+1938",B,"[8, 15, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,B,B,"[17, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,"You are a helpful assistant in my previous questions, but I have a question about",B,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,B,B,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,B,B,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,The option letter A) Oren is the correct answer.,C) Navo,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,"You are a helpful assistant in my previous questions, but I have a question about",C) Navo,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,C) Navo,C) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,B) Mira,C) Navo,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,C) Navo,C) Navo,[4],"{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,C) Navo,C) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,B) Navo,C) Navo,"[4, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,1b8c8886bbef510ce6bb2643d112ebe1bef013548234cef8d768af4b1826d1ba,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19304. The visitor waits in Room 5."" Do not add facts.",Lira19304 waits in Room 5.,The visitor is Lira19304. The visitor waits in Room 5.,Lira19304 waits in Room 5.,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19304. The visitor waits in Room 5."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19304 waits in Room 5."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,1b8c8886bbef510ce6bb2643d112ebe1bef013548234cef8d768af4b1826d1ba,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19304. The visitor waits in Room 5."" Do not add facts.",Lira19304 waits in Room 5.,"I'm not sure how to respond to the original text. Instead of using a sentence to rewrite, I've created a new sentence to generate a new sentence. I can create a sentence to describe the person in a way that is not related",Lira19304 waits in Room 5.,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": ""I'm not sure how to respond to the original text. Instead of using a sentence to rewrite, I've created a new sentence to generate a new sentence. I can create a sentence to describe the person in a way that is not related"", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19304 waits in Room 5."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,B) Navo,B,[17],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,"To determine who translated the letter, let's analyze the sequence of events and the",B,[6],"{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,Note: Note 19106: Mira sent the letter.,B,"[4, 6, 8, 10]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,The option letter A) Mira is the correct answer.,B,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,"You are a helpful assistant in my previous questions, but I have a question about",B,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,"Hello, I can help you with the Python code. Please provide a description for",D,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,The answer is A.,D,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,B,D,[15],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,"Hello, I can help you with the Python code. Please provide a description for",D,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,"The correct option for the computation is:
+
+C
+
+The computation is \( 4",C,"[6, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,(C) 98,C,"[4, 13, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,"You are a key to the puzzle, but I don't need your help to",C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,The value of the expression (4 + 2) * 5 is ,C,"[6, 8, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,15d83d9c4414965eb72712c41b8c28a5140c48824f1cdbb0a1104508f7fe9bff,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19301. The visitor waits in Room 2."" Do not add facts.",Lira19301 waits in Room 2.,The visitor is Lira19301. The visitor waits in Room 2.,"Lira19301 is the visitor, waiting in Room 2.",[8],"{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19301. The visitor waits in Room 2."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19301 is the visitor, waiting in Room 2."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,15d83d9c4414965eb72712c41b8c28a5140c48824f1cdbb0a1104508f7fe9bff,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19301. The visitor waits in Room 2."" Do not add facts.",Lira19301 waits in Room 2.,"You can provide a detailed explanation of how to use the given person and room, but you can also modify the text to a different topic without directly altering the content. Here are a few options:
+
+1. The text can be used as is","Lira19301 is the visitor, waiting in Room 2.","[6, 10, 15, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": ""You can provide a detailed explanation of how to use the given person and room, but you can also modify the text to a different topic without directly altering the content. Here are a few options:\n\n1. The text can be used as is"", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19301 is the visitor, waiting in Room 2."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,15d83d9c4414965eb72712c41b8c28a5140c48824f1cdbb0a1104508f7fe9bff,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19301. The visitor waits in Room 2."" Do not add facts.",Lira19301 waits in Room 2.,You are a helpful assistant.,"Lira19301 is the visitor, waiting in Room 2.","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""You are a helpful assistant."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19301 is the visitor, waiting in Room 2."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,15d83d9c4414965eb72712c41b8c28a5140c48824f1cdbb0a1104508f7fe9bff,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19301. The visitor waits in Room 2."" Do not add facts.",Lira19301 waits in Room 2.,The visitor is Lira19301. The visitor waits in Room 2.,"Lira19301 is the visitor, waiting in Room 2.","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19301. The visitor waits in Room 2."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19301 is the visitor, waiting in Room 2."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,The puzzle is solved.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,The position of the option is not listed in the puzzle.,C,"[4, 8, 10, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,C) Tavi19104,C,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,D,C,[8],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,"The list from youngest to oldest is Rena19104, which means",C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,"The list from youngest to oldest is Rena19103, which means",C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,"The list is sorted from youngest to oldest, the list is sorted from position ",C,"[4, 8, 10, 13]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,The puzzle is solved.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,"The list from youngest to oldest is Rena19106, which is",C,"[4, 10, 13, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,The puzzle is solved.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,C) Rena19106,C,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,"The list from youngest to oldest is Rena19106, which makes",C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+[{""item"": ""code19203"", ""count"": 5}]
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[17],"{""correct"": false, ""format_ok"": false, ""prediction"": [{""item"": ""code19203"", ""count"": 5}], ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","To convert the key `item` to JSON, we need to define the JSON structure. The key `item` is a string, so it's a simple string. The value `count` is an integer. The value `item`","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[10, 15, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+    ""item = code19203, count = 5""}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","Hello, I can provide a list of JSON objects, but I don't have to provide a key for this specific record. How can I ensure that the JSON object is formatted correctly?","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[8],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+[{""item"": ""code19204"", ""count"": 6}]
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[17],"{""correct"": false, ""format_ok"": false, ""prediction"": [{""item"": ""code19204"", ""count"": 6}], ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[8],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","Hello, I can help you with the JSON data. I can provide a JSON object with exactly one key, so I can convert the record to a JSON data. How can I use the JSON data to convert the record into a JSON object","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+    ""item = code19204, count = 6""}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+    ""item = code19204, count = 6""}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,I apologize for the incorrect submission. The code is not the same as the original,B,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,The answer is B.,B,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,The answer is C.,B,"[4, 10, 13, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,C,C,[13],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,"The answer is C, 1025002, 1",C,"[8, 13, 15, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,C) 63,C,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,"You are a key to the puzzle, but I don't need your help to",C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,"In Python, the code provided is intended to print the last element of the list",D,"[4, 10]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,"```python
+a = [45, 48, 53",D,"[4, 6, 10, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,D,D,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,D,D,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,I apologize for the incorrect submission. The code is not the same as the original,D,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,The answer is B.,D,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,D,D,"[13, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,B,C,"[8, 15]","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,C) 40,C,"[4, 17]","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,You are a key to unlock the door of a password.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,The answer is 20. The answer is the integer that is 2,C,"[6, 8, 10, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[17],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"The correct answer is:
+
+D) Mira
+
+In this scenario, the question",B) Navo,[10],"{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"You are a helpful assistant in my previous questions, but I have a question about",B) Navo,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"The letter ""Navon"" is the only one that Navu translated. The",B) Navo,"[8, 10, 13, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,The option letter A) Nobody is the correct answer.,B) Navo,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,"You are a helpful assistant in the given problem, but you can be a part",C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,"The answer is 100, but you can't compute the sum ",C,"[8, 10, 13, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,The correct answer is A) 52. Let's compute the value of,C,"[8, 10]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,C) 52,C,"[4, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,The option letter A) Nobody is the correct answer.,B) Navo,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[17],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"The letter ""O"" is the word that was used in the sentence. It",B) Navo,"[8, 10, 13, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Navo,B) Navo,[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"You are a helpful assistant in my previous questions, but I have a question about",B) Navo,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"The correct answer is:
+
+D) Mira
+
+In this scenario, the question",B) Navo,[10],"{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,The answer is A.,B,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,I apologize for the incorrect submission. The code is not the same as the original,B,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,"```python
+def print_last_element(list):
+    return list[list].last()
+",B,"[4, 8, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,The answer is **D)** 39.,C,"[4, 13, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,"To compute the integer in worksheet 19106, you need to",C,"[4, 8, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,"You are a helpful assistant in the given problem, but you can be a part",C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,The answer is 76.,C,"[4, 8, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,"You are a key to the puzzle, but I don't need your help to",C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,C) 104,C,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,"The correct answer is C) 104.
+
+To solve this problem,",C,[10],"{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,The option letter is A.,C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,The integer in worksheet 1 is 102. The integer in worksheet,C,"[4, 8, 10, 13]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,C) Somu19102,C,"[4, 10, 17, 19]","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,"The list from youngest to oldest is Rena19102, which means",C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,The puzzle is solved.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","Hello, I can help you with the JSON data. I can provide a JSON object with exactly one key, so I can convert the record. How can I use the JSON data to create a record in the same format?","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+    ""item = code19202, count = 4""}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[4],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[8],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","To convert a record to a JSON object, you can use the following code:
+
+```javascript
+function convertToJSON($record) {
+    // Convert the record to a JSON object
+    return json($record);
+}
+```
+
+This code","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[4, 8, 10, 13]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,The visitor is Lira19302. The visitor waits in Room 3.,"Lira19302 is the visitor, waiting in Room 3.","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19302. The visitor waits in Room 3."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302 is the visitor, waiting in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,The visitor is Lira19302. The visitor waits in Room 3.,"Lira19302 is the visitor, waiting in Room 3.",[8],"{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19302. The visitor waits in Room 3."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302 is the visitor, waiting in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,"The visitor is Lira, and they wait in Room 3.","Lira19302 is the visitor, waiting in Room 3.",[4],"{""correct"": false, ""format_ok"": true, ""prediction"": ""The visitor is Lira, and they wait in Room 3."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302 is the visitor, waiting in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,The visitor is in Room 193. The visitor is waiting in Room 31.,"Lira19302 is the visitor, waiting in Room 3.","[4, 8, 15, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is in Room 193. The visitor is waiting in Room 31."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302 is the visitor, waiting in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,You are a helpful assistant.,"Lira19302 is the visitor, waiting in Room 3.","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""You are a helpful assistant."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302 is the visitor, waiting in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,The visitor is Lira19303. The visitor waits in Room 4.,"Lira19303 is the visitor, waiting in Room 4.","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19303. The visitor waits in Room 4."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303 is the visitor, waiting in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,Lira is a visitor to Room 4.,"Lira19303 is the visitor, waiting in Room 4.","[8, 10, 13, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""Lira is a visitor to Room 4."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303 is the visitor, waiting in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,You are a helpful assistant.,"Lira19303 is the visitor, waiting in Room 4.","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""You are a helpful assistant."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303 is the visitor, waiting in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,The visitor is Lira19303. The visitor waits in Room 4.,"Lira19303 is the visitor, waiting in Room 4.",[8],"{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19303. The visitor waits in Room 4."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303 is the visitor, waiting in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,The visitor is Lira19303. The visitor waits in Room 4.,"Lira19303 is the visitor, waiting in Room 4.",[8],"{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19303. The visitor waits in Room 4."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303 is the visitor, waiting in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","Hello, I can help you with the JSON data. I can provide a JSON object with exactly one key, so I can convert the record. How can I use the JSON data to create a record in the same format?","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+    ""code"": ""123"",
+    ""item"": ""12"",
+    ""value"": ""4""
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[8, 10, 13, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": {""code"": ""123"", ""item"": ""12"", ""value"": ""4""}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+    ""item = code19201, count = 3""}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[8],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": ""3""
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[10],"{""correct"": false, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": ""3""}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,D,D,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,D,D,"[13, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,The answer is B.,D,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,D,D,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,I apologize for the incorrect submission. The code is not the same as the original,D,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,The value of a is 47.,D,"[4, 6, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,C,D,"[4, 19]","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,"The correct option is B, 19.",C,"[8, 13, 15, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,C,C,[],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,C) Somu19105,C,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,D,C,[8],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,The puzzle is solved.,C,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,"The list from youngest to oldest is Rena19105, which means",C,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,The puzzle is solved.,B,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,"To return only the option letter, you should be instructed to return the option letter",B,"[4, 6, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,"The list from youngest to oldest is Rena19101, which makes",B,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,B) Rena19101,B,[17],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,The option letter A) Nobody is the correct answer.,D) Mira,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_leverage,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,D) Mira,D) Mira,[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,"You are a helpful assistant in my previous questions, but I have a question about",D) Mira,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,"The letter was translated by the author as follows:
+
+1. The letter was not",D) Mira,"[4, 8, 10, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_leverage,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,D) Mira,D) Mira,[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,D) Mira,D) Mira,[17],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-0.5B-Instruct,adaptive_sketch,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C,D,[13],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,bi_static,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,The answer is C.,D,"[10, 13, 17, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random_match_sketch,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C,D,[4],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,random,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,"```python
+if (a[1] in ""Return only the option letter",D,"[4, 6, 8, 17]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-0.5B-Instruct,static,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,"Hello, I can help you with the Python code. Please provide a description for",D,"[6, 10, 15, 19]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,B),B,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,B),B,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,"Rena19106, Somu19106,",B,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,The correct answer is B) Rena19106.,B,"[4, 12, 15, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,B),B,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,Tavi1900101.01.01.,B,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,b9c9d5e1afc3bd5bf3a335d5fa1e596b5e141371b31277585929fc7e75285c25,"Puzzle 19106: The list from youngest to oldest is Rena19106, Somu19106, Tavi19106, Ula19106. Who is position 2 in that order?
+A) Tavi19106
+B) Somu19106
+C) Rena19106
+D) Ula19106
+Return only the option letter.",B,B),B,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,B) Mira,C,[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,A) Mira.,C,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,"A) Oren
+B) Navo
+C) Nobody
+D)",C,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,Return only the option letter.,C,"[4, 15, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,739df947f2559cb1e3c95a844b349565f0416177a4c92af9093349042d3702ca,"Note 19104: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Oren
+B) Mira
+C) Navo
+D) Nobody
+Return only the option letter.",C,B) Mira,C,[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,36926da97951764690ae6c9b7867bda06a105eb6772f928330f6857c7a4c5722,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19302. The visitor waits in Room 3."" Do not add facts.",Lira19302 waits in Room 3.,The visitor is waiting in Room 3.,"Lira19302, the visitor, waits in Room 3.","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""The visitor is waiting in Room 3."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19302, the visitor, waits in Room 3."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,B. 40.,A) 42,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,B,A) 42,[18],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,B,A) 42,[18],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,"The result of the computation is 42. Therefore, the correct answer is",A) 42,"[7, 9, 12, 18]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,"The integer in worksheet is 19040, and the correct option",A) 42,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,A) 42,A) 42,[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,36e91a0768aabffae653c2bbaaad36b6616994197968f5e39c642b309f2f439f,"Compute the integer in worksheet 19104: (14 + 6) * 2.
+A) 42
+B) 20
+C) 40
+D) 26
+Return only the option letter.",C,A) 42,A) 42,[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,B) 100,A) 49,"[7, 9, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,B,A) 49,"[18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,B. 49.0001,A) 49,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,A) 49,A) 49,[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,B,A) 49,[18],"{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,A) 49,A) 49,"[9, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,64faa3cda5558be1af517be11252e2ccc0ef18c3b12122f54018248e2a85b1a1,"Compute the integer in worksheet 19105: (45 + 4) * 2.
+A) 49
+B) 100
+C) 53
+D) 98
+Return only the option letter.",D,The integer in worksheet is 19000: (45 +,A) 49,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[12, 15, 18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[12],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": {""item"": ""code"", ""count"": 3}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```",[23],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[9, 12]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,ab76241db51c636d210ca95ed9af7cd6019446eeaae9a35ae8a2218048b649fd,Convert this record to a JSON object with exactly keys item and count. item=code19201; count=3. Return only JSON.,"{""item"": ""code19201"", ""count"": 3}","```json
+{
+  ""item"": {
+    ""code"": ""code19201""
+  }
+}
+```
+
+This is a JSON object with a single key-value pair. The value of the key ""item"" is the","```json
+{
+  ""item"": ""code19201"",
+  ""count"": 3
+}
+```","[9, 12, 15, 18]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19201"", ""count"": 3}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"The letter was translated by Oren. Therefore, the person who translated it is",B,"[9, 12, 15, 18]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"A) Nobody, B) Oren, or D) Navo.",B,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,ea70854ce963f375665dfa6367403634c351c0d2d0855d167aeccfd1a3964656,"Note 19101: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Mira.,B,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[23],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,"Rena19103, Somu19103,",C,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,Tavi19003.,C,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C),C,[15],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C,C,[23],"{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,C),C,[15],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,20059b9d388b2e5ffc946a07c806353193e1a1072f28fe5eea7a7ef29b4fcd22,"Puzzle 19103: The list from youngest to oldest is Rena19103, Somu19103, Tavi19103, Ula19103. Who is position 3 in that order?
+A) Tavi19103
+B) Ula19103
+C) Rena19103
+D) Somu19103
+Return only the option letter.",A,"To determine who is in third place, we need to arrange the remaining players in",C,"[4, 9, 12, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,15d83d9c4414965eb72712c41b8c28a5140c48824f1cdbb0a1104508f7fe9bff,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19301. The visitor waits in Room 2."" Do not add facts.",Lira19301 waits in Room 2.,The visitor is waiting in Room 2.,"Lira19301, the visitor, waits in Room 2.","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""The visitor is waiting in Room 2."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19301, the visitor, waits in Room 2."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,D) 108,D),"[9, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,The integer in worksheet 19102 is 54.,D),"[15, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,B. 110.0,D),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,D),D),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,The integer in worksheet 19102 is 110.,D),[15],"{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,The integer in worksheet 19102 is 108.,D),"[9, 15, 18, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,d608ceeef532899a9834e7d0faf0b23a8df3688c1c9a12eb34b5c9b882c58c18,"Compute the integer in worksheet 19102: (45 + 9) * 2.
+A) 110
+B) 54
+C) 63
+D) 108
+Return only the option letter.",D,The integer in worksheet is 19000: (45 +,D),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[23],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[4, 9]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[12, 15, 18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"", ""count"": ""4""
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": ""4""}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,0a58041ff2919a1db6544e83301b411b3c8ece343a5fa559d91ded0ad5f60c40,Convert this record to a JSON object with exactly keys item and count. item=code19202; count=4. Return only JSON.,"{""item"": ""code19202"", ""count"": 4}","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```","```json
+{
+  ""item"": ""code19202"",
+  ""count"": 4
+}
+```",[4],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19202"", ""count"": 4}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,B),B),[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,B),B),[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,"To determine the correct answer, let's analyze the code. The code is trying",B),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,B) 48,B),[4],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,The answer is 45.,B),"[4, 7, 12, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,"B. 45.0
+The correct answer is B. 4",B),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,a36e54c1dc3f1f9d9abdde6db3b02c35d40d36e2aed748859606f29308f264fc,"Python case 19105:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 48
+C) 45
+D) 53
+Return only the option letter.",B,B),B),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,"The visitor is Lira19304 and waits in Room 4. The visitor is Lira19303, who is in Room 4 and is waiting for the visitor.","Lira19303, the visitor, waits in Room 4.","[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19304 and waits in Room 4. The visitor is Lira19303, who is in Room 4 and is waiting for the visitor."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303, the visitor, waits in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,68b035fc94e6e97bda49c034182d13fdaea312a33cb2ae34770d62c47d6e992b,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19303. The visitor waits in Room 4."" Do not add facts.",Lira19303 waits in Room 4.,The visitor is waiting in Room 4.,"Lira19303, the visitor, waits in Room 4.","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""The visitor is waiting in Room 4."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19303, the visitor, waits in Room 4."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,B),B),[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,B),B),[],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,The code you provided is a simple list of integers. The print function will return,B),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,B),B),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,B. Error.,B),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,899e9806fd122d66100942ad8a12e782f1c30240cc649f3d8056136de257967d,"Python case 19101:
+```python
+a = [36, 39, 44]
+print(a[-2])
+```
+What is printed?
+A) 44
+B) 39
+C) Error
+D) 36
+Return only the option letter.",B,The correct option is C),B),"[4, 12, 15, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,B),C),[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,B),C),[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,B,C),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,Tavi19102,C),"[4, 12, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,d1aeba3242fa2c3da27eeeb8386900930c18d73102366f43e6b636d2df01821b,"Puzzle 19102: The list from youngest to oldest is Rena19102, Somu19102, Tavi19102, Ula19102. Who is position 2 in that order?
+A) Rena19102
+B) Ula19102
+C) Somu19102
+D) Tavi19102
+Return only the option letter.",C,"Rena19102, Somu19102,",C),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,"To compute the integer in worksheet 19103, we need to",A) 102,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,A) 102,A) 102,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,The integer in worksheet 19103 is 102.,A) 102,"[4, 9, 12, 15]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,B. 104.000000000,A) 102,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,dbaf783a7e9b6b75c1b7912b0fe59728cfc71f08d9b686ca471b21d64f692041,"Compute the integer in worksheet 19103: (44 + 7) * 2.
+A) 102
+B) 58
+C) 104
+D) 51
+Return only the option letter.",A,C),A) 102,[12],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[20],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[12, 15, 18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"", ""count"": ""5""
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": ""5""}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json```
+","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[12, 18, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```",[23],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,74a1ef43d1dad8ea7832091f16fb5b066f6789fb7641cb1b02d8be14eae35ddb,Convert this record to a JSON object with exactly keys item and count. item=code19203; count=5. Return only JSON.,"{""item"": ""code19203"", ""count"": 5}","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","```json
+{
+  ""item"": ""code19203"",
+  ""count"": 5
+}
+```","[20, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19203"", ""count"": 5}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,"The correct answer is D, as the code will return the last element of the",B),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,A) 41,B),[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,A,B),[9],"{""correct"": false, ""format_ok"": true, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,A,B),[9],"{""correct"": false, ""format_ok"": true, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,C),B),[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,D. Error,B),"[4, 9, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,d13f632e9cc3bf5125d14414ff79c5495abe997a0871f22d998ad5bcc4718ad9,"Python case 19106:
+```python
+a = [33, 36, 41]
+print(a[-2])
+```
+What is printed?
+A) 41
+B) 36
+C) 33
+D) Error
+Return only the option letter.",B,The correct answer is B. The code will return 36. The code,B),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,"A) Oren
+
+Option A: Mira
+B: Navo
+",C,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,B) Oren,C,[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,Mira.,C,"[4, 9, 12, 18]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,B) Oren,C,[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,b9e422ff14fb66026f4bda0c3bfad6a32f8b7d3a8231c5b4c95e01eab7fcf839,"Note 19102: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Oren
+C) Navo
+D) Mira
+Return only the option letter.",C,B) Mira.,C,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""C"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,A),A),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,D) Tavi19105,A),[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,D) Tavi19105,A),[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,The answer is that the list is in the order of the people in the list,A),"[9, 15, 18, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,A),A),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,"Rena19105, Somu19105,",A),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,e05b66db1885dd88b3530d07bdf44cffbce53a3dc2b2ccb303345ef2298a74f3,"Puzzle 19105: The list from youngest to oldest is Rena19105, Somu19105, Tavi19105, Ula19105. Who is position 1 in that order?
+A) Rena19105
+B) Ula19105
+C) Somu19105
+D) Tavi19105
+Return only the option letter.",A,"B
+C. Tavi19105.",A),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,B),B),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,Ula19101,B),"[4, 7, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,B),B),[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,"Rena19101, Somu19101,",B),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,Rena19101,B),"[20, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,a99f931a78eb2703b09bc7319038649ecba44bea360c9c82a66529215b2063f4,"Puzzle 19101: The list from youngest to oldest is Rena19101, Somu19101, Tavi19101, Ula19101. Who is position 1 in that order?
+A) Somu19101
+B) Rena19101
+C) Tavi19101
+D) Ula19101
+Return only the option letter.",B,B),B),"[12, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,"Rena19104, Somu19104,",D,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,D,D,[23],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,D,D,[23],"{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,"B
+C) Tavi19104.",D,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,D) Rena19104,D,[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,The correct answer is C) Tavi19004.,D,"[4, 9, 12, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,150cc3595b7f54f22262bc721ceb68328e44d2e0ab665831120af34eeb7c9f73,"Puzzle 19104: The list from youngest to oldest is Rena19104, Somu19104, Tavi19104, Ula19104. Who is position 4 in that order?
+A) Somu19104
+B) Ula19104
+C) Tavi19104
+D) Rena19104
+Return only the option letter.",B,D) Rena19104,D,[9],"{""correct"": false, ""format_ok"": false, ""prediction"": ""D"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,B) 72,A) 74,"[9, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,A) 74,A) 74,[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,The integer in worksheet is 39.,A) 74,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,B) 72,A) 74,[9],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,B) 72,A) 74,"[9, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,9f5224ce30298a7001124d4833fd0d0aae25033586912a95fc87ac7c4848fdda,"Compute the integer in worksheet 19106: (33 + 3) * 2.
+A) 74
+B) 72
+C) 36
+D) 39
+Return only the option letter.",B,B. 72.,A) 74,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,B. 14.,D,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,C),D,[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,B. 14.,D,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,db6f936b9c9161511e32d75fe305c4bf967b2adc38e597c155fad04081b0c017,"Python case 19104:
+```python
+a = [14, 17, 22]
+print(a[-2])
+```
+What is printed?
+A) 22
+B) Error
+C) 14
+D) 17
+Return only the option letter.",D,The code you provided is a simple list of integers. The print function will return,D,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""D"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,The code you provided is a simple list of integers. The print function will return,C),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C),C),[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,"The output of the code is 53. Therefore, the correct answer is",C),"[4, 7, 9, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C) 53,C),[4],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C),C),[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,C),C),[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,57a6c350f58ab702322a13167b4fbe63651eb23552f0c1fef7cd5427b49cc9d5,"Python case 19102:
+```python
+a = [45, 48, 53]
+print(a[-2])
+```
+What is printed?
+A) 45
+B) Error
+C) 53
+D) 48
+Return only the option letter.",D,B. Error.,C),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,The integer in worksheet is 12345.,A) 88,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,A) 88,A) 88,[23],"{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,The correct answer is B) 44.,A) 88,"[9, 12]","{""correct"": false, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,C),A) 88,[12],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,B. 88. C. 90.,A) 88,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,a20dd9995d3f5a9b1778ffcebd874a3ce133702d86a583be381906a2c47f307b,"Compute the integer in worksheet 19101: (36 + 8) * 2.
+A) 88
+B) 44
+C) 52
+D) 90
+Return only the option letter.",A,"The integer in worksheet is 36, and the result of the computation is",A) 88,"[9, 12, 15, 18]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": false, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,B) Navo,B,[7],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,B) Navo,B,[7],"{""correct"": true, ""format_ok"": false, ""prediction"": ""B"", ""error_type"": ""none""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,"A) Mira, B) Navo, C) Oren, D",B,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,"The letter ""Mira"" is a name given to the letter ""Oren",B,"[4, 7, 9, 12]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,5af0e1ef6f648919ed76f7828c5c5ec7dd0344d2f888c2288f61033b4d199751,"Note 19106: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Mira
+B) Navo
+C) Oren
+D) Nobody
+Return only the option letter.",B,"A) Mira, B) Navo, or D) Oren,",B,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,1b8c8886bbef510ce6bb2643d112ebe1bef013548234cef8d768af4b1826d1ba,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19304. The visitor waits in Room 5."" Do not add facts.",Lira19304 waits in Room 5.,The visitor is Lira19304. The visitor waits in Room 5.,"Lira19304, the visitor, waits in Room 5.","[7, 15, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": ""The visitor is Lira19304. The visitor waits in Room 5."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19304, the visitor, waits in Room 5."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,1b8c8886bbef510ce6bb2643d112ebe1bef013548234cef8d768af4b1826d1ba,"Rewrite as one concise sentence preserving the person and room: ""The visitor is Lira19304. The visitor waits in Room 5."" Do not add facts.",Lira19304 waits in Room 5.,The visitor is waiting in Room 5.,"Lira19304, the visitor, waits in Room 5.","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": true, ""prediction"": ""The visitor is waiting in Room 5."", ""error_type"": ""constraint_failure"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""Lira19304, the visitor, waits in Room 5."", ""error_type"": ""none"", ""limits"": ""Constraint compliance, not a semantic/hallucination oracle.""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,B) Navo.,A,"[9, 18, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,A) Mira.,A,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,2350bae3c567881e8a8514f33fb6114eb0c61398c2b067354b35b261a4f46143,"Note 19103: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Navo
+B) Mira
+C) Nobody
+D) Oren
+Return only the option letter.",A,"A) Navo
+B) Oren
+C) Nobody
+D)",A,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""A"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[20],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```",[23],"{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"", ""count"": ""6""
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": ""6""}, ""error_type"": ""content""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[12, 15, 18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[18, 23]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": 19204,
+  ""count"": 6
+)
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[12, 15, 20, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""invalid_json""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,2349033ab343428f3a3bc274492902e8eac95a2f3bdf5a14dd54c4c1cf455cd4,Convert this record to a JSON object with exactly keys item and count. item=code19204; count=6. Return only JSON.,"{""item"": ""code19204"", ""count"": 6}","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","```json
+{
+  ""item"": ""code19204"",
+  ""count"": 6
+}
+```","[15, 20]","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}","{""correct"": true, ""format_ok"": false, ""prediction"": {""item"": ""code19204"", ""count"": 6}, ""error_type"": ""format_only""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"A) Mira
+B) Navo
+C) Oren
+D",B,"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,"To solve this problem, we need to understand the process of translation and archiving",B,"[9, 12, 15, 20]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,d9304e11ddba79f7a869559877d509e86bfed99387d392815cd485dc470c49a0,"Note 19105: Mira sent the letter; Navo translated it; Oren archived it. Who translated the letter?
+A) Nobody
+B) Navo
+C) Oren
+D) Mira
+Return only the option letter.",B,B) Mira.,B,"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": true, ""format_ok"": true, ""prediction"": ""B"", ""error_type"": ""none""}"
+Qwen/Qwen2.5-1.5B-Instruct,bi_static,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,The code you provided is a simple list of integers. The print function will return,C),"[12, 15, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_sketch,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,C),C),[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,static,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,"B. 44.0
+The correct answer is D. 4",C),"[7, 12, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,B. 47,C),"[4, 7, 18, 23]","{""correct"": false, ""format_ok"": false, ""prediction"": null, ""error_type"": ""format_or_unresolved""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_leverage,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,C),C),[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,random_match_sketch,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,C),C),[],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"
+Qwen/Qwen2.5-1.5B-Instruct,adaptive_leverage,17f29c8663418b91cbff25df9ef268c2bf839aa952e8d06b086ccb1cfa70abed,"Python case 19103:
+```python
+a = [44, 47, 52]
+print(a[-2])
+```
+What is printed?
+A) Error
+B) 47
+C) 52
+D) 44
+Return only the option letter.",B,C),C),[23],"{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}","{""correct"": false, ""format_ok"": false, ""prediction"": ""C"", ""error_type"": ""content""}"

@@ -1,0 +1,2145 @@
+{
+  "real_model": true,
+  "scope": "Neutral prompt; actual attention/MLP counts checked; excluded from primary performance",
+  "records": [
+    {
+      "method": "baseline",
+      "result": {
+        "answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```",
+        "raw_answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```<|im_end|>",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788,
+          220,
+          17,
+          345,
+          220,
+          330,
+          88,
+          788,
+          220,
+          18,
+          198,
+          532,
+          73594,
+          151645
+        ],
+        "input_tokens": 40,
+        "output_tokens": 21,
+        "visible_output_tokens": 20,
+        "model_calls": 1,
+        "forward_calls": 21,
+        "layer_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_attention_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_mlp_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "kv_offsets": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ],
+          [
+            1,
+            48,
+            28
+          ],
+          [
+            1,
+            49,
+            28
+          ],
+          [
+            1,
+            50,
+            28
+          ],
+          [
+            1,
+            51,
+            28
+          ],
+          [
+            1,
+            52,
+            28
+          ],
+          [
+            1,
+            53,
+            28
+          ],
+          [
+            1,
+            54,
+            28
+          ],
+          [
+            1,
+            55,
+            28
+          ],
+          [
+            1,
+            56,
+            28
+          ],
+          [
+            1,
+            57,
+            28
+          ],
+          [
+            1,
+            58,
+            28
+          ],
+          [
+            1,
+            59,
+            28
+          ],
+          [
+            1,
+            60,
+            28
+          ]
+        ],
+        "completion_reason": "eos",
+        "token_cap": 48,
+        "request_kind": "json",
+        "stop_events": [],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 1.0681183750275522,
+        "cpu_seconds": 0.4546039999999998,
+        "model_step_wall_seconds": 1.0617386670783162,
+        "first_step_wall_seconds": 0.352654084097594,
+        "decode_steps_wall_seconds": 0.7090845829807222,
+        "decision_wall_seconds": 0.0,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 19.660742190169984,
+        "decode_tokens_per_second": 28.205379837659986,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243792,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 167474184192.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    },
+    {
+      "method": "fixed8",
+      "result": {
+        "answer": "```json\n{\n  \"x\":",
+        "raw_answer": "```json\n{\n  \"x\":",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788
+        ],
+        "input_tokens": 40,
+        "output_tokens": 8,
+        "visible_output_tokens": 8,
+        "model_calls": 1,
+        "forward_calls": 8,
+        "layer_calls": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "native_attention_calls": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "native_mlp_calls": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "kv_offsets": [
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47,
+          47
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ]
+        ],
+        "completion_reason": "max_tokens",
+        "token_cap": 8,
+        "request_kind": "json",
+        "stop_events": [],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 0.2905540419742465,
+        "cpu_seconds": 0.036926000000000236,
+        "model_step_wall_seconds": 0.2902056679595262,
+        "first_step_wall_seconds": 0.06409120792523026,
+        "decode_steps_wall_seconds": 0.22611446003429592,
+        "decision_wall_seconds": 0.0,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 27.533604232940206,
+        "decode_tokens_per_second": 30.957772443824577,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243788,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 127220613120.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    },
+    {
+      "method": "fixed16",
+      "result": {
+        "answer": "```json\n{\n  \"x\": 2,\n  \"y\": ",
+        "raw_answer": "```json\n{\n  \"x\": 2,\n  \"y\": ",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788,
+          220,
+          17,
+          345,
+          220,
+          330,
+          88,
+          788,
+          220
+        ],
+        "input_tokens": 40,
+        "output_tokens": 16,
+        "visible_output_tokens": 16,
+        "model_calls": 1,
+        "forward_calls": 16,
+        "layer_calls": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "native_attention_calls": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "native_mlp_calls": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "kv_offsets": [
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55,
+          55
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ],
+          [
+            1,
+            48,
+            28
+          ],
+          [
+            1,
+            49,
+            28
+          ],
+          [
+            1,
+            50,
+            28
+          ],
+          [
+            1,
+            51,
+            28
+          ],
+          [
+            1,
+            52,
+            28
+          ],
+          [
+            1,
+            53,
+            28
+          ],
+          [
+            1,
+            54,
+            28
+          ],
+          [
+            1,
+            55,
+            28
+          ]
+        ],
+        "completion_reason": "max_tokens",
+        "token_cap": 16,
+        "request_kind": "json",
+        "stop_events": [],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 0.5926074581220746,
+        "cpu_seconds": 0.18858700000000006,
+        "model_step_wall_seconds": 0.5920840420294553,
+        "first_step_wall_seconds": 0.06413508299738169,
+        "decode_steps_wall_seconds": 0.5279489590320736,
+        "decision_wall_seconds": 0.0,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 26.999322706303282,
+        "decode_tokens_per_second": 28.4118374387944,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243788,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 151988600832.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    },
+    {
+      "method": "boundary",
+      "result": {
+        "answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```",
+        "raw_answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```<|im_end|>",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788,
+          220,
+          17,
+          345,
+          220,
+          330,
+          88,
+          788,
+          220,
+          18,
+          198,
+          532,
+          73594,
+          151645
+        ],
+        "input_tokens": 40,
+        "output_tokens": 21,
+        "visible_output_tokens": 20,
+        "model_calls": 1,
+        "forward_calls": 21,
+        "layer_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_attention_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_mlp_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "kv_offsets": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ],
+          [
+            1,
+            48,
+            28
+          ],
+          [
+            1,
+            49,
+            28
+          ],
+          [
+            1,
+            50,
+            28
+          ],
+          [
+            1,
+            51,
+            28
+          ],
+          [
+            1,
+            52,
+            28
+          ],
+          [
+            1,
+            53,
+            28
+          ],
+          [
+            1,
+            54,
+            28
+          ],
+          [
+            1,
+            55,
+            28
+          ],
+          [
+            1,
+            56,
+            28
+          ],
+          [
+            1,
+            57,
+            28
+          ],
+          [
+            1,
+            58,
+            28
+          ],
+          [
+            1,
+            59,
+            28
+          ],
+          [
+            1,
+            60,
+            28
+          ]
+        ],
+        "completion_reason": "eos",
+        "token_cap": 48,
+        "request_kind": "json",
+        "stop_events": [
+          {
+            "position": 1,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 2,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 3,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 4,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 5,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 6,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 7,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 8,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 9,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 10,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 11,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 12,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 13,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 14,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 15,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 16,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 17,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 18,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 19,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 20,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          }
+        ],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 0.8063786670099944,
+        "cpu_seconds": 0.3244410000000002,
+        "model_step_wall_seconds": 0.802409207681194,
+        "first_step_wall_seconds": 0.06725324993021786,
+        "decode_steps_wall_seconds": 0.7351559577509761,
+        "decision_wall_seconds": 0.0029601631686091423,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 26.042355606785566,
+        "decode_tokens_per_second": 27.20511177136474,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243792,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 167474184192.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    },
+    {
+      "method": "confidence",
+      "result": {
+        "answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```",
+        "raw_answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```<|im_end|>",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788,
+          220,
+          17,
+          345,
+          220,
+          330,
+          88,
+          788,
+          220,
+          18,
+          198,
+          532,
+          73594,
+          151645
+        ],
+        "input_tokens": 40,
+        "output_tokens": 21,
+        "visible_output_tokens": 20,
+        "model_calls": 1,
+        "forward_calls": 21,
+        "layer_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_attention_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_mlp_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "kv_offsets": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ],
+          [
+            1,
+            48,
+            28
+          ],
+          [
+            1,
+            49,
+            28
+          ],
+          [
+            1,
+            50,
+            28
+          ],
+          [
+            1,
+            51,
+            28
+          ],
+          [
+            1,
+            52,
+            28
+          ],
+          [
+            1,
+            53,
+            28
+          ],
+          [
+            1,
+            54,
+            28
+          ],
+          [
+            1,
+            55,
+            28
+          ],
+          [
+            1,
+            56,
+            28
+          ],
+          [
+            1,
+            57,
+            28
+          ],
+          [
+            1,
+            58,
+            28
+          ],
+          [
+            1,
+            59,
+            28
+          ],
+          [
+            1,
+            60,
+            28
+          ]
+        ],
+        "completion_reason": "eos",
+        "token_cap": 48,
+        "request_kind": "json",
+        "stop_events": [
+          {
+            "position": 1,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 2,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 3,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 4,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 5,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 6,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 7,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 8,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 9,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 10,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 11,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 12,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 13,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 14,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 15,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 16,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 17,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 18,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 19,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 20,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          }
+        ],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 0.7934830840677023,
+        "cpu_seconds": 0.28803999999999963,
+        "model_step_wall_seconds": 0.7895184133667499,
+        "first_step_wall_seconds": 0.06795254210010171,
+        "decode_steps_wall_seconds": 0.7215658712666482,
+        "decision_wall_seconds": 0.002601498970761895,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 26.465592552201425,
+        "decode_tokens_per_second": 27.71749717720391,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243792,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 167474184192.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    },
+    {
+      "method": "adaptive",
+      "result": {
+        "answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```",
+        "raw_answer": "```json\n{\n  \"x\": 2,\n  \"y\": 3\n}\n```<|im_end|>",
+        "token_ids": [
+          73594,
+          2236,
+          198,
+          515,
+          220,
+          330,
+          87,
+          788,
+          220,
+          17,
+          345,
+          220,
+          330,
+          88,
+          788,
+          220,
+          18,
+          198,
+          532,
+          73594,
+          151645
+        ],
+        "input_tokens": 40,
+        "output_tokens": 21,
+        "visible_output_tokens": 20,
+        "model_calls": 1,
+        "forward_calls": 21,
+        "layer_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_attention_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "native_mlp_calls": [
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21,
+          21
+        ],
+        "kv_offsets": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "work_shapes": [
+          [
+            40,
+            40,
+            28
+          ],
+          [
+            1,
+            41,
+            28
+          ],
+          [
+            1,
+            42,
+            28
+          ],
+          [
+            1,
+            43,
+            28
+          ],
+          [
+            1,
+            44,
+            28
+          ],
+          [
+            1,
+            45,
+            28
+          ],
+          [
+            1,
+            46,
+            28
+          ],
+          [
+            1,
+            47,
+            28
+          ],
+          [
+            1,
+            48,
+            28
+          ],
+          [
+            1,
+            49,
+            28
+          ],
+          [
+            1,
+            50,
+            28
+          ],
+          [
+            1,
+            51,
+            28
+          ],
+          [
+            1,
+            52,
+            28
+          ],
+          [
+            1,
+            53,
+            28
+          ],
+          [
+            1,
+            54,
+            28
+          ],
+          [
+            1,
+            55,
+            28
+          ],
+          [
+            1,
+            56,
+            28
+          ],
+          [
+            1,
+            57,
+            28
+          ],
+          [
+            1,
+            58,
+            28
+          ],
+          [
+            1,
+            59,
+            28
+          ],
+          [
+            1,
+            60,
+            28
+          ]
+        ],
+        "completion_reason": "eos",
+        "token_cap": 48,
+        "request_kind": "json",
+        "stop_events": [
+          {
+            "position": 1,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 2,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 3,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 4,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 5,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 6,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 7,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 8,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 9,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 10,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 11,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 12,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 13,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 14,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 15,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 16,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 17,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 18,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 19,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          },
+          {
+            "position": 20,
+            "candidate": false,
+            "kind": "json",
+            "selected_probability": null,
+            "eos_competitor_mass": null,
+            "threshold": null,
+            "stop": false
+          }
+        ],
+        "probability_query_calls": 0,
+        "probability_elements_scanned": 0,
+        "last_candidate_probability": null,
+        "wall_seconds": 0.8019585830625147,
+        "cpu_seconds": 0.29109600000000047,
+        "model_step_wall_seconds": 0.7981392925139517,
+        "first_step_wall_seconds": 0.06780595914460719,
+        "decode_steps_wall_seconds": 0.7303333333693445,
+        "decision_wall_seconds": 0.0025706253945827484,
+        "probability_wall_seconds": 0.0,
+        "end_to_end_tokens_per_second": 26.1858909468932,
+        "decode_tokens_per_second": 27.384755817910328,
+        "mlx_peak_bytes": 3161861420,
+        "mlx_active_bytes": 3095243792,
+        "process_lifetime_rss_peak_bytes": 706904064,
+        "analytical_matmul_flops": 167474184192.0,
+        "GPU_elapsed_power_money": "unmeasured",
+        "native_audit": true
+      }
+    }
+  ]
+}

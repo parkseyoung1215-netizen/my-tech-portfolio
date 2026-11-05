@@ -1,0 +1,492 @@
+question,category,expected,task_format,inferred_category,primary_answer,primary_prediction,verification_answer,final_prediction,primary_correct,final_correct
+92 * 34,arithmetic,3128,integer,arithmetic,3128,3128,3128,3128,True,True
+"How many sides does a hexagon have?
+A) Six
+B) Seven
+C) Five
+D) Eight",knowledge,A,choice,knowledge,A,A,A,A,True,True
+"Which ocean is the largest by area?
+A) Indian Ocean
+B) Arctic Ocean
+C) Pacific Ocean
+D) Atlantic Ocean",knowledge,C,choice,knowledge,C,C,D,D,True,False
+"Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 2 + 3
+B) Room closed
+C) 23
+D) 5",comprehension,A,choice,comprehension,B,B,B,B,False,False
+(827 * 48) - 51,arithmetic,39645,integer,arithmetic,39645,39645,39645,39645,True,True
+"What does this Python code print?
+```python
+print(len({2, 2, 4, 4, 6}))
+```
+A) 5
+B) 6
+C) 2
+D) 3",coding,D,choice,coding,A,A,D,D,False,True
+"Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?
+A) Nothing
+B) Tea
+C) Coffee
+D) Both tea and coffee",comprehension,A,choice,comprehension,A,A,A,A,True,True
+"What does a CPU primarily do in a computer?
+A) Supply mains electricity
+B) Execute instructions
+C) Print paper
+D) Cool the room",knowledge,B,choice,knowledge,B,B,B,B,True,True
+"Which protocol is used to transfer web pages?
+A) HTTP
+B) POP3
+C) IMAP
+D) SMTP",knowledge,A,choice,knowledge,A,A,A,A,True,True
+"Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?
+A) Coffee
+B) Tea
+C) Nothing
+D) Both tea and coffee",comprehension,C,choice,comprehension,C,C,C,C,True,True
+"Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?
+A) Monday
+B) Friday
+C) Wednesday
+D) Tuesday",comprehension,C,choice,comprehension,B,B,C,C,False,True
+"Which instrument measures temperature?
+A) Thermometer
+B) Ruler
+C) Compass
+D) Barometer",knowledge,A,choice,knowledge,A,A,A,A,True,True
+"Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) Rain was forecast
+B) The morning was dark
+C) The umbrella was broken
+D) It was already snowing",comprehension,A,choice,comprehension,A,A,A,A,True,True
+18 + 18,arithmetic,36,integer,arithmetic,36,36,36,36,True,True
+"Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?
+A) Juno
+B) Cannot be determined
+C) Iris
+D) Kian",logic,D,choice,logic,B,B,B,B,False,False
+"Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?
+A) Only if it is gold
+B) No
+C) Only on Tuesdays
+D) Yes, necessarily",logic,B,choice,logic,B,B,D,D,True,False
+"Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?
+A) Cannot be determined
+B) Mira
+C) Pavel
+D) Oren",logic,C,choice,logic,D,D,D,D,False,False
+"Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?
+A) All objects are zorks
+B) No blue object can be a zork
+C) No; being blue does not establish it is a zork
+D) Yes, always",logic,C,choice,logic,C,C,C,C,True,True
+"What does this Python code print?
+```python
+print([4, 7, 9, 12][1:3])
+```
+A) [7, 9, 12]
+B) 9
+C) [7, 9]
+D) [4, 7]",coding,C,choice,coding,C,C,D,D,True,False
+"Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor is active
+C) The sensor must be broken
+D) The sensor is not active",logic,D,choice,logic,B,B,B,B,False,False
+"What does this Python code print?
+```python
+def f(x):
+    return x + 1
+print(f(8))
+```
+A) None
+B) 8
+C) 9
+D) 1",coding,C,choice,coding,C,C,C,C,True,True
+(299 * 19) - 82,arithmetic,5599,integer,arithmetic,5599,5599,5599,5599,True,True
+"Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 2 + 3
+C) 23
+D) 5",comprehension,B,choice,comprehension,A,A,D,D,False,False
+"What does this Python code print?
+```python
+print({'x': 3}.get('y', 8))
+```
+A) Error
+B) 8
+C) 3
+D) None",coding,B,choice,coding,B,B,B,B,True,True
+"Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?
+A) Kian
+B) Iris
+C) Cannot be determined
+D) Juno",logic,A,choice,logic,B,B,D,D,False,False
+(489 * 41) - 30,arithmetic,20019,integer,arithmetic,20019,20019,20009,20009,True,False
+77 * 87,arithmetic,6699,integer,arithmetic,6699,6699,6699,6699,True,True
+"What does this Python code print?
+```python
+a = [3, 1, 2]
+print(sorted(a))
+```
+A) [3, 2, 1]
+B) [3, 1, 2]
+C) [1, 2, 3]
+D) None",coding,C,choice,coding,B,B,B,B,False,False
+"What does this Python code print?
+```python
+print(7 // 2)
+```
+A) 1
+B) 4
+C) 3.5
+D) 3",coding,D,choice,coding,D,D,D,D,True,True
+"What does this Python code print?
+```python
+a = [4, 5, 6]
+print(a[-1])
+```
+A) 6
+B) 5
+C) 4
+D) Error",coding,A,choice,coding,A,A,A,A,True,True
+"Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?
+A) Both tea and coffee
+B) Tea
+C) Coffee
+D) Nothing",comprehension,D,choice,comprehension,D,D,D,D,True,True
+"Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?
+A) Friday
+B) Tuesday
+C) Monday
+D) Wednesday",comprehension,D,choice,comprehension,B,B,D,D,False,True
+"Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?
+A) Vik
+B) Cannot be determined
+C) Nora
+D) Wren",logic,D,choice,logic,B,B,B,B,False,False
+"Which state of matter has a fixed volume and a fixed shape?
+A) Plasma
+B) Solid
+C) Liquid
+D) Gas",knowledge,B,choice,knowledge,B,B,B,B,True,True
+"What kind of astronomical object is the Sun?
+A) A comet
+B) A planet
+C) A star
+D) A moon",knowledge,C,choice,knowledge,C,C,C,C,True,True
+"What does this Python code print?
+```python
+x = 5
+x += 2
+print(x)
+```
+A) 10
+B) 5
+C) 7
+D) 2",coding,C,choice,coding,A,A,A,A,False,False
+3 + 10,arithmetic,13,integer,arithmetic,13,13,13,13,True,True
+"What is the SI unit of electric current?
+A) Volt
+B) Ampere
+C) Watt
+D) Ohm",knowledge,B,choice,knowledge,B,B,B,B,True,True
+(500 * 21) - 70,arithmetic,10430,integer,arithmetic,10430,10430,10330,10330,True,False
+"Which force attracts objects with mass toward one another?
+A) Buoyancy
+B) Gravity
+C) Friction
+D) Surface tension",knowledge,B,choice,knowledge,B,B,B,B,True,True
+"Which process allows green plants to use light to make sugars?
+A) Condensation
+B) Photosynthesis
+C) Freezing
+D) Erosion",knowledge,B,choice,knowledge,B,B,B,B,True,True
+11 + 13,arithmetic,24,integer,arithmetic,24,24,24,24,True,True
+(857 * 57) - 63,arithmetic,48786,integer,arithmetic,48786,48786,48366,48366,True,False
+45 * 56,arithmetic,2520,integer,arithmetic,2520,2520,2520,2520,True,True
+"What does this Python code print?
+```python
+print(3 < 2 or 5 > 4)
+```
+A) Error
+B) False
+C) None
+D) True",coding,D,choice,coding,D,D,D,D,True,True
+"Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?
+A) Pavel
+B) Mira
+C) Oren
+D) Cannot be determined",logic,A,choice,logic,A,A,D,D,True,False
+"What does this Python code print?
+```python
+print(len('routing'))
+```
+A) 7
+B) 8
+C) Error
+D) 6",coding,A,choice,coding,A,A,A,A,True,True
+4 + 16,arithmetic,20,integer,arithmetic,20,20,20,20,True,True
+"Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?
+A) The lamp is on
+B) The sensor must be broken
+C) The sensor is not active
+D) The sensor is active",logic,C,choice,logic,C,C,B,B,True,False
+"Which gas do plants take in during photosynthesis?
+A) Hydrogen
+B) Neon
+C) Helium
+D) Carbon dioxide",knowledge,D,choice,knowledge,D,D,D,D,True,True
+"Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Monday",comprehension,C,choice,comprehension,B,B,C,C,False,True
+"Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The umbrella was broken
+B) The morning was dark
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,comprehension,C,C,C,C,True,True
+"What does this Python code print?
+```python
+print('ab' * 3)
+```
+A) aaabbb
+B) Error
+C) ababab
+D) ab3",coding,C,choice,coding,C,C,C,C,True,True
+"What does this Python code print?
+```python
+print(sum([2, 4, 6]))
+```
+A) 10
+B) 12
+C) 3
+D) 24",coding,B,choice,coding,A,A,B,B,False,True
+"Which change turns a liquid into a gas?
+A) Freezing
+B) Evaporation
+C) Condensation
+D) Deposition",knowledge,B,choice,knowledge,B,B,B,B,True,True
+"Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Yes, necessarily
+C) No
+D) Only if it is gold",logic,C,choice,logic,B,B,B,B,False,False
+"Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) Room closed
+B) 23
+C) 2 + 3
+D) 5",comprehension,C,choice,comprehension,B,B,B,B,False,False
+25 * 66,arithmetic,1650,integer,arithmetic,1650,1650,1650,1650,True,True
+"Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) The morning was dark
+B) The umbrella was broken
+C) Rain was forecast
+D) It was already snowing",comprehension,C,choice,comprehension,C,C,C,C,True,True
+"Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) No
+D) Yes, necessarily",logic,C,choice,logic,C,C,D,D,True,False
+"Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?
+A) Coffee
+B) Both tea and coffee
+C) Nothing
+D) Tea",comprehension,C,choice,comprehension,C,C,C,C,True,True
+"Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) All objects are zorks
+C) Yes, always
+D) No blue object can be a zork",logic,A,choice,logic,A,A,A,A,True,True
+"Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?
+A) No; being blue does not establish it is a zork
+B) No blue object can be a zork
+C) All objects are zorks
+D) Yes, always",logic,A,choice,logic,A,A,A),A,True,True
+(443 * 29) - 18,arithmetic,12829,integer,arithmetic,12829,12829,12829,12829,True,True
+"What does this Python code print?
+```python
+print(bool([]))
+```
+A) None
+B) True
+C) False
+D) Error",coding,C,choice,coding,C,C,C,C,True,True
+"Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?
+A) Wednesday
+B) Friday
+C) Monday
+D) Tuesday",comprehension,A,choice,comprehension,A,A,B,B,True,False
+"What does this Python code print?
+```python
+print('route'.upper())
+```
+A) Error
+B) Route
+C) route
+D) ROUTE",coding,D,choice,coding,D,D,D,D,True,True
+"Which instrument indicates magnetic north?
+A) Clock
+B) Microscope
+C) Thermometer
+D) Compass",knowledge,D,choice,knowledge,D,D,D,D,True,True
+"Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?
+A) Soren
+B) Lena
+C) Tavi
+D) Cannot be determined",logic,C,choice,logic,C,C,D,D,True,False
+"What does this Python code print?
+```python
+print(list(range(2, 8, 2)))
+```
+A) [2, 3, 4, 5, 6, 7]
+B) [2, 4, 6]
+C) [0, 2, 4, 6]
+D) [2, 4, 6, 8]",coding,B,choice,coding,A,A,A,A,False,False
+20 + 20,arithmetic,40,integer,arithmetic,40,40,40,40,True,True
+"What is the chemical formula of water?
+A) CO2
+B) H2O
+C) NaCl
+D) O2",knowledge,B,choice,knowledge,B,B,B,B,True,True
+"Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?
+A) It was already snowing
+B) Rain was forecast
+C) The morning was dark
+D) The umbrella was broken",comprehension,B,choice,comprehension,B,B,B,B,True,True
+"What does this Python code print?
+```python
+a = [1, 2]
+a.append(5)
+print(a)
+```
+A) [1, 2, 5]
+B) [1, 2, [5]]
+C) [1, 2]
+D) [5]",coding,A,choice,coding,A,A,A,A,True,True
+"What does this Python code print?
+```python
+print([x * x for x in [2, 3]])
+```
+A) [2, 2, 3, 3]
+B) [2, 3]
+C) [4, 9]
+D) [4, 6]",coding,C,choice,coding,C,C,C,C,True,True
+"Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The lamp is on
+D) The sensor is active",logic,A,choice,logic,A,A,B,B,True,False
+96 * 48,arithmetic,4608,integer,arithmetic,4608,4608,4608,4608,True,True
+"Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?
+A) Cannot be determined
+B) Soren
+C) Lena
+D) Tavi",logic,D,choice,logic,D,D,A,A,True,False
+"What does this Python code print?
+```python
+print('a,b,c'.split(','))
+```
+A) 'abc'
+B) ['a,b,c']
+C) 3
+D) ['a', 'b', 'c']",coding,D,choice,coding,D,D,D,D,True,True
+39 * 67,arithmetic,2613,integer,arithmetic,2613,2613,2573,2573,True,False
+"Which number system uses only the digits zero and one?
+A) Binary
+B) Hexadecimal
+C) Octal
+D) Decimal",knowledge,A,choice,knowledge,A,A,A,A,True,True
+"Which material is generally a good electrical conductor?
+A) Glass
+B) Dry wood
+C) Rubber
+D) Copper",knowledge,D,choice,knowledge,D,D,D,D,True,True
+"What causes day and night on Earth?
+A) Earth changing size
+B) Earth rotating on its axis
+C) Clouds blocking all sunlight
+D) The Moon changing shape",knowledge,B,choice,knowledge,B,B,B,B,True,True
+6 + 15,arithmetic,21,integer,arithmetic,21,21,21,21,True,True
+25 * 62,arithmetic,1550,integer,arithmetic,1550,1550,1550,1550,True,True
+"Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?
+A) Only on Tuesdays
+B) Only if it is gold
+C) Yes, necessarily
+D) No",logic,D,choice,logic,D,D,D,D,True,True
+"What does this Python code print?
+```python
+print(7 % 3)
+```
+A) 3
+B) 1
+C) 0
+D) 2",coding,B,choice,coding,B,B,B,B,True,True
+"Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?
+A) 23
+B) 5
+C) 2 + 3
+D) Room closed",comprehension,C,choice,comprehension,B,B,B,B,False,False
+"Which data structure follows first-in, first-out order?
+A) Stack
+B) Set
+C) Binary tree
+D) Queue",knowledge,D,choice,knowledge,D,D,D,D,True,True
+(314 * 58) - 20,arithmetic,18192,integer,arithmetic,18192,18192,18192,18192,True,True
+"What does this Python code print?
+```python
+a = [1, 2]
+b = a
+b.append(3)
+print(len(a))
+```
+A) 1
+B) 3
+C) Error
+D) 2",coding,B,choice,coding,B,B,B,B,True,True
+"Which planet is the largest in the Solar System?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter",knowledge,D,choice,knowledge,D,D,D,D,True,True
+"Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?
+A) No blue object can be a zork
+B) No; being blue does not establish it is a zork
+C) All objects are zorks
+D) Yes, always",logic,B,choice,logic,B,B,B,B,True,True
+"Which symbol represents the element oxygen?
+A) Au
+B) Fe
+C) O
+D) N",knowledge,C,choice,knowledge,C,C,D,D,True,False
+"Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?
+A) Cannot be determined
+B) Nora
+C) Vik
+D) Wren",logic,D,choice,logic,A,A,D,D,False,True
+"Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?
+A) The sensor is not active
+B) The sensor must be broken
+C) The sensor is active
+D) The lamp is on",logic,A,choice,logic,A,A,A,A,True,True
+"Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Neri
+B) Sol
+C) Nobody
+D) Cannot be determined",comprehension,A,choice,comprehension,B,B,B,B,False,False
+"Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Neri
+D) Nobody",comprehension,C,choice,comprehension,B,B,B,B,False,False
+"Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Sol
+B) Cannot be determined
+C) Nobody
+D) Neri",comprehension,D,choice,comprehension,B,B,B,B,False,False
+"Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?
+A) Cannot be determined
+B) Nobody
+C) Neri
+D) Sol",comprehension,C,choice,comprehension,A,A,D,D,False,False

@@ -1,0 +1,17 @@
+phase,dataset,method,accuracy,wall_seconds,point_pareto,not_statistical_dominance
+natural,replay32,baseline,0.59375,12.569618680902446,True,True
+natural,replay32,static,0.59375,14.009236609718451,False,True
+natural,replay32,dlr,0.59375,13.314388762616241,False,True
+natural,replay32,conservative,0.59375,13.233194499121359,False,True
+natural,fresh32,baseline,0.84375,12.315141124961277,True,True
+natural,fresh32,static,0.90625,12.656976957184574,True,True
+natural,fresh32,dlr,0.84375,13.27260359749198,False,True
+natural,fresh32,conservative,0.84375,13.132638208180046,False,True
+fixed,replay32,baseline,0.875,4.501736027110989,False,True
+fixed,replay32,static,0.875,4.3951965690745665,True,True
+fixed,replay32,dlr,0.875,4.7502128353808075,False,True
+fixed,replay32,conservative,0.875,4.708584194847693,False,True
+fixed,fresh32,baseline,0.75,5.048295847140253,False,True
+fixed,fresh32,static,0.75,4.93772720793883,True,True
+fixed,fresh32,dlr,0.75,5.462195777179052,False,True
+fixed,fresh32,conservative,0.75,5.395306430757046,False,True

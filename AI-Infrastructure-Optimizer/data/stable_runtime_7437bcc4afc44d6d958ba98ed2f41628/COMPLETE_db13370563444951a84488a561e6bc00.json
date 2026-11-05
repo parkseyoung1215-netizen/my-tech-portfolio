@@ -1,0 +1,8 @@
+{
+  "session": "db13370563444951a84488a561e6bc00",
+  "real_inference": true,
+  "export": "./data/stable_runtime_7437bcc4afc44d6d958ba98ed2f41628/EXPORT_ef5bea87634845f5887af1e4bf057e17",
+  "completed_rows": 4209,
+  "GPU_elapsed_power_money": "unmeasured",
+  "stages_not_continuous_wall_when_resumed": true
+}

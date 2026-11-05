@@ -1,0 +1,19 @@
+{
+  "preserved_files_unchanged": true,
+  "preserved_files_checked": 254,
+  "original_rcav_selective_profiles_unchanged": true,
+  "guard_fit_reconstructed_from_separate200": true,
+  "new_training_questions": 100,
+  "fresh_holdout_questions": 150,
+  "old_question_keys_checked": 1272,
+  "fresh_or_new_training_overlap_old": 0,
+  "guard_training_overlap_either_evaluation": 0,
+  "all_decisions_and_prompts_reconstructed_without_evaluation_gold": true,
+  "scores_aggregates_recomputed": true,
+  "evaluation_rows": 2700,
+  "actual_evaluation_calls": 2595,
+  "diagnostic_verifier_calls": 33,
+  "diagnostic_recheck_correct": 33,
+  "api_errors": 0,
+  "limits": "Development-informed feature selection; fresh template-semantic independence and statistical guarantees are not established."
+}

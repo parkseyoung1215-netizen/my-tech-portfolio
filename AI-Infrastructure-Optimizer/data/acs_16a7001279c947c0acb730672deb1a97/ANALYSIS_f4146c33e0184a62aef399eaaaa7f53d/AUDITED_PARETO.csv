@@ -1,0 +1,13 @@
+dataset,method,point_pareto,dominated_by,scope
+replay64,baseline,False,"[""boundary"", ""confidence"", ""adaptive""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+replay64,fixed8,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+replay64,fixed16,False,"[""boundary"", ""adaptive""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+replay64,boundary,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+replay64,confidence,False,"[""boundary"", ""adaptive""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+replay64,adaptive,False,"[""boundary""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,baseline,False,"[""adaptive""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,fixed8,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,fixed16,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,boundary,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,confidence,False,"[""boundary""]",Limited posthoc fact audit and measured timing; no statistical dominance guarantee.
+fresh64,adaptive,True,[],Limited posthoc fact audit and measured timing; no statistical dominance guarantee.

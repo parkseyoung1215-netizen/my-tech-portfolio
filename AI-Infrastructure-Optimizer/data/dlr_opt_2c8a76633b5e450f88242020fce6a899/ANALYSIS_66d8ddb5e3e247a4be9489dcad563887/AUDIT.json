@@ -1,0 +1,14 @@
+{
+  "real_requests": 1728,
+  "fixed_stream_all_counts_and_input_tokens_match": true,
+  "all_attention_kv_offsets_correct": true,
+  "all_device_projection_counters_match_branch": true,
+  "original_files_unchanged": 8526,
+  "core_sources_unchanged": true,
+  "no_reference_used_by_gate": true,
+  "no_paid_api_or_upload": true,
+  "gate_gpu_duration_separately_measured": false,
+  "flops_scope": "analytical dense matmul + approx gate arithmetic, not all hardware work; selection/memory excluded",
+  "fresh_kernel_arithmetic_differs_from_native": true,
+  "freshness_scope": "No exact recorded stems; synthetic template overlap remains; no evaluation tuning"
+}

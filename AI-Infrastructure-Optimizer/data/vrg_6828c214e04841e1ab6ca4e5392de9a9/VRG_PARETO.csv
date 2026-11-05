@@ -1,0 +1,11 @@
+model,method,accuracy,stage_cpu_mean,dominated_by,on_observed_frontier,scope
+qwen2.5:1.5b,none,0.5933333333333334,0.00048260000000013294,[],True,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:1.5b,always,0.5166666666666667,30.351777000000002,"[""none"", ""selective""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:1.5b,selective,0.5566666666666666,9.329395199999999,"[""none""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:1.5b,heuristic,0.5933333333333334,31.1867644,"[""none"", ""learned""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:1.5b,learned,0.5933333333333334,31.185111000000003,"[""none""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:0.5b,none,0.5166666666666667,0.0007430000000006487,[],True,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:0.5b,always,0.43666666666666665,38.938743200000005,"[""none"", ""selective""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:0.5b,selective,0.44666666666666666,25.9558454,"[""none""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:0.5b,heuristic,0.5166666666666667,39.5847044,"[""none""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.
+qwen2.5:0.5b,learned,0.5033333333333333,39.184633,"[""none""]",False,Observed points only; not a statistical dominance guarantee. Oracle excluded.

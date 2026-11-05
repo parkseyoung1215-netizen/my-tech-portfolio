@@ -1,0 +1,22 @@
+{
+  "existing_files_unchanged": 5097,
+  "new_stem_past_overlap": 0,
+  "replay_fresh_disjoint": true,
+  "frozen_policy_and_no_eval_tuning": true,
+  "all_model_calls_one_per_request": true,
+  "all_28_layers_and_cache_verified": true,
+  "native_attention_mlp_audit_verified": true,
+  "actual_probability_queries": 624,
+  "probabilities_in_range": true,
+  "confidence_is_not_calibrated_correctness_probability": true,
+  "prefix_disagreements": 0,
+  "requests": 2304,
+  "unique_questions": 128,
+  "repeats": 3,
+  "old_replay_difficulty_unrated": true,
+  "fresh_challenge_abbreviation_cases": 8,
+  "source_score_preserved": true,
+  "GPU_elapsed_power_money": "unmeasured",
+  "explicit_replay": false,
+  "freshness_scope": "Original pre-ACS holdout provenance; explicit replays are not newly unused problems."
+}

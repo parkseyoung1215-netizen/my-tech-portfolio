@@ -1,0 +1,13 @@
+dataset,method,literal_content_accuracy,audited_fact_coverage,format_compliance,audited_fact_and_format,audited_incomplete_rate,identified_fidelity_failure_rate,synonym_changes,wall_seconds,cpu_seconds,note
+replay64,baseline,0.59375,0.59375,0.328125,0.1875,0.125,0,0.0,24.887753777283553,6.377475666666711,Post-run grading sensitivity; original scores/model timings preserved.
+replay64,fixed8,0.265625,0.265625,0.203125,0.0625,0.25,0,0.0,16.34234352534016,3.8060586666666274,Post-run grading sensitivity; original scores/model timings preserved.
+replay64,fixed16,0.34375,0.34375,0.203125,0.0625,0.25,0,0.0,21.33565836267856,5.340718666666697,Post-run grading sensitivity; original scores/model timings preserved.
+replay64,boundary,0.59375,0.59375,0.875,0.46875,0.125,0,0.0,20.009206832076114,4.98538199999997,Post-run grading sensitivity; original scores/model timings preserved.
+replay64,confidence,0.59375,0.59375,0.65625,0.328125,0.125,0,0.0,22.433050096655887,5.621673666666694,Post-run grading sensitivity; original scores/model timings preserved.
+replay64,adaptive,0.59375,0.59375,0.765625,0.40625,0.125,0,0.0,20.742862196251128,5.243920666666665,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,baseline,0.703125,0.828125,0.484375,0.421875,0.25,0.125,8.0,39.687461906888835,9.931179333333352,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,fixed8,0.28125,0.28125,0.234375,0.171875,0.5,0,0.0,18.31525752483867,4.2136226666666845,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,fixed16,0.328125,0.328125,0.234375,0.171875,0.5,0.125,0.0,27.431375860469416,6.636260999999948,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,boundary,0.703125,0.703125,0.625,0.453125,0.375,0,0.0,28.12397342105396,6.459900666666662,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,confidence,0.703125,0.703125,0.515625,0.375,0.375,0,0.0,29.43701087598068,7.016625333333315,Post-run grading sensitivity; original scores/model timings preserved.
+fresh64,adaptive,0.703125,0.828125,0.6875,0.53125,0.25,0.125,8.0,36.42421734744372,9.193348999999918,Post-run grading sensitivity; original scores/model timings preserved.

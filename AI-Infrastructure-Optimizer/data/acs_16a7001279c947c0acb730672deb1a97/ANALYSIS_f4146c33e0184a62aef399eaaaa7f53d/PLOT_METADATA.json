@@ -1,0 +1,5 @@
+{
+  "matplotlib": "3.11.2",
+  "all_performance_from_real_traces": true,
+  "error_bars": "Three repeated timing runs; same questions, not 192 independent tasks"
+}

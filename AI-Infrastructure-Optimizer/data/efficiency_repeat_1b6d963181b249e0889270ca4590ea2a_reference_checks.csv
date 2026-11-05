@@ -1,0 +1,276 @@
+question,reference_output,expected_option,matches
+"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",51,51,True
+"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]","[30, 31, 32]","[30, 31, 32]",True
+"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",15,15,True
+"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",53,53,True
+"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]","[32, 33, 34]","[32, 33, 34]",True
+"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",3,3,True
+"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",51,51,True
+"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",52,52,True
+"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",21,21,True
+"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",3,3,True
+"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",53,53,True
+"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error","['au', 'it4']","['au', 'it4']",True
+"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",3,3,True
+"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]","[34, 35, 36]","[34, 35, 36]",True
+"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']","['au', 'it1']","['au', 'it1']",True
+"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",45,45,True
+"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']","['au', 'it0']","['au', 'it0']",True
+"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",28,28,True
+"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error","['au', 'it3']","['au', 'it3']",True
+"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",55,55,True
+"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",36,36,True
+"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']","['au', 'it2']","['au', 'it2']",True
+"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",3,3,True
+"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",54,54,True
+"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",55,55,True
+"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",52,52,True
+"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",54,54,True
+"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]","[33, 34, 35]","[33, 34, 35]",True
+"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]","[31, 32, 33]","[31, 32, 33]",True
+"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",3,3,True

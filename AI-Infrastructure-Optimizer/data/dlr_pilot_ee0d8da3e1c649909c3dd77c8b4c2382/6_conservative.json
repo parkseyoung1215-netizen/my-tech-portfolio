@@ -1,0 +1,719 @@
+{
+  "attention_calls": [
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "mlp_calls": [
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "reused_mlp_calls": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "work_shapes": [
+    [
+      53,
+      53,
+      28,
+      28
+    ],
+    [
+      1,
+      54,
+      28,
+      28
+    ],
+    [
+      1,
+      55,
+      28,
+      28
+    ],
+    [
+      1,
+      56,
+      28,
+      28
+    ],
+    [
+      1,
+      57,
+      28,
+      28
+    ],
+    [
+      1,
+      58,
+      28,
+      28
+    ],
+    [
+      1,
+      59,
+      28,
+      28
+    ],
+    [
+      1,
+      60,
+      28,
+      28
+    ],
+    [
+      1,
+      61,
+      28,
+      28
+    ],
+    [
+      1,
+      62,
+      28,
+      28
+    ],
+    [
+      1,
+      63,
+      28,
+      28
+    ],
+    [
+      1,
+      64,
+      28,
+      28
+    ],
+    [
+      1,
+      65,
+      28,
+      28
+    ],
+    [
+      1,
+      66,
+      28,
+      28
+    ],
+    [
+      1,
+      67,
+      28,
+      28
+    ],
+    [
+      1,
+      68,
+      28,
+      28
+    ],
+    [
+      1,
+      69,
+      28,
+      28
+    ]
+  ],
+  "events": [
+    {
+      "step": 1,
+      "layer": 8,
+      "distance": 1.248206377029419,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 12,
+      "distance": 0.9488788843154907,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 16,
+      "distance": 0.7833465933799744,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 24,
+      "distance": 1.2173601388931274,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 2,
+      "layer": 8,
+      "distance": 0.8941991329193115,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 12,
+      "distance": 1.0775647163391113,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 16,
+      "distance": 0.9272342324256897,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 24,
+      "distance": 1.260020136833191,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 3,
+      "layer": 8,
+      "distance": 1.0196533203125,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 12,
+      "distance": 0.8313021063804626,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 16,
+      "distance": 0.8467483520507812,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 24,
+      "distance": 1.0089093446731567,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 4,
+      "layer": 8,
+      "distance": 1.1637102365493774,
+      "reused": false,
+      "anchor_step": 3
+    },
+    {
+      "step": 4,
+      "layer": 12,
+      "distance": 0.9753490090370178,
+      "reused": false,
+      "anchor_step": 3
+    },
+    {
+      "step": 4,
+      "layer": 16,
+      "distance": 0.7667505741119385,
+      "reused": false,
+      "anchor_step": 3
+    },
+    {
+      "step": 4,
+      "layer": 24,
+      "distance": 0.7681678533554077,
+      "reused": false,
+      "anchor_step": 3
+    },
+    {
+      "step": 5,
+      "layer": 8,
+      "distance": 0.8868357539176941,
+      "reused": false,
+      "anchor_step": 4
+    },
+    {
+      "step": 5,
+      "layer": 12,
+      "distance": 0.8903843760490417,
+      "reused": false,
+      "anchor_step": 4
+    },
+    {
+      "step": 5,
+      "layer": 16,
+      "distance": 0.6873827576637268,
+      "reused": false,
+      "anchor_step": 4
+    },
+    {
+      "step": 5,
+      "layer": 24,
+      "distance": 0.8121602535247803,
+      "reused": false,
+      "anchor_step": 4
+    },
+    {
+      "step": 6,
+      "layer": 8,
+      "distance": 0.844132661819458,
+      "reused": false,
+      "anchor_step": 5
+    },
+    {
+      "step": 6,
+      "layer": 12,
+      "distance": 0.6918155550956726,
+      "reused": false,
+      "anchor_step": 5
+    },
+    {
+      "step": 6,
+      "layer": 16,
+      "distance": 0.540144145488739,
+      "reused": false,
+      "anchor_step": 5
+    },
+    {
+      "step": 6,
+      "layer": 24,
+      "distance": 0.7438077926635742,
+      "reused": false,
+      "anchor_step": 5
+    },
+    {
+      "step": 7,
+      "layer": 8,
+      "distance": 1.1231962442398071,
+      "reused": false,
+      "anchor_step": 6
+    },
+    {
+      "step": 7,
+      "layer": 12,
+      "distance": 0.9023383259773254,
+      "reused": false,
+      "anchor_step": 6
+    },
+    {
+      "step": 7,
+      "layer": 16,
+      "distance": 0.7632694244384766,
+      "reused": false,
+      "anchor_step": 6
+    },
+    {
+      "step": 7,
+      "layer": 24,
+      "distance": 0.8241020441055298,
+      "reused": false,
+      "anchor_step": 6
+    },
+    {
+      "step": 8,
+      "layer": 8,
+      "distance": 0.8961377143859863,
+      "reused": false,
+      "anchor_step": 7
+    },
+    {
+      "step": 8,
+      "layer": 12,
+      "distance": 0.7325146794319153,
+      "reused": false,
+      "anchor_step": 7
+    },
+    {
+      "step": 8,
+      "layer": 16,
+      "distance": 0.6942523121833801,
+      "reused": false,
+      "anchor_step": 7
+    },
+    {
+      "step": 8,
+      "layer": 24,
+      "distance": 0.91779625415802,
+      "reused": false,
+      "anchor_step": 7
+    },
+    {
+      "step": 9,
+      "layer": 8,
+      "distance": 1.1194612979888916,
+      "reused": false,
+      "anchor_step": 8
+    },
+    {
+      "step": 9,
+      "layer": 12,
+      "distance": 0.9933893084526062,
+      "reused": false,
+      "anchor_step": 8
+    },
+    {
+      "step": 9,
+      "layer": 16,
+      "distance": 0.8429011106491089,
+      "reused": false,
+      "anchor_step": 8
+    },
+    {
+      "step": 9,
+      "layer": 24,
+      "distance": 0.9827901124954224,
+      "reused": false,
+      "anchor_step": 8
+    },
+    {
+      "step": 10,
+      "layer": 8,
+      "distance": 0.9937356114387512,
+      "reused": false,
+      "anchor_step": 9
+    },
+    {
+      "step": 10,
+      "layer": 12,
+      "distance": 0.9189737439155579,
+      "reused": false,
+      "anchor_step": 9
+    },
+    {
+      "step": 10,
+      "layer": 16,
+      "distance": 0.7678395509719849,
+      "reused": false,
+      "anchor_step": 9
+    },
+    {
+      "step": 10,
+      "layer": 24,
+      "distance": 0.8386877179145813,
+      "reused": false,
+      "anchor_step": 9
+    },
+    {
+      "step": 11,
+      "layer": 8,
+      "distance": 0.7915105819702148,
+      "reused": false,
+      "anchor_step": 10
+    },
+    {
+      "step": 11,
+      "layer": 12,
+      "distance": 0.6892207264900208,
+      "reused": false,
+      "anchor_step": 10
+    },
+    {
+      "step": 11,
+      "layer": 16,
+      "distance": 0.5907440185546875,
+      "reused": false,
+      "anchor_step": 10
+    },
+    {
+      "step": 11,
+      "layer": 24,
+      "distance": 1.0309637784957886,
+      "reused": false,
+      "anchor_step": 10
+    },
+    {
+      "step": 12,
+      "layer": 8,
+      "distance": 1.0519943237304688,
+      "reused": false,
+      "anchor_step": 11
+    },
+    {
+      "step": 12,
+      "layer": 12,
+      "distance": 0.8845741748809814,
+      "reused": false,
+      "anchor_step": 11
+    },
+    {
+      "step": 12,
+      "layer": 16,
+      "distance": 0.7946943640708923,
+      "reused": false,
+      "anchor_step": 11
+    },
+    {
+      "step": 12,
+      "layer": 24,
+      "distance": 1.1937153339385986,
+      "reused": false,
+      "anchor_step": 11
+    },
+    {
+      "step": 13,
+      "layer": 8,
+      "distance": 0.6280633211135864,
+      "reused": false,
+      "anchor_step": 12
+    },
+    {
+      "step": 13,
+      "layer": 12,
+      "distance": 0.5427074432373047,
+      "reused": false,
+      "anchor_step": 12
+    },
+    {
+      "step": 13,
+      "layer": 16,
+      "distance": 0.5473085641860962,
+      "reused": false,
+      "anchor_step": 12
+    },
+    {
+      "step": 13,
+      "layer": 24,
+      "distance": 0.7443754076957703,
+      "reused": false,
+      "anchor_step": 12
+    },
+    {
+      "step": 14,
+      "layer": 8,
+      "distance": 0.9076461791992188,
+      "reused": false,
+      "anchor_step": 13
+    },
+    {
+      "step": 14,
+      "layer": 12,
+      "distance": 0.7934481501579285,
+      "reused": false,
+      "anchor_step": 13
+    },
+    {
+      "step": 14,
+      "layer": 16,
+      "distance": 0.6114016175270081,
+      "reused": false,
+      "anchor_step": 13
+    },
+    {
+      "step": 14,
+      "layer": 24,
+      "distance": 0.9477970600128174,
+      "reused": false,
+      "anchor_step": 13
+    },
+    {
+      "step": 15,
+      "layer": 8,
+      "distance": 0.9276543259620667,
+      "reused": false,
+      "anchor_step": 14
+    },
+    {
+      "step": 15,
+      "layer": 12,
+      "distance": 0.8988288640975952,
+      "reused": false,
+      "anchor_step": 14
+    },
+    {
+      "step": 15,
+      "layer": 16,
+      "distance": 0.8615595698356628,
+      "reused": false,
+      "anchor_step": 14
+    },
+    {
+      "step": 15,
+      "layer": 24,
+      "distance": 1.1059540510177612,
+      "reused": false,
+      "anchor_step": 14
+    },
+    {
+      "step": 16,
+      "layer": 8,
+      "distance": 1.4451537132263184,
+      "reused": false,
+      "anchor_step": 15
+    },
+    {
+      "step": 16,
+      "layer": 12,
+      "distance": 1.095178484916687,
+      "reused": false,
+      "anchor_step": 15
+    },
+    {
+      "step": 16,
+      "layer": 16,
+      "distance": 0.9460819959640503,
+      "reused": false,
+      "anchor_step": 15
+    },
+    {
+      "step": 16,
+      "layer": 24,
+      "distance": 1.049058437347412,
+      "reused": false,
+      "anchor_step": 15
+    }
+  ],
+  "gate_wall_seconds": 0.01437283307313919,
+  "gate_cpu_seconds": 0.006239999999994694,
+  "gate_elements": 98304,
+  "pre_gate_sync_wall_seconds": 0.39937137719243765,
+  "input_tokens": 53,
+  "answer": "Mira2, with a gray cap, works at Pier 16.",
+  "token_ids": [
+    44,
+    8832,
+    17,
+    11,
+    448,
+    264,
+    17545,
+    2062,
+    11,
+    4278,
+    518,
+    20718,
+    220,
+    16,
+    21,
+    13,
+    151645
+  ],
+  "output_tokens": 17,
+  "completion_reason": "eos",
+  "kv_offsets": [
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69,
+    69
+  ],
+  "wall_seconds": 0.6331807088572532,
+  "cpu_seconds": 0.07720400000000005,
+  "model_wall_seconds": 0.6327869184315205,
+  "model_cpu_seconds": 0.07666200000000067,
+  "model_calls": 1,
+  "analytical_matmul_flops": 189394231296,
+  "cached_activation_payload_bytes": 24576,
+  "mlx_peak_bytes": 3183652192,
+  "mlx_active_bytes": 3095104528,
+  "process_lifetime_rss_peak_bytes": 3340369920,
+  "extra_gate_model_calls": 0,
+  "gpu_time_flops_power_money": null,
+  "fixed_work": false,
+  "method": "conservative",
+  "question": "DLR development passage 67606: Mira2 has a gray cap and works at Pier 16. Restate both facts in one sentence.",
+  "index": 6
+}

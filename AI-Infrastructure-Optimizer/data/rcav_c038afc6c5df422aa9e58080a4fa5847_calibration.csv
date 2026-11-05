@@ -1,0 +1,1011 @@
+question,category,expected,task_format,reference_code,model,inferred_category,observed,primary_answer,primary_prediction,verification_answer,final_prediction,primary_correct,final_correct,verification_prompt_chars,verification_model_seconds
+"Read the passage: On schedule 11, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) Never
+B) 18:00
+C) 20:00
+D) 19:00",comprehension,C,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",C,C,C,C,True,True,356,0.083303
+"What does this Python program output?
+```python
+print(sum(range(24, 31, 2)))
+```
+A) 31
+B) 96
+C) Error
+D) 108",coding,D,choice,"print(sum(range(24, 31, 2)))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 108, ""candidate_chars"": 1}",B,B,B,B,False,False,294,0.08695
+"Reason about a weekly calendar: today is Friday. Which weekday is 14 days later?
+A) Thursday
+B) Friday
+C) Monday
+D) Sunday",logic,B,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 122, ""candidate_chars"": 1}",B,B,A,A,True,False,308,0.082887
+"Reason about directed links: P14a->P14b, P14c->P14b, P14b->P14d. Starting at P14a, which listed node can be reached after exactly two links?
+A) P14a
+B) P14b
+C) P14d
+D) P14c",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 172, ""candidate_chars"": 7}","B, C, D",,"C, D",,False,False,364,0.106431
+"What does this Python program output?
+```python
+v = [22, 24, 27]
+print(v[1:][0])
+```
+A) Error
+B) 24
+C) 27
+D) 22",coding,B,choice,"v = [22, 24, 27]
+print(v[1:][0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",B,B,B,B,True,True,297,0.08158599999999999
+1897 - 229,arithmetic,1668,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1668,1668,1668,1668,True,True,180,0.119903
+"Reason about bit parity case 13: bits=[1, 1, 1, 0, 0, 0, 1, 1, 0]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 148, ""candidate_chars"": 1}",C,C,C,C,True,True,334,0.085346
+1982 * 22,arithmetic,43604,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",43604,43604,43564,43564,True,False,180,0.127544
+"What does this Python program output?
+```python
+v = [21, 23, 26]
+print(v[1:][0])
+```
+A) 23
+B) 26
+C) Error
+D) 21",coding,A,choice,"v = [21, 23, 26]
+print(v[1:][0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",A,A,A,A,True,True,297,0.081699
+"Which chemical element has the symbol F?
+A) Iron
+B) Fermium
+C) Fluorine
+D) Francium",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 83, ""candidate_chars"": 1}",C,C,C,C,True,True,269,0.081515
+"Read the passage: Booking 14 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Both rooms
+B) No room
+C) Room Pine
+D) Room Elm",comprehension,C,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",C,C,B,B,True,False,358,0.084176
+"Reason about a weekly calendar: today is Saturday. Which weekday is 15 days later?
+A) Tuesday
+B) Sunday
+C) Friday
+D) Monday",logic,B,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 123, ""candidate_chars"": 1}",B,B,B,B,True,True,309,0.082433
+1698 - 198,arithmetic,1500,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1500,1500,401,401,True,False,180,0.106074
+(1638 - 132) * 18,arithmetic,27108,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",27108,27108,27108,27108,True,True,188,0.1277
+"What does this Python program output?
+```python
+print([n for n in range(24, 29) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [24, 26, 28]
+D) [24, 25, 26, 27, 28]",coding,C,choice,"print([n for n in range(24, 29) if n % 2 == 0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 154, ""candidate_chars"": 1}",C,C,C,C,True,True,340,0.08477900000000001
+"What does this Python program output?
+```python
+print([n for n in range(22, 27) if n % 2 == 0])
+```
+A) [22, 23, 24, 25, 26]
+B) []
+C) [22, 24, 26]
+D) Error",coding,C,choice,"print([n for n in range(22, 27) if n % 2 == 0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 154, ""candidate_chars"": 1}",C,C,C,C,True,True,340,0.084088
+"Read the passage: Mira14 paid 24 coins and received a refund of 14 coins. The receipt explicitly lists the refund as 14 coins. How many coins were refunded?
+A) Zero
+B) 14
+C) 24
+D) 10",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",B,B,B,B,True,True,368,0.08470599999999999
+"Which cell structure controls much of the exchange with its surroundings?
+A) Chromosome
+B) Cell membrane
+C) Nucleolus
+D) Ribosome",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 129, ""candidate_chars"": 1}",B,B,B,B,True,True,315,0.083185
+"Reason about bit parity case 14: bits=[0, 0, 1, 0, 1, 0, 1, 0, 0]. Is the count of 1 bits odd or even?
+A) Neither
+B) Cannot determine
+C) Even
+D) Odd",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 148, ""candidate_chars"": 1}",C,C,D,D,False,True,334,0.08439300000000001
+"Which organ contains the vocal cords?
+A) Esophagus
+B) Liver
+C) Larynx
+D) Stomach",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 80, ""candidate_chars"": 1}",C,C,C,C,True,True,266,0.08315099999999999
+"Read the passage: Mira13 paid 23 coins and received a refund of 13 coins. The receipt explicitly lists the refund as 13 coins. How many coins were refunded?
+A) 23
+B) Zero
+C) 10
+D) 13",comprehension,D,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",B,B,B,B,False,False,368,0.084231
+"Which chemical element has the symbol Be?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",knowledge,A,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 84, ""candidate_chars"": 1}",A,A,A,A,True,True,270,0.083811
+1471 - 297,arithmetic,1174,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1174,1174,1174,1174,True,True,180,0.117651
+(2288 - 133) * 19,arithmetic,40945,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",40945,40945,8855,8855,True,False,188,0.119144
+"Reason about a four-person race: Karo14 finishes before Lumi14; Juna14 finishes before Karo14; Ivo14 finishes before Juna14. Who finishes in position 3?
+A) Ivo14
+B) Juna14
+C) Lumi14
+D) Karo14",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",D,D,D,D,True,True,377,0.085242
+2077 * 57,arithmetic,118389,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 6}",118389,118389,118389,118389,True,True,181,0.14199
+2532 * 48,arithmetic,121536,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 6}",121536,121536,121536,121536,True,True,181,0.13661800000000002
+"Read the passage: Booking 11 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Both rooms
+C) Room Pine
+D) No room",comprehension,C,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",B,B,D,D,False,False,358,0.081245
+2832 - 124,arithmetic,2708,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2708,2708,2708,2708,True,True,180,0.11503
+2409 * 13,arithmetic,31317,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",31317,31317,31317,31317,True,True,180,0.124912
+"Reason about a four-person race: Karo11 finishes before Lumi11; Ivo11 finishes before Juna11; Juna11 finishes before Karo11. Who finishes in position 4?
+A) Lumi11
+B) Ivo11
+C) Juna11
+D) Karo11",logic,A,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",D,D,D,D,False,False,377,0.084549
+"Which chemical element has the symbol O?
+A) Gold
+B) Silver
+C) Oxygen
+D) Osmium",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 78, ""candidate_chars"": 1}",C,C,D,D,True,False,264,0.08284799999999999
+"Which chemical element has the symbol Mg?
+A) Magnesium
+B) Molybdenum
+C) Manganese
+D) Mercury",knowledge,A,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 92, ""candidate_chars"": 1}",A,A,A,A,True,True,278,0.083235
+"Reason about set membership: X=[13, 15, 17] and Y=[12, 15, 18]. Which value belongs to both?
+A) 15
+B) 18
+C) 13
+D) 12",logic,A,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",A,A,A,A,True,True,302,0.084569
+"Reason about a four-person race: Juna12 finishes before Karo12; Karo12 finishes before Lumi12; Ivo12 finishes before Juna12. Who finishes in position 1?
+A) Juna12
+B) Lumi12
+C) Karo12
+D) Ivo12",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",B,B,B,B,False,False,377,0.083519
+"Which gas do plants consume during photosynthesis?
+A) Neon
+B) Carbon dioxide
+C) Helium
+D) Hydrogen",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 98, ""candidate_chars"": 1}",B,B,B,B,True,True,284,0.082857
+"Read the passage: Mira12 wrote a poem. Niko12 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira12
+C) Niko12
+D) Both composed it",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 164, ""candidate_chars"": 1}",B,B,B,B,True,True,350,0.084479
+"Read the passage: Booking 13 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Room Pine
+C) Both rooms
+D) No room",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",B,B,D,D,True,False,358,0.085091
+"What does this Python program output?
+```python
+s = '  wave14 blue sky  '
+print(len(s.strip().split()))
+```
+A) 4
+B) 3
+C) 2
+D) Error",coding,B,choice,"s = '  wave14 blue sky  '
+print(len(s.strip().split()))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 131, ""candidate_chars"": 1}",A,A,A,A,False,False,317,0.086088
+"Which SI unit measures frequency?
+A) Pascal
+B) Newton
+C) Hertz
+D) Joule",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 71, ""candidate_chars"": 1}",C,C,C,C,True,True,257,0.08369499999999999
+"Reason about set membership: X=[16, 18, 20] and Y=[15, 18, 21]. Which value belongs to both?
+A) 21
+B) 18
+C) 15
+D) 16",logic,B,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",B,B,B,B,True,True,302,0.08301900000000001
+"What does this Python program output?
+```python
+print(sum(range(22, 29, 2)))
+```
+A) 88
+B) 29
+C) 100
+D) Error",coding,C,choice,"print(sum(range(22, 29, 2)))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 108, ""candidate_chars"": 1}",A,A,A,A,False,False,294,0.082375
+"What does this Python program output?
+```python
+print([n for n in range(21, 26) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [21, 22, 23, 24, 25]
+D) [22, 24]",coding,D,choice,"print([n for n in range(21, 26) if n % 2 == 0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 150, ""candidate_chars"": 1}",B,B,B,B,False,False,336,0.08388899999999999
+"Which SI unit measures electric resistance?
+A) Joule
+B) Volt
+C) Ohm
+D) Ampere",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 77, ""candidate_chars"": 1}",C,C,D,D,True,False,263,0.08426499999999999
+"Read the passage: On schedule 14, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 18:00
+B) 20:00
+C) Never
+D) 19:00",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",B,B,B,B,True,True,356,0.0844
+2167 - 233,arithmetic,1934,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1934,1934,1934,1934,True,True,180,0.116467
+"Read the passage: On schedule 12, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 18:00
+C) 20:00
+D) Never",comprehension,C,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",A,A,C,C,False,True,356,0.081015
+1324 * 16,arithmetic,21184,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",21184,21184,21168,21168,True,False,180,0.12545800000000001
+"What does this Python program output?
+```python
+s = '  wave13 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) 4
+D) Error",coding,B,choice,"s = '  wave13 blue sky  '
+print(len(s.strip().split()))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 131, ""candidate_chars"": 1}",A,A,D,D,False,False,317,0.080873
+"Read the passage: Ticket 13 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Confirmed
+C) Unknown
+D) Cancelled",comprehension,D,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",D,D,D,D,True,True,374,0.084543
+"What does this Python program output?
+```python
+v = [23, 25, 28]
+print(v[1:][0])
+```
+A) Error
+B) 23
+C) 25
+D) 28",coding,C,choice,"v = [23, 25, 28]
+print(v[1:][0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",C,C,C,C,True,True,297,0.083404
+"Read the passage: Mira12 paid 22 coins and received a refund of 12 coins. The receipt explicitly lists the refund as 12 coins. How many coins were refunded?
+A) 22
+B) 12
+C) Zero
+D) 10",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",B,B,B,B,True,True,368,0.084082
+"Reason about set membership: X=[15, 17, 19] and Y=[14, 17, 20]. Which value belongs to both?
+A) 15
+B) 14
+C) 17
+D) 20",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",C,C,D,D,True,False,302,0.08323
+"What does this Python program output?
+```python
+s = '  wave12 blue sky  '
+print(len(s.strip().split()))
+```
+A) Error
+B) 4
+C) 3
+D) 2",coding,C,choice,"s = '  wave12 blue sky  '
+print(len(s.strip().split()))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 131, ""candidate_chars"": 1}",B,B,B,B,False,False,317,0.084551
+"Read the passage: Booking 12 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) No room
+B) Room Pine
+C) Both rooms
+D) Room Elm",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",B,B,B,B,True,True,358,0.08437
+"Which SI unit measures force?
+A) Pascal
+B) Newton
+C) Kelvin
+D) Watt",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 67, ""candidate_chars"": 1}",B,B,B,B,True,True,253,0.085618
+"Read the passage: Mira13 wrote a poem. Niko13 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira13
+C) Niko13
+D) Both composed it",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 164, ""candidate_chars"": 1}",B,B,B,B,True,True,350,0.083898
+2337 - 176,arithmetic,2161,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2161,2161,2161,2161,True,True,180,0.119613
+"Reason about bit parity case 11: bits=[1, 0, 0, 0, 1, 0, 1, 1, 1]. Is the count of 1 bits odd or even?
+A) Cannot determine
+B) Even
+C) Neither
+D) Odd",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 148, ""candidate_chars"": 1}",B,B,D,D,False,True,334,0.08371400000000001
+"Which process converts liquid water to water vapor?
+A) Freezing
+B) Melting
+C) Evaporation
+D) Condensation",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 105, ""candidate_chars"": 1}",C,C,C,C,True,True,291,0.08358700000000001
+"Which chemical element has the symbol Ne?
+A) Nitrogen
+B) Nickel
+C) Neon
+D) Sodium",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 81, ""candidate_chars"": 1}",C,C,C,C,True,True,267,0.08418300000000001
+"What does this Python program output?
+```python
+v = [24, 26, 29]
+print(v[1:][0])
+```
+A) Error
+B) 26
+C) 29
+D) 24",coding,B,choice,"v = [24, 26, 29]
+print(v[1:][0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",B,B,B,B,True,True,297,0.08433399999999999
+"Which SI unit measures electric potential difference?
+A) Hertz
+B) Ohm
+C) Volt
+D) Ampere",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 87, ""candidate_chars"": 1}",C,C,C,C,True,True,273,0.083635
+"Which SI unit measures pressure?
+A) Joule
+B) Newton
+C) Ampere
+D) Pascal",knowledge,D,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 71, ""candidate_chars"": 1}",D,D,D,D,True,True,257,0.084069
+"Read the passage: On schedule 13, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 20:00
+C) Never
+D) 18:00",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",B,B,B,B,True,True,356,0.08465500000000001
+"Which blood components help initiate clotting?
+A) Egg cells
+B) Neurons
+C) Platelets
+D) Muscle cells",knowledge,C,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 99, ""candidate_chars"": 1}",C,C,C,C,True,True,285,0.085079
+2643 * 23,arithmetic,60789,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",60789,60789,60789,60789,True,True,180,0.130604
+"Reason about directed links: P13a->P13b, P13c->P13b, P13b->P13d. Starting at P13a, which listed node can be reached after exactly two links?
+A) P13b
+B) P13a
+C) P13c
+D) P13d",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",A,A,D,D,False,True,358,0.08539999999999999
+"Which chemical element has the symbol B?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 83, ""candidate_chars"": 1}",B,B,B,B,True,True,269,0.083338
+2354 - 137,arithmetic,2217,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2217,2217,2217,2217,True,True,180,0.11907100000000001
+"Reason about a weekly calendar: today is Monday. Which weekday is 17 days later?
+A) Tuesday
+B) Monday
+C) Saturday
+D) Thursday",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 125, ""candidate_chars"": 1}",B,B,C,C,False,False,311,0.08187599999999999
+(2033 - 151) * 17,arithmetic,31994,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",31994,31994,6194,6194,True,False,188,0.115761
+"What does this Python program output?
+```python
+d = {'x': 22}
+print(d.get('z', 7) + d['x'])
+```
+A) 22
+B) 29
+C) Error
+D) 7",coding,B,choice,"d = {'x': 22}
+print(d.get('z', 7) + d['x'])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,True,True,307,0.08259999999999999
+"What does this Python program output?
+```python
+d = {'x': 21}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 28
+C) 7
+D) 21",coding,B,choice,"d = {'x': 21}
+print(d.get('z', 7) + d['x'])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,True,True,307,0.08685599999999999
+"Reason about directed links: P11a->P11b, P11c->P11b, P11b->P11d. Starting at P11a, which listed node can be reached after exactly two links?
+A) P11a
+B) P11b
+C) P11c
+D) P11d",logic,D,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 172, ""candidate_chars"": 7}","B, C, D",,D,D,False,True,364,0.08167400000000001
+(1730 - 220) * 45,arithmetic,67950,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",67950,67950,2100,2100,True,False,188,0.115704
+"Reason about directed links: P12a->P12b, P12c->P12b, P12b->P12d. Starting at P12a, which listed node can be reached after exactly two links?
+A) P12b
+B) P12a
+C) P12d
+D) P12c",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",A,A,A,A,False,False,358,0.085037
+"Reason about a four-person race: Ivo13 finishes before Juna13; Juna13 finishes before Karo13; Karo13 finishes before Lumi13. Who finishes in position 2?
+A) Lumi13
+B) Juna13
+C) Karo13
+D) Ivo13",logic,B,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",B,B,A,A,True,False,377,0.085339
+"What does this Python program output?
+```python
+d = {'x': 23}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 23
+C) 30
+D) 7",coding,C,choice,"d = {'x': 23}
+print(d.get('z', 7) + d['x'])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,False,False,307,0.08414999999999999
+"Read the passage: Ticket 14 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Cancelled
+B) Confirmed
+C) Unknown
+D) Pending",comprehension,A,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",A,A,A,A,True,True,374,0.083811
+"Read the passage: Mira11 paid 21 coins and received a refund of 11 coins. The receipt explicitly lists the refund as 11 coins. How many coins were refunded?
+A) 11
+B) 21
+C) Zero
+D) 10",comprehension,A,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",A,A,A,A,True,True,368,0.083817
+"Reason about set membership: X=[14, 16, 18] and Y=[13, 16, 19]. Which value belongs to both?
+A) 19
+B) 14
+C) 16
+D) 13",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",C,C,B,B,True,False,302,0.08434799999999999
+"Read the passage: Ticket 11 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Unknown
+C) Cancelled
+D) Confirmed",comprehension,C,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",C,C,D,D,True,False,374,0.08459
+"What does this Python program output?
+```python
+print(sum(range(21, 28, 2)))
+```
+A) Error
+B) 96
+C) 84
+D) 28",coding,B,choice,"print(sum(range(21, 28, 2)))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 107, ""candidate_chars"": 1}",B,B,B,B,True,True,293,0.084425
+"Reason about a weekly calendar: today is Sunday. Which weekday is 16 days later?
+A) Monday
+B) Tuesday
+C) Friday
+D) Sunday",logic,B,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",D,D,A,A,False,False,307,0.08484499999999999
+1305 * 34,arithmetic,44370,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",44370,44370,44370,44370,True,True,180,0.129361
+"Read the passage: Mira14 wrote a poem. Niko14 copied that poem without composing a new one. Who composed the poem?
+A) Mira14
+B) Both composed it
+C) Nobody
+D) Niko14",comprehension,A,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 164, ""candidate_chars"": 1}",A,A,D,D,True,False,350,0.082924
+"What does this Python program output?
+```python
+print(sum(range(23, 30, 2)))
+```
+A) 92
+B) 104
+C) 30
+D) Error",coding,B,choice,"print(sum(range(23, 30, 2)))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 108, ""candidate_chars"": 1}",A,A,B,B,False,True,294,0.083208
+(2745 - 172) * 35,arithmetic,90055,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",90055,90055,90055,90055,True,True,188,0.128525
+"What does this Python program output?
+```python
+print([n for n in range(23, 28) if n % 2 == 0])
+```
+A) [23, 24, 25, 26, 27]
+B) []
+C) Error
+D) [24, 26]",coding,D,choice,"print([n for n in range(23, 28) if n % 2 == 0])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 150, ""candidate_chars"": 1}",D,D,D,D,True,True,336,0.08285400000000001
+"Read the passage: Mira11 wrote a poem. Niko11 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Niko11
+C) Both composed it
+D) Mira11",comprehension,D,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 164, ""candidate_chars"": 1}",D,D,D,D,True,True,350,0.085754
+"Which organ stores bile before release?
+A) Kidney
+B) Gallbladder
+C) Spleen
+D) Bladder",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 85, ""candidate_chars"": 1}",B,B,B,B,True,True,271,0.08352899999999999
+"Which chemical element has the symbol S?
+A) Silicon
+B) Sulfur
+C) Sodium
+D) Silver",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 81, ""candidate_chars"": 1}",B,B,B,B,True,True,267,0.084632
+"Reason about bit parity case 12: bits=[0, 1, 1, 1, 0, 1, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",logic,C,choice,,qwen2.5:1.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 148, ""candidate_chars"": 1}",C,C,C,C,True,True,334,0.083744
+"Which SI unit measures electric current?
+A) Ampere
+B) Ohm
+C) Watt
+D) Volt",knowledge,A,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 73, ""candidate_chars"": 1}",A,A,A,A,True,True,259,0.083347
+"What does this Python program output?
+```python
+s = '  wave11 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) Error
+D) 4",coding,B,choice,"s = '  wave11 blue sky  '
+print(len(s.strip().split()))",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 131, ""candidate_chars"": 1}",D,D,D,D,False,False,317,0.083917
+"Which chemical element has the symbol Cl?
+A) Carbon
+B) Chlorine
+C) Cobalt
+D) Calcium",knowledge,B,choice,,qwen2.5:1.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 84, ""candidate_chars"": 1}",B,B,B,B,True,True,270,0.085122
+"Read the passage: Ticket 12 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Cancelled
+C) Unknown
+D) Confirmed",comprehension,B,choice,,qwen2.5:1.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",B,B,B,B,True,True,374,0.083675
+"What does this Python program output?
+```python
+d = {'x': 24}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 7
+C) 24
+D) 31",coding,D,choice,"d = {'x': 24}
+print(d.get('z', 7) + d['x'])",qwen2.5:1.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",C,C,D,D,False,True,307,0.089004
+(2166 - 276) * 44,arithmetic,83160,integer,,qwen2.5:1.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",83160,83160,10000,10000,True,False,188,0.148673
+"Read the passage: On schedule 11, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) Never
+B) 18:00
+C) 20:00
+D) 19:00",comprehension,C,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",A,A,A,A,False,False,356,0.034005
+"What does this Python program output?
+```python
+print(sum(range(24, 31, 2)))
+```
+A) 31
+B) 96
+C) Error
+D) 108",coding,D,choice,"print(sum(range(24, 31, 2)))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 108, ""candidate_chars"": 2}",A),A,D),D,False,True,295,0.040961
+"Reason about a weekly calendar: today is Friday. Which weekday is 14 days later?
+A) Thursday
+B) Friday
+C) Monday
+D) Sunday",logic,B,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 122, ""candidate_chars"": 1}",C,C,C,C,False,False,308,0.033383
+"Reason about directed links: P14a->P14b, P14c->P14b, P14b->P14d. Starting at P14a, which listed node can be reached after exactly two links?
+A) P14a
+B) P14b
+C) P14d
+D) P14c",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",C,C,C,C,True,True,358,0.032168
+"What does this Python program output?
+```python
+v = [22, 24, 27]
+print(v[1:][0])
+```
+A) Error
+B) 24
+C) 27
+D) 22",coding,B,choice,"v = [22, 24, 27]
+print(v[1:][0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",B,B,B,B,True,True,297,0.033681
+1897 - 229,arithmetic,1668,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1668,1668,1668,1668,True,True,180,0.052914
+"Reason about bit parity case 13: bits=[1, 1, 1, 0, 0, 0, 1, 1, 0]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 148, ""candidate_chars"": 7}",A) Even,A,A,A,False,False,340,0.06985899999999999
+1982 * 22,arithmetic,43604,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",43604,43604,43604,43604,True,True,180,0.057859
+"What does this Python program output?
+```python
+v = [21, 23, 26]
+print(v[1:][0])
+```
+A) 23
+B) 26
+C) Error
+D) 21",coding,A,choice,"v = [21, 23, 26]
+print(v[1:][0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 111, ""candidate_chars"": 48}",The output of the given Python program is B) 26.,,A,A,False,True,344,0.033568
+"Which chemical element has the symbol F?
+A) Iron
+B) Fermium
+C) Fluorine
+D) Francium",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 83, ""candidate_chars"": 2}",A),A,C) Fluorine,C,False,True,270,0.057480999000000005
+"Read the passage: Booking 14 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Both rooms
+B) No room
+C) Room Pine
+D) Room Elm",comprehension,C,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",C,C,A,A,True,False,358,0.033755
+"Reason about a weekly calendar: today is Saturday. Which weekday is 15 days later?
+A) Tuesday
+B) Sunday
+C) Friday
+D) Monday",logic,B,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 123, ""candidate_chars"": 1}",C,C,C,C,False,False,309,0.029359
+1698 - 198,arithmetic,1500,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1500,1500,1500,1500,True,True,180,0.046493
+(1638 - 132) * 18,arithmetic,27108,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",27108,27108,27108,27108,True,True,188,0.068789
+"What does this Python program output?
+```python
+print([n for n in range(24, 29) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [24, 26, 28]
+D) [24, 25, 26, 27, 28]",coding,C,choice,"print([n for n in range(24, 29) if n % 2 == 0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 154, ""candidate_chars"": 1}",B,B,B,B,False,False,340,0.029308
+"What does this Python program output?
+```python
+print([n for n in range(22, 27) if n % 2 == 0])
+```
+A) [22, 23, 24, 25, 26]
+B) []
+C) [22, 24, 26]
+D) Error",coding,C,choice,"print([n for n in range(22, 27) if n % 2 == 0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 154, ""candidate_chars"": 2}",A.,,A,A,False,False,341,0.029559
+"Read the passage: Mira14 paid 24 coins and received a refund of 14 coins. The receipt explicitly lists the refund as 14 coins. How many coins were refunded?
+A) Zero
+B) 14
+C) 24
+D) 10",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",A,A,A,A,False,False,368,0.029622000000000002
+"Which cell structure controls much of the exchange with its surroundings?
+A) Chromosome
+B) Cell membrane
+C) Nucleolus
+D) Ribosome",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 129, ""candidate_chars"": 1}",B,B,A) Cell membrane,B,True,True,315,0.046457
+"Reason about bit parity case 14: bits=[0, 0, 1, 0, 1, 0, 1, 0, 0]. Is the count of 1 bits odd or even?
+A) Neither
+B) Cannot determine
+C) Even
+D) Odd",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 148, ""candidate_chars"": 1}",C,C,C,C,False,False,334,0.033138
+"Which organ contains the vocal cords?
+A) Esophagus
+B) Liver
+C) Larynx
+D) Stomach",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 80, ""candidate_chars"": 1}",C,C,C,C,True,True,266,0.033607
+"Read the passage: Mira13 paid 23 coins and received a refund of 13 coins. The receipt explicitly lists the refund as 13 coins. How many coins were refunded?
+A) 23
+B) Zero
+C) 10
+D) 13",comprehension,D,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",A,A,A,A,False,False,368,0.034121
+"Which chemical element has the symbol Be?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",knowledge,A,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 84, ""candidate_chars"": 1}",A,A,A) Beryllium,A,True,True,270,0.061947
+1471 - 297,arithmetic,1174,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1174,1174,1174,1174,True,True,180,0.050774
+(2288 - 133) * 19,arithmetic,40945,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",40945,40945,40945,40945,True,True,188,0.058684
+"Reason about a four-person race: Karo14 finishes before Lumi14; Juna14 finishes before Karo14; Ivo14 finishes before Juna14. Who finishes in position 3?
+A) Ivo14
+B) Juna14
+C) Lumi14
+D) Karo14",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",C,C,C,C,False,False,377,0.033500999999999996
+2077 * 57,arithmetic,118389,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 6}",118389,118389,118389,118389,True,True,181,0.065992
+2532 * 48,arithmetic,121536,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 6}",121536,121536,121536,121536,True,True,181,0.065728
+"Read the passage: Booking 11 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Both rooms
+C) Room Pine
+D) No room",comprehension,C,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",A,A,A,A,False,False,358,0.033382
+2832 - 124,arithmetic,2708,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2708,2708,2708,2708,True,True,180,0.053267
+2409 * 13,arithmetic,31317,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",31317,31317,31317,31317,True,True,180,0.058857
+"Reason about a four-person race: Karo11 finishes before Lumi11; Ivo11 finishes before Juna11; Juna11 finishes before Karo11. Who finishes in position 4?
+A) Lumi11
+B) Ivo11
+C) Juna11
+D) Karo11",logic,A,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",C,C,C,C,False,False,377,0.03389
+"Which chemical element has the symbol O?
+A) Gold
+B) Silver
+C) Oxygen
+D) Osmium",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 78, ""candidate_chars"": 9}",A) Oxygen,,A) Oxygen,,False,False,272,0.043251
+"Which chemical element has the symbol Mg?
+A) Magnesium
+B) Molybdenum
+C) Manganese
+D) Mercury",knowledge,A,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 92, ""candidate_chars"": 1}",A,A,A),A,True,True,278,0.036965
+"Reason about set membership: X=[13, 15, 17] and Y=[12, 15, 18]. Which value belongs to both?
+A) 15
+B) 18
+C) 13
+D) 12",logic,A,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 116, ""candidate_chars"": 5}",A) 15,A,A) 15,A,True,True,306,0.052456
+"Reason about a four-person race: Juna12 finishes before Karo12; Karo12 finishes before Lumi12; Ivo12 finishes before Juna12. Who finishes in position 1?
+A) Juna12
+B) Lumi12
+C) Karo12
+D) Ivo12",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",C,C,C,C,False,False,377,0.029523
+"Which gas do plants consume during photosynthesis?
+A) Neon
+B) Carbon dioxide
+C) Helium
+D) Hydrogen",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 98, ""candidate_chars"": 1}",B,B,B,B,True,True,284,0.029597
+"Read the passage: Mira12 wrote a poem. Niko12 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira12
+C) Niko12
+D) Both composed it",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 164, ""candidate_chars"": 2}",A),A,A),A,False,False,351,0.035549
+"Read the passage: Booking 13 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) Room Elm
+B) Room Pine
+C) Both rooms
+D) No room",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",A,A,A,A,False,False,358,0.029491
+"What does this Python program output?
+```python
+s = '  wave14 blue sky  '
+print(len(s.strip().split()))
+```
+A) 4
+B) 3
+C) 2
+D) Error",coding,B,choice,"s = '  wave14 blue sky  '
+print(len(s.strip().split()))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 131, ""candidate_chars"": 2}",A),A,A,A,False,False,318,0.029554999999999998
+"Which SI unit measures frequency?
+A) Pascal
+B) Newton
+C) Hertz
+D) Joule",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 71, ""candidate_chars"": 1}",C,C,C,C,True,True,257,0.029871
+"Reason about set membership: X=[16, 18, 20] and Y=[15, 18, 21]. Which value belongs to both?
+A) 21
+B) 18
+C) 15
+D) 16",logic,B,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 116, ""candidate_chars"": 5}",A) 21,A,A) 21,A,False,False,306,0.052215
+"What does this Python program output?
+```python
+print(sum(range(22, 29, 2)))
+```
+A) 88
+B) 29
+C) 100
+D) Error",coding,C,choice,"print(sum(range(22, 29, 2)))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 108, ""candidate_chars"": 1}",C,C,C,C,True,True,294,0.031779
+"What does this Python program output?
+```python
+print([n for n in range(21, 26) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [21, 22, 23, 24, 25]
+D) [22, 24]",coding,D,choice,"print([n for n in range(21, 26) if n % 2 == 0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 150, ""candidate_chars"": 220}","The output of the given Python program is C) [21, 22, 23, 24, 25].
+
+The program uses a list comprehension to generate a list of numbers from 21 to 25, inclusive. It then filters out the even numbers using the condition `",,C,C,False,False,557,0.051245
+"Which SI unit measures electric resistance?
+A) Joule
+B) Volt
+C) Ohm
+D) Ampere",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 77, ""candidate_chars"": 1}",C,C,C,C,True,True,263,0.0333
+"Read the passage: On schedule 14, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 18:00
+B) 20:00
+C) Never
+D) 19:00",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",A,A,A,A,False,False,356,0.033221
+2167 - 233,arithmetic,1934,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",1934,1934,1934,1934,True,True,180,0.052596
+"Read the passage: On schedule 12, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 18:00
+C) 20:00
+D) Never",comprehension,C,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",A,A,A,A,False,False,356,0.033481
+1324 * 16,arithmetic,21184,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",21184,21184,21184,21184,True,True,180,0.058185
+"What does this Python program output?
+```python
+s = '  wave13 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) 4
+D) Error",coding,B,choice,"s = '  wave13 blue sky  '
+print(len(s.strip().split()))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 131, ""candidate_chars"": 2}",A),A,A,A,False,False,318,0.033063
+"Read the passage: Ticket 13 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Confirmed
+C) Unknown
+D) Cancelled",comprehension,D,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",A,A,A,A,False,False,374,0.031395
+"What does this Python program output?
+```python
+v = [23, 25, 28]
+print(v[1:][0])
+```
+A) Error
+B) 23
+C) 25
+D) 28",coding,C,choice,"v = [23, 25, 28]
+print(v[1:][0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 111, ""candidate_chars"": 40}",The Python program outputs option B: 23.,,B,B,False,False,336,0.029741
+"Read the passage: Mira12 paid 22 coins and received a refund of 12 coins. The receipt explicitly lists the refund as 12 coins. How many coins were refunded?
+A) 22
+B) 12
+C) Zero
+D) 10",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",A,A,A,A,False,False,368,0.029266
+"Reason about set membership: X=[15, 17, 19] and Y=[14, 17, 20]. Which value belongs to both?
+A) 15
+B) 14
+C) 17
+D) 20",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",C,C,C,C,True,True,302,0.031529
+"What does this Python program output?
+```python
+s = '  wave12 blue sky  '
+print(len(s.strip().split()))
+```
+A) Error
+B) 4
+C) 3
+D) 2",coding,C,choice,"s = '  wave12 blue sky  '
+print(len(s.strip().split()))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 131, ""candidate_chars"": 1}",B,B,B,B,False,False,317,0.032516
+"Read the passage: Booking 12 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?
+A) No room
+B) Room Pine
+C) Both rooms
+D) Room Elm",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",A,A,A,A,False,False,358,0.032632999999999995
+"Which SI unit measures force?
+A) Pascal
+B) Newton
+C) Kelvin
+D) Watt",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 67, ""candidate_chars"": 1}",B,B,B,B,True,True,253,0.033080999
+"Read the passage: Mira13 wrote a poem. Niko13 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Mira13
+C) Niko13
+D) Both composed it",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 164, ""candidate_chars"": 2}",A),A,A),A,False,False,351,0.039337
+2337 - 176,arithmetic,2161,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2161,2161,2161,2161,True,True,180,0.050736
+"Reason about bit parity case 11: bits=[1, 0, 0, 0, 1, 0, 1, 1, 1]. Is the count of 1 bits odd or even?
+A) Cannot determine
+B) Even
+C) Neither
+D) Odd",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 148, ""candidate_chars"": 2}",A),A,A),A,False,False,335,0.035456
+"Which process converts liquid water to water vapor?
+A) Freezing
+B) Melting
+C) Evaporation
+D) Condensation",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 105, ""candidate_chars"": 1}",C,C,C,C,True,True,291,0.029528000000000002
+"Which chemical element has the symbol Ne?
+A) Nitrogen
+B) Nickel
+C) Neon
+D) Sodium",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 81, ""candidate_chars"": 7}",A) Neon,,C) Neon,C,False,True,273,0.040649000000000005
+"What does this Python program output?
+```python
+v = [24, 26, 29]
+print(v[1:][0])
+```
+A) Error
+B) 26
+C) 29
+D) 24",coding,B,choice,"v = [24, 26, 29]
+print(v[1:][0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 111, ""candidate_chars"": 1}",B,B,B,B,True,True,297,0.032977
+"Which SI unit measures electric potential difference?
+A) Hertz
+B) Ohm
+C) Volt
+D) Ampere",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 87, ""candidate_chars"": 1}",C,C,C,C,True,True,273,0.033275
+"Which SI unit measures pressure?
+A) Joule
+B) Newton
+C) Ampere
+D) Pascal",knowledge,D,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 71, ""candidate_chars"": 1}",D,D,D,D,True,True,257,0.030987999999999998
+"Read the passage: On schedule 13, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?
+A) 19:00
+B) 20:00
+C) Never
+D) 18:00",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 170, ""candidate_chars"": 1}",A,A,A,A,False,False,356,0.031937
+"Which blood components help initiate clotting?
+A) Egg cells
+B) Neurons
+C) Platelets
+D) Muscle cells",knowledge,C,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 99, ""candidate_chars"": 1}",C,C,A) Platelets,C,True,True,285,0.053125000000000006
+2643 * 23,arithmetic,60789,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",60789,60789,60789,60789,True,True,180,0.06044000000000001
+"Reason about directed links: P13a->P13b, P13c->P13b, P13b->P13d. Starting at P13a, which listed node can be reached after exactly two links?
+A) P13b
+B) P13a
+C) P13c
+D) P13d",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",C,C,C,C,False,False,358,0.031681
+"Which chemical element has the symbol B?
+A) Beryllium
+B) Boron
+C) Bromine
+D) Barium",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 83, ""candidate_chars"": 1}",A,A,A) Beryllium,A,False,False,269,0.070331
+2354 - 137,arithmetic,2217,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 10, ""candidate_chars"": 4}",2217,2217,2217,2217,True,True,180,0.05316
+"Reason about a weekly calendar: today is Monday. Which weekday is 17 days later?
+A) Tuesday
+B) Monday
+C) Saturday
+D) Thursday",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 125, ""candidate_chars"": 1}",C,C,A) Tuesday,A,False,False,311,0.045738
+(2033 - 151) * 17,arithmetic,31994,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",31994,31994,31994,31994,True,True,188,0.059598
+"What does this Python program output?
+```python
+d = {'x': 22}
+print(d.get('z', 7) + d['x'])
+```
+A) 22
+B) 29
+C) Error
+D) 7",coding,B,choice,"d = {'x': 22}
+print(d.get('z', 7) + d['x'])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,A,A,True,False,307,0.032906000000000005
+"What does this Python program output?
+```python
+d = {'x': 21}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 28
+C) 7
+D) 21",coding,B,choice,"d = {'x': 21}
+print(d.get('z', 7) + d['x'])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,True,True,307,0.032076
+"Reason about directed links: P11a->P11b, P11c->P11b, P11b->P11d. Starting at P11a, which listed node can be reached after exactly two links?
+A) P11a
+B) P11b
+C) P11c
+D) P11d",logic,D,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 172, ""candidate_chars"": 1}",C,C,C,C,False,False,358,0.03362
+(1730 - 220) * 45,arithmetic,67950,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",67950,67950,67950,67950,True,True,188,0.060855
+"Reason about directed links: P12a->P12b, P12c->P12b, P12b->P12d. Starting at P12a, which listed node can be reached after exactly two links?
+A) P12b
+B) P12a
+C) P12d
+D) P12c",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 172, ""candidate_chars"": 7}",A) P12b,A,A) P12b,A,False,False,364,0.066867
+"Reason about a four-person race: Ivo13 finishes before Juna13; Juna13 finishes before Karo13; Karo13 finishes before Lumi13. Who finishes in position 2?
+A) Lumi13
+B) Juna13
+C) Karo13
+D) Ivo13",logic,B,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 191, ""candidate_chars"": 1}",C,C,C,C,False,False,377,0.02985
+"What does this Python program output?
+```python
+d = {'x': 23}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 23
+C) 30
+D) 7",coding,C,choice,"d = {'x': 23}
+print(d.get('z', 7) + d['x'])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,False,False,307,0.034072000000000005
+"Read the passage: Ticket 14 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Cancelled
+B) Confirmed
+C) Unknown
+D) Pending",comprehension,A,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",A,A,A,A,True,True,374,0.033164
+"Read the passage: Mira11 paid 21 coins and received a refund of 11 coins. The receipt explicitly lists the refund as 11 coins. How many coins were refunded?
+A) 11
+B) 21
+C) Zero
+D) 10",comprehension,A,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 182, ""candidate_chars"": 1}",A,A,A,A,True,True,368,0.033461
+"Reason about set membership: X=[14, 16, 18] and Y=[13, 16, 19]. Which value belongs to both?
+A) 19
+B) 14
+C) 16
+D) 13",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 116, ""candidate_chars"": 1}",C,C,C,C,True,True,302,0.033299
+"Read the passage: Ticket 11 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Unknown
+C) Cancelled
+D) Confirmed",comprehension,C,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",A,A,A,A,False,False,374,0.033590999999999996
+"What does this Python program output?
+```python
+print(sum(range(21, 28, 2)))
+```
+A) Error
+B) 96
+C) 84
+D) 28",coding,B,choice,"print(sum(range(21, 28, 2)))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 107, ""candidate_chars"": 1}",B,B,B,B,True,True,293,0.033305
+"Reason about a weekly calendar: today is Sunday. Which weekday is 16 days later?
+A) Monday
+B) Tuesday
+C) Friday
+D) Sunday",logic,B,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",C,C,C,C,False,False,307,0.029484000000000003
+1305 * 34,arithmetic,44370,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 9, ""candidate_chars"": 5}",44370,44370,44370,44370,True,True,180,0.057774998999999994
+"Read the passage: Mira14 wrote a poem. Niko14 copied that poem without composing a new one. Who composed the poem?
+A) Mira14
+B) Both composed it
+C) Nobody
+D) Niko14",comprehension,A,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 164, ""candidate_chars"": 9}",A) Mira14,A,A) Mira14,A,True,True,358,0.066241
+"What does this Python program output?
+```python
+print(sum(range(23, 30, 2)))
+```
+A) 92
+B) 104
+C) 30
+D) Error",coding,B,choice,"print(sum(range(23, 30, 2)))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 108, ""candidate_chars"": 2}",A),A,D),D,False,False,295,0.03939
+(2745 - 172) * 35,arithmetic,90055,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",90055,90055,90055,90055,True,True,188,0.064384
+"What does this Python program output?
+```python
+print([n for n in range(23, 28) if n % 2 == 0])
+```
+A) [23, 24, 25, 26, 27]
+B) []
+C) Error
+D) [24, 26]",coding,D,choice,"print([n for n in range(23, 28) if n % 2 == 0])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""unresolved"", ""question_chars"": 150, ""candidate_chars"": 2}",A.,,A,A,False,False,337,0.033684
+"Read the passage: Mira11 wrote a poem. Niko11 copied that poem without composing a new one. Who composed the poem?
+A) Nobody
+B) Niko11
+C) Both composed it
+D) Mira11",comprehension,D,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 164, ""candidate_chars"": 19}",C) Both composed it,C,A),A,False,False,368,0.039688
+"Which organ stores bile before release?
+A) Kidney
+B) Gallbladder
+C) Spleen
+D) Bladder",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 85, ""candidate_chars"": 9}",A) Kidney,A,A) Kidney,A,False,False,279,0.054834999999999995
+"Which chemical element has the symbol S?
+A) Silicon
+B) Sulfur
+C) Sodium
+D) Silver",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 81, ""candidate_chars"": 2}",A),A,A),A,False,False,268,0.040827999999999996
+"Reason about bit parity case 12: bits=[0, 1, 1, 1, 0, 1, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Even
+B) Neither
+C) Odd
+D) Cannot determine",logic,C,choice,,qwen2.5:0.5b,logic,"{""category"": ""logic"", ""difficulty"": ""hard"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 148, ""candidate_chars"": 7}",A) Even,A,A,A,False,False,340,0.033411
+"Which SI unit measures electric current?
+A) Ampere
+B) Ohm
+C) Watt
+D) Volt",knowledge,A,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 73, ""candidate_chars"": 9}",A) Ampere,A,A) Ampere,A,True,True,267,0.048284999999999995
+"What does this Python program output?
+```python
+s = '  wave11 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) Error
+D) 4",coding,B,choice,"s = '  wave11 blue sky  '
+print(len(s.strip().split()))",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""decorated"", ""question_chars"": 131, ""candidate_chars"": 2}",A),A,A,A,False,False,318,0.031399
+"Which chemical element has the symbol Cl?
+A) Carbon
+B) Chlorine
+C) Cobalt
+D) Calcium",knowledge,B,choice,,qwen2.5:0.5b,knowledge,"{""category"": ""knowledge"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 84, ""candidate_chars"": 1}",B,B,B,B,True,True,270,0.031357
+"Read the passage: Ticket 12 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?
+A) Pending
+B) Cancelled
+C) Unknown
+D) Confirmed",comprehension,B,choice,,qwen2.5:0.5b,comprehension,"{""category"": ""comprehension"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 188, ""candidate_chars"": 1}",A,A,A,A,False,False,374,0.029539
+"What does this Python program output?
+```python
+d = {'x': 24}
+print(d.get('z', 7) + d['x'])
+```
+A) Error
+B) 7
+C) 24
+D) 31",coding,D,choice,"d = {'x': 24}
+print(d.get('z', 7) + d['x'])",qwen2.5:0.5b,coding,"{""category"": ""coding"", ""difficulty"": ""easy"", ""answer_kind"": ""choice"", ""tool_supported"": false, ""response_status"": ""bare"", ""question_chars"": 121, ""candidate_chars"": 1}",B,B,B,B,False,False,307,0.029572
+(2166 - 276) * 44,arithmetic,83160,integer,,qwen2.5:0.5b,arithmetic,"{""category"": ""arithmetic"", ""difficulty"": ""hard"", ""answer_kind"": ""integer"", ""tool_supported"": true, ""response_status"": ""bare"", ""question_chars"": 17, ""candidate_chars"": 5}",83160,83160,83160,83160,True,True,188,0.052804000000000004

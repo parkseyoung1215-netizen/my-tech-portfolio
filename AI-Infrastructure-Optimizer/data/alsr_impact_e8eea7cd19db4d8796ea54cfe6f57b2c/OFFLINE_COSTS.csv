@@ -1,0 +1,4 @@
+phase,wall_seconds,cpu_seconds,scope
+training_diagnostic,216.56269087502733,37.178863,Offline causal measurement including feature collection and effect calculations
+calibration_diagnostic,99.79057833389379,18.770594000000003,Offline causal measurement including feature collection and effect calculations
+evaluation_diagnostic,469.68437891616486,76.638054,"Offline causal evaluation, not live inference or threshold fitting"

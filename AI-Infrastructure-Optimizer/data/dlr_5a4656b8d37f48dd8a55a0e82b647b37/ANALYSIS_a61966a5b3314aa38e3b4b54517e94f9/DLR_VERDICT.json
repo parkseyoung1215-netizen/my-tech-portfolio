@@ -1,0 +1,35 @@
+[
+  {
+    "method": "static",
+    "no_observed_accuracy_loss_both_cohorts": true,
+    "one_pp_noninferiority_proven": false,
+    "equal_stream_model_matmul_reduced_both_cohorts": true,
+    "equal_stream_wall_ci_below_one_both_cohorts": false,
+    "equal_stream_cpu_ci_below_one_both_cohorts": false,
+    "actual_temporal_reuse_events": 0,
+    "strict_success_established": false,
+    "is_dlr": false
+  },
+  {
+    "method": "dlr",
+    "no_observed_accuracy_loss_both_cohorts": true,
+    "one_pp_noninferiority_proven": false,
+    "equal_stream_model_matmul_reduced_both_cohorts": true,
+    "equal_stream_wall_ci_below_one_both_cohorts": false,
+    "equal_stream_cpu_ci_below_one_both_cohorts": false,
+    "actual_temporal_reuse_events": 105,
+    "strict_success_established": false,
+    "is_dlr": true
+  },
+  {
+    "method": "conservative",
+    "no_observed_accuracy_loss_both_cohorts": true,
+    "one_pp_noninferiority_proven": false,
+    "equal_stream_model_matmul_reduced_both_cohorts": false,
+    "equal_stream_wall_ci_below_one_both_cohorts": false,
+    "equal_stream_cpu_ci_below_one_both_cohorts": false,
+    "actual_temporal_reuse_events": 0,
+    "strict_success_established": false,
+    "is_dlr": true
+  }
+]

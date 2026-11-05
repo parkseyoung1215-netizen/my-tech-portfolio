@@ -1,0 +1,5 @@
+{
+  "matplotlib": "3.11.2",
+  "source": "PVCG_RESULTS.csv",
+  "scope": "Actual observed means; no synthetic performance or smoothed curve"
+}

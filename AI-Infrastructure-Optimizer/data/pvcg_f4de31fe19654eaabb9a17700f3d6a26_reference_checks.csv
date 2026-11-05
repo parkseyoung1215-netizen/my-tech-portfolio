@@ -1,0 +1,761 @@
+question,reference_output,expected_option,matches
+"What does this Python program output?
+```python
+print(sum(n for n in range(503, 510) if n % 3 == 0))
+```
+A) 0
+B) Error
+C) 1011
+D) 1014",1011,1011,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(505, 512) if n % 3 == 0))
+```
+A) 1020
+B) 0
+C) Error
+D) 1017",1017,1017,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm12102'
+print(s.split('|')[1])
+```
+A) elm12102
+B) cedar
+C) pine
+D) oak",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm12104'
+print(s.split('|')[1])
+```
+A) oak
+B) elm12104
+C) cedar
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm12101'
+print(s.split('|')[1])
+```
+A) cedar
+B) oak
+C) elm12101
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+a = [502, 506, 511]
+b = a
+b.append(517)
+print(len(a))
+```
+A) 4
+B) Error
+C) 1
+D) 3",4,4,True
+"What does this Python program output?
+```python
+a = [501, 505, 510]
+b = a
+b.append(516)
+print(len(a))
+```
+A) Error
+B) 1
+C) 3
+D) 4",4,4,True
+"What does this Python program output?
+```python
+a = [504, 508, 513]
+b = a
+b.append(519)
+print(len(a))
+```
+A) 4
+B) Error
+C) 3
+D) 1",4,4,True
+"What does this Python program output?
+```python
+d = {'p': 501, 'q': 504}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 3
+B) -3
+C) 501
+D) Error",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(501, 508) if n % 3 == 0))
+```
+A) 0
+B) 1512
+C) 1515
+D) Error",1512,1512,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(502, 509) if n % 3 == 0))
+```
+A) 1014
+B) Error
+C) 1011
+D) 0",1011,1011,True
+"What does this Python program output?
+```python
+a = [503, 507, 512]
+b = a
+b.append(518)
+print(len(a))
+```
+A) 1
+B) 4
+C) Error
+D) 3",4,4,True
+"What does this Python program output?
+```python
+d = {'p': 502, 'q': 505}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) -3
+B) Error
+C) 3
+D) 502",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 505, 'q': 508}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) Error
+B) 505
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm12103'
+print(s.split('|')[1])
+```
+A) elm12103
+B) oak
+C) cedar
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+d = {'p': 503, 'q': 506}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) Error
+B) 503
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 504, 'q': 507}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) -3
+B) Error
+C) 504
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(504, 511) if n % 3 == 0))
+```
+A) 1521
+B) Error
+C) 1524
+D) 0",1521,1521,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm12105'
+print(s.split('|')[1])
+```
+A) pine
+B) cedar
+C) oak
+D) elm12105",pine,pine,True
+"What does this Python program output?
+```python
+a = [505, 509, 514]
+b = a
+b.append(520)
+print(len(a))
+```
+A) 1
+B) Error
+C) 3
+D) 4",4,4,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13109'
+print(s.split('|')[1])
+```
+A) cedar
+B) pine
+C) elm13109
+D) oak",pine,pine,True
+"What does this Python program output?
+```python
+a = [610, 614, 619]
+b = a
+b.append(625)
+print(len(a))
+```
+A) 3
+B) 1
+C) 4
+D) Error",4,4,True
+"What does this Python program output?
+```python
+a = [609, 613, 618]
+b = a
+b.append(624)
+print(len(a))
+```
+A) Error
+B) 3
+C) 4
+D) 1",4,4,True
+"What does this Python program output?
+```python
+d = {'p': 601, 'q': 604}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) -3
+B) Error
+C) 601
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(607, 614) if n % 3 == 0))
+```
+A) 1224
+B) Error
+C) 0
+D) 1221",1221,1221,True
+"What does this Python program output?
+```python
+d = {'p': 615, 'q': 618}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 615
+B) Error
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+a = [601, 605, 610]
+b = a
+b.append(616)
+print(len(a))
+```
+A) 1
+B) 4
+C) Error
+D) 3",4,4,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13101'
+print(s.split('|')[1])
+```
+A) cedar
+B) elm13101
+C) oak
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13111'
+print(s.split('|')[1])
+```
+A) cedar
+B) elm13111
+C) pine
+D) oak",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13106'
+print(s.split('|')[1])
+```
+A) elm13106
+B) oak
+C) pine
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(611, 618) if n % 3 == 0))
+```
+A) Error
+B) 1230
+C) 1227
+D) 0",1227,1227,True
+"What does this Python program output?
+```python
+d = {'p': 611, 'q': 614}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 611
+B) Error
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13112'
+print(s.split('|')[1])
+```
+A) pine
+B) cedar
+C) oak
+D) elm13112",pine,pine,True
+"What does this Python program output?
+```python
+d = {'p': 609, 'q': 612}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 3
+B) Error
+C) 609
+D) -3",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(603, 610) if n % 3 == 0))
+```
+A) 0
+B) 1818
+C) Error
+D) 1821",1818,1818,True
+"What does this Python program output?
+```python
+d = {'p': 613, 'q': 616}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) Error
+B) 613
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13115'
+print(s.split('|')[1])
+```
+A) oak
+B) cedar
+C) elm13115
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(614, 621) if n % 3 == 0))
+```
+A) 0
+B) 1236
+C) 1233
+D) Error",1233,1233,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13110'
+print(s.split('|')[1])
+```
+A) cedar
+B) oak
+C) elm13110
+D) pine",pine,pine,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(605, 612) if n % 3 == 0))
+```
+A) 0
+B) 1218
+C) Error
+D) 1215",1215,1215,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13107'
+print(s.split('|')[1])
+```
+A) pine
+B) oak
+C) elm13107
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+d = {'p': 606, 'q': 609}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) -3
+B) 3
+C) Error
+D) 606",-3,-3,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13113'
+print(s.split('|')[1])
+```
+A) oak
+B) pine
+C) elm13113
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(601, 608) if n % 3 == 0))
+```
+A) 1209
+B) 0
+C) 1212
+D) Error",1209,1209,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13103'
+print(s.split('|')[1])
+```
+A) pine
+B) elm13103
+C) oak
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+a = [615, 619, 624]
+b = a
+b.append(630)
+print(len(a))
+```
+A) 1
+B) 3
+C) 4
+D) Error",4,4,True
+"What does this Python program output?
+```python
+d = {'p': 602, 'q': 605}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 3
+B) -3
+C) Error
+D) 602",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(606, 613) if n % 3 == 0))
+```
+A) Error
+B) 1830
+C) 1827
+D) 0",1827,1827,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(608, 615) if n % 3 == 0))
+```
+A) 1224
+B) 0
+C) 1221
+D) Error",1221,1221,True
+"What does this Python program output?
+```python
+a = [603, 607, 612]
+b = a
+b.append(618)
+print(len(a))
+```
+A) 4
+B) 3
+C) Error
+D) 1",4,4,True
+"What does this Python program output?
+```python
+a = [604, 608, 613]
+b = a
+b.append(619)
+print(len(a))
+```
+A) Error
+B) 3
+C) 1
+D) 4",4,4,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13104'
+print(s.split('|')[1])
+```
+A) cedar
+B) pine
+C) elm13104
+D) oak",pine,pine,True
+"What does this Python program output?
+```python
+a = [608, 612, 617]
+b = a
+b.append(623)
+print(len(a))
+```
+A) 3
+B) 4
+C) 1
+D) Error",4,4,True
+"What does this Python program output?
+```python
+d = {'p': 610, 'q': 613}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 610
+B) Error
+C) 3
+D) -3",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 614, 'q': 617}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) Error
+B) 614
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(612, 619) if n % 3 == 0))
+```
+A) Error
+B) 1848
+C) 0
+D) 1845",1845,1845,True
+"What does this Python program output?
+```python
+a = [611, 615, 620]
+b = a
+b.append(626)
+print(len(a))
+```
+A) 1
+B) 4
+C) Error
+D) 3",4,4,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13108'
+print(s.split('|')[1])
+```
+A) oak
+B) elm13108
+C) pine
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13105'
+print(s.split('|')[1])
+```
+A) elm13105
+B) cedar
+C) pine
+D) oak",pine,pine,True
+"What does this Python program output?
+```python
+a = [606, 610, 615]
+b = a
+b.append(621)
+print(len(a))
+```
+A) 3
+B) 4
+C) Error
+D) 1",4,4,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(613, 620) if n % 3 == 0))
+```
+A) 1236
+B) 1233
+C) Error
+D) 0",1233,1233,True
+"What does this Python program output?
+```python
+d = {'p': 604, 'q': 607}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 604
+B) Error
+C) 3
+D) -3",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 607, 'q': 610}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 607
+B) Error
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 612, 'q': 615}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) Error
+B) 612
+C) 3
+D) -3",-3,-3,True
+"What does this Python program output?
+```python
+a = [607, 611, 616]
+b = a
+b.append(622)
+print(len(a))
+```
+A) 4
+B) 3
+C) Error
+D) 1",4,4,True
+"What does this Python program output?
+```python
+a = [614, 618, 623]
+b = a
+b.append(629)
+print(len(a))
+```
+A) 1
+B) Error
+C) 4
+D) 3",4,4,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(615, 622) if n % 3 == 0))
+```
+A) Error
+B) 1857
+C) 0
+D) 1854",1854,1854,True
+"What does this Python program output?
+```python
+d = {'p': 608, 'q': 611}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) -3
+B) Error
+C) 3
+D) 608",-3,-3,True
+"What does this Python program output?
+```python
+d = {'p': 603, 'q': 606}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 603
+B) -3
+C) Error
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+a = [602, 606, 611]
+b = a
+b.append(617)
+print(len(a))
+```
+A) 3
+B) Error
+C) 4
+D) 1",4,4,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(610, 617) if n % 3 == 0))
+```
+A) 1230
+B) 0
+C) Error
+D) 1227",1227,1227,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(609, 616) if n % 3 == 0))
+```
+A) Error
+B) 1836
+C) 0
+D) 1839",1836,1836,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(604, 611) if n % 3 == 0))
+```
+A) 1215
+B) 0
+C) 1218
+D) Error",1215,1215,True
+"What does this Python program output?
+```python
+a = [612, 616, 621]
+b = a
+b.append(627)
+print(len(a))
+```
+A) 3
+B) Error
+C) 1
+D) 4",4,4,True
+"What does this Python program output?
+```python
+print(sum(n for n in range(602, 609) if n % 3 == 0))
+```
+A) 1212
+B) 0
+C) Error
+D) 1209",1209,1209,True
+"What does this Python program output?
+```python
+d = {'p': 605, 'q': 608}
+d['r'] = d['p'] - d['q']
+print(d['r'])
+```
+A) 605
+B) Error
+C) -3
+D) 3",-3,-3,True
+"What does this Python program output?
+```python
+a = [613, 617, 622]
+b = a
+b.append(628)
+print(len(a))
+```
+A) Error
+B) 1
+C) 3
+D) 4",4,4,True
+"What does this Python program output?
+```python
+a = [605, 609, 614]
+b = a
+b.append(620)
+print(len(a))
+```
+A) Error
+B) 4
+C) 3
+D) 1",4,4,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13114'
+print(s.split('|')[1])
+```
+A) oak
+B) elm13114
+C) pine
+D) cedar",pine,pine,True
+"What does this Python program output?
+```python
+s = 'cedar|pine|oak|elm13102'
+print(s.split('|')[1])
+```
+A) elm13102
+B) pine
+C) oak
+D) cedar",pine,pine,True

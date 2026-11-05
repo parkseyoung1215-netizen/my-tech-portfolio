@@ -1,0 +1,42 @@
+{
+  "version": "skipwork-v1",
+  "min_samples": 20,
+  "skip_rule": "easy and calibration corrected <= harmed; exact tool proof always skips",
+  "categories": {
+    "arithmetic": {
+      "samples": 20,
+      "primary_correct": 20,
+      "final_correct": 16,
+      "corrected": 0,
+      "harmed": 4
+    },
+    "knowledge": {
+      "samples": 20,
+      "primary_correct": 20,
+      "final_correct": 18,
+      "corrected": 0,
+      "harmed": 2
+    },
+    "comprehension": {
+      "samples": 20,
+      "primary_correct": 9,
+      "final_correct": 11,
+      "corrected": 3,
+      "harmed": 1
+    },
+    "coding": {
+      "samples": 20,
+      "primary_correct": 15,
+      "final_correct": 16,
+      "corrected": 2,
+      "harmed": 1
+    },
+    "logic": {
+      "samples": 20,
+      "primary_correct": 13,
+      "final_correct": 7,
+      "corrected": 1,
+      "harmed": 7
+    }
+  }
+}

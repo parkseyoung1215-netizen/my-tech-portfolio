@@ -1,0 +1,11 @@
+dataset,method,quality_point_not_worse,latency_ci_improved,model_work_reduced,observed_candidate,population_noninferiority_proven,extra_probability_reductions_not_in_matmul_estimate
+replay64,fixed8,False,True,True,False,False,False
+replay64,fixed16,False,True,True,False,False,False
+replay64,boundary,True,True,True,True,False,False
+replay64,confidence,True,True,True,True,False,True
+replay64,adaptive,True,True,True,True,False,True
+fresh64,fixed8,False,True,True,False,False,False
+fresh64,fixed16,False,True,True,False,False,False
+fresh64,boundary,True,True,True,True,False,False
+fresh64,confidence,True,True,True,True,False,True
+fresh64,adaptive,True,True,True,True,False,True

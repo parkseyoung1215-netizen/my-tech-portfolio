@@ -1,0 +1,7 @@
+dataset,backend,token_delta,wall_delta_per_repeat,slope_seconds_per_output_token,correlation,warning
+replay64,legacy,122,3.492715677556892,0.03738373601818685,0.9849923410513528,Post-hoc output-length association; not pure Python/GPU causal decomposition.
+replay64,lean,122,3.915020265849307,0.0370950580551942,0.989289299123719,Post-hoc output-length association; not pure Python/GPU causal decomposition.
+replay64,lean_option,4,-0.592068126037096,0.06138900947213794,0.4403505002020227,Post-hoc output-length association; not pure Python/GPU causal decomposition.
+fresh64,legacy,105,3.075715289761623,0.03695146802097565,0.9928031625585927,Post-hoc output-length association; not pure Python/GPU causal decomposition.
+fresh64,lean,105,2.8910714168256773,0.03700574663586043,0.9796157542618377,Post-hoc output-length association; not pure Python/GPU causal decomposition.
+fresh64,lean_option,52,0.9907250840527316,0.03641949570987988,0.956712437691779,Post-hoc output-length association; not pure Python/GPU causal decomposition.

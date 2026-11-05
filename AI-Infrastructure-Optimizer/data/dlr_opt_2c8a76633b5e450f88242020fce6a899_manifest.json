@@ -1,0 +1,1045 @@
+{
+  "datasets": {
+    "replay32": [
+      {
+        "task_id": "6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1",
+        "question": "Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?\nA) Nemi30107 is not blue\nB) Nothing follows\nC) Nemi30107 is blue\nD) Nemi30107 is not a merin\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff",
+        "question": "Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?\nA) Friday\nB) Saturday\nC) Wednesday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7",
+        "question": "Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?\nA) 819\nB) 371\nC) 117\nD) 483\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730",
+        "question": "Python snippet 30103:\n```python\nx = [11, 54, 67]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) 5\nC) Error\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724",
+        "question": "Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Nemi30104\nC) Selu30104\nD) Pavo30104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67",
+        "question": "Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403",
+        "question": "In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?\nA) -31\nB) -1\nC) 107\nD) 77\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25",
+        "question": "A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?\nA) 67\nB) 65\nC) 9\nD) 63\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424",
+        "question": "Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?\nA) Selu30110\nB) Pavo30110\nC) Nemi30110\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9",
+        "question": "Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30106\nB) Pavo30106\nC) Nobody\nD) Selu30106\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696",
+        "question": "Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?\nA) Tuesday\nB) Wednesday\nC) Saturday\nD) Friday\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b",
+        "question": "Python snippet 30110:\n```python\nx = 61\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 0\nB) 68\nC) 61\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12",
+        "question": "Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?\nA) Nemi30104\nB) Selu30104\nC) Pavo30104\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c",
+        "question": "Python snippet 30100:\n```python\nx = [45, 11, 20]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) Error\nB) 4\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151",
+        "question": "In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?\nA) 82\nB) 36\nC) -6\nD) 40\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee",
+        "question": "Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?\nA) Selu30106\nB) Cannot be determined\nC) Nemi30106\nD) Pavo30106\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151",
+        "question": "Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Pavo30110\nC) Selu30110\nD) Nemi30110\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27",
+        "question": "Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?\nA) Nemi30103 is not blue\nB) Nothing follows\nC) Nemi30103 is not a merin\nD) Nemi30103 is blue\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621",
+        "question": "A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?\nA) 54\nB) 43\nC) 58\nD) 56\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf",
+        "question": "Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?\nA) 232\nB) 103\nC) 112\nD) 412\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c",
+        "question": "Python snippet 30111:\n```python\nx = [44, 61, 35]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 105\nB) 79\nC) 96\nD) 140\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42",
+        "question": "Python snippet 30104:\n```python\nx = 11\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 11\nB) 18\nC) 0\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96",
+        "question": "Python snippet 30106:\n```python\nx = [45, 13, 25]\nx.append(3)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) Error\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c",
+        "question": "Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?\nA) 111\nB) 43\nC) 315\nD) 45\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30200\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30200",
+          "enabled": false
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30203\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30203",
+          "enabled": true
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "876c98f4ae62e1cb4fd76b09131ad4b4ed6854e9d1e75d52ead3258d7e75a4fe",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30205; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30205\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30205",
+          "enabled": true
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "c0989b5352f1f68d1b088d1929505d409eca4a032dfd5b3861f777a79c414b50",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30204; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30204\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30204",
+          "enabled": false
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "19230255ad7e37ddaa5d35b2f927e3fc239ba2ccef4ee2b4017a6d877672509f",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30202; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30202\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30202",
+          "enabled": false
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30207\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30207",
+          "enabled": true
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "93513aeefb88aca8b1453283df7459f4e61362247728c7c05a823ab53ea0dda1",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30206; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30206\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30206",
+          "enabled": false
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30201\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30201",
+          "enabled": true
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      }
+    ],
+    "fresh32": [
+      {
+        "task_id": "db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223",
+        "question": "Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?\nA) 125\nB) 9\nC) 87\nD) 38\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "D",
+        "token_cap": 32
+      },
+      {
+        "task_id": "761b1f7493687c6b901250eee3ef7763397c4de72c4ad65ed9e93dc1e9366ae3",
+        "question": "Clothing record 73500: One scarf is stored in this crate. Its color is red. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "red",
+        "token_cap": 32,
+        "aliases": [
+          "red"
+        ]
+      },
+      {
+        "task_id": "761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc",
+        "question": "Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?\nA) 2160\nB) 109\nC) 107\nD) 53\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "C",
+        "token_cap": 32
+      },
+      {
+        "task_id": "6d01986478c7a24381a068dbc375abad317f78e83fcdc2c02bf60f10a2473358",
+        "question": "Bag tracking 71113: Ume71113 hands a blue bag to Vira71113. Vira71113 holds it and does not pass it on. Who holds the bag now?\nA) Cannot be determined\nB) Nobody\nC) Ume71113\nD) Vira71113\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "D",
+        "token_cap": 32
+      },
+      {
+        "task_id": "07ff9b2ca6c510c89790e2dac58fa92b8e2dca0f8c4d66c80e966ade4c24cf12",
+        "question": "Bag tracking 71115: Ume71115 hands a blue bag to Vira71115. Vira71115 holds it and does not pass it on. Who holds the bag now?\nA) Nobody\nB) Ume71115\nC) Cannot be determined\nD) Vira71115\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "D",
+        "token_cap": 32
+      },
+      {
+        "task_id": "a9187abdd5be8139d2476298c0903b1ec5919cfefed052ab8cda6f8825c7c16d",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72407\", quantity=38.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72407\", \"quantity\": 38}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72407",
+          "quantity": 38
+        }
+      },
+      {
+        "task_id": "537ced49ffd9895d60b4eab4f4e112ec19fd4c37452e7ef238921a1203156ea4",
+        "question": "Sequence memo 71111: Ravu71111 is ahead of Seno71111, and Seno71111 is ahead of Tilu71111. Who is furthest ahead?\nA) Seno71111\nB) Cannot be determined\nC) Ravu71111\nD) Tilu71111\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "C",
+        "token_cap": 32
+      },
+      {
+        "task_id": "cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02",
+        "question": "Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?\nA) 51\nB) 50\nC) 101\nD) 9\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "A",
+        "token_cap": 32
+      },
+      {
+        "task_id": "637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419",
+        "question": "Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?\nA) 158\nB) 30\nC) 156\nD) 5859\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "C",
+        "token_cap": 32
+      },
+      {
+        "task_id": "70cd71363a35c132924f9f7c4f366dce2424f3dc67ff058cef99c8ad4ac7aeb9",
+        "question": "Clothing record 73504: One scarf is stored in this crate. Its color is red. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "red",
+        "token_cap": 32,
+        "aliases": [
+          "red"
+        ]
+      },
+      {
+        "task_id": "cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26",
+        "question": "Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?\nA) Cannot be determined\nB) Ravu71108\nC) Tilu71108\nD) Seno71108\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e",
+        "question": "Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?\nA) 65\nB) 63\nC) -11\nD) 962\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "fd2ff6968077dfa9e300ee01692a26c03c3c26e19adbdc049c37fdabef3e37b3",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72406\", quantity=37.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72406\", \"quantity\": 37}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72406",
+          "quantity": 37
+        }
+      },
+      {
+        "task_id": "540508ce9442cedb3f3395dd63d483131836432d1fbbe97c31172180818e5f06",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72404\", quantity=35.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72404\", \"quantity\": 35}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72404",
+          "quantity": 35
+        }
+      },
+      {
+        "task_id": "58504d8b1c3a9f3ac4486dcc1c84dac237ec00920a0601d9613491bd40b32786",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72405\", quantity=36.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72405\", \"quantity\": 36}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72405",
+          "quantity": 36
+        }
+      },
+      {
+        "task_id": "120cb1033f36fd0a3e6cf6ad4e0f5203c1ab0f07e0860e94f9c244242d2e4f5a",
+        "question": "Bag tracking 71114: Ume71114 hands a blue bag to Vira71114. Vira71114 holds it and does not pass it on. Who holds the bag now?\nA) Ume71114\nB) Vira71114\nC) Nobody\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "7e22d130f67e773e0385c2e76cad7f3c1bea033ed076c6865dfea99e98d58f74",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72401\", quantity=32.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72401\", \"quantity\": 32}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72401",
+          "quantity": 32
+        }
+      },
+      {
+        "task_id": "25beb896c83f937f5af0354279e989783aa171784890ee88c6bd61560b9d8d36",
+        "question": "Bag tracking 71112: Ume71112 hands a blue bag to Vira71112. Vira71112 holds it and does not pass it on. Who holds the bag now?\nA) Vira71112\nB) Nobody\nC) Ume71112\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "A",
+        "token_cap": 32
+      },
+      {
+        "task_id": "d6bac2ac330d3e629d1bce876f81bb006ccffe929236666815cbcea1320b50fe",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72400\", quantity=31.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72400\", \"quantity\": 31}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72400",
+          "quantity": 31
+        }
+      },
+      {
+        "task_id": "2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71",
+        "question": "Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?\nA) 58\nB) 9\nC) 57\nD) 115\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "A",
+        "token_cap": 32
+      },
+      {
+        "task_id": "386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf",
+        "question": "Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?\nA) Tilu71110\nB) Seno71110\nC) Cannot be determined\nD) Ravu71110\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "D",
+        "token_cap": 32
+      },
+      {
+        "task_id": "c62d25cf7ee82fb5dafccc0f9cebbd4f7af3fd7f01f8a3fd838c7510eb6bdeb4",
+        "question": "Python inspection 71106: a=[90, 64, 9]; a.reverse(); print(a[1]). What is printed?\nA) 64\nB) 154\nC) 90\nD) 9\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "A",
+        "token_cap": 32
+      },
+      {
+        "task_id": "cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5",
+        "question": "Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?\nA) 1610\nB) 93\nC) 95\nD) 47\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "55d9a52acba87cdc6fdd80670bb75ad76820cf691052883fb1b7ce953700503f",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72402\", quantity=33.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72402\", \"quantity\": 33}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72402",
+          "quantity": 33
+        }
+      },
+      {
+        "task_id": "1f7a182f1ab9f65cb966321c2205d74568ae2e956bfb16e8c6fe0b7cc9ab5832",
+        "question": "Clothing record 73507: One scarf is stored in this crate. Its color is yellow. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "yellow",
+        "token_cap": 32,
+        "aliases": [
+          "yellow"
+        ]
+      },
+      {
+        "task_id": "3506789fab30771a21a73b52ad00e60174cb798e59ca9541d7c897e920bd04eb",
+        "question": "Clothing record 73506: One scarf is stored in this crate. Its color is green. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "green",
+        "token_cap": 32,
+        "aliases": [
+          "green"
+        ]
+      },
+      {
+        "task_id": "90d4bf753b13213141c28ec234fd4fa851e552dd5d7dde25f9f233e9da9bab73",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"opt72403\", quantity=34.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"opt72403\", \"quantity\": 34}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "opt72403",
+          "quantity": 34
+        }
+      },
+      {
+        "task_id": "3d6856d9f4188122ba4c214f72eaafc53225ae68dd31107398744e34964f32a3",
+        "question": "Sequence memo 71109: Ravu71109 is ahead of Seno71109, and Seno71109 is ahead of Tilu71109. Who is furthest ahead?\nA) Tilu71109\nB) Ravu71109\nC) Cannot be determined\nD) Seno71109\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "92318ffca0e21b14bf3db14cb9edb098cf8a74daabe6d6299b7b77c645ac635f",
+        "question": "Clothing record 73502: One scarf is stored in this crate. Its color is green. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "green",
+        "token_cap": 32,
+        "aliases": [
+          "green"
+        ]
+      },
+      {
+        "task_id": "0ac0b876abdccd1f460754cc18a65efdc69964e402304d631c6a580ac1ecc02c",
+        "question": "Clothing record 73505: One scarf is stored in this crate. Its color is blue. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "blue",
+        "token_cap": 32,
+        "aliases": [
+          "blue"
+        ]
+      },
+      {
+        "task_id": "2b651c9c636fc41f0ed180afd8a1425a782d5d88a0f9fe6aebc01e3c6653964a",
+        "question": "Clothing record 73501: One scarf is stored in this crate. Its color is blue. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "blue",
+        "token_cap": 32,
+        "aliases": [
+          "blue"
+        ]
+      },
+      {
+        "task_id": "b7f51e8832a85bd5bfb4f3c4c0a716a8982c108c3faeff74095208ba78c9f507",
+        "question": "Clothing record 73503: One scarf is stored in this crate. Its color is yellow. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "yellow",
+        "token_cap": 32,
+        "aliases": [
+          "yellow"
+        ]
+      }
+    ],
+    "long_high": [
+      {
+        "task_id": "a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1",
+        "question": "Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\necho echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",
+        "category": "long_high",
+        "score_kind": "copy_words",
+        "reference": "echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",
+        "target_words": [
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo",
+          "echo"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa",
+        "question": "Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\nha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",
+        "category": "long_high",
+        "score_kind": "copy_words",
+        "reference": "ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",
+        "target_words": [
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha",
+          "ha"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "b2419216e27e1c4a90af4d5ed34adff8147f5530f72c1ccdc3e5c328fb66d2d1",
+        "question": "Literal transcription check 74602. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\nyes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes",
+        "category": "long_high",
+        "score_kind": "copy_words",
+        "reference": "yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes",
+        "target_words": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819",
+        "question": "Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\ngo go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",
+        "category": "long_high",
+        "score_kind": "copy_words",
+        "reference": "go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",
+        "target_words": [
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go",
+          "go"
+        ],
+        "token_cap": 96
+      }
+    ],
+    "long_low": [
+      {
+        "task_id": "d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f",
+        "question": "Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\namber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",
+        "category": "long_low",
+        "score_kind": "copy_words",
+        "reference": "amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",
+        "target_words": [
+          "amber",
+          "birch",
+          "cedar",
+          "dune",
+          "elm",
+          "frost",
+          "grove",
+          "haze",
+          "amber",
+          "birch",
+          "cedar",
+          "dune",
+          "elm",
+          "frost",
+          "grove",
+          "haze",
+          "amber",
+          "birch",
+          "cedar",
+          "dune",
+          "elm",
+          "frost",
+          "grove",
+          "haze",
+          "amber",
+          "birch",
+          "cedar",
+          "dune",
+          "elm",
+          "frost",
+          "grove",
+          "haze",
+          "amber",
+          "birch",
+          "cedar",
+          "dune",
+          "elm",
+          "frost",
+          "grove",
+          "haze"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6",
+        "question": "Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\njade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",
+        "category": "long_low",
+        "score_kind": "copy_words",
+        "reference": "jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",
+        "target_words": [
+          "jade",
+          "kite",
+          "lake",
+          "mint",
+          "nest",
+          "opal",
+          "pine",
+          "quartz",
+          "jade",
+          "kite",
+          "lake",
+          "mint",
+          "nest",
+          "opal",
+          "pine",
+          "quartz",
+          "jade",
+          "kite",
+          "lake",
+          "mint",
+          "nest",
+          "opal",
+          "pine",
+          "quartz",
+          "jade",
+          "kite",
+          "lake",
+          "mint",
+          "nest",
+          "opal",
+          "pine",
+          "quartz",
+          "jade",
+          "kite",
+          "lake",
+          "mint",
+          "nest",
+          "opal",
+          "pine",
+          "quartz"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800",
+        "question": "Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\nreed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",
+        "category": "long_low",
+        "score_kind": "copy_words",
+        "reference": "reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",
+        "target_words": [
+          "reed",
+          "sand",
+          "teal",
+          "umber",
+          "vine",
+          "wave",
+          "yarn",
+          "zinc",
+          "reed",
+          "sand",
+          "teal",
+          "umber",
+          "vine",
+          "wave",
+          "yarn",
+          "zinc",
+          "reed",
+          "sand",
+          "teal",
+          "umber",
+          "vine",
+          "wave",
+          "yarn",
+          "zinc",
+          "reed",
+          "sand",
+          "teal",
+          "umber",
+          "vine",
+          "wave",
+          "yarn",
+          "zinc",
+          "reed",
+          "sand",
+          "teal",
+          "umber",
+          "vine",
+          "wave",
+          "yarn",
+          "zinc"
+        ],
+        "token_cap": 96
+      },
+      {
+        "task_id": "a2c13f9d7239a138ddd11bd99c34136b3e4c6d2e1e522e12865fde6181e7487e",
+        "question": "Literal transcription check 74613. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:\narch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill",
+        "category": "long_low",
+        "score_kind": "copy_words",
+        "reference": "arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill arch beam clay dawn east fern gold hill",
+        "target_words": [
+          "arch",
+          "beam",
+          "clay",
+          "dawn",
+          "east",
+          "fern",
+          "gold",
+          "hill",
+          "arch",
+          "beam",
+          "clay",
+          "dawn",
+          "east",
+          "fern",
+          "gold",
+          "hill",
+          "arch",
+          "beam",
+          "clay",
+          "dawn",
+          "east",
+          "fern",
+          "gold",
+          "hill",
+          "arch",
+          "beam",
+          "clay",
+          "dawn",
+          "east",
+          "fern",
+          "gold",
+          "hill",
+          "arch",
+          "beam",
+          "clay",
+          "dawn",
+          "east",
+          "fern",
+          "gold",
+          "hill"
+        ],
+        "token_cap": 96
+      }
+    ]
+  },
+  "manifest": "./data/dlr_opt_2c8a76633b5e450f88242020fce6a899/MANIFEST.json"
+}

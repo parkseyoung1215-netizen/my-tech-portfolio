@@ -1,0 +1,12 @@
+{
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "numpy": "2.5.4",
+    "transformers": "5.22.1"
+  },
+  "all_pinned_model_file_hashes_match": true,
+  "existing_files_unchanged": 829
+}

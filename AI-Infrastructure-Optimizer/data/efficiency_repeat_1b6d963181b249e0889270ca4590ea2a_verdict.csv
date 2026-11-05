@@ -1,0 +1,6 @@
+method,comparison,repeats,content_accuracy_mean,answer_rate_mean,quality_maintained_repeats,observed_call_reduction_percent,observed_wall_time_reduction_percent,observed_model_time_reduction_percent,observed_cpu_reduction_percent,monetary_cost,energy_cost,flops,cost_status,scope
+baseline,new repeated baseline,3,0.58,1.0,3,0.0,0.0,0.0,0.0,,,,unmeasured,Warm local 150-task replay; no confidence interval or deployment-wide guarantee.
+early_exit,new repeated baseline,3,0.6666666666666666,1.0,3,11.111111111111116,-4.281846929160182,-3.9778579478207288,5.915329595978869,,,,unmeasured,Warm local 150-task replay; no confidence interval or deployment-wide guarantee.
+selective,new repeated baseline,3,0.6666666666666666,1.0,3,22.22222222222222,10.698464249087126,11.481019599894893,16.914749661704963,,,,unmeasured,Warm local 150-task replay; no confidence interval or deployment-wide guarantee.
+budget_cap,new repeated baseline,3,0.5866666666666667,1.0,3,0.0,-11.099955216335577,-10.571823345285857,-11.927314904311693,,,,unmeasured,Warm local 150-task replay; no confidence interval or deployment-wide guarantee.
+batch_verify,new repeated baseline,3,0.68,1.0,3,40.74074074074075,-86.17334576034897,-93.29802252660568,-148.55982988594687,,,,unmeasured,Warm local 150-task replay; no confidence interval or deployment-wide guarantee.

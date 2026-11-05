@@ -1,0 +1,407 @@
+{
+  "native_logits_max_abs_difference": 0.0,
+  "forced_reuse": {
+    "attention_calls": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "mlp_calls": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      6,
+      12,
+      12,
+      12,
+      6,
+      12,
+      12,
+      12,
+      6,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      6,
+      12,
+      12,
+      12
+    ],
+    "reused_mlp_calls": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "work_shapes": [
+      [
+        40,
+        40,
+        28,
+        28
+      ],
+      [
+        1,
+        41,
+        28,
+        24
+      ],
+      [
+        1,
+        42,
+        28,
+        28
+      ],
+      [
+        1,
+        43,
+        28,
+        24
+      ],
+      [
+        1,
+        44,
+        28,
+        28
+      ],
+      [
+        1,
+        45,
+        28,
+        24
+      ],
+      [
+        1,
+        46,
+        28,
+        28
+      ],
+      [
+        1,
+        47,
+        28,
+        24
+      ],
+      [
+        1,
+        48,
+        28,
+        28
+      ],
+      [
+        1,
+        49,
+        28,
+        24
+      ],
+      [
+        1,
+        50,
+        28,
+        28
+      ],
+      [
+        1,
+        51,
+        28,
+        24
+      ]
+    ],
+    "events": [
+      {
+        "step": 1,
+        "layer": 8,
+        "distance": 1.0193474292755127,
+        "reused": true,
+        "anchor_step": 0
+      },
+      {
+        "step": 1,
+        "layer": 12,
+        "distance": 0.9965623021125793,
+        "reused": true,
+        "anchor_step": 0
+      },
+      {
+        "step": 1,
+        "layer": 16,
+        "distance": 0.9880372881889343,
+        "reused": true,
+        "anchor_step": 0
+      },
+      {
+        "step": 1,
+        "layer": 24,
+        "distance": 0.9419796466827393,
+        "reused": true,
+        "anchor_step": 0
+      },
+      {
+        "step": 3,
+        "layer": 8,
+        "distance": 1.1507532596588135,
+        "reused": true,
+        "anchor_step": 2
+      },
+      {
+        "step": 3,
+        "layer": 12,
+        "distance": 0.9919868111610413,
+        "reused": true,
+        "anchor_step": 2
+      },
+      {
+        "step": 3,
+        "layer": 16,
+        "distance": 0.9617422819137573,
+        "reused": true,
+        "anchor_step": 2
+      },
+      {
+        "step": 3,
+        "layer": 24,
+        "distance": 1.119206190109253,
+        "reused": true,
+        "anchor_step": 2
+      },
+      {
+        "step": 5,
+        "layer": 8,
+        "distance": 0.8824662566184998,
+        "reused": true,
+        "anchor_step": 4
+      },
+      {
+        "step": 5,
+        "layer": 12,
+        "distance": 0.7929492592811584,
+        "reused": true,
+        "anchor_step": 4
+      },
+      {
+        "step": 5,
+        "layer": 16,
+        "distance": 0.6985564231872559,
+        "reused": true,
+        "anchor_step": 4
+      },
+      {
+        "step": 5,
+        "layer": 24,
+        "distance": 0.7476644515991211,
+        "reused": true,
+        "anchor_step": 4
+      },
+      {
+        "step": 7,
+        "layer": 8,
+        "distance": 1.1574867963790894,
+        "reused": true,
+        "anchor_step": 6
+      },
+      {
+        "step": 7,
+        "layer": 12,
+        "distance": 1.0996824502944946,
+        "reused": true,
+        "anchor_step": 6
+      },
+      {
+        "step": 7,
+        "layer": 16,
+        "distance": 0.9431755542755127,
+        "reused": true,
+        "anchor_step": 6
+      },
+      {
+        "step": 7,
+        "layer": 24,
+        "distance": 1.011083722114563,
+        "reused": true,
+        "anchor_step": 6
+      },
+      {
+        "step": 9,
+        "layer": 8,
+        "distance": 0.8370679616928101,
+        "reused": true,
+        "anchor_step": 8
+      },
+      {
+        "step": 9,
+        "layer": 12,
+        "distance": 0.7292624711990356,
+        "reused": true,
+        "anchor_step": 8
+      },
+      {
+        "step": 9,
+        "layer": 16,
+        "distance": 0.7126135230064392,
+        "reused": true,
+        "anchor_step": 8
+      },
+      {
+        "step": 9,
+        "layer": 24,
+        "distance": 0.7469456195831299,
+        "reused": true,
+        "anchor_step": 8
+      },
+      {
+        "step": 11,
+        "layer": 8,
+        "distance": 0.907835841178894,
+        "reused": true,
+        "anchor_step": 10
+      },
+      {
+        "step": 11,
+        "layer": 12,
+        "distance": 0.7794032692909241,
+        "reused": true,
+        "anchor_step": 10
+      },
+      {
+        "step": 11,
+        "layer": 16,
+        "distance": 0.8107292652130127,
+        "reused": true,
+        "anchor_step": 10
+      },
+      {
+        "step": 11,
+        "layer": 24,
+        "distance": 0.9449208974838257,
+        "reused": true,
+        "anchor_step": 10
+      }
+    ],
+    "gate_wall_seconds": 0.009410543367266655,
+    "gate_cpu_seconds": 0.005465000000000941,
+    "gate_elements": 36864,
+    "pre_gate_sync_wall_seconds": 0.13609512406401336,
+    "input_tokens": 40,
+    "answer": "```json\n{\n  \"x\": 2,\n ",
+    "token_ids": [
+      73594,
+      2236,
+      198,
+      515,
+      220,
+      330,
+      87,
+      788,
+      220,
+      17,
+      345,
+      220
+    ],
+    "output_tokens": 12,
+    "completion_reason": "max_tokens",
+    "kv_offsets": [
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51
+    ],
+    "wall_seconds": 0.4406865418422967,
+    "cpu_seconds": 0.10797900000000027,
+    "model_wall_seconds": 0.4393780829850584,
+    "model_cpu_seconds": 0.10639999999999894,
+    "model_calls": 1,
+    "analytical_matmul_flops": 137621422080,
+    "cached_activation_payload_bytes": 24576,
+    "mlx_peak_bytes": 3170676112,
+    "mlx_active_bytes": 3103149168,
+    "process_lifetime_rss_peak_bytes": 3340992512,
+    "extra_gate_model_calls": 0,
+    "gpu_time_flops_power_money": null,
+    "fixed_work": false
+  },
+  "reuse_bypassed_trapped_mlp": true,
+  "fresh_mlp_positive_control_raised": true,
+  "scope": "neutral software controls, excluded from performance"
+}

@@ -1,0 +1,24 @@
+# Environments, caches, credentials, settings and model weights
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
+*.gguf
+*.ggml
+*.safetensors
+*.pt
+*.pth
+*.bin
+models/
+*.log

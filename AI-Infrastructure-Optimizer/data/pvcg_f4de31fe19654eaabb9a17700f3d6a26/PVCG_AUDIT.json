@@ -1,0 +1,19 @@
+{
+  "preserved_files_unchanged": 579,
+  "frozen_inputs_unchanged": true,
+  "past_stems_checked": 2622,
+  "new_validation_test_past_overlap": 0,
+  "train_validation_test_disjoint": true,
+  "no_previous_evaluation_training": true,
+  "profiles_refitted_only_from_train_calibration": true,
+  "all_initial_prompts_reconstructed": true,
+  "all_gate_decisions_frozen_before_test_verification": true,
+  "all_gate_decisions_reconstructed": true,
+  "PVCG_subset_of_Selective": true,
+  "all_prompts_grades_calls_verified": true,
+  "actual_verification_calls": 4500,
+  "outcome_rows": 12000,
+  "api_errors": 0,
+  "varying_verifier_requests": 1,
+  "limits": "Stem disjointness not semantic independence; repeated fixed initial outputs not independent questions."
+}

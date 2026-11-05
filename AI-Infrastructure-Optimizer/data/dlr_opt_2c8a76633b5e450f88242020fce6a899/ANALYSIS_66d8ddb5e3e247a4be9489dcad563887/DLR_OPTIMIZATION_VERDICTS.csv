@@ -1,0 +1,13 @@
+dataset,method,equal_observed_accuracy,no_any_observed_correct_loss,baseline_task_accuracy_nonzero,equal_stream_wall_gain_at_least_5pct,all_three_repeats_gain_at_least_5pct,equal_stream_net_proxy_reduced,cpu_ratio,wall_ci_entirely_at_least_5pct_better,observed_minimum_pass,population_accuracy_noninferiority_proven
+replay32,old_dlr,True,True,True,False,False,True,1.099708193740404,False,False,False
+replay32,device,True,True,True,False,False,True,0.9869413832323283,False,False,False
+replay32,lightweight,True,True,True,False,False,True,0.9750547270740347,False,False,False
+fresh32,old_dlr,True,True,True,False,False,True,1.103211781068014,False,False,False
+fresh32,device,True,True,True,False,False,True,1.018682940502725,False,False,False
+fresh32,lightweight,True,True,True,False,False,True,0.9885458953162267,False,False,False
+long_high,old_dlr,False,False,True,False,False,True,1.1026700860251586,False,False,False
+long_high,device,False,False,True,False,False,True,1.070109238201635,False,False,False
+long_high,lightweight,True,False,True,False,False,True,0.9798226984807014,False,False,False
+long_low,old_dlr,True,True,True,False,False,True,1.230151855823618,False,False,False
+long_low,device,True,True,True,False,False,True,1.069779058781018,False,False,False
+long_low,lightweight,True,True,True,False,False,False,0.9385909782171672,False,False,False

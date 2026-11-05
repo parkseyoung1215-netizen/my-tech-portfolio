@@ -1,0 +1,9 @@
+{
+  "native_full_logits_max_abs_difference": 0.0,
+  "native_full_top1_equal": true,
+  "last_head_max_abs_difference": 0.03125,
+  "last_head_top1_equal": true,
+  "skipped_block_trap_passed": true,
+  "non_skipped_positive_control_raised": true,
+  "trap_layer": 4
+}

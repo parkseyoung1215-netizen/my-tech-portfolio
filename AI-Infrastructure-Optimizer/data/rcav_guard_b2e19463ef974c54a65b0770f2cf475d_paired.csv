@@ -1,0 +1,13 @@
+dataset,repetition,control,correct_to_wrong,wrong_to_correct,accuracy_delta,same_raw_primary,estimated_exact_mcnemar_p,p_scope
+replay150,1,rcav,1,4,0.02,150,0.375,Per repetition; do not pool repeated identical questions as independent pairs
+replay150,2,rcav,1,4,0.02,150,0.375,Per repetition; do not pool repeated identical questions as independent pairs
+replay150,3,rcav,1,4,0.02,150,0.375,Per repetition; do not pool repeated identical questions as independent pairs
+replay150,1,selective,7,13,0.04,149,0.26317596435546875,Per repetition; do not pool repeated identical questions as independent pairs
+replay150,2,selective,7,13,0.04,150,0.26317596435546875,Per repetition; do not pool repeated identical questions as independent pairs
+replay150,3,selective,7,13,0.04,150,0.26317596435546875,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,1,rcav,2,2,0.0,150,1.0,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,2,rcav,2,2,0.0,150,1.0,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,3,rcav,2,2,0.0,150,1.0,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,1,selective,7,10,0.02,150,0.629058837890625,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,2,selective,7,10,0.02,150,0.629058837890625,Per repetition; do not pool repeated identical questions as independent pairs
+fresh150,3,selective,7,10,0.02,150,0.629058837890625,Per repetition; do not pool repeated identical questions as independent pairs

@@ -1,0 +1,25 @@
+model,method,kind,n,mae_seconds,mean_absolute_percentage_error,brier,scope
+qwen2.5:1.5b,rcav_zero,risk_brier_all,450,,,0.14660855213416146,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav_zero,risk_brier_non_tool,360,,,0.18326069016770183,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav_zero,cost_executed,90,0.007851674677777783,0.09356377434509008,,Selected verification calls only
+qwen2.5:1.5b,rcav_zero,cost_paired_baseline_reference,450,0.013827004444444447,0.14907553312162025,,"Matched raw primary candidate, different execution/cache state"
+qwen2.5:1.5b,rcav,risk_brier_all,450,,,0.14660855213416146,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav,risk_brier_non_tool,360,,,0.18326069016770183,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav,cost_executed,0,,,,Selected verification calls only
+qwen2.5:1.5b,rcav,cost_paired_baseline_reference,449,0.01383479523385301,0.14912665314337767,,"Matched raw primary candidate, different execution/cache state"
+qwen2.5:1.5b,rcav_high,risk_brier_all,450,,,0.14660855213416146,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav_high,risk_brier_non_tool,360,,,0.18326069016770183,"Repeated150 tasks, not independent samples"
+qwen2.5:1.5b,rcav_high,cost_executed,0,,,,Selected verification calls only
+qwen2.5:1.5b,rcav_high,cost_paired_baseline_reference,450,0.013827004444444447,0.14907553312162025,,"Matched raw primary candidate, different execution/cache state"
+qwen2.5:0.5b,rcav_zero,risk_brier_all,450,,,0.14989236790701463,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav_zero,risk_brier_non_tool,360,,,0.1873654598837683,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav_zero,cost_executed,242,0.00936980023892562,0.2927939645630651,,Selected verification calls only
+qwen2.5:0.5b,rcav_zero,cost_paired_baseline_reference,449,0.0107818821022049,0.2936077730711304,,"Matched raw primary candidate, different execution/cache state"
+qwen2.5:0.5b,rcav,risk_brier_all,450,,,0.14989236790701463,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav,risk_brier_non_tool,360,,,0.1873654598837683,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav,cost_executed,50,0.0069103843988,0.28324362560775573,,Selected verification calls only
+qwen2.5:0.5b,rcav,cost_paired_baseline_reference,449,0.0107818821022049,0.2936077730711304,,"Matched raw primary candidate, different execution/cache state"
+qwen2.5:0.5b,rcav_high,risk_brier_all,450,,,0.14989236790701463,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav_high,risk_brier_non_tool,360,,,0.1873654598837683,"Repeated150 tasks, not independent samples"
+qwen2.5:0.5b,rcav_high,cost_executed,0,,,,Selected verification calls only
+qwen2.5:0.5b,rcav_high,cost_paired_baseline_reference,449,0.0107818821022049,0.2936077730711304,,"Matched raw primary candidate, different execution/cache state"

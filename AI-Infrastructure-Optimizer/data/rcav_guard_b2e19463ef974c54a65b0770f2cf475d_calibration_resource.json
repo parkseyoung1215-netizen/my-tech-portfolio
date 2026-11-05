@@ -1,0 +1,59 @@
+{
+  "processing_seconds": 18.403508000075817,
+  "before": {
+    "time": 1886114.946133291,
+    "duration": 0.040464957943186164,
+    "processes": {
+      "23232": {
+        "ppid": 23231,
+        "rss_kib": 29792,
+        "cpu_seconds": 16.21,
+        "command": "/Applications/Ollama.app/Contents/MacOS/Ollama"
+      },
+      "54901": {
+        "ppid": 23238,
+        "rss_kib": 1158560,
+        "cpu_seconds": 0.4,
+        "command": "/Applications/Ollama.app/Contents/Resources/llama-server"
+      },
+      "23238": {
+        "ppid": 23232,
+        "rss_kib": 25248,
+        "cpu_seconds": 90.06,
+        "command": "/Applications/Ollama.app/Contents/Resources/ollama"
+      }
+    },
+    "error": ""
+  },
+  "after": {
+    "time": 1886133.394141833,
+    "duration": 0.04445841698907316,
+    "processes": {
+      "23232": {
+        "ppid": 23231,
+        "rss_kib": 29056,
+        "cpu_seconds": 16.21,
+        "command": "/Applications/Ollama.app/Contents/MacOS/Ollama"
+      },
+      "54901": {
+        "ppid": 23238,
+        "rss_kib": 1397792,
+        "cpu_seconds": 13.7,
+        "command": "/Applications/Ollama.app/Contents/Resources/llama-server"
+      },
+      "23238": {
+        "ppid": 23232,
+        "rss_kib": 26224,
+        "cpu_seconds": 90.78,
+        "command": "/Applications/Ollama.app/Contents/Resources/ollama"
+      }
+    },
+    "error": ""
+  },
+  "cpu_seconds": 14.019999999999998,
+  "cpu_percent": 75.99736290299191,
+  "boundary_max_rss_mib": 1419.015625,
+  "resource_pid_stable": true,
+  "resource_error": "",
+  "monitor_seconds": 0.08492337493225932
+}

@@ -1,0 +1,5 @@
+scope,signal,control,auroc_delta,auroc_delta_ci95_low,auroc_delta_ci95_high,risk_mae_delta,risk_mae_delta_ci95_low,risk_mae_delta_ci95_high,bootstrap_scope
+all28,prelayer_ridge,layer_mean,0.11188426138726548,0.0636317160175737,0.15630412882954678,-0.23459273639925643,-0.3668300183712997,-0.10758898032882717,Unique-question cluster; layer/position rows are not independent samples.
+candidate1,prelayer_ridge,layer_mean,0.22580645161290325,-0.11904761904761907,0.5,0.0377067866088039,0.016013216288848806,0.05857758319087077,Unique-question cluster; layer/position rows are not independent samples.
+old_sketch_pool8,prelayer_ridge,layer_mean,0.11426841952700051,0.048787194872379355,0.1750416811492902,-0.35421799646956353,-0.5188883630232082,-0.18547326661562183,Unique-question cluster; layer/position rows are not independent samples.
+old_sketch_pool8,prelayer_ridge,frozen_old_sketch,0.2165669173188739,0.12322622357673337,0.30619672657780406,-1.7723032020288445,-2.459274561455269,-1.1473346471035144,Unique-question cluster; layer/position rows are not independent samples.

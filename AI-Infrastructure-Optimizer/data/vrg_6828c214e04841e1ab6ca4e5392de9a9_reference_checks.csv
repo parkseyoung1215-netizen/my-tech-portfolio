@@ -1,0 +1,741 @@
+question,reference_output,expected_option,matches
+"What does this Python program output?
+```python
+d = {'a': 305, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 312
+C) Error
+D) 8",8,8,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(301, 306)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",7,7,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(302, 307)))
+```
+A) 8
+B) 0
+C) Error
+D) 9",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha8104:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) alpha8104
+C) gamma
+D) Error",beta,beta,True
+"What does this Python program output?
+```python
+a = [301, 303, 306, 310]
+print(a[1:][::-1][-1])
+```
+A) 303
+B) 310
+C) Error
+D) 306",303,303,True
+"What does this Python program output?
+```python
+a = [304, 306, 309, 313]
+print(a[1:][::-1][-1])
+```
+A) 306
+B) 313
+C) Error
+D) 309",306,306,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(305, 310)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",7,7,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(303, 308)))
+```
+A) 10
+B) Error
+C) 0
+D) 9",9,9,True
+"What does this Python program output?
+```python
+s = 'alpha8103:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) alpha8103
+D) beta",beta,beta,True
+"What does this Python program output?
+```python
+a = [303, 305, 308, 312]
+print(a[1:][::-1][-1])
+```
+A) 308
+B) 312
+C) 305
+D) Error",305,305,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(304, 309)))
+```
+A) 7
+B) 0
+C) 6
+D) Error",6,6,True
+"What does this Python program output?
+```python
+s = 'alpha8101:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha8101
+B) beta
+C) gamma
+D) Error",beta,beta,True
+"What does this Python program output?
+```python
+s = 'alpha8102:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) Error
+C) alpha8102
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+d = {'a': 303, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 310
+C) 7
+D) 8",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha8105:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) alpha8105
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+d = {'a': 304, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) Error
+C) 311
+D) 8",8,8,True
+"What does this Python program output?
+```python
+a = [302, 304, 307, 311]
+print(a[1:][::-1][-1])
+```
+A) 304
+B) 311
+C) Error
+D) 307",304,304,True
+"What does this Python program output?
+```python
+d = {'a': 301, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) Error
+C) 7
+D) 308",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 302, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 8
+C) 309
+D) Error",8,8,True
+"What does this Python program output?
+```python
+a = [305, 307, 310, 314]
+print(a[1:][::-1][-1])
+```
+A) 307
+B) Error
+C) 314
+D) 310",307,307,True
+"What does this Python program output?
+```python
+d = {'a': 413, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 420
+C) 8
+D) Error",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha9103:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha9103
+B) beta
+C) Error
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(405, 410)))
+```
+A) 7
+B) 8
+C) 0
+D) Error",7,7,True
+"What does this Python program output?
+```python
+s = 'alpha9110:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) alpha9110
+C) gamma
+D) beta",beta,beta,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(412, 417)))
+```
+A) 7
+B) Error
+C) 6
+D) 0",6,6,True
+"What does this Python program output?
+```python
+a = [407, 409, 412, 416]
+print(a[1:][::-1][-1])
+```
+A) 412
+B) 409
+C) 416
+D) Error",409,409,True
+"What does this Python program output?
+```python
+s = 'alpha9101:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha9101
+B) Error
+C) gamma
+D) beta",beta,beta,True
+"What does this Python program output?
+```python
+a = [406, 408, 411, 415]
+print(a[1:][::-1][-1])
+```
+A) 408
+B) 411
+C) 415
+D) Error",408,408,True
+"What does this Python program output?
+```python
+d = {'a': 412, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 8
+C) 419
+D) 7",8,8,True
+"What does this Python program output?
+```python
+a = [403, 405, 408, 412]
+print(a[1:][::-1][-1])
+```
+A) 408
+B) 405
+C) 412
+D) Error",405,405,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(403, 408)))
+```
+A) 9
+B) 0
+C) 10
+D) Error",9,9,True
+"What does this Python program output?
+```python
+d = {'a': 414, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 8
+C) 421
+D) Error",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha9112:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) Error
+C) gamma
+D) alpha9112",beta,beta,True
+"What does this Python program output?
+```python
+a = [408, 410, 413, 417]
+print(a[1:][::-1][-1])
+```
+A) Error
+B) 410
+C) 417
+D) 413",410,410,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(407, 412)))
+```
+A) Error
+B) 10
+C) 9
+D) 0",9,9,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(404, 409)))
+```
+A) 0
+B) Error
+C) 7
+D) 6",6,6,True
+"What does this Python program output?
+```python
+d = {'a': 405, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 8
+C) 412
+D) 7",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha9111:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) alpha9111
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+d = {'a': 407, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 414
+B) 8
+C) Error
+D) 7",8,8,True
+"What does this Python program output?
+```python
+a = [414, 416, 419, 423]
+print(a[1:][::-1][-1])
+```
+A) 423
+B) Error
+C) 419
+D) 416",416,416,True
+"What does this Python program output?
+```python
+a = [405, 407, 410, 414]
+print(a[1:][::-1][-1])
+```
+A) 410
+B) Error
+C) 407
+D) 414",407,407,True
+"What does this Python program output?
+```python
+s = 'alpha9113:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) alpha9113
+D) beta",beta,beta,True
+"What does this Python program output?
+```python
+s = 'alpha9108:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) alpha9108
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+a = [411, 413, 416, 420]
+print(a[1:][::-1][-1])
+```
+A) Error
+B) 420
+C) 416
+D) 413",413,413,True
+"What does this Python program output?
+```python
+a = [404, 406, 409, 413]
+print(a[1:][::-1][-1])
+```
+A) Error
+B) 413
+C) 409
+D) 406",406,406,True
+"What does this Python program output?
+```python
+s = 'alpha9109:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha9109
+B) gamma
+C) beta
+D) Error",beta,beta,True
+"What does this Python program output?
+```python
+s = 'alpha9102:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha9102
+B) beta
+C) gamma
+D) Error",beta,beta,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(408, 413)))
+```
+A) 6
+B) 7
+C) Error
+D) 0",6,6,True
+"What does this Python program output?
+```python
+d = {'a': 410, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) Error
+C) 7
+D) 417",8,8,True
+"What does this Python program output?
+```python
+a = [401, 403, 406, 410]
+print(a[1:][::-1][-1])
+```
+A) 403
+B) Error
+C) 406
+D) 410",403,403,True
+"What does this Python program output?
+```python
+a = [413, 415, 418, 422]
+print(a[1:][::-1][-1])
+```
+A) 422
+B) 418
+C) 415
+D) Error",415,415,True
+"What does this Python program output?
+```python
+a = [412, 414, 417, 421]
+print(a[1:][::-1][-1])
+```
+A) 414
+B) 417
+C) 421
+D) Error",414,414,True
+"What does this Python program output?
+```python
+d = {'a': 409, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) Error
+C) 8
+D) 416",8,8,True
+"What does this Python program output?
+```python
+a = [410, 412, 415, 419]
+print(a[1:][::-1][-1])
+```
+A) 412
+B) 415
+C) Error
+D) 419",412,412,True
+"What does this Python program output?
+```python
+a = [415, 417, 420, 424]
+print(a[1:][::-1][-1])
+```
+A) 424
+B) 417
+C) 420
+D) Error",417,417,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(413, 418)))
+```
+A) 0
+B) Error
+C) 8
+D) 7",7,7,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(401, 406)))
+```
+A) 0
+B) Error
+C) 7
+D) 8",7,7,True
+"What does this Python program output?
+```python
+d = {'a': 406, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 413
+B) 7
+C) 8
+D) Error",8,8,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(415, 420)))
+```
+A) 10
+B) Error
+C) 9
+D) 0",9,9,True
+"What does this Python program output?
+```python
+s = 'alpha9104:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha9104
+B) gamma
+C) beta
+D) Error",beta,beta,True
+"What does this Python program output?
+```python
+s = 'alpha9106:beta:gamma'
+print(s.split(':')[-2])
+```
+A) gamma
+B) Error
+C) alpha9106
+D) beta",beta,beta,True
+"What does this Python program output?
+```python
+a = [402, 404, 407, 411]
+print(a[1:][::-1][-1])
+```
+A) Error
+B) 404
+C) 407
+D) 411",404,404,True
+"What does this Python program output?
+```python
+d = {'a': 404, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) 7
+C) 411
+D) Error",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 401, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 408
+B) 8
+C) Error
+D) 7",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha9115:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) gamma
+D) alpha9115",beta,beta,True
+"What does this Python program output?
+```python
+d = {'a': 415, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 7
+C) 422
+D) 8",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 402, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 409
+C) 8
+D) 7",8,8,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(410, 415)))
+```
+A) 9
+B) 8
+C) 0
+D) Error",8,8,True
+"What does this Python program output?
+```python
+a = [409, 411, 414, 418]
+print(a[1:][::-1][-1])
+```
+A) 418
+B) 411
+C) Error
+D) 414",411,411,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(414, 419)))
+```
+A) Error
+B) 8
+C) 0
+D) 9",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 408, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) Error
+C) 415
+D) 7",8,8,True
+"What does this Python program output?
+```python
+s = 'alpha9107:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) beta
+D) alpha9107",beta,beta,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(411, 416)))
+```
+A) 10
+B) 0
+C) Error
+D) 9",9,9,True
+"What does this Python program output?
+```python
+s = 'alpha9105:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) alpha9105
+C) beta
+D) gamma",beta,beta,True
+"What does this Python program output?
+```python
+s = 'alpha9114:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) beta
+D) alpha9114",beta,beta,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(406, 411)))
+```
+A) 0
+B) Error
+C) 9
+D) 8",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 403, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 410
+B) 7
+C) 8
+D) Error",8,8,True
+"What does this Python program output?
+```python
+d = {'a': 411, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 418
+C) 8
+D) Error",8,8,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(409, 414)))
+```
+A) 0
+B) Error
+C) 8
+D) 7",7,7,True
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(402, 407)))
+```
+A) Error
+B) 8
+C) 0
+D) 9",8,8,True

@@ -1,0 +1,3776 @@
+method,question,category,repeats,content_accuracy,format_compliance,latency_mean_seconds,latency_min_seconds,latency_max_seconds,latency_sample_std_seconds,distinct_primary_responses,distinct_final_predictions
+baseline,147 + 64,arithmetic,3,1.0,1.0,0.12085263896733522,0.11091937497258186,0.1305254998151213,0.009805656030298192,1,1
+baseline,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",logic,3,1.0,1.0,0.12899334697673717,0.11623883293941617,0.14998087496496737,0.018315792067241172,1,1
+baseline,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",logic,3,0.0,1.0,0.26778672231982154,0.2286014158744365,0.33526758407242596,0.05869324234627339,1,1
+baseline,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",logic,3,1.0,1.0,0.41850901402843493,0.3424144578166306,0.5555945420637727,0.11895949337017593,1,1
+baseline,26 * 56,arithmetic,3,1.0,1.0,0.2511510140417765,0.2321433750912547,0.2739466668572277,0.021157518460311914,1,1
+baseline,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",knowledge,3,1.0,1.0,0.12059347238391638,0.11530608404427767,0.12964508309960365,0.007875833355868977,1,1
+baseline,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.5744960973970592,0.45625620801001787,0.790529333986342,0.18736938051682686,1,1
+baseline,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",coding,3,0.0,1.0,0.119039847360303,0.11641858401708305,0.12171912495978177,0.002650746651748012,1,1
+baseline,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",comprehension,3,1.0,1.0,0.12317802764785786,0.12041441700421274,0.12771641602739692,0.003961334931877669,1,1
+baseline,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.2446598056703806,0.2375482921488583,0.2550941249355674,0.009232813252329221,1,1
+baseline,257 + 28,arithmetic,3,1.0,1.0,0.34534269439366955,0.33008920797146857,0.36378366709686816,0.017071883186455056,1,1
+baseline,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",coding,3,0.0,1.0,0.236466708049799,0.23129237513057888,0.24029408302158117,0.004649559981638905,1,1
+baseline,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",knowledge,3,1.0,1.0,0.23938294438024363,0.22795595903880894,0.25717308302409947,0.015613371623565003,1,1
+baseline,225 + 86,arithmetic,3,0.0,1.0,0.4398567776661366,0.38631095783784986,0.4808634170331061,0.04850737232574818,1,1
+baseline,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",logic,3,0.0,1.0,0.14162380597554147,0.11500645894557238,0.1905000419355929,0.042384122858319065,1,1
+baseline,175 * 32,arithmetic,3,0.0,1.0,0.1293328613974154,0.1231704589445144,0.1356844580732286,0.0062591444614142335,1,1
+baseline,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",knowledge,3,1.0,1.0,0.3603401667593668,0.3427875000052154,0.3870628750883043,0.02351902329072215,1,1
+baseline,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",comprehension,3,1.0,1.0,0.3680215140338987,0.3559765841346234,0.38234558305703104,0.013331424620118642,1,1
+baseline,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",coding,3,1.0,1.0,0.3556272914477934,0.347223250195384,0.36193683301098645,0.007577108718303669,1,1
+baseline,300 + 37,arithmetic,3,0.0,1.0,0.2099063196219504,0.17721712496131659,0.23075191699899733,0.028665250515062152,1,1
+baseline,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",coding,3,1.0,1.0,0.47333056937592727,0.4607617501169443,0.4838201249949634,0.011668961649055115,1,1
+baseline,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",comprehension,3,1.0,1.0,0.49164490269807476,0.47364974999800324,0.5108822081238031,0.018647283771846053,1,1
+baseline,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",logic,3,0.0,0.0,0.3065929866861552,0.23957608407363296,0.43154870881699026,0.10830998231047399,1,1
+baseline,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",knowledge,3,1.0,1.0,0.4808938334075113,0.4567990000359714,0.5177807500585914,0.032441046606549936,1,1
+baseline,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",comprehension,3,0.0,1.0,0.15333649966244897,0.11982104112394154,0.21997483307495713,0.057710823425773966,1,1
+baseline,106 * 37,arithmetic,3,0.0,1.0,0.3360129864110301,0.31021258304826915,0.35525791719555855,0.023227165079992167,1,1
+baseline,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",knowledge,3,1.0,1.0,0.12104522196265559,0.11441920790821314,0.13247954100370407,0.009944031150051102,1,1
+baseline,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.43661397268685204,0.35332241700962186,0.5898546669632196,0.13287790565063412,1,1
+baseline,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",coding,3,0.0,1.0,0.11903938891676565,0.1165343748871237,0.12342037493363023,0.0038070595389033497,1,1
+baseline,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",coding,3,0.0,1.0,0.23482861129256585,0.2323132089804858,0.23916604183614254,0.0037722897150364977,1,1
+baseline,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",knowledge,3,1.0,0.0,0.2632014028883229,0.24982999986968935,0.2846098749432713,0.01873114482764895,1,1
+baseline,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",knowledge,3,1.0,1.0,0.38234345832218725,0.3620107499882579,0.41283991606906056,0.026895675911088268,1,1
+baseline,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",coding,3,1.0,1.0,0.35240081961577135,0.3490325838793069,0.35748033388517797,0.0044763239051039475,1,1
+baseline,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.29433524957858026,0.23338541598059237,0.4115482079796493,0.10153644430784506,1,1
+baseline,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",coding,3,1.0,1.0,0.4691201669629663,0.46496704197488725,0.47471358394250274,0.005030367863995098,1,1
+baseline,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",coding,3,1.0,1.0,0.12165761071567734,0.11982025019824505,0.12296941597014666,0.0016390446960196738,1,1
+baseline,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",knowledge,3,1.0,1.0,0.5013548609179755,0.47540250001475215,0.5389195829629898,0.03331276264480114,1,1
+baseline,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",coding,3,0.0,1.0,0.24111731932498515,0.23947262507863343,0.24313745787367225,0.0018610396750244438,1,1
+baseline,(506 * 61) - 91,arithmetic,3,0.0,1.0,0.43108461137550574,0.3884119999129325,0.47521629207767546,0.043420536003600484,1,1
+baseline,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",comprehension,3,1.0,1.0,0.41137694427743554,0.34587208298034966,0.5318503750022501,0.10446597050975062,1,1
+baseline,281 * 55,arithmetic,3,1.0,1.0,0.09816756922130783,0.07522008288651705,0.13790337485261261,0.034549739818527915,1,1
+baseline,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",comprehension,3,1.0,1.0,0.5294472360207388,0.46003791596740484,0.6527522921096534,0.10706666364974082,1,1
+baseline,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.12382741621695459,0.11616558278910816,0.1368417909834534,0.011329769212586114,1,1
+baseline,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",comprehension,3,1.0,1.0,0.2441121662656466,0.22878745780326426,0.26954058301635087,0.02217584258917814,1,1
+baseline,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",logic,3,0.0,1.0,0.5665322363687059,0.4671643751207739,0.7474963748827577,0.15697124536170742,1,1
+baseline,38 * 67,arithmetic,3,0.0,1.0,0.18387018019954363,0.1370773329399526,0.26531266584061086,0.07079211277402987,1,1
+baseline,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",comprehension,3,1.0,1.0,0.36525623593479395,0.34341091685928404,0.4008313331287354,0.031075008552296345,1,1
+baseline,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.15275426426281533,0.1189955840818584,0.21452016686089337,0.05356808620268924,1,1
+baseline,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",knowledge,3,1.0,1.0,0.12369780521839857,0.11431037494912744,0.13763974979519844,0.012313514246966037,1,1
+baseline,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",comprehension,3,0.0,1.0,0.48741993059714633,0.45771091687493026,0.5338507499545813,0.04073122430182778,1,1
+baseline,(645 * 65) - 41,arithmetic,3,1.0,1.0,0.2815116109171261,0.21081124991178513,0.4055919158272445,0.1078051054545903,1,1
+baseline,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",logic,3,1.0,1.0,0.3387806392274797,0.2359338339883834,0.4344597088638693,0.09945684025758109,1,1
+baseline,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",logic,3,0.0,1.0,0.5272359445225447,0.35575674986466765,0.6539204998407513,0.15404650348232024,1,1
+baseline,295 * 66,arithmetic,3,0.0,1.0,0.3780616666190326,0.2854261249303818,0.5430934159085155,0.14327950434810843,1,1
+baseline,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",knowledge,3,1.0,1.0,0.24850504162410894,0.22635379200801253,0.2829507919959724,0.030235263576401133,1,1
+baseline,211 + 77,arithmetic,3,1.0,1.0,0.09386049956083298,0.056161665823310614,0.114407290937379,0.032692241114623724,1,1
+baseline,202 + 53,arithmetic,3,0.0,1.0,0.173592458323886,0.09592837491072714,0.21609433297999203,0.06735911269592261,1,1
+baseline,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.682371819547067,0.47442299989052117,0.8765722499229014,0.20142683158224467,1,1
+baseline,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",knowledge,3,1.0,1.0,0.3777793056021134,0.3412010420579463,0.43719437485560775,0.051911653380091995,1,1
+baseline,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",coding,3,1.0,1.0,0.36169849972551066,0.35926241613924503,0.3630279579665512,0.002112650244200167,1,1
+baseline,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",logic,3,0.0,1.0,0.17040176410228014,0.11889362521469593,0.22081308299675584,0.050968580804454766,1,1
+baseline,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",logic,3,0.0,1.0,0.3592828473386665,0.23570604203268886,0.4375108750537038,0.10827595014316135,1,1
+baseline,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",knowledge,3,1.0,1.0,0.5094649165403098,0.45445699989795685,0.5997643338050693,0.07882051023644965,1,1
+baseline,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",comprehension,3,0.0,1.0,0.11988373605223994,0.11823312495835125,0.12126937508583069,0.001535370103170117,1,1
+baseline,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.5497121946730962,0.35496104205958545,0.6572757079266012,0.16896686847559536,1,1
+baseline,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.23778856894932687,0.2359379578847438,0.23959241597913206,0.0018276778017805746,1,1
+baseline,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",coding,3,0.0,1.0,0.48387134703807533,0.47817229107022285,0.48761900002136827,0.005016578286842896,1,1
+baseline,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",logic,3,1.0,1.0,0.7152121389905611,0.4734499170444906,0.874932250007987,0.2129441168350842,1,1
+baseline,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",logic,3,0.0,1.0,0.15271779134248695,0.12095212517306209,0.21582595794461668,0.05465368501960143,1,1
+baseline,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",logic,3,0.0,1.0,0.30635041603818536,0.23977241618558764,0.4389496659860015,0.1148346563874149,1,1
+baseline,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",comprehension,3,0.0,1.0,0.3581084720790386,0.3560864580795169,0.36107333307154477,0.002623728432148243,1,1
+baseline,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",knowledge,3,1.0,1.0,0.12477433332242072,0.1159903749357909,0.13795470795594156,0.011623439169065483,1,1
+baseline,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",knowledge,3,1.0,1.0,0.2479961943657448,0.2295214170590043,0.2765867910347879,0.025110450173147916,1,1
+baseline,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",coding,3,0.0,1.0,0.15508677802669504,0.11918525001965463,0.2165400420781225,0.05347108840624436,1,1
+baseline,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",logic,3,1.0,1.0,0.46112447200963896,0.3571258750744164,0.6641377080231905,0.17583227933602041,1,1
+baseline,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",comprehension,3,1.0,1.0,0.47884074971079826,0.4756258330307901,0.484867291059345,0.005223031838016738,1,1
+baseline,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",logic,3,1.0,1.0,0.6167358189510802,0.47522420808672905,0.8885267078876495,0.23544480628522307,1,1
+baseline,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",knowledge,3,1.0,1.0,0.37221001406821114,0.3440913751255721,0.4171757500153035,0.03934717234267027,1,1
+baseline,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",comprehension,3,0.0,1.0,0.15308061094644168,0.1227931659668684,0.2130936668254435,0.0519735901332162,1,1
+baseline,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",knowledge,3,1.0,1.0,0.520944889013966,0.48135549994185567,0.5853550001047552,0.05626744342583582,1,1
+baseline,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",knowledge,3,1.0,1.0,0.12142868037335575,0.11540449992753565,0.1304337081965059,0.007945650609813056,1,1
+baseline,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",knowledge,3,1.0,1.0,0.2408665136899799,0.22792387497611344,0.26011320808902383,0.01699541497359923,1,1
+baseline,112 * 79,arithmetic,3,1.0,1.0,0.300380083033815,0.2253234579693526,0.342643833020702,0.06517320839453451,1,1
+baseline,(517 * 61) - 77,arithmetic,3,1.0,1.0,0.41861991630867124,0.3025175828952342,0.4802350830286741,0.1006107149568492,1,1
+baseline,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",logic,3,0.0,1.0,0.12656677809233466,0.11634733411483467,0.1433570000808686,0.014654755427911387,1,1
+baseline,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",logic,3,1.0,1.0,0.2505312500676761,0.23020937503315508,0.28391937515698373,0.029141657403038635,1,1
+baseline,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",comprehension,3,0.0,1.0,0.30379715259186924,0.24006241699680686,0.42771708290092647,0.1073324818308409,1,1
+baseline,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",knowledge,3,1.0,1.0,0.3619920973821233,0.34079241706058383,0.39333737501874566,0.027702761782286478,1,1
+baseline,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",knowledge,3,1.0,1.0,0.4845531526952982,0.4557612088974565,0.5284533330705017,0.03862939733616749,1,1
+baseline,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",knowledge,3,1.0,1.0,0.12122848598907392,0.11468374985270202,0.13060108316130936,0.008326942622772279,1,1
+baseline,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",logic,3,0.0,1.0,0.37563525008348125,0.3451784171629697,0.4248079580720514,0.04298754390541708,1,1
+baseline,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",knowledge,3,1.0,1.0,0.23886169431110224,0.22728495788760483,0.2545162499882281,0.01406617484486503,1,1
+baseline,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",coding,3,0.0,1.0,0.3092980694491416,0.23661916609853506,0.43816645815968513,0.11190742349396021,1,1
+baseline,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",logic,3,0.0,1.0,0.5005408473468075,0.4601477920077741,0.5657008329872042,0.05696851536081795,1,1
+baseline,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",knowledge,3,1.0,1.0,0.3793892360602816,0.3650180420372635,0.3965005411300808,0.015919110958022425,1,1
+baseline,(785 * 23) - 66,arithmetic,3,1.0,1.0,0.10023820827094217,0.07486220798455179,0.1450807498767972,0.038947022730564065,1,1
+baseline,138 * 50,arithmetic,3,1.0,1.0,0.18450948564956585,0.13603941607289016,0.2724104579538107,0.07625852302107096,1,1
+baseline,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.15663344436325133,0.1151119580026716,0.23896174994297326,0.07129929951971349,1,1
+baseline,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",comprehension,3,1.0,1.0,0.44620511091003817,0.3577140418346971,0.6125487079843879,0.1441559532408683,1,1
+baseline,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",coding,3,0.0,1.0,0.4440810834057629,0.35473041608929634,0.5982286671642214,0.13405905360858578,1,1
+baseline,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.5900376806190858,0.47741129202768207,0.7972092919517308,0.1796435068301904,1,1
+baseline,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",coding,3,0.0,1.0,0.5771015970191608,0.4736005829181522,0.753194458084181,0.15328198179115532,1,1
+baseline,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",knowledge,3,1.0,1.0,0.4970198336523026,0.48035229183733463,0.5151857500895858,0.017465002099468226,1,1
+baseline,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",comprehension,3,1.0,1.0,0.132429110740001,0.116371916141361,0.1629148330539465,0.026413965770146354,1,1
+baseline,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",coding,3,1.0,1.0,0.19407474994659424,0.17867079190909863,0.20669179200194776,0.014216866288655249,1,1
+baseline,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",coding,3,1.0,1.0,0.36737113857331377,0.2997368748765439,0.4112869999371469,0.0594371900175247,1,1
+baseline,266 + 73,arithmetic,3,0.0,1.0,0.25645636091940105,0.18567020795308053,0.38686229195445776,0.1130727735528245,1,1
+baseline,(541 * 29) - 21,arithmetic,3,1.0,1.0,0.3318534027008961,0.26100970804691315,0.4608695830684155,0.11191077241030618,1,1
+baseline,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",coding,3,0.0,1.0,0.5619681529545536,0.4814028339460492,0.6170115419663489,0.07131589658555383,1,1
+baseline,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",comprehension,3,1.0,1.0,0.3190869023868193,0.2352057909592986,0.3911509159952402,0.07864129548951045,1,1
+baseline,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",coding,3,1.0,1.0,0.7557584999594837,0.667493499815464,0.8176758750341833,0.07848142752702161,1,1
+baseline,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",comprehension,3,0.0,1.0,0.45429174943516654,0.35174416610971093,0.5588151661213487,0.10354963881905599,1,1
+baseline,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",logic,3,0.0,1.0,0.2889140277014424,0.22789420816116035,0.4068964999169111,0.10219595375208447,1,1
+baseline,308 + 53,arithmetic,3,1.0,1.0,0.12030287498297791,0.11266149999573827,0.13111612503416836,0.00962750694070108,1,1
+baseline,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",knowledge,3,1.0,1.0,0.16750588873401284,0.1266055409796536,0.1913496251218021,0.03558293272531165,1,1
+baseline,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",coding,3,0.0,1.0,0.12053312500938773,0.11861895793117583,0.12158600008115172,0.0016604826768779307,1,1
+baseline,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",coding,3,0.0,1.0,0.23924715273703137,0.23609429108910263,0.242357375100255,0.003131759715262059,1,1
+baseline,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",knowledge,3,1.0,1.0,0.33287654141895473,0.2492420410271734,0.38244675006717443,0.07284336350417032,1,1
+baseline,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",coding,3,1.0,1.0,0.3594891943503171,0.35460483306087554,0.36575650004670024,0.0057030097812647415,1,1
+baseline,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",comprehension,3,0.0,1.0,0.6177750830538571,0.46957425004802644,0.7506590411067009,0.141166993078654,1,1
+baseline,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",knowledge,3,1.0,1.0,0.4764241803592692,0.37540495791472495,0.5499052500817925,0.09045081748167892,1,1
+baseline,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.14091519475914538,0.11599875008687377,0.18479158403351903,0.0381146051414515,1,1
+baseline,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",comprehension,3,1.0,1.0,0.27130548609420657,0.2282940831501037,0.34563058405183256,0.06463260966814903,1,1
+baseline,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",knowledge,3,1.0,1.0,0.6186798747318486,0.501700040884316,0.7315641671884805,0.11498677852195731,1,1
+baseline,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",coding,3,1.0,1.0,0.4805692500279595,0.4715967499651015,0.4917856671381742,0.010279808701617967,1,1
+baseline,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",comprehension,3,0.0,1.0,0.4253445276990533,0.34133958304300904,0.5755957500077784,0.13042398137376246,1,1
+baseline,267 + 41,arithmetic,3,0.0,1.0,0.1731039722605298,0.16327183390967548,0.18611324997618794,0.01174747772453402,1,1
+baseline,(760 * 56) - 28,arithmetic,3,1.0,1.0,0.2495038330089301,0.23729637498036027,0.26501516602002084,0.014151661973075375,1,1
+baseline,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",logic,3,0.0,1.0,0.4213922224007547,0.3411752500105649,0.5731342090293765,0.1314842591857619,1,1
+baseline,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.5750373887519041,0.45427800016477704,0.804700749926269,0.19898261813928042,1,1
+baseline,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",coding,3,1.0,1.0,0.12043537494416039,0.1179666668176651,0.12257908307947218,0.0023233197560274727,1,1
+baseline,365 + 87,arithmetic,3,1.0,1.0,0.36942887500238913,0.3512881670612842,0.3929557909723371,0.0213496170526714,1,1
+baseline,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",coding,3,0.0,1.0,0.23819073592312634,0.23493637493811548,0.24359470792114735,0.0047124625347800125,1,1
+baseline,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",logic,3,1.0,1.0,0.1496972918199996,0.11722241714596748,0.20934212510474026,0.05172199857684452,1,1
+baseline,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",coding,3,0.0,1.0,0.3585726802702993,0.3533624999690801,0.3673362908884883,0.007634583055282299,1,1
+baseline,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",coding,3,0.0,1.0,0.4793384305667132,0.4696562089957297,0.49290995788760483,0.012104926013561473,1,1
+baseline,(517 * 73) - 25,arithmetic,3,1.0,1.0,0.09755933339086671,0.07607387495227158,0.13499325001612306,0.0325367204613105,1,1
+baseline,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",knowledge,3,1.0,1.0,0.15242772184622785,0.13755966583266854,0.179077124921605,0.023130606482399698,1,1
+baseline,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.558772680349648,0.45443620812147856,0.7443216668907553,0.16110555285973344,1,1
+baseline,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",coding,3,0.0,1.0,0.11841422265085082,0.1163680839817971,0.12145441700704396,0.0026849219621396633,1,1
+baseline,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",comprehension,3,1.0,1.0,0.1409508753567934,0.11743975011631846,0.17726045893505216,0.031897957658162404,1,1
+baseline,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",logic,3,0.0,1.0,0.3007148611359298,0.23312375019304454,0.4238844171632081,0.1068369350188622,1,1
+baseline,(657 * 52) - 42,arithmetic,3,1.0,1.0,0.2368286671116948,0.21330704214051366,0.26841887505725026,0.028428068088974058,1,1
+baseline,(777 * 88) - 39,arithmetic,3,1.0,1.0,0.33284623610476655,0.2896103330422193,0.402175750117749,0.06064982011244132,1,1
+baseline,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",comprehension,3,1.0,1.0,0.29225801412637037,0.23505554208531976,0.39141362509690225,0.0862091174429451,1,1
+baseline,(657 * 72) - 31,arithmetic,3,1.0,1.0,0.47241775000778335,0.4272992080077529,0.5349818749818951,0.055920930479071686,1,1
+baseline,73 * 68,arithmetic,3,0.0,1.0,0.085110458622997,0.06477554189041257,0.12462554196827114,0.03422593637576363,1,1
+baseline,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",knowledge,3,1.0,1.0,0.28514036086077493,0.2502599158324301,0.34587308391928673,0.052789437271230366,1,1
+baseline,36 * 79,arithmetic,3,0.0,1.0,0.18897468068947396,0.12963437498547137,0.24908566707745194,0.05972937516120862,1,1
+baseline,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",coding,3,0.0,1.0,0.2354892083288481,0.2337998328730464,0.2385823749937117,0.002682563997925148,1,1
+early_exit,147 + 64,arithmetic,3,1.0,1.0,0.00024241674691438675,0.00020400015637278557,0.0002963750157505274,4.810859054703861e-05,1,1
+early_exit,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",logic,3,1.0,1.0,0.15987034731854996,0.15259333397261798,0.16600270802155137,0.006777573337912173,1,1
+early_exit,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",logic,3,0.0,1.0,0.3189610553284486,0.30678241699934006,0.32551595801487565,0.010557281453066574,1,1
+early_exit,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",logic,3,1.0,1.0,0.47509159706532955,0.4555172501131892,0.4870614579413086,0.017091823139671062,1,1
+early_exit,26 * 56,arithmetic,3,1.0,1.0,0.0002748613866666953,0.0002310420386493206,0.0003354591317474842,5.419288042520745e-05,1,1
+early_exit,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",knowledge,3,1.0,1.0,0.17091918038204312,0.16400358290411532,0.17934758309274912,0.007783059822553038,1,1
+early_exit,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.6284283613786101,0.6041184591595083,0.6440782498102635,0.021341112818036044,1,1
+early_exit,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",coding,3,0.0,1.0,0.1702814162708819,0.1550400829873979,0.18204441596753895,0.013834110138766407,1,1
+early_exit,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",comprehension,3,1.0,1.0,0.17100706960385045,0.16466466686688364,0.18091291701421142,0.008690512739061502,1,1
+early_exit,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.3342457362450659,0.3226012918166816,0.35419554193504155,0.01735751795043081,1,1
+early_exit,257 + 28,arithmetic,3,1.0,1.0,0.00030476398145159084,0.0002556249964982271,0.0003690419252961874,5.820430389346844e-05,1,1
+early_exit,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",coding,3,0.0,1.0,0.3520592079342653,0.3090742079075426,0.40525883296504617,0.048899125220634394,1,1
+early_exit,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",knowledge,3,1.0,1.0,0.33849224968192476,0.3280480410903692,0.359323708107695,0.01804059467377541,1,1
+early_exit,225 + 86,arithmetic,3,1.0,1.0,0.0003329306685676177,0.00027841702103614807,0.000401749974116683,6.289867421002335e-05,1,1
+early_exit,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",logic,3,0.0,1.0,0.15729074995033443,0.1535565408412367,0.15938129206188023,0.0032416296202262295,1,1
+early_exit,175 * 32,arithmetic,3,1.0,1.0,0.00022720793883005777,0.00019895797595381737,0.0002772079315036535,4.342305531658519e-05,1,1
+early_exit,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",knowledge,3,1.0,1.0,0.5058833886869252,0.4812080829869956,0.5449275420978665,0.03420365778322802,1,1
+early_exit,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",comprehension,3,1.0,1.0,0.5001901249246051,0.47998362476937473,0.5404139580205083,0.03483498970509499,1,1
+early_exit,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",coding,3,1.0,1.0,0.5233773470390588,0.45864570792764425,0.6030892911367118,0.0733777509581702,1,1
+early_exit,300 + 37,arithmetic,3,1.0,1.0,0.0002551109840472539,0.0002284159418195486,0.0003039170987904072,4.232943209897936e-05,1,1
+early_exit,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",coding,3,1.0,1.0,0.692577707891663,0.6065163328312337,0.79510433296673,0.09536606730021892,1,1
+early_exit,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",comprehension,3,1.0,1.0,0.6642992499594887,0.6289353328756988,0.7302631670609117,0.05717606576160915,1,1
+early_exit,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",logic,3,0.0,0.0,0.32672918036890525,0.3178942499216646,0.33281733305193484,0.007831551161341696,1,1
+early_exit,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",knowledge,3,1.0,1.0,0.6718221663031727,0.6339926661457866,0.7252079579047859,0.04755581999390966,1,1
+early_exit,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",comprehension,3,0.0,1.0,0.17858752802324793,0.15275362483225763,0.2154250422026962,0.032752652257396084,1,1
+early_exit,106 * 37,arithmetic,3,1.0,1.0,0.0002782636632521947,0.000251916004344821,0.0003274169284850359,4.260480191728125e-05,1,1
+early_exit,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",knowledge,3,1.0,1.0,0.15922409746175012,0.1496216671075672,0.17613883316516876,0.01469327673025831,1,1
+early_exit,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.48011106935640174,0.46644841600209475,0.4899430419318378,0.01220675830500659,1,1
+early_exit,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",coding,3,0.0,1.0,0.17808773671276867,0.15468016709201038,0.21802283404394984,0.03475547069613902,1,1
+early_exit,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",coding,3,0.0,1.0,0.35891105560585856,0.3097199168987572,0.4448446249589324,0.07468049503998662,1,1
+early_exit,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",knowledge,3,1.0,0.0,0.3386123054660857,0.3232602500356734,0.36834870814345777,0.025757025214981584,1,1
+early_exit,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",knowledge,3,1.0,1.0,0.4928222084417939,0.469897500006482,0.532309542177245,0.034344667265907285,1,1
+early_exit,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",coding,3,1.0,1.0,0.5243411393991361,0.4629239169880748,0.6328850840218365,0.09427298411888377,1,1
+early_exit,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.34285294466341537,0.3047368328552693,0.3987454171292484,0.049461123399833704,1,1
+early_exit,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",coding,3,1.0,1.0,0.6883945836840818,0.6146567089017481,0.8199579170905054,0.11421464122324951,1,1
+early_exit,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",coding,3,1.0,1.0,0.19043940297948816,0.1604589580092579,0.21395595907233655,0.0273279833732772,1,1
+early_exit,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",knowledge,3,1.0,1.0,0.6482558196876198,0.6166514169890434,0.6990572919603437,0.04443059382477788,1,1
+early_exit,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",coding,3,0.0,1.0,0.39654834762526053,0.3209935000631958,0.4435158339329064,0.06607464333492988,1,1
+early_exit,(506 * 61) - 91,arithmetic,3,1.0,1.0,0.00030890262375275296,0.0002810829319059849,0.0003595419693738222,4.392616064350617e-05,1,1
+early_exit,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",comprehension,3,1.0,1.0,0.519693236409997,0.46067225001752377,0.6165039171464741,0.08450989805346432,1,1
+early_exit,281 * 55,arithmetic,3,1.0,1.0,0.0002280833044399818,0.00021058297716081142,0.0002530000638216734,2.2159758776828992e-05,1,1
+early_exit,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",comprehension,3,1.0,1.0,0.695080778018261,0.6146380419377238,0.8308596250135452,0.11825610819458952,1,1
+early_exit,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.18893290295576057,0.16242700000293553,0.21701524988748133,0.02732824798772053,1,1
+early_exit,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",comprehension,3,1.0,1.0,0.3745305829991897,0.32252379111014307,0.432037582853809,0.05496368675104655,1,1
+early_exit,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",logic,3,0.0,1.0,0.6333947499127438,0.6141723329201341,0.6479406668804586,0.017363102659839716,1,1
+early_exit,38 * 67,arithmetic,3,1.0,1.0,0.000256583405037721,0.0002391671296209097,0.0002843751572072506,2.4324459458464608e-05,1,1
+early_exit,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",comprehension,3,1.0,1.0,0.5493528890268257,0.47750545805320144,0.6192355419043452,0.0708854670002128,1,1
+early_exit,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.16012090266061327,0.15752758388407528,0.16378004103899002,0.003259644717796552,1,1
+early_exit,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",knowledge,3,1.0,1.0,0.18259000033140182,0.15551316714845598,0.20930462493561208,0.026897558049156275,1,1
+early_exit,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",comprehension,3,1.0,1.0,0.723618888684238,0.633258666144684,0.8059302498586476,0.0866167251893569,1,1
+early_exit,(645 * 65) - 41,arithmetic,3,1.0,1.0,0.0002897221129387617,0.0002708751708269119,0.0003208331763744354,2.7143269579321164e-05,1,1
+early_exit,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",logic,3,1.0,1.0,0.3168790692773958,0.31166116683743894,0.3229052908718586,0.005665475815587719,1,1
+early_exit,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",logic,3,0.0,1.0,0.47254756931215525,0.46426608390174806,0.48090383294038475,0.008319126583034993,1,1
+early_exit,295 * 66,arithmetic,3,1.0,1.0,0.0003131530247628689,0.0002929170150309801,0.0003470000810921192,2.9498982198544496e-05,1,1
+early_exit,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",knowledge,3,1.0,1.0,0.36514141666702926,0.308114750077948,0.41931633302010596,0.05565561401841529,1,1
+early_exit,211 + 77,arithmetic,3,1.0,1.0,0.00020886134977142015,0.00018779211677610874,0.00022179191000759602,1.8403124209117143e-05,1,1
+early_exit,202 + 53,arithmetic,3,1.0,1.0,0.0002356390468776226,0.00021179206669330597,0.00024758302606642246,2.0652100806854344e-05,1,1
+early_exit,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.6266807220720997,0.6147095840424299,0.6394507910590619,0.0123899374157358,1,1
+early_exit,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",knowledge,3,1.0,1.0,0.5523395279888064,0.4567928749602288,0.6384026249870658,0.09117553785110177,1,1
+early_exit,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",coding,3,1.0,1.0,0.5825395140176018,0.48330008308403194,0.6588604589924216,0.08999613406282984,1,1
+early_exit,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",logic,3,0.0,1.0,0.15911847228805223,0.15591991692781448,0.1614402919076383,0.0028627144720820966,1,1
+early_exit,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",logic,3,0.0,1.0,0.314342041965574,0.3125589170958847,0.3161186669021845,0.0017798838045530946,1,1
+early_exit,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",knowledge,3,1.0,1.0,0.7341574446763843,0.6032259999774396,0.8426497499458492,0.12127889035601208,1,1
+early_exit,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",comprehension,3,0.0,1.0,0.1804832083483537,0.15238012513145804,0.22551924991421402,0.03940021195796688,1,1
+early_exit,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.4682414026465267,0.46358862495981157,0.4724753750488162,0.0044581532259224885,1,1
+early_exit,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.3610543196555227,0.32337324996478856,0.4228491249959916,0.053944106383782525,1,1
+early_exit,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",coding,3,0.0,1.0,0.7697123196752121,0.6378017920069396,0.8803334999829531,0.12265942514425293,1,1
+early_exit,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",logic,3,1.0,1.0,0.6241152360259244,0.6173171671107411,0.6309887079987675,0.0068360823414491175,1,1
+early_exit,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",logic,3,0.0,1.0,0.16027141634064415,0.15849254094064236,0.16222216608002782,0.0018707435718150866,1,1
+early_exit,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",logic,3,0.0,1.0,0.32020633302939433,0.3131235830951482,0.32531516603194177,0.006330950534170534,1,1
+early_exit,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",comprehension,3,0.0,1.0,0.5210827223490924,0.47866316698491573,0.5922647500410676,0.06202249413738114,1,1
+early_exit,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",knowledge,3,1.0,1.0,0.16846476371089616,0.15426466707140207,0.19088208302855492,0.019643086551041192,1,1
+early_exit,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",knowledge,3,1.0,1.0,0.3337608886261781,0.3105352078564465,0.3740931670181453,0.03506251994447706,1,1
+early_exit,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",coding,3,0.0,1.0,0.1663683750666678,0.15875966707244515,0.17942275013774633,0.011357033850211432,1,1
+early_exit,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",logic,3,1.0,1.0,0.4802129996630053,0.467066208133474,0.49141895794309676,0.012291835953148686,1,1
+early_exit,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",comprehension,3,1.0,1.0,0.6897405840766927,0.6318093340378255,0.7906050840392709,0.08767251859271104,1,1
+early_exit,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",logic,3,1.0,1.0,0.6650200692626337,0.6200409999582916,0.736762790940702,0.06279501523864466,1,1
+early_exit,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",knowledge,3,1.0,1.0,0.4973384303351243,0.4646860829088837,0.5550385829992592,0.05011424925679263,1,1
+early_exit,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",comprehension,3,0.0,1.0,0.17179977800697088,0.15861770906485617,0.18417208408936858,0.012796417765925303,1,1
+early_exit,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",knowledge,3,1.0,1.0,0.679632305710887,0.6360449169296771,0.7533412501215935,0.06418791576475213,1,1
+early_exit,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",knowledge,3,1.0,1.0,0.17455441667698324,0.1559502079617232,0.19128979207016528,0.017743758190662276,1,1
+early_exit,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",knowledge,3,1.0,1.0,0.34602618070008856,0.31087058293633163,0.37332279211841524,0.0319592296170281,1,1
+early_exit,112 * 79,arithmetic,3,1.0,1.0,0.00025765271857380867,0.00023300014436244965,0.0002702500205487013,2.135147560461004e-05,1,1
+early_exit,(517 * 61) - 77,arithmetic,3,1.0,1.0,0.00028744425314168137,0.00026166695170104504,0.0003010828513652086,2.2336391235574358e-05,1,1
+early_exit,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",logic,3,0.0,1.0,0.1812153059678773,0.16246358398348093,0.2028457501437515,0.020344412428003555,1,1
+early_exit,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",logic,3,1.0,1.0,0.37182529200799763,0.32287670904770494,0.3972179580014199,0.04240066322726718,1,1
+early_exit,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",comprehension,3,0.0,1.0,0.33557218064864475,0.3108507089782506,0.36215491709299386,0.025702697766757782,1,1
+early_exit,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",knowledge,3,1.0,1.0,0.5189247499996176,0.46548474999144673,0.5563407919835299,0.04750032120616862,1,1
+early_exit,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",knowledge,3,1.0,1.0,0.6913922499710073,0.6196756248828024,0.7357730830553919,0.06269042264884757,1,1
+early_exit,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",knowledge,3,1.0,1.0,0.16024366680843136,0.153340500080958,0.1661597501952201,0.006466377928492504,1,1
+early_exit,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",logic,3,0.0,1.0,0.5627935832987229,0.48444654210470617,0.6124206248205155,0.06865107608492105,1,1
+early_exit,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",knowledge,3,1.0,1.0,0.3164511669892818,0.30442558391951025,0.32272904203273356,0.010417833526818106,1,1
+early_exit,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",coding,3,0.0,1.0,0.3284334857016802,0.3185140830464661,0.34709070809185505,0.016168425867618973,1,1
+early_exit,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",logic,3,0.0,1.0,0.750580444621543,0.6393766670953482,0.8303942917846143,0.0993022106079902,1,1
+early_exit,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",knowledge,3,1.0,1.0,0.4917774030473083,0.474127541994676,0.5010694169905037,0.015292362907714565,1,1
+early_exit,(785 * 23) - 66,arithmetic,3,1.0,1.0,0.00023579124050835767,0.00021433294750750065,0.00026716594584286213,2.777738024822109e-05,1,1
+early_exit,138 * 50,arithmetic,3,1.0,1.0,0.00026480527594685555,0.0002435420174151659,0.0002990409266203642,2.9937342052235638e-05,1,1
+early_exit,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.1621743053353081,0.15580895799212158,0.17380912485532463,0.010090936752481268,1,1
+early_exit,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",comprehension,3,1.0,1.0,0.49636836093850434,0.46065649995580316,0.5312000419944525,0.03528000663785744,1,1
+early_exit,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",coding,3,0.0,1.0,0.4885340416803956,0.4709066669456661,0.515180875081569,0.023474759902756805,1,1
+early_exit,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.6538568889567008,0.6088011669926345,0.6992586669512093,0.04522974287756943,1,1
+early_exit,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",coding,3,0.0,1.0,0.648832943988964,0.6242011249996722,0.6823411660734564,0.03006923665387426,1,1
+early_exit,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",knowledge,3,1.0,1.0,0.6431358890452733,0.6215371249709278,0.6560396670829505,0.018823082629616367,1,1
+early_exit,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",comprehension,3,1.0,1.0,0.15779341664165258,0.15149441710673273,0.167376791825518,0.00843521186630884,1,1
+early_exit,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",coding,3,1.0,1.0,0.17767215302834907,0.16926229209639132,0.19344229204580188,0.013667420001969556,1,1
+early_exit,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",coding,3,1.0,1.0,0.3336530833039433,0.32076000003144145,0.3524561249651015,0.016654032246554696,1,1
+early_exit,266 + 73,arithmetic,3,1.0,1.0,0.000292749609798193,0.0002738330513238907,0.000330040929839015,3.229636664955644e-05,1,1
+early_exit,(541 * 29) - 21,arithmetic,3,1.0,1.0,0.0003248746506869793,0.0003024998586624861,0.00036754109896719456,3.696490525206302e-05,1,1
+early_exit,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",coding,3,0.0,1.0,0.49797813897021115,0.47109291702508926,0.5411164169199765,0.037735182608540196,1,1
+early_exit,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",comprehension,3,1.0,1.0,0.3575475693214685,0.3071034159511328,0.39191324985586107,0.044632554803517806,1,1
+early_exit,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",coding,3,1.0,1.0,0.6525276249740273,0.6192122499924153,0.7019402501173317,0.043649989670595864,1,1
+early_exit,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",comprehension,3,0.0,1.0,0.5148695696455737,0.45597374998033047,0.5536156669259071,0.05184587225945209,1,1
+early_exit,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",logic,3,0.0,1.0,0.32140143068196875,0.311864374903962,0.3382759999949485,0.014655129260557256,1,1
+early_exit,308 + 53,arithmetic,3,1.0,1.0,0.0002739306849737962,0.0002612920943647623,0.0002804580144584179,1.0947317372633435e-05,1,1
+early_exit,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",knowledge,3,1.0,1.0,0.16670531958031157,0.15434687491506338,0.1823867920320481,0.014312271770553178,1,1
+early_exit,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",coding,3,0.0,1.0,0.17314522232239446,0.1583354170434177,0.20137666608206928,0.024458997615023452,1,1
+early_exit,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",coding,3,0.0,1.0,0.3455570275740077,0.31451029190793633,0.4060486659873277,0.05239341757912766,1,1
+early_exit,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",knowledge,3,1.0,1.0,0.33041550032794476,0.30748079204931855,0.3591101251076907,0.026292194404195005,1,1
+early_exit,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",coding,3,1.0,1.0,0.5302724863092104,0.46925833402201533,0.6514401249587536,0.10493513557616553,1,1
+early_exit,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",comprehension,3,0.0,1.0,0.6907203055452555,0.6049729578662664,0.7473158338107169,0.07551652146632226,1,1
+early_exit,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",knowledge,3,1.0,1.0,0.48783544497564435,0.4567375420592725,0.5285569590050727,0.036864177472855426,1,1
+early_exit,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.1644747503257046,0.15605054190382361,0.17563804215751588,0.010076927854858102,1,1
+early_exit,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",comprehension,3,1.0,1.0,0.3254403196430455,0.31058508390560746,0.3436845000833273,0.016807931088497336,1,1
+early_exit,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",knowledge,3,1.0,1.0,0.6442349723850688,0.604345333063975,0.6940888341050595,0.04569396339549455,1,1
+early_exit,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",coding,3,1.0,1.0,0.7018534305971116,0.6210594589356333,0.860465707955882,0.13737031900554147,1,1
+early_exit,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",comprehension,3,0.0,1.0,0.4823345143037538,0.4607833339832723,0.5050032089930028,0.022131108540747513,1,1
+early_exit,267 + 41,arithmetic,3,1.0,1.0,0.00030387511166433495,0.0002887500450015068,0.00031154206953942776,1.3099108200620706e-05,1,1
+early_exit,(760 * 56) - 28,arithmetic,3,1.0,1.0,0.00034027802757918835,0.00032287510111927986,0.0003499588929116726,1.510316574447812e-05,1,1
+early_exit,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",logic,3,0.0,1.0,0.4762386109990378,0.46134916692972183,0.4980850829742849,0.019330857711731885,1,1
+early_exit,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.6300376250098149,0.6098924579564482,0.6586921669077128,0.025488428621937242,1,1
+early_exit,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",coding,3,1.0,1.0,0.185874305665493,0.1566782919690013,0.2170075001195073,0.0302112204484072,1,1
+early_exit,365 + 87,arithmetic,3,1.0,1.0,0.00036693069462974864,0.0003474999684840441,0.0003784999717026949,1.6929318829526785e-05,1,1
+early_exit,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",coding,3,0.0,1.0,0.37671298642332357,0.31348383403383195,0.4442185831721872,0.06547220509755475,1,1
+early_exit,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",logic,3,1.0,1.0,0.15964773623272777,0.15341104194521904,0.17129145888611674,0.010092288853731875,1,1
+early_exit,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",coding,3,0.0,1.0,0.5589832223486155,0.46677749999798834,0.6735633751377463,0.10519296978607684,1,1
+early_exit,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",coding,3,0.0,1.0,0.7764285837765783,0.6217089591082186,0.9465609171893448,0.16297350201924046,1,1
+early_exit,(517 * 73) - 25,arithmetic,3,1.0,1.0,0.00023877799200514951,0.0002199169248342514,0.00024970807135105133,1.6402851234055008e-05,1,1
+early_exit,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",knowledge,3,1.0,1.0,0.18635161104612052,0.17721000011079013,0.2007162079680711,0.012593456194379187,1,1
+early_exit,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.6363674723543227,0.6098292090464383,0.6641022500116378,0.027156297222630525,1,1
+early_exit,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",coding,3,0.0,1.0,0.17923090273203948,0.156080124899745,0.22111941711045802,0.036343561478913884,1,1
+early_exit,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",comprehension,3,1.0,1.0,0.16063322204475602,0.15336770797148347,0.1664193330798298,0.0066503913045983945,1,1
+early_exit,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",logic,3,0.0,1.0,0.3147263468708843,0.3037784998305142,0.3348873748909682,0.01748149177574541,1,1
+early_exit,(657 * 52) - 42,arithmetic,3,1.0,1.0,0.0002727500007798274,0.0002547919284552336,0.00028683291748166084,1.6368227386414422e-05,1,1
+early_exit,(777 * 88) - 39,arithmetic,3,1.0,1.0,0.00030144435974458855,0.00028375000692903996,0.0003179579507559538,1.713451207490271e-05,1,1
+early_exit,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",comprehension,3,1.0,1.0,0.31732801371254027,0.3068409999832511,0.3243790410924703,0.009260141636708503,1,1
+early_exit,(657 * 72) - 31,arithmetic,3,1.0,1.0,0.00032979180105030537,0.0003119581378996372,0.0003494580741971731,1.8817017567309667e-05,1,1
+early_exit,73 * 68,arithmetic,3,1.0,1.0,0.0001922776767363151,0.00017966702580451965,0.0002022909466177225,1.1533440054086398e-05,1,1
+early_exit,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",knowledge,3,1.0,1.0,0.3443038333207369,0.3259848749730736,0.36967112496495247,0.02267997710057706,1,1
+early_exit,36 * 79,arithmetic,3,1.0,1.0,0.0002229860983788967,0.00021275016479194164,0.00023454101756215096,1.0955140727789317e-05,1,1
+early_exit,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",coding,3,0.0,1.0,0.36032552768786746,0.3114437498152256,0.4492221251130104,0.07711426270664024,1,1
+selective,147 + 64,arithmetic,3,1.0,1.0,0.0001989724114537239,0.0001899590715765953,0.00021637510508298874,1.5074403763883559e-05,1,1
+selective,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",logic,3,1.0,1.0,0.16056944460918507,0.15635141707025468,0.16585166682489216,0.004838705310584879,1,1
+selective,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",logic,3,0.0,1.0,0.31768583327842254,0.30939850001595914,0.32492674980312586,0.007816832885188167,1,1
+selective,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",logic,3,1.0,1.0,0.47301826424275834,0.45932904188521206,0.4868464588653296,0.013759234872704593,1,1
+selective,26 * 56,arithmetic,3,1.0,1.0,0.00022338874017198881,0.0002100002020597458,0.00024641607888042927,2.0030199171619345e-05,1,1
+selective,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",knowledge,3,1.0,1.0,0.0789301806750397,0.06790424999780953,0.09096916695125401,0.011565781847860418,1,1
+selective,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.6244247362483293,0.606612249976024,0.6415383338462561,0.017473527625010428,1,1
+selective,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",coding,3,0.0,1.0,0.18644036096520722,0.15829133288934827,0.215123041998595,0.028419612579674954,1,1
+selective,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",comprehension,3,1.0,1.0,0.18664004164747894,0.162432000041008,0.215292708016932,0.026709167506527878,1,1
+selective,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.3704568469741692,0.3206882500089705,0.4365722080692649,0.0596463364932741,1,1
+selective,257 + 28,arithmetic,3,1.0,1.0,0.00024637502307693165,0.00022945809178054333,0.00027600000612437725,2.574215185600956e-05,1,1
+selective,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",coding,3,0.0,1.0,0.39377755493236083,0.3140514160040766,0.4627589578740299,0.07493377253159969,1,1
+selective,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",knowledge,3,1.0,1.0,0.1447046526397268,0.13037612498737872,0.15528362500481308,0.01287013064886281,1,1
+selective,225 + 86,arithmetic,3,1.0,1.0,0.00026765263949831325,0.0002477080561220646,0.00030304095707833767,3.072969535606944e-05,1,1
+selective,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",logic,3,0.0,1.0,0.16064069466665387,0.15653883386403322,0.1653446250129491,0.004433661606521943,1,1
+selective,175 * 32,arithmetic,3,1.0,1.0,0.00019948634629448256,0.00016475003212690353,0.0002215839922428131,3.045203944535375e-05,1,1
+selective,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",knowledge,3,1.0,1.0,0.2094187637946258,0.19106929120607674,0.2194200421217829,0.015912590296383446,1,1
+selective,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",comprehension,3,1.0,1.0,0.5702881806064397,0.4760627499781549,0.7153047500178218,0.12745190653696742,1,1
+selective,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",coding,3,1.0,1.0,0.5786926665653785,0.4680988749023527,0.6783099169842899,0.10553451519079576,1,1
+selective,300 + 37,arithmetic,3,1.0,1.0,0.00022426402817169824,0.0001871250569820404,0.00024966709315776825,3.288122858206596e-05,1,1
+selective,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",coding,3,1.0,1.0,0.751619124552235,0.6272109157871455,0.8528441248927265,0.11458918852782089,1,1
+selective,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",comprehension,3,1.0,1.0,0.7480943473832061,0.6349250001367182,0.9258482500445098,0.15584433878978377,1,1
+selective,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",logic,3,0.0,0.0,0.33048881970656413,0.32199216703884304,0.3377010419499129,0.007932812167144771,1,1
+selective,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",knowledge,3,1.0,1.0,0.27237695835841197,0.25045145815238357,0.2872345419600606,0.019383379412411524,1,1
+selective,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",comprehension,3,0.0,1.0,0.16105501392545798,0.15780450007878244,0.16283545782789588,0.002819301899239305,1,1
+selective,106 * 37,arithmetic,3,1.0,1.0,0.0002457359805703163,0.00020641600713133812,0.00027395901270210743,3.5112262532690905e-05,1,1
+selective,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",knowledge,3,1.0,1.0,0.07783798562983672,0.06615179101936519,0.08944162493571639,0.0116451364309974,1,1
+selective,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.4834589723031968,0.47059866692870855,0.4917046669870615,0.011284360127420222,1,1
+selective,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",coding,3,0.0,1.0,0.18400961067527533,0.1569179161451757,0.23682762496173382,0.04574683635992321,1,1
+selective,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",coding,3,0.0,1.0,0.3670511386202027,0.310190083226189,0.47699362481944263,0.09523173890179987,1,1
+selective,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",knowledge,3,1.0,0.0,0.16340076395620903,0.13939950009807944,0.19100454193539917,0.025990453377196222,1,1
+selective,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",knowledge,3,1.0,1.0,0.23656865232624114,0.20039679110050201,0.28039862494915724,0.040546989498798036,1,1
+selective,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",coding,3,1.0,1.0,0.5234429856451849,0.4597015830222517,0.6444527909625322,0.10484753058239075,1,1
+selective,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.31991047233653563,0.3108506251592189,0.3280730829574168,0.008646215254741808,1,1
+selective,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",coding,3,1.0,1.0,0.6896514998904119,0.6081646250095218,0.8419809998013079,0.13202852881498667,1,1
+selective,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",coding,3,1.0,1.0,0.18065808325385055,0.15333941695280373,0.2039618748240173,0.025548928051078626,1,1
+selective,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",knowledge,3,1.0,1.0,0.3087440689560026,0.2609964159782976,0.3707098749000579,0.056221683294571494,1,1
+selective,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",coding,3,0.0,1.0,0.36655762465670705,0.302651375066489,0.4390988328959793,0.06863234711261003,1,1
+selective,(506 * 61) - 91,arithmetic,3,1.0,1.0,0.00027543073520064354,0.0002315831370651722,0.0003112920094281435,4.045011879483655e-05,1,1
+selective,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",comprehension,3,1.0,1.0,0.4747911946227153,0.4606445000972599,0.4877951249945909,0.013611338674499391,1,1
+selective,281 * 55,arithmetic,3,1.0,1.0,0.00023476360365748405,0.00017462484538555145,0.0002955829259008169,6.048191205619856e-05,1,1
+selective,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",comprehension,3,1.0,1.0,0.6299273609959831,0.6105234161950648,0.6465064578223974,0.0181570825230234,1,1
+selective,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.1644830834120512,0.15694695804268122,0.17499933415092528,0.009387914102815741,1,1
+selective,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",comprehension,3,1.0,1.0,0.3257090837384264,0.3111546670552343,0.34460379206575453,0.017141749900738565,1,1
+selective,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",logic,3,0.0,1.0,0.6342173612987002,0.6178665838669986,0.6441207500174642,0.01426523487278952,1,1
+selective,38 * 67,arithmetic,3,1.0,1.0,0.00026663866204520065,0.00019862502813339233,0.00034133298322558403,7.158815403706207e-05,1,1
+selective,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",comprehension,3,1.0,1.0,0.4821873333615561,0.45952525013126433,0.508865375071764,0.024914010599868027,1,1
+selective,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.1446459306559215,0.1186605419497937,0.15846916707232594,0.022519327693681125,1,1
+selective,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",knowledge,3,1.0,1.0,0.07136969470108549,0.065493542002514,0.08248808304779232,0.009634022123591374,1,1
+selective,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",comprehension,3,1.0,1.0,0.6487194583751261,0.6084292081650347,0.6696887500584126,0.03490211235788632,1,1
+selective,(645 * 65) - 41,arithmetic,3,1.0,1.0,0.00030237467338641483,0.00022554094903171062,0.0003909580409526825,8.333213162758464e-05,1,1
+selective,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",logic,3,1.0,1.0,0.32383118065384525,0.31276754196733236,0.34160545794293284,0.015546088006142328,1,1
+selective,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",logic,3,0.0,1.0,0.5028102087477843,0.464079667115584,0.5756397920195013,0.06311476727117458,1,1
+selective,295 * 66,arithmetic,3,1.0,1.0,0.00032579169298211735,0.0002444998826831579,0.00041962508112192154,8.823365096780004e-05,1,1
+selective,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",knowledge,3,1.0,1.0,0.13995779173759124,0.12776554212905467,0.16322670807130635,0.020159191000669797,1,1
+selective,211 + 77,arithmetic,3,1.0,1.0,0.0002090416382998228,0.00017375010065734386,0.0002549169585108757,4.160561312549063e-05,1,1
+selective,202 + 53,arithmetic,3,1.0,1.0,0.0002318329643458128,0.00019383314065635204,0.00028212484903633595,4.5411204728617464e-05,1,1
+selective,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.6789040136306236,0.6129614999517798,0.80140420794487,0.10619200524561351,1,1
+selective,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",knowledge,3,1.0,1.0,0.20697484731984636,0.18731729197315872,0.24234554101713002,0.030695343064218405,1,1
+selective,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",coding,3,1.0,1.0,0.5362582913755128,0.45373883307911456,0.6308034160174429,0.08914274575685664,1,1
+selective,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",logic,3,0.0,1.0,0.16251556932305297,0.15664591686800122,0.17076775012537837,0.00735621333509726,1,1
+selective,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",logic,3,0.0,1.0,0.3221219164164116,0.30929500004276633,0.3375440831296146,0.014302243427366385,1,1
+selective,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",knowledge,3,1.0,1.0,0.2744484027692427,0.24674858315847814,0.32159000006504357,0.04103408900915634,1,1
+selective,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",comprehension,3,0.0,1.0,0.1649451810711374,0.15789966704323888,0.17180391703732312,0.006954006507600549,1,1
+selective,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.47834188871396083,0.45877816691063344,0.49902308313176036,0.020145716149952385,1,1
+selective,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.34350868066151935,0.3255359169561416,0.3699185000732541,0.02336324790736464,1,1
+selective,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",coding,3,0.0,1.0,0.7067143054058155,0.6027501251082867,0.8297140409704298,0.11467309644861863,1,1
+selective,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",logic,3,1.0,1.0,0.6311384996709725,0.606372624868527,0.6573831660207361,0.02553740287285726,1,1
+selective,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",logic,3,0.0,1.0,0.16680248663760722,0.15979395899921656,0.17929154192097485,0.010842788958484242,1,1
+selective,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",logic,3,0.0,1.0,0.3323416669542591,0.3157450838480145,0.35798037494532764,0.022522765601569884,1,1
+selective,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",comprehension,3,0.0,1.0,0.519423556048423,0.48109916714020073,0.5764640420675278,0.050362029950888273,1,1
+selective,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",knowledge,3,1.0,1.0,0.05495773620593051,0.03675791691057384,0.06656783283688128,0.015960141148458496,1,1
+selective,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",knowledge,3,1.0,1.0,0.10833541653119028,0.06637683301232755,0.13370395777747035,0.03660133275223507,1,1
+selective,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",coding,3,0.0,1.0,0.16535748626726368,0.1589029999449849,0.1775936670601368,0.010602181497966857,1,1
+selective,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",logic,3,1.0,1.0,0.492894444692259,0.46774212503805757,0.5342155839316547,0.036065956654490756,1,1
+selective,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",comprehension,3,1.0,1.0,0.6858207639306784,0.6365373749285936,0.759125042008236,0.0647277866452225,1,1
+selective,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",logic,3,1.0,1.0,0.65352494471396,0.6176385839935392,0.7100582499988377,0.049548672091374396,1,1
+selective,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",knowledge,3,1.0,1.0,0.1588686529236535,0.0954720419831574,0.19623608281835914,0.055194987823129885,1,1
+selective,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",comprehension,3,0.0,1.0,0.19259116697746018,0.1575734589714557,0.253178833052516,0.05268267224652381,1,1
+selective,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",knowledge,3,1.0,0.0,0.23282012490866086,0.14765545795671642,0.28303620778024197,0.07414876602217782,1,1
+selective,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",knowledge,3,1.0,1.0,0.0694238053013881,0.06420329096727073,0.07672991696745157,0.006518541010867935,1,1
+selective,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",knowledge,3,1.0,1.0,0.1363822496496141,0.1260589580051601,0.15069120796397328,0.012790664119233916,1,1
+selective,112 * 79,arithmetic,3,1.0,1.0,0.0002516662546743949,0.00021050008945167065,0.0003058328293263912,4.8977962462742495e-05,1,1
+selective,(517 * 61) - 77,arithmetic,3,1.0,1.0,0.0002828749517599742,0.0002412500325590372,0.0003406668547540903,5.164256633405615e-05,1,1
+selective,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",logic,3,0.0,1.0,0.17136751402479908,0.15829470800235868,0.1905335420742631,0.016961165100956386,1,1
+selective,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",logic,3,1.0,1.0,0.3384853333700448,0.31152562494389713,0.37528354208916426,0.03299795547737451,1,1
+selective,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",comprehension,3,0.0,1.0,0.3569355280293773,0.31176116690039635,0.43138316716067493,0.0649619068402261,1,1
+selective,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",knowledge,3,1.0,1.0,0.200337735703215,0.18767508305609226,0.2188553330488503,0.01639397085729086,1,1
+selective,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",knowledge,3,1.0,1.0,0.26374425009513897,0.24858733313158154,0.28479279205203056,0.01880803678501934,1,1
+selective,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",knowledge,3,1.0,1.0,0.07699219424587984,0.06698812497779727,0.09248266695067286,0.013603984144523249,1,1
+selective,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",logic,3,0.0,1.0,0.5024186249356717,0.4657134579028934,0.5546747089829296,0.04647471692678432,1,1
+selective,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",knowledge,3,1.0,1.0,0.15093936095945537,0.13064379198476672,0.18397683301009238,0.02885949387549813,1,1
+selective,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",coding,3,0.0,1.0,0.3243158753030002,0.3114664589520544,0.34412487503141165,0.01740603015607025,1,1
+selective,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",logic,3,0.0,1.0,0.6603987913113087,0.6147559159435332,0.7228003749623895,0.05593784057919129,1,1
+selective,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",knowledge,3,1.0,0.0,0.24794112456341585,0.21649583289399743,0.30108699994161725,0.04628285736205149,1,1
+selective,(785 * 23) - 66,arithmetic,3,1.0,1.0,0.00022366666235029697,0.00017650006338953972,0.0002907079178839922,5.964151228360727e-05,1,1
+selective,138 * 50,arithmetic,3,1.0,1.0,0.0002481667324900627,0.00019833305850625038,0.00032041710801422596,6.405474351699753e-05,1,1
+selective,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.1849051247506092,0.15959920804016292,0.22049758303910494,0.031725584669248366,1,1
+selective,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",comprehension,3,1.0,1.0,0.5344471670687199,0.4617324590217322,0.6509872921742499,0.10195512911650502,1,1
+selective,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",coding,3,0.0,1.0,0.48251791670918465,0.46581841702573,0.50990862515755,0.023910522200863333,1,1
+selective,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.7084075696766376,0.6091856670100242,0.8689439999870956,0.14031465127668458,1,1
+selective,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",coding,3,0.0,1.0,0.6390087640223404,0.6198717090301216,0.6727443751879036,0.029303892035321667,1,1
+selective,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",knowledge,3,1.0,1.0,0.31809172220528126,0.27609454188495874,0.39115054183639586,0.06350661271640602,1,1
+selective,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",comprehension,3,1.0,1.0,0.163320083093519,0.1596632502041757,0.16604604106396437,0.003291641061222403,1,1
+selective,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",coding,3,1.0,1.0,0.17104230572779974,0.1573812090791762,0.19281462510116398,0.01905848087635995,1,1
+selective,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",coding,3,1.0,1.0,0.3298263056979825,0.31098354212008417,0.35136829200200737,0.020327231937730783,1,1
+selective,266 + 73,arithmetic,3,1.0,1.0,0.00027012499049305916,0.00021774997003376484,0.0003476249985396862,6.84859803777473e-05,1,1
+selective,(541 * 29) - 21,arithmetic,3,1.0,1.0,0.00029779163499673206,0.00024212501011788845,0.0003817079123109579,7.395524858453199e-05,1,1
+selective,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",coding,3,0.0,1.0,0.4944852643335859,0.4604482089634985,0.5414814590476453,0.042042257006520645,1,1
+selective,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",comprehension,3,1.0,1.0,0.34302330560361344,0.3153445420321077,0.3897067499347031,0.04066101215067672,1,1
+selective,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",coding,3,1.0,1.0,0.6484511389862746,0.608208084013313,0.7035216249059886,0.04935643119934287,1,1
+selective,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",comprehension,3,0.0,1.0,0.49927437499475974,0.4661584170535207,0.5497175410855561,0.044392633498631685,1,1
+selective,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",logic,3,0.0,1.0,0.3465280414093286,0.31457020808011293,0.37925558304414153,0.03234955597401645,1,1
+selective,308 + 53,arithmetic,3,1.0,1.0,0.00021543058877189955,0.00017625000327825546,0.0002486668527126312,3.657254762172819e-05,1,1
+selective,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",knowledge,3,1.0,1.0,0.07011656967612605,0.06811583391390741,0.07277912506833673,0.0024010570619472553,1,1
+selective,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",coding,3,0.0,1.0,0.183385721873492,0.17739362479187548,0.187040250049904,0.005230919231563678,1,1
+selective,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",coding,3,0.0,1.0,0.3572003885637969,0.3432995418552309,0.37935020797885954,0.01938934746255613,1,1
+selective,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",knowledge,3,1.0,1.0,0.13551981933414936,0.13138520903885365,0.1390562909655273,0.0038703619827336294,1,1
+selective,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",coding,3,1.0,1.0,0.5613867638943096,0.5091256669256836,0.6022851669695228,0.04760783781575329,1,1
+selective,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",comprehension,3,0.0,1.0,0.6648533610471835,0.6156695000827312,0.7416242910549045,0.06735678975433375,1,1
+selective,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",knowledge,3,1.0,1.0,0.19948816671967506,0.19192604185082018,0.20793683314695954,0.008042128227854245,1,1
+selective,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.1852892080011467,0.16632012510672212,0.19883404090069234,0.016922043200203546,1,1
+selective,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",comprehension,3,1.0,1.0,0.36394383339211345,0.32741537503898144,0.4158916249871254,0.04620961565994375,1,1
+selective,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",knowledge,3,1.0,1.0,0.2621094163041562,0.2521589999087155,0.2734304580371827,0.010701761214389318,1,1
+selective,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",coding,3,1.0,1.0,0.7443951666355133,0.6715338339563459,0.7942157499492168,0.06450480777749866,1,1
+selective,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",comprehension,3,0.0,1.0,0.5664199720292041,0.48547083302401006,0.6308867910411209,0.07409588629457865,1,1
+selective,267 + 41,arithmetic,3,1.0,1.0,0.0002411389723420143,0.00019816705025732517,0.0002768749836832285,3.984976159602162e-05,1,1
+selective,(760 * 56) - 28,arithmetic,3,1.0,1.0,0.00027187525605161983,0.00022708391770720482,0.00030879187397658825,4.141927022163966e-05,1,1
+selective,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",logic,3,0.0,1.0,0.5020020830755433,0.4644810410682112,0.5318888330366462,0.03434624311042317,1,1
+selective,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.6789424861005197,0.6134271251503378,0.7496803330723196,0.06827656946158175,1,1
+selective,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",coding,3,1.0,1.0,0.1786361807025969,0.15851199999451637,0.19098329194821417,0.017577209885347386,1,1
+selective,365 + 87,arithmetic,3,1.0,1.0,0.00029655561471978825,0.0002472498454153538,0.0003370419144630432,4.5541093514228286e-05,1,1
+selective,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",coding,3,0.0,1.0,0.350950083307301,0.3111127498559654,0.3721502081025392,0.03452393354136729,1,1
+selective,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",logic,3,1.0,1.0,0.17594113891633847,0.15141358389519155,0.21876799990423024,0.03721965593779809,1,1
+selective,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",coding,3,0.0,1.0,0.5225583193823695,0.4652608330361545,0.5614028330892324,0.050657725896185044,1,1
+selective,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",coding,3,0.0,1.0,0.7048710276527951,0.6215727909002453,0.7807912500575185,0.07986523496422969,1,1
+selective,(517 * 73) - 25,arithmetic,3,1.0,1.0,0.000211874566351374,0.00018308288417756557,0.00023195799440145493,2.5574779906421402e-05,1,1
+selective,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",knowledge,3,1.0,0.0,0.1126193890037636,0.10374641697853804,0.11861016601324081,0.007839837046983844,1,1
+selective,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.7489641664239267,0.6404434582218528,0.8496987079270184,0.10484468597020576,1,1
+selective,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",coding,3,0.0,1.0,0.16027808329090476,0.1554414159618318,0.16554387495853007,0.005064882053754648,1,1
+selective,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",comprehension,3,1.0,1.0,0.16163144470192492,0.15475812507793307,0.17042695893906057,0.008009320366922725,1,1
+selective,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",logic,3,0.0,1.0,0.3425341388986756,0.3071509168948978,0.40333979181014,0.05289423323300093,1,1
+selective,(657 * 52) - 42,arithmetic,3,1.0,1.0,0.0002409159205853939,0.00021004094742238522,0.0002617908176034689,2.728577299836139e-05,1,1
+selective,(777 * 88) - 39,arithmetic,3,1.0,1.0,0.00026756920851767063,0.00023537501692771912,0.00028933282010257244,2.8450990849096274e-05,1,1
+selective,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",comprehension,3,1.0,1.0,0.3192990552634001,0.30925733293406665,0.33391637494787574,0.012950643097043052,1,1
+selective,(657 * 72) - 31,arithmetic,3,1.0,1.0,0.0002964438560108344,0.000269915908575058,0.00031599984504282475,2.3819917150976466e-05,1,1
+selective,73 * 68,arithmetic,3,1.0,1.0,0.00020490299599866071,0.00016262498684227467,0.00023699994198977947,3.8218438268455055e-05,1,1
+selective,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",knowledge,3,1.0,1.0,0.18581952798801163,0.1718106670305133,0.2037949168588966,0.016356896619984677,1,1
+selective,36 * 79,arithmetic,3,1.0,1.0,0.00023069504338006178,0.00018233410082757473,0.0002732919529080391,4.575205756360732e-05,1,1
+selective,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",coding,3,0.0,1.0,0.31545881934774417,0.3069142079912126,0.3261490829754621,0.00979530355152722,1,1
+budget_cap,147 + 64,arithmetic,3,1.0,1.0,0.057053513980160155,0.05542708304710686,0.05970429186709225,0.0023152956255909924,1,1
+budget_cap,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",logic,3,1.0,1.0,0.20355687531021735,0.16202304186299443,0.22935104207135737,0.03631897208837374,1,1
+budget_cap,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",logic,3,0.0,1.0,0.35814233333803713,0.32392399990931153,0.4023234168998897,0.04013800491774573,1,1
+budget_cap,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",logic,3,1.0,1.0,0.5231560276976476,0.46753162518143654,0.61913195787929,0.08346765575494207,1,1
+budget_cap,26 * 56,arithmetic,3,1.0,1.0,0.11962923601580162,0.1176996671129018,0.12317320797592402,0.003073212540351,1,1
+budget_cap,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",knowledge,3,1.0,1.0,0.12023749970830977,0.11643716599792242,0.1275212080217898,0.0063098669451754465,1,1
+budget_cap,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.7245513754120717,0.6379587920382619,0.8375452919863164,0.1023790287922726,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",coding,3,0.0,1.0,0.1634259446679304,0.15703312493860722,0.17540891701355577,0.010385315994258335,1,1
+budget_cap,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",comprehension,3,1.0,1.0,0.18051737500354648,0.15833004214800894,0.21878337487578392,0.033279783792104216,1,1
+budget_cap,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.34004640268782776,0.31946458318270743,0.37676916690543294,0.03188026664046796,1,1
+budget_cap,257 + 28,arithmetic,3,1.0,1.0,0.1706435833281527,0.1674562501721084,0.1755536668933928,0.00431485122788982,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",coding,3,0.0,1.0,0.32186813939673203,0.30996537511236966,0.34001920907758176,0.01597151289790556,1,1
+budget_cap,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",knowledge,3,1.0,1.0,0.2410248606465757,0.2322670000139624,0.2529971660114825,0.01073240125852139,1,1
+budget_cap,225 + 86,arithmetic,3,0.0,1.0,0.22095058338406184,0.21702125016599894,0.2278552500065416,0.0059986119049992475,1,1
+budget_cap,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",logic,3,0.0,1.0,0.15918652806431055,0.1560079581104219,0.16203120909631252,0.00302547508151647,1,1
+budget_cap,175 * 32,arithmetic,3,0.0,1.0,0.13191606934803227,0.12802508403547108,0.1391084159258753,0.006235727792418482,1,1
+budget_cap,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",knowledge,3,1.0,1.0,0.3588781663371871,0.34715408319607377,0.3761324998922646,0.015260239538925373,1,1
+budget_cap,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",comprehension,3,1.0,1.0,0.49619787465780973,0.4774570409208536,0.5292875829618424,0.028740544933455063,1,1
+budget_cap,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",coding,3,1.0,1.0,0.4809577086319526,0.4635291669983417,0.5062813339754939,0.022442954471296385,1,1
+budget_cap,300 + 37,arithmetic,3,0.0,1.0,0.19362741669950387,0.1669644161593169,0.2450586250051856,0.04455080752075743,1,1
+budget_cap,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",coding,3,1.0,1.0,0.6359822920057923,0.6141277090646327,0.6664778748527169,0.027223797017288952,1,1
+budget_cap,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",comprehension,3,1.0,1.0,0.6524951246101409,0.6311627908144146,0.6769675000105053,0.023063233556761997,1,1
+budget_cap,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",logic,3,0.0,0.0,0.330613069391499,0.3189593330025673,0.3373924170155078,0.010137277540382095,1,1
+budget_cap,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",knowledge,3,1.0,1.0,0.4772623886819929,0.4603060001973063,0.5002963750157505,0.020676325017787604,1,1
+budget_cap,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",comprehension,3,0.0,1.0,0.16208881931379437,0.15421249996870756,0.1671763330232352,0.006917247973108523,1,1
+budget_cap,106 * 37,arithmetic,3,0.0,1.0,0.3172691250996043,0.2871678750962019,0.3755854160990566,0.05051219449850158,1,1
+budget_cap,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",knowledge,3,1.0,1.0,0.12054477771744132,0.11983116716146469,0.12153454101644456,0.0008846275349366481,1,1
+budget_cap,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.483452472758169,0.46669204207137227,0.49365008412860334,0.014628292994203861,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",coding,3,0.0,1.0,0.1803345277439803,0.15580962505191565,0.2202372911851853,0.03485814096821545,1,1
+budget_cap,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",coding,3,0.0,1.0,0.3586123477046688,0.30789095908403397,0.44129050010815263,0.07221347138841881,1,1
+budget_cap,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",knowledge,3,1.0,0.0,0.26092931961951155,0.2597498339600861,0.26170170796103776,0.0010376652632609086,1,1
+budget_cap,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",knowledge,3,1.0,1.0,0.3771453749698897,0.3750394999515265,0.38073824997991323,0.003126869793085047,1,1
+budget_cap,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",coding,3,1.0,1.0,0.5254319306307783,0.4576442090328783,0.6345672910101712,0.0954340854133867,1,1
+budget_cap,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.31990454128632945,0.3063280829228461,0.3283051250036806,0.01186759678368153,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",coding,3,1.0,1.0,0.6911086250717441,0.6067723750602454,0.8252127501182258,0.117416695588792,1,1
+budget_cap,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",coding,3,1.0,1.0,0.16211211122572422,0.15349279204383492,0.16907862480729818,0.007923280286408306,1,1
+budget_cap,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",knowledge,3,1.0,1.0,0.4941342919288824,0.4900014998856932,0.5011492918711156,0.006107262751638033,1,1
+budget_cap,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",coding,3,0.0,1.0,0.3212260416864107,0.30611341702751815,0.33304283302277327,0.013763911123979252,1,1
+budget_cap,(506 * 61) - 91,arithmetic,3,0.0,1.0,0.3922538747234891,0.36138616618700325,0.4522220410872251,0.051941472125257106,1,1
+budget_cap,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",comprehension,3,1.0,1.0,0.47394331932688755,0.4544015829451382,0.48735904204659164,0.0173116885411755,1,1
+budget_cap,281 * 55,arithmetic,3,1.0,1.0,0.08584077772684395,0.07995070796459913,0.09634458320215344,0.009118920125137098,1,1
+budget_cap,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",comprehension,3,1.0,1.0,0.6302428472942362,0.602977457921952,0.6472163749858737,0.023847688743090154,1,1
+budget_cap,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.16003313839125136,0.15314029110595584,0.16753333318047225,0.0072157167545984805,1,1
+budget_cap,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",comprehension,3,1.0,1.0,0.3167709303864588,0.3066589580848813,0.3296073330566287,0.011714259220538094,1,1
+budget_cap,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",logic,3,0.0,1.0,0.6354332780465484,0.6134641671087593,0.6472051669843495,0.01904209207358591,1,1
+budget_cap,38 * 67,arithmetic,3,0.0,1.0,0.1912012364094456,0.15877700014971197,0.21097641717642546,0.028305365889284315,1,1
+budget_cap,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",comprehension,3,1.0,1.0,0.4693390973843634,0.4559716251678765,0.48620579205453396,0.01541783480803438,1,1
+budget_cap,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.15828508340443173,0.1561791670974344,0.16210595797747374,0.003314743417617045,1,1
+budget_cap,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",knowledge,3,1.0,1.0,0.1634112640749663,0.1194234590511769,0.1990768329706043,0.04047356797734245,1,1
+budget_cap,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",comprehension,3,1.0,1.0,0.6221566387296965,0.6045110831037164,0.642131042201072,0.01891779532178444,1,1
+budget_cap,(645 * 65) - 41,arithmetic,3,1.0,1.0,0.2664607083424926,0.23180054198019207,0.28766650008037686,0.03026576392582058,1,1
+budget_cap,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",logic,3,1.0,1.0,0.3141098057385534,0.30962270917370915,0.3225340829230845,0.007300817519157901,1,1
+budget_cap,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",logic,3,0.0,1.0,0.4678117500152439,0.4601789170410484,0.48069108300842345,0.0112174667374227,1,1
+budget_cap,295 * 66,arithmetic,3,0.0,1.0,0.34177983334908885,0.3057496252004057,0.36438237503170967,0.03153849248518274,1,1
+budget_cap,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",knowledge,3,1.0,1.0,0.3243031109838436,0.235103250015527,0.3853602078743279,0.07898290779466632,1,1
+budget_cap,211 + 77,arithmetic,3,1.0,1.0,0.055974277978142105,0.05591695895418525,0.05604391708038747,6.43694780076041e-05,1,1
+budget_cap,202 + 53,arithmetic,3,0.0,1.0,0.09496175039870043,0.09488183399662375,0.0951041670050472,0.0001236434321304894,1,1
+budget_cap,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",logic,3,0.0,1.0,0.6196002640450994,0.6083070000167936,0.6363397079985589,0.01478863874839708,1,1
+budget_cap,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",knowledge,3,1.0,1.0,0.48429568065330386,0.35242112493142486,0.5620387918315828,0.11481529312530205,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",coding,3,1.0,1.0,0.4775048056617379,0.4620404171291739,0.4920443748123944,0.015023343081051755,1,1
+budget_cap,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",logic,3,0.0,1.0,0.18283051368780434,0.1552052500192076,0.2239899579435587,0.036334756696363296,1,1
+budget_cap,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",logic,3,0.0,1.0,0.36308563865410787,0.3066201659385115,0.4537066670600325,0.07926891693109687,1,1
+budget_cap,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",knowledge,3,1.0,1.0,0.647912958326439,0.47070166701450944,0.7406449168920517,0.153524941897268,1,1
+budget_cap,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",comprehension,3,0.0,1.0,0.18720247239495316,0.16062379209324718,0.22587616695091128,0.03426638489101528,1,1
+budget_cap,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,0.0,1.0,0.5428124443472674,0.4613488749600947,0.6834108331240714,0.12227253765293404,1,1
+budget_cap,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.35598506933699053,0.31810558307915926,0.4124645418487489,0.04985351433454807,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",coding,3,0.0,1.0,0.6338877642216781,0.612900041975081,0.6520935418084264,0.019744290804292224,1,1
+budget_cap,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",logic,3,1.0,1.0,0.721056874608621,0.6092209159396589,0.9119887079577893,0.16616016975934284,1,1
+budget_cap,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",logic,3,0.0,1.0,0.16654304205439985,0.15944429207593203,0.17925025010481477,0.011029963500350199,1,1
+budget_cap,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",logic,3,0.0,1.0,0.33148038899526,0.31860137498006225,0.35502454196102917,0.02041985956996513,1,1
+budget_cap,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",comprehension,3,0.0,1.0,0.5363957080213974,0.4767055830452591,0.6382123748771846,0.08861204827794916,1,1
+budget_cap,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",knowledge,3,1.0,1.0,0.14338986102181175,0.12113850004971027,0.18400912499055266,0.03523086381971757,1,1
+budget_cap,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",knowledge,3,1.0,1.0,0.28581979195587337,0.24360516690649092,0.3680735840462148,0.07124217774126113,1,1
+budget_cap,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",coding,3,0.0,1.0,0.1637023192985604,0.15796570805832744,0.16866912483237684,0.005393072712190534,1,1
+budget_cap,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",logic,3,1.0,1.0,0.4950260141243537,0.47405975009314716,0.535880875075236,0.035385450245655495,1,1
+budget_cap,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",comprehension,3,1.0,1.0,0.7024015833934149,0.6327611671295017,0.8241299998480827,0.1057845799581494,1,1
+budget_cap,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",logic,3,1.0,1.0,0.6556542223940293,0.6265316670760512,0.7106978329829872,0.04769603443305699,1,1
+budget_cap,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",knowledge,3,1.0,1.0,0.4271036663558334,0.3654404159169644,0.548350625205785,0.10500809443339465,1,1
+budget_cap,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",comprehension,3,0.0,1.0,0.186163444382449,0.1562677500769496,0.2252949581015855,0.03542829564204405,1,1
+budget_cap,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",knowledge,3,1.0,1.0,0.5913404996972531,0.5063554160296917,0.7508815000765026,0.13826492679764138,1,1
+budget_cap,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",knowledge,3,1.0,1.0,0.12409963893393676,0.11599866696633399,0.1318076248280704,0.007911802304721403,1,1
+budget_cap,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",knowledge,3,1.0,1.0,0.24362197215668857,0.22958816681057215,0.2590201247949153,0.014763337032939132,1,1
+budget_cap,112 * 79,arithmetic,3,1.0,1.0,0.15669545833952725,0.15585308289155364,0.15785204200074077,0.0010358592959476248,1,1
+budget_cap,(517 * 61) - 77,arithmetic,3,1.0,1.0,0.2299347223403553,0.2280069999396801,0.23183858394622803,0.001915903443014528,1,1
+budget_cap,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",logic,3,0.0,1.0,0.1625211393305411,0.15804679202847183,0.1664474590215832,0.004227061884941338,1,1
+budget_cap,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",logic,3,1.0,1.0,0.32234716702563065,0.3109411671757698,0.33086683391593397,0.01027162291096652,1,1
+budget_cap,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",comprehension,3,0.0,1.0,0.36822706973180175,0.30982800014317036,0.45287041715346277,0.07504568512092841,1,1
+budget_cap,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",knowledge,3,1.0,1.0,0.3621823052720477,0.34278954192996025,0.3830701659899205,0.020181889301729712,1,1
+budget_cap,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",knowledge,3,1.0,1.0,0.481779499600331,0.45643941685557365,0.5077057909220457,0.025638213819465534,1,1
+budget_cap,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",knowledge,3,1.0,1.0,0.13451684724229077,0.12179049989208579,0.1596078749280423,0.021730219821776652,1,1
+budget_cap,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",logic,3,0.0,1.0,0.47838593103612465,0.4603186671156436,0.4929126671049744,0.016582934358166407,1,1
+budget_cap,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",knowledge,3,1.0,1.0,0.2658521806200345,0.23887300002388656,0.3160243749152869,0.04349161499925569,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",coding,3,0.0,1.0,0.3211499306683739,0.314460749970749,0.3295057499781251,0.007659717325271166,1,1
+budget_cap,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",logic,3,0.0,1.0,0.633748347327734,0.6082378330174834,0.652971750125289,0.023020136040688585,1,1
+budget_cap,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",knowledge,3,1.0,1.0,0.4203172502263139,0.37657333398237824,0.49676199979148805,0.06643295283344734,1,1
+budget_cap,(785 * 23) - 66,arithmetic,3,1.0,1.0,0.1269770833508422,0.07722258404828608,0.16229750006459653,0.04433612961153502,1,1
+budget_cap,138 * 50,arithmetic,3,1.0,1.0,0.23883555565650263,0.13914616708643734,0.3143084589391947,0.09005712487933872,1,1
+budget_cap,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.18176619436902305,0.16103116609156132,0.21744183404371142,0.031031552755125515,1,1
+budget_cap,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",comprehension,3,1.0,1.0,0.5369877780321985,0.45932454196736217,0.6465393751859665,0.09759610199168316,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",coding,3,0.0,1.0,0.4760962083625297,0.4659706251695752,0.48885424993932247,0.011666723983519457,1,1
+budget_cap,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",comprehension,3,0.0,1.0,0.7063294029794633,0.6066285420674831,0.8458347499836236,0.12447168477690772,1,1
+budget_cap,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",coding,3,0.0,1.0,0.6375267636807015,0.6181347910314798,0.6514489171095192,0.017317532757693883,1,1
+budget_cap,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",knowledge,3,1.0,1.0,0.5491860832553357,0.49047179194167256,0.6490397078450769,0.0869211110449438,1,1
+budget_cap,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",comprehension,3,1.0,1.0,0.16108544395926097,0.15612408285960555,0.16602633311413229,0.004951156869986158,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",coding,3,1.0,1.0,0.18052361098428568,0.16411279211752117,0.19001416582614183,0.014270172761015788,1,1
+budget_cap,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",coding,3,1.0,1.0,0.3488809166786571,0.32542504207231104,0.3694248751271516,0.02214397816554713,1,1
+budget_cap,266 + 73,arithmetic,3,0.0,1.0,0.335813458620881,0.18888808391056955,0.4450062089599669,0.13216253894791705,1,1
+budget_cap,(541 * 29) - 21,arithmetic,3,1.0,1.0,0.43126668067028123,0.26246720901690423,0.5245071251410991,0.1464517133808096,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",coding,3,0.0,1.0,0.5270731666435798,0.48103612498380244,0.556121916975826,0.04032270540823322,1,1
+budget_cap,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",comprehension,3,1.0,1.0,0.34152406935269636,0.31163150002248585,0.3939568749628961,0.045556706733894746,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",coding,3,1.0,1.0,0.6964275276598831,0.6436264170333743,0.743118500104174,0.050026682779253664,1,1
+budget_cap,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",comprehension,3,0.0,1.0,0.49762683307441574,0.46022645803168416,0.5606375001370907,0.05488633379251626,1,1
+budget_cap,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",logic,3,0.0,1.0,0.36150062495532137,0.3165737909730524,0.43442604201845825,0.06371992435666837,1,1
+budget_cap,308 + 53,arithmetic,3,1.0,1.0,0.12037672195583582,0.11824320792220533,0.12452995800413191,0.0035972579015890204,1,1
+budget_cap,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",knowledge,3,1.0,1.0,0.12362009729258716,0.11778316693380475,0.13355350005440414,0.008646482885849389,1,1
+budget_cap,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",coding,3,0.0,1.0,0.16424197191372514,0.15821537491865456,0.17563924985006452,0.009875779196399393,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",coding,3,0.0,1.0,0.323364527663216,0.31007654103450477,0.34170304192230105,0.016407003431776382,1,1
+budget_cap,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",knowledge,3,1.0,1.0,0.24297790260364613,0.23067545890808105,0.2605244580190629,0.01560019928653358,1,1
+budget_cap,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",coding,3,1.0,1.0,0.4807144579632829,0.46156845800578594,0.5048517079558223,0.022069081635708494,1,1
+budget_cap,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",comprehension,3,0.0,1.0,0.6621813049229482,0.6093677908647805,0.7521165830548853,0.07828041545555865,1,1
+budget_cap,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",knowledge,3,1.0,1.0,0.3607743193861097,0.3430457920767367,0.3836396250408143,0.020778707551377167,1,1
+budget_cap,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,1.0,0.16341498610563576,0.1540017081424594,0.17276400001719594,0.009381311022423724,1,1
+budget_cap,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",comprehension,3,1.0,1.0,0.34628325010028976,0.32773416698910296,0.3712609161157161,0.022464182179645215,1,1
+budget_cap,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",knowledge,3,1.0,1.0,0.4779381803236902,0.4561347500421107,0.5056260409764946,0.02526493340943732,1,1
+budget_cap,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",coding,3,1.0,1.0,0.6354377913133552,0.6141521660611033,0.6626777078490704,0.024804681815540016,1,1
+budget_cap,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",comprehension,3,0.0,1.0,0.5048171110296001,0.4853208330459893,0.524289624998346,0.019484406845034233,1,1
+budget_cap,267 + 41,arithmetic,3,0.0,1.0,0.214547860979413,0.16976633295416832,0.24312470806762576,0.03927221107889059,1,1
+budget_cap,(760 * 56) - 28,arithmetic,3,1.0,1.0,0.31066593031088513,0.24329587491229177,0.3685662078205496,0.06316978388981295,1,1
+budget_cap,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",logic,3,0.0,1.0,0.5392239582724869,0.4700923329219222,0.6513418341055512,0.09797299994251851,1,1
+budget_cap,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,1.0,1.0,0.715030819332848,0.6221213329117745,0.8657697921153158,0.1317168555564623,1,1
+budget_cap,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",coding,3,1.0,1.0,0.1639936666470021,0.15658983308821917,0.17577987490221858,0.010318349295828148,1,1
+budget_cap,365 + 87,arithmetic,3,1.0,1.0,0.42435499963661033,0.3534447078127414,0.48488195799291134,0.06633097235948816,1,1
+budget_cap,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",coding,3,0.0,1.0,0.3301273329804341,0.3116558329202235,0.35031629097647965,0.01938736703631794,1,1
+budget_cap,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",logic,3,1.0,1.0,0.16728005566013357,0.1581011670641601,0.178376582916826,0.0102728343471725,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",coding,3,0.0,1.0,0.49117999997300404,0.46513154194690287,0.5136232080403715,0.02444603834118786,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",coding,3,0.0,1.0,0.6511987917280445,0.6205496250186116,0.6769940000958741,0.028533533835685163,1,1
+budget_cap,(517 * 73) - 25,arithmetic,3,1.0,1.0,0.10595979207816224,0.07774420897476375,0.15955650014802814,0.046437741925908986,1,1
+budget_cap,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",knowledge,3,1.0,1.0,0.1455674166791141,0.14356587501242757,0.14940062491223216,0.003320742146908535,1,1
+budget_cap,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,1.0,0.6796806803904474,0.6385827499907464,0.7393450411036611,0.052884724434574044,1,1
+budget_cap,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",coding,3,0.0,1.0,0.18094990332610905,0.1576639588456601,0.22111358400434256,0.03493003317441643,1,1
+budget_cap,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",comprehension,3,1.0,1.0,0.17211865268958113,0.1582227498292923,0.1936497080605477,0.018907379717342136,1,1
+budget_cap,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",logic,3,0.0,1.0,0.3268998469381283,0.3146237079054117,0.3499019159935415,0.01993545014832083,1,1
+budget_cap,(657 * 52) - 42,arithmetic,3,1.0,1.0,0.24532247233825424,0.21180041693150997,0.3067933330312371,0.053308210577532135,1,1
+budget_cap,(777 * 88) - 39,arithmetic,3,1.0,1.0,0.344985263965403,0.28701199986971915,0.45573900011368096,0.09595068434045932,1,1
+budget_cap,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",comprehension,3,1.0,1.0,0.3503147776549061,0.30862062494270504,0.4147266249638051,0.056583487396598735,1,1
+budget_cap,(657 * 72) - 31,arithmetic,3,1.0,1.0,0.484697611304,0.42143570887856185,0.6029835001099855,0.10252136086278378,1,1
+budget_cap,73 * 68,arithmetic,3,0.0,1.0,0.07046333335650463,0.06578691606409848,0.07458187500014901,0.004423939940970585,1,1
+budget_cap,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",knowledge,3,1.0,1.0,0.264046180061996,0.2600701660849154,0.27095270808786154,0.006004029026750812,1,1
+budget_cap,36 * 79,arithmetic,3,0.0,1.0,0.1330901253192375,0.12747525004670024,0.13685816689394414,0.004956599456397043,1,1
+budget_cap,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",coding,3,0.0,1.0,0.35964183361890417,0.3114258339628577,0.446331791812554,0.07523355953296991,1,1
+batch_verify,147 + 64,arithmetic,3,1.0,0.0,0.7949539026400695,0.7652455419301987,0.8179335829336196,0.026980803755694078,1,1
+batch_verify,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",logic,3,0.0,0.0,0.893350403290242,0.802290583960712,1.066472708946094,0.14999579173093933,1,1
+batch_verify,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",logic,3,0.0,0.0,0.893350403290242,0.802290583960712,1.066472708946094,0.14999579173093933,1,1
+batch_verify,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",logic,3,0.0,0.0,0.893350403290242,0.802290583960712,1.066472708946094,0.14999579173093933,1,1
+batch_verify,26 * 56,arithmetic,3,1.0,0.0,0.7949539026400695,0.7652455419301987,0.8179335829336196,0.026980803755694078,1,1
+batch_verify,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",knowledge,3,1.0,0.0,1.0385973469819874,0.9980715001001954,1.0992768749129027,0.05352812454791864,1,1
+batch_verify,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",logic,3,0.0,0.0,0.893350403290242,0.802290583960712,1.066472708946094,0.14999579173093933,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",coding,3,1.0,0.0,0.9372386110480875,0.8047402079682797,1.1830036251340061,0.21305585433890412,1,1
+batch_verify,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",comprehension,3,1.0,0.0,1.0455871666781604,0.8576111670117825,1.1861784169450402,0.16933131809832427,1,1
+batch_verify,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,1.0,0.0,1.0455871666781604,0.8576111670117825,1.1861784169450402,0.16933131809832427,1,1
+batch_verify,257 + 28,arithmetic,3,1.0,0.0,0.7949539026400695,0.7652455419301987,0.8179335829336196,0.026980803755694078,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",coding,3,1.0,0.0,0.9372386110480875,0.8047402079682797,1.1830036251340061,0.21305585433890412,1,1
+batch_verify,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",knowledge,3,1.0,0.0,1.0385973469819874,0.9980715001001954,1.0992768749129027,0.05352812454791864,1,1
+batch_verify,225 + 86,arithmetic,3,1.0,0.0,0.7949539026400695,0.7652455419301987,0.8179335829336196,0.026980803755694078,1,1
+batch_verify,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",logic,3,0.0,0.0,1.0205775555999328,0.8013868329580873,1.3540073749609292,0.29348815014457447,1,1
+batch_verify,175 * 32,arithmetic,3,1.0,0.0,0.8139196943957359,0.7977843331173062,0.832893209066242,0.017725677098693753,1,1
+batch_verify,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",knowledge,3,1.0,0.0,1.0385973469819874,0.9980715001001954,1.0992768749129027,0.05352812454791864,1,1
+batch_verify,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",comprehension,3,1.0,0.0,1.0455871666781604,0.8576111670117825,1.1861784169450402,0.16933131809832427,1,1
+batch_verify,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",coding,3,0.0,0.0,0.9372386110480875,0.8047402079682797,1.1830036251340061,0.21305585433890412,1,1
+batch_verify,300 + 37,arithmetic,3,1.0,0.0,0.8139196943957359,0.7977843331173062,0.832893209066242,0.017725677098693753,1,1
+batch_verify,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",coding,3,1.0,0.0,0.9372386110480875,0.8047402079682797,1.1830036251340061,0.21305585433890412,1,1
+batch_verify,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",comprehension,3,1.0,0.0,1.0455871666781604,0.8576111670117825,1.1861784169450402,0.16933131809832427,1,1
+batch_verify,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",logic,3,1.0,0.0,1.0205775555999328,0.8013868329580873,1.3540073749609292,0.29348815014457447,1,1
+batch_verify,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",knowledge,3,1.0,0.0,1.0385973469819874,0.9980715001001954,1.0992768749129027,0.05352812454791864,1,1
+batch_verify,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",comprehension,3,0.0,0.0,0.9462976942304522,0.8022649998310953,1.0664067908655852,0.1336861075064096,1,1
+batch_verify,106 * 37,arithmetic,3,1.0,0.0,0.8139196943957359,0.7977843331173062,0.832893209066242,0.017725677098693753,1,1
+batch_verify,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",knowledge,3,1.0,0.0,1.0448047359629224,1.0117805830668658,1.0942559170071036,0.04362259297053411,1,1
+batch_verify,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",logic,3,1.0,0.0,1.0205775555999328,0.8013868329580873,1.3540073749609292,0.29348815014457447,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",coding,3,0.0,0.0,0.900448499713093,0.7957132910378277,1.1027995001059026,0.17527725763610225,1,1
+batch_verify,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",coding,3,0.0,0.0,0.900448499713093,0.7957132910378277,1.1027995001059026,0.17527725763610225,1,1
+batch_verify,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",knowledge,3,1.0,0.0,1.0448047359629224,1.0117805830668658,1.0942559170071036,0.04362259297053411,1,1
+batch_verify,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",knowledge,3,1.0,0.0,1.0448047359629224,1.0117805830668658,1.0942559170071036,0.04362259297053411,1,1
+batch_verify,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",coding,3,1.0,0.0,0.900448499713093,0.7957132910378277,1.1027995001059026,0.17527725763610225,1,1
+batch_verify,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,0.0,0.9462976942304522,0.8022649998310953,1.0664067908655852,0.1336861075064096,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",coding,3,1.0,0.0,0.900448499713093,0.7957132910378277,1.1027995001059026,0.17527725763610225,1,1
+batch_verify,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",coding,3,0.0,0.0,0.9343115418062856,0.8171991251874715,1.1654687500558794,0.20019389045392058,1,1
+batch_verify,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",knowledge,3,1.0,0.0,1.0448047359629224,1.0117805830668658,1.0942559170071036,0.04362259297053411,1,1
+batch_verify,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",coding,3,0.0,0.0,0.9343115418062856,0.8171991251874715,1.1654687500558794,0.20019389045392058,1,1
+batch_verify,(506 * 61) - 91,arithmetic,3,1.0,0.0,0.8139196943957359,0.7977843331173062,0.832893209066242,0.017725677098693753,1,1
+batch_verify,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",comprehension,3,0.0,0.0,0.9462976942304522,0.8022649998310953,1.0664067908655852,0.1336861075064096,1,1
+batch_verify,281 * 55,arithmetic,3,1.0,0.0,0.8873782503263404,0.841922749998048,0.9276640419848263,0.04310378989936385,1,1
+batch_verify,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",comprehension,3,1.0,0.0,0.9462976942304522,0.8022649998310953,1.0664067908655852,0.1336861075064096,1,1
+batch_verify,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,0.0,0.0,0.9589395972434431,0.807565291877836,1.1299695000052452,0.1620983505046132,1,1
+batch_verify,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",comprehension,3,1.0,0.0,0.9589395972434431,0.807565291877836,1.1299695000052452,0.1620983505046132,1,1
+batch_verify,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",logic,3,0.0,0.0,1.0205775555999328,0.8013868329580873,1.3540073749609292,0.29348815014457447,1,1
+batch_verify,38 * 67,arithmetic,3,1.0,0.0,0.8873782503263404,0.841922749998048,0.9276640419848263,0.04310378989936385,1,1
+batch_verify,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",comprehension,3,0.0,0.0,0.9589395972434431,0.807565291877836,1.1299695000052452,0.1620983505046132,1,1
+batch_verify,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,1.0,0.0,0.9024037776204447,0.7971740420907736,1.0987078328616917,0.17015156633826417,1,1
+batch_verify,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",knowledge,3,1.0,0.0,0.9714391385981193,0.8682117080315948,1.0250521248672158,0.0894199301078891,1,1
+batch_verify,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",comprehension,3,1.0,0.0,0.9589395972434431,0.807565291877836,1.1299695000052452,0.1620983505046132,1,1
+batch_verify,(645 * 65) - 41,arithmetic,3,1.0,0.0,0.8873782503263404,0.841922749998048,0.9276640419848263,0.04310378989936385,1,1
+batch_verify,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",logic,3,0.0,0.0,0.9024037776204447,0.7971740420907736,1.0987078328616917,0.17015156633826417,1,1
+batch_verify,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",logic,3,1.0,0.0,0.9024037776204447,0.7971740420907736,1.0987078328616917,0.17015156633826417,1,1
+batch_verify,295 * 66,arithmetic,3,1.0,0.0,0.8873782503263404,0.841922749998048,0.9276640419848263,0.04310378989936385,1,1
+batch_verify,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",knowledge,3,1.0,0.0,0.9714391385981193,0.8682117080315948,1.0250521248672158,0.0894199301078891,1,1
+batch_verify,211 + 77,arithmetic,3,1.0,0.0,0.8323526667275777,0.8015717919915915,0.8769654580391943,0.039554300109353076,1,1
+batch_verify,202 + 53,arithmetic,3,1.0,0.0,0.8323526667275777,0.8015717919915915,0.8769654580391943,0.039554300109353076,1,1
+batch_verify,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",logic,3,1.0,0.0,0.9024037776204447,0.7971740420907736,1.0987078328616917,0.17015156633826417,1,1
+batch_verify,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",knowledge,3,1.0,0.0,0.9714391385981193,0.8682117080315948,1.0250521248672158,0.0894199301078891,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",coding,3,1.0,0.0,0.9343115418062856,0.8171991251874715,1.1654687500558794,0.20019389045392058,1,1
+batch_verify,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",logic,3,0.0,0.0,0.9066197498856733,0.8019548337906599,1.092944874893874,0.16177173206441717,1,1
+batch_verify,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",logic,3,0.0,0.0,0.9066197498856733,0.8019548337906599,1.092944874893874,0.16177173206441717,1,1
+batch_verify,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",knowledge,3,1.0,0.0,0.9714391385981193,0.8682117080315948,1.0250521248672158,0.0894199301078891,1,1
+batch_verify,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",comprehension,3,0.0,0.0,0.9266151528960714,0.7989348748233169,1.1311796670779586,0.17896938234414883,1,1
+batch_verify,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",logic,3,1.0,0.0,0.9066197498856733,0.8019548337906599,1.092944874893874,0.16177173206441717,1,1
+batch_verify,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",comprehension,3,0.0,0.0,0.9266151528960714,0.7989348748233169,1.1311796670779586,0.17896938234414883,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",coding,3,1.0,0.0,0.9343115418062856,0.8171991251874715,1.1654687500558794,0.20019389045392058,1,1
+batch_verify,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",logic,3,1.0,0.0,0.9066197498856733,0.8019548337906599,1.092944874893874,0.16177173206441717,1,1
+batch_verify,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",logic,3,1.0,0.0,1.0088145000239213,0.8203380000777543,1.1203557499684393,0.1641399923296562,1,1
+batch_verify,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",logic,3,1.0,0.0,1.0088145000239213,0.8203380000777543,1.1203557499684393,0.1641399923296562,1,1
+batch_verify,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",comprehension,3,0.0,0.0,0.9266151528960714,0.7989348748233169,1.1311796670779586,0.17896938234414883,1,1
+batch_verify,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",knowledge,3,1.0,0.0,0.9716206526694199,0.8619660830590874,1.0599197088740766,0.1006898850825652,1,1
+batch_verify,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",knowledge,3,1.0,0.0,0.9716206526694199,0.8619660830590874,1.0599197088740766,0.1006898850825652,1,1
+batch_verify,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",coding,3,1.0,0.0,1.12201915262267,0.7976187909953296,1.4361534169875085,0.31939107957564394,1,1
+batch_verify,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",logic,3,0.0,0.0,1.0088145000239213,0.8203380000777543,1.1203557499684393,0.1641399923296562,1,1
+batch_verify,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",comprehension,3,1.0,0.0,0.9266151528960714,0.7989348748233169,1.1311796670779586,0.17896938234414883,1,1
+batch_verify,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",logic,3,1.0,0.0,1.0088145000239213,0.8203380000777543,1.1203557499684393,0.1641399923296562,1,1
+batch_verify,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",knowledge,3,1.0,0.0,0.9716206526694199,0.8619660830590874,1.0599197088740766,0.1006898850825652,1,1
+batch_verify,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",comprehension,3,1.0,0.0,0.9026133193013569,0.8117201249115169,1.0724432908464223,0.1471985169915796,1,1
+batch_verify,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",knowledge,3,1.0,0.0,0.9716206526694199,0.8619660830590874,1.0599197088740766,0.1006898850825652,1,1
+batch_verify,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",knowledge,3,1.0,0.0,0.9503856943144152,0.8242531660944223,1.0315701668150723,0.1107263766302451,1,1
+batch_verify,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",knowledge,3,1.0,0.0,0.9503856943144152,0.8242531660944223,1.0315701668150723,0.1107263766302451,1,1
+batch_verify,112 * 79,arithmetic,3,1.0,0.0,0.8323526667275777,0.8015717919915915,0.8769654580391943,0.039554300109353076,1,1
+batch_verify,(517 * 61) - 77,arithmetic,3,1.0,0.0,0.8323526667275777,0.8015717919915915,0.8769654580391943,0.039554300109353076,1,1
+batch_verify,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",logic,3,0.0,0.0,1.042674708024909,0.9143407079391181,1.1192714581266046,0.1118334045356712,1,1
+batch_verify,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",logic,3,0.0,0.0,1.042674708024909,0.9143407079391181,1.1192714581266046,0.1118334045356712,1,1
+batch_verify,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",comprehension,3,0.0,0.0,0.9026133193013569,0.8117201249115169,1.0724432908464223,0.1471985169915796,1,1
+batch_verify,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",knowledge,3,1.0,0.0,0.9503856943144152,0.8242531660944223,1.0315701668150723,0.1107263766302451,1,1
+batch_verify,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",knowledge,3,1.0,0.0,0.9503856943144152,0.8242531660944223,1.0315701668150723,0.1107263766302451,1,1
+batch_verify,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",knowledge,3,1.0,0.0,0.9840616250100235,0.877457041060552,1.0465312500018626,0.09277630615586295,1,1
+batch_verify,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",logic,3,1.0,0.0,1.042674708024909,0.9143407079391181,1.1192714581266046,0.1118334045356712,1,1
+batch_verify,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",knowledge,3,1.0,0.0,0.9840616250100235,0.877457041060552,1.0465312500018626,0.09277630615586295,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",coding,3,0.0,0.0,1.12201915262267,0.7976187909953296,1.4361534169875085,0.31939107957564394,1,1
+batch_verify,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",logic,3,1.0,0.0,1.042674708024909,0.9143407079391181,1.1192714581266046,0.1118334045356712,1,1
+batch_verify,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",knowledge,3,1.0,0.0,0.9840616250100235,0.877457041060552,1.0465312500018626,0.09277630615586295,1,1
+batch_verify,(785 * 23) - 66,arithmetic,3,1.0,0.0,0.8558647360187024,0.8182562501169741,0.8746802499517798,0.032569906138956106,1,1
+batch_verify,138 * 50,arithmetic,3,1.0,0.0,0.8558647360187024,0.8182562501169741,0.8746802499517798,0.032569906138956106,1,1
+batch_verify,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,0.0,0.0,0.9364792635509124,0.7943319580517709,1.1929343747906387,0.22253241898077902,1,1
+batch_verify,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",comprehension,3,0.0,0.0,0.9026133193013569,0.8117201249115169,1.0724432908464223,0.1471985169915796,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",coding,3,0.0,0.0,1.12201915262267,0.7976187909953296,1.4361534169875085,0.31939107957564394,1,1
+batch_verify,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",comprehension,3,0.0,0.0,0.9026133193013569,0.8117201249115169,1.0724432908464223,0.1471985169915796,1,1
+batch_verify,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",coding,3,0.0,0.0,1.12201915262267,0.7976187909953296,1.4361534169875085,0.31939107957564394,1,1
+batch_verify,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",knowledge,3,1.0,0.0,0.9840616250100235,0.877457041060552,1.0465312500018626,0.09277630615586295,1,1
+batch_verify,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",comprehension,3,1.0,0.0,0.9959452362575879,0.7979028748814017,1.2936703339219093,0.2624858649456915,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",coding,3,1.0,0.0,0.9592453057412058,0.8225747500546277,1.1939984171185642,0.2042156358164863,1,1
+batch_verify,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",coding,3,1.0,0.0,0.9592453057412058,0.8225747500546277,1.1939984171185642,0.2042156358164863,1,1
+batch_verify,266 + 73,arithmetic,3,1.0,0.0,0.8558647360187024,0.8182562501169741,0.8746802499517798,0.032569906138956106,1,1
+batch_verify,(541 * 29) - 21,arithmetic,3,1.0,0.0,0.8558647360187024,0.8182562501169741,0.8746802499517798,0.032569906138956106,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",coding,3,0.0,0.0,0.9592453057412058,0.8225747500546277,1.1939984171185642,0.2042156358164863,1,1
+batch_verify,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",comprehension,3,1.0,0.0,0.9959452362575879,0.7979028748814017,1.2936703339219093,0.2624858649456915,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",coding,3,1.0,0.0,0.9592453057412058,0.8225747500546277,1.1939984171185642,0.2042156358164863,1,1
+batch_verify,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",comprehension,3,1.0,0.0,0.9959452362575879,0.7979028748814017,1.2936703339219093,0.2624858649456915,1,1
+batch_verify,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",logic,3,1.0,0.0,0.9364792635509124,0.7943319580517709,1.1929343747906387,0.22253241898077902,1,1
+batch_verify,308 + 53,arithmetic,3,1.0,0.0,0.8277460557874292,0.8152103330940008,0.8508373340591788,0.020022128124114826,1,1
+batch_verify,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",knowledge,3,1.0,0.0,1.0238596946001053,0.9999534168746322,1.0497669999022037,0.024967005167480533,1,1
+batch_verify,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",coding,3,0.0,0.0,0.9248774719114105,0.8037837080191821,1.1487368328962475,0.1940843645169887,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",coding,3,0.0,0.0,0.9248774719114105,0.8037837080191821,1.1487368328962475,0.1940843645169887,1,1
+batch_verify,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",knowledge,3,1.0,0.0,1.0238596946001053,0.9999534168746322,1.0497669999022037,0.024967005167480533,1,1
+batch_verify,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",coding,3,0.0,0.0,0.9248774719114105,0.8037837080191821,1.1487368328962475,0.1940843645169887,1,1
+batch_verify,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",comprehension,3,1.0,0.0,0.9959452362575879,0.7979028748814017,1.2936703339219093,0.2624858649456915,1,1
+batch_verify,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",knowledge,3,1.0,0.0,1.0238596946001053,0.9999534168746322,1.0497669999022037,0.024967005167480533,1,1
+batch_verify,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",comprehension,3,0.0,0.0,0.939084152613456,0.807304082904011,1.2002082499675453,0.22614338203776,1,1
+batch_verify,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",comprehension,3,0.0,0.0,0.939084152613456,0.807304082904011,1.2002082499675453,0.22614338203776,1,1
+batch_verify,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",knowledge,3,1.0,0.0,1.0238596946001053,0.9999534168746322,1.0497669999022037,0.024967005167480533,1,1
+batch_verify,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",coding,3,0.0,0.0,0.9248774719114105,0.8037837080191821,1.1487368328962475,0.1940843645169887,1,1
+batch_verify,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",comprehension,3,0.0,0.0,0.939084152613456,0.807304082904011,1.2002082499675453,0.22614338203776,1,1
+batch_verify,267 + 41,arithmetic,3,1.0,0.0,0.8277460557874292,0.8152103330940008,0.8508373340591788,0.020022128124114826,1,1
+batch_verify,(760 * 56) - 28,arithmetic,3,1.0,0.0,0.8277460557874292,0.8152103330940008,0.8508373340591788,0.020022128124114826,1,1
+batch_verify,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",logic,3,1.0,0.0,0.9364792635509124,0.7943319580517709,1.1929343747906387,0.22253241898077902,1,1
+batch_verify,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",logic,3,0.0,0.0,0.9364792635509124,0.7943319580517709,1.1929343747906387,0.22253241898077902,1,1
+batch_verify,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",coding,3,1.0,0.0,0.945598361082375,0.8083083340898156,1.2047034581191838,0.22452495864820587,1,1
+batch_verify,365 + 87,arithmetic,3,1.0,0.0,0.8277460557874292,0.8152103330940008,0.8508373340591788,0.020022128124114826,1,1
+batch_verify,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",coding,3,0.0,0.0,0.945598361082375,0.8083083340898156,1.2047034581191838,0.22452495864820587,1,1
+batch_verify,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",logic,3,1.0,0.0,0.6970718333808085,0.668105750111863,0.7457662080414593,0.042422762668002656,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",coding,3,0.0,0.0,0.945598361082375,0.8083083340898156,1.2047034581191838,0.22452495864820587,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",coding,3,0.0,0.0,0.945598361082375,0.8083083340898156,1.2047034581191838,0.22452495864820587,1,1
+batch_verify,(517 * 73) - 25,arithmetic,3,1.0,0.0,0.9204538614333918,0.8817187091335654,0.9413590000476688,0.033580844481636805,1,1
+batch_verify,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",knowledge,3,1.0,0.0,0.6709098749949286,0.651117250090465,0.6952750419732183,0.02243120040819977,1,1
+batch_verify,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",comprehension,3,0.0,0.0,0.939084152613456,0.807304082904011,1.2002082499675453,0.22614338203776,1,1
+batch_verify,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",coding,3,1.0,0.0,0.7258366109648099,0.6764556248672307,0.8194110000040382,0.08107929740567914,1,1
+batch_verify,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",comprehension,3,1.0,0.0,0.598303749691695,0.5019364170730114,0.6560294160153717,0.08400027893586762,1,1
+batch_verify,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",logic,3,0.0,0.0,0.6970718333808085,0.668105750111863,0.7457662080414593,0.042422762668002656,1,1
+batch_verify,(657 * 52) - 42,arithmetic,3,1.0,0.0,0.9204538614333918,0.8817187091335654,0.9413590000476688,0.033580844481636805,1,1
+batch_verify,(777 * 88) - 39,arithmetic,3,1.0,0.0,0.9204538614333918,0.8817187091335654,0.9413590000476688,0.033580844481636805,1,1
+batch_verify,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",comprehension,3,0.0,0.0,0.598303749691695,0.5019364170730114,0.6560294160153717,0.08400027893586762,1,1
+batch_verify,(657 * 72) - 31,arithmetic,3,1.0,0.0,0.9204538614333918,0.8817187091335654,0.9413590000476688,0.033580844481636805,1,1
+batch_verify,73 * 68,arithmetic,3,1.0,0.0,0.4707483473078658,0.43247391702607274,0.4932137499563396,0.03331329827760188,1,1
+batch_verify,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",knowledge,3,1.0,0.0,0.6709098749949286,0.651117250090465,0.6952750419732183,0.02243120040819977,1,1
+batch_verify,36 * 79,arithmetic,3,1.0,0.0,0.4707483473078658,0.43247391702607274,0.4932137499563396,0.03331329827760188,1,1
+batch_verify,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",coding,3,0.0,0.0,0.7258366109648099,0.6764556248672307,0.8194110000040382,0.08107929740567914,1,1

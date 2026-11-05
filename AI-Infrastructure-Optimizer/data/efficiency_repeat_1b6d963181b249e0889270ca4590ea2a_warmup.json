@@ -1,0 +1,29 @@
+{
+  "call_id": "469e062b4fc540e2853ec8f707f3b33e",
+  "stage": "warmup",
+  "model": "qwen2.5:1.5b",
+  "request_payload": {
+    "model": "qwen2.5:1.5b",
+    "prompt": "Choose a color. A) Red B) Table C) Chair D) Door. Return only A, B, C or D.",
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_predict": 64
+    }
+  },
+  "request_sha256": "f48cbd362a7feaf0cdcb9b83c40d43b04369d2ba1dcfc119ca20948aaee48add",
+  "answer": "B",
+  "status": "generated",
+  "error": "",
+  "input_tokens": 56,
+  "output_tokens": 2,
+  "eval_seconds": 0.012869,
+  "prefill_seconds": 0.067873,
+  "total_model_seconds": 1.128180584,
+  "load_seconds": 1.043902209,
+  "done_reason": "stop",
+  "format_compliant": false,
+  "parse_mode": "unresolved",
+  "elapsed_seconds": 1.1303849169053137
+}

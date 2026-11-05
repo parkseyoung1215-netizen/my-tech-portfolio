@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 1859.780032957904,
+  "utc": "2026-11-05T13:22:34.739725+00:00",
+  "new_complete_records": 4209,
+  "real_inference": true,
+  "export": "./data/stable_runtime_7437bcc4afc44d6d958ba98ed2f41628/EXPORT_f334ee8f4aa74b1cab3e86852b0349f3"
+}

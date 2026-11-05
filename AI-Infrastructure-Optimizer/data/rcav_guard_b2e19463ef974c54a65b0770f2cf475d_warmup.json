@@ -1,0 +1,29 @@
+{
+  "call_id": "babde2ffe2bf4003bb970566ac4ffd46",
+  "stage": "warmup",
+  "model": "qwen2.5:1.5b",
+  "request_payload": {
+    "model": "qwen2.5:1.5b",
+    "prompt": "Return only A.",
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_predict": 64
+    }
+  },
+  "request_sha256": "62dcac59e3ded3584460193a290a0bb10b2a2da1e899837a1b2bcd5ed685974f",
+  "answer": "A",
+  "status": "generated",
+  "error": "",
+  "input_tokens": 33,
+  "output_tokens": 2,
+  "eval_seconds": 0.014052,
+  "prefill_seconds": 0.085223,
+  "total_model_seconds": 1.143356583,
+  "load_seconds": 1.041479792,
+  "done_reason": "stop",
+  "format_compliant": false,
+  "parse_mode": "unresolved",
+  "elapsed_seconds": 1.1464904581662267
+}

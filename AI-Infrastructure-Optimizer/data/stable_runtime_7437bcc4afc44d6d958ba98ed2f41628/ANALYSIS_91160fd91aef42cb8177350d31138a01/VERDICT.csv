@@ -1,0 +1,9 @@
+dataset,target,control,quality_point_not_worse,paired_latency_improvement,estimated_natural_compute_reduction,observed_efficiency_candidate,strict_population_noninferiority_proven,warning
+replay64,lean_stable1,legacy_stable1,True,False,False,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+replay64,lean_stable1,lean_full,False,False,True,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+replay64,lean_option_full,lean_full,True,True,True,True,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+replay64,lean_option_stable1,lean_option_full,True,False,True,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+fresh64,lean_stable1,legacy_stable1,True,False,False,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+fresh64,lean_stable1,lean_full,False,False,True,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+fresh64,lean_option_full,lean_full,True,True,True,True,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.
+fresh64,lean_option_stable1,lean_option_full,False,False,True,False,False,Implementation vs same policy does not newly remove transformer operations; output-stop factor separate from layer skipping.

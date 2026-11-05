@@ -1,0 +1,721 @@
+question,reference_output,expected_option,matches
+"What does this Python program output?
+```python
+d = {'n': 182, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 13
+B) 19
+C) 188
+D) Error",19,19,True
+"What does this Python program output?
+```python
+text = 'violet4101 blue green amber'
+print(len(text.split()))
+```
+A) 3
+B) 5
+C) Error
+D) 4",4,4,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(183))
+```
+A) 750
+B) Error
+C) 732
+D) 193",750,750,True
+"What does this Python program output?
+```python
+d = {'n': 181, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 19
+C) 13
+D) 187",19,19,True
+"What does this Python program output?
+```python
+a = [181, 184, 189, 195]
+print(a[::-1][2])
+```
+A) Error
+B) 184
+C) 189
+D) 195",184,184,True
+"What does this Python program output?
+```python
+a = [182, 185, 190, 196]
+print(a[::-1][2])
+```
+A) 185
+B) Error
+C) 196
+D) 190",185,185,True
+"What does this Python program output?
+```python
+d = {'n': 183, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 19
+C) 13
+D) 189",19,19,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(182, 188) if n % 2 == 1])
+```
+A) [183, 185, 187]
+B) Error
+C) []
+D) [181, 183, 185]","[181, 183, 185]","[181, 183, 185]",True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(184))
+```
+A) Error
+B) 754
+C) 736
+D) 194",754,754,True
+"What does this Python program output?
+```python
+text = 'violet4103 blue green amber'
+print(len(text.split()))
+```
+A) 5
+B) Error
+C) 4
+D) 3",4,4,True
+"What does this Python program output?
+```python
+a = [183, 186, 191, 197]
+print(a[::-1][2])
+```
+A) 197
+B) 186
+C) Error
+D) 191",186,186,True
+"What does this Python program output?
+```python
+d = {'n': 184, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 19
+C) 190
+D) 13",19,19,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(184, 190) if n % 2 == 1])
+```
+A) Error
+B) []
+C) [185, 187, 189]
+D) [183, 185, 187]","[183, 185, 187]","[183, 185, 187]",True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(181))
+```
+A) Error
+B) 724
+C) 742
+D) 191",742,742,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(183, 189) if n % 2 == 1])
+```
+A) [181, 183, 185]
+B) []
+C) Error
+D) [183, 185, 187]","[181, 183, 185]","[181, 183, 185]",True
+"What does this Python program output?
+```python
+text = 'violet4102 blue green amber'
+print(len(text.split()))
+```
+A) 4
+B) 5
+C) Error
+D) 3",4,4,True
+"What does this Python program output?
+```python
+a = [184, 187, 192, 198]
+print(a[::-1][2])
+```
+A) 187
+B) Error
+C) 192
+D) 198",187,187,True
+"What does this Python program output?
+```python
+text = 'violet4104 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 5
+C) 4
+D) 3",4,4,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(182))
+```
+A) 192
+B) 728
+C) 746
+D) Error",746,746,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(181, 187) if n % 2 == 1])
+```
+A) [179, 181, 183]
+B) Error
+C) []
+D) [181, 183, 185]","[179, 181, 183]","[179, 181, 183]",True
+"What does this Python program output?
+```python
+d = {'n': 230, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 236
+C) 19
+D) 13",19,19,True
+"What does this Python program output?
+```python
+d = {'n': 226, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 232
+B) 13
+C) 19
+D) Error",19,19,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(232, 238) if n % 2 == 1])
+```
+A) [233, 235, 237]
+B) Error
+C) []
+D) [231, 233, 235]","[231, 233, 235]","[231, 233, 235]",True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(230))
+```
+A) Error
+B) 240
+C) 920
+D) 938",938,938,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(231, 237) if n % 2 == 1])
+```
+A) [231, 233, 235]
+B) [229, 231, 233]
+C) Error
+D) []","[229, 231, 233]","[229, 231, 233]",True
+"What does this Python program output?
+```python
+print([n-2 for n in range(226, 232) if n % 2 == 1])
+```
+A) [227, 229, 231]
+B) [225, 227, 229]
+C) []
+D) Error","[225, 227, 229]","[225, 227, 229]",True
+"What does this Python program output?
+```python
+text = 'violet5108 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 3
+C) 5
+D) 4",4,4,True
+"What does this Python program output?
+```python
+text = 'violet5110 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 3
+C) 4
+D) 5",4,4,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(225))
+```
+A) Error
+B) 235
+C) 900
+D) 918",918,918,True
+"What does this Python program output?
+```python
+a = [224, 227, 232, 238]
+print(a[::-1][2])
+```
+A) 232
+B) 238
+C) 227
+D) Error",227,227,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(224, 230) if n % 2 == 1])
+```
+A) [225, 227, 229]
+B) []
+C) Error
+D) [223, 225, 227]","[223, 225, 227]","[223, 225, 227]",True
+"What does this Python program output?
+```python
+d = {'n': 228, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 234
+C) 19
+D) 13",19,19,True
+"What does this Python program output?
+```python
+text = 'violet5107 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 5
+C) 3
+D) 4",4,4,True
+"What does this Python program output?
+```python
+text = 'violet5102 blue green amber'
+print(len(text.split()))
+```
+A) 4
+B) 3
+C) Error
+D) 5",4,4,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(229))
+```
+A) 934
+B) Error
+C) 916
+D) 239",934,934,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(229, 235) if n % 2 == 1])
+```
+A) []
+B) [229, 231, 233]
+C) [227, 229, 231]
+D) Error","[227, 229, 231]","[227, 229, 231]",True
+"What does this Python program output?
+```python
+print([n-2 for n in range(228, 234) if n % 2 == 1])
+```
+A) Error
+B) []
+C) [229, 231, 233]
+D) [227, 229, 231]","[227, 229, 231]","[227, 229, 231]",True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(223))
+```
+A) 892
+B) 233
+C) 910
+D) Error",910,910,True
+"What does this Python program output?
+```python
+text = 'violet5112 blue green amber'
+print(len(text.split()))
+```
+A) 3
+B) 5
+C) 4
+D) Error",4,4,True
+"What does this Python program output?
+```python
+a = [227, 230, 235, 241]
+print(a[::-1][2])
+```
+A) 235
+B) 230
+C) Error
+D) 241",230,230,True
+"What does this Python program output?
+```python
+a = [232, 235, 240, 246]
+print(a[::-1][2])
+```
+A) 240
+B) Error
+C) 246
+D) 235",235,235,True
+"What does this Python program output?
+```python
+a = [230, 233, 238, 244]
+print(a[::-1][2])
+```
+A) 238
+B) 244
+C) Error
+D) 233",233,233,True
+"What does this Python program output?
+```python
+a = [221, 224, 229, 235]
+print(a[::-1][2])
+```
+A) 235
+B) Error
+C) 229
+D) 224",224,224,True
+"What does this Python program output?
+```python
+a = [222, 225, 230, 236]
+print(a[::-1][2])
+```
+A) Error
+B) 236
+C) 225
+D) 230",225,225,True
+"What does this Python program output?
+```python
+text = 'violet5105 blue green amber'
+print(len(text.split()))
+```
+A) 5
+B) 3
+C) Error
+D) 4",4,4,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(221))
+```
+A) 902
+B) 884
+C) 231
+D) Error",902,902,True
+"What does this Python program output?
+```python
+text = 'violet5101 blue green amber'
+print(len(text.split()))
+```
+A) 4
+B) 3
+C) 5
+D) Error",4,4,True
+"What does this Python program output?
+```python
+d = {'n': 229, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 13
+B) Error
+C) 19
+D) 235",19,19,True
+"What does this Python program output?
+```python
+a = [231, 234, 239, 245]
+print(a[::-1][2])
+```
+A) 234
+B) 239
+C) 245
+D) Error",234,234,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(221, 227) if n % 2 == 1])
+```
+A) [221, 223, 225]
+B) []
+C) Error
+D) [219, 221, 223]","[219, 221, 223]","[219, 221, 223]",True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(228))
+```
+A) 238
+B) 930
+C) 912
+D) Error",930,930,True
+"What does this Python program output?
+```python
+text = 'violet5103 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 5
+C) 3
+D) 4",4,4,True
+"What does this Python program output?
+```python
+text = 'violet5109 blue green amber'
+print(len(text.split()))
+```
+A) 5
+B) 3
+C) 4
+D) Error",4,4,True
+"What does this Python program output?
+```python
+d = {'n': 227, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 19
+B) 13
+C) 233
+D) Error",19,19,True
+"What does this Python program output?
+```python
+d = {'n': 222, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 228
+C) 19
+D) 13",19,19,True
+"What does this Python program output?
+```python
+a = [229, 232, 237, 243]
+print(a[::-1][2])
+```
+A) 243
+B) 232
+C) Error
+D) 237",232,232,True
+"What does this Python program output?
+```python
+a = [225, 228, 233, 239]
+print(a[::-1][2])
+```
+A) 228
+B) Error
+C) 233
+D) 239",228,228,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(230, 236) if n % 2 == 1])
+```
+A) []
+B) [231, 233, 235]
+C) Error
+D) [229, 231, 233]","[229, 231, 233]","[229, 231, 233]",True
+"What does this Python program output?
+```python
+print([n-2 for n in range(222, 228) if n % 2 == 1])
+```
+A) [223, 225, 227]
+B) [221, 223, 225]
+C) Error
+D) []","[221, 223, 225]","[221, 223, 225]",True
+"What does this Python program output?
+```python
+a = [223, 226, 231, 237]
+print(a[::-1][2])
+```
+A) 226
+B) Error
+C) 231
+D) 237",226,226,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(223, 229) if n % 2 == 1])
+```
+A) [223, 225, 227]
+B) Error
+C) []
+D) [221, 223, 225]","[221, 223, 225]","[221, 223, 225]",True
+"What does this Python program output?
+```python
+print([n-2 for n in range(227, 233) if n % 2 == 1])
+```
+A) [225, 227, 229]
+B) []
+C) Error
+D) [227, 229, 231]","[225, 227, 229]","[225, 227, 229]",True
+"What does this Python program output?
+```python
+text = 'violet5104 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 3
+C) 5
+D) 4",4,4,True
+"What does this Python program output?
+```python
+a = [226, 229, 234, 240]
+print(a[::-1][2])
+```
+A) 229
+B) 240
+C) Error
+D) 234",229,229,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(232))
+```
+A) Error
+B) 928
+C) 242
+D) 946",946,946,True
+"What does this Python program output?
+```python
+print([n-2 for n in range(225, 231) if n % 2 == 1])
+```
+A) []
+B) Error
+C) [223, 225, 227]
+D) [225, 227, 229]","[223, 225, 227]","[223, 225, 227]",True
+"What does this Python program output?
+```python
+text = 'violet5111 blue green amber'
+print(len(text.split()))
+```
+A) Error
+B) 3
+C) 5
+D) 4",4,4,True
+"What does this Python program output?
+```python
+d = {'n': 223, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 19
+B) Error
+C) 13
+D) 229",19,19,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(226))
+```
+A) 922
+B) 904
+C) Error
+D) 236",922,922,True
+"What does this Python program output?
+```python
+d = {'n': 224, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 230
+B) 19
+C) 13
+D) Error",19,19,True
+"What does this Python program output?
+```python
+d = {'n': 225, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 19
+B) Error
+C) 231
+D) 13",19,19,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(224))
+```
+A) Error
+B) 914
+C) 234
+D) 896",914,914,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(227))
+```
+A) Error
+B) 237
+C) 926
+D) 908",926,926,True
+"What does this Python program output?
+```python
+a = [228, 231, 236, 242]
+print(a[::-1][2])
+```
+A) 236
+B) 242
+C) Error
+D) 231",231,231,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(222))
+```
+A) Error
+B) 232
+C) 888
+D) 906",906,906,True
+"What does this Python program output?
+```python
+text = 'violet5106 blue green amber'
+print(len(text.split()))
+```
+A) 5
+B) 4
+C) Error
+D) 3",4,4,True
+"What does this Python program output?
+```python
+d = {'n': 231, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) Error
+B) 237
+C) 19
+D) 13",19,19,True
+"What does this Python program output?
+```python
+d = {'n': 221, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 13
+B) 19
+C) Error
+D) 227",19,19,True
+"What does this Python program output?
+```python
+d = {'n': 232, 'x': 6}
+print(d.get('missing', 13) + d['x'])
+```
+A) 238
+B) 19
+C) 13
+D) Error",19,19,True
+"What does this Python program output?
+```python
+def f(a):
+    return sum(range(a, a+10, 3))
+print(f(231))
+```
+A) 942
+B) 924
+C) Error
+D) 241",942,942,True

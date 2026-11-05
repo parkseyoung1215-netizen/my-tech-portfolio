@@ -1,0 +1,120 @@
+{
+  "preserved_files_checked": 104,
+  "prior_task_keys": 872,
+  "fresh_questions": 150,
+  "evaluation_rows": 750,
+  "unique_actual_calls": 1150,
+  "frozen_policy_and_plan_match": true,
+  "hashes_unchanged": true,
+  "no_old_question_stem_overlap": true,
+  "calibration_split_disjoint": true,
+  "all_final_scores_recomputed": true,
+  "all_request_hashes_valid": true,
+  "no_duplicate_call_accounting": true,
+  "calibration_calls": 180,
+  "calibration_input_tokens": 17856,
+  "calibration_output_tokens": 415,
+  "method_details": {
+    "baseline": {
+      "done_reasons": {
+        "stop": 270
+      },
+      "stage_calls": {
+        "primary": 120,
+        "verify": 150
+      },
+      "primary_accuracy": 0.68,
+      "verification_outcomes": {
+        "beneficial": 13,
+        "redundant_correct_by_outcome": 74,
+        "harmful": 28,
+        "still_wrong_or_unresolved": 35
+      },
+      "verifier_parse_failures": 2,
+      "api_errors": 0,
+      "skipped_by_reason": {}
+    },
+    "early_exit": {
+      "done_reasons": {
+        "stop": 240
+      },
+      "stage_calls": {
+        "primary": 120,
+        "verify": 120
+      },
+      "primary_accuracy": 0.6733333333333333,
+      "verification_outcomes": {
+        "beneficial": 14,
+        "redundant_correct_by_outcome": 56,
+        "not_executed": 30,
+        "still_wrong_or_unresolved": 35,
+        "harmful": 15
+      },
+      "verifier_parse_failures": 2,
+      "api_errors": 0,
+      "skipped_by_reason": {
+        "safe_integer_tool_proof": 30
+      }
+    },
+    "selective": {
+      "done_reasons": {
+        "stop": 210
+      },
+      "stage_calls": {
+        "primary": 120,
+        "verify": 90
+      },
+      "primary_accuracy": 0.6733333333333333,
+      "verification_outcomes": {
+        "not_executed": 60,
+        "redundant_correct_by_outcome": 30,
+        "still_wrong_or_unresolved": 34,
+        "harmful": 15,
+        "beneficial": 11
+      },
+      "verifier_parse_failures": 1,
+      "api_errors": 0,
+      "skipped_by_reason": {
+        "nonpositive_calibrated_verifier_uplift": 30,
+        "safe_integer_tool_proof": 30
+      }
+    },
+    "budget_cap": {
+      "done_reasons": {
+        "stop": 270
+      },
+      "stage_calls": {
+        "primary": 120,
+        "verify": 150
+      },
+      "primary_accuracy": 0.6733333333333333,
+      "verification_outcomes": {
+        "beneficial": 14,
+        "redundant_correct_by_outcome": 74,
+        "harmful": 27,
+        "still_wrong_or_unresolved": 35
+      },
+      "verifier_parse_failures": 2,
+      "api_errors": 0,
+      "skipped_by_reason": {}
+    },
+    "batch_verify": {
+      "done_reasons": {
+        "stop": 160
+      },
+      "stage_calls": {
+        "primary": 120,
+        "batch_verify": 40
+      },
+      "primary_accuracy": 0.6733333333333333,
+      "verification_outcomes": {
+        "still_wrong_or_unresolved": 49,
+        "redundant_correct_by_outcome": 101
+      },
+      "verifier_parse_failures": 150,
+      "api_errors": 0,
+      "skipped_by_reason": {}
+    }
+  },
+  "limits": "Structural/runtime data-flow audit; not proof of semantic template independence or model pretraining exclusion."
+}

@@ -1,0 +1,5 @@
+{
+  "wall_seconds": 0.008247332880273461,
+  "cpu_seconds": 0.00628200000000001,
+  "scope": "Corrected training/calibration only; same threshold grid and policy, no evaluation adjustment."
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "2a90be1867974c2cbc6862856d207d44",
+  "prefix_name": "vvp_2a90be1867974c2cbc6862856d207d44",
+  "real_inference": true,
+  "verification_loop_seconds": 1897.4924139161594,
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "repeats": 5,
+  "actual_verification_calls": 17444,
+  "actual_primary_calls": 480,
+  "training_collection_calls": 1080,
+  "outcome_rows": 108000,
+  "manifest_sha256": "81f0ea558a0642ff0245d75583d528c9b1ea3c538d5d0bd1b60bea426bf9303c",
+  "predictors_sha256": "50c92be09fe354a8d18010c55ac0f64f2ff980ff6bb4a88c7ad95a3f65da33fa",
+  "initial_cache_sha256": "0dd2247175ac9f3b6a635231e30dd6d32db2cda76b6b0f2093371fb49779758d",
+  "plans_sha256": "7fc3109bf75a0df8549d3f3cdef5e44eddcf065b5794c8b07b24cc2e4c5d865d",
+  "preserved_files_checked": 393,
+  "power_gpu_money": "unmeasured"
+}

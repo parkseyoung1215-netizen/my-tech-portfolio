@@ -1,0 +1,5 @@
+model,method,success_both_datasets,failed_criteria_by_dataset,scope
+qwen2.5:1.5b,rcav,False,"{""replay150"": [""quality_pass""], ""fresh300"": [""quality_pass""]}","Prespecified observational criteria; no monetary, energy or GPU-FLOPs claim."
+qwen2.5:1.5b,improved,False,"{""replay150"": [""quality_pass""], ""fresh300"": []}","Prespecified observational criteria; no monetary, energy or GPU-FLOPs claim."
+qwen2.5:0.5b,rcav,False,"{""replay150"": [""quality_pass""], ""fresh300"": [""quality_pass""]}","Prespecified observational criteria; no monetary, energy or GPU-FLOPs claim."
+qwen2.5:0.5b,improved,False,"{""replay150"": [""quality_pass""], ""fresh300"": [""quality_pass""]}","Prespecified observational criteria; no monetary, energy or GPU-FLOPs claim."

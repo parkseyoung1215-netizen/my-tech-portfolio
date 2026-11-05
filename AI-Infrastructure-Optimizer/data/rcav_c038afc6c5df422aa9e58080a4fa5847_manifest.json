@@ -1,0 +1,2726 @@
+{
+  "run_id": "c038afc6c5df422aa9e58080a4fa5847",
+  "version": "rcav-v1",
+  "seed": 731942,
+  "temperature": 0,
+  "model_seed": 42,
+  "output_tokens": 64,
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "optional_small_unavailable": false,
+  "tags": {
+    "models": [
+      {
+        "name": "qwen2.5:1.5b",
+        "model": "qwen2.5:1.5b",
+        "modified_at": "2026-11-03T08:59:27.172184341+09:00",
+        "size": 986061892,
+        "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "1.5B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1536,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      },
+      {
+        "name": "qwen2.5:0.5b",
+        "model": "qwen2.5:0.5b",
+        "modified_at": "2026-11-03T08:55:19.457542609+09:00",
+        "size": 397821319,
+        "digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "494.03M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 896,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "calibration": [
+    {
+      "question": "Read the passage: On schedule 11, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) Never\nB) 18:00\nC) 20:00\nD) 19:00",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(24, 31, 2)))\n```\nA) 31\nB) 96\nC) Error\nD) 108",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(24, 31, 2)))"
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Friday. Which weekday is 14 days later?\nA) Thursday\nB) Friday\nC) Monday\nD) Sunday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P14a->P14b, P14c->P14b, P14b->P14d. Starting at P14a, which listed node can be reached after exactly two links?\nA) P14a\nB) P14b\nC) P14d\nD) P14c",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [22, 24, 27]\nprint(v[1:][0])\n```\nA) Error\nB) 24\nC) 27\nD) 22",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "v = [22, 24, 27]\nprint(v[1:][0])"
+    },
+    {
+      "question": "1897 - 229",
+      "category": "arithmetic",
+      "expected": "1668",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 13: bits=[1, 1, 1, 0, 0, 0, 1, 1, 0]. Is the count of 1 bits odd or even?\nA) Even\nB) Neither\nC) Odd\nD) Cannot determine",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1982 * 22",
+      "category": "arithmetic",
+      "expected": "43604",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [21, 23, 26]\nprint(v[1:][0])\n```\nA) 23\nB) 26\nC) Error\nD) 21",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "v = [21, 23, 26]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Which chemical element has the symbol F?\nA) Iron\nB) Fermium\nC) Fluorine\nD) Francium",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 14 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Both rooms\nB) No room\nC) Room Pine\nD) Room Elm",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Saturday. Which weekday is 15 days later?\nA) Tuesday\nB) Sunday\nC) Friday\nD) Monday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1698 - 198",
+      "category": "arithmetic",
+      "expected": "1500",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(1638 - 132) * 18",
+      "category": "arithmetic",
+      "expected": "27108",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(24, 29) if n % 2 == 0])\n```\nA) Error\nB) []\nC) [24, 26, 28]\nD) [24, 25, 26, 27, 28]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(24, 29) if n % 2 == 0])"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(22, 27) if n % 2 == 0])\n```\nA) [22, 23, 24, 25, 26]\nB) []\nC) [22, 24, 26]\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(22, 27) if n % 2 == 0])"
+    },
+    {
+      "question": "Read the passage: Mira14 paid 24 coins and received a refund of 14 coins. The receipt explicitly lists the refund as 14 coins. How many coins were refunded?\nA) Zero\nB) 14\nC) 24\nD) 10",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which cell structure controls much of the exchange with its surroundings?\nA) Chromosome\nB) Cell membrane\nC) Nucleolus\nD) Ribosome",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 14: bits=[0, 0, 1, 0, 1, 0, 1, 0, 0]. Is the count of 1 bits odd or even?\nA) Neither\nB) Cannot determine\nC) Even\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which organ contains the vocal cords?\nA) Esophagus\nB) Liver\nC) Larynx\nD) Stomach",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira13 paid 23 coins and received a refund of 13 coins. The receipt explicitly lists the refund as 13 coins. How many coins were refunded?\nA) 23\nB) Zero\nC) 10\nD) 13",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Be?\nA) Beryllium\nB) Boron\nC) Bromine\nD) Barium",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1471 - 297",
+      "category": "arithmetic",
+      "expected": "1174",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(2288 - 133) * 19",
+      "category": "arithmetic",
+      "expected": "40945",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Karo14 finishes before Lumi14; Juna14 finishes before Karo14; Ivo14 finishes before Juna14. Who finishes in position 3?\nA) Ivo14\nB) Juna14\nC) Lumi14\nD) Karo14",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2077 * 57",
+      "category": "arithmetic",
+      "expected": "118389",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "2532 * 48",
+      "category": "arithmetic",
+      "expected": "121536",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 11 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Elm\nB) Both rooms\nC) Room Pine\nD) No room",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2832 - 124",
+      "category": "arithmetic",
+      "expected": "2708",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "2409 * 13",
+      "category": "arithmetic",
+      "expected": "31317",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Karo11 finishes before Lumi11; Ivo11 finishes before Juna11; Juna11 finishes before Karo11. Who finishes in position 4?\nA) Lumi11\nB) Ivo11\nC) Juna11\nD) Karo11",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol O?\nA) Gold\nB) Silver\nC) Oxygen\nD) Osmium",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Mg?\nA) Magnesium\nB) Molybdenum\nC) Manganese\nD) Mercury",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[13, 15, 17] and Y=[12, 15, 18]. Which value belongs to both?\nA) 15\nB) 18\nC) 13\nD) 12",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Juna12 finishes before Karo12; Karo12 finishes before Lumi12; Ivo12 finishes before Juna12. Who finishes in position 1?\nA) Juna12\nB) Lumi12\nC) Karo12\nD) Ivo12",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which gas do plants consume during photosynthesis?\nA) Neon\nB) Carbon dioxide\nC) Helium\nD) Hydrogen",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira12 wrote a poem. Niko12 copied that poem without composing a new one. Who composed the poem?\nA) Nobody\nB) Mira12\nC) Niko12\nD) Both composed it",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 13 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Elm\nB) Room Pine\nC) Both rooms\nD) No room",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave14 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 4\nB) 3\nC) 2\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "s = '  wave14 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Which SI unit measures frequency?\nA) Pascal\nB) Newton\nC) Hertz\nD) Joule",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[16, 18, 20] and Y=[15, 18, 21]. Which value belongs to both?\nA) 21\nB) 18\nC) 15\nD) 16",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(22, 29, 2)))\n```\nA) 88\nB) 29\nC) 100\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(22, 29, 2)))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(21, 26) if n % 2 == 0])\n```\nA) Error\nB) []\nC) [21, 22, 23, 24, 25]\nD) [22, 24]",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(21, 26) if n % 2 == 0])"
+    },
+    {
+      "question": "Which SI unit measures electric resistance?\nA) Joule\nB) Volt\nC) Ohm\nD) Ampere",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 14, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 18:00\nB) 20:00\nC) Never\nD) 19:00",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2167 - 233",
+      "category": "arithmetic",
+      "expected": "1934",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 12, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 19:00\nB) 18:00\nC) 20:00\nD) Never",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1324 * 16",
+      "category": "arithmetic",
+      "expected": "21184",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave13 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 2\nB) 3\nC) 4\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "s = '  wave13 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Read the passage: Ticket 13 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Pending\nB) Confirmed\nC) Unknown\nD) Cancelled",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [23, 25, 28]\nprint(v[1:][0])\n```\nA) Error\nB) 23\nC) 25\nD) 28",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [23, 25, 28]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Read the passage: Mira12 paid 22 coins and received a refund of 12 coins. The receipt explicitly lists the refund as 12 coins. How many coins were refunded?\nA) 22\nB) 12\nC) Zero\nD) 10",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[15, 17, 19] and Y=[14, 17, 20]. Which value belongs to both?\nA) 15\nB) 14\nC) 17\nD) 20",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave12 blue sky  '\nprint(len(s.strip().split()))\n```\nA) Error\nB) 4\nC) 3\nD) 2",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "s = '  wave12 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Read the passage: Booking 12 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) No room\nB) Room Pine\nC) Both rooms\nD) Room Elm",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which SI unit measures force?\nA) Pascal\nB) Newton\nC) Kelvin\nD) Watt",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira13 wrote a poem. Niko13 copied that poem without composing a new one. Who composed the poem?\nA) Nobody\nB) Mira13\nC) Niko13\nD) Both composed it",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2337 - 176",
+      "category": "arithmetic",
+      "expected": "2161",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 11: bits=[1, 0, 0, 0, 1, 0, 1, 1, 1]. Is the count of 1 bits odd or even?\nA) Cannot determine\nB) Even\nC) Neither\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which process converts liquid water to water vapor?\nA) Freezing\nB) Melting\nC) Evaporation\nD) Condensation",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Ne?\nA) Nitrogen\nB) Nickel\nC) Neon\nD) Sodium",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [24, 26, 29]\nprint(v[1:][0])\n```\nA) Error\nB) 26\nC) 29\nD) 24",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "v = [24, 26, 29]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Which SI unit measures electric potential difference?\nA) Hertz\nB) Ohm\nC) Volt\nD) Ampere",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which SI unit measures pressure?\nA) Joule\nB) Newton\nC) Ampere\nD) Pascal",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 13, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 19:00\nB) 20:00\nC) Never\nD) 18:00",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which blood components help initiate clotting?\nA) Egg cells\nB) Neurons\nC) Platelets\nD) Muscle cells",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2643 * 23",
+      "category": "arithmetic",
+      "expected": "60789",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P13a->P13b, P13c->P13b, P13b->P13d. Starting at P13a, which listed node can be reached after exactly two links?\nA) P13b\nB) P13a\nC) P13c\nD) P13d",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol B?\nA) Beryllium\nB) Boron\nC) Bromine\nD) Barium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2354 - 137",
+      "category": "arithmetic",
+      "expected": "2217",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Monday. Which weekday is 17 days later?\nA) Tuesday\nB) Monday\nC) Saturday\nD) Thursday",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(2033 - 151) * 17",
+      "category": "arithmetic",
+      "expected": "31994",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 22}\nprint(d.get('z', 7) + d['x'])\n```\nA) 22\nB) 29\nC) Error\nD) 7",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 22}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 21}\nprint(d.get('z', 7) + d['x'])\n```\nA) Error\nB) 28\nC) 7\nD) 21",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 21}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Reason about directed links: P11a->P11b, P11c->P11b, P11b->P11d. Starting at P11a, which listed node can be reached after exactly two links?\nA) P11a\nB) P11b\nC) P11c\nD) P11d",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(1730 - 220) * 45",
+      "category": "arithmetic",
+      "expected": "67950",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P12a->P12b, P12c->P12b, P12b->P12d. Starting at P12a, which listed node can be reached after exactly two links?\nA) P12b\nB) P12a\nC) P12d\nD) P12c",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Ivo13 finishes before Juna13; Juna13 finishes before Karo13; Karo13 finishes before Lumi13. Who finishes in position 2?\nA) Lumi13\nB) Juna13\nC) Karo13\nD) Ivo13",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 23}\nprint(d.get('z', 7) + d['x'])\n```\nA) Error\nB) 23\nC) 30\nD) 7",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 23}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Read the passage: Ticket 14 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Cancelled\nB) Confirmed\nC) Unknown\nD) Pending",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira11 paid 21 coins and received a refund of 11 coins. The receipt explicitly lists the refund as 11 coins. How many coins were refunded?\nA) 11\nB) 21\nC) Zero\nD) 10",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[14, 16, 18] and Y=[13, 16, 19]. Which value belongs to both?\nA) 19\nB) 14\nC) 16\nD) 13",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 11 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Pending\nB) Unknown\nC) Cancelled\nD) Confirmed",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(21, 28, 2)))\n```\nA) Error\nB) 96\nC) 84\nD) 28",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(21, 28, 2)))"
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Sunday. Which weekday is 16 days later?\nA) Monday\nB) Tuesday\nC) Friday\nD) Sunday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1305 * 34",
+      "category": "arithmetic",
+      "expected": "44370",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira14 wrote a poem. Niko14 copied that poem without composing a new one. Who composed the poem?\nA) Mira14\nB) Both composed it\nC) Nobody\nD) Niko14",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(23, 30, 2)))\n```\nA) 92\nB) 104\nC) 30\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(23, 30, 2)))"
+    },
+    {
+      "question": "(2745 - 172) * 35",
+      "category": "arithmetic",
+      "expected": "90055",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(23, 28) if n % 2 == 0])\n```\nA) [23, 24, 25, 26, 27]\nB) []\nC) Error\nD) [24, 26]",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(23, 28) if n % 2 == 0])"
+    },
+    {
+      "question": "Read the passage: Mira11 wrote a poem. Niko11 copied that poem without composing a new one. Who composed the poem?\nA) Nobody\nB) Niko11\nC) Both composed it\nD) Mira11",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which organ stores bile before release?\nA) Kidney\nB) Gallbladder\nC) Spleen\nD) Bladder",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol S?\nA) Silicon\nB) Sulfur\nC) Sodium\nD) Silver",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 12: bits=[0, 1, 1, 1, 0, 1, 0, 0, 1]. Is the count of 1 bits odd or even?\nA) Even\nB) Neither\nC) Odd\nD) Cannot determine",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which SI unit measures electric current?\nA) Ampere\nB) Ohm\nC) Watt\nD) Volt",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave11 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 2\nB) 3\nC) Error\nD) 4",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "s = '  wave11 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Which chemical element has the symbol Cl?\nA) Carbon\nB) Chlorine\nC) Cobalt\nD) Calcium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 12 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Pending\nB) Cancelled\nC) Unknown\nD) Confirmed",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 24}\nprint(d.get('z', 7) + d['x'])\n```\nA) Error\nB) 7\nC) 24\nD) 31",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 24}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "(2166 - 276) * 44",
+      "category": "arithmetic",
+      "expected": "83160",
+      "task_format": "integer",
+      "reference_code": ""
+    }
+  ],
+  "evaluation": [
+    {
+      "question": "Which chemical element has the symbol Al?\nA) Argon\nB) Gold\nC) Silver\nD) Aluminium",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 53 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Elm\nB) Room Pine\nC) No room\nD) Both rooms",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Juna56 finishes before Karo56; Ivo56 finishes before Juna56; Karo56 finishes before Lumi56. Who finishes in position 1?\nA) Lumi56\nB) Juna56\nC) Ivo56\nD) Karo56",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Fe?\nA) Iron\nB) Fluorine\nC) Fermium\nD) Francium",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(66, 71) if n % 2 == 0])\n```\nA) []\nB) [66, 68, 70]\nC) Error\nD) [66, 67, 68, 69, 70]",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(66, 71) if n % 2 == 0])"
+    },
+    {
+      "question": "2826 - 124",
+      "category": "arithmetic",
+      "expected": "2702",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?\nA) Neither\nB) Even\nC) Cannot determine\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2050 - 130",
+      "category": "arithmetic",
+      "expected": "1920",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 66}\nprint(d.get('z', 7) + d['x'])\n```\nA) 7\nB) 73\nC) Error\nD) 66",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 66}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Which organ pumps blood through the human circulatory system?\nA) Lung\nB) Liver\nC) Heart\nD) Stomach",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 51 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Unknown\nB) Pending\nC) Cancelled\nD) Confirmed",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which blood cells mainly carry oxygen?\nA) Neurons\nB) Platelets\nC) Bone cells\nD) Red blood cells",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 51, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) Never\nB) 19:00\nC) 18:00\nD) 20:00",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which tissue connects bone to bone at joints?\nA) Tendon\nB) Neuron\nC) Epidermis\nD) Ligament",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [62, 64, 67]\nprint(v[1:][0])\n```\nA) 62\nB) 67\nC) 64\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [62, 64, 67]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Read the passage: Ticket 52 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Confirmed\nB) Unknown\nC) Cancelled\nD) Pending",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 55 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Pine\nB) No room\nC) Both rooms\nD) Room Elm",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P55a->P55b, P55c->P55b, P55b->P55d. Starting at P55a, which listed node can be reached after exactly two links?\nA) P55d\nB) P55c\nC) P55b\nD) P55a",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[54, 56, 58] and Y=[53, 56, 59]. Which value belongs to both?\nA) 56\nB) 53\nC) 54\nD) 59",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 54: bits=[0, 0, 1, 1, 0, 1, 0, 1, 0]. Is the count of 1 bits odd or even?\nA) Cannot determine\nB) Neither\nC) Even\nD) Odd",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(1601 - 203) * 21",
+      "category": "arithmetic",
+      "expected": "29358",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "2445 * 40",
+      "category": "arithmetic",
+      "expected": "97800",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[57, 59, 61] and Y=[56, 59, 62]. Which value belongs to both?\nA) 62\nB) 56\nC) 59\nD) 57",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which green pigment is central to plant photosynthesis?\nA) Chlorophyll\nB) Melanin\nC) Hemoglobin\nD) Keratin",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1278 * 47",
+      "category": "arithmetic",
+      "expected": "60066",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 56 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Confirmed\nB) Pending\nC) Cancelled\nD) Unknown",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?\nA) Lumi53\nB) Ivo53\nC) Karo53\nD) Juna53",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol K?\nA) Krypton\nB) Potassium\nC) Carbon\nD) Calcium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(62, 67) if n % 2 == 0])\n```\nA) [62, 64, 66]\nB) Error\nC) [62, 63, 64, 65, 66]\nD) []",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(62, 67) if n % 2 == 0])"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 64}\nprint(d.get('z', 7) + d['x'])\n```\nA) 7\nB) 64\nC) 71\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 64}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "(2645 - 160) * 33",
+      "category": "arithmetic",
+      "expected": "82005",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(2352 - 158) * 30",
+      "category": "arithmetic",
+      "expected": "65820",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira54 wrote a poem. Niko54 copied that poem without composing a new one. Who composed the poem?\nA) Both composed it\nB) Niko54\nC) Nobody\nD) Mira54",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which gas is released by oxygenic photosynthesis?\nA) Helium\nB) Nitrogen\nC) Methane\nD) Oxygen",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [66, 68, 71]\nprint(v[1:][0])\n```\nA) Error\nB) 71\nC) 66\nD) 68",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "v = [66, 68, 71]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Which chemical element has the symbol Ag?\nA) Silver\nB) Aluminium\nC) Argon\nD) Gold",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(2581 - 274) * 48",
+      "category": "arithmetic",
+      "expected": "110736",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 53: bits=[1, 0, 0, 1, 1, 0, 1, 0, 0]. Is the count of 1 bits odd or even?\nA) Even\nB) Neither\nC) Odd\nD) Cannot determine",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Juna54 finishes before Karo54; Ivo54 finishes before Juna54; Karo54 finishes before Lumi54. Who finishes in position 3?\nA) Lumi54\nB) Juna54\nC) Karo54\nD) Ivo54",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 56, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) Never\nB) 18:00\nC) 19:00\nD) 20:00",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [63, 65, 68]\nprint(v[1:][0])\n```\nA) 68\nB) 65\nC) Error\nD) 63",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "v = [63, 65, 68]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Read the passage: Booking 54 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) No room\nB) Both rooms\nC) Room Pine\nD) Room Elm",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which molecules carry most hereditary information in human cells?\nA) DNA\nB) Cellulose\nC) Cholesterol\nD) Starch",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Au?\nA) Argon\nB) Aluminium\nC) Silver\nD) Gold",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 52: bits=[0, 1, 0, 1, 0, 0, 1, 1, 1]. Is the count of 1 bits odd or even?\nA) Neither\nB) Even\nC) Cannot determine\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Na?\nA) Sodium\nB) Nitrogen\nC) Neon\nD) Nickel",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(61, 68, 2)))\n```\nA) 244\nB) 256\nC) Error\nD) 68",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(61, 68, 2)))"
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Friday. Which weekday is 56 days later?\nA) Wednesday\nB) Tuesday\nC) Sunday\nD) Friday",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira56 paid 66 coins and received a refund of 56 coins. The receipt explicitly lists the refund as 56 coins. How many coins were refunded?\nA) 56\nB) 66\nC) 10\nD) Zero",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira51 paid 61 coins and received a refund of 51 coins. The receipt explicitly lists the refund as 51 coins. How many coins were refunded?\nA) 51\nB) 61\nC) Zero\nD) 10",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira52 wrote a poem. Niko52 copied that poem without composing a new one. Who composed the poem?\nA) Niko52\nB) Nobody\nC) Both composed it\nD) Mira52",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1347 - 132",
+      "category": "arithmetic",
+      "expected": "1215",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [61, 63, 66]\nprint(v[1:][0])\n```\nA) Error\nB) 66\nC) 61\nD) 63",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "v = [61, 63, 66]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Which chemical element has the symbol Li?\nA) Lithium\nB) Lanthanum\nC) Lutetium\nD) Lead",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1444 * 29",
+      "category": "arithmetic",
+      "expected": "41876",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "1284 - 235",
+      "category": "arithmetic",
+      "expected": "1049",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "2007 * 37",
+      "category": "arithmetic",
+      "expected": "74259",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 56 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Pine\nB) No room\nC) Both rooms\nD) Room Elm",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave51 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 2\nB) 3\nC) 4\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "s = '  wave51 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "2134 * 14",
+      "category": "arithmetic",
+      "expected": "29876",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(2130 - 283) * 33",
+      "category": "arithmetic",
+      "expected": "60951",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Which organ produces bile?\nA) Lung\nB) Liver\nC) Spleen\nD) Heart",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira51 wrote a poem. Niko51 copied that poem without composing a new one. Who composed the poem?\nA) Nobody\nB) Niko51\nC) Both composed it\nD) Mira51",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1735 * 21",
+      "category": "arithmetic",
+      "expected": "36435",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(66, 73, 2)))\n```\nA) Error\nB) 276\nC) 264\nD) 73",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(66, 73, 2)))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(62, 69, 2)))\n```\nA) Error\nB) 69\nC) 248\nD) 260",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(62, 69, 2)))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [64, 66, 69]\nprint(v[1:][0])\n```\nA) 64\nB) Error\nC) 66\nD) 69",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [64, 66, 69]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Read the passage: On schedule 52, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 19:00\nB) 18:00\nC) Never\nD) 20:00",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[56, 58, 60] and Y=[55, 58, 61]. Which value belongs to both?\nA) 61\nB) 58\nC) 56\nD) 55",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which plant structure primarily absorbs water from soil?\nA) Seeds\nB) Roots\nC) Fruit\nD) Flowers",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2698 - 168",
+      "category": "arithmetic",
+      "expected": "2530",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Saturday. Which weekday is 57 days later?\nA) Wednesday\nB) Sunday\nC) Thursday\nD) Friday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Ca?\nA) Chlorine\nB) Calcium\nC) Carbon\nD) Cadmium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which tissue connects muscle to bone?\nA) Ligament\nB) Tendon\nC) Cartilage\nD) Epidermis",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave54 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 2\nB) 4\nC) Error\nD) 3",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "s = '  wave54 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Which chemical element has the symbol P?\nA) Lead\nB) Potassium\nC) Platinum\nD) Phosphorus",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P52a->P52b, P52c->P52b, P52b->P52d. Starting at P52a, which listed node can be reached after exactly two links?\nA) P52a\nB) P52d\nC) P52c\nD) P52b",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira54 paid 64 coins and received a refund of 54 coins. The receipt explicitly lists the refund as 54 coins. How many coins were refunded?\nA) 10\nB) Zero\nC) 64\nD) 54",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[58, 60, 62] and Y=[57, 60, 63]. Which value belongs to both?\nA) 63\nB) 57\nC) 60\nD) 58",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol He?\nA) Hafnium\nB) Hydrogen\nC) Helium\nD) Holmium",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira52 paid 62 coins and received a refund of 52 coins. The receipt explicitly lists the refund as 52 coins. How many coins were refunded?\nA) 62\nB) Zero\nC) 52\nD) 10",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which organ primarily filters blood to produce urine?\nA) Heart\nB) Kidney\nC) Stomach\nD) Pancreas",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 54 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Unknown\nB) Pending\nC) Cancelled\nD) Confirmed",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 53, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 18:00\nB) Never\nC) 19:00\nD) 20:00",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 53 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Pending\nB) Cancelled\nC) Confirmed\nD) Unknown",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1354 * 46",
+      "category": "arithmetic",
+      "expected": "62284",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(2390 - 157) * 56",
+      "category": "arithmetic",
+      "expected": "125048",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave56 blue sky  '\nprint(len(s.strip().split()))\n```\nA) Error\nB) 2\nC) 3\nD) 4",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "s = '  wave56 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "1456 - 198",
+      "category": "arithmetic",
+      "expected": "1258",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(61, 66) if n % 2 == 0])\n```\nA) []\nB) Error\nC) [61, 62, 63, 64, 65]\nD) [62, 64]",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(61, 66) if n % 2 == 0])"
+    },
+    {
+      "question": "Which cellular structure is the main site of protein synthesis?\nA) Vacuole\nB) Ribosome\nC) Cell wall\nD) Lysosome",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "1748 - 204",
+      "category": "arithmetic",
+      "expected": "1544",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Ticket 55 began as pending, then became confirmed, then was cancelled. No later change occurred. What is its final status?\nA) Cancelled\nB) Unknown\nC) Confirmed\nD) Pending",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira55 wrote a poem. Niko55 copied that poem without composing a new one. Who composed the poem?\nA) Niko55\nB) Nobody\nC) Both composed it\nD) Mira55",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(64, 71, 2)))\n```\nA) Error\nB) 71\nC) 256\nD) 268",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(64, 71, 2)))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 62}\nprint(d.get('z', 7) + d['x'])\n```\nA) 69\nB) 7\nC) Error\nD) 62",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 62}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Which process converts water vapor to liquid droplets?\nA) Sublimation\nB) Evaporation\nC) Condensation\nD) Melting",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?\nA) Juna55\nB) Lumi55\nC) Karo55\nD) Ivo55",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a four-person race: Ivo52 finishes before Juna52; Juna52 finishes before Karo52; Karo52 finishes before Lumi52. Who finishes in position 1?\nA) Juna52\nB) Ivo52\nC) Lumi52\nD) Karo52",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Monday. Which weekday is 59 days later?\nA) Sunday\nB) Thursday\nC) Saturday\nD) Monday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[53, 55, 57] and Y=[52, 55, 58]. Which value belongs to both?\nA) 53\nB) 58\nC) 52\nD) 55",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Ar?\nA) Gold\nB) Aluminium\nC) Silver\nD) Argon",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2029 - 104",
+      "category": "arithmetic",
+      "expected": "1925",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 55: bits=[1, 0, 1, 0, 1, 1, 1, 1, 1]. Is the count of 1 bits odd or even?\nA) Even\nB) Cannot determine\nC) Neither\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol N?\nA) Neon\nB) Nitrogen\nC) Nickel\nD) Sodium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2797 - 188",
+      "category": "arithmetic",
+      "expected": "2609",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 63}\nprint(d.get('z', 7) + d['x'])\n```\nA) 70\nB) 63\nC) 7\nD) Error",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 63}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(64, 69) if n % 2 == 0])\n```\nA) [64, 66, 68]\nB) Error\nC) []\nD) [64, 65, 66, 67, 68]",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(64, 69) if n % 2 == 0])"
+    },
+    {
+      "question": "Reason about directed links: P53a->P53b, P53c->P53b, P53b->P53d. Starting at P53a, which listed node can be reached after exactly two links?\nA) P53a\nB) P53d\nC) P53b\nD) P53c",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?\nA) P54b\nB) P54a\nC) P54c\nD) P54d",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol C?\nA) Chlorine\nB) Carbon\nC) Cobalt\nD) Calcium",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P51a->P51b, P51c->P51b, P51b->P51d. Starting at P51a, which listed node can be reached after exactly two links?\nA) P51b\nB) P51d\nC) P51c\nD) P51a",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2170 * 47",
+      "category": "arithmetic",
+      "expected": "101990",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(63, 70, 2)))\n```\nA) Error\nB) 252\nC) 70\nD) 264",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(63, 70, 2)))"
+    },
+    {
+      "question": "1826 - 294",
+      "category": "arithmetic",
+      "expected": "1532",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Thursday. Which weekday is 55 days later?\nA) Sunday\nB) Thursday\nC) Wednesday\nD) Monday",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: On schedule 55, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) Never\nB) 20:00\nC) 18:00\nD) 19:00",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about directed links: P56a->P56b, P56c->P56b, P56b->P56d. Starting at P56a, which listed node can be reached after exactly two links?\nA) P56d\nB) P56b\nC) P56a\nD) P56c",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 51 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Pine\nB) Both rooms\nC) Room Elm\nD) No room",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Booking 52 originally used Room Elm. A correction replaced Elm with Room Pine. Which room is now booked?\nA) Room Elm\nB) Room Pine\nC) No room\nD) Both rooms",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Sunday. Which weekday is 58 days later?\nA) Sunday\nB) Thursday\nC) Monday\nD) Tuesday",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint(sum(range(65, 72, 2)))\n```\nA) 272\nB) 72\nC) 260\nD) Error",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print(sum(range(65, 72, 2)))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave52 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 4\nB) 2\nC) 3\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "s = '  wave52 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?\nA) Juna51\nB) Karo51\nC) Ivo51\nD) Lumi51",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(2582 - 132) * 21",
+      "category": "arithmetic",
+      "expected": "51450",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 65}\nprint(d.get('z', 7) + d['x'])\n```\nA) 72\nB) 65\nC) Error\nD) 7",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 65}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Read the passage: Mira53 wrote a poem. Niko53 copied that poem without composing a new one. Who composed the poem?\nA) Niko53\nB) Both composed it\nC) Mira53\nD) Nobody",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira56 wrote a poem. Niko56 copied that poem without composing a new one. Who composed the poem?\nA) Niko56\nB) Both composed it\nC) Mira56\nD) Nobody",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about bit parity case 51: bits=[1, 0, 0, 1, 1, 0, 1, 0, 1]. Is the count of 1 bits odd or even?\nA) Neither\nB) Cannot determine\nC) Even\nD) Odd",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nv = [65, 67, 70]\nprint(v[1:][0])\n```\nA) 70\nB) Error\nC) 67\nD) 65",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [65, 67, 70]\nprint(v[1:][0])"
+    },
+    {
+      "question": "Read the passage: On schedule 54, all shops close at 18:00 except Shop Iris, which closes at 20:00. At what time does Shop Iris close?\nA) 19:00\nB) Never\nC) 20:00\nD) 18:00",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave55 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 3\nB) Error\nC) 2\nD) 4",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "s = '  wave55 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "What does this Python program output?\n```python\nd = {'x': 61}\nprint(d.get('z', 7) + d['x'])\n```\nA) 61\nB) 7\nC) 68\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "d = {'x': 61}\nprint(d.get('z', 7) + d['x'])"
+    },
+    {
+      "question": "Reason about a weekly calendar: today is Wednesday. Which weekday is 54 days later?\nA) Saturday\nB) Monday\nC) Wednesday\nD) Friday",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Reason about set membership: X=[55, 57, 59] and Y=[54, 57, 60]. Which value belongs to both?\nA) 54\nB) 60\nC) 57\nD) 55",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "2739 * 49",
+      "category": "arithmetic",
+      "expected": "134211",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Cu?\nA) Calcium\nB) Carbon\nC) Cobalt\nD) Copper",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(65, 70) if n % 2 == 0])\n```\nA) [66, 68]\nB) []\nC) Error\nD) [65, 66, 67, 68, 69]",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(65, 70) if n % 2 == 0])"
+    },
+    {
+      "question": "Which chemical element has the symbol Pb?\nA) Potassium\nB) Phosphorus\nC) Lead\nD) Platinum",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira55 paid 65 coins and received a refund of 55 coins. The receipt explicitly lists the refund as 55 coins. How many coins were refunded?\nA) 65\nB) 55\nC) Zero\nD) 10",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\ns = '  wave53 blue sky  '\nprint(len(s.strip().split()))\n```\nA) 4\nB) 3\nC) 2\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "s = '  wave53 blue sky  '\nprint(len(s.strip().split()))"
+    },
+    {
+      "question": "(1628 - 217) * 37",
+      "category": "arithmetic",
+      "expected": "52207",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Read the passage: Mira53 paid 63 coins and received a refund of 53 coins. The receipt explicitly lists the refund as 53 coins. How many coins were refunded?\nA) 63\nB) Zero\nC) 10\nD) 53",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "(2897 - 180) * 33",
+      "category": "arithmetic",
+      "expected": "89661",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "What does this Python program output?\n```python\nprint([n for n in range(63, 68) if n % 2 == 0])\n```\nA) Error\nB) []\nC) [63, 64, 65, 66, 67]\nD) [64, 66]",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print([n for n in range(63, 68) if n % 2 == 0])"
+    },
+    {
+      "question": "1946 * 33",
+      "category": "arithmetic",
+      "expected": "64218",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "(1500 - 195) * 17",
+      "category": "arithmetic",
+      "expected": "22185",
+      "task_format": "integer",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Si?\nA) Silver\nB) Sulfur\nC) Sodium\nD) Silicon",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which chemical element has the symbol Zn?\nA) Zinc\nB) Xenon\nC) Zirconium\nD) Nitrogen",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": ""
+    },
+    {
+      "question": "Which structure encloses most DNA in a typical human cell?\nA) Cell wall\nB) Vacuole\nC) Nucleus\nD) Flagellum",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": ""
+    }
+  ],
+  "repeats": 3,
+  "orders": [
+    [
+      [
+        145,
+        146
+      ],
+      [
+        92,
+        93,
+        116,
+        118
+      ],
+      [
+        53,
+        61,
+        69,
+        72
+      ],
+      [
+        1,
+        10,
+        12,
+        15
+      ],
+      [
+        5,
+        7,
+        20,
+        21
+      ],
+      [
+        59,
+        60,
+        63,
+        70
+      ],
+      [
+        148,
+        149
+      ],
+      [
+        85,
+        86,
+        88,
+        91
+      ],
+      [
+        52,
+        58,
+        64,
+        65
+      ],
+      [
+        119,
+        126,
+        127,
+        130
+      ],
+      [
+        0,
+        3,
+        9,
+        11
+      ],
+      [
+        66,
+        74,
+        87,
+        89
+      ],
+      [
+        73,
+        75,
+        79,
+        81
+      ],
+      [
+        102,
+        105,
+        112,
+        114
+      ],
+      [
+        108,
+        109,
+        111,
+        115
+      ],
+      [
+        24,
+        30,
+        31,
+        36
+      ],
+      [
+        2,
+        6,
+        17,
+        18
+      ],
+      [
+        110,
+        136,
+        138,
+        147
+      ],
+      [
+        94,
+        95,
+        106,
+        107
+      ],
+      [
+        117,
+        120,
+        123,
+        128
+      ],
+      [
+        51,
+        54,
+        55,
+        56
+      ],
+      [
+        113,
+        121,
+        122,
+        125
+      ],
+      [
+        71,
+        76,
+        78,
+        97
+      ],
+      [
+        57,
+        62,
+        67,
+        77
+      ],
+      [
+        140,
+        144
+      ],
+      [
+        80,
+        82,
+        83,
+        84
+      ],
+      [
+        139,
+        142
+      ],
+      [
+        41,
+        48,
+        49,
+        50
+      ],
+      [
+        4,
+        8,
+        14,
+        28
+      ],
+      [
+        35,
+        42,
+        43,
+        45
+      ],
+      [
+        16,
+        25,
+        32,
+        39
+      ],
+      [
+        133,
+        134
+      ],
+      [
+        90,
+        96,
+        101,
+        104
+      ],
+      [
+        38,
+        44,
+        47,
+        68
+      ],
+      [
+        19,
+        22,
+        26,
+        37
+      ],
+      [
+        29,
+        34,
+        40,
+        46
+      ],
+      [
+        129,
+        131,
+        132,
+        137
+      ],
+      [
+        98,
+        99,
+        100,
+        103
+      ],
+      [
+        13,
+        23,
+        27,
+        33
+      ],
+      [
+        124,
+        135,
+        141,
+        143
+      ]
+    ],
+    [
+      [
+        124,
+        135,
+        141,
+        143
+      ],
+      [
+        108,
+        109,
+        111,
+        115
+      ],
+      [
+        129,
+        131,
+        132,
+        137
+      ],
+      [
+        94,
+        95,
+        106,
+        107
+      ],
+      [
+        119,
+        126,
+        127,
+        130
+      ],
+      [
+        41,
+        48,
+        49,
+        50
+      ],
+      [
+        140,
+        144
+      ],
+      [
+        0,
+        3,
+        9,
+        11
+      ],
+      [
+        29,
+        34,
+        40,
+        46
+      ],
+      [
+        4,
+        8,
+        14,
+        28
+      ],
+      [
+        1,
+        10,
+        12,
+        15
+      ],
+      [
+        133,
+        134
+      ],
+      [
+        80,
+        82,
+        83,
+        84
+      ],
+      [
+        102,
+        105,
+        112,
+        114
+      ],
+      [
+        53,
+        61,
+        69,
+        72
+      ],
+      [
+        90,
+        96,
+        101,
+        104
+      ],
+      [
+        92,
+        93,
+        116,
+        118
+      ],
+      [
+        145,
+        146
+      ],
+      [
+        85,
+        86,
+        88,
+        91
+      ],
+      [
+        2,
+        6,
+        17,
+        18
+      ],
+      [
+        59,
+        60,
+        63,
+        70
+      ],
+      [
+        57,
+        62,
+        67,
+        77
+      ],
+      [
+        16,
+        25,
+        32,
+        39
+      ],
+      [
+        73,
+        75,
+        79,
+        81
+      ],
+      [
+        110,
+        136,
+        138,
+        147
+      ],
+      [
+        71,
+        76,
+        78,
+        97
+      ],
+      [
+        148,
+        149
+      ],
+      [
+        139,
+        142
+      ],
+      [
+        66,
+        74,
+        87,
+        89
+      ],
+      [
+        52,
+        58,
+        64,
+        65
+      ],
+      [
+        19,
+        22,
+        26,
+        37
+      ],
+      [
+        117,
+        120,
+        123,
+        128
+      ],
+      [
+        113,
+        121,
+        122,
+        125
+      ],
+      [
+        24,
+        30,
+        31,
+        36
+      ],
+      [
+        13,
+        23,
+        27,
+        33
+      ],
+      [
+        38,
+        44,
+        47,
+        68
+      ],
+      [
+        98,
+        99,
+        100,
+        103
+      ],
+      [
+        5,
+        7,
+        20,
+        21
+      ],
+      [
+        51,
+        54,
+        55,
+        56
+      ],
+      [
+        35,
+        42,
+        43,
+        45
+      ]
+    ],
+    [
+      [
+        92,
+        93,
+        116,
+        118
+      ],
+      [
+        102,
+        105,
+        112,
+        114
+      ],
+      [
+        90,
+        96,
+        101,
+        104
+      ],
+      [
+        113,
+        121,
+        122,
+        125
+      ],
+      [
+        94,
+        95,
+        106,
+        107
+      ],
+      [
+        85,
+        86,
+        88,
+        91
+      ],
+      [
+        59,
+        60,
+        63,
+        70
+      ],
+      [
+        53,
+        61,
+        69,
+        72
+      ],
+      [
+        57,
+        62,
+        67,
+        77
+      ],
+      [
+        1,
+        10,
+        12,
+        15
+      ],
+      [
+        4,
+        8,
+        14,
+        28
+      ],
+      [
+        13,
+        23,
+        27,
+        33
+      ],
+      [
+        117,
+        120,
+        123,
+        128
+      ],
+      [
+        98,
+        99,
+        100,
+        103
+      ],
+      [
+        80,
+        82,
+        83,
+        84
+      ],
+      [
+        41,
+        48,
+        49,
+        50
+      ],
+      [
+        139,
+        142
+      ],
+      [
+        73,
+        75,
+        79,
+        81
+      ],
+      [
+        51,
+        54,
+        55,
+        56
+      ],
+      [
+        5,
+        7,
+        20,
+        21
+      ],
+      [
+        35,
+        42,
+        43,
+        45
+      ],
+      [
+        16,
+        25,
+        32,
+        39
+      ],
+      [
+        66,
+        74,
+        87,
+        89
+      ],
+      [
+        19,
+        22,
+        26,
+        37
+      ],
+      [
+        140,
+        144
+      ],
+      [
+        0,
+        3,
+        9,
+        11
+      ],
+      [
+        2,
+        6,
+        17,
+        18
+      ],
+      [
+        119,
+        126,
+        127,
+        130
+      ],
+      [
+        24,
+        30,
+        31,
+        36
+      ],
+      [
+        148,
+        149
+      ],
+      [
+        52,
+        58,
+        64,
+        65
+      ],
+      [
+        108,
+        109,
+        111,
+        115
+      ],
+      [
+        124,
+        135,
+        141,
+        143
+      ],
+      [
+        145,
+        146
+      ],
+      [
+        71,
+        76,
+        78,
+        97
+      ],
+      [
+        110,
+        136,
+        138,
+        147
+      ],
+      [
+        129,
+        131,
+        132,
+        137
+      ],
+      [
+        133,
+        134
+      ],
+      [
+        38,
+        44,
+        47,
+        68
+      ],
+      [
+        29,
+        34,
+        40,
+        46
+      ]
+    ]
+  ],
+  "weights": {
+    "rcav_zero": 0.0,
+    "rcav": 0.05,
+    "rcav_high": 0.15
+  },
+  "main_method": "rcav",
+  "prior_strength": 10,
+  "preserved_sha256": {
+    "./src/coverage_runner.py": "df21346c4a10c5849904eef8f33cb1b36058c4ff8c32c38d2b582f660711adf5",
+    "./src/efficiency_audit.py": "72e5d112774813abefc95e2e04a31ef41182574a4e6d6ee642a9a57c18710caa",
+    "./src/efficiency_runtime.py": "b092c6a7c29e37e117ad58c6fd9f2430187656d8d0cdd8b236b519439264a0f4",
+    "./src/skipwork_diagnostics.py": "a9bfc469c4fe10751feee33f7c39420de46bbc1b1649ae478820d86bae45b25f",
+    "./src/tool_experiment.py": "83b7717d611f6e5a47cc012afbf484d03039c915a2af594db4414516224ff0d6",
+    "./src/verification_audit.py": "e13c0076c31003fd832ff401f259abd4e2dfde24777db0a5fe522028b1120c1d",
+    "./src/skipwork_experiment.py": "07b4b1ee2e7b91331e0a0b7d7375205617432abee9d2ad120277cd1247e2e5c2",
+    "./src/benchmark.py": "e803d3f67beae3fa446fc4293779bf8eace453506d5cfc15e386f9907e534b08",
+    "./src/skipwork_runtime.py": "2b757c0d1a073e89b7ada744ee6737ba85e50b3169a446f5773063d6b387dc5d",
+    "./src/answer_validator.py": "41903433920fb1d3048b5e85d9e424189ffa12bca048a86b5bbef8b3ffc51960",
+    "./src/mixed_dataset.py": "e043c6cefa3a980c3a9655ea1e596e2899b8b85df28ebf058c9c8ddcb9391055",
+    "./src/coverage_experiment.py": "d421ae3cffae8eaf7011afc6ea729a523802ae5e1be04978edd8a8dff67c856c",
+    "./src/efficiency_repeat.py": "a70987b79fc5eff42eee9b843860396ca248241b9d1e299ebfc944bfb19bd035",
+    "./src/solver300_runtime.py": "d7d063d96dbb813b029a723b728c4e4697a33017f7cec4f42d94bd4cb97b7caa",
+    "./src/solver300_experiment.py": "607bf6c687c6b4c2965a2a404711e4e0c977da33d9bebc13abf8b09ca835e072",
+    "./src/solver300_protocol.py": "99cfc50a9bb5b3dd1a1fd01b9fc27da23c1c5e2e1a12b911fb98a0e16c5e914f",
+    "./src/verify_routing200.py": "4ef9da1bc2abd6468911f32423e9778a7ae57c6fad61d7cc2dd73dc3470d8894",
+    "./src/efficiency_protocol.py": "ce1ad4bef2cdffacd1ac14bec30c80ca5f98a64467967a8e4a46c890d7bb60e8",
+    "./src/tool_router.py": "f688ec63d678851c5467e17dfc8857d102260b7eb5b701c1f74b42c01247c4d5",
+    "./src/skipwork_audit.py": "8edf9f8ffa057583d7a5b77f8b7e20c9d5f49424f16f7085857b6b1b4738297b",
+    "./src/rcav_runtime.py": "b6f775bd7e72aa9263027d8279159b0ab3bc8ef7c9e4d7726c07deee7688bd20",
+    "./src/coverage_policy.py": "9435ba13ec8a795bc0183dcb3abf7143e3b725c628bb6368def9ed9a48932898",
+    "./src/adaptive_experiment.py": "76a1fea943005af37f03510f9df258b5ab1e6539619a6806baa99eeb11f45ecd",
+    "./src/mixed_experiment.py": "ba583a99098429061617c866cb99eb386cf39acd818ac60e4d9ab7c6863933bc",
+    "./src/rcav_dataset.py": "6ea690a1d4db27dac4c5c7c72854a862b16137ebf32a93b08ed2ff6dec5dbf46",
+    "./src/rcav_experiment.py": "3580c11bb52294f0272ced52c1f70cf955651095e9241a988ca89aa88254c749",
+    "./src/rcav_policy.py": "7581905c64021880d9736d0fa8fce8c3f74a6dd9b77a9e44d374356a3472a5db",
+    "./src/adaptive_router.py": "1706e8e7399f09e5a370d504de6c80b05bbd980423022afb061e9809151e2b51",
+    "./src/solver300_dataset.py": "ae1b63954dc95a6c04662dbe8b0fb90a9fe85203471a06515697f3f268a5b930",
+    "./src/request_verifier.py": "044501227b76f0a58912ee44f34ff67afdd5c3e19db6fbbd1ac95568e093dbb6",
+    "./src/mixed_runtime.py": "f211cc387839584e5ab8e0627d7b8c926a04259aa5107942a8257bce268f1164",
+    "./src/cost_analyzer.py": "72e109ed1221d2806f862f5c9f5e995f68844e6e199c30d4289288f516b49826",
+    "./src/model_router.py": "13dabab1b2b8ba3c59942f13fc9073fe21d0bc921eb80e510a20553de76b1c25",
+    "./src/main.py": "72cdd55fb3d1a35c3da635e8c02aa94c4341949c44e897f5fc569c680d1f9f6a",
+    "./src/skipwork_dataset.py": "c800871fea041e95a7138699f3b096d700757f1683d77e1d6f2eb645be403fcd",
+    "./src/benchmark_v2.py": "55bc3003d70e1800c3109182a957b7d938dc4ba462ce7ddf03c0ed7edb135663",
+    "./src/safe_calculator.py": "c8f848e319e04fa4d7ad45606a63d409003dabd7b09caad81247312a885003e5",
+    "./src/mixed_reliability_audit.py": "27b57a69236a47a759bb1b987d790868522519ea869de3575f5204067ae5ae83",
+    "./src/routing_runner.py": "a37d49da1ea267e9dd0727bdf4a13fcc1e570d84803194ebbb4356e959d7ecba",
+    "./tests/test_mixed.py": "2caa7733ec7bf92740f9e04e8a624daab169cc3818b90b56e09cafb21c4551da",
+    "./tests/test_model_router.py": "39c55db33771204d23c12f564c95189e5368d9d1238cd2d88957ddf69bc2b86a",
+    "./tests/test_benchmark_v2.py": "190e222041ac91088750e80d9f976d7079707be1fd8e0e7350a45ce4a8942bcc",
+    "./tests/test_adaptive_router.py": "f8ba062f40ab51bef54f6e8c2ba98a9d617bcde3764541ca44fb102e81fe7752",
+    "./tests/test_coverage.py": "f01499c2c76783224e6bcbbd08f3c3cda00cdb70a55b64e70281c930f1017f4a",
+    "./tests/test_routing_runner.py": "9990a59fb9d6d3a4353d8bc1377f5f22cc09baf8984b424410e54eb306e98300",
+    "./tests/test_skipwork.py": "f1f43aadf7e193047303a4287c95527fd1e57478836c040488621554212cde57",
+    "./tests/test_mixed_reliability_audit.py": "38e5cc3c3e8b8c4a1a6bad5515d70517c7c7833eeab96996810e513f1a80155f",
+    "./tests/test_tool_routing.py": "1af5a9617a451db69e8f7dbb8993145d9957671b474d13ad41c35cdb7654fa49",
+    "./tests/test_solver300.py": "dcb91e42feceb70eead0cd6c06be9f6c52da00b91b5db4ca3566ed5861d8b724",
+    "./tests/test_verification_audit.py": "c19e6b496ddb1c6e9cdfd1082f6412ccc99ef098dec01017cd18b74f2ef9fefc",
+    "./tests/test_efficiency_repeat.py": "e0878ef05da62a601de022a4aca3b7e8ef70af8404f1ba83376094fe73b0a5e8",
+    "./tests/test_efficiency_audit.py": "a5b9e5e9ef19d359aea4888623e1d42b610cfad01700725c4003d5eb1d4cae11",
+    "./tests/test_rcav.py": "f369f22b93a551c3e3496a860240a5b38b98cccf8f0d838c8b7d40cdc3cdfcc9",
+    "./tests/test_cost_analyzer.py": "2a743c16eac69e939e166112688e1f525850c78c4cd40608bf06f4f26a7a44f3",
+    "./tests/test_answer_validator.py": "b26e316aa56229c832e0187e219464411c6714f809c8e2acdaa63941674785d2",
+    "./tests/test_verify_routing200.py": "c25e7c4a1603188327a00aaa3b04cbc59ceef02d07c7ecd1c700a5645595ceef",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_metadata.json": "932110ed84edc8dbea749eb98d3f0a52c29d7ce584d411ac60488d9a64266889",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_legacy_regrade.csv": "96551aed8327ff7ff1d7121c51a24ebc11ee3556816cd9973ef2f83974ddf2e5",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_category_summary.csv": "e37b31de5a0ac064b4edc7ba3cabdfd6d8d795a32249e96f9e4306ad5caa3edf",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_manifest.json": "49628e5e447f954057704999d5d20ba7d10359e555afd95a13e199cc2fb5d2c6",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_evaluation.csv": "2ce24c605ce10e5b15de49c943d28daddea5abd513a545a4e71e14af2500722a",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_summary.csv": "8aabc749f7965e9aac301a91e900790c617da0f9b376f1b68f1ae981b13cdb41",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_warmup.json": "b444f44c1204864230a97b97087384355f62b1f9fdf3d1cbfacc9dba6fceaedf",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_metadata.json": "dd28055c0f63990857a64516674365243fd464c32cf6dc50815301500001ca02",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_calibration.csv": "7e87e877ec4a2ac13fd9bd89145966cc1321948167f1535ae9919319d9b6cb3a",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_assessment.md": "62d89980c7e95fc1b6f0687d9b7e8f9e557d7dce69709e6620d6d141af794514",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_resources.csv": "d9730061b3b9d3c3d1fe233efd648d75d901b9de1c3a2a46a68e824c2ebe750b",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_format_diagnostics.json": "4bd9a2975180d25a5acdac9027e06eac01a7ae90178b3ece33b11db77b0a012a",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_splits.json": "e3307f09f9bb737fc666a259cf83e66eb690baf45c9b894b9f48a9d0142eed32",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r2_blocks.csv": "a3930414b6c042cceb0c51f54db49d83e3fe039afbb1d591273f8e51504290f2",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_summary.csv": "87d477eb0b847948f2070809730f659c70d57daf862ba1a2c6b4a40e1a188b0b",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_reference_checks.csv": "4875720c53b09807ff20bbd5d34827e051fd26905f03b3f52bb2b8182c683e65",
+    "./data/benchmark_results.csv": "3ea250dd3f26dfd77200208f5bb0de67d0796bfed72d213d0e0d5fc5254ec750",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_profile.json": "e31992494bcc4750b0be1ffed31f5715d69616f9e7a81d0308ae46fbaacb4ef4",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_coding_reference_audit.csv": "3983409b85806cfa1668982856eab5ae7e38363c3ef6c44a13496b002a185302",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_summary.csv": "1b5117e8deedc907f234854c7f2d2458cfc60dc476de1e943b91b056829cc024",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_format_diagnostics.csv": "40fbabd1e6595548778b003f810f8b6131e591557bccdbb85372d67ef6b69263",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r2_summary.csv": "d26007fb361895a792421cc7a72585429f263aae2417ab5860da05d9e8c82258",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_evaluation.csv": "6bbc33223b109c8252772126764aacd920c8f2f3ffc3524bbe57d2c272b4e5c4",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_profile.json": "0dbb81f6dd7c6a69fcdd2ac53688fc6da6633ea5d9b3f7eaa17890791cc75f70",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_report.md": "b56f9642f3d8af78e881e66b9dd1a4fd0118d7ac9886c03aba487a270513a2f7",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_paired.csv": "cbbac12fdadd52ba9e1331bd566bcb80dee77f59e13f2be532127a8772ee6efd",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_audit.json": "b85a988b1ecfbbaa9b80928483058125095195d58408b07bc77d7d65652c8610",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_summary.csv": "b1724802ff05027d36059b6db6937fdc55b4cdf4da42d63182c14eadc5770f2b",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_summary.csv": "b2c655d59c5c08d437cefbff95e74661e703a0c15ed6d1120b72ead1e42d7595",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_timing.json": "1c502856fd7ac60a10db63998fa0b00840090b4edc85eaf7f5cca548d0245773",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_summary.csv": "a51727cc2470ab972ef184ed650e40a805865d6428f7cbaea6c38dbdf675938b",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_format_diagnostic.csv": "2af85048a947641a6ecd1f436251883440e724a9bf26505e2818e6a50eb73971",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_report.md": "f43065f3f9949f81132b34598a5bcfb586c0becb1265dc1635cd5f569f8b158d",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_assessment.md": "77b400b2e9504ed8115b9ae622cb748204d575707a6a101776182e80811df46b",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_reference_checks.csv": "6a51c8923ca991e4a8037caeaf078431118ee71bb8a181fec0e0d108a5126604",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_calls.csv": "850bce9a0ca5c550a7fcb8d93a62a304fd23681cefb574bd660e5be2ff058486",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_calibration_calls.csv": "91d94b0c5d475a14d2889c6f991efd255dfd094b4030f7ffa4efdbc4e76a186f",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r1_summary.csv": "766adccac54b955189f14abfc9878848dd7d0bdc9a16f412423454e50e8f77e1",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_manifest.json": "67c35367fd965465ccd954f257805a6787638693cea4ed3627d91fe161b30fa1",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_paired.csv": "9dadecda2cff2a28b08a22bb5ba446e1d346477d1011da4988bd76199685355e",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_metadata.json": "ab07fb6c698e62dcfe07b0b1342840044e7700ba4e1cd8fe81f9e83096e6a541",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r1_calls.csv": "c92ac7445d2bc03dfbd068644b4cca45c2c3fd3a071eba528c0a99efc6f29134",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_gold_review.csv": "f92acd1dc9ef943af1ec55aebbad405cd46cb6447075e257fd7c99b600bb2639",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_manifest.json": "9e7d806e7bb7b59732c11c316b5ba16f577ce32e8524675ab7f8aa9c24a9b1a9",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_assessment.md": "8da286219e8c69accae0f51f471bf82325b067b948177f1475f2a87f2cf6fa0f",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_audit.json": "c98e397af91bcdc223d5d091ec8c72ad883c2cda1bab352a3ca81b16582e31a7",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_report.md": "fab9a218d09a712cd81ca2fc7e7c9d2be9ee68a6ca3be7765b0034455133eeae",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_metadata.json": "2e67eaea93bd9938b92b740131c0cf1908bccd3e86f84437f8c750f25e078c54",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_identity.csv": "b2ea3d5c8b2688647a7cff2245212132ad0cdd8126d954434acb3776928f79f9",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_tool_events.csv": "2280034ea877254be8200b165a7fcbb3e1864b96faff61062c63e3e5be18f642",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_summary.csv": "36aa0132335a6faad6e652a98562df9a0809881eb4258efae1031a2371a7f4b3",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_profile.json": "4663040cf4485b2c4218e7f0756c3c17647cbb040922bfac9a5687531fd04ab6",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_resources.csv": "d32e02351ec2ae9c7a5144c904d68102d69b58f7402b6284d521761cedbd373d",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_splits.json": "73283332e728a76a600df7d1a4c662bc4644ec1ff318c4ff92fa1716defc2e32",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_metadata.json": "a6c0bf40c4d67b30f6c878979a6210afe1bed4ac797be8d715acc1b06b7eaf3b",
+    "./data/routing_summary_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "bcbcd836bfb2d80e2af038ba76483f38a7a3d495d428c62b02e464b7b84c9d0c",
+    "./data/benchmark_v2.csv": "35ae3ccd2ff2967874db06ee9f576caf78a096ac64361338f29c6a08dc4b85d9",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_comparison.csv": "70feabf33673b75bac5a3bde1e343e36051a2582a75dd44085ef5ffc8b23a12f",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r3_blocks.csv": "9c00b66e7fded0337a31bed195ce85bad0957db667aa7e53f11b615669450c76",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_calibration_calls.csv": "07b9993c7a142aa8cbcdd86f1478a3f4cc26195c7d1b33d7c93b510845138703",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_report.md": "3bad693301bb06e342ef647ee84b5de9562d29163d881540249eb262b3a201ba",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_summary.csv": "66ea215761a643d2c93176ed3c2395f3956461c1b0cfc18b301cff199be328a9",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_paired.csv": "1a5af89e29081b7db55414c8a8665287ffc6c744944b093c93878fb540700a69",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_report.md": "1d85f098a854c3b3a9ea91a1b9c3d78e18856f9ceab3feace861c26e67b2bd18",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_evaluation.csv": "530bb37d62bad0a2b79a89a6f5ec07668ca7e83f273e3b08878e9e39888f91b3",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_resources.csv": "40f56f4e36e6cea7efe55e7a42af79386c2c2eb95545e2ce28388d4480838996",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_repeat_summary.csv": "359666253e7d8e19f1e4128a8cc27f4b38fab79304c6dc6cd0aa1b6208d04492",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_metadata.json": "4e33cdc10310654b0914d036b8154003587aef17dc51a7069734e60303e771ed",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_paired.csv": "5d745298c4f4a98a6eda7d8eb86877e317d8246d59ede065ee7d71bac82b022b",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_manifest.json": "e2e9eb640936f4cf4e134ba84335f317ff4423256c112e2107c6836e038f7b5a",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r3_summary.csv": "7638c814c19c94f1e29fdfb5f4c8ab0d772c50267bb462a4176e7d1685e088ca",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_reference_checks.csv": "4875720c53b09807ff20bbd5d34827e051fd26905f03b3f52bb2b8182c683e65",
+    "./data/benchmark_v2_f2be12734ce5444397f2ca02a62c1869.csv": "9d974fc3625c7b8c3741d38d78085f6cbda7830176e46e3e06fb59cbe8035ae5",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_integrity.json": "24df961657b0c61ddbcb63e3aa19e9bc33d347ef8503dc24dfb280e661c5f873",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_classification.csv": "aa6f5cb5e5322c70ed96f2d34d1dcb38dbcf6319d24c25c7bf3d045f77148d1a",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r2_calls.csv": "5e116dfe0a6f88783bad856640700098f5abd03b9458cba243818d6bd5755d2a",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_tool_misapplications.csv": "75b6ca26c99cb6c5f5ed295aaed95adf8d7b644c1973620d652543223b905c04",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_assessment.md": "5f76ddead324ce4d1658dd4050994d15a626d9d2fdab84586b6d1327dae2c43b",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_blocks.csv": "ab561caecf8535fa4ec7489f5395409c55966fcff541a13985640947e02bcfb5",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_metadata.json": "5c98879cb8a57e0258635654545a7a48ee4a38efcf500a14cd3168c71eb90472",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_profile.json": "0dbb81f6dd7c6a69fcdd2ac53688fc6da6633ea5d9b3f7eaa17890791cc75f70",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_plans.json": "c73a7ca3149ce38be59bc64cf4ed47f919ba38db7ab778145db0b13cce01d084",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_comparison.csv": "8ec4a493a7a2c61f1d61fb5eec73e73bd2d85bc5c0362262f1d5f71bfbbfc49f",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_pairs.csv": "cd8425ee73e11615085e516db8ce10843bef4c3cd7ded4573d7ed2a93d201442",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_category_summary.csv": "15e4024d7b87c7b90d491918c6915afeaf688fd3926a23a10932b3e1fc928503",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r1_evaluation.csv": "52832192be16fdc27ce150460f3a04d4f33f5e373e701ebd749e3437e6b155c2",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_fallbacks.csv": "cf22c2ad53c92c32b9f39e363addb1c168f9743ce0d5c4b27039bc8a1f616068",
+    "./data/routing_comparison_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "3e9435df3404c893f4a4bec3abbaa99bc015da0d7893c8bd1847f5b626a5b8e9",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_calibration.csv": "18f41407315917fa183e8fe888b4cb414f88dcf6f8df40ba5bd5a3a1596f2ecc",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_assessment.md": "2e74bc377df1bf8e64fc7660c4a992f88f64eca6105fd668e26b0b3f0db34638",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_evaluation.csv": "387c75052878e37e39ccded53d14db63c85bc0dde5f4bd7cc8192b58d2916410",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_failure_cases.csv": "91356b8128eb2f2db4bf4e8208183ebba01c0669e915c54abcba514054b9061c",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_evaluation.csv": "8deb548f74f9536d979f929dcf207d60749163f7b398336f7c3f69b1066f62e8",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_report.md": "261c255fe578ddd1abc8117f1d7a53b6f9521d4920eb79c7f58251e31de9fc58",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_question_repeats.csv": "7286d407deeb7bab7b20485194fa95d084e81b242f6f05e1b9a230a0562d632b",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_verdict.csv": "5093dc78e7e15259dcfbee032e952de75939349f4fd8c08b79bf6644f5d299e8",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_manifest.json": "17ed0f078822541a50126a1e8578c0cb6c4a896545a8a2890da15c3792717a6d",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_assessment.md": "c70a030343e77b1fb0ca43c93bcbda6c38139113db72ea6138574a2beb92eceb",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_paired.csv": "147008c4c0955064c98c8a4a913f2c4acbd57a9e968a0f3693f5821412e2abb3",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_plans.json": "c73a7ca3149ce38be59bc64cf4ed47f919ba38db7ab778145db0b13cce01d084",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_calls.csv": "733fc57d58a20c80dd08391f8fc952b8855bbf90098fbfc28af3d63bce8ea334",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r1_blocks.csv": "6bbec78f4bb72d4f66ba26569ecb09b182eb2b2a62ce7319af811c9331ce5c11",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_primary_diagnostics.csv": "afa535a4cb15b3da982ff42dde21b99b7f454e97ae281bd9935177bcbd37e644",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r3_calls.csv": "99410a028993ea7873e99671ec1abde759117860fb9176561f6bf1badf32e856",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_failure_audit.csv": "6815ceb5c4bab2217842e9e35ad6fccc6cbef8dfc1e8fbb0e90799ae09d5e047",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_manifest.json": "a6d9ac1bfe6a60f57f22a0a716de1184a72ff196961403584282ae94677388a1",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_assessment.md": "d38f2b59bc054a21dcf75095b760e895a5ca2f05cca1686b9fdd47308955a1d7",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_failure_cases.csv": "cccd85ebb9d2e0a7a26be6bd5a8b0c6f4cb46b5199285f30e095fb074b068240",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_paired.csv": "424cd7810749bf40cd0f296db033f873f2154b801ce63c13540682f11b8bf91a",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_request_usage.csv": "aad725aa636f5b230a943f77a1b699c6de4205ba68843f7c9d2bc423da04b246",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_metadata.json": "80bf8478a3fec0321682ca1f4f12577e068404cf0e0651a90f27a5d8f524731b",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r3_evaluation.csv": "d51fa623641da324a034aecdec2f4d3eee614ce0f1de996da5022e8848018f1b",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_aggregate.csv": "8245f24090a5fe380d457e242a8e262457a5883565cb6a59c16609e0b4c8dc70",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_evaluation.csv": "5206bee3379f88575d65cde92afef0a8b99e1982ebe078ed15c22b40bb83bdb4",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_report.md": "5d3e82868387e1b29fa7aae7d5c41f497e83e2e68aa6a9eb0310528bf91460aa",
+    "./data/skipwork_7a7cc6bdb72e495ab9af664ba5b15db7_calibration.csv": "18f41407315917fa183e8fe888b4cb414f88dcf6f8df40ba5bd5a3a1596f2ecc",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_r2_evaluation.csv": "a498745bc20f619124a5492c83d2336f96154f581d28a40e8e63a6d2cd5bc33a",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_legacy_compatibility.csv": "8c9537d4b9bd834591199033133e41718e9e04eff8828dea7be64d7c12d2739b",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_per_question.csv": "b7c3da593a73d91ee79f34b04e2633a4ac0d35fd1a08bc544c47fab159d4e0fa",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_summary.csv": "99d02c36a333cea07f6125073419b28f78e8615c5d1b2987d2f98f7dfdf719b4",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_evaluation.csv": "04c4be54ba639dcdf9a8e23a2e1310a209a036111d9f9116f86ed0a5ee8379c1",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_tool_misapplications.csv": "d8897ae7947f0b21fcf7d09348683dfa0ead0d706c9f10bbef2f6b424f77d394",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_evaluation.csv": "c030fc4941b0410a365af0b2e2cd967ccccd3e8864b6abb53cefd5e449e55f24",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_calibration.csv": "c69b5edbb649d5c58542851400a2b0748c1da76876ffc07bb83efa96bad11ed2",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_attempts.csv": "2d72805725b8052dc10889475f7565817a6266967e98653cd08b58492ec95654",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_probes.csv": "331fb43c8b0951aadcef306e45c234c49b33c0ee32c91cad0e8d80f9cd5d7d84",
+    "./data/efficiency_repeat_1b6d963181b249e0889270ca4590ea2a_blocks.csv": "7f0abf204b65868c3e79f1e36cd414a0fe78c056f5a7d597b449e026adadec80",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_report.md": "d63a52648b3bcdcfb096fa9d0d00be4fe8911a2a2b6bda8943e28a2c1bee7a69",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_report.md": "0daa307483fcf02991468de5a09df6a20a5f536b2eb14df8a7a55cda954d3344",
+    "./COVERAGE_ROUTING.md": "aee1585a5d915f4f265e9bf6689c5bc9e5dd4e2bfcba3ad6a22e9f778fb9ae1c",
+    "./ADAPTIVE_RESULTS.md": "7670525eeb986137e66e10efb7b053ac1558ad4287ecc331feb7a4e5d00e1b80",
+    "./SKIPWORK_RESEARCH.md": "622a2cf98aa02a3968d41a948992ada8a0c34833c502f508b9669a6a2eeea56d",
+    "./README.md": "446bd409a95f57956bc3380cebbd0adea488aa3f965064f733f0ae7cf6e8fafd",
+    "./RCAV_RESEARCH.md": "6caf2a80497a7ebaca41deb7ab64b0ae4906efdef0c6960384364ce3bcc9eb61",
+    "./SOLVER300.md": "aa898ec9cc4c402fbd3da8040700e8903e46f578e0dec942f9cc6d4b3e4dd06c",
+    "./VERIFICATION200_USAGE.md": "c17829bb4a3f86e15471cf90cc22708b8e4c63b2e3d201a6a7676f0a6509792c",
+    "./ADAPTIVE_ROUTING.md": "67fde715ee5f515b85f6d4bae3db0244178c49558814908c57b5ff389ad28e8a",
+    "./EFFICIENCY_REPEAT.md": "97c2c853633037a6f6c026b5bab48ca580e1c9dca8ee556ac907d5ccb8148d49",
+    "./ROUTING_USAGE.md": "aa55445293c3703b81237982e2f955012d503ab3f1cb4697640175828f918f6b",
+    "./TOOL_ROUTING.md": "a650fd2dee92aefb5b008aa3d8f5c49755c188701c65dbeed1f26aef2a338417",
+    "./MIXED_EVALUATION.md": "46eaeb56c4bb32ceda4907a6d9a6b16248935305ff092e3d1aa93972d8f899dd"
+  },
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6"
+}

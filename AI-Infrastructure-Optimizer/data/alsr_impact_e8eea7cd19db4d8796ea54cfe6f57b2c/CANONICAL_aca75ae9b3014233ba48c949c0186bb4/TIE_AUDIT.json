@@ -1,0 +1,11 @@
+{
+  "original_rows": 6272,
+  "changed_flip_labels": 89,
+  "changed_full_top1": 84,
+  "top10_tie_groups_complete": true,
+  "targeted_margin_rechecks": 10,
+  "original_kl_js_and_top2_margins_preserved": true,
+  "raw_artifacts_preserved": true,
+  "retrained_only_training_and_calibration": true,
+  "evaluation_not_new_after_bug_audit": true
+}

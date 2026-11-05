@@ -1,0 +1,20 @@
+{
+  "matplotlib_version": "3.11.2",
+  "source_sha256": {
+    "aggregate": "776f559ac31c41f4664c70844427169cf8653ea7bdbf188409ae2a29674406f7",
+    "accounting": "5dc8ab9439dac5211cd6425e15d696921f96636fca31deee05a45b16f633c231"
+  },
+  "figures": [
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_budget.png",
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_budget.svg",
+    "vvp_2a90be1867974c2cbc6862856d207d44_calls_budget.png",
+    "vvp_2a90be1867974c2cbc6862856d207d44_calls_budget.svg",
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_cpu.png",
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_cpu.svg",
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_accounted_cpu.png",
+    "vvp_2a90be1867974c2cbc6862856d207d44_accuracy_accounted_cpu.svg",
+    "vvp_2a90be1867974c2cbc6862856d207d44_transitions.png",
+    "vvp_2a90be1867974c2cbc6862856d207d44_transitions.svg"
+  ],
+  "note": "No smoothed, fabricated or selected performance values. Coincident curves may overlap."
+}

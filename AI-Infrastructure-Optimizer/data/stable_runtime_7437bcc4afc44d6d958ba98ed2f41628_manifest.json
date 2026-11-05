@@ -1,0 +1,1033 @@
+{
+  "datasets": {
+    "replay64": [
+      {
+        "task_id": "6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1",
+        "question": "Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?\nA) Nemi30107 is not blue\nB) Nothing follows\nC) Nemi30107 is blue\nD) Nemi30107 is not a merin\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff",
+        "question": "Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?\nA) Friday\nB) Saturday\nC) Wednesday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7",
+        "question": "Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?\nA) 819\nB) 371\nC) 117\nD) 483\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730",
+        "question": "Python snippet 30103:\n```python\nx = [11, 54, 67]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) 5\nC) Error\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "a6cd65e63aa9f9de145fd9ecc1ed2544039d4719fa0f3e4c44f9ce187f1db121",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30202 is a courier. Vera30202 is waiting at Gate 13.\"",
+        "reference": "Vera30202, a courier, is waiting at Gate 13.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30202",
+          "Gate 13"
+        ]
+      },
+      {
+        "task_id": "0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724",
+        "question": "Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Nemi30104\nC) Selu30104\nD) Pavo30104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67",
+        "question": "Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403",
+        "question": "In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?\nA) -31\nB) -1\nC) 107\nD) 77\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25",
+        "question": "A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?\nA) 67\nB) 65\nC) 9\nD) 63\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424",
+        "question": "Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?\nA) Selu30110\nB) Pavo30110\nC) Nemi30110\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9",
+        "question": "Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30106\nB) Pavo30106\nC) Nobody\nD) Selu30106\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30207 is a courier. Vera30207 is waiting at Gate 18.\"",
+        "reference": "Vera30207, a courier, is waiting at Gate 18.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30207",
+          "Gate 18"
+        ]
+      },
+      {
+        "task_id": "04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696",
+        "question": "Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?\nA) Tuesday\nB) Wednesday\nC) Saturday\nD) Friday\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30200\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30200",
+          "enabled": false
+        }
+      },
+      {
+        "task_id": "5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b",
+        "question": "Python snippet 30110:\n```python\nx = 61\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 0\nB) 68\nC) 61\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12",
+        "question": "Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?\nA) Nemi30104\nB) Selu30104\nC) Pavo30104\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c",
+        "question": "Python snippet 30100:\n```python\nx = [45, 11, 20]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) Error\nB) 4\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151",
+        "question": "In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?\nA) 82\nB) 36\nC) -6\nD) 40\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "128ee3c323c5e2966c1d1f5e524c4f964a97254a833c5bc3bce716ec52585b1f",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30204 is a courier. Vera30204 is waiting at Gate 15.\"",
+        "reference": "Vera30204, a courier, is waiting at Gate 15.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30204",
+          "Gate 15"
+        ]
+      },
+      {
+        "task_id": "a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee",
+        "question": "Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?\nA) Selu30106\nB) Cannot be determined\nC) Nemi30106\nD) Pavo30106\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151",
+        "question": "Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Pavo30110\nC) Selu30110\nD) Nemi30110\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27",
+        "question": "Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?\nA) Nemi30103 is not blue\nB) Nothing follows\nC) Nemi30103 is not a merin\nD) Nemi30103 is blue\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621",
+        "question": "A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?\nA) 54\nB) 43\nC) 58\nD) 56\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf",
+        "question": "Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?\nA) 232\nB) 103\nC) 112\nD) 412\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30203\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30203",
+          "enabled": true
+        }
+      },
+      {
+        "task_id": "876c98f4ae62e1cb4fd76b09131ad4b4ed6854e9d1e75d52ead3258d7e75a4fe",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30205; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30205\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30205",
+          "enabled": true
+        }
+      },
+      {
+        "task_id": "01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c",
+        "question": "Python snippet 30111:\n```python\nx = [44, 61, 35]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 105\nB) 79\nC) 96\nD) 140\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c0989b5352f1f68d1b088d1929505d409eca4a032dfd5b3861f777a79c414b50",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30204; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30204\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30204",
+          "enabled": false
+        }
+      },
+      {
+        "task_id": "652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30201 is a courier. Vera30201 is waiting at Gate 12.\"",
+        "reference": "Vera30201, a courier, is waiting at Gate 12.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30201",
+          "Gate 12"
+        ]
+      },
+      {
+        "task_id": "aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42",
+        "question": "Python snippet 30104:\n```python\nx = 11\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 11\nB) 18\nC) 0\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96",
+        "question": "Python snippet 30106:\n```python\nx = [45, 13, 25]\nx.append(3)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) Error\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c",
+        "question": "Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?\nA) 111\nB) 43\nC) 315\nD) 45\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4",
+        "question": "Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30100\nB) Selu30100\nC) Nobody\nD) Pavo30100\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "4cd8a66fbff1f4082de4e047d14e9e8b6e873a6d7c1c580622c527c8b464db5d",
+        "question": "In ledger 30102, an account starts at 20, receives 19, then pays 25. What is its balance?\nA) 26\nB) 14\nC) -24\nD) 64\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "cc4f3babcf0b2a782d3e839ad7dd9b42996574cdcaec489a21766d8dd021ca68",
+        "question": "Memo 30102: Nemi30102 owns a silver compass. Nemi30102 lends the compass to Pavo30102 for one day; ownership does not change. Who owns the compass during that day?\nA) Selu30102\nB) Pavo30102\nC) Nobody\nD) Nemi30102\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c4237f86d463497437f32cc01c242f009679a4c9bf8b024aa673b9f22e3237f2",
+        "question": "Python snippet 30101:\n```python\nx = 43\ny = x + 4\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 43\nB) 47\nC) 4\nD) 0\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "faa516db96ae718320ad4425021559cb9a18f97797e8729babcedc5a1e41783b",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30200 is a courier. Vera30200 is waiting at Gate 11.\"",
+        "reference": "Vera30200, a courier, is waiting at Gate 11.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30200",
+          "Gate 11"
+        ]
+      },
+      {
+        "task_id": "527ffd4965b036a6c00c67ca38f3f0c8f408cd5ce7f51d00ef48f7501a9a105c",
+        "question": "Log 30105: A package arrives on Tuesday. Nemi30105 stores it until Friday, when Pavo30105 collects it. On which day is it collected?\nA) Wednesday\nB) Friday\nC) Saturday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "19230255ad7e37ddaa5d35b2f927e3fc239ba2ccef4ee2b4017a6d877672509f",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30202; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30202\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30202",
+          "enabled": false
+        }
+      },
+      {
+        "task_id": "a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e",
+        "question": "Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?\nA) Nemi30101 is not a merin\nB) Nemi30101 is blue\nC) Nothing follows\nD) Nemi30101 is not blue\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c",
+        "question": "Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?\nA) Pavo30102\nB) Nemi30102\nC) Selu30102\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e",
+        "question": "Python snippet 30109:\n```python\nx = [52, 24, 45]\nx.append(7)\nprint(len(x))\n```\nWhat is printed?\nA) 3\nB) 5\nC) Error\nD) 4\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c",
+        "question": "Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?\nA) Friday\nB) Wednesday\nC) Tuesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "029266ae13a95dd53d9d7d609dbc9a999ee1d92899d96c54204f161185ab2025",
+        "question": "Memo 30108: Nemi30108 owns a silver compass. Nemi30108 lends the compass to Pavo30108 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30108\nB) Pavo30108\nC) Nobody\nD) Selu30108\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5bf15ba833cb1f11824de54e832423b8641cf1a6d6bf9022ce090bdc1e780899",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30205 is a courier. Vera30205 is waiting at Gate 16.\"",
+        "reference": "Vera30205, a courier, is waiting at Gate 16.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30205",
+          "Gate 16"
+        ]
+      },
+      {
+        "task_id": "f7abc83a8b590e9e744637ad6468f8c2bcb94228518176edc7ac190ecd25ea33",
+        "question": "In ledger 30111, an account starts at 44, receives 61, then pays 35. What is its balance?\nA) 140\nB) -52\nC) 70\nD) 18\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd",
+        "question": "Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?\nA) Nemi30105 is not a merin\nB) Nemi30105 is not blue\nC) Nemi30105 is blue\nD) Nothing follows\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30207\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30207",
+          "enabled": true
+        }
+      },
+      {
+        "task_id": "86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d",
+        "question": "Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?\nA) Nemi30109 is not a merin\nB) Nothing follows\nC) Nemi30109 is not blue\nD) Nemi30109 is blue\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30",
+        "question": "Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?\nA) Nemi30111 is blue\nB) Nothing follows\nC) Nemi30111 is not a merin\nD) Nemi30111 is not blue\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "93513aeefb88aca8b1453283df7459f4e61362247728c7c05a823ab53ea0dda1",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30206; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30206\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30206",
+          "enabled": false
+        }
+      },
+      {
+        "task_id": "36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5",
+        "question": "Python snippet 30102:\n```python\nx = [20, 19, 25]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 45\nB) 39\nC) 44\nD) 64\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30206 is a courier. Vera30206 is waiting at Gate 17.\"",
+        "reference": "Vera30206, a courier, is waiting at Gate 17.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30206",
+          "Gate 17"
+        ]
+      },
+      {
+        "task_id": "d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53",
+        "question": "Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?\nA) Friday\nB) Tuesday\nC) Saturday\nD) Wednesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "09efe4670c00903ecac5feb4b06ea1668962552dec4181f9b678391d713c47c2",
+        "question": "Queue 30100: Nemi30100 stands immediately before Pavo30100, and Pavo30100 immediately before Selu30100. The queue contains only these three people. Who is in the middle?\nA) Pavo30100\nB) Selu30100\nC) Nemi30100\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175",
+        "question": "Python snippet 30108:\n```python\nx = [38, 21, 23]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 59\nB) 82\nC) 61\nD) 44\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d",
+        "question": "Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?\nA) 410\nB) 236\nC) 294\nD) 82\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30203 is a courier. Vera30203 is waiting at Gate 14.\"",
+        "reference": "Vera30203, a courier, is waiting at Gate 14.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30203",
+          "Gate 14"
+        ]
+      },
+      {
+        "task_id": "daa4a76b6a39b41f28fc3f97a75ffb459eb7e6ada4eb2fdc2c8827d10985f824",
+        "question": "Queue 30108: Nemi30108 stands immediately before Pavo30108, and Pavo30108 immediately before Selu30108. The queue contains only these three people. Who is in the middle?\nA) Pavo30108\nB) Selu30108\nC) Cannot be determined\nD) Nemi30108\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30201\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30201",
+          "enabled": true
+        }
+      },
+      {
+        "task_id": "5a1c09231a484fae6ef54ee4f3a6367cdd57ba45bf6a7d2fbdd5a5a94a0402d3",
+        "question": "A tray contains 45 red and 13 blue beads. After removing 3 red beads, how many beads remain?\nA) 55\nB) 58\nC) 42\nD) 61\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "ec0a0a19b231b21eb60c187c6533e09d7353bd76784a9a4df2fd20a61e6c833b",
+        "question": "Python snippet 30107:\n```python\nx = 53\ny = x + 5\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 5\nB) 53\nC) 58\nD) 0\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a",
+        "question": "A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?\nA) 69\nB) 45\nC) 76\nD) 83\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0",
+        "question": "Python snippet 30105:\n```python\nx = [38, 54, 15]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 107\nB) 69\nC) 92\nD) 53\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice"
+      }
+    ],
+    "fresh64": [
+      {
+        "task_id": "9af3b98cfde8c347b074bc1b27ac9d374e13f7a25be4672ededeb439f1d551a6",
+        "question": "A rover at distance marker 32 travels forward 24 units and then backward 5 units. At which distance marker does it stop?\nA) 3\nB) 37\nC) 61\nD) 51\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "323297b21b56516b21c117afe0b167b2822751f2771baeedc1bf04d641e379db",
+        "question": "Python test 41105:\n```python\nx = 4\nprint(x * 2 + 1)\n```\nWhat is printed?\nA) 7\nB) 9\nC) 8\nD) 5\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c2cf958763fcf240ec3ffdf036adcd8f1dc06378b385da227071b7859966cae3",
+        "question": "Python test 41111:\n```python\nx = 5\nprint(x * 2 + 1)\n```\nWhat is printed?\nA) 9\nB) 10\nC) 11\nD) 6\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "68fb83c69babb8aace65626f77bf8917a87124f5772e685873ed7809b7d41b91",
+        "question": "Appointment 41111: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Monday\nB) Tuesday\nC) Friday\nD) Thursday\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "050caf3b3a6ac3991ebaf4d6edf4222bcd71e23d92198c1bd33cb6cb0f742b7c",
+        "question": "A shop ticket lists 4 identical pens at 23 credits each. The customer gives 121 credits. How many credits of change are due?\nA) 29\nB) 63\nC) 23\nD) 92\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "bafd0a9c2e5678ec781371139d7179348d7ae2c68ff2fbeb1f5c9136e5bd140a",
+        "question": "Shelf 41105 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) White\nB) Cannot be determined\nC) Green\nD) Red\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "8cf9b165058c1a50b0f473665edd221dc1fe4f302cabe7e8ccb3e3e418f33199",
+        "question": "Badge check 41100: If a person has a bronze badge, the person may enter. Rilo41100 has a bronze badge. Which statement must be true?\nA) Nobody may enter\nB) Everyone has a bronze badge\nC) Rilo41100 may enter\nD) Rilo41100 cannot enter\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "d14dd1f50e1851ca08e48d2c6f7e471c11298a3dc800bfd20ccb615862e25d6b",
+        "question": "A rover at distance marker 43 travels forward 66 units and then backward 5 units. At which distance marker does it stop?\nA) 104\nB) 48\nC) -28\nD) 114\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "48e174b349b8f8de1201055a67b90bd5cb11d00d2a220a00a466dbd96b020e02",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43102 repairs boats. Talu43102 works at Dock 23.\"",
+        "reference": "Talu43102 repairs boats at Dock 23.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43102",
+          "Dock 23"
+        ]
+      },
+      {
+        "task_id": "3338a4515b7a73bed0a3d3661fe6bb9760c7cdaadabd5f81d1918aeb31e7258f",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43107 repairs boats. Talu43107 works at Dock 28.\"",
+        "reference": "Talu43107 repairs boats at Dock 28.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43107",
+          "Dock 28"
+        ]
+      },
+      {
+        "task_id": "01fc436d4f35b7a3c138844aa48a93a16d6c515e466e1aa8965d087852cfa661",
+        "question": "Shelf 41107 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) Cannot be determined\nB) White\nC) Red\nD) Green\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e6b2ffacf395f949e13f773edb41eda7391856ef9225c0291f0787fe1b8f88be",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43103 repairs boats. Talu43103 works at Dock 24.\"",
+        "reference": "Talu43103 repairs boats at Dock 24.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43103",
+          "Dock 24"
+        ]
+      },
+      {
+        "task_id": "ef0814e5530494c38bfa6ed94ea9458cc0631a7cc58e1ab78f3a348c13da9953",
+        "question": "Dispatch record 41108: Rilo41108 gives a sealed envelope to Tema41108. Tema41108 then gives it to Wesi41108. No other transfer occurs. Who holds it at the end?\nA) Wesi41108\nB) Nobody\nC) Tema41108\nD) Rilo41108\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "33ad221ed9f381a27109a05a8acd738df9532f93fdcdd3916022d2c3d5c89962",
+        "question": "Badge check 41110: If a person has a bronze badge, the person may enter. Rilo41110 has a bronze badge. Which statement must be true?\nA) Nobody may enter\nB) Rilo41110 cannot enter\nC) Everyone has a bronze badge\nD) Rilo41110 may enter\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e50c3b628777bf9c701cc56ce8c0bc1ceae03b4a840464830f9d83dfa5466084",
+        "question": "Write one JSON object from this inventory row: code is \"tag42103\" and amount is the integer 15. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42103\",\"amount\":15}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42103",
+          "amount": 15
+        }
+      },
+      {
+        "task_id": "104cd2876b924571c6093e46cf1a3b38c79fde930a962511b9082fb385184a5a",
+        "question": "Python test 41101:\n```python\nv = [43, 66, 5]\nv.reverse()\nprint(v[0])\n```\nWhat is printed?\nA) 66\nB) Error\nC) 5\nD) 43\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "92aba37918c3ba0961a7c542f63a4df30e95ab2486bb11bcb35ae1ed4961aedf",
+        "question": "Dispatch record 41110: Rilo41110 gives a sealed envelope to Tema41110. Tema41110 then gives it to Wesi41110. No other transfer occurs. Who holds it at the end?\nA) Wesi41110\nB) Rilo41110\nC) Nobody\nD) Tema41110\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "b76e13e48aef445f51a6e2a9f4a675754136a00eb3e569973eae8452630312c6",
+        "question": "Shelf 41103 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) White\nB) Cannot be determined\nC) Red\nD) Green\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "14d47d04eac339f8ce3aae128f5ac446f8bc950b010de2b6fc46eeb80b834bef",
+        "question": "Dispatch record 41106: Rilo41106 gives a sealed envelope to Tema41106. Tema41106 then gives it to Wesi41106. No other transfer occurs. Who holds it at the end?\nA) Rilo41106\nB) Tema41106\nC) Wesi41106\nD) Nobody\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "901ecaae1595bf173869f9400cdd17f257cb8927ecbbb3eeb9fd91843841b385",
+        "question": "A rover at distance marker 57 travels forward 77 units and then backward 4 units. At which distance marker does it stop?\nA) -24\nB) 61\nC) 138\nD) 130\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "b16476e5d32cbd0e53ca393c6139756ac5c037b89db84899cb58e3be3023940f",
+        "question": "Python test 41107:\n```python\nv = [61, 65, 4]\nv.reverse()\nprint(v[0])\n```\nWhat is printed?\nA) Error\nB) 61\nC) 4\nD) 65\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "74c3e280f2f2949ad60e166e6ae0c088b1b803ea5cba400f9edbefe309d97f0b",
+        "question": "Python test 41106:\n```python\nv = {\"oak\": 73, \"elm\": 55}\nprint(v[\"elm\"])\n```\nWhat is printed?\nA) 128\nB) Error\nC) 55\nD) 73\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "fd8d2948cef540182eb83a294a617d3fd9b82a16803900fd7e338a2ad6bbf941",
+        "question": "Badge check 41106: If a person has a bronze badge, the person may enter. Rilo41106 has a bronze badge. Which statement must be true?\nA) Everyone has a bronze badge\nB) Rilo41106 may enter\nC) Rilo41106 cannot enter\nD) Nobody may enter\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "ec284a486cd62b5086d4a6b74b6a7c4d15a444913d31a80746cd47c710a95f6c",
+        "question": "Shelf 41101 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) White\nB) Red\nC) Green\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "c8039ae153ac06da979dd153dce22ffc332ee01348baae7f75f4ba5971368585",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43104 repairs boats. Talu43104 works at Dock 25.\"",
+        "reference": "Talu43104 repairs boats at Dock 25.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43104",
+          "Dock 25"
+        ]
+      },
+      {
+        "task_id": "57b3ca787d1d3af5205ed65524c1e887792cce503d17def837b1775bca04d75d",
+        "question": "A shop ticket lists 6 identical pens at 59 credits each. The customer gives 433 credits. How many credits of change are due?\nA) 79\nB) 354\nC) 59\nD) 275\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "2b152a2faa9747b075e25e5390a3780ab1fabe99b566866bc73beb2269b43c2c",
+        "question": "Dispatch record 41102: Rilo41102 gives a sealed envelope to Tema41102. Tema41102 then gives it to Wesi41102. No other transfer occurs. Who holds it at the end?\nA) Wesi41102\nB) Tema41102\nC) Rilo41102\nD) Nobody\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "1853cbbb40fec42f410d87395b462e5c3951bd96ebc144182b4a2e1e066a1e3e",
+        "question": "Badge check 41102: If a person has a bronze badge, the person may enter. Rilo41102 has a bronze badge. Which statement must be true?\nA) Rilo41102 cannot enter\nB) Everyone has a bronze badge\nC) Nobody may enter\nD) Rilo41102 may enter\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "46c666436a72e9c396470eb8c2ab781d586792beb5ce352a327b27cd576222da",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43100 repairs boats. Talu43100 works at Dock 21.\"",
+        "reference": "Talu43100 repairs boats at Dock 21.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43100",
+          "Dock 21"
+        ]
+      },
+      {
+        "task_id": "494e15d6f24830365ed705de4f866150ce662bdf369fd3f3f9a911a7076afb62",
+        "question": "A rover at distance marker 60 travels forward 33 units and then backward 7 units. At which distance marker does it stop?\nA) 20\nB) 67\nC) 86\nD) 100\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "b08eb559ebe272ec272b355487b1cbb7f0be13f7cd1f34addc8c6bd48934ebe7",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43105 repairs boats. Talu43105 works at Dock 26.\"",
+        "reference": "Talu43105 repairs boats at Dock 26.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43105",
+          "Dock 26"
+        ]
+      },
+      {
+        "task_id": "4a8bc630c9539d506977bba8def6ac6488647ee6eb5fec2c6b549657b2a11bcb",
+        "question": "Write one JSON object from this inventory row: code is \"tag42107\" and amount is the integer 19. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42107\",\"amount\":19}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42107",
+          "amount": 19
+        }
+      },
+      {
+        "task_id": "aff459d657cc37e9e6d3a6d3810e8783a0b28d31ccad9827507345ce26409aaa",
+        "question": "Appointment 41105: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Monday\nB) Friday\nC) Thursday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e6abce0e7c3f94a96072f473837dd9273af78869611287d91d6ad6d45ca47041",
+        "question": "A rover at distance marker 66 travels forward 60 units and then backward 5 units. At which distance marker does it stop?\nA) 131\nB) 71\nC) 1\nD) 121\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5ddf8d859e2aa77fbcf16325c8e6808f7dbde2f11ccf7dcf400b40bdd8b20699",
+        "question": "Python test 41110:\n```python\nv = [64, 35, 4]\nv.reverse()\nprint(v[0])\n```\nWhat is printed?\nA) Error\nB) 64\nC) 4\nD) 35\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "16903d7ed99e617b08beccfe00bb5e2d3d13752d2ff2abc593c354bc61099ab0",
+        "question": "Python test 41103:\n```python\nv = {\"oak\": 32, \"elm\": 24}\nprint(v[\"elm\"])\n```\nWhat is printed?\nA) 56\nB) 24\nC) Error\nD) 32\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "81c077f6bb8eb296876232073c14bf4bcea75f48e527791902b5d92205fa98c3",
+        "question": "Shelf 41111 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) Cannot be determined\nB) White\nC) Green\nD) Red\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "1955bfa7d5974b13672726b1bc79663895ff1aa5b091b42ac073e706d7a5a6a5",
+        "question": "A shop ticket lists 8 identical pens at 73 credits each. The customer gives 660 credits. How many credits of change are due?\nA) 73\nB) 508\nC) 76\nD) 584\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "a082f6dea6d158f5cc656c9a9b43945de14372cbc7ed0f9a5d6406e3c9acf777",
+        "question": "Shelf 41109 holds exactly red, green, and white books. The red book is left of the green book. The white book is right of the green book. Which book is farthest right?\nA) Cannot be determined\nB) Green\nC) Red\nD) White\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "64b33a0634f988eaadd42f465991bdb23e0a5dd9d3e1379ac9bc6ea46b47e4d6",
+        "question": "Dispatch record 41100: Rilo41100 gives a sealed envelope to Tema41100. Tema41100 then gives it to Wesi41100. No other transfer occurs. Who holds it at the end?\nA) Nobody\nB) Tema41100\nC) Wesi41100\nD) Rilo41100\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "cd80740bc6d89145ec6d7416a9709a139328d490ac0444e5cebd8f951b53dffc",
+        "question": "Write one JSON object from this inventory row: code is \"tag42104\" and amount is the integer 16. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42104\",\"amount\":16}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42104",
+          "amount": 16
+        }
+      },
+      {
+        "task_id": "9dbffe8d99a44caa49ca223b32b2e7a105149981a7e91c19029ff30fc05a2a17",
+        "question": "Badge check 41108: If a person has a bronze badge, the person may enter. Rilo41108 has a bronze badge. Which statement must be true?\nA) Nobody may enter\nB) Rilo41108 may enter\nC) Rilo41108 cannot enter\nD) Everyone has a bronze badge\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "aedcc327acd2a3627f844e84dcced3299dd8bdfbd5a4296d94bddd1511c5efcf",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43106 repairs boats. Talu43106 works at Dock 27.\"",
+        "reference": "Talu43106 repairs boats at Dock 27.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43106",
+          "Dock 27"
+        ]
+      },
+      {
+        "task_id": "537256d30b42ad9885a51e09bd4238d52c3c2bbe64b5bdd19f20b0d4160c491b",
+        "question": "Dispatch record 41104: Rilo41104 gives a sealed envelope to Tema41104. Tema41104 then gives it to Wesi41104. No other transfer occurs. Who holds it at the end?\nA) Tema41104\nB) Wesi41104\nC) Nobody\nD) Rilo41104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "a913af13aa3aac3fd2dc2091a5226abb07350a710cbacb3aa86002806eff1766",
+        "question": "A shop ticket lists 6 identical pens at 73 credits each. The customer gives 493 credits. How many credits of change are due?\nA) 383\nB) 55\nC) 73\nD) 438\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "13052d034da33fe4dffd274a5a4496a802c2ac45a83052e85ac306e8846eba6a",
+        "question": "A shop ticket lists 4 identical pens at 64 credits each. The customer gives 291 credits. How many credits of change are due?\nA) 256\nB) 64\nC) 221\nD) 35\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "03ba7944996773967ba9f1e60667eb56dd7f398efb116732520b1fed6166babe",
+        "question": "Write one JSON object from this inventory row: code is \"tag42102\" and amount is the integer 14. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42102\",\"amount\":14}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42102",
+          "amount": 14
+        }
+      },
+      {
+        "task_id": "d7ff50a341e08ed2e48c10ad9c7d65f30d02a665678d71a07afe2d71dc50d3de",
+        "question": "Write one JSON object from this inventory row: code is \"tag42105\" and amount is the integer 17. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42105\",\"amount\":17}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42105",
+          "amount": 17
+        }
+      },
+      {
+        "task_id": "e88a42b3648362e0b0b464fa913cadffe2a3eaca5002ce70d0fde9806d62ffd9",
+        "question": "Appointment 41101: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Thursday\nB) Monday\nC) Tuesday\nD) Friday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5d0ef4540627f4df3251b43c584b33c9fd749243d5a535f0d126e91f962530e4",
+        "question": "A shop ticket lists 3 identical pens at 70 credits each. The customer gives 276 credits. How many credits of change are due?\nA) 70\nB) 210\nC) 66\nD) 144\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "3d65bef6fb20133a11d202ee4637387c5df1d2ca974f2658e117ea1f31e3e72d",
+        "question": "Appointment 41109: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Thursday\nB) Tuesday\nC) Friday\nD) Monday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "cc7c53fa89df2facc1a22c98cfca1afde2fe3dc7c5af980e393a1a3aa79948f8",
+        "question": "Write one JSON object from this inventory row: code is \"tag42100\" and amount is the integer 12. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42100\",\"amount\":12}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42100",
+          "amount": 12
+        }
+      },
+      {
+        "task_id": "c899912bf5e7ebd6f2c46529c3730c55e0b07c9e50a6963643be4178ae2d259f",
+        "question": "Python test 41108:\n```python\nx = 3\nprint(x * 2 + 1)\n```\nWhat is printed?\nA) 6\nB) 7\nC) 4\nD) 5\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "f661167b6f51fc76664e960bd57a66c7ab9cdf07770524cff342df9fcea4328b",
+        "question": "Express these facts in exactly one sentence without extra facts: \"Talu43101 repairs boats. Talu43101 works at Dock 22.\"",
+        "reference": "Talu43101 repairs boats at Dock 22.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Talu43101",
+          "Dock 22"
+        ]
+      },
+      {
+        "task_id": "73bdb989b9e0989fb6cc4b3050b533e1bae5a853e9ffbb4437a387401b53921d",
+        "question": "Python test 41104:\n```python\nv = [73, 76, 8]\nv.reverse()\nprint(v[0])\n```\nWhat is printed?\nA) 73\nB) 76\nC) Error\nD) 8\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "8b5dc76fb6fd771b548537e41bde262410609b6100c9f987332da29fac5eaaf8",
+        "question": "Appointment 41107: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Friday\nB) Tuesday\nC) Thursday\nD) Monday\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "492787e7af41f008720b2b02dca8dbaafa10d0c2def1341f91c3ff29ff0ca49a",
+        "question": "Python test 41102:\n```python\nx = 6\nprint(x * 2 + 1)\n```\nWhat is printed?\nA) 11\nB) 12\nC) 13\nD) 7\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "5f19f7996c25cf6a3d1ba331b3a2bc5e3edfa2b3ad5142effce163fbeb465647",
+        "question": "Badge check 41104: If a person has a bronze badge, the person may enter. Rilo41104 has a bronze badge. Which statement must be true?\nA) Rilo41104 may enter\nB) Everyone has a bronze badge\nC) Rilo41104 cannot enter\nD) Nobody may enter\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "e1c7307672d41292e2016e3b4a1dbeba84a03ddfb9dcfe254da31df2ec9942a8",
+        "question": "Appointment 41103: The meeting was first scheduled for Monday but a notice changes it to Thursday. The notice is final. On which day will the meeting occur?\nA) Tuesday\nB) Friday\nC) Thursday\nD) Monday\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "7eb7c4148ab880f5d834d7133f622b5f7f81820e3193366a838b15a21e623136",
+        "question": "Write one JSON object from this inventory row: code is \"tag42106\" and amount is the integer 18. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42106\",\"amount\":18}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42106",
+          "amount": 18
+        }
+      },
+      {
+        "task_id": "139a992f9d430b594daaf3a69f3744106fab5c431baeea68ec3a30d21fc071f4",
+        "question": "Python test 41109:\n```python\nv = {\"oak\": 60, \"elm\": 33}\nprint(v[\"elm\"])\n```\nWhat is printed?\nA) Error\nB) 60\nC) 33\nD) 93\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "d976aa704fd071fb20aeaf732eaa9f4be4db978b3ba9ea0117995306cc99f118",
+        "question": "Python test 41100:\n```python\nv = {\"oak\": 23, \"elm\": 29}\nprint(v[\"elm\"])\n```\nWhat is printed?\nA) 52\nB) 29\nC) 23\nD) Error\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice"
+      },
+      {
+        "task_id": "4ed85a6abde947a6217d90669a57990879ac3cc70a9772b99b3300c738831b27",
+        "question": "Write one JSON object from this inventory row: code is \"tag42101\" and amount is the integer 13. Use exactly those two keys. Return only JSON.",
+        "reference": "{\"code\":\"tag42101\",\"amount\":13}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "code": "tag42101",
+          "amount": 13
+        }
+      },
+      {
+        "task_id": "173d632efaa25d17e32763ef15c9b0f07ef90c61bcd158fce4f1c8f809aec034",
+        "question": "A rover at distance marker 61 travels forward 65 units and then backward 4 units. At which distance marker does it stop?\nA) 130\nB) 65\nC) -8\nD) 122\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice"
+      }
+    ]
+  },
+  "study_manifest": "./data/stable_runtime_7437bcc4afc44d6d958ba98ed2f41628/MANIFEST.json"
+}

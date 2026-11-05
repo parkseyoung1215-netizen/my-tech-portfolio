@@ -1,0 +1,13 @@
+dataset,method,point_pareto,dominated_by,note
+replay64,baseline,False,"[""boundary"", ""confidence"", ""adaptive""]","Observed means, not statistical dominance or a full cap sweep"
+replay64,fixed8,True,[],"Observed means, not statistical dominance or a full cap sweep"
+replay64,fixed16,False,"[""boundary"", ""adaptive""]","Observed means, not statistical dominance or a full cap sweep"
+replay64,boundary,True,[],"Observed means, not statistical dominance or a full cap sweep"
+replay64,confidence,False,"[""boundary"", ""adaptive""]","Observed means, not statistical dominance or a full cap sweep"
+replay64,adaptive,False,"[""boundary""]","Observed means, not statistical dominance or a full cap sweep"
+fresh64,baseline,False,"[""boundary"", ""confidence"", ""adaptive""]","Observed means, not statistical dominance or a full cap sweep"
+fresh64,fixed8,True,[],"Observed means, not statistical dominance or a full cap sweep"
+fresh64,fixed16,True,[],"Observed means, not statistical dominance or a full cap sweep"
+fresh64,boundary,True,[],"Observed means, not statistical dominance or a full cap sweep"
+fresh64,confidence,False,"[""boundary""]","Observed means, not statistical dominance or a full cap sweep"
+fresh64,adaptive,True,[],"Observed means, not statistical dominance or a full cap sweep"

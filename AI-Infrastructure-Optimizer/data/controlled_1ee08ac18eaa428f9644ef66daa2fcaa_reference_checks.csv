@@ -1,0 +1,787 @@
+question,reference_output,expected_option,matches
+"What does this Python program output?
+```python
+print([n for n in range(66, 71) if n % 2 == 0])
+```
+A) []
+B) [66, 68, 70]
+C) Error
+D) [66, 67, 68, 69, 70]","[66, 68, 70]","[66, 68, 70]",True
+"What does this Python program output?
+```python
+d = {'x': 66}
+print(d.get('z', 7) + d['x'])
+```
+A) 7
+B) 73
+C) Error
+D) 66",73,73,True
+"What does this Python program output?
+```python
+v = [62, 64, 67]
+print(v[1:][0])
+```
+A) 62
+B) 67
+C) 64
+D) Error",64,64,True
+"What does this Python program output?
+```python
+print([n for n in range(62, 67) if n % 2 == 0])
+```
+A) [62, 64, 66]
+B) Error
+C) [62, 63, 64, 65, 66]
+D) []","[62, 64, 66]","[62, 64, 66]",True
+"What does this Python program output?
+```python
+d = {'x': 64}
+print(d.get('z', 7) + d['x'])
+```
+A) 7
+B) 64
+C) 71
+D) Error",71,71,True
+"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",68,68,True
+"What does this Python program output?
+```python
+v = [63, 65, 68]
+print(v[1:][0])
+```
+A) 68
+B) 65
+C) Error
+D) 63",65,65,True
+"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",256,256,True
+"What does this Python program output?
+```python
+v = [61, 63, 66]
+print(v[1:][0])
+```
+A) Error
+B) 66
+C) 61
+D) 63",63,63,True
+"What does this Python program output?
+```python
+s = '  wave51 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 3
+C) 4
+D) Error",3,3,True
+"What does this Python program output?
+```python
+print(sum(range(66, 73, 2)))
+```
+A) Error
+B) 276
+C) 264
+D) 73",276,276,True
+"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",260,260,True
+"What does this Python program output?
+```python
+v = [64, 66, 69]
+print(v[1:][0])
+```
+A) 64
+B) Error
+C) 66
+D) 69",66,66,True
+"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",3,3,True
+"What does this Python program output?
+```python
+s = '  wave56 blue sky  '
+print(len(s.strip().split()))
+```
+A) Error
+B) 2
+C) 3
+D) 4",3,3,True
+"What does this Python program output?
+```python
+print([n for n in range(61, 66) if n % 2 == 0])
+```
+A) []
+B) Error
+C) [61, 62, 63, 64, 65]
+D) [62, 64]","[62, 64]","[62, 64]",True
+"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",268,268,True
+"What does this Python program output?
+```python
+d = {'x': 62}
+print(d.get('z', 7) + d['x'])
+```
+A) 69
+B) 7
+C) Error
+D) 62",69,69,True
+"What does this Python program output?
+```python
+d = {'x': 63}
+print(d.get('z', 7) + d['x'])
+```
+A) 70
+B) 63
+C) 7
+D) Error",70,70,True
+"What does this Python program output?
+```python
+print([n for n in range(64, 69) if n % 2 == 0])
+```
+A) [64, 66, 68]
+B) Error
+C) []
+D) [64, 65, 66, 67, 68]","[64, 66, 68]","[64, 66, 68]",True
+"What does this Python program output?
+```python
+print(sum(range(63, 70, 2)))
+```
+A) Error
+B) 252
+C) 70
+D) 264",264,264,True
+"What does this Python program output?
+```python
+print(sum(range(65, 72, 2)))
+```
+A) 272
+B) 72
+C) 260
+D) Error",272,272,True
+"What does this Python program output?
+```python
+s = '  wave52 blue sky  '
+print(len(s.strip().split()))
+```
+A) 4
+B) 2
+C) 3
+D) Error",3,3,True
+"What does this Python program output?
+```python
+d = {'x': 65}
+print(d.get('z', 7) + d['x'])
+```
+A) 72
+B) 65
+C) Error
+D) 7",72,72,True
+"What does this Python program output?
+```python
+v = [65, 67, 70]
+print(v[1:][0])
+```
+A) 70
+B) Error
+C) 67
+D) 65",67,67,True
+"What does this Python program output?
+```python
+s = '  wave55 blue sky  '
+print(len(s.strip().split()))
+```
+A) 3
+B) Error
+C) 2
+D) 4",3,3,True
+"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",68,68,True
+"What does this Python program output?
+```python
+print([n for n in range(65, 70) if n % 2 == 0])
+```
+A) [66, 68]
+B) []
+C) Error
+D) [65, 66, 67, 68, 69]","[66, 68]","[66, 68]",True
+"What does this Python program output?
+```python
+s = '  wave53 blue sky  '
+print(len(s.strip().split()))
+```
+A) 4
+B) 3
+C) 2
+D) Error",3,3,True
+"What does this Python program output?
+```python
+print([n for n in range(63, 68) if n % 2 == 0])
+```
+A) Error
+B) []
+C) [63, 64, 65, 66, 67]
+D) [64, 66]","[64, 66]","[64, 66]",True
+"What does this Python program output?
+```python
+d = {'a': 156, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 11
+B) Error
+C) 161
+D) 16",16,16,True
+"What does this Python program output?
+```python
+d = {'a': 160, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) Error
+B) 165
+C) 11
+D) 16",16,16,True
+"What does this Python program output?
+```python
+d = {'a': 155, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 16
+B) 11
+C) 160
+D) Error",16,16,True
+"What does this Python program output?
+```python
+a = [154, 160, 165, 173]
+print(a[1:][1])
+```
+A) 173
+B) 160
+C) Error
+D) 165",165,165,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(158, 163) if n % 2 == 0])
+```
+A) [158, 160, 162]
+B) [316, 320, 324]
+C) []
+D) Error","[316, 320, 324]","[316, 320, 324]",True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(161, 170, 3)]
+print(sum(values))
+```
+A) 483
+B) 170
+C) 498
+D) Error",498,498,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(155, 160) if n % 2 == 0])
+```
+A) [156, 158]
+B) []
+C) [312, 316]
+D) Error","[312, 316]","[312, 316]",True
+"What does this Python program output?
+```python
+a = [155, 161, 166, 174]
+print(a[1:][1])
+```
+A) 161
+B) 166
+C) 174
+D) Error",166,166,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(152, 157) if n % 2 == 0])
+```
+A) Error
+B) [304, 308, 312]
+C) []
+D) [152, 154, 156]","[304, 308, 312]","[304, 308, 312]",True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(154, 163, 3)]
+print(sum(values))
+```
+A) 462
+B) 163
+C) 477
+D) Error",477,477,True
+"What does this Python program output?
+```python
+a = [162, 168, 173, 181]
+print(a[1:][1])
+```
+A) 181
+B) 173
+C) 168
+D) Error",173,173,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(156, 165, 3)]
+print(sum(values))
+```
+A) 468
+B) 483
+C) 165
+D) Error",483,483,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(159, 168, 3)]
+print(sum(values))
+```
+A) 492
+B) 477
+C) Error
+D) 168",492,492,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(157, 162) if n % 2 == 0])
+```
+A) Error
+B) [158, 160]
+C) []
+D) [316, 320]","[316, 320]","[316, 320]",True
+"What does this Python program output?
+```python
+a = [157, 163, 168, 176]
+print(a[1:][1])
+```
+A) Error
+B) 176
+C) 168
+D) 163",168,168,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(158, 167, 3)]
+print(sum(values))
+```
+A) 474
+B) Error
+C) 489
+D) 167",489,489,True
+"What does this Python program output?
+```python
+d = {'a': 154, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 11
+B) 16
+C) Error
+D) 159",16,16,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(160, 165) if n % 2 == 0])
+```
+A) []
+B) [160, 162, 164]
+C) Error
+D) [320, 324, 328]","[320, 324, 328]","[320, 324, 328]",True
+"What does this Python program output?
+```python
+s = 'oak2412,elm,pine'
+print(len(s.split(',')))
+```
+A) 3
+B) 2
+C) 4
+D) Error",3,3,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(153, 162, 3)]
+print(sum(values))
+```
+A) 459
+B) 162
+C) 474
+D) Error",474,474,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(155, 164, 3)]
+print(sum(values))
+```
+A) 164
+B) 480
+C) Error
+D) 465",480,480,True
+"What does this Python program output?
+```python
+d = {'a': 159, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 164
+B) 16
+C) Error
+D) 11",16,16,True
+"What does this Python program output?
+```python
+a = [160, 166, 171, 179]
+print(a[1:][1])
+```
+A) 179
+B) 171
+C) Error
+D) 166",171,171,True
+"What does this Python program output?
+```python
+d = {'a': 151, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 156
+B) 11
+C) Error
+D) 16",16,16,True
+"What does this Python program output?
+```python
+s = 'oak2402,elm,pine'
+print(len(s.split(',')))
+```
+A) 3
+B) 2
+C) 4
+D) Error",3,3,True
+"What does this Python program output?
+```python
+s = 'oak2406,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 4
+C) 3
+D) 2",3,3,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(159, 164) if n % 2 == 0])
+```
+A) Error
+B) [320, 324]
+C) [160, 162]
+D) []","[320, 324]","[320, 324]",True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(153, 158) if n % 2 == 0])
+```
+A) Error
+B) [308, 312]
+C) []
+D) [154, 156]","[308, 312]","[308, 312]",True
+"What does this Python program output?
+```python
+s = 'oak2401,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 3
+C) 4
+D) 2",3,3,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(154, 159) if n % 2 == 0])
+```
+A) []
+B) [308, 312, 316]
+C) Error
+D) [154, 156, 158]","[308, 312, 316]","[308, 312, 316]",True
+"What does this Python program output?
+```python
+a = [159, 165, 170, 178]
+print(a[1:][1])
+```
+A) 170
+B) 165
+C) Error
+D) 178",170,170,True
+"What does this Python program output?
+```python
+d = {'a': 152, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) Error
+B) 16
+C) 11
+D) 157",16,16,True
+"What does this Python program output?
+```python
+d = {'a': 161, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 166
+B) 11
+C) 16
+D) Error",16,16,True
+"What does this Python program output?
+```python
+s = 'oak2404,elm,pine'
+print(len(s.split(',')))
+```
+A) 2
+B) 3
+C) Error
+D) 4",3,3,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(156, 161) if n % 2 == 0])
+```
+A) [156, 158, 160]
+B) [312, 316, 320]
+C) []
+D) Error","[312, 316, 320]","[312, 316, 320]",True
+"What does this Python program output?
+```python
+d = {'a': 158, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 11
+B) 16
+C) Error
+D) 163",16,16,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(162, 167) if n % 2 == 0])
+```
+A) [162, 164, 166]
+B) []
+C) [324, 328, 332]
+D) Error","[324, 328, 332]","[324, 328, 332]",True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(157, 166, 3)]
+print(sum(values))
+```
+A) 166
+B) 486
+C) 471
+D) Error",486,486,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(151, 160, 3)]
+print(sum(values))
+```
+A) 453
+B) 160
+C) 468
+D) Error",468,468,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(151, 156) if n % 2 == 0])
+```
+A) []
+B) Error
+C) [304, 308]
+D) [152, 154]","[304, 308]","[304, 308]",True
+"What does this Python program output?
+```python
+a = [161, 167, 172, 180]
+print(a[1:][1])
+```
+A) 180
+B) 167
+C) Error
+D) 172",172,172,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(152, 161, 3)]
+print(sum(values))
+```
+A) 161
+B) 471
+C) Error
+D) 456",471,471,True
+"What does this Python program output?
+```python
+a = [151, 157, 162, 170]
+print(a[1:][1])
+```
+A) 157
+B) 170
+C) 162
+D) Error",162,162,True
+"What does this Python program output?
+```python
+s = 'oak2410,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 2
+C) 4
+D) 3",3,3,True
+"What does this Python program output?
+```python
+d = {'a': 162, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 167
+B) 16
+C) Error
+D) 11",16,16,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(162, 171, 3)]
+print(sum(values))
+```
+A) 171
+B) Error
+C) 501
+D) 486",501,501,True
+"What does this Python program output?
+```python
+a = [153, 159, 164, 172]
+print(a[1:][1])
+```
+A) 159
+B) 164
+C) Error
+D) 172",164,164,True
+"What does this Python program output?
+```python
+a = [156, 162, 167, 175]
+print(a[1:][1])
+```
+A) 162
+B) 175
+C) Error
+D) 167",167,167,True
+"What does this Python program output?
+```python
+s = 'oak2408,elm,pine'
+print(len(s.split(',')))
+```
+A) 3
+B) 4
+C) 2
+D) Error",3,3,True
+"What does this Python program output?
+```python
+print([n * 2 for n in range(161, 166) if n % 2 == 0])
+```
+A) Error
+B) [324, 328]
+C) [162, 164]
+D) []","[324, 328]","[324, 328]",True
+"What does this Python program output?
+```python
+a = [152, 158, 163, 171]
+print(a[1:][1])
+```
+A) 158
+B) 171
+C) 163
+D) Error",163,163,True
+"What does this Python program output?
+```python
+d = {'a': 157, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) Error
+B) 162
+C) 11
+D) 16",16,16,True
+"What does this Python program output?
+```python
+a = [158, 164, 169, 177]
+print(a[1:][1])
+```
+A) Error
+B) 169
+C) 164
+D) 177",169,169,True
+"What does this Python program output?
+```python
+s = 'oak2405,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 4
+C) 3
+D) 2",3,3,True
+"What does this Python program output?
+```python
+values = [n + 2 for n in range(160, 169, 3)]
+print(sum(values))
+```
+A) Error
+B) 480
+C) 495
+D) 169",495,495,True
+"What does this Python program output?
+```python
+s = 'oak2411,elm,pine'
+print(len(s.split(',')))
+```
+A) 3
+B) Error
+C) 4
+D) 2",3,3,True
+"What does this Python program output?
+```python
+s = 'oak2409,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 2
+C) 4
+D) 3",3,3,True
+"What does this Python program output?
+```python
+s = 'oak2403,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 2
+C) 4
+D) 3",3,3,True
+"What does this Python program output?
+```python
+s = 'oak2407,elm,pine'
+print(len(s.split(',')))
+```
+A) Error
+B) 2
+C) 3
+D) 4",3,3,True
+"What does this Python program output?
+```python
+d = {'a': 153, 'b': 5}
+print(d.get('c', 11) + d['b'])
+```
+A) 158
+B) Error
+C) 16
+D) 11",16,16,True

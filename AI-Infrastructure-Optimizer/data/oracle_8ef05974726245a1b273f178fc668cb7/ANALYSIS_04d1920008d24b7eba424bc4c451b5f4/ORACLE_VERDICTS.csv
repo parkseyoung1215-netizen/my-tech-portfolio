@@ -1,0 +1,16 @@
+dataset,rate,conditional_opportunity,no_observed_accuracy_loss,individual_loss_questions,format_not_lower,baseline_quality_nonzero,matched_wall_saving,matched_ci_high,all_five_repeats_faster,population_noninferiority_proven
+replay8,10,False,True,0,True,True,0.04624606870100956,1.0036153980104547,True,False
+replay8,20,False,False,2,True,True,0.10588162190519468,0.9487888968613142,True,False
+replay8,30,False,False,2,True,True,0.11654811022726319,0.9681300557497879,True,False
+replay8,40,False,False,2,False,True,0.1965808937369703,0.905429997578953,True,False
+replay8,50,False,False,5,False,True,0.22889348663679332,0.902579733181353,True,False
+fresh8,10,False,True,0,True,True,0.03438599109370699,0.9975266868366477,True,False
+fresh8,20,False,False,2,True,True,0.07478519539364226,0.982915770633382,True,False
+fresh8,30,False,False,2,False,True,0.11874824934293582,0.9571621012973198,True,False
+fresh8,40,False,False,2,False,True,0.18741362414985174,0.9291633262945873,True,False
+fresh8,50,False,False,6,False,True,0.23307072234826165,0.8916252793472839,True,False
+long4,10,False,False,1,False,True,0.05349016253599426,0.9673131854027698,True,False
+long4,20,False,False,1,False,True,0.10431008427421806,0.946113743668793,True,False
+long4,30,False,False,2,False,True,0.17646222180577098,0.8829106583161885,True,False
+long4,40,False,False,2,False,True,0.22820704458732,0.8146770133893491,True,False
+long4,50,False,False,2,False,True,0.2810555107059798,0.7484417916095557,True,False

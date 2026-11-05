@@ -1,0 +1,13 @@
+dataset,variant,profiled_requests,actual_native_attention_mlp_counts_verified,mean_forward_plus_argmax_wall,mean_argmax_wait_wall,mean_native_dispatch_wall,scope
+replay64,legacy_full,12,True,0.68392564971388,0.007808228663634509,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+replay64,legacy_stable1,12,True,0.6738022081553936,0.00780851758706073,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+replay64,legacy_sketch,12,True,0.6590914411353879,0.007870077233140668,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+replay64,lean_full,12,True,0.6967058297013864,0.6583055384107865,0.03697189725547408,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+replay64,lean_stable1,12,True,0.6612714442696112,0.6253391453453029,0.034634408094765,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+replay64,lean_sketch,12,True,0.6415108090926273,0.6006109372441036,0.03131434255434821,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,legacy_full,12,True,0.6636976346489973,0.007235712177741031,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,legacy_stable1,12,True,0.6716812985638777,0.008392555522732437,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,legacy_sketch,12,True,0.6562689797913966,0.007501778018195182,,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,lean_full,12,True,0.6737658306956291,0.6382943370263092,0.034048886057765536,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,lean_stable1,12,True,0.6523560040319959,0.6125490726553835,0.038420820919175945,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."
+fresh64,lean_sketch,12,True,0.6489382573636249,0.6081265379325487,0.031385251049262784,"Heavy instrumentation and first-logit CPU hash; excluded from primary latency. Wait includes queued model work, not GPU elapsed."

@@ -1,0 +1,22 @@
+{
+  "preserved_files_unchanged": true,
+  "preserved_files_checked": 197,
+  "old_task_keys_checked": 1022,
+  "new_calibration_questions": 100,
+  "new_evaluation_questions": 150,
+  "old_or_split_task_overlap": 0,
+  "calibration_profiles_reconstructed": true,
+  "frozen_hashes_valid": true,
+  "all_decisions_reconstructed_from_preverification_information": true,
+  "all_runtime_prompts_checked": true,
+  "scores_formats_and_aggregates_recomputed": true,
+  "evaluation_rows": 4500,
+  "unique_actual_calls": 5332,
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "repeats": 3,
+  "api_errors": 0,
+  "limits": "No guarantee of semantic template independence, calibrated probabilities, exact skipped-call counterfactual cost, or FLOPs savings."
+}

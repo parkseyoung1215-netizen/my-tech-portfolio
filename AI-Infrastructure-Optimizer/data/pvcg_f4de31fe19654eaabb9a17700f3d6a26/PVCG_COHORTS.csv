@@ -1,0 +1,13 @@
+model,control,cohort,unique_questions,accuracy_delta
+qwen2.5:1.5b,selective,A,150,-0.006666666666666667
+qwen2.5:1.5b,selective,B,150,-0.04
+qwen2.5:1.5b,none,A,150,0
+qwen2.5:1.5b,none,B,150,0
+qwen2.5:1.5b,full,A,150,0.06
+qwen2.5:1.5b,full,B,150,0.08666666666666667
+qwen2.5:0.5b,selective,A,150,0.012
+qwen2.5:0.5b,selective,B,150,0
+qwen2.5:0.5b,none,A,150,0
+qwen2.5:0.5b,none,B,150,0
+qwen2.5:0.5b,full,A,150,0.014666666666666666
+qwen2.5:0.5b,full,B,150,0.006666666666666667

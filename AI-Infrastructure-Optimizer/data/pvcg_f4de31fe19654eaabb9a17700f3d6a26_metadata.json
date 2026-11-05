@@ -1,0 +1,16 @@
+{
+  "prefix": "pvcg_f4de31fe19654eaabb9a17700f3d6a26",
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "repeats": 5,
+  "actual_verification_calls": 4500,
+  "actual_primary_calls": 480,
+  "new_calibration_calls": 360,
+  "outcome_rows": 12000,
+  "verification_loop_seconds": 634.8250289999414,
+  "real_inference": true,
+  "preserved_files": 579,
+  "GPU_FLOPs_power_money": "unmeasured"
+}

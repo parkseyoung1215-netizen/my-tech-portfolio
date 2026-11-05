@@ -1,0 +1,11 @@
+dataset,method,token_probability_bin,repeat_events,unique_questions,mean_selected_token_probability,stopped_content_accuracy,stopped_incomplete_rate,scope
+replay64,confidence,0.9-0.99,36,12,0.971443643172582,0.4166666666666667,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+replay64,confidence,0.99-1.000001,87,29,0.9977308223987448,0.5517241379310345,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+replay64,adaptive,0.75-0.9,24,8,0.811407595872879,0.625,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+replay64,adaptive,0.9-0.99,36,12,0.971443643172582,0.4166666666666667,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+replay64,adaptive,0.99-1.000001,87,29,0.9977308223987448,0.5517241379310345,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+fresh64,confidence,0.9-0.99,48,16,0.9588948003947735,0.625,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+fresh64,confidence,0.99-1.000001,72,24,0.9993820115923882,0.5833333333333334,0.3333333333333333,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+fresh64,adaptive,0.75-0.9,12,4,0.7652381509542465,0.5,0,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+fresh64,adaptive,0.9-0.99,36,12,0.9693092207113901,0.4166666666666667,0.08333333333333333,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.
+fresh64,adaptive,0.99-1.000001,57,19,0.9987428878483019,0.7368421052631579,0.15789473684210525,Stopped candidates only; token likelihood is not an answer-correctness probability. Rejected candidate content not graded.

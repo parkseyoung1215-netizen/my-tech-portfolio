@@ -1,0 +1,18 @@
+{
+  "real_requests": 960,
+  "all_core_checks_passed": true,
+  "fixed_streams_identical": true,
+  "prior_files_unchanged": 7536,
+  "source": "./data/dlr_5a4656b8d37f48dd8a55a0e82b647b37",
+  "reused_events": 105,
+  "gate_queries": 17775,
+  "evaluation_not_used_for_thresholds": true,
+  "semantic_scope": "closed MCQ/typed JSON/color aliases; not full natural-language adjudication",
+  "weights_hashes_checked_on_load": true,
+  "score_source_sha256": {
+    "./src/dlr_runtime.py": "05019d2aab320acc71b7c93f978432ed2411d75dc8bbc1c48d6cb4c58e4b5130",
+    "./src/dlr_experiment.py": "aed6c35507ab1c770ea21e0e37cbf1b47dd0c7acaec1e33d58fa050811dc2ccc",
+    "./src/dlr_policy.py": "a8a5875a994eccb34b0fd210d40a180ba875552ffd7e7ded67d559e3e582737c",
+    "./src/dlr_data.py": "116476e6ad45ed81c1f072c482f4f497d0f479706bf6f5822e99e18c1b1e7fdf"
+  }
+}

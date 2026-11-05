@@ -1,0 +1,9 @@
+{
+  "all_primary_requests_saved_before_export_error": 960,
+  "error": "Frozen snapshot newly added dlr_analysis.py changed by adding verdict output during model execution",
+  "resolution": "Restored exact manifest hash; preserved extended analysis in dlr_analysis_final.py",
+  "runtime_policy_data_score_sources_changed_during_inference": false,
+  "resume_new_requests": 0,
+  "original_console_last_checkpoint_elapsed_seconds": 441.0,
+  "note": "Controller elapsed rounded from real progress log; not per-method latency. Every saved result retained."
+}

@@ -1,0 +1,17 @@
+{
+  "wall_seconds": 3.371002374915406,
+  "device": {
+    "device_name": "Apple M4",
+    "max_recommended_working_set_size": 11453251584,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g16g",
+    "max_buffer_length": 8589934592,
+    "resource_limit": 499000
+  },
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "numpy": "2.5.4",
+    "transformers": "5.22.1"
+  }
+}

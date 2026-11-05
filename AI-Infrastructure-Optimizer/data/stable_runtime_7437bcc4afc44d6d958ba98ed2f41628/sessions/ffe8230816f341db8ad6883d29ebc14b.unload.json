@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "request": {
+        "model": "qwen2.5:0.5b",
+        "keep_alive": 0
+      },
+      "response": {
+        "model": "qwen2.5:0.5b",
+        "created_at": "2026-11-05T12:51:34.978379Z",
+        "response": "",
+        "done": true,
+        "done_reason": "unload"
+      }
+    },
+    {
+      "request": {
+        "model": "qwen2.5:1.5b",
+        "keep_alive": 0
+      },
+      "response": {
+        "model": "qwen2.5:1.5b",
+        "created_at": "2026-11-05T12:51:34.981053Z",
+        "response": "",
+        "done": true,
+        "done_reason": "unload"
+      }
+    }
+  ]
+}

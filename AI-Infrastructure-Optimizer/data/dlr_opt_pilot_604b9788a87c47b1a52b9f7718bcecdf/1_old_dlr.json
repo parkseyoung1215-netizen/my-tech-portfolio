@@ -1,0 +1,403 @@
+{
+  "attention_calls": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+  ],
+  "mlp_calls": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "reused_mlp_calls": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "work_shapes": [
+    [
+      32,
+      32,
+      28,
+      28
+    ],
+    [
+      1,
+      33,
+      28,
+      28
+    ],
+    [
+      1,
+      34,
+      28,
+      28
+    ],
+    [
+      1,
+      35,
+      28,
+      27
+    ],
+    [
+      1,
+      36,
+      28,
+      25
+    ],
+    [
+      1,
+      37,
+      28,
+      27
+    ],
+    [
+      1,
+      38,
+      28,
+      25
+    ],
+    [
+      1,
+      39,
+      28,
+      27
+    ],
+    [
+      1,
+      40,
+      28,
+      25
+    ],
+    [
+      1,
+      41,
+      28,
+      28
+    ]
+  ],
+  "events": [
+    {
+      "step": 1,
+      "layer": 8,
+      "distance": 1.27427077293396,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 12,
+      "distance": 0.9889902472496033,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 16,
+      "distance": 0.8554354310035706,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 1,
+      "layer": 24,
+      "distance": 0.8051005601882935,
+      "reused": false,
+      "anchor_step": 0
+    },
+    {
+      "step": 2,
+      "layer": 8,
+      "distance": 0.9153264760971069,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 12,
+      "distance": 0.7249648571014404,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 16,
+      "distance": 0.7581470012664795,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 2,
+      "layer": 24,
+      "distance": 0.6505531072616577,
+      "reused": false,
+      "anchor_step": 1
+    },
+    {
+      "step": 3,
+      "layer": 8,
+      "distance": 0.6434348821640015,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 12,
+      "distance": 0.6115397810935974,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 16,
+      "distance": 0.5895224809646606,
+      "reused": false,
+      "anchor_step": 2
+    },
+    {
+      "step": 3,
+      "layer": 24,
+      "distance": 0.31420642137527466,
+      "reused": true,
+      "anchor_step": 2
+    },
+    {
+      "step": 4,
+      "layer": 8,
+      "distance": 0.3664507269859314,
+      "reused": true,
+      "anchor_step": 3
+    },
+    {
+      "step": 4,
+      "layer": 12,
+      "distance": 0.43956828117370605,
+      "reused": true,
+      "anchor_step": 3
+    },
+    {
+      "step": 4,
+      "layer": 16,
+      "distance": 0.4866328239440918,
+      "reused": true,
+      "anchor_step": 3
+    },
+    {
+      "step": 5,
+      "layer": 24,
+      "distance": 0.2843349874019623,
+      "reused": true,
+      "anchor_step": 4
+    },
+    {
+      "step": 6,
+      "layer": 8,
+      "distance": 0.18201446533203125,
+      "reused": true,
+      "anchor_step": 5
+    },
+    {
+      "step": 6,
+      "layer": 12,
+      "distance": 0.3594980537891388,
+      "reused": true,
+      "anchor_step": 5
+    },
+    {
+      "step": 6,
+      "layer": 16,
+      "distance": 0.3511924743652344,
+      "reused": true,
+      "anchor_step": 5
+    },
+    {
+      "step": 7,
+      "layer": 24,
+      "distance": 0.31636321544647217,
+      "reused": true,
+      "anchor_step": 6
+    },
+    {
+      "step": 8,
+      "layer": 8,
+      "distance": 0.07086117565631866,
+      "reused": true,
+      "anchor_step": 7
+    },
+    {
+      "step": 8,
+      "layer": 12,
+      "distance": 0.18677257001399994,
+      "reused": true,
+      "anchor_step": 7
+    },
+    {
+      "step": 8,
+      "layer": 16,
+      "distance": 0.26652538776397705,
+      "reused": true,
+      "anchor_step": 7
+    },
+    {
+      "step": 9,
+      "layer": 24,
+      "distance": 0.5486172437667847,
+      "reused": false,
+      "anchor_step": 8
+    }
+  ],
+  "gate_wall_seconds": 0.00540595967322588,
+  "gate_cpu_seconds": 0.002286999999999928,
+  "gate_elements": 36864,
+  "pre_gate_sync_wall_seconds": 0.19514529197476804,
+  "input_tokens": 32,
+  "answer": "hello hello hello hello hello hello hello hello hello",
+  "token_ids": [
+    14990,
+    23811,
+    23811,
+    23811,
+    23811,
+    23811,
+    23811,
+    23811,
+    23811,
+    151645
+  ],
+  "output_tokens": 10,
+  "completion_reason": "eos",
+  "kv_offsets": [
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41
+  ],
+  "wall_seconds": 0.36354670813307166,
+  "cpu_seconds": 0.04467100000000013,
+  "model_wall_seconds": 0.36318658106029034,
+  "model_cpu_seconds": 0.04413700000000187,
+  "model_calls": 1,
+  "analytical_matmul_flops": 111346065408,
+  "cached_activation_payload_bytes": 24576,
+  "mlx_peak_bytes": 3171167540,
+  "mlx_active_bytes": 3095120920,
+  "process_lifetime_rss_peak_bytes": 3138289664,
+  "extra_gate_model_calls": 0,
+  "gpu_time_flops_power_money": null,
+  "fixed_work": false,
+  "gate_queries": 24,
+  "gate_host_scalar_reads": 24,
+  "explicit_pre_gate_evals": 24,
+  "id_comparisons": 0,
+  "gate_graph_host_wall_seconds": 0.0,
+  "gate_graph_host_cpu_seconds": 0.0,
+  "device_gate_gpu_seconds": null,
+  "device_counter_read_batches": 0,
+  "device_custom_projection_calls": 0,
+  "predicted_token_ids": null,
+  "gate_arithmetic_estimate": 184416,
+  "gate_selection_element_count": 0,
+  "limited_net_arithmetic_proxy": 111346249824,
+  "method": "old_dlr",
+  "index": 1,
+  "question": "Repeat the word hello exactly eight times, separated by single spaces."
+}

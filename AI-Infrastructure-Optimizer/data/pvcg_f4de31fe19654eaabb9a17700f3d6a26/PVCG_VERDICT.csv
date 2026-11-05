@@ -1,0 +1,3 @@
+model,success,criteria
+qwen2.5:1.5b,False,"{""accuracy_noninferior_to_selective"": false, ""strict_benefit_over_none"": false, ""measured_cpu_lower_than_selective"": true, ""input_output_tokens_not_increased"": true, ""both_cohorts_benefit_over_none"": false, ""not_skip_all"": false}"
+qwen2.5:0.5b,False,"{""accuracy_noninferior_to_selective"": false, ""strict_benefit_over_none"": false, ""measured_cpu_lower_than_selective"": true, ""input_output_tokens_not_increased"": true, ""both_cohorts_benefit_over_none"": false, ""not_skip_all"": false}"

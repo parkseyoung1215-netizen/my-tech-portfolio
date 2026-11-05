@@ -1,0 +1,1249 @@
+{
+  "datasets": {
+    "replay64": [
+      {
+        "task_id": "6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1",
+        "question": "Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?\nA) Nemi30107 is not blue\nB) Nothing follows\nC) Nemi30107 is blue\nD) Nemi30107 is not a merin\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff",
+        "question": "Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?\nA) Friday\nB) Saturday\nC) Wednesday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7",
+        "question": "Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?\nA) 819\nB) 371\nC) 117\nD) 483\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730",
+        "question": "Python snippet 30103:\n```python\nx = [11, 54, 67]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) 5\nC) Error\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a6cd65e63aa9f9de145fd9ecc1ed2544039d4719fa0f3e4c44f9ce187f1db121",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30202 is a courier. Vera30202 is waiting at Gate 13.\"",
+        "reference": "Vera30202, a courier, is waiting at Gate 13.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30202",
+          "Gate 13"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724",
+        "question": "Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Nemi30104\nC) Selu30104\nD) Pavo30104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67",
+        "question": "Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403",
+        "question": "In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?\nA) -31\nB) -1\nC) 107\nD) 77\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25",
+        "question": "A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?\nA) 67\nB) 65\nC) 9\nD) 63\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424",
+        "question": "Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?\nA) Selu30110\nB) Pavo30110\nC) Nemi30110\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9",
+        "question": "Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30106\nB) Pavo30106\nC) Nobody\nD) Selu30106\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30207 is a courier. Vera30207 is waiting at Gate 18.\"",
+        "reference": "Vera30207, a courier, is waiting at Gate 18.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30207",
+          "Gate 18"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696",
+        "question": "Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?\nA) Tuesday\nB) Wednesday\nC) Saturday\nD) Friday\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30200\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30200",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b",
+        "question": "Python snippet 30110:\n```python\nx = 61\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 0\nB) 68\nC) 61\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12",
+        "question": "Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?\nA) Nemi30104\nB) Selu30104\nC) Pavo30104\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c",
+        "question": "Python snippet 30100:\n```python\nx = [45, 11, 20]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) Error\nB) 4\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151",
+        "question": "In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?\nA) 82\nB) 36\nC) -6\nD) 40\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "128ee3c323c5e2966c1d1f5e524c4f964a97254a833c5bc3bce716ec52585b1f",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30204 is a courier. Vera30204 is waiting at Gate 15.\"",
+        "reference": "Vera30204, a courier, is waiting at Gate 15.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30204",
+          "Gate 15"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee",
+        "question": "Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?\nA) Selu30106\nB) Cannot be determined\nC) Nemi30106\nD) Pavo30106\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151",
+        "question": "Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Pavo30110\nC) Selu30110\nD) Nemi30110\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27",
+        "question": "Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?\nA) Nemi30103 is not blue\nB) Nothing follows\nC) Nemi30103 is not a merin\nD) Nemi30103 is blue\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621",
+        "question": "A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?\nA) 54\nB) 43\nC) 58\nD) 56\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf",
+        "question": "Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?\nA) 232\nB) 103\nC) 112\nD) 412\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30203\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30203",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "876c98f4ae62e1cb4fd76b09131ad4b4ed6854e9d1e75d52ead3258d7e75a4fe",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30205; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30205\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30205",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c",
+        "question": "Python snippet 30111:\n```python\nx = [44, 61, 35]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 105\nB) 79\nC) 96\nD) 140\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c0989b5352f1f68d1b088d1929505d409eca4a032dfd5b3861f777a79c414b50",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30204; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30204\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30204",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30201 is a courier. Vera30201 is waiting at Gate 12.\"",
+        "reference": "Vera30201, a courier, is waiting at Gate 12.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30201",
+          "Gate 12"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42",
+        "question": "Python snippet 30104:\n```python\nx = 11\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 11\nB) 18\nC) 0\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96",
+        "question": "Python snippet 30106:\n```python\nx = [45, 13, 25]\nx.append(3)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) Error\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c",
+        "question": "Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?\nA) 111\nB) 43\nC) 315\nD) 45\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4",
+        "question": "Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30100\nB) Selu30100\nC) Nobody\nD) Pavo30100\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "4cd8a66fbff1f4082de4e047d14e9e8b6e873a6d7c1c580622c527c8b464db5d",
+        "question": "In ledger 30102, an account starts at 20, receives 19, then pays 25. What is its balance?\nA) 26\nB) 14\nC) -24\nD) 64\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "cc4f3babcf0b2a782d3e839ad7dd9b42996574cdcaec489a21766d8dd021ca68",
+        "question": "Memo 30102: Nemi30102 owns a silver compass. Nemi30102 lends the compass to Pavo30102 for one day; ownership does not change. Who owns the compass during that day?\nA) Selu30102\nB) Pavo30102\nC) Nobody\nD) Nemi30102\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c4237f86d463497437f32cc01c242f009679a4c9bf8b024aa673b9f22e3237f2",
+        "question": "Python snippet 30101:\n```python\nx = 43\ny = x + 4\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 43\nB) 47\nC) 4\nD) 0\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "faa516db96ae718320ad4425021559cb9a18f97797e8729babcedc5a1e41783b",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30200 is a courier. Vera30200 is waiting at Gate 11.\"",
+        "reference": "Vera30200, a courier, is waiting at Gate 11.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30200",
+          "Gate 11"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "527ffd4965b036a6c00c67ca38f3f0c8f408cd5ce7f51d00ef48f7501a9a105c",
+        "question": "Log 30105: A package arrives on Tuesday. Nemi30105 stores it until Friday, when Pavo30105 collects it. On which day is it collected?\nA) Wednesday\nB) Friday\nC) Saturday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "19230255ad7e37ddaa5d35b2f927e3fc239ba2ccef4ee2b4017a6d877672509f",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30202; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30202\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30202",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e",
+        "question": "Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?\nA) Nemi30101 is not a merin\nB) Nemi30101 is blue\nC) Nothing follows\nD) Nemi30101 is not blue\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c",
+        "question": "Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?\nA) Pavo30102\nB) Nemi30102\nC) Selu30102\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e",
+        "question": "Python snippet 30109:\n```python\nx = [52, 24, 45]\nx.append(7)\nprint(len(x))\n```\nWhat is printed?\nA) 3\nB) 5\nC) Error\nD) 4\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c",
+        "question": "Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?\nA) Friday\nB) Wednesday\nC) Tuesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "029266ae13a95dd53d9d7d609dbc9a999ee1d92899d96c54204f161185ab2025",
+        "question": "Memo 30108: Nemi30108 owns a silver compass. Nemi30108 lends the compass to Pavo30108 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30108\nB) Pavo30108\nC) Nobody\nD) Selu30108\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5bf15ba833cb1f11824de54e832423b8641cf1a6d6bf9022ce090bdc1e780899",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30205 is a courier. Vera30205 is waiting at Gate 16.\"",
+        "reference": "Vera30205, a courier, is waiting at Gate 16.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30205",
+          "Gate 16"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "f7abc83a8b590e9e744637ad6468f8c2bcb94228518176edc7ac190ecd25ea33",
+        "question": "In ledger 30111, an account starts at 44, receives 61, then pays 35. What is its balance?\nA) 140\nB) -52\nC) 70\nD) 18\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd",
+        "question": "Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?\nA) Nemi30105 is not a merin\nB) Nemi30105 is not blue\nC) Nemi30105 is blue\nD) Nothing follows\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30207\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30207",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d",
+        "question": "Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?\nA) Nemi30109 is not a merin\nB) Nothing follows\nC) Nemi30109 is not blue\nD) Nemi30109 is blue\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30",
+        "question": "Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?\nA) Nemi30111 is blue\nB) Nothing follows\nC) Nemi30111 is not a merin\nD) Nemi30111 is not blue\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "93513aeefb88aca8b1453283df7459f4e61362247728c7c05a823ab53ea0dda1",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30206; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30206\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30206",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5",
+        "question": "Python snippet 30102:\n```python\nx = [20, 19, 25]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 45\nB) 39\nC) 44\nD) 64\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30206 is a courier. Vera30206 is waiting at Gate 17.\"",
+        "reference": "Vera30206, a courier, is waiting at Gate 17.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30206",
+          "Gate 17"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53",
+        "question": "Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?\nA) Friday\nB) Tuesday\nC) Saturday\nD) Wednesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "09efe4670c00903ecac5feb4b06ea1668962552dec4181f9b678391d713c47c2",
+        "question": "Queue 30100: Nemi30100 stands immediately before Pavo30100, and Pavo30100 immediately before Selu30100. The queue contains only these three people. Who is in the middle?\nA) Pavo30100\nB) Selu30100\nC) Nemi30100\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175",
+        "question": "Python snippet 30108:\n```python\nx = [38, 21, 23]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 59\nB) 82\nC) 61\nD) 44\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d",
+        "question": "Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?\nA) 410\nB) 236\nC) 294\nD) 82\nReturn only the option letter.",
+        "reference": "C",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6",
+        "question": "Combine into one concise sentence without adding facts: \"Vera30203 is a courier. Vera30203 is waiting at Gate 14.\"",
+        "reference": "Vera30203, a courier, is waiting at Gate 14.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "required": [
+          "Vera30203",
+          "Gate 14"
+        ],
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "daa4a76b6a39b41f28fc3f97a75ffb459eb7e6ada4eb2fdc2c8827d10985f824",
+        "question": "Queue 30108: Nemi30108 stands immediately before Pavo30108, and Pavo30108 immediately before Selu30108. The queue contains only these three people. Who is in the middle?\nA) Pavo30108\nB) Selu30108\nC) Cannot be determined\nD) Nemi30108\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30201\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30201",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5a1c09231a484fae6ef54ee4f3a6367cdd57ba45bf6a7d2fbdd5a5a94a0402d3",
+        "question": "A tray contains 45 red and 13 blue beads. After removing 3 red beads, how many beads remain?\nA) 55\nB) 58\nC) 42\nD) 61\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "ec0a0a19b231b21eb60c187c6533e09d7353bd76784a9a4df2fd20a61e6c833b",
+        "question": "Python snippet 30107:\n```python\nx = 53\ny = x + 5\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 5\nB) 53\nC) 58\nD) 0\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a",
+        "question": "A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?\nA) 69\nB) 45\nC) 76\nD) 83\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0",
+        "question": "Python snippet 30105:\n```python\nx = [38, 54, 15]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 107\nB) 69\nC) 92\nD) 53\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      }
+    ],
+    "fresh64": [
+      {
+        "task_id": "384b916e4cce91780a086c3ac1bb4efbd39d0f2f6791c4ea11f4976ebfb038ab",
+        "question": "Receipt 51105: Daro51105 hands a token to Envi51105. Envi51105 hands it to Fomu51105. Fomu51105 keeps it. Who finally holds the token?\nA) Nobody\nB) Fomu51105\nC) Daro51105\nD) Envi51105\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "2e8bda8b529a837a80d8a58206c38a6adc21016372382ec1cd117f453482e338",
+        "question": "Rule note 51104: Every lum is a vek. Every vek can swim. Daro51104 is a lum. What must follow?\nA) Daro51104 can swim\nB) No conclusion follows\nC) Daro51104 is not a vek\nD) Daro51104 cannot swim\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "65f2c2dded8f768ba04e7141bb9dd872cd342e49b5a6a917e38b8043cb5bf9a6",
+        "question": "Batch ticket 51104: 2 bins each contain 22 bolts. Then 57 bolts are taken away from the combined total. How many remain?\nA) -13\nB) 101\nC) -70\nD) 77\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "4606fed869d0def46f90fd869bc47adffbc37bed07534920ec0a5243f059e346",
+        "question": "Inventory ticket 51101: A rack has 64 tools and receives 55 more. What is the new count?\nA) 9\nB) 120\nC) 3520\nD) 119\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "9d667d4b696b2d22ed770f7e575474162f853b794b4da11df1911cf44327d576",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53104 is a artist. Leno53104 works at Studio 35.\"",
+        "reference": "Leno53104 is a artist working at Studio 35.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53104",
+          "artist",
+          "Studio 35"
+        ]
+      },
+      {
+        "task_id": "ca39073064d6c07b143575755367e87562dd28946e9ab9342efc997fd59952ec",
+        "question": "Batch ticket 51106: 2 bins each contain 20 bolts. Then 51 bolts are taken away from the combined total. How many remain?\nA) -11\nB) -62\nC) 69\nD) 91\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "84182d2560face6d35c4a376f3dfa7e3860c5ca05c403e2e6907cbed22531b70",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53110 is a doctor. Dr. Leno53110 works at Studio 41.\"",
+        "reference": "Dr. Leno53110 is a doctor working at Studio 41.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53110",
+          "doctor",
+          "Studio 41"
+        ]
+      },
+      {
+        "task_id": "2ce223728b5c1208a952d4c26b8d3f9827da8a4731660dc1d1b93c907692c32c",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52106\", quantity=9.",
+        "reference": "{\"code\":\"acs52106\",\"quantity\":9}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52106",
+          "quantity": 9
+        }
+      },
+      {
+        "task_id": "c1d2a9ffbbabc5408bb36b6617e2e24e859e4de20da1fc8be509370628d0d6be",
+        "question": "Order note 51101: Daro51101 finishes before Envi51101; Envi51101 finishes before Fomu51101. Who finishes first?\nA) Envi51101\nB) Cannot be determined\nC) Daro51101\nD) Fomu51101\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "75a4dd9c9a7b1011980ec8e6a39ecc5e0fd0129ebe0e05eef375840bff5654e3",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53105 is a artist. Leno53105 works at Studio 36.\"",
+        "reference": "Leno53105 is a artist working at Studio 36.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53105",
+          "artist",
+          "Studio 36"
+        ]
+      },
+      {
+        "task_id": "8bfef8b889b62ebe4dba8e42196f52735581cb4e6f9521511175b213f23d8aa1",
+        "question": "Batch ticket 51105: 7 bins each contain 64 bolts. Then 54 bolts are taken away from the combined total. How many remain?\nA) 70\nB) 111\nC) 502\nD) 394\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "ab4941bb84649f3e4aaf58af8f9ed92be25897cce8ec34255184814f6fb1e6ba",
+        "question": "Receipt 51100: Daro51100 buys a violet bag from Envi51100. The sale transfers ownership to the buyer. Who owns the bag after the sale?\nA) Envi51100\nB) Nobody\nC) Fomu51100\nD) Daro51100\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "186fe37027a8acebceee714870aeafa99a84f5a446e773cd246183543a0260f7",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52109\", quantity=12, status=\"ready\".",
+        "reference": "{\"code\":\"acs52109\",\"quantity\":12,\"status\":\"ready\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52109",
+          "quantity": 12,
+          "status": "ready"
+        }
+      },
+      {
+        "task_id": "3aeb40b38a371d44df02d21f0f6e9bdac9dc4197246b22be1fa2834add8dda16",
+        "question": "Order note 51100: Daro51100 finishes before Envi51100; Envi51100 finishes before Fomu51100. Who finishes first?\nA) Fomu51100\nB) Cannot be determined\nC) Daro51100\nD) Envi51100\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "db7433581fa9c72ae93222cc13b691f7492007c1a22820622478fa14b70db844",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52111\", quantity=14, status=\"ready\".",
+        "reference": "{\"code\":\"acs52111\",\"quantity\":14,\"status\":\"ready\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52111",
+          "quantity": 14,
+          "status": "ready"
+        }
+      },
+      {
+        "task_id": "4e2095b0d341d4223bd243482f9750fc487e47b223cb0ac83f0eaaa6553dbf38",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53114 is a doctor. Dr. Leno53114 works at Studio 45.\"",
+        "reference": "Dr. Leno53114 is a doctor working at Studio 45.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53114",
+          "doctor",
+          "Studio 45"
+        ]
+      },
+      {
+        "task_id": "ceaffb52697fe514c9b1d041d1c1d6f528263d91abdf6f49de4978a4dc66d175",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53101 is a artist. Leno53101 works at Studio 32.\"",
+        "reference": "Leno53101 is a artist working at Studio 32.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53101",
+          "artist",
+          "Studio 32"
+        ]
+      },
+      {
+        "task_id": "a6c2454f22287ef0a07f281af769b0b091e8d95c48364651a5a0b8300c9941bf",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53108 is a doctor. Dr. Leno53108 works at Studio 39.\"",
+        "reference": "Dr. Leno53108 is a doctor working at Studio 39.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53108",
+          "doctor",
+          "Studio 39"
+        ]
+      },
+      {
+        "task_id": "8ca2a9d599490fc81978d780ca771457c75d6652941735280beb0fad6d08cca7",
+        "question": "Inventory ticket 51103: A rack has 23 tools and receives 18 more. What is the new count?\nA) 5\nB) 414\nC) 42\nD) 41\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "7808bc30569d477ac39675518f87caa882e9b60f3b4bfb3e085db24d04fbfafd",
+        "question": "Python card 51105:\n```python\na = [64, 54, 7]\nx = a.pop()\nprint(len(a) + x)\n```\nWhat is printed?\nA) 7\nB) 118\nC) 9\nD) 10\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "3ce908804e9c83b597c0c05d8c263668c60f7a2c85a3970e3ae0bd0134b51ad8",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53109 is a doctor. Dr. Leno53109 works at Studio 40.\"",
+        "reference": "Dr. Leno53109 is a doctor working at Studio 40.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53109",
+          "doctor",
+          "Studio 40"
+        ]
+      },
+      {
+        "task_id": "b1fa28e93ccfc280ce82b7e6a1d743cc2ea2b1dfbf71190f65b59efdd6d8c79f",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53102 is a artist. Leno53102 works at Studio 33.\"",
+        "reference": "Leno53102 is a artist working at Studio 33.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53102",
+          "artist",
+          "Studio 33"
+        ]
+      },
+      {
+        "task_id": "4c5980019ccb88f268e1bc2e4998c6f3ae32957ecf214b8638e3c5becdf43047",
+        "question": "Batch ticket 51107: 6 bins each contain 16 bolts. Then 52 bolts are taken away from the combined total. How many remain?\nA) 44\nB) 148\nC) 62\nD) -216\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "708a6fca69ea0c76efba9710fbdf515799e2316f293a0c2ca86baf6b7619389f",
+        "question": "Python card 51100:\n```python\na = [55, 30]\nprint(a[1])\n```\nWhat is printed?\nA) 85\nB) Error\nC) 55\nD) 30\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "5e2c97736566dad4e307d64496dee3bfc2783f559337554b47cc3a45400a4e0a",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52101\", quantity=4.",
+        "reference": "{\"code\":\"acs52101\",\"quantity\":4}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52101",
+          "quantity": 4
+        }
+      },
+      {
+        "task_id": "99fa69fcdbd4c8158d02b216b6c8f0b4282e7c030457e1c3fcb0b6d14fd8b03d",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53106 is a artist. Leno53106 works at Studio 37.\"",
+        "reference": "Leno53106 is a artist working at Studio 37.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53106",
+          "artist",
+          "Studio 37"
+        ]
+      },
+      {
+        "task_id": "e044163cd0a600e2cd9e5dd053c20aa2fd79b8750088a6e435870294bcd268d3",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52112\", quantity=15, status=\"on hold\".",
+        "reference": "{\"code\":\"acs52112\",\"quantity\":15,\"status\":\"on hold\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52112",
+          "quantity": 15,
+          "status": "on hold"
+        }
+      },
+      {
+        "task_id": "c765769ee421bf7f39f48e1ca8c1d649962f5a7bc4739d5dfd12869f43faab42",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53115 is a doctor. Dr. Leno53115 works at Studio 46.\"",
+        "reference": "Dr. Leno53115 is a doctor working at Studio 46.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53115",
+          "doctor",
+          "Studio 46"
+        ]
+      },
+      {
+        "task_id": "3d47f69434cb827975f623b0be6dc08ecbe51df0767256cda725602a48e0f9b6",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53100 is a artist. Leno53100 works at Studio 31.\"",
+        "reference": "Leno53100 is a artist working at Studio 31.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53100",
+          "artist",
+          "Studio 31"
+        ]
+      },
+      {
+        "task_id": "95b226b4681319c8d8e072dd536932f490429f648f2c9dc436a7cdf5dc102fb0",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52114\", quantity=17, status=\"on hold\".",
+        "reference": "{\"code\":\"acs52114\",\"quantity\":17,\"status\":\"on hold\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52114",
+          "quantity": 17,
+          "status": "on hold"
+        }
+      },
+      {
+        "task_id": "973fad908ebfcdae3b7a0c23885f58f15b32cb138881e0e9e5c852dd0d59f2bd",
+        "question": "Receipt 51102: Daro51102 buys a violet bag from Envi51102. The sale transfers ownership to the buyer. Who owns the bag after the sale?\nA) Nobody\nB) Daro51102\nC) Fomu51102\nD) Envi51102\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "9a700fdc34b5ac1de8a1b341aac206f5da30795926f2e139820ff2b2ce8232dc",
+        "question": "Python card 51102:\n```python\na = [55, 14]\nprint(a[1])\n```\nWhat is printed?\nA) 55\nB) 69\nC) 14\nD) Error\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "65e0cc84735af975499624f2a00e592dfbfabbdbed3b4e3f61fa6d5d068ddec4",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53111 is a doctor. Dr. Leno53111 works at Studio 42.\"",
+        "reference": "Dr. Leno53111 is a doctor working at Studio 42.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53111",
+          "doctor",
+          "Studio 42"
+        ]
+      },
+      {
+        "task_id": "5a87d188cd11db876f15dde1a7f402a1e269c2f6485e01070f261406ccda78eb",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52107\", quantity=10.",
+        "reference": "{\"code\":\"acs52107\",\"quantity\":10}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52107",
+          "quantity": 10
+        }
+      },
+      {
+        "task_id": "a74e79ff27009c47c588eebc130d96b35469adfde136bf18ff8c5131b5ea15de",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52100\", quantity=3.",
+        "reference": "{\"code\":\"acs52100\",\"quantity\":3}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52100",
+          "quantity": 3
+        }
+      },
+      {
+        "task_id": "ab4adfb05546d031fb3ee64fd3fcc28ac653dc7e5fd12404fe664fb19f64084a",
+        "question": "Python card 51104:\n```python\na = [22, 57, 2]\nx = a.pop()\nprint(len(a) + x)\n```\nWhat is printed?\nA) 5\nB) 2\nC) 4\nD) 79\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "755a2e23df23591a3ad7ffaa607d18a20a2ac69281d64e317b1fcd90dc09ac94",
+        "question": "Rule note 51106: Every lum is a vek. Every vek can swim. Daro51106 is a lum. What must follow?\nA) Daro51106 is not a vek\nB) Daro51106 can swim\nC) No conclusion follows\nD) Daro51106 cannot swim\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "33617f87f5f02454c0ceac225d6ab7bfb81bf9f70f51f939eede1ddc8327811c",
+        "question": "Python card 51101:\n```python\na = [64, 55]\nprint(a[1])\n```\nWhat is printed?\nA) Error\nB) 55\nC) 64\nD) 119\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "3958eb63be6b280a26b4e9d07497ae5fb146d989139193c3c224b927c3542cc2",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52108\", quantity=11, status=\"on hold\".",
+        "reference": "{\"code\":\"acs52108\",\"quantity\":11,\"status\":\"on hold\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52108",
+          "quantity": 11,
+          "status": "on hold"
+        }
+      },
+      {
+        "task_id": "4a6dd3c19957f313153ce88bbce9148da99dfa117dbda0ed4001c9b0bdce9ccb",
+        "question": "Receipt 51107: Daro51107 hands a token to Envi51107. Envi51107 hands it to Fomu51107. Fomu51107 keeps it. Who finally holds the token?\nA) Daro51107\nB) Envi51107\nC) Fomu51107\nD) Nobody\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "369cbf9f2f09560102de6f6074072d4662625b3d36e9c8ed6650b6b4acdffa69",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53112 is a doctor. Dr. Leno53112 works at Studio 43.\"",
+        "reference": "Dr. Leno53112 is a doctor working at Studio 43.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53112",
+          "doctor",
+          "Studio 43"
+        ]
+      },
+      {
+        "task_id": "c2d3a460984a4034191ce0f19420a3993d33fa5415dc0b467761db2de7c6b684",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52113\", quantity=16, status=\"ready\".",
+        "reference": "{\"code\":\"acs52113\",\"quantity\":16,\"status\":\"ready\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52113",
+          "quantity": 16,
+          "status": "ready"
+        }
+      },
+      {
+        "task_id": "8b359a856cf886f551df2296df232276dc8e8df4d19f8498a8835783c6abd914",
+        "question": "Python card 51107:\n```python\na = [16, 52, 6]\nx = a.pop()\nprint(len(a) + x)\n```\nWhat is printed?\nA) 9\nB) 68\nC) 8\nD) 6\nReturn only the option letter.",
+        "reference": "C",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "5c809310f4c869d3b05ec893f541c29331ea26d2db7adfc8891785c4a38027c7",
+        "question": "Inventory ticket 51102: A rack has 55 tools and receives 14 more. What is the new count?\nA) 41\nB) 770\nC) 70\nD) 69\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "ca0db1c4305474c7fa3f531dc1208a525a9c18ebf574259a963b8cc938067049",
+        "question": "Rule note 51107: Every lum is a vek. Every vek can swim. Daro51107 is a lum. What must follow?\nA) No conclusion follows\nB) Daro51107 is not a vek\nC) Daro51107 can swim\nD) Daro51107 cannot swim\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "a33e8b00c782eadceecbd612e618c5fb60307cedcd818ad73bd484e16c684312",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52102\", quantity=5.",
+        "reference": "{\"code\":\"acs52102\",\"quantity\":5}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52102",
+          "quantity": 5
+        }
+      },
+      {
+        "task_id": "295d381f501851779d6ee725f7893c5e1d25b592d60d185a3769f7a914a2beed",
+        "question": "Order note 51102: Daro51102 finishes before Envi51102; Envi51102 finishes before Fomu51102. Who finishes first?\nA) Daro51102\nB) Fomu51102\nC) Cannot be determined\nD) Envi51102\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "0c209968d42154427812b7ec8b060ef23296e4237a50285d3e7cae579befd1ee",
+        "question": "Inventory ticket 51100: A rack has 55 tools and receives 30 more. What is the new count?\nA) 85\nB) 86\nC) 1650\nD) 25\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "2b83e19ef975a8e6388d087ddffc46df2db1406bfbdf78c386caeabab7a2a48c",
+        "question": "Rule note 51105: Every lum is a vek. Every vek can swim. Daro51105 is a lum. What must follow?\nA) Daro51105 is not a vek\nB) Daro51105 cannot swim\nC) No conclusion follows\nD) Daro51105 can swim\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "a52a5640fc16f220467a3ce84f31e44e01ae45a2f885832cf253d8fce31a151e",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52115\", quantity=18, status=\"ready\".",
+        "reference": "{\"code\":\"acs52115\",\"quantity\":18,\"status\":\"ready\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52115",
+          "quantity": 18,
+          "status": "ready"
+        }
+      },
+      {
+        "task_id": "0e75a56c2184a7460056364dadbdef64d8aa5ae568ede112530e0c1000ebbed4",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53107 is a artist. Leno53107 works at Studio 38.\"",
+        "reference": "Leno53107 is a artist working at Studio 38.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53107",
+          "artist",
+          "Studio 38"
+        ]
+      },
+      {
+        "task_id": "e22fb6f9fc83f96088e9225d9a75be1c0227b865b62c475c5ac7e7d8cefb77c9",
+        "question": "Order note 51103: Daro51103 finishes before Envi51103; Envi51103 finishes before Fomu51103. Who finishes first?\nA) Fomu51103\nB) Daro51103\nC) Envi51103\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "8b06422c95c0def75f6ac3664457d9360059badbe6d76a90fac446150d87f2f4",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Leno53103 is a artist. Leno53103 works at Studio 34.\"",
+        "reference": "Leno53103 is a artist working at Studio 34.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "easy",
+        "required": [
+          "Leno53103",
+          "artist",
+          "Studio 34"
+        ]
+      },
+      {
+        "task_id": "c3faf3753d96c0c800d71c1f51d1a077dbd13dfd81c92d8834fbbcf2aeb8c081",
+        "question": "Receipt 51106: Daro51106 hands a token to Envi51106. Envi51106 hands it to Fomu51106. Fomu51106 keeps it. Who finally holds the token?\nA) Envi51106\nB) Nobody\nC) Daro51106\nD) Fomu51106\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "6df2adee759ed0d01b37a61e770a5f7b28e6622d9ebb45d28e42df1ba4af2bef",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52103\", quantity=6.",
+        "reference": "{\"code\":\"acs52103\",\"quantity\":6}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52103",
+          "quantity": 6
+        }
+      },
+      {
+        "task_id": "6e21a98e9d96555262d4e2c89af2a44b558c3bf3fe8a99e6fdb182edd8686e65",
+        "question": "Python card 51106:\n```python\na = [20, 51, 2]\nx = a.pop()\nprint(len(a) + x)\n```\nWhat is printed?\nA) 2\nB) 71\nC) 5\nD) 4\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "f83c735439c22a7077d26633e55ea278d3d215fbe2f486cd70f4559612471d50",
+        "question": "Receipt 51104: Daro51104 hands a token to Envi51104. Envi51104 hands it to Fomu51104. Fomu51104 keeps it. Who finally holds the token?\nA) Nobody\nB) Fomu51104\nC) Envi51104\nD) Daro51104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "moderate"
+      },
+      {
+        "task_id": "6dd59dbdb3b5b7a583e9520ad99216889078dfcec01acea000dc6f595a843768",
+        "question": "Receipt 51103: Daro51103 buys a violet bag from Envi51103. The sale transfers ownership to the buyer. Who owns the bag after the sale?\nA) Fomu51103\nB) Nobody\nC) Daro51103\nD) Envi51103\nReturn only the option letter.",
+        "reference": "C",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "eb375743f8fc06c1fb373d0603f9d4f065eb1b5f3f314583d05c6566280bee04",
+        "question": "Use exactly one sentence to preserve all these facts without adding facts: \"Dr. Leno53113 is a doctor. Dr. Leno53113 works at Studio 44.\"",
+        "reference": "Dr. Leno53113 is a doctor working at Studio 44.",
+        "category": "text_quality",
+        "score_kind": "constraints",
+        "difficulty": "moderate",
+        "required": [
+          "Dr. Leno53113",
+          "doctor",
+          "Studio 44"
+        ]
+      },
+      {
+        "task_id": "37cd6a022a48606950220d49892937ddac3f1b4148291ce1a46802ce1a05d2ae",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52104\", quantity=7.",
+        "reference": "{\"code\":\"acs52104\",\"quantity\":7}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52104",
+          "quantity": 7
+        }
+      },
+      {
+        "task_id": "8f60d160391a6bb26e12b3a02306aac4b45d82c4e3b243a1962b97adfc2d890f",
+        "question": "Return only a JSON object with keys code, quantity and status. Values: code=\"acs52110\", quantity=13, status=\"on hold\".",
+        "reference": "{\"code\":\"acs52110\",\"quantity\":13,\"status\":\"on hold\"}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "moderate",
+        "expected_object": {
+          "code": "acs52110",
+          "quantity": 13,
+          "status": "on hold"
+        }
+      },
+      {
+        "task_id": "bb2637bd584318434154674ba95f509b7665448772b77e14a0640fac5b1fe022",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"acs52105\", quantity=8.",
+        "reference": "{\"code\":\"acs52105\",\"quantity\":8}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "difficulty": "easy",
+        "expected_object": {
+          "code": "acs52105",
+          "quantity": 8
+        }
+      },
+      {
+        "task_id": "df903f94dc2ab5e402f8a8180de82c59a8ee861dd2e0634262333203a5c3d1ca",
+        "question": "Receipt 51101: Daro51101 buys a violet bag from Envi51101. The sale transfers ownership to the buyer. Who owns the bag after the sale?\nA) Envi51101\nB) Nobody\nC) Fomu51101\nD) Daro51101\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      },
+      {
+        "task_id": "4f1b45a9e0bb58d7ea7d1158e612642f13661327aaa0f71fa59eaf83dfbaa242",
+        "question": "Python card 51103:\n```python\na = [23, 18]\nprint(a[1])\n```\nWhat is printed?\nA) 41\nB) Error\nC) 23\nD) 18\nReturn only the option letter.",
+        "reference": "D",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "manifest": "./data/acs_16a7001279c947c0acb730672deb1a97/MANIFEST.json"
+}

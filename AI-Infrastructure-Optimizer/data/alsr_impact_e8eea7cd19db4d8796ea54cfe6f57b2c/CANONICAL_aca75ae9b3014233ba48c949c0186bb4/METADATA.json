@@ -1,0 +1,17 @@
+{
+  "real_inference": true,
+  "all_stages_wall_seconds": 2439.6919504588004,
+  "original_stage_wall_seconds": 1640.6933129588142,
+  "canonical_rerun_wall_seconds": 798.9986384590156,
+  "profile_sha256": "f5a02aa62e93268ca59f3fafcbced2fa47cbb75b02d37af93ceda2deb812c8f7",
+  "preserved_files": 729,
+  "generation_rows": 1344,
+  "ablation_rows": 6272,
+  "fixed_rows": 336,
+  "quality_rows": 448,
+  "GPU_elapsed_power_money": "unmeasured",
+  "corrected_tie_rule": true,
+  "diagnostics_and_reference_quality_source": "./data/alsr_impact_e8eea7cd19db4d8796ea54cfe6f57b2c",
+  "reference_quality": "Reused actual original NLL once, masks unchanged; analysis validates masks, not falsely reported as repeated measurement.",
+  "cost_scope": "Original + canonical model-stage wall sum, not continuous job wall; intermediate audit/tests/report gaps excluded."
+}

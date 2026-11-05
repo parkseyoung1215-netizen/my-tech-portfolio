@@ -1,0 +1,1881 @@
+{
+  "version": "skipwork-v1",
+  "seed": 20261109150,
+  "calibration": [
+    {
+      "question": "92 * 34",
+      "category": "arithmetic",
+      "expected": "3128",
+      "task_format": "integer"
+    },
+    {
+      "question": "How many sides does a hexagon have?\nA) Six\nB) Seven\nC) Five\nD) Eight",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which ocean is the largest by area?\nA) Indian Ocean\nB) Arctic Ocean\nC) Pacific Ocean\nD) Atlantic Ocean",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In room 3, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 2 + 3\nB) Room closed\nC) 23\nD) 5",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "(827 * 48) - 51",
+      "category": "arithmetic",
+      "expected": "39645",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(len({2, 2, 4, 4, 6}))\n```\nA) 5\nB) 6\nC) 2\nD) 3",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Nora wanted tea, but the cafe had only coffee. Nora left without ordering. What did Nora order?\nA) Nothing\nB) Tea\nC) Coffee\nD) Both tea and coffee",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does a CPU primarily do in a computer?\nA) Supply mains electricity\nB) Execute instructions\nC) Print paper\nD) Cool the room",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which protocol is used to transfer web pages?\nA) HTTP\nB) POP3\nC) IMAP\nD) SMTP",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Mira wanted tea, but the cafe had only coffee. Mira left without ordering. What did Mira order?\nA) Coffee\nB) Tea\nC) Nothing\nD) Both tea and coffee",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The notice for workshop 1 says registration closes Monday and the event is Wednesday. When is the event?\nA) Monday\nB) Friday\nC) Wednesday\nD) Tuesday",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which instrument measures temperature?\nA) Thermometer\nB) Ruler\nC) Compass\nD) Barometer",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Iris packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) Rain was forecast\nB) The morning was dark\nC) The umbrella was broken\nD) It was already snowing",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "18 + 18",
+      "category": "arithmetic",
+      "expected": "36",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about order: Iris finishes before Juno; Juno finishes before Kian. Who finishes last?\nA) Juno\nB) Cannot be determined\nC) Iris\nD) Kian",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about sets: No item in box 4 is metal. Every coin is metal. Can a coin be in that box?\nA) Only if it is gold\nB) No\nC) Only on Tuesdays\nD) Yes, necessarily",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a schedule: Mira arrives after Oren. Pavel arrives before Oren. Who arrives first?\nA) Cannot be determined\nB) Mira\nC) Pavel\nD) Oren",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason logically: All zorks in group 1 are blue. This object is blue. Must it be a zork?\nA) All objects are zorks\nB) No blue object can be a zork\nC) No; being blue does not establish it is a zork\nD) Yes, always",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint([4, 7, 9, 12][1:3])\n```\nA) [7, 9, 12]\nB) 9\nC) [7, 9]\nD) [4, 7]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a rule: If sensor 1 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor is active\nC) The sensor must be broken\nD) The sensor is not active",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\ndef f(x):\n    return x + 1\nprint(f(8))\n```\nA) None\nB) 8\nC) 9\nD) 1",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "(299 * 19) - 82",
+      "category": "arithmetic",
+      "expected": "5599",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: In room 1, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 2 + 3\nC) 23\nD) 5",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint({'x': 3}.get('y', 8))\n```\nA) Error\nB) 8\nC) 3\nD) None",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a schedule: Iris arrives after Juno. Kian arrives before Juno. Who arrives first?\nA) Kian\nB) Iris\nC) Cannot be determined\nD) Juno",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "(489 * 41) - 30",
+      "category": "arithmetic",
+      "expected": "20019",
+      "task_format": "integer"
+    },
+    {
+      "question": "77 * 87",
+      "category": "arithmetic",
+      "expected": "6699",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python code print?\n```python\na = [3, 1, 2]\nprint(sorted(a))\n```\nA) [3, 2, 1]\nB) [3, 1, 2]\nC) [1, 2, 3]\nD) None",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(7 // 2)\n```\nA) 1\nB) 4\nC) 3.5\nD) 3",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\na = [4, 5, 6]\nprint(a[-1])\n```\nA) 6\nB) 5\nC) 4\nD) Error",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Iris wanted tea, but the cafe had only coffee. Iris left without ordering. What did Iris order?\nA) Both tea and coffee\nB) Tea\nC) Coffee\nD) Nothing",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The notice for workshop 3 says registration closes Monday and the event is Wednesday. When is the event?\nA) Friday\nB) Tuesday\nC) Monday\nD) Wednesday",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a schedule: Nora arrives after Vik. Wren arrives before Vik. Who arrives first?\nA) Vik\nB) Cannot be determined\nC) Nora\nD) Wren",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which state of matter has a fixed volume and a fixed shape?\nA) Plasma\nB) Solid\nC) Liquid\nD) Gas",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What kind of astronomical object is the Sun?\nA) A comet\nB) A planet\nC) A star\nD) A moon",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nx = 5\nx += 2\nprint(x)\n```\nA) 10\nB) 5\nC) 7\nD) 2",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "3 + 10",
+      "category": "arithmetic",
+      "expected": "13",
+      "task_format": "integer"
+    },
+    {
+      "question": "What is the SI unit of electric current?\nA) Volt\nB) Ampere\nC) Watt\nD) Ohm",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "(500 * 21) - 70",
+      "category": "arithmetic",
+      "expected": "10430",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which force attracts objects with mass toward one another?\nA) Buoyancy\nB) Gravity\nC) Friction\nD) Surface tension",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which process allows green plants to use light to make sugars?\nA) Condensation\nB) Photosynthesis\nC) Freezing\nD) Erosion",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "11 + 13",
+      "category": "arithmetic",
+      "expected": "24",
+      "task_format": "integer"
+    },
+    {
+      "question": "(857 * 57) - 63",
+      "category": "arithmetic",
+      "expected": "48786",
+      "task_format": "integer"
+    },
+    {
+      "question": "45 * 56",
+      "category": "arithmetic",
+      "expected": "2520",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(3 < 2 or 5 > 4)\n```\nA) Error\nB) False\nC) None\nD) True",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about order: Mira finishes before Oren; Oren finishes before Pavel. Who finishes last?\nA) Pavel\nB) Mira\nC) Oren\nD) Cannot be determined",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(len('routing'))\n```\nA) 7\nB) 8\nC) Error\nD) 6",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "4 + 16",
+      "category": "arithmetic",
+      "expected": "20",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about a rule: If sensor 4 is active, its lamp is on. The lamp is off. What follows?\nA) The lamp is on\nB) The sensor must be broken\nC) The sensor is not active\nD) The sensor is active",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which gas do plants take in during photosynthesis?\nA) Hydrogen\nB) Neon\nC) Helium\nD) Carbon dioxide",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The notice for workshop 4 says registration closes Monday and the event is Wednesday. When is the event?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Monday",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Mira packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The umbrella was broken\nB) The morning was dark\nC) Rain was forecast\nD) It was already snowing",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint('ab' * 3)\n```\nA) aaabbb\nB) Error\nC) ababab\nD) ab3",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(sum([2, 4, 6]))\n```\nA) 10\nB) 12\nC) 3\nD) 24",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which change turns a liquid into a gas?\nA) Freezing\nB) Evaporation\nC) Condensation\nD) Deposition",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about sets: No item in box 1 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Yes, necessarily\nC) No\nD) Only if it is gold",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In room 2, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) Room closed\nB) 23\nC) 2 + 3\nD) 5",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "25 * 66",
+      "category": "arithmetic",
+      "expected": "1650",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: Nora packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) The morning was dark\nB) The umbrella was broken\nC) Rain was forecast\nD) It was already snowing",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about sets: No item in box 3 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) No\nD) Yes, necessarily",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Lena wanted tea, but the cafe had only coffee. Lena left without ordering. What did Lena order?\nA) Coffee\nB) Both tea and coffee\nC) Nothing\nD) Tea",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason logically: All zorks in group 3 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) All objects are zorks\nC) Yes, always\nD) No blue object can be a zork",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason logically: All zorks in group 2 are blue. This object is blue. Must it be a zork?\nA) No; being blue does not establish it is a zork\nB) No blue object can be a zork\nC) All objects are zorks\nD) Yes, always",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "(443 * 29) - 18",
+      "category": "arithmetic",
+      "expected": "12829",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(bool([]))\n```\nA) None\nB) True\nC) False\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The notice for workshop 2 says registration closes Monday and the event is Wednesday. When is the event?\nA) Wednesday\nB) Friday\nC) Monday\nD) Tuesday",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint('route'.upper())\n```\nA) Error\nB) Route\nC) route\nD) ROUTE",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which instrument indicates magnetic north?\nA) Clock\nB) Microscope\nC) Thermometer\nD) Compass",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about order: Lena finishes before Soren; Soren finishes before Tavi. Who finishes last?\nA) Soren\nB) Lena\nC) Tavi\nD) Cannot be determined",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(list(range(2, 8, 2)))\n```\nA) [2, 3, 4, 5, 6, 7]\nB) [2, 4, 6]\nC) [0, 2, 4, 6]\nD) [2, 4, 6, 8]",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "20 + 20",
+      "category": "arithmetic",
+      "expected": "40",
+      "task_format": "integer"
+    },
+    {
+      "question": "What is the chemical formula of water?\nA) CO2\nB) H2O\nC) NaCl\nD) O2",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Lena packed an umbrella because rain was forecast, although the morning was sunny. Why was the umbrella packed?\nA) It was already snowing\nB) Rain was forecast\nC) The morning was dark\nD) The umbrella was broken",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\na = [1, 2]\na.append(5)\nprint(a)\n```\nA) [1, 2, 5]\nB) [1, 2, [5]]\nC) [1, 2]\nD) [5]",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint([x * x for x in [2, 3]])\n```\nA) [2, 2, 3, 3]\nB) [2, 3]\nC) [4, 9]\nD) [4, 6]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a rule: If sensor 3 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The lamp is on\nD) The sensor is active",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "96 * 48",
+      "category": "arithmetic",
+      "expected": "4608",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about a schedule: Lena arrives after Soren. Tavi arrives before Soren. Who arrives first?\nA) Cannot be determined\nB) Soren\nC) Lena\nD) Tavi",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint('a,b,c'.split(','))\n```\nA) 'abc'\nB) ['a,b,c']\nC) 3\nD) ['a', 'b', 'c']",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "39 * 67",
+      "category": "arithmetic",
+      "expected": "2613",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which number system uses only the digits zero and one?\nA) Binary\nB) Hexadecimal\nC) Octal\nD) Decimal",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which material is generally a good electrical conductor?\nA) Glass\nB) Dry wood\nC) Rubber\nD) Copper",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What causes day and night on Earth?\nA) Earth changing size\nB) Earth rotating on its axis\nC) Clouds blocking all sunlight\nD) The Moon changing shape",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "6 + 15",
+      "category": "arithmetic",
+      "expected": "21",
+      "task_format": "integer"
+    },
+    {
+      "question": "25 * 62",
+      "category": "arithmetic",
+      "expected": "1550",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about sets: No item in box 2 is metal. Every coin is metal. Can a coin be in that box?\nA) Only on Tuesdays\nB) Only if it is gold\nC) Yes, necessarily\nD) No",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python code print?\n```python\nprint(7 % 3)\n```\nA) 3\nB) 1\nC) 0\nD) 2",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In room 4, the sign '2 + 3' is a password label, not a request to calculate. What text is on the sign?\nA) 23\nB) 5\nC) 2 + 3\nD) Room closed",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which data structure follows first-in, first-out order?\nA) Stack\nB) Set\nC) Binary tree\nD) Queue",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "(314 * 58) - 20",
+      "category": "arithmetic",
+      "expected": "18192",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python code print?\n```python\na = [1, 2]\nb = a\nb.append(3)\nprint(len(a))\n```\nA) 1\nB) 3\nC) Error\nD) 2",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which planet is the largest in the Solar System?\nA) Earth\nB) Venus\nC) Mars\nD) Jupiter",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason logically: All zorks in group 4 are blue. This object is blue. Must it be a zork?\nA) No blue object can be a zork\nB) No; being blue does not establish it is a zork\nC) All objects are zorks\nD) Yes, always",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which symbol represents the element oxygen?\nA) Au\nB) Fe\nC) O\nD) N",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about order: Nora finishes before Vik; Vik finishes before Wren. Who finishes last?\nA) Cannot be determined\nB) Nora\nC) Vik\nD) Wren",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a rule: If sensor 2 is active, its lamp is on. The lamp is off. What follows?\nA) The sensor is not active\nB) The sensor must be broken\nC) The sensor is active\nD) The lamp is on",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In calibration archive 101, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Neri\nB) Sol\nC) Nobody\nD) Cannot be determined",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In calibration archive 102, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Neri\nD) Nobody",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In calibration archive 103, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Sol\nB) Cannot be determined\nC) Nobody\nD) Neri",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: In calibration archive 104, Neri owns a green notebook. Neri lends it to Sol. Who owns the notebook?\nA) Cannot be determined\nB) Nobody\nC) Neri\nD) Sol",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    }
+  ],
+  "evaluation": [
+    {
+      "question": "147 + 64",
+      "category": "arithmetic",
+      "expected": "211",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?\nA) Ravi305\nB) Pori305\nC) Neli305\nD) Unknown",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?\nA) True\nB) Unknown\nC) Both true\nD) False",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?\nA) Yes\nB) No\nC) Only large wugs\nD) All soft objects are wugs",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "26 * 56",
+      "category": "arithmetic",
+      "expected": "1456",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of the Czech Republic?\nA) Dublin\nB) Copenhagen\nC) Prague\nD) Madrid",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?\nA) No approved form can be signed\nB) Yes, necessarily\nC) No\nD) All signed forms are rejected",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint((31, 51)[-1])\n```\nA) Error\nB) None\nC) 51\nD) 31",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print((31, 51)[-1])"
+    },
+    {
+      "question": "Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?\nA) Only on Sunday\nB) Yes\nC) An invitation did arrive\nD) No",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?\nA) On the table\nB) In a bag\nC) Under the shelf\nD) Inside the box",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "257 + 28",
+      "category": "arithmetic",
+      "expected": "285",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint([n - 1 for n in range(31, 34)])\n```\nA) [31, 32, 33]\nB) Error\nC) [30, 31, 32]\nD) [30]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n - 1 for n in range(31, 34)])"
+    },
+    {
+      "question": "Which city is the capital of New Zealand?\nA) Wellington\nB) Canberra\nC) Helsinki\nD) Oslo",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "225 + 86",
+      "category": "arithmetic",
+      "expected": "311",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?\nA) False\nB) True\nC) Unknown\nD) Both true",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "175 * 32",
+      "category": "arithmetic",
+      "expected": "5600",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of Peru?\nA) Buenos Aires\nB) Wellington\nC) Lima\nD) Budapest",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?\nA) 45 * 16\nB) No password\nC) Screen off\nD) 720",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\ntotal = 0\nfor n in range(1, 6):\n    total += n\nprint(total)\n```\nA) 35\nB) 15\nC) 6\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "total = 0\nfor n in range(1, 6):\n    total += n\nprint(total)"
+    },
+    {
+      "question": "300 + 37",
+      "category": "arithmetic",
+      "expected": "337",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nd = {'n': 33}\nprint(d.get('missing', 53))\n```\nA) 53\nB) Error\nC) None\nD) 33",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "d = {'n': 33}\nprint(d.get('missing', 53))"
+    },
+    {
+      "question": "Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?\nA) Only on Sunday\nB) An invitation did arrive\nC) Yes\nD) No",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?\nA) Yes, necessarily\nB) No\nC) No approved form can be signed\nD) All signed forms are rejected",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Portugal?\nA) Lisbon\nB) Ottawa\nC) Wellington\nD) Berlin",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?\nA) Timo401\nB) Unknown\nC) Sela401\nD) Nobody",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "106 * 37",
+      "category": "arithmetic",
+      "expected": "3922",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of France?\nA) Paris\nB) Stockholm\nC) Rome\nD) Athens",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?\nA) Alarm A is not ringing\nB) Light B is on\nC) Alarm A rings\nD) Alarm A must be damaged",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint([n - 1 for n in range(33, 36)])\n```\nA) [33, 34, 35]\nB) Error\nC) [32, 33, 34]\nD) [32]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n - 1 for n in range(33, 36)])"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nv = [33, 53, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))\n```\nA) 2\nB) 4\nC) 3\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [33, 53, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))"
+    },
+    {
+      "question": "Which city is the capital of Sweden?\nA) Stockholm\nB) Buenos Aires\nC) London\nD) Budapest",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Colombia?\nA) Bogota\nB) Washington, D.C.\nC) Mexico City\nD) Buenos Aires",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nd = {'n': 31}\nprint(d.get('missing', 51))\n```\nA) 31\nB) None\nC) Error\nD) 51",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "d = {'n': 31}\nprint(d.get('missing', 51))"
+    },
+    {
+      "question": "Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?\nA) Pears\nB) Neither\nC) Both\nD) Apples",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint((32, 52)[-1])\n```\nA) 32\nB) None\nC) Error\nD) 52",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print((32, 52)[-1])"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\ntotal = 0\nfor n in range(1, 7):\n    total += n\nprint(total)\n```\nA) Error\nB) 7\nC) 42\nD) 21",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "total = 0\nfor n in range(1, 7):\n    total += n\nprint(total)"
+    },
+    {
+      "question": "Which city is the capital of Italy?\nA) Paris\nB) Rome\nC) Madrid\nD) Oslo",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nv = [35, 55, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))\n```\nA) 4\nB) 2\nC) Error\nD) 3",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "v = [35, 55, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))"
+    },
+    {
+      "question": "(506 * 61) - 91",
+      "category": "arithmetic",
+      "expected": "30775",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?\nA) Screen off\nB) 660\nC) No password\nD) 44 * 15",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "281 * 55",
+      "category": "arithmetic",
+      "expected": "15455",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?\nA) No\nB) An invitation did arrive\nC) Yes\nD) Only on Sunday",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?\nA) On the table\nB) In a bag\nC) Under the shelf\nD) Inside the box",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?\nA) On the table\nB) Inside the box\nC) In a bag\nD) Under the shelf",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?\nA) Unknown\nB) Pori302\nC) Ravi302\nD) Neli302",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "38 * 67",
+      "category": "arithmetic",
+      "expected": "2546",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?\nA) Apples\nB) Pears\nC) Both\nD) Neither",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?\nA) Yes, necessarily\nB) No approved form can be signed\nC) No\nD) All signed forms are rejected",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Canada?\nA) Berlin\nB) Santiago\nC) Ottawa\nD) Prague",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?\nA) Thursday\nB) Tuesday\nC) Monday\nD) Saturday",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "(645 * 65) - 41",
+      "category": "arithmetic",
+      "expected": "41884",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?\nA) Unknown\nB) Neli301\nC) Ravi301\nD) Pori301",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?\nA) Ravi305\nB) Neli305\nC) Unknown\nD) Pori305",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "295 * 66",
+      "category": "arithmetic",
+      "expected": "19470",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of Greece?\nA) Athens\nB) Rome\nC) Stockholm\nD) Copenhagen",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "211 + 77",
+      "category": "arithmetic",
+      "expected": "288",
+      "task_format": "integer"
+    },
+    {
+      "question": "202 + 53",
+      "category": "arithmetic",
+      "expected": "255",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?\nA) Alarm A rings\nB) Light B is on\nC) Alarm A is not ringing\nD) Alarm A must be damaged",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Brazil?\nA) Lima\nB) Brasilia\nC) Dublin\nD) Athens",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint((33, 53)[-1])\n```\nA) 53\nB) None\nC) 33\nD) Error",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print((33, 53)[-1])"
+    },
+    {
+      "question": "Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?\nA) Unknown\nB) Pori303\nC) Neli303\nD) Ravi303",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?\nA) All signed forms are rejected\nB) Yes, necessarily\nC) No approved form can be signed\nD) No",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Austria?\nA) Brussels\nB) Vienna\nC) Lisbon\nD) Buenos Aires",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?\nA) 492\nB) No password\nC) Screen off\nD) 41 * 12",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?\nA) Yes, necessarily\nB) No approved form can be signed\nC) No\nD) All signed forms are rejected",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?\nA) Tuesday\nB) Saturday\nC) Monday\nD) Thursday",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint('audit4'.split('d'))\n```\nA) ['au', 'it4']\nB) ['audit4']\nC) ['au4', 'it']\nD) Error",
+      "category": "coding",
+      "expected": "A",
+      "task_format": "choice",
+      "reference_code": "print('audit4'.split('d'))"
+    },
+    {
+      "question": "Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?\nA) Alarm A must be damaged\nB) Alarm A is not ringing\nC) Light B is on\nD) Alarm A rings",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?\nA) True\nB) False\nC) Both true\nD) Unknown",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?\nA) Ravi301\nB) Pori301\nC) Unknown\nD) Neli301",
+      "category": "logic",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?\nA) Nobody\nB) Unknown\nC) Timo402\nD) Sela402",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of South Korea?\nA) Paris\nB) Helsinki\nC) Seoul\nD) Vienna",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of the United States?\nA) London\nB) Bangkok\nC) Washington, D.C.\nD) Buenos Aires",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nv = [34, 54, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))\n```\nA) 2\nB) Error\nC) 3\nD) 4",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [34, 54, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))"
+    },
+    {
+      "question": "Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?\nA) Neli303\nB) Ravi303\nC) Unknown\nD) Pori303",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?\nA) Neither\nB) Both\nC) Apples\nD) Pears",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?\nA) Yes\nB) All soft objects are wugs\nC) No\nD) Only large wugs",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Denmark?\nA) Canberra\nB) Madrid\nC) Copenhagen\nD) Warsaw",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?\nA) Screen off\nB) 546\nC) 42 * 13\nD) No password",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Finland?\nA) Helsinki\nB) Vienna\nC) Tokyo\nD) Santiago",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Belgium?\nA) Warsaw\nB) Brussels\nC) Prague\nD) Mexico City",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Ireland?\nA) Athens\nB) Vienna\nC) Prague\nD) Dublin",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "112 * 79",
+      "category": "arithmetic",
+      "expected": "8848",
+      "task_format": "integer"
+    },
+    {
+      "question": "(517 * 61) - 77",
+      "category": "arithmetic",
+      "expected": "31460",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?\nA) Both true\nB) Unknown\nC) True\nD) False",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?\nA) Neli302\nB) Ravi302\nC) Unknown\nD) Pori302",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?\nA) Nobody\nB) Sela405\nC) Timo405\nD) Unknown",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Thailand?\nA) Stockholm\nB) Bangkok\nC) Vienna\nD) Lima",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Argentina?\nA) Buenos Aires\nB) Vienna\nC) Santiago\nD) Stockholm",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of the United Kingdom?\nA) London\nB) Bangkok\nC) Prague\nD) Wellington",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?\nA) All soft objects are wugs\nB) Yes\nC) No\nD) Only large wugs",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Germany?\nA) Vienna\nB) Berlin\nC) Washington, D.C.\nD) Prague",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint([n - 1 for n in range(35, 38)])\n```\nA) Error\nB) [35, 36, 37]\nC) [34, 35, 36]\nD) [34]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n - 1 for n in range(35, 38)])"
+    },
+    {
+      "question": "Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?\nA) Pori304\nB) Unknown\nC) Ravi304\nD) Neli304",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Norway?\nA) Oslo\nB) Wellington\nC) Seoul\nD) Brasilia",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "(785 * 23) - 66",
+      "category": "arithmetic",
+      "expected": "17989",
+      "task_format": "integer"
+    },
+    {
+      "question": "138 * 50",
+      "category": "arithmetic",
+      "expected": "6900",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?\nA) Only large wugs\nB) Yes\nC) All soft objects are wugs\nD) No",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?\nA) Saturday\nB) Thursday\nC) Monday\nD) Tuesday",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint('audit1'.split('d'))\n```\nA) Error\nB) ['au1', 'it']\nC) ['audit1']\nD) ['au', 'it1']",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print('audit1'.split('d'))"
+    },
+    {
+      "question": "Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?\nA) Saturday\nB) Tuesday\nC) Monday\nD) Thursday",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\ntotal = 0\nfor n in range(1, 10):\n    total += n\nprint(total)\n```\nA) 10\nB) 69\nC) 45\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "total = 0\nfor n in range(1, 10):\n    total += n\nprint(total)"
+    },
+    {
+      "question": "Which city is the capital of Spain?\nA) Madrid\nB) Copenhagen\nC) Wellington\nD) Vienna",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?\nA) Yes\nB) An invitation did arrive\nC) No\nD) Only on Sunday",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint('audit0'.split('d'))\n```\nA) Error\nB) ['au', 'it0']\nC) ['au0', 'it']\nD) ['audit0']",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print('audit0'.split('d'))"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\ntotal = 0\nfor n in range(1, 8):\n    total += n\nprint(total)\n```\nA) Error\nB) 50\nC) 8\nD) 28",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "total = 0\nfor n in range(1, 8):\n    total += n\nprint(total)"
+    },
+    {
+      "question": "266 + 73",
+      "category": "arithmetic",
+      "expected": "339",
+      "task_format": "integer"
+    },
+    {
+      "question": "(541 * 29) - 21",
+      "category": "arithmetic",
+      "expected": "15668",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint('audit3'.split('d'))\n```\nA) ['audit3']\nB) ['au3', 'it']\nC) ['au', 'it3']\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print('audit3'.split('d'))"
+    },
+    {
+      "question": "Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?\nA) Yes\nB) Only on Sunday\nC) No\nD) An invitation did arrive",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint((35, 55)[-1])\n```\nA) 35\nB) 55\nC) None\nD) Error",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "print((35, 55)[-1])"
+    },
+    {
+      "question": "Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?\nA) Sela404\nB) Timo404\nC) Nobody\nD) Unknown",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?\nA) Alarm A rings\nB) Alarm A must be damaged\nC) Alarm A is not ringing\nD) Light B is on",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "308 + 53",
+      "category": "arithmetic",
+      "expected": "361",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of Chile?\nA) Bangkok\nB) Prague\nC) Buenos Aires\nD) Santiago",
+      "category": "knowledge",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\ntotal = 0\nfor n in range(1, 9):\n    total += n\nprint(total)\n```\nA) 59\nB) 9\nC) Error\nD) 36",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "total = 0\nfor n in range(1, 9):\n    total += n\nprint(total)"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint('audit2'.split('d'))\n```\nA) Error\nB) ['audit2']\nC) ['au2', 'it']\nD) ['au', 'it2']",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print('audit2'.split('d'))"
+    },
+    {
+      "question": "Which city is the capital of Hungary?\nA) Canberra\nB) Budapest\nC) Wellington\nD) Paris",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nv = [32, 52, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))\n```\nA) 2\nB) Error\nC) 4\nD) 3",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "v = [32, 52, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))"
+    },
+    {
+      "question": "Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?\nA) Neither\nB) Both\nC) Pears\nD) Apples",
+      "category": "comprehension",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Mexico?\nA) Bogota\nB) Washington, D.C.\nC) Mexico City\nD) London",
+      "category": "knowledge",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?\nA) Pears\nB) Neither\nC) Both\nD) Apples",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?\nA) On the table\nB) Under the shelf\nC) In a bag\nD) Inside the box",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "Which city is the capital of Australia?\nA) Oslo\nB) Canberra\nC) Bangkok\nD) Lima",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nd = {'n': 34}\nprint(d.get('missing', 54))\n```\nA) 34\nB) None\nC) 54\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "d = {'n': 34}\nprint(d.get('missing', 54))"
+    },
+    {
+      "question": "Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?\nA) Timo403\nB) Nobody\nC) Unknown\nD) Sela403",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "267 + 41",
+      "category": "arithmetic",
+      "expected": "308",
+      "task_format": "integer"
+    },
+    {
+      "question": "(760 * 56) - 28",
+      "category": "arithmetic",
+      "expected": "42532",
+      "task_format": "integer"
+    },
+    {
+      "question": "Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?\nA) Light B is on\nB) Alarm A must be damaged\nC) Alarm A is not ringing\nD) Alarm A rings",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?\nA) Only large wugs\nB) Yes\nC) All soft objects are wugs\nD) No",
+      "category": "logic",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nd = {'n': 35}\nprint(d.get('missing', 55))\n```\nA) Error\nB) 55\nC) None\nD) 35",
+      "category": "coding",
+      "expected": "B",
+      "task_format": "choice",
+      "reference_code": "d = {'n': 35}\nprint(d.get('missing', 55))"
+    },
+    {
+      "question": "365 + 87",
+      "category": "arithmetic",
+      "expected": "452",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nd = {'n': 32}\nprint(d.get('missing', 52))\n```\nA) None\nB) 32\nC) 52\nD) Error",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "d = {'n': 32}\nprint(d.get('missing', 52))"
+    },
+    {
+      "question": "Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?\nA) Both true\nB) False\nC) Unknown\nD) True",
+      "category": "logic",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint((34, 54)[-1])\n```\nA) Error\nB) None\nC) 34\nD) 54",
+      "category": "coding",
+      "expected": "D",
+      "task_format": "choice",
+      "reference_code": "print((34, 54)[-1])"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint([n - 1 for n in range(34, 37)])\n```\nA) [33]\nB) Error\nC) [33, 34, 35]\nD) [34, 35, 36]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n - 1 for n in range(34, 37)])"
+    },
+    {
+      "question": "(517 * 73) - 25",
+      "category": "arithmetic",
+      "expected": "37716",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of Poland?\nA) Warsaw\nB) Budapest\nC) Stockholm\nD) Rome",
+      "category": "knowledge",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?\nA) On the table\nB) In a bag\nC) Under the shelf\nD) Inside the box",
+      "category": "comprehension",
+      "expected": "D",
+      "task_format": "choice"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nprint([n - 1 for n in range(32, 35)])\n```\nA) [32, 33, 34]\nB) Error\nC) [31, 32, 33]\nD) [31]",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "print([n - 1 for n in range(32, 35)])"
+    },
+    {
+      "question": "Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?\nA) Thursday\nB) Tuesday\nC) Saturday\nD) Monday",
+      "category": "comprehension",
+      "expected": "A",
+      "task_format": "choice"
+    },
+    {
+      "question": "Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?\nA) Unknown\nB) Neli304\nC) Pori304\nD) Ravi304",
+      "category": "logic",
+      "expected": "C",
+      "task_format": "choice"
+    },
+    {
+      "question": "(657 * 52) - 42",
+      "category": "arithmetic",
+      "expected": "34122",
+      "task_format": "integer"
+    },
+    {
+      "question": "(777 * 88) - 39",
+      "category": "arithmetic",
+      "expected": "68337",
+      "task_format": "integer"
+    },
+    {
+      "question": "Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?\nA) Screen off\nB) 43 * 14\nC) No password\nD) 602",
+      "category": "comprehension",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "(657 * 72) - 31",
+      "category": "arithmetic",
+      "expected": "47273",
+      "task_format": "integer"
+    },
+    {
+      "question": "73 * 68",
+      "category": "arithmetic",
+      "expected": "4964",
+      "task_format": "integer"
+    },
+    {
+      "question": "Which city is the capital of Japan?\nA) Dublin\nB) Tokyo\nC) Santiago\nD) Washington, D.C.",
+      "category": "knowledge",
+      "expected": "B",
+      "task_format": "choice"
+    },
+    {
+      "question": "36 * 79",
+      "category": "arithmetic",
+      "expected": "2844",
+      "task_format": "integer"
+    },
+    {
+      "question": "What does this Python snippet print?\n```python\nv = [31, 51, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))\n```\nA) 4\nB) Error\nC) 3\nD) 2",
+      "category": "coding",
+      "expected": "C",
+      "task_format": "choice",
+      "reference_code": "v = [31, 51, 99]\nw = v.copy()\nw.append(0)\nprint(len(v))"
+    }
+  ],
+  "batch_plan": [
+    [
+      137,
+      147
+    ],
+    [
+      40,
+      45,
+      50,
+      53
+    ],
+    [
+      130,
+      132,
+      134,
+      135
+    ],
+    [
+      0,
+      4,
+      10,
+      13
+    ],
+    [
+      78,
+      86,
+      98,
+      100
+    ],
+    [
+      89,
+      91,
+      94,
+      102
+    ],
+    [
+      121,
+      122,
+      125,
+      138
+    ],
+    [
+      60,
+      61,
+      64,
+      67
+    ],
+    [
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      115,
+      116,
+      118,
+      124
+    ],
+    [
+      35,
+      37,
+      59,
+      66
+    ],
+    [
+      113,
+      126,
+      127,
+      131
+    ],
+    [
+      26,
+      30,
+      31,
+      36
+    ],
+    [
+      7,
+      11,
+      18,
+      20
+    ],
+    [
+      133,
+      141
+    ],
+    [
+      140,
+      144
+    ],
+    [
+      71,
+      72,
+      77,
+      79
+    ],
+    [
+      104,
+      105,
+      108,
+      110
+    ],
+    [
+      103,
+      109,
+      111,
+      119
+    ],
+    [
+      146,
+      148
+    ],
+    [
+      48,
+      54,
+      58,
+      62
+    ],
+    [
+      5,
+      12,
+      16,
+      23
+    ],
+    [
+      136,
+      142,
+      143,
+      145
+    ],
+    [
+      97,
+      112,
+      128,
+      129
+    ],
+    [
+      15,
+      19,
+      25,
+      38
+    ],
+    [
+      63,
+      65,
+      70,
+      75
+    ],
+    [
+      55,
+      56,
+      82,
+      83
+    ],
+    [
+      28,
+      29,
+      32,
+      34
+    ],
+    [
+      139,
+      149
+    ],
+    [
+      47,
+      51,
+      52,
+      57
+    ],
+    [
+      114,
+      117,
+      120,
+      123
+    ],
+    [
+      68,
+      69,
+      74,
+      76
+    ],
+    [
+      42,
+      43,
+      46,
+      49
+    ],
+    [
+      80,
+      81,
+      87,
+      88
+    ],
+    [
+      14,
+      22,
+      27,
+      44
+    ],
+    [
+      8,
+      9,
+      17,
+      21
+    ],
+    [
+      24,
+      33,
+      39,
+      41
+    ],
+    [
+      95,
+      96,
+      106,
+      107
+    ],
+    [
+      73,
+      92,
+      99,
+      101
+    ],
+    [
+      84,
+      85,
+      90,
+      93
+    ]
+  ],
+  "max_batch_items": 4,
+  "max_batch_chars": 2600,
+  "budget_cap_choice_tokens": 8,
+  "default_tokens": 64,
+  "batch_verification_tokens": 128,
+  "preserved_sha256": {
+    "./src/coverage_runner.py": "df21346c4a10c5849904eef8f33cb1b36058c4ff8c32c38d2b582f660711adf5",
+    "./src/tool_experiment.py": "83b7717d611f6e5a47cc012afbf484d03039c915a2af594db4414516224ff0d6",
+    "./src/verification_audit.py": "e13c0076c31003fd832ff401f259abd4e2dfde24777db0a5fe522028b1120c1d",
+    "./src/skipwork_experiment.py": "07b4b1ee2e7b91331e0a0b7d7375205617432abee9d2ad120277cd1247e2e5c2",
+    "./src/benchmark.py": "e803d3f67beae3fa446fc4293779bf8eace453506d5cfc15e386f9907e534b08",
+    "./src/skipwork_runtime.py": "2b757c0d1a073e89b7ada744ee6737ba85e50b3169a446f5773063d6b387dc5d",
+    "./src/answer_validator.py": "41903433920fb1d3048b5e85d9e424189ffa12bca048a86b5bbef8b3ffc51960",
+    "./src/mixed_dataset.py": "e043c6cefa3a980c3a9655ea1e596e2899b8b85df28ebf058c9c8ddcb9391055",
+    "./src/coverage_experiment.py": "d421ae3cffae8eaf7011afc6ea729a523802ae5e1be04978edd8a8dff67c856c",
+    "./src/solver300_runtime.py": "d7d063d96dbb813b029a723b728c4e4697a33017f7cec4f42d94bd4cb97b7caa",
+    "./src/solver300_experiment.py": "607bf6c687c6b4c2965a2a404711e4e0c977da33d9bebc13abf8b09ca835e072",
+    "./src/solver300_protocol.py": "99cfc50a9bb5b3dd1a1fd01b9fc27da23c1c5e2e1a12b911fb98a0e16c5e914f",
+    "./src/verify_routing200.py": "4ef9da1bc2abd6468911f32423e9778a7ae57c6fad61d7cc2dd73dc3470d8894",
+    "./src/tool_router.py": "f688ec63d678851c5467e17dfc8857d102260b7eb5b701c1f74b42c01247c4d5",
+    "./src/coverage_policy.py": "9435ba13ec8a795bc0183dcb3abf7143e3b725c628bb6368def9ed9a48932898",
+    "./src/adaptive_experiment.py": "76a1fea943005af37f03510f9df258b5ab1e6539619a6806baa99eeb11f45ecd",
+    "./src/mixed_experiment.py": "ba583a99098429061617c866cb99eb386cf39acd818ac60e4d9ab7c6863933bc",
+    "./src/adaptive_router.py": "1706e8e7399f09e5a370d504de6c80b05bbd980423022afb061e9809151e2b51",
+    "./src/solver300_dataset.py": "ae1b63954dc95a6c04662dbe8b0fb90a9fe85203471a06515697f3f268a5b930",
+    "./src/request_verifier.py": "044501227b76f0a58912ee44f34ff67afdd5c3e19db6fbbd1ac95568e093dbb6",
+    "./src/mixed_runtime.py": "f211cc387839584e5ab8e0627d7b8c926a04259aa5107942a8257bce268f1164",
+    "./src/cost_analyzer.py": "72e109ed1221d2806f862f5c9f5e995f68844e6e199c30d4289288f516b49826",
+    "./src/model_router.py": "13dabab1b2b8ba3c59942f13fc9073fe21d0bc921eb80e510a20553de76b1c25",
+    "./src/main.py": "72cdd55fb3d1a35c3da635e8c02aa94c4341949c44e897f5fc569c680d1f9f6a",
+    "./src/skipwork_dataset.py": "c800871fea041e95a7138699f3b096d700757f1683d77e1d6f2eb645be403fcd",
+    "./src/benchmark_v2.py": "55bc3003d70e1800c3109182a957b7d938dc4ba462ce7ddf03c0ed7edb135663",
+    "./src/safe_calculator.py": "c8f848e319e04fa4d7ad45606a63d409003dabd7b09caad81247312a885003e5",
+    "./src/mixed_reliability_audit.py": "27b57a69236a47a759bb1b987d790868522519ea869de3575f5204067ae5ae83",
+    "./src/routing_runner.py": "a37d49da1ea267e9dd0727bdf4a13fcc1e570d84803194ebbb4356e959d7ecba",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_metadata.json": "932110ed84edc8dbea749eb98d3f0a52c29d7ce584d411ac60488d9a64266889",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_evaluation.csv": "2ce24c605ce10e5b15de49c943d28daddea5abd513a545a4e71e14af2500722a",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_summary.csv": "8aabc749f7965e9aac301a91e900790c617da0f9b376f1b68f1ae981b13cdb41",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_metadata.json": "dd28055c0f63990857a64516674365243fd464c32cf6dc50815301500001ca02",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_calibration.csv": "7e87e877ec4a2ac13fd9bd89145966cc1321948167f1535ae9919319d9b6cb3a",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_resources.csv": "d9730061b3b9d3c3d1fe233efd648d75d901b9de1c3a2a46a68e824c2ebe750b",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_splits.json": "e3307f09f9bb737fc666a259cf83e66eb690baf45c9b894b9f48a9d0142eed32",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_summary.csv": "87d477eb0b847948f2070809730f659c70d57daf862ba1a2c6b4a40e1a188b0b",
+    "./data/benchmark_results.csv": "3ea250dd3f26dfd77200208f5bb0de67d0796bfed72d213d0e0d5fc5254ec750",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_profile.json": "e31992494bcc4750b0be1ffed31f5715d69616f9e7a81d0308ae46fbaacb4ef4",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_coding_reference_audit.csv": "3983409b85806cfa1668982856eab5ae7e38363c3ef6c44a13496b002a185302",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_summary.csv": "1b5117e8deedc907f234854c7f2d2458cfc60dc476de1e943b91b056829cc024",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_summary.csv": "b2c655d59c5c08d437cefbff95e74661e703a0c15ed6d1120b72ead1e42d7595",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_timing.json": "1c502856fd7ac60a10db63998fa0b00840090b4edc85eaf7f5cca548d0245773",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_summary.csv": "a51727cc2470ab972ef184ed650e40a805865d6428f7cbaea6c38dbdf675938b",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_format_diagnostic.csv": "2af85048a947641a6ecd1f436251883440e724a9bf26505e2818e6a50eb73971",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_report.md": "f43065f3f9949f81132b34598a5bcfb586c0becb1265dc1635cd5f569f8b158d",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_assessment.md": "77b400b2e9504ed8115b9ae622cb748204d575707a6a101776182e80811df46b",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_reference_checks.csv": "6a51c8923ca991e4a8037caeaf078431118ee71bb8a181fec0e0d108a5126604",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_paired.csv": "9dadecda2cff2a28b08a22bb5ba446e1d346477d1011da4988bd76199685355e",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_metadata.json": "ab07fb6c698e62dcfe07b0b1342840044e7700ba4e1cd8fe81f9e83096e6a541",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_gold_review.csv": "f92acd1dc9ef943af1ec55aebbad405cd46cb6447075e257fd7c99b600bb2639",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_manifest.json": "9e7d806e7bb7b59732c11c316b5ba16f577ce32e8524675ab7f8aa9c24a9b1a9",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_report.md": "fab9a218d09a712cd81ca2fc7e7c9d2be9ee68a6ca3be7765b0034455133eeae",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_metadata.json": "2e67eaea93bd9938b92b740131c0cf1908bccd3e86f84437f8c750f25e078c54",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_identity.csv": "b2ea3d5c8b2688647a7cff2245212132ad0cdd8126d954434acb3776928f79f9",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_tool_events.csv": "2280034ea877254be8200b165a7fcbb3e1864b96faff61062c63e3e5be18f642",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_summary.csv": "36aa0132335a6faad6e652a98562df9a0809881eb4258efae1031a2371a7f4b3",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_profile.json": "4663040cf4485b2c4218e7f0756c3c17647cbb040922bfac9a5687531fd04ab6",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_resources.csv": "d32e02351ec2ae9c7a5144c904d68102d69b58f7402b6284d521761cedbd373d",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_splits.json": "73283332e728a76a600df7d1a4c662bc4644ec1ff318c4ff92fa1716defc2e32",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_metadata.json": "a6c0bf40c4d67b30f6c878979a6210afe1bed4ac797be8d715acc1b06b7eaf3b",
+    "./data/routing_summary_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "bcbcd836bfb2d80e2af038ba76483f38a7a3d495d428c62b02e464b7b84c9d0c",
+    "./data/benchmark_v2.csv": "35ae3ccd2ff2967874db06ee9f576caf78a096ac64361338f29c6a08dc4b85d9",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_report.md": "3bad693301bb06e342ef647ee84b5de9562d29163d881540249eb262b3a201ba",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_summary.csv": "66ea215761a643d2c93176ed3c2395f3956461c1b0cfc18b301cff199be328a9",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_paired.csv": "1a5af89e29081b7db55414c8a8665287ffc6c744944b093c93878fb540700a69",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_report.md": "1d85f098a854c3b3a9ea91a1b9c3d78e18856f9ceab3feace861c26e67b2bd18",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_evaluation.csv": "530bb37d62bad0a2b79a89a6f5ec07668ca7e83f273e3b08878e9e39888f91b3",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_resources.csv": "40f56f4e36e6cea7efe55e7a42af79386c2c2eb95545e2ce28388d4480838996",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_metadata.json": "4e33cdc10310654b0914d036b8154003587aef17dc51a7069734e60303e771ed",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_paired.csv": "5d745298c4f4a98a6eda7d8eb86877e317d8246d59ede065ee7d71bac82b022b",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_manifest.json": "e2e9eb640936f4cf4e134ba84335f317ff4423256c112e2107c6836e038f7b5a",
+    "./data/benchmark_v2_f2be12734ce5444397f2ca02a62c1869.csv": "9d974fc3625c7b8c3741d38d78085f6cbda7830176e46e3e06fb59cbe8035ae5",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_integrity.json": "24df961657b0c61ddbcb63e3aa19e9bc33d347ef8503dc24dfb280e661c5f873",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_classification.csv": "aa6f5cb5e5322c70ed96f2d34d1dcb38dbcf6319d24c25c7bf3d045f77148d1a",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_tool_misapplications.csv": "75b6ca26c99cb6c5f5ed295aaed95adf8d7b644c1973620d652543223b905c04",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_assessment.md": "5f76ddead324ce4d1658dd4050994d15a626d9d2fdab84586b6d1327dae2c43b",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_comparison.csv": "8ec4a493a7a2c61f1d61fb5eec73e73bd2d85bc5c0362262f1d5f71bfbbfc49f",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_pairs.csv": "cd8425ee73e11615085e516db8ce10843bef4c3cd7ded4573d7ed2a93d201442",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_fallbacks.csv": "cf22c2ad53c92c32b9f39e363addb1c168f9743ce0d5c4b27039bc8a1f616068",
+    "./data/routing_comparison_fffa6fa16d784cfdb5155aa7b4959d5c.csv": "3e9435df3404c893f4a4bec3abbaa99bc015da0d7893c8bd1847f5b626a5b8e9",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_assessment.md": "2e74bc377df1bf8e64fc7660c4a992f88f64eca6105fd668e26b0b3f0db34638",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_evaluation.csv": "387c75052878e37e39ccded53d14db63c85bc0dde5f4bd7cc8192b58d2916410",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_evaluation.csv": "8deb548f74f9536d979f929dcf207d60749163f7b398336f7c3f69b1066f62e8",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_manifest.json": "17ed0f078822541a50126a1e8578c0cb6c4a896545a8a2890da15c3792717a6d",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_assessment.md": "c70a030343e77b1fb0ca43c93bcbda6c38139113db72ea6138574a2beb92eceb",
+    "./data/adaptive_a8a1ef3394824a7cb65faf5707152986_paired.csv": "147008c4c0955064c98c8a4a913f2c4acbd57a9e968a0f3693f5821412e2abb3",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_failure_audit.csv": "6815ceb5c4bab2217842e9e35ad6fccc6cbef8dfc1e8fbb0e90799ae09d5e047",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_manifest.json": "a6d9ac1bfe6a60f57f22a0a716de1184a72ff196961403584282ae94677388a1",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_assessment.md": "d38f2b59bc054a21dcf75095b760e895a5ca2f05cca1686b9fdd47308955a1d7",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_paired.csv": "424cd7810749bf40cd0f296db033f873f2154b801ce63c13540682f11b8bf91a",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_request_usage.csv": "aad725aa636f5b230a943f77a1b699c6de4205ba68843f7c9d2bc423da04b246",
+    "./data/verification200_faeda373c1e6443f9775a4adb75be465_audited_report.md": "5d3e82868387e1b29fa7aae7d5c41f497e83e2e68aa6a9eb0310528bf91460aa",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_legacy_compatibility.csv": "8c9537d4b9bd834591199033133e41718e9e04eff8828dea7be64d7c12d2739b",
+    "./data/mixed_reliability_318dcf5fdf2045179fd24fd3a25866fa_per_question.csv": "b7c3da593a73d91ee79f34b04e2633a4ac0d35fd1a08bc544c47fab159d4e0fa",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_summary.csv": "99d02c36a333cea07f6125073419b28f78e8615c5d1b2987d2f98f7dfdf719b4",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_evaluation.csv": "04c4be54ba639dcdf9a8e23a2e1310a209a036111d9f9116f86ed0a5ee8379c1",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_tool_misapplications.csv": "d8897ae7947f0b21fcf7d09348683dfa0ead0d706c9f10bbef2f6b424f77d394",
+    "./data/mixed_5f6833b806564466821eb9f81873848f_evaluation.csv": "c030fc4941b0410a365af0b2e2cd967ccccd3e8864b6abb53cefd5e449e55f24",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_calibration.csv": "c69b5edbb649d5c58542851400a2b0748c1da76876ffc07bb83efa96bad11ed2",
+    "./data/coverage_951686cca01344ed8b732fc1e66d7cab_attempts.csv": "2d72805725b8052dc10889475f7565817a6266967e98653cd08b58492ec95654",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_probes.csv": "331fb43c8b0951aadcef306e45c234c49b33c0ee32c91cad0e8d80f9cd5d7d84",
+    "./data/tool_routing_73d749e404ea4347bbba5883b485a75e_report.md": "d63a52648b3bcdcfb096fa9d0d00be4fe8911a2a2b6bda8943e28a2c1bee7a69",
+    "./data/solver300_c22b83397f0945b4adfb8304f7b2f268_report.md": "0daa307483fcf02991468de5a09df6a20a5f536b2eb14df8a7a55cda954d3344"
+  }
+}

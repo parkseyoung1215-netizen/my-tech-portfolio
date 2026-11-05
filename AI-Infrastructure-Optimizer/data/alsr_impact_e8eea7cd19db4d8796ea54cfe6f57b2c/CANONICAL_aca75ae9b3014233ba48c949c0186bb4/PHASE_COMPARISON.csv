@@ -1,0 +1,8 @@
+method,original_success,corrected_success,changed_responses,original_wall,corrected_wall,warning
+baseline,0.59375,0.59375,0,24.19663939004143,25.0383583328221,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+adaptive_sketch,0.5625,0.5625,0,23.852544638483476,24.73755602662762,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+static,0.1875,0.1875,0,29.718989071513835,30.13393428021421,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+random,0.16666666666666666,0.16666666666666666,0,31.612715180109564,31.832934043137357,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+stable1,0.59375,0.59375,0,27.498947905997436,28.16108466591686,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+random1,0.4375,0.4375,0,25.21591519416931,26.06106002566715,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.
+prelayer_gate,0.59375,0.59375,0,24.179481624159962,24.966173543905217,Cross-phase timing differences confounded by caches/order/NLL instrumentation; not algorithm savings.

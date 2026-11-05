@@ -1,0 +1,21 @@
+{
+  "run_id": "1b6d963181b249e0889270ca4590ea2a",
+  "prefix_name": "efficiency_repeat_1b6d963181b249e0889270ca4590ea2a",
+  "real_inference": true,
+  "repetitions": 3,
+  "frozen_sha256": {
+    "manifest": "67c35367fd965465ccd954f257805a6787638693cea4ed3627d91fe161b30fa1",
+    "profile": "0dbb81f6dd7c6a69fcdd2ac53688fc6da6633ea5d9b3f7eaa17890791cc75f70",
+    "plans": "c73a7ca3149ce38be59bc64cf4ed47f919ba38db7ab778145db0b13cce01d084"
+  },
+  "preserved_files_checked": 154,
+  "preserved_unchanged": true,
+  "calibration_seconds": 17.750149374827743,
+  "calibration_calls": 180,
+  "calibration_input_tokens": 17856,
+  "calibration_output_tokens": 415,
+  "evaluation_seconds": 383.9936801670119,
+  "evaluation_rows": 2250,
+  "unique_evaluation_calls": 3450,
+  "cost_status": "unmeasured"
+}

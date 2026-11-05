@@ -1,0 +1,7 @@
+{
+  "real_inference": true,
+  "complete_requests": 2304,
+  "new_requests": 2304,
+  "export": "./data/acs_16a7001279c947c0acb730672deb1a97/EXPORT_a41bab36b0f54c1895725c92696bad6e",
+  "GPU_elapsed_power_money": "unmeasured"
+}

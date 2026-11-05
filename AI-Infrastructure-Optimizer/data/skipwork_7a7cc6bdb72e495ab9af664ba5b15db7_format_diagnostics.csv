@@ -1,0 +1,3776 @@
+method,category,question,expected,official_prediction,official_correct,format_recovered_final_prediction,format_recovered_final_correct,batch_envelope,batch_wrapped_verifier_prediction,batch_wrapped_verifier_correct
+baseline,knowledge,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",A,,False,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",B,B,True,B,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of Poland?
+A) Warsaw
+B) Budapest
+C) Stockholm
+D) Rome",A,,False,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Japan?
+A) Dublin
+B) Tokyo
+C) Santiago
+D) Washington, D.C.",B,B,True,B,True,json_code_fence,B,True
+early_exit,arithmetic,281 * 55,15455,15455,True,15455,True,not_batch,,False
+early_exit,arithmetic,38 * 67,2546,2546,True,2546,True,not_batch,,False
+early_exit,arithmetic,(645 * 65) - 41,41884,41884,True,41884,True,not_batch,,False
+early_exit,arithmetic,295 * 66,19470,19470,True,19470,True,not_batch,,False
+selective,arithmetic,281 * 55,15455,15455,True,15455,True,not_batch,,False
+selective,arithmetic,38 * 67,2546,2546,True,2546,True,not_batch,,False
+selective,arithmetic,(645 * 65) - 41,41884,41884,True,41884,True,not_batch,,False
+selective,arithmetic,295 * 66,19470,19470,True,19470,True,not_batch,,False
+budget_cap,arithmetic,281 * 55,15455,15455,True,15455,True,not_batch,,False
+budget_cap,arithmetic,38 * 67,2546,2286,False,2286,False,not_batch,,False
+budget_cap,arithmetic,(645 * 65) - 41,41884,41884,True,41884,True,not_batch,,False
+budget_cap,arithmetic,295 * 66,19470,19440,False,19440,False,not_batch,,False
+batch_verify,arithmetic,281 * 55,15455,15455,True,15455,True,json_code_fence,15455,True
+batch_verify,arithmetic,38 * 67,2546,2546,True,2546,True,json_code_fence,2546,True
+batch_verify,arithmetic,(645 * 65) - 41,41884,41884,True,41884,True,json_code_fence,41884,True
+batch_verify,arithmetic,295 * 66,19470,19470,True,19470,True,json_code_fence,19470,True
+baseline,arithmetic,281 * 55,15455,15455,True,15455,True,not_batch,,False
+baseline,arithmetic,38 * 67,2546,2286,False,2286,False,not_batch,,False
+baseline,arithmetic,(645 * 65) - 41,41884,41884,True,41884,True,not_batch,,False
+baseline,arithmetic,295 * 66,19470,19440,False,19440,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",B,B,True,B,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",C,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",D,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",C,D,False,D,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",B,B,True,B,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",C,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",D,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",C,D,False,D,False,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",B,B,True,B,True,json_code_fence,B,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",C,B,False,B,False,json_code_fence,B,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",D,B,False,B,False,json_code_fence,B,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",C,A,False,A,False,json_code_fence,A,False
+baseline,coding,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",B,B,True,B,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",C,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",D,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",C,D,False,D,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+d = {'n': 35}
+print(d.get('missing', 55))
+```
+A) Error
+B) 55
+C) None
+D) 35",B,B,True,B,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+d = {'n': 32}
+print(d.get('missing', 52))
+```
+A) None
+B) 32
+C) 52
+D) Error",C,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print((34, 54)[-1])
+```
+A) Error
+B) None
+C) 34
+D) 54",D,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(34, 37)])
+```
+A) [33]
+B) Error
+C) [33, 34, 35]
+D) [34, 35, 36]",C,D,False,D,False,not_batch,,False
+budget_cap,arithmetic,147 + 64,211,211,True,211,True,not_batch,,False
+budget_cap,arithmetic,26 * 56,1456,1456,True,1456,True,not_batch,,False
+budget_cap,arithmetic,257 + 28,285,285,True,285,True,not_batch,,False
+budget_cap,arithmetic,225 + 86,311,111,False,111,False,not_batch,,False
+batch_verify,arithmetic,147 + 64,211,211,True,211,True,json_code_fence,211,True
+batch_verify,arithmetic,26 * 56,1456,1456,True,1456,True,json_code_fence,1456,True
+batch_verify,arithmetic,257 + 28,285,285,True,285,True,json_code_fence,285,True
+batch_verify,arithmetic,225 + 86,311,311,True,311,True,json_code_fence,311,True
+baseline,arithmetic,147 + 64,211,211,True,211,True,not_batch,,False
+baseline,arithmetic,26 * 56,1456,1456,True,1456,True,not_batch,,False
+baseline,arithmetic,257 + 28,285,285,True,285,True,not_batch,,False
+baseline,arithmetic,225 + 86,311,111,False,111,False,not_batch,,False
+early_exit,arithmetic,147 + 64,211,211,True,211,True,not_batch,,False
+early_exit,arithmetic,26 * 56,1456,1456,True,1456,True,not_batch,,False
+early_exit,arithmetic,257 + 28,285,285,True,285,True,not_batch,,False
+early_exit,arithmetic,225 + 86,311,311,True,311,True,not_batch,,False
+selective,arithmetic,147 + 64,211,211,True,211,True,not_batch,,False
+selective,arithmetic,26 * 56,1456,1456,True,1456,True,not_batch,,False
+selective,arithmetic,257 + 28,285,285,True,285,True,not_batch,,False
+selective,arithmetic,225 + 86,311,311,True,311,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",C,B,False,B,False,json_code_fence,C,True
+batch_verify,comprehension,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",B,A,False,A,False,json_code_fence,A,False
+batch_verify,comprehension,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",B,B,True,B,True,json_code_fence,C,False
+batch_verify,comprehension,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",D,B,False,B,False,json_code_fence,B,False
+baseline,comprehension,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",C,D,False,D,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",B,D,False,D,False,not_batch,,False
+baseline,comprehension,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",B,B,True,B,True,not_batch,,False
+baseline,comprehension,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",C,D,False,D,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",B,D,False,D,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",B,B,True,B,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+selective,comprehension,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",C,D,False,D,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",B,D,False,D,False,not_batch,,False
+selective,comprehension,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",B,B,True,B,True,not_batch,,False
+selective,comprehension,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Screen 402 shows the literal password '42 * 13', not a calculation request. What text appears?
+A) Screen off
+B) 546
+C) 42 * 13
+D) No password",C,D,False,D,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela405 owns cabinet 405. Timo405 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Sela405
+C) Timo405
+D) Unknown",B,D,False,D,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Package 401 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Thursday
+C) Monday
+D) Tuesday",B,B,True,B,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Package 404 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Saturday
+B) Tuesday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+baseline,knowledge,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",B,B,True,B,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",A,,False,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",A,A,True,A,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of the United Kingdom?
+A) London
+B) Bangkok
+C) Prague
+D) Wellington",A,A,True,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Germany?
+A) Vienna
+B) Berlin
+C) Washington, D.C.
+D) Prague",B,B,True,B,True,json_code_fence,B,True
+batch_verify,knowledge,"Which city is the capital of Norway?
+A) Oslo
+B) Wellington
+C) Seoul
+D) Brasilia",A,,False,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Spain?
+A) Madrid
+B) Copenhagen
+C) Wellington
+D) Vienna",A,A,True,A,True,json_code_fence,A,True
+early_exit,comprehension,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",D,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+selective,comprehension,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",D,B,False,B,False,not_batch,,False
+selective,comprehension,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",D,B,False,B,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",D,D,True,D,True,json_code_fence,A,False
+batch_verify,comprehension,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",D,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,json_code_fence,A,False
+baseline,comprehension,"Read the passage: Sela405 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: The token for shelf 401 was on the table. Timo401 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Under the shelf
+C) In a bag
+D) Inside the box",D,D,True,D,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela403 owns cabinet 403. Timo403 rents space in it but does not own the cabinet. Who owns it?
+A) Timo403
+B) Nobody
+C) Unknown
+D) Sela403",D,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: The token for shelf 404 was on the table. Timo404 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",D,B,False,B,False,not_batch,,False
+selective,logic,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",D,B,False,B,False,not_batch,,False
+selective,logic,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",D,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",D,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",B,B,True,B,True,not_batch,,False
+batch_verify,logic,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",D,D,True,D,True,json_code_fence,B,False
+batch_verify,logic,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,json_code_fence,C,True
+batch_verify,logic,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",B,B,True,B,True,json_code_fence,B,True
+baseline,logic,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",D,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",D,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",B,B,True,B,True,not_batch,,False
+early_exit,logic,"Reason about height group 303: Neli303 is taller than Pori303; Pori303 is taller than Ravi303. Who is shortest?
+A) Unknown
+B) Pori303
+C) Neli303
+D) Ravi303",D,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about a converse 305: Every approved form is signed. This form is signed. Must it be approved?
+A) All signed forms are rejected
+B) Yes, necessarily
+C) No approved form can be signed
+D) No",D,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about a converse 302: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about a rule 304: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A must be damaged
+B) Alarm A is not ringing
+C) Light B is on
+D) Alarm A rings",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",D,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+batch_verify,logic,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",B,B,True,B,True,json_code_fence,C,False
+batch_verify,logic,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",B,B,True,B,True,json_code_fence,A,False
+batch_verify,logic,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",C,B,False,B,False,json_code_fence,B,False
+baseline,logic,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",B,B,True,B,True,not_batch,,False
+baseline,logic,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",D,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",B,B,True,B,True,not_batch,,False
+baseline,logic,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",B,B,True,B,True,not_batch,,False
+early_exit,logic,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",D,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",B,B,True,B,True,not_batch,,False
+early_exit,logic,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about positions 305: Neli305 stands before Pori305. Ravi305 stands after Pori305. Who stands second among the three?
+A) Ravi305
+B) Pori305
+C) Neli305
+D) Unknown",B,B,True,B,True,not_batch,,False
+selective,logic,"Reason about parity statement 305: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) Unknown
+C) Both true
+D) False",D,B,False,B,False,not_batch,,False
+selective,logic,"Reason about exclusion group 304: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) No
+C) Only large wugs
+D) All soft objects are wugs",B,B,True,B,True,not_batch,,False
+selective,logic,"Reason about a converse 304: Every approved form is signed. This form is signed. Must it be approved?
+A) No approved form can be signed
+B) Yes, necessarily
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",D,A,False,A,False,json_code_fence,C,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",D,B,False,B,False,json_code_fence,C,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",D,A,False,A,False,json_code_fence,A,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",C,C,True,C,True,json_code_fence,B,False
+baseline,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",D,A,False,A,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",D,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",D,D,True,D,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",C,C,True,C,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",D,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",D,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",D,D,True,D,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",C,C,True,C,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",D,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",D,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",D,D,True,D,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",C,C,True,C,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 9):
+    total += n
+print(total)
+```
+A) 59
+B) 9
+C) Error
+D) 36",D,A,False,A,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print('audit2'.split('d'))
+```
+A) Error
+B) ['audit2']
+C) ['au2', 'it']
+D) ['au', 'it2']",D,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+v = [32, 52, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 4
+D) 3",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+d = {'n': 34}
+print(d.get('missing', 54))
+```
+A) 34
+B) None
+C) 54
+D) Error",C,C,True,C,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",D,D,True,D,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",D,A,False,A,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",A,A,True,A,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",A,D,False,D,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",D,D,True,D,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",D,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",A,A,True,A,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",A,D,False,D,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",D,D,True,D,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",D,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",A,A,True,A,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",A,D,False,D,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",D,A,False,A,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",A,A,True,A,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",A,D,False,D,False,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 7):
+    total += n
+print(total)
+```
+A) Error
+B) 7
+C) 42
+D) 21",D,D,True,D,True,json_code_fence,B,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+v = [35, 55, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) 2
+C) Error
+D) 3",D,A,False,A,False,json_code_fence,A,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print((33, 53)[-1])
+```
+A) 53
+B) None
+C) 33
+D) Error",A,A,True,A,True,json_code_fence,A,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+print('audit4'.split('d'))
+```
+A) ['au', 'it4']
+B) ['audit4']
+C) ['au4', 'it']
+D) Error",A,A,True,A,True,json_code_fence,A,True
+early_exit,arithmetic,308 + 53,361,361,True,361,True,not_batch,,False
+early_exit,arithmetic,267 + 41,308,308,True,308,True,not_batch,,False
+early_exit,arithmetic,(760 * 56) - 28,42532,42532,True,42532,True,not_batch,,False
+early_exit,arithmetic,365 + 87,452,452,True,452,True,not_batch,,False
+selective,arithmetic,308 + 53,361,361,True,361,True,not_batch,,False
+selective,arithmetic,267 + 41,308,308,True,308,True,not_batch,,False
+selective,arithmetic,(760 * 56) - 28,42532,42532,True,42532,True,not_batch,,False
+selective,arithmetic,365 + 87,452,452,True,452,True,not_batch,,False
+budget_cap,arithmetic,308 + 53,361,361,True,361,True,not_batch,,False
+budget_cap,arithmetic,267 + 41,308,678,False,678,False,not_batch,,False
+budget_cap,arithmetic,(760 * 56) - 28,42532,42532,True,42532,True,not_batch,,False
+budget_cap,arithmetic,365 + 87,452,452,True,452,True,not_batch,,False
+batch_verify,arithmetic,308 + 53,361,361,True,361,True,json_code_fence,361,True
+batch_verify,arithmetic,267 + 41,308,308,True,308,True,json_code_fence,308,True
+batch_verify,arithmetic,(760 * 56) - 28,42532,42532,True,42532,True,json_code_fence,42532,True
+batch_verify,arithmetic,365 + 87,452,452,True,452,True,json_code_fence,452,True
+baseline,arithmetic,308 + 53,361,361,True,361,True,not_batch,,False
+baseline,arithmetic,267 + 41,308,678,False,678,False,not_batch,,False
+baseline,arithmetic,(760 * 56) - 28,42532,42532,True,42532,True,not_batch,,False
+baseline,arithmetic,365 + 87,452,452,True,452,True,not_batch,,False
+selective,knowledge,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",A,,False,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",A,,False,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",B,B,True,B,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",A,A,True,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",A,,False,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",A,A,True,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",B,B,True,B,True,json_code_fence,B,True
+baseline,knowledge,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",A,,False,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of France?
+A) Paris
+B) Stockholm
+C) Rome
+D) Athens",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Sweden?
+A) Stockholm
+B) Buenos Aires
+C) London
+D) Budapest",A,,False,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Colombia?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) Buenos Aires",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Italy?
+A) Paris
+B) Rome
+C) Madrid
+D) Oslo",B,B,True,B,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",C,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",C,A,False,A,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",B,B,True,B,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",A,A,True,A,True,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",C,B,False,B,False,json_code_fence,C,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",C,A,False,A,False,json_code_fence,C,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",B,A,False,A,False,json_code_fence,A,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",A,A,True,A,True,json_code_fence,A,True
+baseline,coding,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",C,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",C,A,False,A,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",B,B,True,B,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",A,A,True,A,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",C,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",C,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",B,B,True,B,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",A,A,True,A,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print((31, 51)[-1])
+```
+A) Error
+B) None
+C) 51
+D) 31",C,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(31, 34)])
+```
+A) [31, 32, 33]
+B) Error
+C) [30, 31, 32]
+D) [30]",C,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 6):
+    total += n
+print(total)
+```
+A) 35
+B) 15
+C) 6
+D) Error",B,B,True,B,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+d = {'n': 33}
+print(d.get('missing', 53))
+```
+A) 53
+B) Error
+C) None
+D) 33",A,A,True,A,True,not_batch,,False
+batch_verify,logic,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",B,B,True,B,True,json_code_fence,B,True
+batch_verify,logic,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",C,B,False,B,False,json_code_fence,B,False
+baseline,logic,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",B,B,True,B,True,not_batch,,False
+baseline,logic,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",B,B,True,B,True,not_batch,,False
+early_exit,logic,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",B,B,True,B,True,not_batch,,False
+selective,logic,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about parity statement 303: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) False
+C) Unknown
+D) True",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about positions 304: Neli304 stands before Pori304. Ravi304 stands after Pori304. Who stands second among the three?
+A) Unknown
+B) Neli304
+C) Pori304
+D) Ravi304",C,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",A,A,True,A,True,not_batch,,False
+baseline,comprehension,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",B,B,True,B,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",A,A,True,A,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",B,B,True,B,True,not_batch,,False
+selective,comprehension,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",A,A,True,A,True,not_batch,,False
+selective,comprehension,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",B,B,True,B,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",A,A,True,A,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",B,B,True,B,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Package 402 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Saturday
+D) Monday",A,B,False,B,False,json_code_fence,A,True
+batch_verify,comprehension,"Read the passage: Screen 403 shows the literal password '43 * 14', not a calculation request. What text appears?
+A) Screen off
+B) 43 * 14
+C) No password
+D) 602",B,B,True,B,True,json_code_fence,C,False
+early_exit,knowledge,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",A,,False,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",A,A,True,A,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",A,,False,A,True,json_code_fence,A,True
+baseline,knowledge,"Which city is the capital of South Korea?
+A) Paris
+B) Helsinki
+C) Seoul
+D) Vienna",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of the United States?
+A) London
+B) Bangkok
+C) Washington, D.C.
+D) Buenos Aires",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Denmark?
+A) Canberra
+B) Madrid
+C) Copenhagen
+D) Warsaw",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Finland?
+A) Helsinki
+B) Vienna
+C) Tokyo
+D) Santiago",A,A,True,A,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",B,B,True,B,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",D,D,True,D,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",C,D,False,D,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",B,B,True,B,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",B,B,True,B,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",C,D,False,D,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",B,B,True,B,True,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",B,B,True,B,True,json_code_fence,B,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",D,D,True,D,True,json_code_fence,D,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",C,A,False,A,False,json_code_fence,A,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",B,B,True,B,True,json_code_fence,B,True
+baseline,coding,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",B,B,True,B,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",D,D,True,D,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",C,D,False,D,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",B,B,True,B,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print('audit0'.split('d'))
+```
+A) Error
+B) ['au', 'it0']
+C) ['au0', 'it']
+D) ['audit0']",B,B,True,B,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 8):
+    total += n
+print(total)
+```
+A) Error
+B) 50
+C) 8
+D) 28",D,D,True,D,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print('audit3'.split('d'))
+```
+A) ['audit3']
+B) ['au3', 'it']
+C) ['au', 'it3']
+D) Error",C,D,False,D,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print((35, 55)[-1])
+```
+A) 35
+B) 55
+C) None
+D) Error",B,B,True,B,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",C,C,True,C,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",C,C,True,C,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",A,C,False,C,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",C,D,False,D,False,not_batch,,False
+batch_verify,comprehension,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",C,C,True,C,True,json_code_fence,C,True
+batch_verify,comprehension,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",C,C,True,C,True,json_code_fence,C,True
+batch_verify,comprehension,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",A,A,True,A,True,json_code_fence,A,True
+batch_verify,comprehension,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",C,C,True,C,True,json_code_fence,C,True
+baseline,comprehension,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",C,C,True,C,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",C,C,True,C,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",A,C,False,C,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",C,D,False,D,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",C,C,True,C,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",C,C,True,C,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",A,C,False,C,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",C,D,False,D,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela402 attends meeting 402 only if an invitation arrives. No invitation arrived. Will Sela402 attend?
+A) Yes
+B) An invitation did arrive
+C) No
+D) Only on Sunday",C,C,True,C,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela403 attends meeting 403 only if an invitation arrives. No invitation arrived. Will Sela403 attend?
+A) Yes
+B) Only on Sunday
+C) No
+D) An invitation did arrive",C,C,True,C,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela404 owns cabinet 404. Timo404 rents space in it but does not own the cabinet. Who owns it?
+A) Sela404
+B) Timo404
+C) Nobody
+D) Unknown",A,C,False,C,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela403 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Pears
+D) Apples",C,D,False,D,False,not_batch,,False
+batch_verify,arithmetic,73 * 68,4964,4964,True,4964,True,json_code_fence,4964,True
+batch_verify,arithmetic,36 * 79,2844,2844,True,2844,True,json_code_fence,2844,True
+baseline,arithmetic,73 * 68,4964,5044,False,5044,False,not_batch,,False
+baseline,arithmetic,36 * 79,2844,2886,False,2886,False,not_batch,,False
+early_exit,arithmetic,73 * 68,4964,4964,True,4964,True,not_batch,,False
+early_exit,arithmetic,36 * 79,2844,2844,True,2844,True,not_batch,,False
+selective,arithmetic,73 * 68,4964,4964,True,4964,True,not_batch,,False
+selective,arithmetic,36 * 79,2844,2844,True,2844,True,not_batch,,False
+budget_cap,arithmetic,73 * 68,4964,5044,False,5044,False,not_batch,,False
+budget_cap,arithmetic,36 * 79,2844,2886,False,2886,False,not_batch,,False
+baseline,knowledge,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",B,B,True,B,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",B,B,True,B,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of Canada?
+A) Berlin
+B) Santiago
+C) Ottawa
+D) Prague",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of Greece?
+A) Athens
+B) Rome
+C) Stockholm
+D) Copenhagen",A,A,True,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Brazil?
+A) Lima
+B) Brasilia
+C) Dublin
+D) Athens",B,B,True,B,True,json_code_fence,B,True
+batch_verify,knowledge,"Which city is the capital of Austria?
+A) Brussels
+B) Vienna
+C) Lisbon
+D) Buenos Aires",B,B,True,B,True,json_code_fence,B,True
+early_exit,knowledge,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",A,A,True,A,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",A,A,True,A,True,json_code_fence,A,True
+batch_verify,knowledge,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",A,A,True,A,True,json_code_fence,A,True
+baseline,knowledge,"Which city is the capital of the Czech Republic?
+A) Dublin
+B) Copenhagen
+C) Prague
+D) Madrid",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of New Zealand?
+A) Wellington
+B) Canberra
+C) Helsinki
+D) Oslo",A,A,True,A,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Peru?
+A) Buenos Aires
+B) Wellington
+C) Lima
+D) Budapest",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Portugal?
+A) Lisbon
+B) Ottawa
+C) Wellington
+D) Berlin",A,A,True,A,True,not_batch,,False
+selective,arithmetic,(517 * 73) - 25,37716,37716,True,37716,True,not_batch,,False
+selective,arithmetic,(657 * 52) - 42,34122,34122,True,34122,True,not_batch,,False
+selective,arithmetic,(777 * 88) - 39,68337,68337,True,68337,True,not_batch,,False
+selective,arithmetic,(657 * 72) - 31,47273,47273,True,47273,True,not_batch,,False
+budget_cap,arithmetic,(517 * 73) - 25,37716,37716,True,37716,True,not_batch,,False
+budget_cap,arithmetic,(657 * 52) - 42,34122,34122,True,34122,True,not_batch,,False
+budget_cap,arithmetic,(777 * 88) - 39,68337,68337,True,68337,True,not_batch,,False
+budget_cap,arithmetic,(657 * 72) - 31,47273,47273,True,47273,True,not_batch,,False
+batch_verify,arithmetic,(517 * 73) - 25,37716,37716,True,37716,True,json_code_fence,37716,True
+batch_verify,arithmetic,(657 * 52) - 42,34122,34122,True,34122,True,json_code_fence,34122,True
+batch_verify,arithmetic,(777 * 88) - 39,68337,68337,True,68337,True,json_code_fence,68337,True
+batch_verify,arithmetic,(657 * 72) - 31,47273,47273,True,47273,True,json_code_fence,47273,True
+baseline,arithmetic,(517 * 73) - 25,37716,37716,True,37716,True,not_batch,,False
+baseline,arithmetic,(657 * 52) - 42,34122,34122,True,34122,True,not_batch,,False
+baseline,arithmetic,(777 * 88) - 39,68337,68337,True,68337,True,not_batch,,False
+baseline,arithmetic,(657 * 72) - 31,47273,47273,True,47273,True,not_batch,,False
+early_exit,arithmetic,(517 * 73) - 25,37716,37716,True,37716,True,not_batch,,False
+early_exit,arithmetic,(657 * 52) - 42,34122,34122,True,34122,True,not_batch,,False
+early_exit,arithmetic,(777 * 88) - 39,68337,68337,True,68337,True,not_batch,,False
+early_exit,arithmetic,(657 * 72) - 31,47273,47273,True,47273,True,not_batch,,False
+budget_cap,logic,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+budget_cap,logic,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",C,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",C,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+batch_verify,logic,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",C,C,True,C,True,json_code_fence,C,True
+batch_verify,logic,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",C,C,True,C,True,json_code_fence,C,True
+batch_verify,logic,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,B,False,B,False,json_code_fence,B,False
+baseline,logic,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+baseline,logic,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",C,D,False,D,False,not_batch,,False
+baseline,logic,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",C,D,False,D,False,not_batch,,False
+baseline,logic,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+early_exit,logic,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+early_exit,logic,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",C,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",C,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about exclusion group 302: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about a rule 302: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Light B is on",C,D,False,D,False,not_batch,,False
+selective,logic,"Reason about a rule 303: If alarm A rings, light B is on. Light B is off. What follows?
+A) Light B is on
+B) Alarm A must be damaged
+C) Alarm A is not ringing
+D) Alarm A rings",C,D,False,D,False,not_batch,,False
+selective,logic,"Reason about exclusion group 301: All wugs are square. No square object is soft. Can a wug be soft?
+A) Only large wugs
+B) Yes
+C) All soft objects are wugs
+D) No",D,D,True,D,True,not_batch,,False
+batch_verify,arithmetic,175 * 32,5600,5600,True,5600,True,json_code_fence,5600,True
+batch_verify,arithmetic,300 + 37,337,337,True,337,True,json_code_fence,337,True
+batch_verify,arithmetic,106 * 37,3922,3922,True,3922,True,json_code_fence,3922,True
+batch_verify,arithmetic,(506 * 61) - 91,30775,30775,True,30775,True,json_code_fence,30775,True
+baseline,arithmetic,175 * 32,5600,5400,False,5400,False,not_batch,,False
+baseline,arithmetic,300 + 37,337,67,False,67,False,not_batch,,False
+baseline,arithmetic,106 * 37,3922,3982,False,3982,False,not_batch,,False
+baseline,arithmetic,(506 * 61) - 91,30775,30665,False,30665,False,not_batch,,False
+early_exit,arithmetic,175 * 32,5600,5600,True,5600,True,not_batch,,False
+early_exit,arithmetic,300 + 37,337,337,True,337,True,not_batch,,False
+early_exit,arithmetic,106 * 37,3922,3922,True,3922,True,not_batch,,False
+early_exit,arithmetic,(506 * 61) - 91,30775,30775,True,30775,True,not_batch,,False
+selective,arithmetic,175 * 32,5600,5600,True,5600,True,not_batch,,False
+selective,arithmetic,300 + 37,337,337,True,337,True,not_batch,,False
+selective,arithmetic,106 * 37,3922,3922,True,3922,True,not_batch,,False
+selective,arithmetic,(506 * 61) - 91,30775,30775,True,30775,True,not_batch,,False
+budget_cap,arithmetic,175 * 32,5600,5400,False,5400,False,not_batch,,False
+budget_cap,arithmetic,300 + 37,337,67,False,67,False,not_batch,,False
+budget_cap,arithmetic,106 * 37,3922,3982,False,3982,False,not_batch,,False
+budget_cap,arithmetic,(506 * 61) - 91,30775,30665,False,30665,False,not_batch,,False
+baseline,comprehension,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",D,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",D,A,False,A,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",D,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",D,A,False,A,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",D,B,False,B,False,not_batch,,False
+selective,comprehension,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",D,A,False,A,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",D,B,False,B,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",D,A,False,A,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",D,A,False,A,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",D,D,True,D,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Screen 401 shows the literal password '41 * 12', not a calculation request. What text appears?
+A) 492
+B) No password
+C) Screen off
+D) 41 * 12",D,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: Package 405 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Tuesday
+B) Saturday
+C) Monday
+D) Thursday",D,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: Sela402 owns cabinet 402. Timo402 rents space in it but does not own the cabinet. Who owns it?
+A) Nobody
+B) Unknown
+C) Timo402
+D) Sela402",D,A,False,A,False,json_code_fence,A,False
+batch_verify,comprehension,"Read the passage: Sela402 planned to buy apples but bought pears instead. What fruit was bought?
+A) Neither
+B) Both
+C) Apples
+D) Pears",D,D,True,D,True,json_code_fence,D,True
+early_exit,arithmetic,211 + 77,288,288,True,288,True,not_batch,,False
+early_exit,arithmetic,202 + 53,255,255,True,255,True,not_batch,,False
+early_exit,arithmetic,112 * 79,8848,8848,True,8848,True,not_batch,,False
+early_exit,arithmetic,(517 * 61) - 77,31460,31460,True,31460,True,not_batch,,False
+selective,arithmetic,211 + 77,288,288,True,288,True,not_batch,,False
+selective,arithmetic,202 + 53,255,255,True,255,True,not_batch,,False
+selective,arithmetic,112 * 79,8848,8848,True,8848,True,not_batch,,False
+selective,arithmetic,(517 * 61) - 77,31460,31460,True,31460,True,not_batch,,False
+budget_cap,arithmetic,211 + 77,288,288,True,288,True,not_batch,,False
+budget_cap,arithmetic,202 + 53,255,73,False,73,False,not_batch,,False
+budget_cap,arithmetic,112 * 79,8848,8848,True,8848,True,not_batch,,False
+budget_cap,arithmetic,(517 * 61) - 77,31460,31460,True,31460,True,not_batch,,False
+batch_verify,arithmetic,211 + 77,288,288,True,288,True,json_code_fence,288,True
+batch_verify,arithmetic,202 + 53,255,255,True,255,True,json_code_fence,255,True
+batch_verify,arithmetic,112 * 79,8848,8848,True,8848,True,json_code_fence,8848,True
+batch_verify,arithmetic,(517 * 61) - 77,31460,31460,True,31460,True,json_code_fence,31460,True
+baseline,arithmetic,211 + 77,288,288,True,288,True,not_batch,,False
+baseline,arithmetic,202 + 53,255,73,False,73,False,not_batch,,False
+baseline,arithmetic,112 * 79,8848,8848,True,8848,True,not_batch,,False
+baseline,arithmetic,(517 * 61) - 77,31460,31460,True,31460,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",C,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",C,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",D,D,True,D,True,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",C,A,False,A,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",C,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",D,D,True,D,True,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",C,A,False,A,False,json_code_fence,A,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",C,B,False,B,False,json_code_fence,B,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",D,D,True,D,True,json_code_fence,D,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",D,D,True,D,True,json_code_fence,D,True
+baseline,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",C,A,False,A,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",C,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",D,D,True,D,True,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",D,D,True,D,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(33, 36)])
+```
+A) [33, 34, 35]
+B) Error
+C) [32, 33, 34]
+D) [32]",C,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+v = [33, 53, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) 4
+C) 3
+D) Error",C,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+d = {'n': 31}
+print(d.get('missing', 51))
+```
+A) 31
+B) None
+C) Error
+D) 51",D,D,True,D,True,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print((32, 52)[-1])
+```
+A) 32
+B) None
+C) Error
+D) 52",D,D,True,D,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",C,A,False,A,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",C,A,False,A,False,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",C,A,False,A,False,json_code_fence,C,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",C,A,False,A,False,json_code_fence,A,False
+baseline,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",C,A,False,A,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",C,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",C,A,False,A,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",C,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(32, 35)])
+```
+A) [32, 33, 34]
+B) Error
+C) [31, 32, 33]
+D) [31]",C,A,False,A,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+v = [31, 51, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 4
+B) Error
+C) 3
+D) 2",C,A,False,A,False,not_batch,,False
+batch_verify,logic,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,json_code_fence,C,True
+batch_verify,logic,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",D,B,False,B,False,json_code_fence,C,False
+batch_verify,logic,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",A,A,True,A,True,json_code_fence,A,True
+batch_verify,logic,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",C,C,True,C,True,json_code_fence,C,True
+baseline,logic,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",D,D,True,D,True,not_batch,,False
+baseline,logic,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",A,D,False,D,False,not_batch,,False
+baseline,logic,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",D,D,True,D,True,not_batch,,False
+early_exit,logic,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",A,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",A,D,False,D,False,not_batch,,False
+selective,logic,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about a converse 303: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No approved form can be signed
+C) No
+D) All signed forms are rejected",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about positions 301: Neli301 stands before Pori301. Ravi301 stands after Pori301. Who stands second among the three?
+A) Unknown
+B) Neli301
+C) Ravi301
+D) Pori301",D,D,True,D,True,not_batch,,False
+budget_cap,logic,"Reason about height group 305: Neli305 is taller than Pori305; Pori305 is taller than Ravi305. Who is shortest?
+A) Ravi305
+B) Neli305
+C) Unknown
+D) Pori305",A,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about a rule 301: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A rings
+B) Light B is on
+C) Alarm A is not ringing
+D) Alarm A must be damaged",C,B,False,B,False,not_batch,,False
+baseline,knowledge,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",D,D,True,D,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",B,B,True,B,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",C,C,True,C,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",D,D,True,D,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",C,C,True,C,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",D,D,True,D,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",C,C,True,C,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",D,D,True,D,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",C,C,True,C,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",B,B,True,B,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of Chile?
+A) Bangkok
+B) Prague
+C) Buenos Aires
+D) Santiago",D,D,True,D,True,json_code_fence,D,True
+batch_verify,knowledge,"Which city is the capital of Hungary?
+A) Canberra
+B) Budapest
+C) Wellington
+D) Paris",B,B,True,B,True,json_code_fence,B,True
+batch_verify,knowledge,"Which city is the capital of Mexico?
+A) Bogota
+B) Washington, D.C.
+C) Mexico City
+D) London",C,C,True,C,True,json_code_fence,C,True
+batch_verify,knowledge,"Which city is the capital of Australia?
+A) Oslo
+B) Canberra
+C) Bangkok
+D) Lima",B,B,True,B,True,json_code_fence,B,True
+early_exit,logic,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",B,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",A,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",D,D,True,D,True,not_batch,,False
+early_exit,logic,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",C,C,True,C,True,not_batch,,False
+selective,logic,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",B,D,False,D,False,not_batch,,False
+selective,logic,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",A,D,False,D,False,not_batch,,False
+selective,logic,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",C,C,True,C,True,not_batch,,False
+budget_cap,logic,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",B,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",A,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",D,D,True,D,True,not_batch,,False
+budget_cap,logic,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",C,C,True,C,True,not_batch,,False
+batch_verify,logic,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",B,B,True,B,True,json_code_fence,B,True
+batch_verify,logic,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",A,A,True,A,True,json_code_fence,A,True
+batch_verify,logic,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",C,B,False,B,False,json_code_fence,C,True
+baseline,logic,"Reason about parity statement 302: Exactly one of X and Y is true. Y is true. What is X?
+A) True
+B) False
+C) Both true
+D) Unknown",B,D,False,D,False,not_batch,,False
+baseline,logic,"Reason about height group 301: Neli301 is taller than Pori301; Pori301 is taller than Ravi301. Who is shortest?
+A) Ravi301
+B) Pori301
+C) Unknown
+D) Neli301",A,D,False,D,False,not_batch,,False
+baseline,logic,"Reason about positions 303: Neli303 stands before Pori303. Ravi303 stands after Pori303. Who stands second among the three?
+A) Neli303
+B) Ravi303
+C) Unknown
+D) Pori303",D,D,True,D,True,not_batch,,False
+baseline,logic,"Reason about exclusion group 303: All wugs are square. No square object is soft. Can a wug be soft?
+A) Yes
+B) All soft objects are wugs
+C) No
+D) Only large wugs",C,C,True,C,True,not_batch,,False
+selective,comprehension,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",B,B,True,B,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",B,B,True,B,True,not_batch,,False
+selective,comprehension,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",A,A,True,A,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",B,B,True,B,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",B,B,True,B,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",A,A,True,A,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,json_code_fence,A,False
+batch_verify,comprehension,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",B,B,True,B,True,json_code_fence,B,True
+batch_verify,comprehension,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",B,B,True,B,True,json_code_fence,C,False
+batch_verify,comprehension,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",A,B,False,B,False,json_code_fence,A,True
+baseline,comprehension,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+baseline,comprehension,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",B,B,True,B,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",B,B,True,B,True,not_batch,,False
+baseline,comprehension,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",A,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: The token for shelf 403 was on the table. Timo403 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: The token for shelf 402 was on the table. Timo402 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) Inside the box
+C) In a bag
+D) Under the shelf",B,B,True,B,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela404 planned to buy apples but bought pears instead. What fruit was bought?
+A) Apples
+B) Pears
+C) Both
+D) Neither",B,B,True,B,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Package 403 was ordered Tuesday, shipped Thursday, and delivered Saturday. On which day was it shipped?
+A) Thursday
+B) Tuesday
+C) Monday
+D) Saturday",A,A,True,A,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",D,D,True,D,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",B,B,True,B,True,not_batch,,False
+budget_cap,knowledge,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",A,A,True,A,True,not_batch,,False
+batch_verify,knowledge,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",B,B,True,B,True,json_code_fence,B,True
+batch_verify,knowledge,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",D,D,True,D,True,json_code_fence,D,True
+batch_verify,knowledge,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",B,B,True,B,True,json_code_fence,B,True
+batch_verify,knowledge,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",A,A,True,A,True,json_code_fence,A,True
+baseline,knowledge,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",B,B,True,B,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",D,D,True,D,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",B,B,True,B,True,not_batch,,False
+baseline,knowledge,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",A,A,True,A,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",D,D,True,D,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",B,B,True,B,True,not_batch,,False
+early_exit,knowledge,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",A,A,True,A,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Belgium?
+A) Warsaw
+B) Brussels
+C) Prague
+D) Mexico City",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Ireland?
+A) Athens
+B) Vienna
+C) Prague
+D) Dublin",D,D,True,D,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Thailand?
+A) Stockholm
+B) Bangkok
+C) Vienna
+D) Lima",B,B,True,B,True,not_batch,,False
+selective,knowledge,"Which city is the capital of Argentina?
+A) Buenos Aires
+B) Vienna
+C) Santiago
+D) Stockholm",A,A,True,A,True,not_batch,,False
+batch_verify,logic,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",A,A,True,A,True,json_code_fence,B,False
+batch_verify,logic,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",B,B,True,B,True,json_code_fence,B,True
+batch_verify,logic,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",A,A,True,A,True,json_code_fence,A,True
+batch_verify,logic,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",C,C,True,C,True,json_code_fence,B,False
+baseline,logic,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",A,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",B,B,True,B,True,not_batch,,False
+baseline,logic,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",A,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",A,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",B,B,True,B,True,not_batch,,False
+early_exit,logic,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",A,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",A,B,False,B,False,not_batch,,False
+selective,logic,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",B,B,True,B,True,not_batch,,False
+selective,logic,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",A,B,False,B,False,not_batch,,False
+selective,logic,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about parity statement 304: Exactly one of X and Y is true. Y is true. What is X?
+A) False
+B) True
+C) Unknown
+D) Both true",A,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about a converse 301: Every approved form is signed. This form is signed. Must it be approved?
+A) Yes, necessarily
+B) No
+C) No approved form can be signed
+D) All signed forms are rejected",B,B,True,B,True,not_batch,,False
+budget_cap,logic,"Reason about a rule 305: If alarm A rings, light B is on. Light B is off. What follows?
+A) Alarm A is not ringing
+B) Light B is on
+C) Alarm A rings
+D) Alarm A must be damaged",A,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about height group 302: Neli302 is taller than Pori302; Pori302 is taller than Ravi302. Who is shortest?
+A) Unknown
+B) Pori302
+C) Ravi302
+D) Neli302",C,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",D,D,True,D,True,not_batch,,False
+baseline,comprehension,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+baseline,comprehension,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",A,A,True,A,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",A,A,True,A,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",A,A,True,A,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",A,A,True,A,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",D,D,True,D,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Sela404 attends meeting 404 only if an invitation arrives. No invitation arrived. Will Sela404 attend?
+A) Only on Sunday
+B) Yes
+C) An invitation did arrive
+D) No",D,D,True,D,True,json_code_fence,D,True
+batch_verify,comprehension,"Read the passage: The token for shelf 405 was on the table. Timo405 put it inside the box. Nobody moved it again. Where is it?
+A) On the table
+B) In a bag
+C) Under the shelf
+D) Inside the box",D,D,True,D,True,json_code_fence,D,True
+batch_verify,comprehension,"Read the passage: Screen 405 shows the literal password '45 * 16', not a calculation request. What text appears?
+A) 45 * 16
+B) No password
+C) Screen off
+D) 720",A,A,True,A,True,json_code_fence,A,True
+batch_verify,comprehension,"Read the passage: Sela405 attends meeting 405 only if an invitation arrives. No invitation arrived. Will Sela405 attend?
+A) Only on Sunday
+B) An invitation did arrive
+C) Yes
+D) No",D,D,True,D,True,json_code_fence,D,True
+early_exit,comprehension,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",C,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+early_exit,comprehension,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",D,D,True,D,True,not_batch,,False
+early_exit,comprehension,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",A,A,True,A,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",C,B,False,B,False,not_batch,,False
+selective,comprehension,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+selective,comprehension,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",D,D,True,D,True,not_batch,,False
+selective,comprehension,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",A,A,True,A,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",C,B,False,B,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+budget_cap,comprehension,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",D,D,True,D,True,not_batch,,False
+budget_cap,comprehension,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",A,A,True,A,True,not_batch,,False
+batch_verify,comprehension,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",C,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,json_code_fence,B,False
+batch_verify,comprehension,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",D,C,False,C,False,json_code_fence,C,False
+batch_verify,comprehension,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",A,A,True,A,True,json_code_fence,A,True
+baseline,comprehension,"Read the passage: Sela401 owns cabinet 401. Timo401 rents space in it but does not own the cabinet. Who owns it?
+A) Timo401
+B) Unknown
+C) Sela401
+D) Nobody",C,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: Sela401 planned to buy apples but bought pears instead. What fruit was bought?
+A) Pears
+B) Neither
+C) Both
+D) Apples",A,B,False,B,False,not_batch,,False
+baseline,comprehension,"Read the passage: Screen 404 shows the literal password '44 * 15', not a calculation request. What text appears?
+A) Screen off
+B) 660
+C) No password
+D) 44 * 15",D,D,True,D,True,not_batch,,False
+baseline,comprehension,"Read the passage: Sela401 attends meeting 401 only if an invitation arrives. No invitation arrived. Will Sela401 attend?
+A) No
+B) An invitation did arrive
+C) Yes
+D) Only on Sunday",A,A,True,A,True,not_batch,,False
+selective,arithmetic,(785 * 23) - 66,17989,17989,True,17989,True,not_batch,,False
+selective,arithmetic,138 * 50,6900,6900,True,6900,True,not_batch,,False
+selective,arithmetic,266 + 73,339,339,True,339,True,not_batch,,False
+selective,arithmetic,(541 * 29) - 21,15668,15668,True,15668,True,not_batch,,False
+budget_cap,arithmetic,(785 * 23) - 66,17989,17989,True,17989,True,not_batch,,False
+budget_cap,arithmetic,138 * 50,6900,6900,True,6900,True,not_batch,,False
+budget_cap,arithmetic,266 + 73,339,340,False,340,False,not_batch,,False
+budget_cap,arithmetic,(541 * 29) - 21,15668,15668,True,15668,True,not_batch,,False
+batch_verify,arithmetic,(785 * 23) - 66,17989,17989,True,17989,True,json_code_fence,17989,True
+batch_verify,arithmetic,138 * 50,6900,6900,True,6900,True,json_code_fence,6900,True
+batch_verify,arithmetic,266 + 73,339,339,True,339,True,json_code_fence,339,True
+batch_verify,arithmetic,(541 * 29) - 21,15668,15668,True,15668,True,json_code_fence,15668,True
+baseline,arithmetic,(785 * 23) - 66,17989,17989,True,17989,True,not_batch,,False
+baseline,arithmetic,138 * 50,6900,6900,True,6900,True,not_batch,,False
+baseline,arithmetic,266 + 73,339,340,False,340,False,not_batch,,False
+baseline,arithmetic,(541 * 29) - 21,15668,15668,True,15668,True,not_batch,,False
+early_exit,arithmetic,(785 * 23) - 66,17989,17989,True,17989,True,not_batch,,False
+early_exit,arithmetic,138 * 50,6900,6900,True,6900,True,not_batch,,False
+early_exit,arithmetic,266 + 73,339,339,True,339,True,not_batch,,False
+early_exit,arithmetic,(541 * 29) - 21,15668,15668,True,15668,True,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",C,D,False,D,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",C,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",D,B,False,B,False,not_batch,,False
+budget_cap,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",C,B,False,B,False,not_batch,,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",C,A,False,A,False,json_code_fence,C,True
+batch_verify,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",C,B,False,B,False,json_code_fence,B,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",D,B,False,B,False,json_code_fence,C,False
+batch_verify,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",C,B,False,B,False,json_code_fence,B,False
+baseline,coding,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",C,D,False,D,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",C,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",D,B,False,B,False,not_batch,,False
+baseline,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",C,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",C,D,False,D,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",C,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",D,B,False,B,False,not_batch,,False
+early_exit,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",C,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+v = [34, 54, 99]
+w = v.copy()
+w.append(0)
+print(len(v))
+```
+A) 2
+B) Error
+C) 3
+D) 4",C,D,False,D,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print([n - 1 for n in range(35, 38)])
+```
+A) Error
+B) [35, 36, 37]
+C) [34, 35, 36]
+D) [34]",C,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+print('audit1'.split('d'))
+```
+A) Error
+B) ['au1', 'it']
+C) ['audit1']
+D) ['au', 'it1']",D,B,False,B,False,not_batch,,False
+selective,coding,"What does this Python snippet print?
+```python
+total = 0
+for n in range(1, 10):
+    total += n
+print(total)
+```
+A) 10
+B) 69
+C) 45
+D) Error",C,B,False,B,False,not_batch,,False
+batch_verify,logic,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",D,B,False,B,False,json_code_fence,B,False
+batch_verify,logic,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",C,C,True,C,True,json_code_fence,C,True
+batch_verify,logic,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",C,C,True,C,True,json_code_fence,C,True
+baseline,logic,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",D,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",D,D,True,D,True,not_batch,,False
+baseline,logic,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",C,B,False,B,False,not_batch,,False
+baseline,logic,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",C,D,False,D,False,not_batch,,False
+early_exit,logic,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",D,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",D,D,True,D,True,not_batch,,False
+early_exit,logic,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",C,B,False,B,False,not_batch,,False
+early_exit,logic,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",C,D,False,D,False,not_batch,,False
+selective,logic,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",D,B,False,B,False,not_batch,,False
+selective,logic,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",D,D,True,D,True,not_batch,,False
+selective,logic,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",C,B,False,B,False,not_batch,,False
+selective,logic,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",C,D,False,D,False,not_batch,,False
+budget_cap,logic,"Reason about parity statement 301: Exactly one of X and Y is true. Y is true. What is X?
+A) Both true
+B) Unknown
+C) True
+D) False",D,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about positions 302: Neli302 stands before Pori302. Ravi302 stands after Pori302. Who stands second among the three?
+A) Neli302
+B) Ravi302
+C) Unknown
+D) Pori302",D,D,True,D,True,not_batch,,False
+budget_cap,logic,"Reason about exclusion group 305: All wugs are square. No square object is soft. Can a wug be soft?
+A) All soft objects are wugs
+B) Yes
+C) No
+D) Only large wugs",C,B,False,B,False,not_batch,,False
+budget_cap,logic,"Reason about height group 304: Neli304 is taller than Pori304; Pori304 is taller than Ravi304. Who is shortest?
+A) Pori304
+B) Unknown
+C) Ravi304
+D) Neli304",C,D,False,D,False,not_batch,,False

@@ -1,0 +1,5 @@
+{
+  "matplotlib": "3.11.2",
+  "real_measured_data_only": true,
+  "error_bars": "SD over 3 timing repetitions, not independent new questions"
+}

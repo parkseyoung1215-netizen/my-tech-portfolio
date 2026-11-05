@@ -1,0 +1,1927 @@
+phase,dataset,method,repetition,task_id,category,question,reference,answer,baseline_answer,correct,baseline_correct,format_ok,output_match,transition,wall_seconds,cpu_seconds,output_tokens,reused_mlp_calls,sequence,position,completion_reason
+natural,replay32,baseline,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17354316706769168,0.01687399999999961,3,0,19,3,eos
+natural,replay32,baseline,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.270967666991055,0.031712000000002405,6,0,38,3,eos
+natural,replay32,baseline,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17260441579855978,0.018085999999998492,3,0,3,0,eos
+natural,replay32,baseline,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16473375004716218,0.052772999999998405,2,0,60,2,eos
+natural,replay32,baseline,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.1560967080295086,0.01437699999999964,2,0,1,3,eos
+natural,replay32,baseline,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.1745850839652121,0.018846000000001695,3,0,20,3,eos
+natural,replay32,baseline,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.2392072919756174,0.027505000000001445,5,0,35,3,eos
+natural,replay32,baseline,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16617941693402827,0.047399999999999665,2,0,61,1,eos
+natural,replay32,baseline,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18694070889614522,0.062474000000001695,3,0,71,0,eos
+natural,replay32,baseline,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17708670906722546,0.01791899999999913,3,0,53,3,eos
+natural,replay32,baseline,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.17516087484546006,0.019757000000000247,3,0,15,1,eos
+natural,replay32,baseline,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18599233403801918,0.05952399999999969,3,0,63,2,eos
+natural,replay32,baseline,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1730575419496745,0.01826699999999981,3,0,10,0,eos
+natural,replay32,baseline,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1744042921345681,0.019407999999998538,3,0,35,2,eos
+natural,replay32,baseline,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.3115095829125494,0.10606599999999844,6,0,45,1,eos
+natural,replay32,baseline,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17459204094484448,0.020258999999995808,3,0,25,2,eos
+natural,replay32,baseline,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16758624999783933,0.05264700000000033,2,0,50,0,eos
+natural,replay32,baseline,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.1786090419627726,0.04723300000000563,2,0,43,2,eos
+natural,replay32,baseline,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.1749307089485228,0.022708000000001505,3,0,0,2,eos
+natural,replay32,baseline,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.25677566695958376,0.08311500000000649,5,0,60,3,eos
+natural,replay32,baseline,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16819458291865885,0.06483699999999715,2,0,69,0,eos
+natural,replay32,baseline,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18636991688981652,0.059674000000001115,3,0,68,3,eos
+natural,replay32,baseline,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.19014720804989338,0.06569999999999965,3,0,55,0,eos
+natural,replay32,baseline,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.18733987491577864,0.06146700000000749,3,0,65,3,eos
+natural,replay32,baseline,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18648949987255037,0.061982000000000426,3,0,59,1,eos
+natural,replay32,baseline,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18384245806373656,0.05643400000000298,3,0,52,3,eos
+natural,replay32,baseline,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.18907862505875528,0.05556099999999731,3,0,31,3,eos
+natural,replay32,baseline,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.3010121248662472,0.10474600000000578,6,0,32,2,eos
+natural,replay32,baseline,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.20064262486994267,0.01931399999999428,3,0,68,2,eos
+natural,replay32,baseline,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.19590741698630154,0.016869999999997276,2,0,50,3,eos
+natural,replay32,baseline,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.16905237501487136,0.047967999999997346,2,0,29,3,eos
+natural,replay32,baseline,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.1896381659898907,0.05670399999999631,3,0,39,3,eos
+natural,replay32,baseline,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.25172300008125603,0.0352800000000002,5,0,19,3,eos
+natural,replay32,baseline,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.22217408381402493,0.04606300000000374,2,0,62,0,eos
+natural,replay32,baseline,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.20899216597899795,0.019745000000000346,3,0,55,2,eos
+natural,replay32,baseline,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17563462490215898,0.019647000000006187,3,0,4,2,eos
+natural,replay32,baseline,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.21420520800165832,0.06985599999998726,3,0,63,1,eos
+natural,replay32,baseline,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17684529186226428,0.01816100000000631,3,0,8,2,eos
+natural,replay32,baseline,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1761024589650333,0.01837599999998929,3,0,7,0,eos
+natural,replay32,old_dlr,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17860129196196795,0.018515999999999977,3,0,19,0,eos
+natural,replay32,old_dlr,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.28015158302150667,0.030760999999998262,6,0,38,2,eos
+natural,replay32,old_dlr,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1795841669663787,0.017379999999999285,3,0,3,3,eos
+natural,replay32,old_dlr,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.17457254114560783,0.05586399999999969,2,0,60,1,eos
+natural,replay32,old_dlr,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.1578690418973565,0.014694000000000429,2,0,1,2,eos
+natural,replay32,old_dlr,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.17815383290871978,0.01859300000000097,3,0,20,0,eos
+natural,replay32,old_dlr,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.24619520897977054,0.02908000000000044,5,0,35,0,eos
+natural,replay32,old_dlr,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.17054808302782476,0.051439999999999486,2,0,61,0,eos
+natural,replay32,old_dlr,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.19314766698516905,0.06950300000000453,3,0,71,1,eos
+natural,replay32,old_dlr,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17909083305858076,0.01707500000000195,3,0,53,2,eos
+natural,replay32,old_dlr,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.17934549995698035,0.019548000000000343,3,0,15,2,eos
+natural,replay32,old_dlr,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.19435154204256833,0.06552599999999842,3,0,63,1,eos
+natural,replay32,old_dlr,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17750933300703764,0.018625000000000114,3,0,10,3,eos
+natural,replay32,old_dlr,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17940625012852252,0.021326000000001955,3,0,35,0,eos
+natural,replay32,old_dlr,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.34603679180145264,0.11624899999999627,6,0,45,2,eos
+natural,replay32,old_dlr,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17851999984122813,0.019646999999999082,3,0,25,1,eos
+natural,replay32,old_dlr,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.17044958309270442,0.05382699999999829,2,0,50,1,eos
+natural,replay32,old_dlr,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.1710369591601193,0.04063200000000222,2,0,43,1,eos
+natural,replay32,old_dlr,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.19396229181438684,0.06820100000000195,3,0,0,0,eos
+natural,replay32,old_dlr,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.27157124993391335,0.09727699999999828,5,0,60,1,eos
+natural,replay32,old_dlr,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.1700033750385046,0.050952000000009434,2,0,69,2,eos
+natural,replay32,old_dlr,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.1944214589893818,0.06743299999999408,3,0,68,1,eos
+natural,replay32,old_dlr,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.199915291974321,0.06240499999999827,3,0,55,2,eos
+natural,replay32,old_dlr,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.19800008297897875,0.0757550000000009,3,0,65,1,eos
+natural,replay32,old_dlr,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.19354512495920062,0.06761500000000353,3,0,59,0,eos
+natural,replay32,old_dlr,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1951333750039339,0.07054000000000116,3,0,52,1,eos
+natural,replay32,old_dlr,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.19751450000330806,0.06563400000000286,3,0,31,1,eos
+natural,replay32,old_dlr,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.32755841594189405,0.1322279999999978,6,0,32,3,eos
+natural,replay32,old_dlr,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.21037825010716915,0.03838700000000017,3,0,68,0,eos
+natural,replay32,old_dlr,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.19223433313891292,0.01672999999999547,2,0,50,2,eos
+natural,replay32,old_dlr,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.17185304104350507,0.053440000000009036,2,0,29,1,eos
+natural,replay32,old_dlr,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.19397279201075435,0.05523700000000531,3,0,39,0,eos
+natural,replay32,old_dlr,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.2516479999758303,0.030420000000006553,5,0,19,0,eos
+natural,replay32,old_dlr,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.23363820812664926,0.06584300000000098,2,0,62,1,eos
+natural,replay32,old_dlr,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.20010191691108048,0.019597000000004527,3,0,55,1,eos
+natural,replay32,old_dlr,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17875837511382997,0.01868399999999326,3,0,4,1,eos
+natural,replay32,old_dlr,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.2396424589678645,0.08294899999999927,3,0,63,0,eos
+natural,replay32,old_dlr,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18204358289949596,0.019015000000010218,3,0,8,0,eos
+natural,replay32,old_dlr,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1803598329424858,0.01713399999999865,3,0,7,1,eos
+natural,replay32,device,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17553904186934233,0.0176280000000002,3,0,19,2,eos
+natural,replay32,device,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.2736281668767333,0.03483699999999956,6,0,38,1,eos
+natural,replay32,device,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1756082500796765,0.01825900000000047,3,0,3,1,eos
+natural,replay32,device,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.17013108381070197,0.05193699999999879,2,0,60,0,eos
+natural,replay32,device,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.15700099989771843,0.01625800000000055,2,0,1,0,eos
+natural,replay32,device,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.17552033299580216,0.01990599999999887,3,0,20,2,eos
+natural,replay32,device,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.2405093340203166,0.02933699999999817,5,0,35,2,eos
+natural,replay32,device,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16693491605110466,0.04772700000000185,2,0,61,3,eos
+natural,replay32,device,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.188228250015527,0.061912999999997,3,0,71,3,eos
+natural,replay32,device,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.1796695829834789,0.018965999999998928,3,0,53,1,eos
+natural,replay32,device,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.17657920811325312,0.021110999999999436,3,0,15,3,eos
+natural,replay32,device,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.19083416601642966,0.06237000000000137,3,0,63,0,eos
+natural,replay32,device,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17480041598901153,0.019553000000000154,3,0,10,1,eos
+natural,replay32,device,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1765770420897752,0.019145000000001744,3,0,35,3,eos
+natural,replay32,device,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.318437792127952,0.11895999999999418,6,0,45,0,eos
+natural,replay32,device,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17558575002476573,0.01983099999999638,3,0,25,3,eos
+natural,replay32,device,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16740462509915233,0.0497879999999995,2,0,50,3,eos
+natural,replay32,device,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.17040870804339647,0.05413799999999469,2,0,43,0,eos
+natural,replay32,device,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.18785712495446205,0.05791200000000174,3,0,0,1,eos
+natural,replay32,device,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.2644023750908673,0.09287299999999732,5,0,60,0,eos
+natural,replay32,device,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16835579089820385,0.04957399999999268,2,0,69,3,eos
+natural,replay32,device,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18909362494014204,0.06157000000000323,3,0,68,2,eos
+natural,replay32,device,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.1894432499539107,0.0651110000000017,3,0,55,3,eos
+natural,replay32,device,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.18841995811089873,0.05067199999999161,3,0,65,0,eos
+natural,replay32,device,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1909188749268651,0.06299900000000491,3,0,59,3,eos
+natural,replay32,device,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18856758414767683,0.06597399999999709,3,0,52,2,eos
+natural,replay32,device,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.19191145803779364,0.060128000000005954,3,0,31,2,eos
+natural,replay32,device,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.30510529200546443,0.10873300000000086,6,0,32,1,eos
+natural,replay32,device,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.20510758296586573,0.023956999999995787,3,0,68,1,eos
+natural,replay32,device,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.17039304203353822,0.02096700000001306,2,0,50,0,eos
+natural,replay32,device,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.16963695804588497,0.05046900000000676,2,0,29,2,eos
+natural,replay32,device,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.20060941693373024,0.06457299999999577,3,0,39,1,eos
+natural,replay32,device,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.24594766716472805,0.030396000000010304,5,0,19,1,eos
+natural,replay32,device,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.21812958316877484,0.056598999999991406,2,0,62,3,eos
+natural,replay32,device,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.2183429580181837,0.019368999999997527,3,0,55,3,eos
+natural,replay32,device,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.1763571670744568,0.019397999999995363,3,0,4,3,eos
+natural,replay32,device,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.20960312499664724,0.06545599999999752,3,0,63,3,eos
+natural,replay32,device,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17735866690054536,0.019444999999990387,3,0,8,3,eos
+natural,replay32,device,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1771489589009434,0.017593000000005077,3,0,7,2,eos
+natural,replay32,lightweight,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1746967090293765,0.0175819999999991,3,0,19,1,eos
+natural,replay32,lightweight,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.2825733330100775,0.033571000000002016,6,0,38,0,eos
+natural,replay32,lightweight,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17447537486441433,0.018354999999999677,3,0,3,2,eos
+natural,replay32,lightweight,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16660016705282032,0.04983700000000013,2,0,60,3,eos
+natural,replay32,lightweight,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.15639108303003013,0.014583999999999264,2,0,1,1,eos
+natural,replay32,lightweight,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.17518358398228884,0.019896000000001024,3,0,20,1,eos
+natural,replay32,lightweight,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.23846958298236132,0.028566000000001424,5,0,35,1,eos
+natural,replay32,lightweight,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16677112504839897,0.047802999999998264,2,0,61,2,eos
+natural,replay32,lightweight,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18600362492725253,0.05985199999999935,3,0,71,2,eos
+natural,replay32,lightweight,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17505429196171463,0.020777999999999963,3,0,53,0,eos
+natural,replay32,lightweight,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.17574433400295675,0.02568699999999957,3,0,15,0,eos
+natural,replay32,lightweight,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.18721941718831658,0.058727000000001084,3,0,63,3,eos
+natural,replay32,lightweight,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17338870791718364,0.018377000000000976,3,0,10,2,eos
+natural,replay32,lightweight,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.1745264169294387,0.019544000000003336,3,0,35,1,eos
+natural,replay32,lightweight,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.3327737918589264,0.09180899999999781,6,0,45,3,eos
+natural,replay32,lightweight,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.17475795792415738,0.022019999999997708,3,0,25,0,eos
+natural,replay32,lightweight,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16649895790033042,0.04881499999999761,2,0,50,2,eos
+natural,replay32,lightweight,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.18071462493389845,0.048994000000000426,2,0,43,3,eos
+natural,replay32,lightweight,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.17767591611482203,0.025996999999996717,3,0,0,3,eos
+natural,replay32,lightweight,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.26267283386550844,0.08919300000000163,5,0,60,2,eos
+natural,replay32,lightweight,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.16736316704191267,0.04927200000000198,2,0,69,1,eos
+natural,replay32,lightweight,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18880591704510152,0.06632199999999955,3,0,68,0,eos
+natural,replay32,lightweight,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.18950324994511902,0.05758000000000152,3,0,55,1,eos
+natural,replay32,lightweight,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.19038762501440942,0.0678439999999938,3,0,65,2,eos
+natural,replay32,lightweight,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1878780829720199,0.061982000000000426,3,0,59,2,eos
+natural,replay32,lightweight,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1875644999090582,0.0664289999999994,3,0,52,0,eos
+natural,replay32,lightweight,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.18817420792765915,0.059379000000006954,3,0,31,0,eos
+natural,replay32,lightweight,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,True,Wrong->Wrong,0.3035632080864161,0.10925499999999033,6,0,32,0,eos
+natural,replay32,lightweight,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,True,Wrong->Wrong,0.20287470798939466,0.01970699999999681,3,0,68,3,eos
+natural,replay32,lightweight,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.18099425011314452,0.017084999999994466,2,0,50,1,eos
+natural,replay32,lightweight,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,True,Wrong->Wrong,0.1672074170783162,0.057972000000006574,2,0,29,0,eos
+natural,replay32,lightweight,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,True,Wrong->Wrong,0.19208741700276732,0.055971999999997024,3,0,39,2,eos
+natural,replay32,lightweight,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,True,Wrong->Wrong,0.2432387920562178,0.0282139999999913,5,0,19,2,eos
+natural,replay32,lightweight,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,True,Wrong->Wrong,0.21855099988169968,0.055970000000002074,2,0,62,2,eos
+natural,replay32,lightweight,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,True,Wrong->Wrong,0.18173391581512988,0.02035200000000259,3,0,55,0,eos
+natural,replay32,lightweight,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,True,Wrong->Wrong,0.17629912495613098,0.020199000000005185,3,0,4,0,eos
+natural,replay32,lightweight,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,True,Wrong->Wrong,0.21356699988245964,0.06995200000000068,3,0,63,2,eos
+natural,replay32,lightweight,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.17736724996939301,0.01943099999999731,3,0,8,1,eos
+natural,replay32,lightweight,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,True,Wrong->Wrong,0.1749020831193775,0.016695000000012783,3,0,7,3,eos
+natural,fresh32,baseline,1,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.14205275010317564,0.014275999999998845,2,0,49,3,eos
+natural,fresh32,baseline,1,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3630448749754578,0.1254099999999987,8,0,68,3,eos
+natural,fresh32,baseline,1,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.273837709100917,0.03036100000000097,6,0,14,2,eos
+natural,fresh32,baseline,1,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3370874170213938,0.04132300000000022,8,0,32,1,eos
+natural,fresh32,baseline,1,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1568414168432355,0.015549999999999287,2,0,18,2,eos
+natural,fresh32,baseline,1,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2702005000319332,0.031608999999999554,6,0,33,2,eos
+natural,fresh32,baseline,1,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.23846595780923963,0.0280719999999981,5,0,37,0,eos
+natural,fresh32,baseline,1,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1571698330808431,0.015248999999997181,2,0,47,1,eos
+natural,fresh32,baseline,1,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.33578066690824926,0.04063999999999979,8,0,27,2,eos
+natural,fresh32,baseline,2,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1423012081068009,0.013909000000005278,2,0,19,3,eos
+natural,fresh32,baseline,2,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.34024495794437826,0.057123999999994624,8,0,36,2,eos
+natural,fresh32,baseline,2,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.29566437494941056,0.10397999999999996,6,0,7,3,eos
+natural,fresh32,baseline,2,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.36817016708664596,0.13357900000001166,8,0,71,1,eos
+natural,fresh32,baseline,2,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16427679103799164,0.04401800000000833,2,0,63,3,eos
+natural,fresh32,baseline,2,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2705635840538889,0.031365000000000975,6,0,18,1,eos
+natural,fresh32,baseline,2,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2381023340858519,0.025961000000002343,5,0,14,3,eos
+natural,fresh32,baseline,2,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1650405409745872,0.047671999999998604,2,0,53,2,eos
+natural,fresh32,baseline,2,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.3684827908873558,0.13051699999999755,8,0,49,3,eos
+natural,fresh32,baseline,3,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.18236720911227167,0.04298799999999403,2,0,70,1,eos
+natural,fresh32,baseline,3,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.37201708392240107,0.13215499999999736,8,0,33,2,eos
+natural,fresh32,baseline,3,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.2821941659785807,0.03512400000001037,6,0,22,3,eos
+natural,fresh32,baseline,3,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3389279160182923,0.041260999999991554,8,0,41,3,eos
+natural,fresh32,baseline,3,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1971451248973608,0.01668899999999951,2,0,44,2,eos
+natural,fresh32,baseline,3,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2799247500952333,0.03352099999999325,6,0,1,0,eos
+natural,fresh32,baseline,3,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2587220829445869,0.06772300000000087,5,0,38,3,eos
+natural,fresh32,baseline,3,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.19860862498171628,0.0483600000000024,2,0,66,3,eos
+natural,fresh32,baseline,3,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.36929016606882215,0.1332400000000007,8,0,25,0,eos
+natural,fresh32,old_dlr,1,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1442978330887854,0.01462399999999775,2,0,49,0,eos
+natural,fresh32,old_dlr,1,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3926630411297083,0.1469169999999984,8,0,68,2,eos
+natural,fresh32,old_dlr,1,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.2802494999486953,0.029790000000000205,6,0,14,0,eos
+natural,fresh32,old_dlr,1,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.34792737499810755,0.039416000000001006,8,0,32,3,eos
+natural,fresh32,old_dlr,1,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1594260421115905,0.018641999999999825,2,0,18,0,eos
+natural,fresh32,old_dlr,1,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.27953912504017353,0.030821999999998795,6,0,33,1,eos
+natural,fresh32,old_dlr,1,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.24617875018157065,0.02691599999999994,5,0,37,1,eos
+natural,fresh32,old_dlr,1,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1591699591372162,0.0153250000000007,2,0,47,3,eos
+natural,fresh32,old_dlr,1,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.3491993339266628,0.04019899999999943,8,0,27,3,eos
+natural,fresh32,old_dlr,2,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.14464270882308483,0.013973999999997488,2,0,19,2,eos
+natural,fresh32,old_dlr,2,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3497662500012666,0.042124999999998636,8,0,36,3,eos
+natural,fresh32,old_dlr,2,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.31352129206061363,0.10377400000000137,6,0,7,2,eos
+natural,fresh32,old_dlr,2,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.39400762505829334,0.15165399999999352,8,0,71,2,eos
+natural,fresh32,old_dlr,2,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1688805411104113,0.05149799999999516,2,0,63,0,eos
+natural,fresh32,old_dlr,2,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2806975420098752,0.030401000000004785,6,0,18,3,eos
+natural,fresh32,old_dlr,2,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2476905828807503,0.026591000000003362,5,0,14,1,eos
+natural,fresh32,old_dlr,2,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.16894108289852738,0.049410999999999206,2,0,53,3,eos
+natural,fresh32,old_dlr,2,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.39479795913212,0.1493250000000046,8,0,49,2,eos
+natural,fresh32,old_dlr,3,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.23685433296486735,0.06206600000000151,2,0,70,3,eos
+natural,fresh32,old_dlr,3,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.39972324995324016,0.15838899999999967,8,0,33,0,eos
+natural,fresh32,old_dlr,3,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.2903930409811437,0.03321800000000508,6,0,22,1,eos
+natural,fresh32,old_dlr,3,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3521379579324275,0.04045200000000193,8,0,41,1,eos
+natural,fresh32,old_dlr,3,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1823523750063032,0.015487000000007356,2,0,44,1,eos
+natural,fresh32,old_dlr,3,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.281400416046381,0.033186000000000604,6,0,1,1,eos
+natural,fresh32,old_dlr,3,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2830381670501083,0.10404099999999517,5,0,38,0,eos
+natural,fresh32,old_dlr,3,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.17407175013795495,0.050600000000002865,2,0,66,0,eos
+natural,fresh32,old_dlr,3,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.39316362515091896,0.15275099999999497,8,0,25,3,eos
+natural,fresh32,device,1,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1429926659911871,0.014602000000000004,2,0,49,2,eos
+natural,fresh32,device,1,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.36891204095445573,0.13536300000000168,8,0,68,1,eos
+natural,fresh32,device,1,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.274605416925624,0.03310100000000027,6,0,14,1,eos
+natural,fresh32,device,1,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.34259729203768075,0.04374600000000051,8,0,32,0,eos
+natural,fresh32,device,1,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1575977080501616,0.01564399999999999,2,0,18,3,eos
+natural,fresh32,device,1,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.27382304100319743,0.0336679999999987,6,0,33,0,eos
+natural,fresh32,device,1,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2419170830398798,0.028099000000000984,5,0,37,3,eos
+natural,fresh32,device,1,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.157729750033468,0.016625000000001222,2,0,47,0,eos
+natural,fresh32,device,1,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.3393359170295298,0.04365100000000055,8,0,27,0,eos
+natural,fresh32,device,2,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.14325299998745322,0.014991000000001975,2,0,19,1,eos
+natural,fresh32,device,2,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.34702787501737475,0.04785800000000506,8,0,36,1,eos
+natural,fresh32,device,2,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.27668979205191135,0.040815000000002044,6,0,7,1,eos
+natural,fresh32,device,2,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.38336087483912706,0.15421399999999608,8,0,71,0,eos
+natural,fresh32,device,2,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16519395797513425,0.04590899999999465,2,0,63,2,eos
+natural,fresh32,device,2,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2732707909308374,0.0334360000000018,6,0,18,2,eos
+natural,fresh32,device,2,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.243227083934471,0.029271999999998854,5,0,14,0,eos
+natural,fresh32,device,2,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.16810616687871516,0.058633999999997855,2,0,53,0,eos
+natural,fresh32,device,2,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.37924079108051956,0.14206000000000074,8,0,49,0,eos
+natural,fresh32,device,3,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.2018905421718955,0.052983999999995035,2,0,70,2,eos
+natural,fresh32,device,3,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3784173331223428,0.1364160000000112,8,0,33,3,eos
+natural,fresh32,device,3,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.280689958948642,0.03416400000000408,6,0,22,2,eos
+natural,fresh32,device,3,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3447644580155611,0.04782400000000564,8,0,41,0,eos
+natural,fresh32,device,3,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.20714220800437033,0.016360000000005925,2,0,44,3,eos
+natural,fresh32,device,3,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.27681624982506037,0.03353800000000717,6,0,1,3,eos
+natural,fresh32,device,3,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2641707498114556,0.0805870000000084,5,0,38,1,eos
+natural,fresh32,device,3,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.1846857499331236,0.05308899999999994,2,0,66,2,eos
+natural,fresh32,device,3,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.3771048749331385,0.14181899999999814,8,0,25,1,eos
+natural,fresh32,lightweight,1,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.14208187512122095,0.014226000000000738,2,0,49,1,eos
+natural,fresh32,lightweight,1,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3811222498770803,0.13034899999999894,8,0,68,0,eos
+natural,fresh32,lightweight,1,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.27966308407485485,0.02828099999999978,6,0,14,3,eos
+natural,fresh32,lightweight,1,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3373872919473797,0.04100500000000018,8,0,32,2,eos
+natural,fresh32,lightweight,1,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.1567241670563817,0.015399000000000385,2,0,18,1,eos
+natural,fresh32,lightweight,1,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.27035250002518296,0.03042599999999851,6,0,33,3,eos
+natural,fresh32,lightweight,1,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.23933174996636808,0.02634700000000123,5,0,37,2,eos
+natural,fresh32,lightweight,1,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.15688974992372096,0.015230999999999995,2,0,47,2,eos
+natural,fresh32,lightweight,1,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.3354381250683218,0.040758000000000294,8,0,27,1,eos
+natural,fresh32,lightweight,2,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.14221599977463484,0.015008999999999162,2,0,19,0,eos
+natural,fresh32,lightweight,2,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.33514316589571536,0.04163499999999942,8,0,36,0,eos
+natural,fresh32,lightweight,2,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.29569999990053475,0.09673099999999835,6,0,7,0,eos
+natural,fresh32,lightweight,2,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.3732990000862628,0.13948100000000352,8,0,71,3,eos
+natural,fresh32,lightweight,2,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16493929200805724,0.04821100000000911,2,0,63,1,eos
+natural,fresh32,lightweight,2,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.2709612501785159,0.03204399999999907,6,0,18,0,eos
+natural,fresh32,lightweight,2,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.23875154089182615,0.026656000000002678,5,0,14,2,eos
+natural,fresh32,lightweight,2,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.16472758282907307,0.048560000000001935,2,0,53,1,eos
+natural,fresh32,lightweight,2,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.36847049999050796,0.12957899999999967,8,0,49,1,eos
+natural,fresh32,lightweight,3,db30f3df9788d21c050bac1b9494187f5ebd0e17ed466a4c6aa368a22286d223,coding,"Python inspection 71104: a=[87, 38, 9]; a.reverse(); print(a[1]). What is printed?
+A) 125
+B) 9
+C) 87
+D) 38
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.15971958404406905,0.020438000000012835,2,0,70,0,eos
+natural,fresh32,lightweight,3,761e575e1ec082f576b8424003415042861587ceddb6cb131360c627103ed2cc,arithmetic,"Packing sheet 71101: 80 envelopes are stored, then 27 additional envelopes arrive. What is the total?
+A) 2160
+B) 109
+C) 107
+D) 53
+Return only the option letter.",C,A) 2160,A) 2160,False,False,False,True,Wrong->Wrong,0.3716525000054389,0.1343389999999971,8,0,33,1,eos
+natural,fresh32,lightweight,3,cc620aa726613384d7417befbc14364cff7944af32aac74fa35119c416bc1d02,coding,"Python inspection 71105: a=[50, 51, 9]; a.reverse(); print(a[1]). What is printed?
+A) 51
+B) 50
+C) 101
+D) 9
+Return only the option letter.",A,B) 50,B) 50,False,False,False,True,Wrong->Wrong,0.2779377920087427,0.03633899999999812,6,0,22,0,eos
+natural,fresh32,lightweight,3,637f51042922e384429c2b969712cb01e5dc5b9fb6100de4337b565e5e698419,arithmetic,"Packing sheet 71103: 93 envelopes are stored, then 63 additional envelopes arrive. What is the total?
+A) 158
+B) 30
+C) 156
+D) 5859
+Return only the option letter.",C,D) 5859,D) 5859,False,False,False,True,Wrong->Wrong,0.340769249945879,0.04124899999999343,8,0,41,2,eos
+natural,fresh32,lightweight,3,cca59cc229626eb10c9dc7b16277078201d4afaa99dc2174ed7753e09c6b6e26,logic,"Sequence memo 71108: Ravu71108 is ahead of Seno71108, and Seno71108 is ahead of Tilu71108. Who is furthest ahead?
+A) Cannot be determined
+B) Ravu71108
+C) Tilu71108
+D) Seno71108
+Return only the option letter.",B,C,C,False,False,True,True,Wrong->Wrong,0.16430833307094872,0.01652799999999388,2,0,44,0,eos
+natural,fresh32,lightweight,3,ec7c3ef9b76e7e150b0e2e934f0ab18b9c2ebd41c68a64dee801ebea90adab9e,arithmetic,"Packing sheet 71102: 26 envelopes are stored, then 37 additional envelopes arrive. What is the total?
+A) 65
+B) 63
+C) -11
+D) 962
+Return only the option letter.",B,A) 65,A) 65,False,False,False,True,Wrong->Wrong,0.27114829211495817,0.03326299999999094,6,0,1,2,eos
+natural,fresh32,lightweight,3,2489375b7f47d48bf47c014e568dbbae311dda9ebfd7f928aa5b4e3318ffff71,coding,"Python inspection 71107: a=[57, 58, 9]; a.reverse(); print(a[1]). What is printed?
+A) 58
+B) 9
+C) 57
+D) 115
+Return only the option letter.",A,B) 9,B) 9,False,False,False,True,Wrong->Wrong,0.2609833749011159,0.0744240000000076,5,0,38,2,eos
+natural,fresh32,lightweight,3,386c9adb0d1b302fa9fef6b6c9f55cc0207f2846cbeb414ed81f87c942448edf,logic,"Sequence memo 71110: Ravu71110 is ahead of Seno71110, and Seno71110 is ahead of Tilu71110. Who is furthest ahead?
+A) Tilu71110
+B) Seno71110
+C) Cannot be determined
+D) Ravu71110
+Return only the option letter.",D,B,B,False,False,True,True,Wrong->Wrong,0.17690754192881286,0.048848000000006664,2,0,66,1,eos
+natural,fresh32,lightweight,3,cf9791f1b89bb14b073af7b12e82b50000a2a1ab19ead0c5e2b3f0ed3e858bf5,arithmetic,"Packing sheet 71100: 70 envelopes are stored, then 23 additional envelopes arrive. What is the total?
+A) 1610
+B) 93
+C) 95
+D) 47
+Return only the option letter.",B,A) 1610,A) 1610,False,False,False,True,Wrong->Wrong,0.36824125004932284,0.13045300000000282,8,0,25,2,eos
+natural,long_high,baseline,1,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,True,Wrong->Wrong,1.5566398340743035,0.21751500000000235,42,0,54,0,eos
+natural,long_high,baseline,1,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3708588329609483,0.17745700000000042,40,0,25,2,eos
+natural,long_high,baseline,2,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,True,Wrong->Wrong,1.6102200830355287,0.612088,42,0,70,1,eos
+natural,long_high,baseline,2,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.37542804190889,0.1794360000000026,40,0,41,0,eos
+natural,long_high,baseline,3,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,True,Wrong->Wrong,1.6050715001765639,0.6310370000000063,42,0,24,3,eos
+natural,long_high,baseline,3,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.492317457916215,0.30626000000000886,40,0,21,0,eos
+natural,long_high,old_dlr,1,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.4652879589702934,0.197415000000003,43,81,54,1,eos
+natural,long_high,old_dlr,1,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3534277500584722,0.16837400000000002,40,72,25,0,eos
+natural,long_high,old_dlr,1,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.6381255409214646,0.6690450000000006,42,74,70,0,eos
+natural,long_high,old_dlr,2,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.6914186249487102,0.7025030000000072,43,81,70,3,eos
+natural,long_high,old_dlr,2,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3555385831277817,0.16769799999999435,40,72,41,2,eos
+natural,long_high,old_dlr,2,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.6633068749215454,0.6894259999999974,42,74,51,3,eos
+natural,long_high,old_dlr,3,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.6936029579956084,0.6485070000000093,43,81,24,0,eos
+natural,long_high,old_dlr,3,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.4278840408660471,0.17637299999999811,40,72,21,3,eos
+natural,long_high,old_dlr,3,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.6564549580216408,0.6725179999999966,42,74,35,0,eos
+natural,long_high,device,1,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.4259279170073569,0.20202899999999957,43,81,54,2,eos
+natural,long_high,device,1,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3219057079404593,0.1859200000000012,40,72,25,3,eos
+natural,long_high,device,1,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.5662572090514004,0.6334520000000019,42,74,70,2,eos
+natural,long_high,device,2,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.637036917032674,0.6732779999999963,43,81,70,0,eos
+natural,long_high,device,2,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3185303329955786,0.18558199999999658,40,72,41,1,eos
+natural,long_high,device,2,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.575974583858624,0.6452820000000017,42,74,51,0,eos
+natural,long_high,device,3,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.6235943750943989,0.6761369999999971,43,81,24,1,eos
+natural,long_high,device,3,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,False,False,False,True,Wrong->Wrong,1.3598382910713553,0.18541000000000452,40,72,21,2,eos
+natural,long_high,device,3,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,1.586024875054136,0.6493549999999999,42,74,35,1,eos
+natural,long_high,lightweight,1,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.4074790000449866,0.1821969999999986,43,80,54,3,eos
+natural,long_high,lightweight,1,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,True,False,True,False,Wrong->Correct,1.3698091660626233,0.17390499999999953,41,76,25,1,eos
+natural,long_high,lightweight,1,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,3.4056509998627007,1.301758999999997,96,188,70,3,max_tokens
+natural,long_high,lightweight,2,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.602002332918346,0.6456390000000027,43,80,70,2,eos
+natural,long_high,lightweight,2,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,True,False,True,False,Wrong->Correct,2.03890191600658,0.4005900000000011,41,76,41,3,eos
+natural,long_high,lightweight,2,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,3.48150104098022,1.365669000000004,96,188,51,2,max_tokens
+natural,long_high,lightweight,3,a130f5ef24675db2939704f18a560c637783b0bcaba10cd5aa49e69c783d0ac1,long_high,"Literal transcription check 74600. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo",echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo echo,False,False,False,False,Wrong->Wrong,1.5706472920719534,0.5947469999999981,43,80,24,2,eos
+natural,long_high,lightweight,3,dda38ca147e04e8491b39728e7951f6c866295ccffac3c6f17ce8798c2c1f7aa,long_high,"Literal transcription check 74601. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha,True,False,True,False,Wrong->Correct,1.4359894169028848,0.24076800000000276,41,76,21,1,eos
+natural,long_high,lightweight,3,1e2576516804ee8b87cf344c27ea4d38a24fc6d948a9179373564924ebf0a819,long_high,"Literal transcription check 74603. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go",go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go go,False,True,False,False,Correct->Wrong,3.425481165992096,1.343742000000006,96,188,35,2,max_tokens
+natural,long_low,baseline,1,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.47688079182989895,0.05849800000000016,12,0,8,1,eos
+natural,long_low,baseline,1,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3162207079585642,0.1670890000000007,38,0,28,1,eos
+natural,long_low,baseline,1,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.45442279195412993,0.1636919999999975,10,0,65,0,eos
+natural,long_low,baseline,2,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.4769754579756409,0.05808600000000297,12,0,40,3,eos
+natural,long_low,baseline,2,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.5557261661160737,0.4822070000000025,38,0,44,0,eos
+natural,long_low,baseline,2,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.4125877080950886,0.049494000000002814,10,0,32,1,eos
+natural,long_low,baseline,3,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.5339585840702057,0.19902299999999684,12,0,30,3,eos
+natural,long_low,baseline,3,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3276939999777824,0.1722949999999912,38,0,51,3,eos
+natural,long_low,baseline,3,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.42563520814292133,0.054291000000006306,10,0,18,1,eos
+natural,long_low,old_dlr,1,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.5021552920807153,0.057169000000000025,12,0,8,2,eos
+natural,long_low,old_dlr,1,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3759682918898761,0.16538300000000028,38,4,28,3,eos
+natural,long_low,old_dlr,1,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.48912375001236796,0.19001400000000146,10,0,65,2,eos
+natural,long_low,old_dlr,2,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.49786508292891085,0.05746200000000101,12,0,40,2,eos
+natural,long_low,old_dlr,2,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.6821144581772387,0.644010999999999,38,4,44,3,eos
+natural,long_low,old_dlr,2,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.4304301659576595,0.04931400000000252,10,0,32,2,eos
+natural,long_low,old_dlr,3,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.5723330830223858,0.22316000000000713,12,0,30,1,eos
+natural,long_low,old_dlr,3,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3927218329627067,0.167192,38,4,51,2,eos
+natural,long_low,old_dlr,3,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.45254712481983006,0.04890899999999476,10,0,18,3,eos
+natural,long_low,device,1,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.4846133750397712,0.06422099999999986,12,0,8,0,eos
+natural,long_low,device,1,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3301888750866055,0.17661900000000053,38,4,28,2,eos
+natural,long_low,device,1,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.46280275005847216,0.1720150000000018,10,0,65,1,eos
+natural,long_low,device,2,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.4849881250411272,0.06345400000000012,12,0,40,0,eos
+natural,long_low,device,2,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.5146998330019414,0.6122259999999997,38,4,44,1,eos
+natural,long_low,device,2,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.41820745822042227,0.05565099999999745,10,0,32,0,eos
+natural,long_low,device,3,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.5430341251194477,0.20803399999999783,12,0,30,2,eos
+natural,long_low,device,3,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3897874159738421,0.18350999999999829,38,4,51,0,eos
+natural,long_low,device,3,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.44220108282752335,0.05338199999999915,10,0,18,2,eos
+natural,long_low,lightweight,1,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.47672358294948936,0.05969200000000008,12,0,8,3,eos
+natural,long_low,lightweight,1,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.316305791027844,0.17163600000000123,38,0,28,0,eos
+natural,long_low,lightweight,1,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.45361558301374316,0.157428000000003,10,0,65,3,eos
+natural,long_low,lightweight,2,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.47671691700816154,0.05926600000000093,12,0,40,1,eos
+natural,long_low,lightweight,2,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.533553458051756,0.6300150000000002,38,0,44,2,eos
+natural,long_low,lightweight,2,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.4125311658717692,0.04975699999999961,10,0,32,3,eos
+natural,long_low,lightweight,3,d0de4da1567383d4785b27da505bd6aed2d5f6a69a63857e27138e98586b0a4f,long_low,"Literal transcription check 74610. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze",amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,amber birch cedar dune elm frost grove haze,False,False,False,True,Wrong->Wrong,0.5341102911625057,0.19249499999999387,12,0,30,0,eos
+natural,long_low,lightweight,3,c4dbcf775eaf4867b8dece0cd3d53c9a660acd26a5e9305d2fd3700a2f4882f6,long_low,"Literal transcription check 74611. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz",jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz jade kite lake mint nest opal pine quartz,False,False,False,True,Wrong->Wrong,1.3273180411197245,0.17026599999999803,38,0,51,1,eos
+natural,long_low,lightweight,3,0e7dbcfaa1df9b3fefd67955312ad5d220c8cf6bbd7eab86a3c8964ec617b800,long_low,"Literal transcription check 74612. Copy exactly the following 40 words in the same order, separated by single spaces. Add no explanation:
+reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc",reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,reed sand teal umber vine wave yarn zinc,False,False,False,True,Wrong->Wrong,0.42725108307786286,0.05850399999999922,10,0,18,0,eos

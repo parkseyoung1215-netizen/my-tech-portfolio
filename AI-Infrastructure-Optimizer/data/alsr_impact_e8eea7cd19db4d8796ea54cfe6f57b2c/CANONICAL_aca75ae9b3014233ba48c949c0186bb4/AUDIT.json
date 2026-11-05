@@ -1,0 +1,23 @@
+{
+  "preserved_files_unchanged": 729,
+  "all_existing_hashes_verified": true,
+  "exact_stem_past_overlap": 0,
+  "semantic_template_overlap_not_excluded": true,
+  "splits_disjoint": true,
+  "profile_training_and_threshold_reconstructed": true,
+  "gate_features_equal_preblock_diagnostic": true,
+  "full_vocabulary_effects": true,
+  "baseline_probe_logits_exact": true,
+  "all_actual_block_attention_mlp_and_kv_counts_verified": true,
+  "fixed_masks_and_tokens_identical": true,
+  "no_reference_gate_calls": true,
+  "ablation_rows": 6272,
+  "diagnostic_contexts": 224,
+  "generation_rows": 1344,
+  "fixed_rows": 336,
+  "reference_rows_once": 448,
+  "zero_skip_token_disagreements": 0,
+  "all_costs_real_except_explicit_flops_estimates": true,
+  "json_type_scoring_disagreements": 0,
+  "raw_generation_scores_preserved": true
+}

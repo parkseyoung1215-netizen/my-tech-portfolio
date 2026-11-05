@@ -1,0 +1,7 @@
+{
+  "classification": "C",
+  "description": "최적화 실패",
+  "qualified_observed_conditions": [],
+  "population_accuracy_noninferiority_proven": false,
+  "gpu_power_money_measured": false
+}

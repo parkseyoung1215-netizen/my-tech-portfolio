@@ -1,0 +1,14 @@
+{
+  "real_inference": true,
+  "all_stages_wall_seconds": 1640.6933129588142,
+  "profile_sha256": "525979e5d50486dc9b72d8d708329460f1448a137504ca55f5c0b37caaad76ad",
+  "preserved_files": 729,
+  "generation_rows": 1344,
+  "ablation_rows": 6272,
+  "fixed_rows": 336,
+  "quality_rows": 448,
+  "GPU_elapsed_power_money": "unmeasured",
+  "FLOPs": "Analytical matmul estimate, not hardware counter",
+  "gate_timer": "Feature and prediction timer after materializing pre-block hidden state; additional synchronization effect included in whole request wall; old Sketch timer also contains preceding queued GPU work.",
+  "reference_evaluation": "once per method/question, excluded from live latency, never gate input"
+}

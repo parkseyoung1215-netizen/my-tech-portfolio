@@ -1,0 +1,77 @@
+question,category,family,expected,frozen_primary_candidate,same_primary_all3,rcav_skipped_all3,selective_repaired_all3,rcav_call_ids_by_repeat,selective_call_ids_by_repeat,interpretation
+"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",coding,coding:aggregate,D,C,True,True,True,"[[""2da048c67b2e46cea1c4835a98a9be7f""], [""f062c27d7dee42279aa9944440d6d161""], [""3afc6f9afd274ef8abdfdd0633ac1c73""]]","[[""b716544bf73e49e596f8e659a905001c"", ""8c3d70699179403fbe44abd4777cbb7d""], [""f8dbabeb6c7d4c4c815ab13c2adf6fe1"", ""ddc51f65d6db4733975e82eb5abc898e""], [""3e62d4fb2a774374b7fa668115b839d1"", ""726a8068d7d84b1b84aa911cda31b093""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",coding,coding:text,D,A,True,True,True,"[[""c8cf93e91bc74b2d91d194783c3273f1""], [""4f39b7aef90241118314b3f9e4bf2f4a""], [""57d2b9f716144b23ac016249a4f88608""]]","[[""a301f39f21c1432082a9ab6bdc930d75"", ""48e71b212488498d8e7dd0962d7f02f4""], [""20174d5869ad4d0dbb2b0fa825fc339c"", ""93b47497be684a30b3bb0dcaafb4130a""], [""68f4cf782ebf48d3bb4194ad889604ab"", ""f7c499f09dc34f7b855c49cfb23e7abc""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?
+A) P54b
+B) P54a
+C) P54c
+D) P54d",logic,logic:graph,D,A,True,True,True,"[[""faf209b972f643a699572901033468a2""], [""af6c7dd0ce664fbc967d29d782f639e0""], [""bb82fe823b90463cb362a96a336ee374""]]","[[""eb2fa3d4e20543fa9e5659b957697034"", ""222e3771961e46719d0a679c517723ab""], [""d796cb4a71a04dd495802bbc34622fde"", ""7a4c243a47074e09b934a7dabee864bd""], [""134c3493f66a48e38ac019ffb2d4f2c1"", ""08432e64e16d49bc86a729b413a3d2e6""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Neither
+B) Even
+C) Cannot determine
+D) Odd",logic,logic:parity,D,B,True,True,True,"[[""6b504aa2df564180886864868d5a84ec""], [""488b295525154718a961e00117586eaf""], [""990ff2d357d74dcbb3d99c44c9f74939""]]","[[""5d76a9f1c5984c65a09c093f231025fe"", ""662298fe5eb4481cbca2089aefe03c0e""], [""7c3ee337152845f9bb79e6220236c112"", ""928d76970e814e6b88891d7e5b31bd80""], [""dbcd19f2051d4474b6b366c02fc26e70"", ""e02c0a54ddb5475985e5444ab0da87b4""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",coding,coding:aggregate,D,B,True,True,True,"[[""e519ca8dbc864c86972f70ea90c620f7""], [""29193c10d7c94ea9b1d3d61ad263e3cd""], [""6f0fcb52c0e843f5b49f1f75fab69467""]]","[[""0a288896b1d04a3ebf1fbf574334e5ad"", ""4ca90712a129486fa2d31d9ce5dd1650""], [""40e2c068ccf44f8d8de8bf4f2ac15255"", ""849a203201df42f5a7d3303bf7029aaa""], [""5f2624d29c95478cb08aefcadf91d7d4"", ""6f7e71e6449e4b1ca1bd6e56c4bc569f""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?
+A) Juna51
+B) Karo51
+C) Ivo51
+D) Lumi51",logic,logic:order,D,B,True,True,True,"[[""d94672478ce34713a6f9b54f5a333d24""], [""e5e834e7c1e344aca6f3cb8e7c0e1a78""], [""0998ca824a8a4163a38a2da2425ee61a""]]","[[""22376b2bdb094f6095da52d3197642fe"", ""0c5d6d62295248f99918fb2f099dcb5c""], [""677cf121e054484094e08bd3474a0786"", ""87fb96504b474c4b8c1ac30bd9aa00da""], [""7dc6dbcecd6b482899080816af52088e"", ""5f2185007ddf41d6b4570886f37c9661""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?
+A) Juna55
+B) Lumi55
+C) Karo55
+D) Ivo55",logic,logic:order,B,D,True,True,True,"[[""8e8c1fd49c194a1bb68a38da4360d0e4""], [""280da85518e54a329be8c4fb364be13d""], [""0523baebe888467994922018945a284f""]]","[[""3b5015b65fa44c25b12f9c0612b1aacf"", ""94f16ac049cf41e6b25acf50d7ebe332""], [""6cc477aabccb48ae9e6856c4bbcc2d21"", ""8d484cb938c44690865d74bdac25ea8a""], [""4ddf66e8d98a4ba493713518289619ef"", ""9a5a410223854d0e87e3b9b6f6457064""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?
+A) Lumi53
+B) Ivo53
+C) Karo53
+D) Juna53",logic,logic:order,D,B,True,True,True,"[[""f9baecdb8b6548b0a6e818016b15979b""], [""2530a5e85df747ab9fe0fe52c144d789""], [""775c0a7ff5494b69a1c0ca7d712d3b17""]]","[[""f70c5e8db0de434382390ed6d77ed683"", ""3eed952ac2a94456b5eeca2347ddf297""], [""5eeb2827272046d5b149622b1bd1eb11"", ""eebab8a768854753b354af3a292d2513""], [""805deb75b6354a55a5bb2d27a6538d2e"", ""a42a8a01caf34624b7b47ad6feb9d302""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",coding,coding:index,D,B,True,True,True,"[[""a1d78c2a9b0546febbde51434589627b""], [""2c4fd261f23943a2963dc212ca014c10""], [""c82b73c584cc4870a1d86fdb91d5d8d9""]]","[[""20037c4d738b4464a8f3d15697639bfe"", ""c0bc94bce6594ab6b180edf7b706e37c""], [""e16a0881825a4339a47411842c4e5b20"", ""284a80bc574a4924ac1aaa198dd92222""], [""b61d66a6c9a44386a70a519afad82238"", ""976445c5001c4798a849c6c216405370""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",coding,coding:aggregate,B,A,True,True,True,"[[""c3bd0fe45e784812a718e3780be59c49""], [""8a9c07ae697b45be956c0a191cab126c""], [""d31430fda7564672bb40dcc7dd6c7ae3""]]","[[""1755e9d811254bdb9d347e90bf4692ca"", ""878bb895c3b74bbeab17b3001734a9fe""], [""83c0fbe230bb44b699e27ffbf69e4f3f"", ""efb447f0c13946afa32c6e0d08c5235c""], [""3a4e9a6f12e84e1c9bd8a4edd7cf7c16"", ""00bd01469f1f47e88c6bf2267f23a3f5""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."
+"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",coding,coding:mapping,C,A,True,True,True,"[[""8d092a195ae84c18bd58c309e4273be0""], [""cea4b8742f1243168b481a0dd7cbf1b9""], [""14abee3cd9ab4bd4aee0283a01543591""]]","[[""ad526b31e03c4bee84f062b6c512a25e"", ""4d25803c658e43c1a1270ae33eedf996""], [""6073563bffae4776b4dce78a6809fbd6"", ""a527cc55e3e84247bb59ecb41716c076""], [""a1f226a020a445f8924e88510f96e5a1"", ""7d61b125a0e34a63853ad0cb13b295e8""]]","Same initial error; skipping removes a measured repair opportunity, not the origin of the primary reasoning error."

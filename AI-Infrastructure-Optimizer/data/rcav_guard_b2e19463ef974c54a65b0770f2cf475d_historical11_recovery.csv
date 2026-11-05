@@ -1,0 +1,77 @@
+question,category,family,guarded_correct_repeats,rcav_correct_repeats,guard_added_repeats,fixed_candidate_recheck_correct
+"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",coding,coding:aggregate,3,0,3,3
+"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",coding,coding:text,0,0,0,3
+"Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?
+A) P54b
+B) P54a
+C) P54c
+D) P54d",logic,logic:graph,0,0,0,3
+"Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Neither
+B) Even
+C) Cannot determine
+D) Odd",logic,logic:parity,3,0,3,3
+"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",coding,coding:aggregate,3,0,3,3
+"Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?
+A) Juna51
+B) Karo51
+C) Ivo51
+D) Lumi51",logic,logic:order,0,0,0,3
+"Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?
+A) Juna55
+B) Lumi55
+C) Karo55
+D) Ivo55",logic,logic:order,0,0,0,3
+"Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?
+A) Lumi53
+B) Ivo53
+C) Karo53
+D) Juna53",logic,logic:order,0,0,0,3
+"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",coding,coding:index,0,0,0,3
+"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",coding,coding:aggregate,3,0,3,3
+"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",coding,coding:mapping,0,0,0,3

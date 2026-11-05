@@ -1,0 +1,24 @@
+{
+  "thresholds": {
+    "dlr": 0.5,
+    "conservative": 0.2
+  },
+  "candidates": [
+    8,
+    12,
+    16,
+    24
+  ],
+  "questions": [
+    "Internal DLR development card 67600: Return only a JSON object with keys name and count. Values: name=\"unit0\", count=10.",
+    "Internal DLR development card 67601: Return only a JSON object with keys name and count. Values: name=\"unit1\", count=11.",
+    "Internal DLR development card 67602: Return only a JSON object with keys name and count. Values: name=\"unit2\", count=12.",
+    "Internal DLR development card 67603: Return only a JSON object with keys name and count. Values: name=\"unit3\", count=13.",
+    "DLR development passage 67604: Mira0 has a gray cap and works at Pier 14. Restate both facts in one sentence.",
+    "DLR development passage 67605: Mira1 has a gray cap and works at Pier 15. Restate both facts in one sentence.",
+    "DLR development passage 67606: Mira2 has a gray cap and works at Pier 16. Restate both facts in one sentence.",
+    "DLR development passage 67607: Mira3 has a gray cap and works at Pier 17. Restate both facts in one sentence."
+  ],
+  "design_sha256": "d334159fdbed0f9b8201fc40de027ffdb8fefe10a221d8c8604dfd9825416990",
+  "utc": "2026-11-05T17:13:34.798155+00:00"
+}

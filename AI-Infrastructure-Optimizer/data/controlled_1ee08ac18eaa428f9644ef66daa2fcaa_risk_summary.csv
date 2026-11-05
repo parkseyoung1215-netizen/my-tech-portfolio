@@ -1,0 +1,9 @@
+model,dataset,scope,unique_initial_outputs,brier,ece_10_bins,threshold_05_classification_accuracy,native_predictor
+qwen2.5:1.5b,replay150,all,150,0.14660855213416146,0.054281404869640164,0.7533333333333333,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:1.5b,replay150,non_tool,120,0.18326069016770183,0.06785175608705021,0.6916666666666667,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:1.5b,fresh300,all,300,0.23376146811941467,0.1582063687946041,0.62,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:1.5b,fresh300,non_tool,240,0.29220183514926834,0.1977579609932551,0.525,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:0.5b,replay150,all,150,0.14917384084477361,0.0502656276185688,0.76,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:0.5b,replay150,non_tool,120,0.18646730105596704,0.062832034523211,0.7,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:0.5b,fresh300,all,300,0.18420318694661228,0.12232900650547716,0.72,RCAV and improved base component; Baseline/Selective have no native probability predictor
+qwen2.5:0.5b,fresh300,non_tool,240,0.23025398368326536,0.15291125813184644,0.65,RCAV and improved base component; Baseline/Selective have no native probability predictor

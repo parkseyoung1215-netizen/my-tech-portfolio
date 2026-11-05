@@ -1,0 +1,8 @@
+method,legacy_success,audited_success,scope
+baseline,0.59375,0.59375,Only JSON bool/int exact type check added; raw generation grades unchanged.
+adaptive_sketch,0.5625,0.5625,Only JSON bool/int exact type check added; raw generation grades unchanged.
+static,0.1875,0.1875,Only JSON bool/int exact type check added; raw generation grades unchanged.
+random,0.16666666666666666,0.16666666666666666,Only JSON bool/int exact type check added; raw generation grades unchanged.
+stable1,0.59375,0.59375,Only JSON bool/int exact type check added; raw generation grades unchanged.
+random1,0.4375,0.4375,Only JSON bool/int exact type check added; raw generation grades unchanged.
+prelayer_gate,0.59375,0.59375,Only JSON bool/int exact type check added; raw generation grades unchanged.

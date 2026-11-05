@@ -1,0 +1,7 @@
+{
+  "actual_model_execution": true,
+  "extra_sync_changes_overlap": true,
+  "gpu_kernel_counts_measured": false,
+  "xctrace_available": false,
+  "host_cache_dispatch_is_not_gpu_copy_time": true
+}

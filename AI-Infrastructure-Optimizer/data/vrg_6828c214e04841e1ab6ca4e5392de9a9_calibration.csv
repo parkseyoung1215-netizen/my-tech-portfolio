@@ -1,0 +1,1011 @@
+question,expected,category,primary,revision,primary_correct,revision_correct,label,model
+"Reason about heights: Avo8105 is taller than Bex8105, who is taller than Cyd8105, who is taller than Dov8105. Who is 1 in descending height?
+A) Cyd8105
+B) Avo8105
+C) Bex8105
+D) Dov8105",B,logic,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+d = {'a': 305, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 312
+C) Error
+D) 8",D,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(301, 306)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",D,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 410?
+A) Content Too Large
+B) Gone
+C) Expectation Failed
+D) Length Required",B,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Sensor 8105 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Red
+B) Green
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,True,0,qwen2.5:1.5b
+"Reason about permissions 8101: every member of group L has access to vault Q. Navo8101 is a member of L. What follows?
+A) Nobody has access to Q
+B) Access cannot be inferred
+C) Navo8101 has access to Q
+D) Navo8101 has no access to Q",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"Reason about schedule 8102: today is Tuesday. What weekday is 54 days later?
+A) Thursday
+B) Sunday
+C) Tuesday
+D) Wednesday",B,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Invoice 8101 lists subtotal 301, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 301
+B) 17
+C) 6
+D) 9",D,comprehension,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Ticket 8104 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Open
+C) Deleted
+D) Closed",B,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,False,1,qwen2.5:1.5b
+"Reason about heights: Avo8103 is taller than Bex8103, who is taller than Cyd8103, who is taller than Dov8103. Who is 3 in descending height?
+A) Bex8103
+B) Avo8103
+C) Cyd8103
+D) Dov8103",C,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+(35597 + 48) - 566,35079,arithmetic,"{""answer"": ""35079"", ""prediction"": ""35079"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""35079"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""35079""}",True,True,2,qwen2.5:1.5b
+"What is the main role of Python built-in reversed()?
+A) Return a new sorted list
+B) Return absolute magnitude
+C) Return a reverse iterator
+D) Return the number of items",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"What is the purpose of HTML attribute lang?
+A) Mark content as not currently relevant
+B) Specify the image resource URL
+C) Give an element its identifier
+D) Specify the element language",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Which situation is associated with Python RecursionError?
+A) Division by zero
+B) Requested file does not exist
+C) Maximum recursion depth exceeded
+D) Appropriate type but inappropriate value",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"What is the main role of Python built-in all()?
+A) Return the largest item
+B) Return quotient and remainder
+C) Test whether every item is truthy
+D) Iterate over tuples from multiple iterables",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+(25536 + 52) - 123,25465,arithmetic,"{""answer"": ""25465"", ""prediction"": ""25465"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""25465"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""25465""}",True,True,2,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 414?
+A) Content Too Large
+B) URI Too Long
+C) Range Not Satisfiable
+D) Conflict",B,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Sensor 8102 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Blue
+B) Green
+C) Red
+D) No channel",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(302, 307)))
+```
+A) 8
+B) 0
+C) Error
+D) 9",A,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+"Reason about schedule 8105: today is Friday. What weekday is 57 days later?
+A) Monday
+B) Tuesday
+C) Saturday
+D) Thursday",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+"Read the passage: In shipment 8101, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Orin
+B) Tavi
+C) Sava
+D) Nobody",C,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"Read the passage: Sensor 8101 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Green
+B) Red
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,True,0,qwen2.5:1.5b
+(38869 + 31) - 432,38468,arithmetic,"{""answer"": ""38468"", ""prediction"": ""38468"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""38468"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""38468""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+s = 'alpha8104:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) alpha8104
+C) gamma
+D) Error",A,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:1.5b
+"Which situation is associated with Python UnicodeEncodeError?
+A) Insufficient access rights
+B) Import operation fails
+C) Appropriate type but inappropriate value
+D) Unicode encoding fails",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 415?
+A) Too Early
+B) Request Timeout
+C) Upgrade Required
+D) Unsupported Media Type",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+a = [301, 303, 306, 310]
+print(a[1:][::-1][-1])
+```
+A) 303
+B) 310
+C) Error
+D) 306",A,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+"Read the passage: In shipment 8102, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Sava
+B) Orin
+C) Tavi
+D) Nobody",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+"What does this Python program output?
+```python
+a = [304, 306, 309, 313]
+print(a[1:][::-1][-1])
+```
+A) 306
+B) 313
+C) Error
+D) 309",A,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"Read the passage: Invoice 8104 lists subtotal 304, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 17
+B) 6
+C) 304
+D) 9",D,comprehension,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Sensor 8103 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Green
+B) Red
+C) No channel
+D) Blue",D,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,True,0,qwen2.5:1.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(305, 310)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",D,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Read the passage: Invoice 8105 lists subtotal 305, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 6
+B) 305
+C) 17
+D) 9",D,comprehension,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+(24104 + 37) - 348,23793,arithmetic,"{""answer"": ""23793"", ""prediction"": ""23793"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""24104 + 37 = 24141\n24141 - 348 = 23793""}",True,False,1,qwen2.5:1.5b
+"Reason about schedule 8103: today is Wednesday. What weekday is 55 days later?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday",C,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Read the passage: In shipment 8105, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Nobody
+B) Sava
+C) Tavi
+D) Orin",B,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Which situation is associated with Python AttributeError?
+A) Sequence index out of range
+B) Appropriate type but inappropriate value
+C) Attribute lookup or assignment fails
+D) Imported module cannot be located",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:1.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(303, 308)))
+```
+A) 10
+B) Error
+C) 0
+D) 9",D,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,True,0,qwen2.5:1.5b
+"Reason about heights: Avo8104 is taller than Bex8104, who is taller than Cyd8104, who is taller than Dov8104. Who is 4 in descending height?
+A) Dov8104
+B) Avo8104
+C) Cyd8104
+D) Bex8104",A,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+s = 'alpha8103:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) alpha8103
+D) beta",D,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 429?
+A) Precondition Required
+B) Too Early
+C) Length Required
+D) Too Many Requests",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Invoice 8103 lists subtotal 303, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 9
+B) 17
+C) 303
+D) 6",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+a = [303, 305, 308, 312]
+print(a[1:][::-1][-1])
+```
+A) 308
+B) 312
+C) 305
+D) Error",C,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(304, 309)))
+```
+A) 7
+B) 0
+C) 6
+D) Error",C,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What is the purpose of HTML attribute title?
+A) Specify text directionality
+B) Provide advisory information
+C) Allow multiple selections
+D) Provide an input hint",B,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Reason about integer constraints: among integers from 8105 through 8117, including both ends, how many are divisible by 3?
+A) 4
+B) 6
+C) 3
+D) 5",A,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Read the passage: Invoice 8102 lists subtotal 302, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 17
+B) 6
+C) 302
+D) 9",D,comprehension,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Sensor 8104 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Red
+B) Green
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,True,0,qwen2.5:1.5b
+"What does this Python program output?
+```python
+s = 'alpha8101:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha8101
+B) beta
+C) gamma
+D) Error",B,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"Reason about integer constraints: among integers from 8103 through 8113, including both ends, how many are divisible by 3?
+A) 3
+B) 4
+C) 5
+D) 6",B,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+(34937 + 41) - 474,34504,arithmetic,"{""answer"": ""34504"", ""prediction"": ""34504"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""34504"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""34504""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+s = 'alpha8102:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) Error
+C) alpha8102
+D) gamma",A,coding,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+(32891 - 431) * 69,2239740,arithmetic,"{""answer"": ""2239740"", ""prediction"": ""2239740"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""18000"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""18000""}",True,False,1,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 425?
+A) Too Early
+B) Expectation Failed
+C) Upgrade Required
+D) Misdirected Request",A,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+(29081 + 86) - 109,29058,arithmetic,"{""answer"": ""29058"", ""prediction"": ""29058"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""29058"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""29058""}",True,True,2,qwen2.5:1.5b
+(28201 + 87) - 223,28065,arithmetic,"{""answer"": ""28065"", ""prediction"": ""28065"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""28065"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""28065""}",True,True,2,qwen2.5:1.5b
+(21334 - 203) * 75,1584825,arithmetic,"{""answer"": ""1584825"", ""prediction"": ""1584825"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1584825"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1584825""}",True,True,2,qwen2.5:1.5b
+"What is the purpose of HTML attribute checked on a checkbox?
+A) Specify how many columns the cell spans
+B) Require a value for form submission
+C) Specify default checkedness
+D) Specify the relationship to the linked resource",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"Reason about permissions 8103: every member of group L has access to vault Q. Navo8103 is a member of L. What follows?
+A) Nobody has access to Q
+B) Navo8103 has no access to Q
+C) Access cannot be inferred
+D) Navo8103 has access to Q",D,logic,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+d = {'a': 303, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 310
+C) 7
+D) 8",D,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+s = 'alpha8105:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) alpha8105
+D) gamma",B,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,False,1,qwen2.5:1.5b
+"What does this Python program output?
+```python
+d = {'a': 304, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) Error
+C) 311
+D) 8",D,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,True,0,qwen2.5:1.5b
+(21193 + 73) - 595,20671,arithmetic,"{""answer"": ""20671"", ""prediction"": ""20671"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""20671"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""20671""}",True,True,2,qwen2.5:1.5b
+"Reason about schedule 8101: today is Monday. What weekday is 53 days later?
+A) Friday
+B) Sunday
+C) Thursday
+D) Wednesday",A,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+(32363 - 157) * 63,2028978,arithmetic,"{""answer"": ""2028978"", ""prediction"": ""2028978"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""2028978"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""2028978""}",True,True,2,qwen2.5:1.5b
+(27843 - 423) * 68,1864560,arithmetic,"{""answer"": ""1864560"", ""prediction"": ""1864560"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""180000"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""180000""}",True,False,1,qwen2.5:1.5b
+"Read the passage: Ticket 8101 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Deleted
+B) Closed
+C) Open
+D) Pending",C,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Reason about schedule 8104: today is Thursday. What weekday is 56 days later?
+A) Friday
+B) Thursday
+C) Wednesday
+D) Saturday",B,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Reason about permissions 8104: every member of group L has access to vault Q. Navo8104 is a member of L. What follows?
+A) Navo8104 has no access to Q
+B) Access cannot be inferred
+C) Navo8104 has access to Q
+D) Nobody has access to Q",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+(35400 + 45) - 490,34955,arithmetic,"{""answer"": ""34955"", ""prediction"": ""34955"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""34955"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""34955""}",True,True,2,qwen2.5:1.5b
+"Reason about integer constraints: among integers from 8101 through 8109, including both ends, how many are divisible by 3?
+A) 5
+B) 4
+C) 2
+D) 3",D,logic,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:1.5b
+(33347 - 149) * 98,3253404,arithmetic,"{""answer"": ""3253404"", ""prediction"": ""3253404"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""3253404"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""3253404""}",True,True,2,qwen2.5:1.5b
+"Reason about integer constraints: among integers from 8104 through 8115, including both ends, how many are divisible by 3?
+A) 3
+B) 6
+C) 4
+D) 5",C,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+a = [302, 304, 307, 311]
+print(a[1:][::-1][-1])
+```
+A) 304
+B) 311
+C) Error
+D) 307",A,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+(36773 - 306) * 98,3573766,arithmetic,"{""answer"": ""3573766"", ""prediction"": ""3573766"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""345664"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""345664""}",True,False,1,qwen2.5:1.5b
+(23765 - 310) * 66,1548030,arithmetic,"{""answer"": ""1548030"", ""prediction"": ""1548030"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1548030"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1548030""}",True,True,2,qwen2.5:1.5b
+"Reason about permissions 8102: every member of group L has access to vault Q. Navo8102 is a member of L. What follows?
+A) Navo8102 has no access to Q
+B) Navo8102 has access to Q
+C) Access cannot be inferred
+D) Nobody has access to Q",B,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:1.5b
+"Reason about permissions 8105: every member of group L has access to vault Q. Navo8105 is a member of L. What follows?
+A) Nobody has access to Q
+B) Navo8105 has no access to Q
+C) Navo8105 has access to Q
+D) Access cannot be inferred",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"Reason about heights: Avo8102 is taller than Bex8102, who is taller than Cyd8102, who is taller than Dov8102. Who is 2 in descending height?
+A) Cyd8102
+B) Avo8102
+C) Dov8102
+D) Bex8102",D,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Read the passage: In shipment 8104, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Nobody
+B) Tavi
+C) Orin
+D) Sava",D,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+(21487 - 227) * 74,1573240,arithmetic,"{""answer"": ""1573240"", ""prediction"": ""1573240"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1573240"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1573240""}",True,True,2,qwen2.5:1.5b
+(23784 - 545) * 47,1092233,arithmetic,"{""answer"": ""1092233"", ""prediction"": ""1092233"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1092233"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1092233""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Ticket 8105 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Deleted
+C) Open
+D) Closed",C,comprehension,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"Read the passage: Ticket 8103 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Open
+C) Deleted
+D) Closed",B,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,False,1,qwen2.5:1.5b
+"What does this Python program output?
+```python
+d = {'a': 301, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) Error
+C) 7
+D) 308",A,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"Reason about heights: Avo8101 is taller than Bex8101, who is taller than Cyd8101, who is taller than Dov8101. Who is 1 in descending height?
+A) Avo8101
+B) Dov8101
+C) Bex8101
+D) Cyd8101",A,logic,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+(24005 - 458) * 74,1742478,arithmetic,"{""answer"": ""1742478"", ""prediction"": ""1742478"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1742478"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1742478""}",True,True,2,qwen2.5:1.5b
+(25508 + 77) - 252,25333,arithmetic,"{""answer"": ""25333"", ""prediction"": ""25333"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""25333"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""25333""}",True,True,2,qwen2.5:1.5b
+"What is the main role of Python built-in zip()?
+A) Iterate over tuples from multiple iterables
+B) Construct a mutable set
+C) Test whether every item is truthy
+D) Construct an integer",A,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:1.5b
+"What is the purpose of HTML attribute download on an anchor?
+A) Indicate a download hyperlink
+B) Specify how many columns the cell spans
+C) Provide an input hint
+D) Specify the target navigable",A,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:1.5b
+"What is the main role of Python built-in any()?
+A) Round a number to specified precision
+B) Add items of an iterable
+C) Test whether at least one item is truthy
+D) Return the number of items",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,False,1,qwen2.5:1.5b
+"What does this Python program output?
+```python
+d = {'a': 302, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 8
+C) 309
+D) Error",B,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:1.5b
+"What does this Python program output?
+```python
+a = [305, 307, 310, 314]
+print(a[1:][::-1][-1])
+```
+A) 307
+B) Error
+C) 314
+D) 310",A,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,False,1,qwen2.5:1.5b
+"What is the purpose of HTML attribute colspan on a table cell?
+A) Supply replacement text
+B) Assign element classes
+C) Mark content as not currently relevant
+D) Specify how many columns the cell spans",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:1.5b
+"Read the passage: Ticket 8102 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Closed
+B) Pending
+C) Open
+D) Deleted",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:1.5b
+"Which registered HTTP description belongs to code 422?
+A) Unprocessable Content
+B) Length Required
+C) Precondition Failed
+D) Gone",A,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,True,0,qwen2.5:1.5b
+"What is the purpose of HTML attribute style?
+A) Assign element classes
+B) Give an element its identifier
+C) Specify inline CSS declarations
+D) Specify the relationship to the linked resource",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"Reason about integer constraints: among integers from 8102 through 8111, including both ends, how many are divisible by 3?
+A) 5
+B) 3
+C) 2
+D) 4",B,logic,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,True,0,qwen2.5:1.5b
+"Read the passage: In shipment 8103, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Tavi
+B) Nobody
+C) Sava
+D) Orin",C,comprehension,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:1.5b
+"Which situation is associated with Python OverflowError?
+A) Unicode encoding fails
+B) Import operation fails
+C) Arithmetic result is too large
+D) Operation runs out of memory",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:1.5b
+"Reason about heights: Avo8105 is taller than Bex8105, who is taller than Cyd8105, who is taller than Dov8105. Who is 1 in descending height?
+A) Cyd8105
+B) Avo8105
+C) Bex8105
+D) Dov8105",B,logic,"{""answer"": ""C) Bex8105"", ""prediction"": ""C"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""C) Bex8105""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+d = {'a': 305, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 312
+C) Error
+D) 8",D,coding,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(301, 306)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",D,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 410?
+A) Content Too Large
+B) Gone
+C) Expectation Failed
+D) Length Required",B,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Sensor 8105 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Red
+B) Green
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Reason about permissions 8101: every member of group L has access to vault Q. Navo8101 is a member of L. What follows?
+A) Nobody has access to Q
+B) Access cannot be inferred
+C) Navo8101 has access to Q
+D) Navo8101 has no access to Q",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:0.5b
+"Reason about schedule 8102: today is Tuesday. What weekday is 54 days later?
+A) Thursday
+B) Sunday
+C) Tuesday
+D) Wednesday",B,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Invoice 8101 lists subtotal 301, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 301
+B) 17
+C) 6
+D) 9",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Ticket 8104 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Open
+C) Deleted
+D) Closed",B,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Reason about heights: Avo8103 is taller than Bex8103, who is taller than Cyd8103, who is taller than Dov8103. Who is 3 in descending height?
+A) Bex8103
+B) Avo8103
+C) Cyd8103
+D) Dov8103",C,logic,"{""answer"": ""C)"", ""prediction"": ""C"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""C)""}",True,True,2,qwen2.5:0.5b
+(35597 + 48) - 566,35079,arithmetic,"{""answer"": ""35079"", ""prediction"": ""35079"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""35597 + 48 = 35645\n35645 - 566 = 35079""}",True,False,1,qwen2.5:0.5b
+"What is the main role of Python built-in reversed()?
+A) Return a new sorted list
+B) Return absolute magnitude
+C) Return a reverse iterator
+D) Return the number of items",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:0.5b
+"What is the purpose of HTML attribute lang?
+A) Mark content as not currently relevant
+B) Specify the image resource URL
+C) Give an element its identifier
+D) Specify the element language",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:0.5b
+"Which situation is associated with Python RecursionError?
+A) Division by zero
+B) Requested file does not exist
+C) Maximum recursion depth exceeded
+D) Appropriate type but inappropriate value",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:0.5b
+"What is the main role of Python built-in all()?
+A) Return the largest item
+B) Return quotient and remainder
+C) Test whether every item is truthy
+D) Iterate over tuples from multiple iterables",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:0.5b
+(25536 + 52) - 123,25465,arithmetic,"{""answer"": ""25465"", ""prediction"": ""25465"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""25465"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""25465""}",True,True,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 414?
+A) Content Too Large
+B) URI Too Long
+C) Range Not Satisfiable
+D) Conflict",B,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Sensor 8102 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Blue
+B) Green
+C) Red
+D) No channel",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(302, 307)))
+```
+A) 8
+B) 0
+C) Error
+D) 9",A,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Reason about schedule 8105: today is Friday. What weekday is 57 days later?
+A) Monday
+B) Tuesday
+C) Saturday
+D) Thursday",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:0.5b
+"Read the passage: In shipment 8101, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Orin
+B) Tavi
+C) Sava
+D) Nobody",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Sensor 8101 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Green
+B) Red
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+(38869 + 31) - 432,38468,arithmetic,"{""answer"": ""38468"", ""prediction"": ""38468"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""38468"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""38468""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+s = 'alpha8104:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) alpha8104
+C) gamma
+D) Error",A,coding,"{""answer"": ""A) beta"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) beta""}",True,True,2,qwen2.5:0.5b
+"Which situation is associated with Python UnicodeEncodeError?
+A) Insufficient access rights
+B) Import operation fails
+C) Appropriate type but inappropriate value
+D) Unicode encoding fails",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 415?
+A) Too Early
+B) Request Timeout
+C) Upgrade Required
+D) Unsupported Media Type",D,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+a = [301, 303, 306, 310]
+print(a[1:][::-1][-1])
+```
+A) 303
+B) 310
+C) Error
+D) 306",A,coding,"{""answer"": ""The Python program outputs option A: 303."", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"Read the passage: In shipment 8102, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Sava
+B) Orin
+C) Tavi
+D) Nobody",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+a = [304, 306, 309, 313]
+print(a[1:][::-1][-1])
+```
+A) 306
+B) 313
+C) Error
+D) 309",A,coding,"{""answer"": ""The Python program outputs option A: 306."", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"Read the passage: Invoice 8104 lists subtotal 304, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 17
+B) 6
+C) 304
+D) 9",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Sensor 8103 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Green
+B) Red
+C) No channel
+D) Blue",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(305, 310)))
+```
+A) 8
+B) 0
+C) Error
+D) 7",D,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Invoice 8105 lists subtotal 305, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 6
+B) 305
+C) 17
+D) 9",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+(24104 + 37) - 348,23793,arithmetic,"{""answer"": ""23793"", ""prediction"": ""23793"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""23793"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""23793""}",True,True,2,qwen2.5:0.5b
+"Reason about schedule 8103: today is Wednesday. What weekday is 55 days later?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday",C,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",True,True,2,qwen2.5:0.5b
+"Read the passage: In shipment 8105, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Nobody
+B) Sava
+C) Tavi
+D) Orin",B,comprehension,"{""answer"": ""A)"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A)""}",False,False,2,qwen2.5:0.5b
+"Which situation is associated with Python AttributeError?
+A) Sequence index out of range
+B) Appropriate type but inappropriate value
+C) Attribute lookup or assignment fails
+D) Imported module cannot be located",C,knowledge,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:0.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(303, 308)))
+```
+A) 10
+B) Error
+C) 0
+D) 9",D,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Reason about heights: Avo8104 is taller than Bex8104, who is taller than Cyd8104, who is taller than Dov8104. Who is 4 in descending height?
+A) Dov8104
+B) Avo8104
+C) Cyd8104
+D) Bex8104",A,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+s = 'alpha8103:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) gamma
+C) alpha8103
+D) beta",D,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 429?
+A) Precondition Required
+B) Too Early
+C) Length Required
+D) Too Many Requests",D,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Invoice 8103 lists subtotal 303, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 9
+B) 17
+C) 303
+D) 6",A,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+a = [303, 305, 308, 312]
+print(a[1:][::-1][-1])
+```
+A) 308
+B) 312
+C) 305
+D) Error",C,coding,"{""answer"": ""A) 308"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+print(sum(x % 4 for x in range(304, 309)))
+```
+A) 7
+B) 0
+C) 6
+D) Error",C,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,True,0,qwen2.5:0.5b
+"What is the purpose of HTML attribute title?
+A) Specify text directionality
+B) Provide advisory information
+C) Allow multiple selections
+D) Provide an input hint",B,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""A) Provide advisory information""}",True,False,1,qwen2.5:0.5b
+"Reason about integer constraints: among integers from 8105 through 8117, including both ends, how many are divisible by 3?
+A) 4
+B) 6
+C) 3
+D) 5",A,logic,"{""answer"": ""To determine how many integers between 8105 and 8117 are divisible by 3, we can follow these steps:\n\n1. Identify the smallest and largest integers in the range.\n   - The smallest integer is 8105.\n   - The largest integer is 8117"", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) 4""}",False,True,0,qwen2.5:0.5b
+"Read the passage: Invoice 8102 lists subtotal 302, tax 17, shipping 9 and discount 6. What is the shipping amount?
+A) 17
+B) 6
+C) 302
+D) 9",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Read the passage: Sensor 8104 uses channel red except during maintenance when it uses blue. Maintenance is active. Which channel is used?
+A) Red
+B) Green
+C) Blue
+D) No channel",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+s = 'alpha8101:beta:gamma'
+print(s.split(':')[-2])
+```
+A) alpha8101
+B) beta
+C) gamma
+D) Error",B,coding,"{""answer"": ""A) alpha8101"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",False,False,2,qwen2.5:0.5b
+"Reason about integer constraints: among integers from 8103 through 8113, including both ends, how many are divisible by 3?
+A) 3
+B) 4
+C) 5
+D) 6",B,logic,"{""answer"": ""To determine how many integers between 8103 and 8113 are divisible by 3, we can follow these steps:\n\n1. Identify the smallest and largest integers in the range.\n   - The smallest integer is 8103.\n   - The largest integer is 8113"", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) 3""}",False,False,2,qwen2.5:0.5b
+(34937 + 41) - 474,34504,arithmetic,"{""answer"": ""34504"", ""prediction"": ""34504"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""34504"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""34504""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+s = 'alpha8102:beta:gamma'
+print(s.split(':')[-2])
+```
+A) beta
+B) Error
+C) alpha8102
+D) gamma",A,coding,"{""answer"": ""A) beta"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) beta""}",True,True,2,qwen2.5:0.5b
+(32891 - 431) * 69,2239740,arithmetic,"{""answer"": ""2239740"", ""prediction"": ""2239740"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""2239740"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""2239740""}",True,True,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 425?
+A) Too Early
+B) Expectation Failed
+C) Upgrade Required
+D) Misdirected Request",A,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+(29081 + 86) - 109,29058,arithmetic,"{""answer"": ""29058"", ""prediction"": ""29058"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""29058"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""29058""}",True,True,2,qwen2.5:0.5b
+(28201 + 87) - 223,28065,arithmetic,"{""answer"": ""28065"", ""prediction"": ""28065"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""28065"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""28065""}",True,True,2,qwen2.5:0.5b
+(21334 - 203) * 75,1584825,arithmetic,"{""answer"": ""1584825"", ""prediction"": ""1584825"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1584825"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1584825""}",True,True,2,qwen2.5:0.5b
+"What is the purpose of HTML attribute checked on a checkbox?
+A) Specify how many columns the cell spans
+B) Require a value for form submission
+C) Specify default checkedness
+D) Specify the relationship to the linked resource",C,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A)""}",False,False,2,qwen2.5:0.5b
+"Reason about permissions 8103: every member of group L has access to vault Q. Navo8103 is a member of L. What follows?
+A) Nobody has access to Q
+B) Navo8103 has no access to Q
+C) Access cannot be inferred
+D) Navo8103 has access to Q",D,logic,"{""answer"": ""A)"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A)""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+d = {'a': 303, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) Error
+B) 310
+C) 7
+D) 8",D,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+s = 'alpha8105:beta:gamma'
+print(s.split(':')[-2])
+```
+A) Error
+B) beta
+C) alpha8105
+D) gamma",B,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""B"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""B""}",True,True,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+d = {'a': 304, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) Error
+C) 311
+D) 8",D,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+(21193 + 73) - 595,20671,arithmetic,"{""answer"": ""20671"", ""prediction"": ""20671"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""20671"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""20671""}",True,True,2,qwen2.5:0.5b
+"Reason about schedule 8101: today is Monday. What weekday is 53 days later?
+A) Friday
+B) Sunday
+C) Thursday
+D) Wednesday",A,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+(32363 - 157) * 63,2028978,arithmetic,"{""answer"": ""2028978"", ""prediction"": ""2028978"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""2028978"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""2028978""}",True,True,2,qwen2.5:0.5b
+(27843 - 423) * 68,1864560,arithmetic,"{""answer"": ""1864560"", ""prediction"": ""1864560"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1864560"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1864560""}",True,True,2,qwen2.5:0.5b
+"Read the passage: Ticket 8101 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Deleted
+B) Closed
+C) Open
+D) Pending",C,comprehension,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,False,1,qwen2.5:0.5b
+"Reason about schedule 8104: today is Thursday. What weekday is 56 days later?
+A) Friday
+B) Thursday
+C) Wednesday
+D) Saturday",B,logic,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Reason about permissions 8104: every member of group L has access to vault Q. Navo8104 is a member of L. What follows?
+A) Navo8104 has no access to Q
+B) Access cannot be inferred
+C) Navo8104 has access to Q
+D) Nobody has access to Q",C,logic,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+(35400 + 45) - 490,34955,arithmetic,"{""answer"": ""34955"", ""prediction"": ""34955"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""34955"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""34955""}",True,True,2,qwen2.5:0.5b
+"Reason about integer constraints: among integers from 8101 through 8109, including both ends, how many are divisible by 3?
+A) 5
+B) 4
+C) 2
+D) 3",D,logic,"{""answer"": ""To determine how many integers from 8101 to 8109 are divisible by 3, we need to check each number in this range to see if it is divisible by 3. An integer is divisible by 3 if the sum of its digits is divisible by 3.\n\nFirst, let"", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""To determine how many integers from 8101 to 8109 are divisible by 3, we need to check each number in this range to see if it is divisible by 3. An integer is divisible by 3 if the sum of its digits is divisible by 3.\n\nLet's break""}",False,False,2,qwen2.5:0.5b
+(33347 - 149) * 98,3253404,arithmetic,"{""answer"": ""3253404"", ""prediction"": ""3253404"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""3253404"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""3253404""}",True,True,2,qwen2.5:0.5b
+"Reason about integer constraints: among integers from 8104 through 8115, including both ends, how many are divisible by 3?
+A) 3
+B) 6
+C) 4
+D) 5",C,logic,"{""answer"": ""To determine how many integers between 8104 and 8115 are divisible by 3, we need to check each number in the range and see if it is divisible by 3.\n\nAn integer is divisible by 3 if the sum of its digits is divisible by 3. Let's check"", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""To determine how many integers between 8104 and 8115 are divisible by 3, we need to check each number in the range and see if it is divisible by 3. Let's break it down step by step:\n\n1. **Identify the range**: The integers we are considering""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+a = [302, 304, 307, 311]
+print(a[1:][::-1][-1])
+```
+A) 304
+B) 311
+C) Error
+D) 307",A,coding,"{""answer"": ""The Python program outputs option A: 304."", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+(36773 - 306) * 98,3573766,arithmetic,"{""answer"": ""3573766"", ""prediction"": ""3573766"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""3573766"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""3573766""}",True,True,2,qwen2.5:0.5b
+(23765 - 310) * 66,1548030,arithmetic,"{""answer"": ""1548030"", ""prediction"": ""1548030"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1548030"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1548030""}",True,True,2,qwen2.5:0.5b
+"Reason about permissions 8102: every member of group L has access to vault Q. Navo8102 is a member of L. What follows?
+A) Navo8102 has no access to Q
+B) Navo8102 has access to Q
+C) Access cannot be inferred
+D) Nobody has access to Q",B,logic,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Reason about permissions 8105: every member of group L has access to vault Q. Navo8105 is a member of L. What follows?
+A) Nobody has access to Q
+B) Navo8105 has no access to Q
+C) Navo8105 has access to Q
+D) Access cannot be inferred",C,logic,"{""answer"": ""C) Navo8105 has access to Q."", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A)""}",False,False,2,qwen2.5:0.5b
+"Reason about heights: Avo8102 is taller than Bex8102, who is taller than Cyd8102, who is taller than Dov8102. Who is 2 in descending height?
+A) Cyd8102
+B) Avo8102
+C) Dov8102
+D) Bex8102",D,logic,"{""answer"": ""C) Dov8102"", ""prediction"": ""C"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""C) Dov8102""}",False,False,2,qwen2.5:0.5b
+"Read the passage: In shipment 8104, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Nobody
+B) Tavi
+C) Orin
+D) Sava",D,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+(21487 - 227) * 74,1573240,arithmetic,"{""answer"": ""1573240"", ""prediction"": ""1573240"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1573240"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1573240""}",True,True,2,qwen2.5:0.5b
+(23784 - 545) * 47,1092233,arithmetic,"{""answer"": ""1092233"", ""prediction"": ""1092233"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1092233"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1092233""}",True,True,2,qwen2.5:0.5b
+"Read the passage: Ticket 8105 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Deleted
+C) Open
+D) Closed",C,comprehension,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:0.5b
+"Read the passage: Ticket 8103 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Pending
+B) Open
+C) Deleted
+D) Closed",B,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+d = {'a': 301, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 8
+B) Error
+C) 7
+D) 308",A,coding,"{""answer"": ""C"", ""prediction"": ""C"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""C""}",False,False,2,qwen2.5:0.5b
+"Reason about heights: Avo8101 is taller than Bex8101, who is taller than Cyd8101, who is taller than Dov8101. Who is 1 in descending height?
+A) Avo8101
+B) Dov8101
+C) Bex8101
+D) Cyd8101",A,logic,"{""answer"": ""C) Bex8101"", ""prediction"": ""C"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""C"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""C) Bex8101""}",False,False,2,qwen2.5:0.5b
+(24005 - 458) * 74,1742478,arithmetic,"{""answer"": ""1742478"", ""prediction"": ""1742478"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""1742478"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""1742478""}",True,True,2,qwen2.5:0.5b
+(25508 + 77) - 252,25333,arithmetic,"{""answer"": ""25333"", ""prediction"": ""25333"", ""format_compliant"": true, ""source"": ""tool""}","{""prediction"": ""25333"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""25333""}",True,True,2,qwen2.5:0.5b
+"What is the main role of Python built-in zip()?
+A) Iterate over tuples from multiple iterables
+B) Construct a mutable set
+C) Test whether every item is truthy
+D) Construct an integer",A,knowledge,"{""answer"": ""A) Iterate over tuples from multiple iterables"", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) Iterate over tuples from multiple iterables""}",True,True,2,qwen2.5:0.5b
+"What is the purpose of HTML attribute download on an anchor?
+A) Indicate a download hyperlink
+B) Specify how many columns the cell spans
+C) Provide an input hint
+D) Specify the target navigable",A,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What is the main role of Python built-in any()?
+A) Round a number to specified precision
+B) Add items of an iterable
+C) Test whether at least one item is truthy
+D) Return the number of items",C,knowledge,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": false, ""parse_mode"": ""original_parser"", ""answer"": ""A) Round a number to specified precision""}",False,False,2,qwen2.5:0.5b
+"What does this Python program output?
+```python
+d = {'a': 302, 'b': 7}
+x = d['b']
+del d['b']
+print(x + len(d))
+```
+A) 7
+B) 8
+C) 309
+D) Error",B,coding,"{""answer"": ""B"", ""prediction"": ""B"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,False,1,qwen2.5:0.5b
+"What does this Python program output?
+```python
+a = [305, 307, 310, 314]
+print(a[1:][::-1][-1])
+```
+A) 307
+B) Error
+C) 314
+D) 310",A,coding,"{""answer"": ""The Python program outputs option A: 307."", ""prediction"": ""A"", ""format_compliant"": false, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What is the purpose of HTML attribute colspan on a table cell?
+A) Supply replacement text
+B) Assign element classes
+C) Mark content as not currently relevant
+D) Specify how many columns the cell spans",D,knowledge,"{""answer"": ""D"", ""prediction"": ""D"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""D"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""D""}",True,True,2,qwen2.5:0.5b
+"Read the passage: Ticket 8102 moved from open to pending, then closed. A later note says it reopened. What is the latest ticket state?
+A) Closed
+B) Pending
+C) Open
+D) Deleted",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Which registered HTTP description belongs to code 422?
+A) Unprocessable Content
+B) Length Required
+C) Precondition Failed
+D) Gone",A,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",True,True,2,qwen2.5:0.5b
+"What is the purpose of HTML attribute style?
+A) Assign element classes
+B) Give an element its identifier
+C) Specify inline CSS declarations
+D) Specify the relationship to the linked resource",C,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Reason about integer constraints: among integers from 8102 through 8111, including both ends, how many are divisible by 3?
+A) 5
+B) 3
+C) 2
+D) 4",B,logic,"{""answer"": ""To determine how many integers from 8102 to 8111 are divisible by 3, we need to check each number in this range to see if it is divisible by 3. An integer is divisible by 3 if the sum of its digits is divisible by 3.\n\nFirst, let"", ""prediction"": null, ""format_compliant"": false, ""source"": ""model""}","{""prediction"": null, ""format_compliant"": false, ""parse_mode"": ""unresolved"", ""answer"": ""To determine how many integers from 8102 to 8111 are divisible by 3, we need to check each number in this range to see if it is divisible by 3. An integer is divisible by 3 if the sum of its digits is divisible by 3.\n\nFirst, let""}",False,False,2,qwen2.5:0.5b
+"Read the passage: In shipment 8103, Orin packed the parcel, Sava labelled it, and Tavi delivered it. Who labelled the parcel?
+A) Tavi
+B) Nobody
+C) Sava
+D) Orin",C,comprehension,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b
+"Which situation is associated with Python OverflowError?
+A) Unicode encoding fails
+B) Import operation fails
+C) Arithmetic result is too large
+D) Operation runs out of memory",C,knowledge,"{""answer"": ""A"", ""prediction"": ""A"", ""format_compliant"": true, ""source"": ""model""}","{""prediction"": ""A"", ""format_compliant"": true, ""parse_mode"": ""original_parser"", ""answer"": ""A""}",False,False,2,qwen2.5:0.5b

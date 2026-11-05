@@ -1,0 +1,1400 @@
+method,task_id,question,reference,baseline_answer,answer,baseline_correct,final_correct,skip_layers,error_type,first_context_top1_agree
+adaptive_sketch,f7abc83a8b590e9e744637ad6468f8c2bcb94228518176edc7ac190ecd25ea33,"In ledger 30111, an account starts at 44, receives 61, then pays 35. What is its balance?
+A) 140
+B) -52
+C) 70
+D) 18
+Return only the option letter.",C,B) -52,A) 140,False,False,[23],content,False
+adaptive_sketch,f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a,"Combine into one concise sentence without adding facts: ""Vera30207 is a courier. Vera30207 is waiting at Gate 18.""","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is currently waiting at Gate 18.",True,True,[23],none,True
+adaptive_sketch,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,A,A) Nemi30109 is not a merin,False,False,[23],content,True
+adaptive_sketch,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,D) Nemi30111 is not blue,C) Nemi30111 is not a merin,True,False,[23],content,False
+adaptive_sketch,4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67,"Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Saturday
+Return only the option letter.",B,B) Friday,B),True,True,[23],none,True
+adaptive_sketch,97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6,"Combine into one concise sentence without adding facts: ""Vera30203 is a courier. Vera30203 is waiting at Gate 14.""","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is currently waiting at Gate 14.",True,True,[23],none,True
+adaptive_sketch,7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819,"Combine into one concise sentence without adding facts: ""Vera30206 is a courier. Vera30206 is waiting at Gate 17.""","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is currently waiting at Gate 17.",True,True,[23],none,True
+adaptive_sketch,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,A) Nemi30100,D,True,False,"[12, 23]",content,
+adaptive_sketch,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,A,A) Nemi30103 is not blue,True,True,[23],none,True
+adaptive_sketch,652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad,"Combine into one concise sentence without adding facts: ""Vera30201 is a courier. Vera30201 is waiting at Gate 12.""","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is currently waiting at Gate 12.",True,True,[23],none,True
+static,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),80010 contains 7 packs of 61 cards and ,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696,"Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?
+A) Tuesday
+B) Wednesday
+C) Saturday
+D) Friday
+Return only the option letter.",D,D) Friday,B) Saturday.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,"B. A) Selu30110
+B) Pavo",False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59,Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.,"{""label"":""unit30200"",""enabled"":false}","```json
+{
+  ""label"": ""unit30200"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""unit"": ""unit30200"",
+  ""label"": ""label"",
+  ""enabled"": ""false""
+}
+```",True,False,"[7, 12, 18, 23]",content,
+static,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),B. 5. Answer: C. 4.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,f7abc83a8b590e9e744637ad6468f8c2bcb94228518176edc7ac190ecd25ea33,"In ledger 30111, an account starts at 44, receives 61, then pays 35. What is its balance?
+A) 140
+B) -52
+C) 70
+D) 18
+Return only the option letter.",C,B) -52,C) 18.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),B. 105.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730,"Python snippet 30103:
+```python
+x = [11, 54, 67]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) 4
+B) 5
+C) Error
+D) 3
+Return only the option letter.",A,A),"B. 4
+C. Error.1.5
+D. ",True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a,"Combine into one concise sentence without adding facts: ""Vera30207 is a courier. Vera30207 is waiting at Gate 18.""","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is waiting at Gate 18.",Vera30207 is a courier who is currently at Gate 18.,True,True,"[7, 12, 18, 23]",none,
+static,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,A,A. A. B. C. D.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),B. 123456789.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,5a1c09231a484fae6ef54ee4f3a6367cdd57ba45bf6a7d2fbdd5a5a94a0402d3,"A tray contains 45 red and 13 blue beads. After removing 3 red beads, how many beads remain?
+A) 55
+B) 58
+C) 42
+D) 61
+Return only the option letter.",A,A),B. 58.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,A,A. A. B. C. D.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,D) Nemi30111 is not blue,B. Nemi30110 is not a merin.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67,"Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Saturday
+Return only the option letter.",B,B) Friday,B. Saturday.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42,"Python snippet 30104:
+```python
+x = 11
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 11
+B) 18
+C) 0
+D) 7
+Return only the option letter.",B,B),B. 18.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724,"Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?
+A) Nobody
+B) Nemi30104
+C) Selu30104
+D) Pavo30104
+Return only the option letter.",B,B) Nemi30104,B,True,True,"[7, 12, 18, 23]",none,
+static,97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6,"Combine into one concise sentence without adding facts: ""Vera30203 is a courier. Vera30203 is waiting at Gate 14.""","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is waiting at Gate 14.",Vera30203 is a courier who is currently at Gate 14.,True,True,"[7, 12, 18, 23]",none,
+static,09efe4670c00903ecac5feb4b06ea1668962552dec4181f9b678391d713c47c2,"Queue 30100: Nemi30100 stands immediately before Pavo30100, and Pavo30100 immediately before Selu30100. The queue contains only these three people. Who is in the middle?
+A) Pavo30100
+B) Selu30100
+C) Nemi30100
+D) Cannot be determined
+Return only the option letter.",A,C,B. Pavo30100.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff,"Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?
+A) Friday
+B) Saturday
+C) Wednesday
+D) Tuesday
+Return only the option letter.",A,A) Friday,B) Saturday.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,C) 77.50,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),10000,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,B) Wednesday,B,False,False,"[7, 12, 18, 23]",content,
+static,3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd,Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.,"{""label"":""unit30203"",""enabled"":true}","```json
+{
+  ""label"": ""unit30203"",
+  ""enabled"": true
+}
+```","```json
+{""label"":""unit30200"",""enabled"":""true"",""value"":""true"",""labelId"":""unit30200"",""enabled"":""true"",""value"":""true"",""label"":""unit30200"",""",True,False,"[7, 12, 18, 23]",invalid_json,
+static,4cd8a66fbff1f4082de4e047d14e9e8b6e873a6d7c1c580622c527c8b464db5d,"In ledger 30102, an account starts at 20, receives 19, then pays 25. What is its balance?
+A) 26
+B) 14
+C) -24
+D) 64
+Return only the option letter.",B,C),B. 24.55,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,B,B. Pavo30102.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819,"Combine into one concise sentence without adding facts: ""Vera30206 is a courier. Vera30206 is waiting at Gate 17.""","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is waiting at Gate 17.",Vera30206 is a courier who is currently at Gate 17.,True,True,"[7, 12, 18, 23]",none,
+static,5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9,"Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30106
+B) Pavo30106
+C) Nobody
+D) Selu30106
+Return only the option letter.",A,A) Nemi30106,B,True,False,"[7, 12, 18, 23]",content,
+static,5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b,"Python snippet 30110:
+```python
+x = 61
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 0
+B) 68
+C) 61
+D) 7
+Return only the option letter.",B,B),"B. 68.0
+The correct option is D. 6",True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88,Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.,"{""label"":""unit30207"",""enabled"":true}","```json
+{
+  ""label"": ""unit30207"",
+  ""enabled"": true
+}
+```","```json
+{""label"":""unit30207"",""enabled"":""true""}}
+```",True,False,"[7, 12, 18, 23]",invalid_json,
+static,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),B. 67.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B. 56.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a,"A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?
+A) 69
+B) 45
+C) 76
+D) 83
+Return only the option letter.",A,A),69.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,A,A. A. B. C. D.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C. Nemi30106.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd,"Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?
+A) Nemi30105 is not a merin
+B) Nemi30105 is not blue
+C) Nemi30105 is blue
+D) Nothing follows
+Return only the option letter.",B,A,A. A. B. C.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53,"Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?
+A) Friday
+B) Tuesday
+C) Saturday
+D) Wednesday
+Return only the option letter.",A,A) Friday,B,True,False,"[7, 12, 18, 23]",content,
+static,ec0a0a19b231b21eb60c187c6533e09d7353bd76784a9a4df2fd20a61e6c833b,"Python snippet 30107:
+```python
+x = 53
+y = x + 5
+x = 0
+print(y)
+```
+What is printed?
+A) 5
+B) 53
+C) 58
+D) 0
+Return only the option letter.",C,B),"B. 5
+C. 58
+D. 0
+",False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,A) Nemi30100,B,True,False,"[7, 12, 18, 23]",content,
+static,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,A,A. A. B. C. D.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,876c98f4ae62e1cb4fd76b09131ad4b4ed6854e9d1e75d52ead3258d7e75a4fe,Encode this as JSON with exactly label and enabled: label is unit30205; enabled is true. Return only JSON.,"{""label"":""unit30205"",""enabled"":true}","```json
+{
+  ""label"": ""unit30205"",
+  ""enabled"": true
+}
+```","```json
+{""label"":""unit30205"",""enabled"":""true""}}
+```",True,False,"[7, 12, 18, 23]",invalid_json,
+static,368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175,"Python snippet 30108:
+```python
+x = [38, 21, 23]
+print(x[0] + x[2])
+```
+What is printed?
+A) 59
+B) 82
+C) 61
+D) 44
+Return only the option letter.",C,A),B. 62.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C. 40.00,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,5bf15ba833cb1f11824de54e832423b8641cf1a6d6bf9022ce090bdc1e780899,"Combine into one concise sentence without adding facts: ""Vera30205 is a courier. Vera30205 is waiting at Gate 16.""","Vera30205, a courier, is waiting at Gate 16.","Vera30205, a courier, is currently waiting at Gate 16.","Vera30205 is a courier who is currently at Gate 16, the departure point, or waiting for travelers to arrive.",True,True,"[7, 12, 18, 23]",none,
+static,36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5,"Python snippet 30102:
+```python
+x = [20, 19, 25]
+print(x[0] + x[2])
+```
+What is printed?
+A) 45
+B) 39
+C) 44
+D) 64
+Return only the option letter.",A,A),B. 45.0.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,C),B. 400,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,029266ae13a95dd53d9d7d609dbc9a999ee1d92899d96c54204f161185ab2025,"Memo 30108: Nemi30108 owns a silver compass. Nemi30108 lends the compass to Pavo30108 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30108
+B) Pavo30108
+C) Nobody
+D) Selu30108
+Return only the option letter.",A,A) Nemi30108,B,True,False,"[7, 12, 18, 23]",content,
+static,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,"A. Nemi30104
+B. Pavo31",False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad,"Combine into one concise sentence without adding facts: ""Vera30201 is a courier. Vera30201 is waiting at Gate 12.""","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is waiting at Gate 12.","Vera30201 is a courier who is currently at Gate 12, the departure point, or waiting for travelers to arrive.",True,True,"[7, 12, 18, 23]",none,
+static,cc4f3babcf0b2a782d3e839ad7dd9b42996574cdcaec489a21766d8dd021ca68,"Memo 30102: Nemi30102 owns a silver compass. Nemi30102 lends the compass to Pavo30102 for one day; ownership does not change. Who owns the compass during that day?
+A) Selu30102
+B) Pavo30102
+C) Nobody
+D) Nemi30102
+Return only the option letter.",D,D,B,True,False,"[7, 12, 18, 23]",content,
+static,2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b,Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.,"{""label"":""unit30201"",""enabled"":true}","```json
+{
+  ""label"": ""unit30201"",
+  ""enabled"": true
+}
+```","```json
+{""label"":""unit30201"",""enabled"":""true""}}
+```",True,False,"[7, 12, 18, 23]",invalid_json,
+static,42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151,"Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?
+A) Nobody
+B) Pavo30110
+C) Selu30110
+D) Nemi30110
+Return only the option letter.",D,D,B,True,False,"[7, 12, 18, 23]",content,
+static,daa4a76b6a39b41f28fc3f97a75ffb459eb7e6ada4eb2fdc2c8827d10985f824,"Queue 30108: Nemi30108 stands immediately before Pavo30108, and Pavo30108 immediately before Selu30108. The queue contains only these three people. Who is in the middle?
+A) Pavo30108
+B) Selu30108
+C) Cannot be determined
+D) Nemi30108
+Return only the option letter.",A,D,B,False,False,"[7, 12, 18, 23]",content,
+static,c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0,"Python snippet 30105:
+```python
+x = [38, 54, 15]
+print(x[0] + x[2])
+```
+What is printed?
+A) 107
+B) 69
+C) 92
+D) 53
+Return only the option letter.",D,A),B. 107. B. 107.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,a6cd65e63aa9f9de145fd9ecc1ed2544039d4719fa0f3e4c44f9ce187f1db121,"Combine into one concise sentence without adding facts: ""Vera30202 is a courier. Vera30202 is waiting at Gate 13.""","Vera30202, a courier, is waiting at Gate 13.","Vera30202, a courier, is currently waiting at Gate 13.","Vera3020 is a courier who is currently at Gate 13, as the phrase ""Vera3020"" is being waited for.",True,False,"[7, 12, 18, 23]",constraint_failure,
+static,527ffd4965b036a6c00c67ca38f3f0c8f408cd5ce7f51d00ef48f7501a9a105c,"Log 30105: A package arrives on Tuesday. Nemi30105 stores it until Friday, when Pavo30105 collects it. On which day is it collected?
+A) Wednesday
+B) Friday
+C) Saturday
+D) Tuesday
+Return only the option letter.",B,B),B. Saturday.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),B. 5. B. 5.,False,False,"[7, 12, 18, 23]",format_or_unresolved,
+static,faa516db96ae718320ad4425021559cb9a18f97797e8729babcedc5a1e41783b,"Combine into one concise sentence without adding facts: ""Vera30200 is a courier. Vera30200 is waiting at Gate 11.""","Vera30200, a courier, is waiting at Gate 11.","Vera30200, a courier, is currently waiting at Gate 11.",Vera30200 is a courier who is currently at Gate 11.,True,True,"[7, 12, 18, 23]",none,
+static,128ee3c323c5e2966c1d1f5e524c4f964a97254a833c5bc3bce716ec52585b1f,"Combine into one concise sentence without adding facts: ""Vera30204 is a courier. Vera30204 is waiting at Gate 15.""","Vera30204, a courier, is waiting at Gate 15.","Vera30204, a courier, is currently waiting at Gate 15.","Vera30204 is a courier who is currently at Gate 15, the departure point, or waiting for travelers to arrive.",True,True,"[7, 12, 18, 23]",none,
+static,c4237f86d463497437f32cc01c242f009679a4c9bf8b024aa673b9f22e3237f2,"Python snippet 30101:
+```python
+x = 43
+y = x + 4
+x = 0
+print(y)
+```
+What is printed?
+A) 43
+B) 47
+C) 4
+D) 0
+Return only the option letter.",B,B),The correct answer is D.,True,False,"[7, 12, 18, 23]",content,
+static,16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e,"Python snippet 30109:
+```python
+x = [52, 24, 45]
+x.append(7)
+print(len(x))
+```
+What is printed?
+A) 3
+B) 5
+C) Error
+D) 4
+Return only the option letter.",D,B),The correct answer is D.,False,True,"[7, 12, 18, 23]",none,
+random,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),"To solve this problem, we need to determine the total number of cards in the",False,False,"[7, 12, 15, 18]",format_or_unresolved,
+random,04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696,"Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?
+A) Tuesday
+B) Wednesday
+C) Saturday
+D) Friday
+Return only the option letter.",D,D) Friday,The answer is D) Friday.,True,False,"[4, 9, 15, 20]",format_or_unresolved,
+random,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,D) Cannot be determined,False,False,"[4, 9, 20, 23]",content,
+random,13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59,Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.,"{""label"":""unit30200"",""enabled"":false}","```json
+{
+  ""label"": ""unit30200"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""encode"": ""This is a JSON encoded message. It is encoded using a specific method, which is not specified in this JSON. The method used for encoding is not determined by the JSON structure, as it is",True,False,"[9, 15, 20, 23]",invalid_json,
+random,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),The code snippet you provided is a Python snippet that appends the number 3,False,False,"[7, 15, 18, 23]",format_or_unresolved,
+random,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),The code you provided is a Python snippet that performs the following operations: it adds,False,False,"[4, 7, 15, 18]",format_or_unresolved,
+random,a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730,"Python snippet 30103:
+```python
+x = [11, 54, 67]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) 4
+B) 5
+C) Error
+D) 3
+Return only the option letter.",A,A),"D) 3
+
+The code snippet prints the length of the list `x",True,False,"[4, 9, 20, 23]",format_or_unresolved,
+random,f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a,"Combine into one concise sentence without adding facts: ""Vera30207 is a courier. Vera30207 is waiting at Gate 18.""","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is waiting at Gate 18.",Vera3027 is a courier waiting at Gate 18.,True,False,"[7, 9, 18, 23]",constraint_failure,
+random,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,A,The correct answer is D) Nemi30109 is blue.,False,False,"[9, 12, 15, 23]",content,
+random,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),The total number of cards in the parcel is the sum of the packs and the,False,False,"[7, 15, 18, 20]",format_or_unresolved,
+random,5a1c09231a484fae6ef54ee4f3a6367cdd57ba45bf6a7d2fbdd5a5a94a0402d3,"A tray contains 45 red and 13 blue beads. After removing 3 red beads, how many beads remain?
+A) 55
+B) 58
+C) 42
+D) 61
+Return only the option letter.",A,A),58,True,False,"[4, 9, 12, 20]",content,
+random,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,A,The answer is A.,False,False,"[4, 7, 9, 12]",format_or_unresolved,
+random,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,D) Nemi30111 is not blue,The answer is D.,True,False,"[4, 9, 15, 18]",format_or_unresolved,
+random,4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67,"Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Saturday
+Return only the option letter.",B,B) Friday,"To determine the day on which the package is collected, we need to follow the",True,False,"[4, 7, 15, 20]",format_or_unresolved,
+random,aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42,"Python snippet 30104:
+```python
+x = 11
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 11
+B) 18
+C) 0
+D) 7
+Return only the option letter.",B,B),B. 18.,True,False,"[7, 12, 18, 23]",format_or_unresolved,
+random,0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724,"Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?
+A) Nobody
+B) Nemi30104
+C) Selu30104
+D) Pavo30104
+Return only the option letter.",B,B) Nemi30104,The correct answer is B) Nemi30104.,True,True,"[4, 12, 15, 23]",none,
+random,97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6,"Combine into one concise sentence without adding facts: ""Vera30203 is a courier. Vera30203 is waiting at Gate 14.""","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is waiting at Gate 14.","I'm sorry, but I'm not sure what you're referring to. Could you please provide more information?",True,False,"[7, 9, 12, 15]",constraint_failure,
+random,09efe4670c00903ecac5feb4b06ea1668962552dec4181f9b678391d713c47c2,"Queue 30100: Nemi30100 stands immediately before Pavo30100, and Pavo30100 immediately before Selu30100. The queue contains only these three people. Who is in the middle?
+A) Pavo30100
+B) Selu30100
+C) Nemi30100
+D) Cannot be determined
+Return only the option letter.",A,C,The answer is: C. Pavo30100.,False,False,"[4, 12, 15, 20]",format_or_unresolved,
+random,2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff,"Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?
+A) Friday
+B) Saturday
+C) Wednesday
+D) Tuesday
+Return only the option letter.",A,A) Friday,"A) Tuesday
+B) Saturday
+C) Wednesday
+D) Tuesday",True,False,"[12, 15, 18, 23]",format_or_unresolved,
+random,19230255ad7e37ddaa5d35b2f927e3fc239ba2ccef4ee2b4017a6d877672509f,Encode this as JSON with exactly label and enabled: label is unit30202; enabled is false. Return only JSON.,"{""label"":""unit30202"",""enabled"":false}","```json
+{
+  ""label"": ""unit30202"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""unit30202"": {
+    ""label"": ""enabled""
+  },
+  ""label"": ""unit30202"",
+  ""enabled"": ""false""
+}
+```",True,False,"[7, 9, 18, 23]",content,
+random,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,"The balance of account 30105 is calculated as follows:
+
+1",False,False,"[4, 9, 15, 18]",format_or_unresolved,
+random,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),The total number of cards in Parcel 30101 is 4,False,False,"[4, 15, 18, 23]",format_or_unresolved,
+random,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,B) Wednesday,B) Wednesday is the day after Tuesday and the day Nemi301,False,False,"[4, 15, 18, 23]",format_or_unresolved,
+random,4cd8a66fbff1f4082de4e047d14e9e8b6e873a6d7c1c580622c527c8b464db5d,"In ledger 30102, an account starts at 20, receives 19, then pays 25. What is its balance?
+A) 26
+B) 14
+C) -24
+D) 64
+Return only the option letter.",B,C),C,False,False,"[4, 7, 9, 18]",content,
+random,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,B,The answer is D.,False,False,"[4, 7, 12, 20]",format_or_unresolved,
+random,7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819,"Combine into one concise sentence without adding facts: ""Vera30206 is a courier. Vera30206 is waiting at Gate 17.""","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is waiting at Gate 17.","""Vera30206 is waiting at Gate 17.""",True,True,"[4, 7, 9, 18]",none,
+random,5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9,"Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30106
+B) Pavo30106
+C) Nobody
+D) Selu30106
+Return only the option letter.",A,A) Nemi30106,C. Selu30106.,True,False,"[9, 12, 18, 23]",format_or_unresolved,
+random,5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b,"Python snippet 30110:
+```python
+x = 61
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 0
+B) 68
+C) 61
+D) 7
+Return only the option letter.",B,B),The code provided is a Python snippet. The snippet is a simple one that calculates,True,False,"[4, 15, 18, 20]",format_or_unresolved,
+random,867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88,Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.,"{""label"":""unit30207"",""enabled"":true}","```json
+{
+  ""label"": ""unit30207"",
+  ""enabled"": true
+}
+```",```json```,True,False,"[7, 9, 18, 23]",invalid_json,
+random,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),65,False,False,"[4, 7, 18, 23]",content,
+random,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),"To determine the number of beads that remain after removing 2 red beads, we",False,False,"[9, 12, 15, 23]",format_or_unresolved,
+random,7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a,"A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?
+A) 69
+B) 45
+C) 76
+D) 83
+Return only the option letter.",A,A),A) 69,True,True,"[4, 7, 9, 18]",none,
+random,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,A,Nemi30107 is not a merin.,True,False,"[4, 7, 18, 20]",format_or_unresolved,
+random,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,Pavo30106,False,True,"[4, 7, 20, 23]",none,
+random,940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd,"Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?
+A) Nemi30105 is not a merin
+B) Nemi30105 is not blue
+C) Nemi30105 is blue
+D) Nothing follows
+Return only the option letter.",B,A,"The statement ""Nemi30105 is not blue"" is a",False,False,"[7, 9, 15, 18]",format_or_unresolved,
+random,d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53,"Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?
+A) Friday
+B) Tuesday
+C) Saturday
+D) Wednesday
+Return only the option letter.",A,A) Friday,The answer is B.,True,False,"[7, 9, 12, 20]",format_or_unresolved,
+random,ec0a0a19b231b21eb60c187c6533e09d7353bd76784a9a4df2fd20a61e6c833b,"Python snippet 30107:
+```python
+x = 53
+y = x + 5
+x = 0
+print(y)
+```
+What is printed?
+A) 5
+B) 53
+C) 58
+D) 0
+Return only the option letter.",C,B),The code provided does not contain any Python snippet. It is not clear what the,False,False,"[7, 9, 15, 20]",format_or_unresolved,
+random,c0989b5352f1f68d1b088d1929505d409eca4a032dfd5b3861f777a79c414b50,Encode this as JSON with exactly label and enabled: label is unit30204; enabled is false. Return only JSON.,"{""label"":""unit30204"",""enabled"":false}","```json
+{
+  ""label"": ""unit30204"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""label"": ""unit30204"",
+  ""enabled"": false
+}
+```
+This is a JSON object that contains the label and the enabled attributes. The label is a string that represents a specific",True,False,"[7, 9, 15, 18]",invalid_json,
+random,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,A) Nemi30100,B,True,False,"[4, 12, 18, 20]",content,
+random,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,A,B) Nothing follows,True,False,"[4, 9, 18, 23]",content,
+random,368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175,"Python snippet 30108:
+```python
+x = [38, 21, 23]
+print(x[0] + x[2])
+```
+What is printed?
+A) 59
+B) 82
+C) 61
+D) 44
+Return only the option letter.",C,A),C. 61,False,False,"[4, 9, 18, 23]",format_or_unresolved,
+random,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C.,False,False,"[4, 12, 18, 23]",content,
+random,5bf15ba833cb1f11824de54e832423b8641cf1a6d6bf9022ce090bdc1e780899,"Combine into one concise sentence without adding facts: ""Vera30205 is a courier. Vera30205 is waiting at Gate 16.""","Vera30205, a courier, is waiting at Gate 16.","Vera30205, a courier, is currently waiting at Gate 16.","""Vera30205 is waiting at Gate 16.""",True,True,"[4, 7, 9, 18]",none,
+random,36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5,"Python snippet 30102:
+```python
+x = [20, 19, 25]
+print(x[0] + x[2])
+```
+What is printed?
+A) 45
+B) 39
+C) 44
+D) 64
+Return only the option letter.",A,A),The correct answer is B) 45.,True,False,"[7, 12, 15, 23]",format_or_unresolved,
+random,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,C),"294
+
+ parcel 30107 contains 5 packs",True,False,"[4, 18, 20, 23]",format_or_unresolved,
+random,029266ae13a95dd53d9d7d609dbc9a999ee1d92899d96c54204f161185ab2025,"Memo 30108: Nemi30108 owns a silver compass. Nemi30108 lends the compass to Pavo30108 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30108
+B) Pavo30108
+C) Nobody
+D) Selu30108
+Return only the option letter.",A,A) Nemi30108,B) Pavo30108,True,False,"[4, 9, 12, 23]",content,
+random,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,"Nemi30104
+
+Nimi30104 stands",False,False,"[12, 18, 20, 23]",format_or_unresolved,
+random,652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad,"Combine into one concise sentence without adding facts: ""Vera30201 is a courier. Vera30201 is waiting at Gate 12.""","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is waiting at Gate 12.","Vera3021 is a courier, waiting at Gate 12.",True,False,"[4, 12, 18, 23]",constraint_failure,
+random,cc4f3babcf0b2a782d3e839ad7dd9b42996574cdcaec489a21766d8dd021ca68,"Memo 30102: Nemi30102 owns a silver compass. Nemi30102 lends the compass to Pavo30102 for one day; ownership does not change. Who owns the compass during that day?
+A) Selu30102
+B) Pavo30102
+C) Nobody
+D) Nemi30102
+Return only the option letter.",D,D,B,True,False,"[7, 12, 18, 23]",content,
+random,2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b,Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.,"{""label"":""unit30201"",""enabled"":true}","```json
+{
+  ""label"": ""unit30201"",
+  ""enabled"": true
+}
+```","{
+  ""label"": ""unit3021"",
+  ""enabled"": true
+}",True,False,"[4, 7, 18, 20]",content,
+random,93513aeefb88aca8b1453283df7459f4e61362247728c7c05a823ab53ea0dda1,Encode this as JSON with exactly label and enabled: label is unit30206; enabled is false. Return only JSON.,"{""label"":""unit30206"",""enabled"":false}","```json
+{
+  ""label"": ""unit30206"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""label"": ""unit30206""
+}",True,False,"[9, 12, 18, 20]",invalid_json,
+random,42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151,"Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?
+A) Nobody
+B) Pavo30110
+C) Selu30110
+D) Nemi30110
+Return only the option letter.",D,D,"A. Nemi3010
+B. Pavo
+C.",True,False,"[4, 7, 12, 18]",format_or_unresolved,
+random,daa4a76b6a39b41f28fc3f97a75ffb459eb7e6ada4eb2fdc2c8827d10985f824,"Queue 30108: Nemi30108 stands immediately before Pavo30108, and Pavo30108 immediately before Selu30108. The queue contains only these three people. Who is in the middle?
+A) Pavo30108
+B) Selu30108
+C) Cannot be determined
+D) Nemi30108
+Return only the option letter.",A,D,Pavo30108,False,True,"[7, 9, 20, 23]",none,
+random,c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0,"Python snippet 30105:
+```python
+x = [38, 54, 15]
+print(x[0] + x[2])
+```
+What is printed?
+A) 107
+B) 69
+C) 92
+D) 53
+Return only the option letter.",D,A),The given code snippet is a Python snippet that prints the result of the addition of,False,False,"[12, 15, 20, 23]",format_or_unresolved,
+random,a6cd65e63aa9f9de145fd9ecc1ed2544039d4719fa0f3e4c44f9ce187f1db121,"Combine into one concise sentence without adding facts: ""Vera30202 is a courier. Vera30202 is waiting at Gate 13.""","Vera30202, a courier, is waiting at Gate 13.","Vera30202, a courier, is currently waiting at Gate 13.",Vera30201 is a courier and is currently at Gate 13.,True,False,"[4, 9, 18, 23]",constraint_failure,
+random,527ffd4965b036a6c00c67ca38f3f0c8f408cd5ce7f51d00ef48f7501a9a105c,"Log 30105: A package arrives on Tuesday. Nemi30105 stores it until Friday, when Pavo30105 collects it. On which day is it collected?
+A) Wednesday
+B) Friday
+C) Saturday
+D) Tuesday
+Return only the option letter.",B,B),Tuesday,True,False,"[4, 7, 9, 18]",content,
+random,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),"The correct answer is: D. 3
+
+The code snippet provided is a",False,False,"[4, 15, 18, 23]",format_or_unresolved,
+random,faa516db96ae718320ad4425021559cb9a18f97797e8729babcedc5a1e41783b,"Combine into one concise sentence without adding facts: ""Vera30200 is a courier. Vera30200 is waiting at Gate 11.""","Vera30200, a courier, is waiting at Gate 11.","Vera30200, a courier, is currently waiting at Gate 11.","""Vera30200 is a courier who is waiting at Gate 11.""",True,True,"[7, 12, 15, 20]",none,
+random,128ee3c323c5e2966c1d1f5e524c4f964a97254a833c5bc3bce716ec52585b1f,"Combine into one concise sentence without adding facts: ""Vera30204 is a courier. Vera30204 is waiting at Gate 15.""","Vera30204, a courier, is waiting at Gate 15.","Vera30204, a courier, is currently waiting at Gate 15.",Vera30204 is a courier waiting at Gate 15.,True,True,"[7, 9, 18, 23]",none,
+random,c4237f86d463497437f32cc01c242f009679a4c9bf8b024aa673b9f22e3237f2,"Python snippet 30101:
+```python
+x = 43
+y = x + 4
+x = 0
+print(y)
+```
+What is printed?
+A) 43
+B) 47
+C) 4
+D) 0
+Return only the option letter.",B,B),The code snippet provided is a simple arithmetic operation. The value of `x`,True,False,"[12, 15, 18, 20]",format_or_unresolved,
+random,16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e,"Python snippet 30109:
+```python
+x = [52, 24, 45]
+x.append(7)
+print(len(x))
+```
+What is printed?
+A) 3
+B) 5
+C) Error
+D) 4
+Return only the option letter.",D,B),D. 4,False,False,"[4, 7, 18, 23]",format_or_unresolved,
+stable1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A) 819,False,False,[24],content,True
+stable1,04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696,"Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?
+A) Tuesday
+B) Wednesday
+C) Saturday
+D) Friday
+Return only the option letter.",D,D) Friday,D),True,True,[24],none,True
+stable1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C) Nemi30110,False,False,[24],content,True
+stable1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A) 105,False,False,[24],content,True
+stable1,a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730,"Python snippet 30103:
+```python
+x = [11, 54, 67]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) 4
+B) 5
+C) Error
+D) 3
+Return only the option letter.",A,A),A) 4,True,True,[24],none,True
+stable1,f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a,"Combine into one concise sentence without adding facts: ""Vera30207 is a courier. Vera30207 is waiting at Gate 18.""","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is currently waiting at Gate 18.",True,True,[24],none,True
+stable1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,A,A) Nemi30109 is not a merin,False,False,[24],content,True
+stable1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C) 315,False,False,[24],content,True
+stable1,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,A,A) Nemi30101 is not a merin,False,False,[24],content,True
+stable1,4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67,"Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?
+A) Tuesday
+B) Friday
+C) Wednesday
+D) Saturday
+Return only the option letter.",B,B) Friday,B),True,True,[24],none,True
+stable1,97fa0101dc55828977b059336fd22781b4f2882ac3bc09f0e89edf6bfefd60d6,"Combine into one concise sentence without adding facts: ""Vera30203 is a courier. Vera30203 is waiting at Gate 14.""","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is waiting at Gate 14.","Vera30203, a courier, is currently waiting at Gate 14.",True,True,[24],none,True
+stable1,2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff,"Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?
+A) Friday
+B) Saturday
+C) Wednesday
+D) Tuesday
+Return only the option letter.",A,A) Friday,A),True,True,[24],none,True
+stable1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D) 412,False,False,[24],content,True
+stable1,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,B) Wednesday,A),False,True,[24],none,False
+stable1,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,B,B) Nemi30102,False,False,[24],content,True
+stable1,7608017d2c365b19d303669a7d312172a42139dbf398f9f357a454861f93c819,"Combine into one concise sentence without adding facts: ""Vera30206 is a courier. Vera30206 is waiting at Gate 17.""","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is waiting at Gate 17.","Vera30206, a courier, is currently waiting at Gate 17.",True,True,[24],none,True
+stable1,5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b,"Python snippet 30110:
+```python
+x = 61
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 0
+B) 68
+C) 61
+D) 7
+Return only the option letter.",B,B),B) 68,True,True,[24],none,True
+stable1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A) 67,False,False,[24],content,True
+stable1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B) 43,False,False,[24],content,True
+stable1,7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a,"A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?
+A) 69
+B) 45
+C) 76
+D) 83
+Return only the option letter.",A,A),A) 69,True,True,[24],none,True
+stable1,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,A,A) Nemi30107 is not blue,True,True,[24],none,True
+stable1,940a3531aad92f4dd96d91ef2271d9b3df003565f27b6a8052e23443d34722bd,"Rules for set 30105: All daxes are merins. No merin is blue. Object Nemi30105 is a dax. Which conclusion follows?
+A) Nemi30105 is not a merin
+B) Nemi30105 is not blue
+C) Nemi30105 is blue
+D) Nothing follows
+Return only the option letter.",B,A,A) Nemi30105 is not a merin,False,False,[24],content,True
+stable1,d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53,"Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?
+A) Friday
+B) Tuesday
+C) Saturday
+D) Wednesday
+Return only the option letter.",A,A) Friday,A),True,True,[24],none,True
+stable1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,A,A) Nemi30103 is not blue,True,True,[24],none,True
+stable1,368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175,"Python snippet 30108:
+```python
+x = [38, 21, 23]
+print(x[0] + x[2])
+```
+What is printed?
+A) 59
+B) 82
+C) 61
+D) 44
+Return only the option letter.",C,A),A) 59,False,False,[24],content,True
+stable1,36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5,"Python snippet 30102:
+```python
+x = [20, 19, 25]
+print(x[0] + x[2])
+```
+What is printed?
+A) 45
+B) 39
+C) 44
+D) 64
+Return only the option letter.",A,A),A) 45,True,True,[24],none,True
+stable1,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,C),A) 410,True,False,[24],content,False
+stable1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B),False,False,[24],content,True
+stable1,652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad,"Combine into one concise sentence without adding facts: ""Vera30201 is a courier. Vera30201 is waiting at Gate 12.""","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is currently waiting at Gate 12.",True,True,[24],none,True
+stable1,c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0,"Python snippet 30105:
+```python
+x = [38, 54, 15]
+print(x[0] + x[2])
+```
+What is printed?
+A) 107
+B) 69
+C) 92
+D) 53
+Return only the option letter.",D,A),A) 107,False,False,[24],content,True
+stable1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C,False,False,[24],content,True
+stable1,16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e,"Python snippet 30109:
+```python
+x = [52, 24, 45]
+x.append(7)
+print(len(x))
+```
+What is printed?
+A) 3
+B) 5
+C) Error
+D) 4
+Return only the option letter.",D,B),B) 5,False,False,[24],content,True
+random1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A,False,False,[26],content,True
+random1,04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696,"Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?
+A) Tuesday
+B) Wednesday
+C) Saturday
+D) Friday
+Return only the option letter.",D,D) Friday,D),True,True,[2],none,True
+random1,13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59,Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.,"{""label"":""unit30200"",""enabled"":false}","```json
+{
+  ""label"": ""unit30200"",
+  ""enabled"": false
+}
+```","```json
+{
+  ""label"": ""unit30200"",
+  ""enabled"": false
+}```",True,False,[17],invalid_json,True
+random1,f7abc83a8b590e9e744637ad6468f8c2bcb94228518176edc7ac190ecd25ea33,"In ledger 30111, an account starts at 44, receives 61, then pays 35. What is its balance?
+A) 140
+B) -52
+C) 70
+D) 18
+Return only the option letter.",C,B) -52,A) 140,False,False,[12],content,False
+random1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A,False,False,[26],content,True
+random1,a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730,"Python snippet 30103:
+```python
+x = [11, 54, 67]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) 4
+B) 5
+C) Error
+D) 3
+Return only the option letter.",A,A),A) 4,True,True,[3],none,True
+random1,f76fafbc0e3310f60eef87eba4105bc16f3c29f5ed4d5a21d1277a288f1c0e2a,"Combine into one concise sentence without adding facts: ""Vera30207 is a courier. Vera30207 is waiting at Gate 18.""","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is waiting at Gate 18.","Vera30207, a courier, is currently waiting at Gate 18.",True,True,[24],none,True
+random1,86fd50f74475d6d1adfb1feebfe816c04c5e825ec93ad7d2f05c96ddd60d490d,"Rules for set 30109: All daxes are merins. No merin is blue. Object Nemi30109 is a dax. Which conclusion follows?
+A) Nemi30109 is not a merin
+B) Nothing follows
+C) Nemi30109 is not blue
+D) Nemi30109 is blue
+Return only the option letter.",C,A,C) Nemi30109 is not blue,False,True,[8],none,False
+random1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C,False,False,[5],content,True
+random1,5a1c09231a484fae6ef54ee4f3a6367cdd57ba45bf6a7d2fbdd5a5a94a0402d3,"A tray contains 45 red and 13 blue beads. After removing 3 red beads, how many beads remain?
+A) 55
+B) 58
+C) 42
+D) 61
+Return only the option letter.",A,A),A) 55,True,True,[6],none,True
+random1,a88a494740920564b052a5338dc59151184c5dee74b85935bab6ac2029ffad7e,"Rules for set 30101: All daxes are merins. No merin is blue. Object Nemi30101 is a dax. Which conclusion follows?
+A) Nemi30101 is not a merin
+B) Nemi30101 is blue
+C) Nothing follows
+D) Nemi30101 is not blue
+Return only the option letter.",D,A,A),False,False,[8],content,True
+random1,1b083b1bc065199cb9f4317213a369cdaa21154f2d1b15c039712e5f4ddcfd30,"Rules for set 30111: All daxes are merins. No merin is blue. Object Nemi30111 is a dax. Which conclusion follows?
+A) Nemi30111 is blue
+B) Nothing follows
+C) Nemi30111 is not a merin
+D) Nemi30111 is not blue
+Return only the option letter.",D,D) Nemi30111 is not blue,C),True,False,[2],content,False
+random1,aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42,"Python snippet 30104:
+```python
+x = 11
+y = x + 7
+x = 0
+print(y)
+```
+What is printed?
+A) 11
+B) 18
+C) 0
+D) 7
+Return only the option letter.",B,B),A,True,False,[13],content,False
+random1,0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724,"Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?
+A) Nobody
+B) Nemi30104
+C) Selu30104
+D) Pavo30104
+Return only the option letter.",B,B) Nemi30104,B,True,True,[26],none,True
+random1,09efe4670c00903ecac5feb4b06ea1668962552dec4181f9b678391d713c47c2,"Queue 30100: Nemi30100 stands immediately before Pavo30100, and Pavo30100 immediately before Selu30100. The queue contains only these three people. Who is in the middle?
+A) Pavo30100
+B) Selu30100
+C) Nemi30100
+D) Cannot be determined
+Return only the option letter.",A,C,"To determine who is in the middle of the queue, we need to understand the",False,False,[3],format_or_unresolved,False
+random1,2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff,"Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?
+A) Friday
+B) Saturday
+C) Wednesday
+D) Tuesday
+Return only the option letter.",A,A) Friday,C),True,False,[21],content,False
+random1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,-1,False,False,[20],content,False
+random1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),"To determine the total number of cards in Parcel 30101,",False,False,[3],format_or_unresolved,False
+random1,e1104901d86b54d763985cd4f48ce173f5042d5e2bde581a888d454ee44ab78c,"Log 30111: A package arrives on Tuesday. Nemi30111 stores it until Friday, when Pavo30111 collects it. On which day is it collected?
+A) Friday
+B) Wednesday
+C) Tuesday
+D) Saturday
+Return only the option letter.",A,B) Wednesday,A),False,True,[10],none,False
+random1,4cd8a66fbff1f4082de4e047d14e9e8b6e873a6d7c1c580622c527c8b464db5d,"In ledger 30102, an account starts at 20, receives 19, then pays 25. What is its balance?
+A) 26
+B) 14
+C) -24
+D) 64
+Return only the option letter.",B,C),A) 26,False,False,[12],content,False
+random1,f6cbbc390f3c6e91f6ced177c6f111a425a5f9e7fc10ef56714de4a87185128c,"Queue 30102: Nemi30102 stands immediately before Pavo30102, and Pavo30102 immediately before Selu30102. The queue contains only these three people. Who is in the middle?
+A) Pavo30102
+B) Nemi30102
+C) Selu30102
+D) Cannot be determined
+Return only the option letter.",A,B,B) Nemi30102,False,False,[9],content,True
+random1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),D) 63,False,True,[3],none,False
+random1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B) 43,False,False,[9],content,True
+random1,7237b9e4edb6c96a09590b77bdb0dc9d7bf98501efeff31fc5f938c376b6bb4a,"A tray contains 52 red and 24 blue beads. After removing 7 red beads, how many beads remain?
+A) 69
+B) 45
+C) 76
+D) 83
+Return only the option letter.",A,A),52,True,False,[4],format_or_unresolved,False
+random1,6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1,"Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?
+A) Nemi30107 is not blue
+B) Nothing follows
+C) Nemi30107 is blue
+D) Nemi30107 is not a merin
+Return only the option letter.",A,A,C) Nemi30107 is blue,True,False,[15],content,False
+random1,d732712251281d1959f394cdff895ff59d1970d0e7ebf15b3b4d9015c567ba53,"Log 30103: A package arrives on Tuesday. Nemi30103 stores it until Friday, when Pavo30103 collects it. On which day is it collected?
+A) Friday
+B) Tuesday
+C) Saturday
+D) Wednesday
+Return only the option letter.",A,A) Friday,A) Friday.,True,False,[25],format_or_unresolved,True
+random1,ec0a0a19b231b21eb60c187c6533e09d7353bd76784a9a4df2fd20a61e6c833b,"Python snippet 30107:
+```python
+x = 53
+y = x + 5
+x = 0
+print(y)
+```
+What is printed?
+A) 5
+B) 53
+C) 58
+D) 0
+Return only the option letter.",C,B),D) 0,False,False,[15],content,False
+random1,bd201c9e5a69042c9e52ce55b77f3e7e9f731a717b3d9bfd430a5944dce147c4,"Memo 30100: Nemi30100 owns a silver compass. Nemi30100 lends the compass to Pavo30100 for one day; ownership does not change. Who owns the compass during that day?
+A) Nemi30100
+B) Selu30100
+C) Nobody
+D) Pavo30100
+Return only the option letter.",A,A) Nemi30100,C),True,False,[3],content,False
+random1,c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27,"Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?
+A) Nemi30103 is not blue
+B) Nothing follows
+C) Nemi30103 is not a merin
+D) Nemi30103 is blue
+Return only the option letter.",A,A,C),True,False,[2],content,False
+random1,368be8108962fad87db0ff0904db9335fcd34c7c16020dbfb446df8b7c2d4175,"Python snippet 30108:
+```python
+x = [38, 21, 23]
+print(x[0] + x[2])
+```
+What is printed?
+A) 59
+B) 82
+C) 61
+D) 44
+Return only the option letter.",C,A),A,False,False,[13],content,True
+random1,5bf15ba833cb1f11824de54e832423b8641cf1a6d6bf9022ce090bdc1e780899,"Combine into one concise sentence without adding facts: ""Vera30205 is a courier. Vera30205 is waiting at Gate 16.""","Vera30205, a courier, is waiting at Gate 16.","Vera30205, a courier, is currently waiting at Gate 16.",Vera30205 is a courier waiting at Gate 16.,True,True,[13],none,True
+random1,36bceb74995984515ac0f84d548f04ec059ff05c6e1651f3df26c955909926a5,"Python snippet 30102:
+```python
+x = [20, 19, 25]
+print(x[0] + x[2])
+```
+What is printed?
+A) 45
+B) 39
+C) 44
+D) 64
+Return only the option letter.",A,A),"A) 45
+
+B) 39
+
+C) 4",True,False,[25],format_or_unresolved,True
+random1,fbcab3c74673af878aede7ff5bfbe2157608584004166a9a2b77ee5837b00e4d,"Parcel 30107 contains 5 packs of 53 cards and 29 loose cards. What is the total?
+A) 410
+B) 236
+C) 294
+D) 82
+Return only the option letter.",C,C),The total number of cards in Parcel 30107 is 5,True,False,[15],format_or_unresolved,False
+random1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B) Selu30104,False,False,[9],content,True
+random1,652a79168da6ecaff92b820c00b9d716e0abe55d7dd404525a031454817352ad,"Combine into one concise sentence without adding facts: ""Vera30201 is a courier. Vera30201 is waiting at Gate 12.""","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is waiting at Gate 12.","Vera30201, a courier, is currently waiting at Gate 12.",True,True,[3],none,True
+random1,cc4f3babcf0b2a782d3e839ad7dd9b42996574cdcaec489a21766d8dd021ca68,"Memo 30102: Nemi30102 owns a silver compass. Nemi30102 lends the compass to Pavo30102 for one day; ownership does not change. Who owns the compass during that day?
+A) Selu30102
+B) Pavo30102
+C) Nobody
+D) Nemi30102
+Return only the option letter.",D,D,A),True,False,[17],content,False
+random1,daa4a76b6a39b41f28fc3f97a75ffb459eb7e6ada4eb2fdc2c8827d10985f824,"Queue 30108: Nemi30108 stands immediately before Pavo30108, and Pavo30108 immediately before Selu30108. The queue contains only these three people. Who is in the middle?
+A) Pavo30108
+B) Selu30108
+C) Cannot be determined
+D) Nemi30108
+Return only the option letter.",A,D,C,False,False,[14],content,False
+random1,c1ab084e9e722aef3a543862ad09775d117543b8d10aabb675725addc75b15c0,"Python snippet 30105:
+```python
+x = [38, 54, 15]
+print(x[0] + x[2])
+```
+What is printed?
+A) 107
+B) 69
+C) 92
+D) 53
+Return only the option letter.",D,A),C),False,False,[8],content,False
+random1,a6cd65e63aa9f9de145fd9ecc1ed2544039d4719fa0f3e4c44f9ce187f1db121,"Combine into one concise sentence without adding facts: ""Vera30202 is a courier. Vera30202 is waiting at Gate 13.""","Vera30202, a courier, is waiting at Gate 13.","Vera30202, a courier, is currently waiting at Gate 13.",Vera30202 is a courier waiting at Gate 13.,True,True,[2],none,True
+random1,faa516db96ae718320ad4425021559cb9a18f97797e8729babcedc5a1e41783b,"Combine into one concise sentence without adding facts: ""Vera30200 is a courier. Vera30200 is waiting at Gate 11.""","Vera30200, a courier, is waiting at Gate 11.","Vera30200, a courier, is currently waiting at Gate 11.",Vera30200 is a courier waiting at Gate 11.,True,True,[9],none,True
+random1,c4237f86d463497437f32cc01c242f009679a4c9bf8b024aa673b9f22e3237f2,"Python snippet 30101:
+```python
+x = 43
+y = x + 4
+x = 0
+print(y)
+```
+What is printed?
+A) 43
+B) 47
+C) 4
+D) 0
+Return only the option letter.",B,B),C,True,False,[14],content,False
+random1,16d1e0e2ae63e5c65adcf49794a45ad8bdab30a09736db3aa8afb292ed45e80e,"Python snippet 30109:
+```python
+x = [52, 24, 45]
+x.append(7)
+print(len(x))
+```
+What is printed?
+A) 3
+B) 5
+C) Error
+D) 4
+Return only the option letter.",D,B),B) 5,False,False,[22],content,True

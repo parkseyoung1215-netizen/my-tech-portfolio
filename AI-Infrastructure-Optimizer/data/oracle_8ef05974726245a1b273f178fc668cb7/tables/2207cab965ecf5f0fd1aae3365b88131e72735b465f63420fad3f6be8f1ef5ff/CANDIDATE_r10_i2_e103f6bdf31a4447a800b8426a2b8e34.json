@@ -1,0 +1,344 @@
+{
+  "index": 2,
+  "grade": {
+    "content_correct": true,
+    "format_ok": false,
+    "content_and_format": false,
+    "prediction": "A",
+    "metric_scope": "MCQ extraction, typed exact JSON, closed color aliases; not a general semantic judge"
+  },
+  "baseline_token_match": false,
+  "length_difference": 1,
+  "result": {
+    "attention_calls": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "mlp_calls": [
+      3,
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      2,
+      3
+    ],
+    "reused_mlp_calls": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "work_shapes": [
+      [
+        85,
+        85,
+        28,
+        28
+      ],
+      [
+        1,
+        86,
+        28,
+        26
+      ],
+      [
+        1,
+        87,
+        28,
+        25
+      ]
+    ],
+    "input_tokens": 85,
+    "gate_wall_seconds": 0.0,
+    "gate_cpu_seconds": 0.0,
+    "gate_queries": 0,
+    "pre_gate_sync_wall_seconds": 0.0,
+    "cache_python_wall_seconds": 6.179534830152988e-05,
+    "route_lookup_wall_seconds": 2.5010667741298676e-06,
+    "profile_attention_sync_wall_seconds": 0.0,
+    "profile_mlp_sync_wall_seconds": 0.0,
+    "profile_cache_sync_wall_seconds": 0.0,
+    "answer": "A)",
+    "token_ids": [
+      32,
+      8,
+      151645
+    ],
+    "predicted_token_ids": [
+      32,
+      8,
+      151645
+    ],
+    "output_tokens": 3,
+    "completion_reason": "eos",
+    "kv_offsets": [
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87
+    ],
+    "wall_seconds": 0.17096604104153812,
+    "cpu_seconds": 0.018811000000001243,
+    "model_wall_seconds": 0.17066133418120444,
+    "model_cpu_seconds": 0.018408000000000868,
+    "model_calls": 1,
+    "analytical_matmul_flops": 230234112000,
+    "gate_arithmetic_estimate": 0,
+    "cache_logical_bytes": 86016,
+    "mlx_peak_bytes": 3211767436,
+    "mlx_active_bytes": 3095165968,
+    "process_lifetime_rss_peak_bytes": 3340730368,
+    "primary_native": true,
+    "profile_intrusive": false,
+    "gpu_kernel_count": null,
+    "gpu_time_flops_power_money": null,
+    "fixed_work": false
+  },
+  "plan": [
+    [],
+    [
+      3,
+      24
+    ],
+    [
+      1,
+      10,
+      26
+    ],
+    [
+      3,
+      6,
+      9
+    ],
+    [
+      5,
+      10,
+      13
+    ],
+    [
+      3,
+      8,
+      24
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      6,
+      10,
+      19
+    ],
+    [
+      8,
+      22,
+      25
+    ],
+    [
+      4,
+      13,
+      23
+    ],
+    [
+      3,
+      17,
+      21
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      6,
+      13
+    ],
+    [
+      12,
+      20,
+      25
+    ],
+    [
+      9,
+      19,
+      27
+    ],
+    [
+      7,
+      11,
+      18
+    ],
+    [
+      1,
+      24
+    ],
+    [
+      2,
+      23,
+      26
+    ],
+    [
+      5,
+      13,
+      14
+    ],
+    [
+      7,
+      16,
+      23
+    ],
+    [
+      2,
+      8,
+      9
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      2,
+      3,
+      6
+    ],
+    [
+      11,
+      12,
+      15
+    ],
+    [
+      1,
+      4,
+      21
+    ],
+    [
+      7,
+      17,
+      18
+    ],
+    [
+      11,
+      25
+    ],
+    [
+      7,
+      10,
+      27
+    ],
+    [
+      15,
+      17,
+      26
+    ],
+    [
+      3,
+      8,
+      25
+    ],
+    [
+      0,
+      15,
+      19
+    ],
+    [
+      18,
+      24
+    ]
+  ]
+}

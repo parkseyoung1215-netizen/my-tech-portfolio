@@ -1,0 +1,31 @@
+model,method,cost_axis,accuracy,answer_rate,measured_mean_cost,on_observed_frontier,dominated_by,scope
+qwen2.5:1.5b,baseline,model_processing_seconds,0.6266666666666667,1.0,17.354441333333334,False,"[""selective"", ""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,baseline,processing_seconds,0.6266666666666667,1.0,18.526231723139063,False,"[""selective"", ""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,baseline,ollama_cpu_seconds,0.6266666666666667,1.0,17.399999999999984,False,"[""selective"", ""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,selective,model_processing_seconds,0.7333333333333333,1.0,12.514224332,False,"[""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,selective,processing_seconds,0.7333333333333333,1.0,13.474175665294752,False,"[""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,selective,ollama_cpu_seconds,0.7333333333333333,1.0,11.67666666666665,False,"[""rcav_zero"", ""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_zero,model_processing_seconds,0.7466666666666667,1.0,8.414886999,False,"[""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_zero,processing_seconds,0.7466666666666667,1.0,9.190688154427335,False,"[""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_zero,ollama_cpu_seconds,0.7466666666666667,1.0,9.18000000000002,False,"[""rcav"", ""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav,model_processing_seconds,0.7533333333333333,1.0,5.006192333333333,False,"[""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav,processing_seconds,0.7533333333333333,1.0,5.5878522507846355,False,"[""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav,ollama_cpu_seconds,0.7533333333333333,1.0,6.769999999999972,False,"[""rcav_high""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_high,model_processing_seconds,0.7533333333333333,1.0,4.113200999666667,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_high,processing_seconds,0.7533333333333333,1.0,4.621454873665546,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:1.5b,rcav_high,ollama_cpu_seconds,0.7533333333333333,1.0,6.166666666666713,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,baseline,model_processing_seconds,0.48,0.98,10.443686663,False,"[""selective"", ""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,baseline,processing_seconds,0.48,0.98,11.318831583174566,False,"[""selective"", ""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,baseline,ollama_cpu_seconds,0.48,0.98,18.03333333333333,False,"[""selective"", ""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,selective,model_processing_seconds,0.4866666666666667,0.98,8.976966316,False,"[""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,selective,processing_seconds,0.4866666666666667,0.98,9.663320736416305,False,"[""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,selective,ollama_cpu_seconds,0.4866666666666667,0.98,14.923333333333359,False,"[""rcav_zero""]",Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_zero,model_processing_seconds,0.49333333333333335,0.98,8.327523649666666,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_zero,processing_seconds,0.49333333333333335,0.98,8.982023960367465,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_zero,ollama_cpu_seconds,0.49333333333333335,0.98,14.116666666666601,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav,model_processing_seconds,0.47333333333333333,0.98,6.019129988,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav,processing_seconds,0.47333333333333333,0.98,6.46455075001965,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav,ollama_cpu_seconds,0.47333333333333333,0.98,10.970000000000068,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_high,model_processing_seconds,0.44666666666666666,0.888888888888889,4.773163663,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_high,processing_seconds,0.44666666666666666,0.888888888888889,5.157038460408027,True,[],Observed means only; not significance-tested or a global Pareto frontier
+qwen2.5:0.5b,rcav_high,ollama_cpu_seconds,0.44666666666666666,0.888888888888889,9.469999999999953,True,[],Observed means only; not significance-tested or a global Pareto frontier

@@ -1,0 +1,13 @@
+dataset,method,historical_score,new_content,historical_format,new_format,full_task_success,note
+replay64,baseline,0.59375,0.59375,0.328125,0.328125,0.1875,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+replay64,fixed8,0.265625,0.265625,0.328125,0.203125,0.0625,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+replay64,fixed16,0.34375,0.34375,0.328125,0.203125,0.0625,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+replay64,boundary,0.59375,0.59375,0.875,0.875,0.46875,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+replay64,confidence,0.59375,0.59375,0.65625,0.65625,0.328125,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+replay64,adaptive,0.59375,0.59375,0.765625,0.765625,0.40625,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,baseline,0.703125,0.703125,0.359375,0.484375,0.296875,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,fixed8,0.28125,0.28125,0.484375,0.234375,0.171875,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,fixed16,0.328125,0.328125,0.484375,0.234375,0.171875,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,boundary,0.703125,0.703125,0.75,0.625,0.453125,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,confidence,0.703125,0.703125,0.640625,0.515625,0.375,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.
+fresh64,adaptive,0.703125,0.703125,0.5625,0.6875,0.40625,Historical scores retained; sentence abbreviation/fact completeness and content-vs-format are separate audited metrics.

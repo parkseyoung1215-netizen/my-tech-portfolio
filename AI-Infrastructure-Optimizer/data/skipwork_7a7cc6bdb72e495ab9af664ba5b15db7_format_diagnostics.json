@@ -1,0 +1,42 @@
+{
+  "posthoc_only": true,
+  "official_scores_unchanged": true,
+  "format_diagnostics": [
+    {
+      "method": "baseline",
+      "official_correct": 87,
+      "diagnostic_format_recovered_correct": 88,
+      "format_recovered_requests": 1
+    },
+    {
+      "method": "early_exit",
+      "official_correct": 100,
+      "diagnostic_format_recovered_correct": 101,
+      "format_recovered_requests": 1
+    },
+    {
+      "method": "selective",
+      "official_correct": 97,
+      "diagnostic_format_recovered_correct": 101,
+      "format_recovered_requests": 4
+    },
+    {
+      "method": "budget_cap",
+      "official_correct": 88,
+      "diagnostic_format_recovered_correct": 89,
+      "format_recovered_requests": 1
+    },
+    {
+      "method": "batch_verify",
+      "official_correct": 101,
+      "diagnostic_format_recovered_correct": 105,
+      "format_recovered_requests": 4
+    }
+  ],
+  "batch_envelopes_by_request": {
+    "json_code_fence": 150
+  },
+  "batch_wrapped_verifier_valid": 150,
+  "batch_wrapped_verifier_correct": 102,
+  "warning": "These parses were not used in execution. No timing or rerun performance is inferred from them."
+}

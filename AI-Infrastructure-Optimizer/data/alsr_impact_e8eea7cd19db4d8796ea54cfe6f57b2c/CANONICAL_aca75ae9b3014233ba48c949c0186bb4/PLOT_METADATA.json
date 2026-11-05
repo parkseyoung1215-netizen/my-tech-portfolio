@@ -1,0 +1,5 @@
+{
+  "matplotlib": "3.11.2",
+  "all_performance_from_actual_local_traces": true,
+  "flops_analytical": true
+}

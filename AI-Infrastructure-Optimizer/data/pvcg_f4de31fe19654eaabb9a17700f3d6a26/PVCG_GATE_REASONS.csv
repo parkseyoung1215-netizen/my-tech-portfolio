@@ -1,0 +1,7 @@
+model,reason,unique_requests,scope
+qwen2.5:1.5b,legacy_selective_skips,120,Frozen initial-only decision; no outcome used.
+qwen2.5:1.5b,insufficient_expected_value,120,Frozen initial-only decision; no outcome used.
+qwen2.5:1.5b,proven_tool,60,Frozen initial-only decision; no outcome used.
+qwen2.5:0.5b,insufficient_expected_value,180,Frozen initial-only decision; no outcome used.
+qwen2.5:0.5b,proven_tool,60,Frozen initial-only decision; no outcome used.
+qwen2.5:0.5b,legacy_selective_skips,60,Frozen initial-only decision; no outcome used.

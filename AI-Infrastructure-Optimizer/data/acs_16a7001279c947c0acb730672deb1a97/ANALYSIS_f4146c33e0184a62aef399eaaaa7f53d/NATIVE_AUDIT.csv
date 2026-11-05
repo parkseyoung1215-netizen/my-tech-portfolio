@@ -1,0 +1,7 @@
+session_file,method,forwards,actual_native_calls
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,baseline,21,588
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,fixed8,8,224
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,fixed16,16,448
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,boundary,21,588
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,confidence,21,588
+a3bd24aae12447acb1cc494053da78b4.native_audits.json,adaptive,21,588

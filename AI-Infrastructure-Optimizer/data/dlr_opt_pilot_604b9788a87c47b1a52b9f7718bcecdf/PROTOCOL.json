@@ -1,0 +1,14 @@
+{
+  "development_prompts": [
+    "Return only a JSON object with keys x and y. Values: x=6, y=8.",
+    "Repeat the word hello exactly eight times, separated by single spaces."
+  ],
+  "seed": 2026110605,
+  "source_sha256": {
+    "dlr_opt_runtime.py": "b53ed8300678e8c0838e036c88a1325c34134dc4c1807e896a18ffd6a0014598",
+    "dlr_opt_experiment.py": "a9fd9b4dda4cf5ced89ba8c3594463ba34745e4b4493f83887149809be47db72",
+    "dlr_opt_kernels.py": "a6323b04fa434bafb6e576f3c5088fca8b42c816e43b5dc448d5030f60811a60",
+    "dlr_opt_data.py": "27ba7b738d8cbf053770fc5eae1a01571a0daeeffa0104a2dab49f51de06042d"
+  },
+  "design_sha256": "9bb5aedd233225d1100bb5957894254ae6b95ca1235185a1c55f08e40e3f7c35"
+}

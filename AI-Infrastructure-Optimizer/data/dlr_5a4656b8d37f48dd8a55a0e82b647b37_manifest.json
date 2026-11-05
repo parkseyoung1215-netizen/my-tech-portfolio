@@ -1,0 +1,577 @@
+{
+  "datasets": {
+    "replay32": [
+      {
+        "task_id": "6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1",
+        "question": "Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?\nA) Nemi30107 is not blue\nB) Nothing follows\nC) Nemi30107 is blue\nD) Nemi30107 is not a merin\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff",
+        "question": "Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?\nA) Friday\nB) Saturday\nC) Wednesday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7",
+        "question": "Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?\nA) 819\nB) 371\nC) 117\nD) 483\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730",
+        "question": "Python snippet 30103:\n```python\nx = [11, 54, 67]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) 5\nC) Error\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724",
+        "question": "Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Nemi30104\nC) Selu30104\nD) Pavo30104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67",
+        "question": "Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403",
+        "question": "In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?\nA) -31\nB) -1\nC) 107\nD) 77\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25",
+        "question": "A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?\nA) 67\nB) 65\nC) 9\nD) 63\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424",
+        "question": "Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?\nA) Selu30110\nB) Pavo30110\nC) Nemi30110\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "B",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5fba5dd7c2b6bc56ced2fb6276ca7b45aa65a0e1081bb5e30f3aa41c47e5fcd9",
+        "question": "Memo 30106: Nemi30106 owns a silver compass. Nemi30106 lends the compass to Pavo30106 for one day; ownership does not change. Who owns the compass during that day?\nA) Nemi30106\nB) Pavo30106\nC) Nobody\nD) Selu30106\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "04f5fa8ce38cf6587fa245fca8d177bc1b4feffddcec6ca07f40c830b1567696",
+        "question": "Log 30109: A package arrives on Tuesday. Nemi30109 stores it until Friday, when Pavo30109 collects it. On which day is it collected?\nA) Tuesday\nB) Wednesday\nC) Saturday\nD) Friday\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5969a2780937f2f34c9bf387ee20c0334d5defb8ae0fe03b70e9d8d80ab6e13b",
+        "question": "Python snippet 30110:\n```python\nx = 61\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 0\nB) 68\nC) 61\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12",
+        "question": "Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?\nA) Nemi30104\nB) Selu30104\nC) Pavo30104\nD) Cannot be determined\nReturn only the option letter.",
+        "reference": "C",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c",
+        "question": "Python snippet 30100:\n```python\nx = [45, 11, 20]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) Error\nB) 4\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151",
+        "question": "In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?\nA) 82\nB) 36\nC) -6\nD) 40\nReturn only the option letter.",
+        "reference": "B",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee",
+        "question": "Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?\nA) Selu30106\nB) Cannot be determined\nC) Nemi30106\nD) Pavo30106\nReturn only the option letter.",
+        "reference": "D",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "42f724bbd1427fc6080617f398235add7863870483cee55344f955c52f2e2151",
+        "question": "Memo 30110: Nemi30110 owns a silver compass. Nemi30110 lends the compass to Pavo30110 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Pavo30110\nC) Selu30110\nD) Nemi30110\nReturn only the option letter.",
+        "reference": "D",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c799a107a42a91aa0144c8bf8606fcded42999c3500f1ebaee661fb044b86d27",
+        "question": "Rules for set 30103: All daxes are merins. No merin is blue. Object Nemi30103 is a dax. Which conclusion follows?\nA) Nemi30103 is not blue\nB) Nothing follows\nC) Nemi30103 is not a merin\nD) Nemi30103 is blue\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621",
+        "question": "A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?\nA) 54\nB) 43\nC) 58\nD) 56\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf",
+        "question": "Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?\nA) 232\nB) 103\nC) 112\nD) 412\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c",
+        "question": "Python snippet 30111:\n```python\nx = [44, 61, 35]\nprint(x[0] + x[2])\n```\nWhat is printed?\nA) 105\nB) 79\nC) 96\nD) 140\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "aaa302054eacaeb0193319c85e51f1766f3a1bece76025c4b423346403188e42",
+        "question": "Python snippet 30104:\n```python\nx = 11\ny = x + 7\nx = 0\nprint(y)\n```\nWhat is printed?\nA) 11\nB) 18\nC) 0\nD) 7\nReturn only the option letter.",
+        "reference": "B",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96",
+        "question": "Python snippet 30106:\n```python\nx = [45, 13, 25]\nx.append(3)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) Error\nC) 5\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c",
+        "question": "Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?\nA) 111\nB) 43\nC) 315\nD) 45\nReturn only the option letter.",
+        "reference": "A",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30200\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30200",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30203\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30203",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "876c98f4ae62e1cb4fd76b09131ad4b4ed6854e9d1e75d52ead3258d7e75a4fe",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30205; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30205\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30205",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "c0989b5352f1f68d1b088d1929505d409eca4a032dfd5b3861f777a79c414b50",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30204; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30204\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30204",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "19230255ad7e37ddaa5d35b2f927e3fc239ba2ccef4ee2b4017a6d877672509f",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30202; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30202\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30202",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "867b4f9e4405ef78d4aacea06d2dfb41447163abbdbda911b175f5a8502caf88",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30207; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30207\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30207",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "93513aeefb88aca8b1453283df7459f4e61362247728c7c05a823ab53ea0dda1",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30206; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30206\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30206",
+          "enabled": false
+        },
+        "difficulty": "unrated"
+      },
+      {
+        "task_id": "2a0ddc2444b876f917b2ec8ac622e449ab7ec7dd72e9a559e7326da23e4a283b",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30201; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30201\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30201",
+          "enabled": true
+        },
+        "difficulty": "unrated"
+      }
+    ],
+    "fresh32": [
+      {
+        "task_id": "c302e4b3fd0a02883db76b008bb327c52dde537decf9e05c7b23b9286ea05a82",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65200\", quantity=21.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65200\", \"quantity\": 21}",
+        "expected_object": {
+          "code": "dlr65200",
+          "quantity": 21
+        }
+      },
+      {
+        "task_id": "0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb",
+        "question": "Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?\nA) 13\nB) 90\nC) 89\nD) 1938\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "C"
+      },
+      {
+        "task_id": "b6dcb11f3d0d743c1e9e068ae877e89a8991dda4d729966ee8cf5fd0d8df415d",
+        "question": "Pickup record 64114: Joro64114 hands a key to Kenu64114, who keeps it. Who now holds the key?\nA) Joro64114\nB) Nobody\nC) Kenu64114\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "C"
+      },
+      {
+        "task_id": "0e149ad8eec11ea97085187b012b39decbf9bc4eb91dae9cf34648b9b350ccde",
+        "question": "Parcel ledger 64101: a shelf contains 23 parcels and receives 30 more. How many are there now?\nA) 690\nB) -7\nC) 53\nD) 54\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "C"
+      },
+      {
+        "task_id": "482a416dd8a53ecbcecd1f0b7eec9e4ea93643fd362fae1d1d96d4211f6fb62f",
+        "question": "Label note 66301: The only scarf in the box is blue. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "blue",
+        "aliases": [
+          "blue"
+        ]
+      },
+      {
+        "task_id": "aec0558cd622059e5b077b7605c305ab610462fa89400f9a421228381eaf0a6f",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65206\", quantity=27.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65206\", \"quantity\": 27}",
+        "expected_object": {
+          "code": "dlr65206",
+          "quantity": 27
+        }
+      },
+      {
+        "task_id": "9590b1e18c4d291a9a26bef273e8001c570164d2e45024185687f60844b387e4",
+        "question": "Label note 66304: The only scarf in the box is red. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "red",
+        "aliases": [
+          "red"
+        ]
+      },
+      {
+        "task_id": "ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c",
+        "question": "Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?\nA) 4730\nB) 142\nC) -31\nD) 141\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "D"
+      },
+      {
+        "task_id": "e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed",
+        "question": "Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?\nA) -27\nB) 2368\nC) 101\nD) 102\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "C"
+      },
+      {
+        "task_id": "9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e",
+        "question": "Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?\nA) 155\nB) 7\nC) 84\nD) 71\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "D"
+      },
+      {
+        "task_id": "cb521533bb9c1463be72e2812c3f5f8fc969d5745c4a8afda0b18a467cc1c7ed",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65204\", quantity=25.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65204\", \"quantity\": 25}",
+        "expected_object": {
+          "code": "dlr65204",
+          "quantity": 25
+        }
+      },
+      {
+        "task_id": "7cc19b10a58af5a47ee222c6c296d2bbfca9e8bbd8b7af1ee4a4335e8ebb4041",
+        "question": "Label note 66305: The only scarf in the box is blue. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "blue",
+        "aliases": [
+          "blue"
+        ]
+      },
+      {
+        "task_id": "8e821703cfd2198fad8eba08e179042641404286607b29df0fed21f7df34214f",
+        "question": "Label note 66303: The only scarf in the box is yellow. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "yellow",
+        "aliases": [
+          "yellow"
+        ]
+      },
+      {
+        "task_id": "baee9873c555cc10eebc455b30a7e7c29146229598d4f9795f9b255369958d9b",
+        "question": "Trace card 64104: Python executes x = [78, 69, 7]; print(x[-2]). What is printed?\nA) 78\nB) 69\nC) 7\nD) 147\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "d81ea8c580a23dbcb12f8f6db1baf99a3d52792291934ffd031a9d87e67b15d4",
+        "question": "Queue note 64109: Vena64109 precedes Wori64109, and Wori64109 precedes Xelu64109. Who is last?\nA) Vena64109\nB) Xelu64109\nC) Wori64109\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "df829c3acd5f0e9058dd8488d4a40f62a220667ea6c0df3914eca29c0f673d9b",
+        "question": "Pickup record 64115: Joro64115 hands a key to Kenu64115, who keeps it. Who now holds the key?\nA) Nobody\nB) Kenu64115\nC) Joro64115\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "c306a50d6cb1d0a76fbbcd3663a94785c312df435bdbf17bb95a8ef4d2498695",
+        "question": "Label note 66306: The only scarf in the box is green. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "green",
+        "aliases": [
+          "green"
+        ]
+      },
+      {
+        "task_id": "0134ddde9fd633315e0e7dceb61934c354b12a2bef51c7e3f3513b621373ea87",
+        "question": "Label note 66307: The only scarf in the box is yellow. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "yellow",
+        "aliases": [
+          "yellow"
+        ]
+      },
+      {
+        "task_id": "bb4dc72a2918ff6c4da46fdcee54311163ac7650496e7fd6417481815fdd02db",
+        "question": "Pickup record 64113: Joro64113 hands a key to Kenu64113, who keeps it. Who now holds the key?\nA) Cannot be determined\nB) Joro64113\nC) Nobody\nD) Kenu64113\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "D"
+      },
+      {
+        "task_id": "5cfa20dfbc7713d04702369453ad9379669b48adc07e4ee3f9e077b63711799c",
+        "question": "Label note 66300: The only scarf in the box is red. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "red",
+        "aliases": [
+          "red"
+        ]
+      },
+      {
+        "task_id": "7b06cdc83974d4001036bed12d585a50de0d6ce4558db22f87c4812a06831f0f",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65205\", quantity=26.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65205\", \"quantity\": 26}",
+        "expected_object": {
+          "code": "dlr65205",
+          "quantity": 26
+        }
+      },
+      {
+        "task_id": "8e6fb30fc1a2726ae0ca51626cceb004d34f558046dec7bb9248958a48b57d31",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65202\", quantity=23.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65202\", \"quantity\": 23}",
+        "expected_object": {
+          "code": "dlr65202",
+          "quantity": 23
+        }
+      },
+      {
+        "task_id": "c8b05774e50d2d1b6a5acee79c287c90e840d7573f3fda19b1ef562aa5328ad3",
+        "question": "Queue note 64111: Vena64111 precedes Wori64111, and Wori64111 precedes Xelu64111. Who is last?\nA) Vena64111\nB) Wori64111\nC) Cannot be determined\nD) Xelu64111\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "D"
+      },
+      {
+        "task_id": "5d8b76ba219ddc038cf8a7cbb89409b06ca7287b04f5541412d854a63c94b113",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65207\", quantity=28.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65207\", \"quantity\": 28}",
+        "expected_object": {
+          "code": "dlr65207",
+          "quantity": 28
+        }
+      },
+      {
+        "task_id": "19159952c142f09f1287026104db24c94de9c820f2eee5753e6e82acc3f85af6",
+        "question": "Trace card 64107: Python executes x = [20, 36, 7]; print(x[-2]). What is printed?\nA) 56\nB) 36\nC) 7\nD) 20\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "b09d030931556e61b7a2056d732531ec2c07a1232157e14ba86ec578aa89af42",
+        "question": "Label note 66302: The only scarf in the box is green. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "green",
+        "aliases": [
+          "green"
+        ]
+      },
+      {
+        "task_id": "6f277fe69458446930b17fce10fe66fe8ed05b0a7a49c6715eb00c8d7872461a",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65201\", quantity=22.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65201\", \"quantity\": 22}",
+        "expected_object": {
+          "code": "dlr65201",
+          "quantity": 22
+        }
+      },
+      {
+        "task_id": "9e96c4bcdab0a9416da1343bda4adbb59f873ef76ec949839c507d196099b3c9",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"dlr65203\", quantity=24.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"dlr65203\", \"quantity\": 24}",
+        "expected_object": {
+          "code": "dlr65203",
+          "quantity": 24
+        }
+      },
+      {
+        "task_id": "e21578dfa1b6296c889e30a024f321a1912fc83ddecf44e42b07f9370c2c0b28",
+        "question": "Pickup record 64112: Joro64112 hands a key to Kenu64112, who keeps it. Who now holds the key?\nA) Kenu64112\nB) Nobody\nC) Cannot be determined\nD) Joro64112\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "A"
+      },
+      {
+        "task_id": "f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357",
+        "question": "Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?\nA) Wori64108\nB) Xelu64108\nC) Vena64108\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "1b5b49b585cff12093d901a958abd8e5877768d5bb178bda3984b733c87bf828",
+        "question": "Trace card 64106: Python executes x = [42, 57, 7]; print(x[-2]). What is printed?\nA) 7\nB) 57\nC) 99\nD) 42\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "B"
+      },
+      {
+        "task_id": "475c05a7971effec6010d4bcdd87a69ad0495b75a3ddb6f5248577ff1aa6ea3e",
+        "question": "Queue note 64110: Vena64110 precedes Wori64110, and Wori64110 precedes Xelu64110. Who is last?\nA) Vena64110\nB) Cannot be determined\nC) Xelu64110\nD) Wori64110\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "C"
+      }
+    ]
+  },
+  "study_manifest": "./data/dlr_5a4656b8d37f48dd8a55a0e82b647b37/MANIFEST.json"
+}

@@ -1,0 +1,18 @@
+{
+  "preserved_files_unchanged": true,
+  "preserved_files_checked": 393,
+  "past_stems_checked": 1822,
+  "fresh_validation_and_test_overlap_past": 0,
+  "training_past_evaluation_overlap": 0,
+  "training_validation_test_disjoint": true,
+  "all_predictors_reconstructed_from_training_validation": true,
+  "same_initial_answers": true,
+  "all_allocations_frozen_and_reconstructed": true,
+  "all_verifier_prompts_reconstructed": true,
+  "unique_final_test_questions": 300,
+  "outcome_rows": 108000,
+  "actual_verifier_calls": 17444,
+  "api_errors": 0,
+  "variable_verifier_requests": 1,
+  "limits": "Matched Full100 reference is separate-time/cache, not an exact same-execution counterfactual. Repeated outputs are not independent questions."
+}

@@ -1,0 +1,229 @@
+repetition,question,category,expected,fixed_candidate,verification_answer,prediction,correct,call_id
+1,"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",coding,D,C,D,D,True,e01261675f314cd68233693f70a10894
+1,"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",coding,D,A,D,D,True,30297290741f488880aa8c56fee81a9f
+1,"Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?
+A) P54b
+B) P54a
+C) P54c
+D) P54d",logic,D,A,D,D,True,f81ca99766f1490c93056ce03224a818
+1,"Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Neither
+B) Even
+C) Cannot determine
+D) Odd",logic,D,B,D,D,True,5f58e75e72b64bd68caee3925edf72cc
+1,"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",coding,D,B,D,D,True,2ce6b136b8294e5fad6ce13e09039757
+1,"Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?
+A) Juna51
+B) Karo51
+C) Ivo51
+D) Lumi51",logic,D,B,D,D,True,e37eaa644670460c99b52ed0f49c1ef5
+1,"Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?
+A) Juna55
+B) Lumi55
+C) Karo55
+D) Ivo55",logic,B,D,B,B,True,827dfcc4709e4c3bae0f95515e335637
+1,"Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?
+A) Lumi53
+B) Ivo53
+C) Karo53
+D) Juna53",logic,D,B,D,D,True,f8e799b236a2457591d6dae90f657e2a
+1,"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",coding,D,B,D,D,True,5b7bd224c27c482b88a5a77480d5f2f9
+1,"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",coding,B,A,B,B,True,e76c0100efd54f789bda8526428d8eb8
+1,"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",coding,C,A,C,C,True,ca5d3c17ee454e3ab6505491a0afa788
+2,"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",coding,D,C,D,D,True,44830b76c98d4ff88719fe457fea3a44
+2,"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",coding,D,A,D,D,True,9746840115c0460f8336ebcb53ade10c
+2,"Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?
+A) P54b
+B) P54a
+C) P54c
+D) P54d",logic,D,A,D,D,True,2ba408f624124a8bab914d49e137e207
+2,"Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Neither
+B) Even
+C) Cannot determine
+D) Odd",logic,D,B,D,D,True,a7a88582573f4e73ab0c09cb6e4f4515
+2,"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",coding,D,B,D,D,True,9489f0863ea045d4a6a4329915d6300d
+2,"Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?
+A) Juna51
+B) Karo51
+C) Ivo51
+D) Lumi51",logic,D,B,D,D,True,e4a49aaf555248698213b72c897f55b2
+2,"Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?
+A) Juna55
+B) Lumi55
+C) Karo55
+D) Ivo55",logic,B,D,B,B,True,847b601e8ee74780ae233d167d6e12e2
+2,"Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?
+A) Lumi53
+B) Ivo53
+C) Karo53
+D) Juna53",logic,D,B,D,D,True,7d30d8871d9748c19280e5af18393e57
+2,"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",coding,D,B,D,D,True,549602573da1451da210213b9fa7721c
+2,"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",coding,B,A,B,B,True,d19b964950c44af6acf0d95276e9b669
+2,"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",coding,C,A,C,C,True,883195d573ca43ad95a780634b863f45
+3,"What does this Python program output?
+```python
+print(sum(range(62, 69, 2)))
+```
+A) Error
+B) 69
+C) 248
+D) 260",coding,D,C,D,D,True,b081c2ed5bfb4442b4d73c2167dc5652
+3,"What does this Python program output?
+```python
+s = '  wave54 blue sky  '
+print(len(s.strip().split()))
+```
+A) 2
+B) 4
+C) Error
+D) 3",coding,D,A,D,D,True,03a4e811839e48b68891998261ec48da
+3,"Reason about directed links: P54a->P54b, P54c->P54b, P54b->P54d. Starting at P54a, which listed node can be reached after exactly two links?
+A) P54b
+B) P54a
+C) P54c
+D) P54d",logic,D,A,D,D,True,1d93681851004587ae80a496ab44eaa7
+3,"Reason about bit parity case 56: bits=[0, 0, 1, 1, 0, 0, 0, 0, 1]. Is the count of 1 bits odd or even?
+A) Neither
+B) Even
+C) Cannot determine
+D) Odd",logic,D,B,D,D,True,249688d8a8e1455faefde931ec766c8a
+3,"What does this Python program output?
+```python
+print(sum(range(64, 71, 2)))
+```
+A) Error
+B) 71
+C) 256
+D) 268",coding,D,B,D,D,True,1dfbb0110efb4269a316599304413c0b
+3,"Reason about a four-person race: Juna51 finishes before Karo51; Karo51 finishes before Lumi51; Ivo51 finishes before Juna51. Who finishes in position 4?
+A) Juna51
+B) Karo51
+C) Ivo51
+D) Lumi51",logic,D,B,D,D,True,3d7ce4ca258847ff87b8f06ebb4ba7de
+3,"Reason about a four-person race: Ivo55 finishes before Juna55; Karo55 finishes before Lumi55; Juna55 finishes before Karo55. Who finishes in position 4?
+A) Juna55
+B) Lumi55
+C) Karo55
+D) Ivo55",logic,B,D,B,B,True,bb0c4c8adabf4e5490183dfbbc5db692
+3,"Reason about a four-person race: Karo53 finishes before Lumi53; Juna53 finishes before Karo53; Ivo53 finishes before Juna53. Who finishes in position 2?
+A) Lumi53
+B) Ivo53
+C) Karo53
+D) Juna53",logic,D,B,D,D,True,82b764d7504e41e99034d29b6e75be71
+3,"What does this Python program output?
+```python
+v = [66, 68, 71]
+print(v[1:][0])
+```
+A) Error
+B) 71
+C) 66
+D) 68",coding,D,B,D,D,True,8d0b17b06e2c41d6abd6da7f35dc944d
+3,"What does this Python program output?
+```python
+print(sum(range(61, 68, 2)))
+```
+A) 244
+B) 256
+C) Error
+D) 68",coding,B,A,B,B,True,4733b507f20e48a9bc5b3d607cfc8179
+3,"What does this Python program output?
+```python
+d = {'x': 61}
+print(d.get('z', 7) + d['x'])
+```
+A) 61
+B) 7
+C) 68
+D) Error",coding,C,A,C,C,True,1a9d8a498bac4ca0807af222bbcf35a2

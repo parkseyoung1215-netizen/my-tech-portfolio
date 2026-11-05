@@ -1,0 +1,11 @@
+dataset,method,audited_fact_quality_not_worse,limited_observed_candidate,population_noninferiority_proven,global_semantic_correctness_proven,scoring_audit_is_posthoc
+replay64,fixed8,False,False,False,False,True
+replay64,fixed16,False,False,False,False,True
+replay64,boundary,True,True,False,False,True
+replay64,confidence,True,True,False,False,True
+replay64,adaptive,True,True,False,False,True
+fresh64,fixed8,False,False,False,False,True
+fresh64,fixed16,False,False,False,False,True
+fresh64,boundary,False,False,False,False,True
+fresh64,confidence,False,False,False,False,True
+fresh64,adaptive,True,True,False,False,True

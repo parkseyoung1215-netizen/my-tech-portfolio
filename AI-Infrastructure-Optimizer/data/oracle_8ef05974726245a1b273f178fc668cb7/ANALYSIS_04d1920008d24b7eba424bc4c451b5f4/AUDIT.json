@@ -1,0 +1,14 @@
+{
+  "actual_primary_requests": 4000,
+  "original_files_unchanged": 10308,
+  "table_quotas_and_native_mlp_counts_checked": true,
+  "all_attention_kv_offsets_checked": true,
+  "fixed_streams_identical": true,
+  "oracle_uses_evaluation_labels_and_future": true,
+  "mathematical_oracle_optimality_proven": false,
+  "actual_gpu_kernel_count_flops_power_money_measured": false,
+  "offline_table_generation_seconds": 179.5552458341699,
+  "offline_table_generation_cpu_seconds": 35.53970300000001,
+  "offline_trace_model_calls": 20,
+  "offline_candidate_model_calls": 300
+}

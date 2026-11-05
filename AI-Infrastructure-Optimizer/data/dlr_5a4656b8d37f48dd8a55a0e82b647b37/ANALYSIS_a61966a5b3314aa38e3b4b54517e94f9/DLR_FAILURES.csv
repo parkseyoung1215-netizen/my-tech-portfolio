@@ -1,0 +1,1465 @@
+phase,dataset,repetition,task_id,method,category,question,reference,answer,baseline_answer,correct,baseline_correct,format_ok,transition,token_stream_changed,reused_mlp_calls,gate_queries,wall_seconds,cpu_seconds,output_tokens,completion_reason,sequence,position
+natural,replay32,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,baseline,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.18665779219008982,0.061078000000001964,3,eos,57,1
+natural,replay32,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,baseline,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.29250445892103016,0.09934499999999957,6,eos,0,3
+natural,replay32,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,baseline,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.18359720800071955,0.06209900000000346,3,eos,59,0
+natural,replay32,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,baseline,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.17284445790573955,0.06746499999999855,2,eos,56,0
+natural,replay32,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,baseline,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,0,0.16443458409048617,0.04795000000000016,2,eos,14,2
+natural,replay32,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,baseline,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,0,0.17470816685818136,0.019086999999998966,3,eos,34,2
+natural,replay32,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,baseline,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.23791445815004408,0.02807099999999707,5,eos,41,0
+natural,replay32,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,baseline,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.15844316687434912,0.016045999999995786,2,eos,47,1
+natural,replay32,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,baseline,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,0,0.174803625093773,0.0188010000000034,3,eos,42,3
+natural,replay32,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,baseline,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,0,0.184386916924268,0.03708099999999881,3,eos,3,1
+natural,replay32,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,baseline,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,0,0.18422937509603798,0.020766999999999314,3,eos,43,1
+natural,replay32,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,baseline,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.1858401249628514,0.05807700000000082,3,eos,31,0
+natural,replay32,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,baseline,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.18033266603015363,0.01914899999999875,3,eos,51,2
+natural,replay32,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,baseline,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.18469595909118652,0.05884799999999757,3,eos,28,0
+natural,replay32,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,baseline,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.29491233406588435,0.09675000000000011,6,eos,3,2
+natural,replay32,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,baseline,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.19075920805335045,0.06314700000000073,3,eos,17,2
+natural,replay32,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,baseline,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.1576964168343693,0.015936999999993873,2,eos,44,2
+natural,replay32,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,baseline,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,0,0.16645845910534263,0.04831399999999775,2,eos,2,1
+natural,replay32,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,baseline,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,0,0.18581029097549617,0.058837999999994395,3,eos,52,1
+natural,replay32,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,baseline,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.2562463751528412,0.07658499999999435,5,eos,9,2
+natural,replay32,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,baseline,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.1579744159244001,0.015141999999997324,2,eos,45,0
+natural,replay32,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,baseline,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,0,0.17451016698032618,0.018543000000008192,3,eos,63,1
+natural,replay32,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,baseline,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,0,0.1858932499308139,0.05712599999999668,3,eos,38,2
+natural,replay32,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,baseline,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,0,0.18542174994945526,0.0620619999999974,3,eos,10,0
+natural,replay32,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,baseline,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.1912694580387324,0.06354999999999222,3,eos,41,3
+natural,replay32,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,baseline,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.19322670809924603,0.06443999999999761,3,eos,25,1
+natural,replay32,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,baseline,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.1881938329897821,0.05491700000000321,3,eos,18,3
+natural,replay32,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,baseline,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.2944809999316931,0.10373799999999278,6,eos,24,1
+natural,replay32,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,baseline,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,0,0.19971399987116456,0.06050500000000625,3,eos,58,1
+natural,replay32,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,baseline,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.16873399983160198,0.05387299999999584,2,eos,33,2
+natural,replay32,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,baseline,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,0,0.16579920891672373,0.0466210000000018,2,eos,4,2
+natural,replay32,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,baseline,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,0,0.18764050002209842,0.0604629999999986,3,eos,6,2
+natural,replay32,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,baseline,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.23920820909552276,0.027621999999993818,5,eos,41,0
+natural,replay32,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,baseline,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.17385987495072186,0.05927499999999952,2,eos,17,2
+natural,replay32,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,baseline,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,0,0.18737687496468425,0.06103799999999637,3,eos,2,0
+natural,replay32,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,baseline,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,0,0.17494004080072045,0.01916400000000351,3,eos,37,3
+natural,replay32,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,baseline,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,0,0.1859342500101775,0.061014000000000124,3,eos,22,0
+natural,replay32,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,baseline,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.17590245814062655,0.018958999999995285,3,eos,40,3
+natural,replay32,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,baseline,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.1865758749190718,0.05882599999999627,3,eos,35,3
+natural,replay32,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,static,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A) 819,A),False,False,False,Wrong->Wrong,True,0,0,0.3357002919074148,0.11717500000000314,7,eos,57,3
+natural,replay32,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,static,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.282632292015478,0.09435099999999963,6,eos,0,1
+natural,replay32,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,static,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A) 67,A),False,False,False,Wrong->Wrong,True,0,0,0.2861595000140369,0.10297400000000323,6,eos,59,3
+natural,replay32,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,static,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C) Nemi30110,C,False,False,False,Wrong->Wrong,True,0,0,0.439000042155385,0.15191000000000088,10,eos,56,3
+natural,replay32,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,static,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B),B,False,False,False,Wrong->Wrong,True,0,0,0.19586745789274573,0.06402399999999986,3,eos,14,1
+natural,replay32,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,static,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C,C),False,False,True,Wrong->Wrong,True,0,0,0.13768862490542233,0.014109999999998735,2,eos,34,1
+natural,replay32,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,static,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.23062470788136125,0.025269999999999015,5,eos,41,3
+natural,replay32,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,static,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.1534339168574661,0.015433000000001584,2,eos,47,2
+natural,replay32,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,static,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B) 43,B),False,False,False,Wrong->Wrong,True,0,0,0.26138287503272295,0.030141000000000417,6,eos,42,2
+natural,replay32,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,static,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D) 412,D),False,False,False,Wrong->Wrong,True,0,0,0.31611183378845453,0.08373899999999956,7,eos,3,2
+natural,replay32,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,static,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A) 105,A),False,False,False,Wrong->Wrong,True,0,0,0.29554408392868936,0.04033799999999843,7,eos,43,0
+natural,replay32,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,static,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.18024920905008912,0.05586500000000072,3,eos,31,2
+natural,replay32,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,static,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C) 315,C),False,False,False,Wrong->Wrong,True,0,0,0.2965954998508096,0.03463700000000358,7,eos,51,3
+natural,replay32,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,static,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A) 819,A),False,False,False,Wrong->Wrong,True,0,0,0.3203995421063155,0.1137379999999979,7,eos,28,1
+natural,replay32,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,static,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.28760966705158353,0.09464599999999734,6,eos,3,3
+natural,replay32,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,static,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A) 67,A),False,False,False,Wrong->Wrong,True,0,0,0.28633775003254414,0.10008799999999951,6,eos,17,3
+natural,replay32,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,static,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C) Nemi30110,C,False,False,False,Wrong->Wrong,True,0,0,0.4011763329617679,0.048867000000001326,10,eos,44,1
+natural,replay32,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,static,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B),B,False,False,False,Wrong->Wrong,True,0,0,0.19682849990203977,0.059039999999995985,3,eos,2,3
+natural,replay32,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,static,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C,C),False,False,True,Wrong->Wrong,True,0,0,0.1458702920936048,0.041296000000002664,2,eos,52,3
+natural,replay32,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,static,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.2513396251015365,0.08456600000000236,5,eos,9,0
+natural,replay32,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,static,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.2344917501322925,0.0511939999999953,2,eos,45,3
+natural,replay32,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,static,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B) 43,B),False,False,False,Wrong->Wrong,True,0,0,0.262929999968037,0.030567000000004896,6,eos,63,0
+natural,replay32,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,static,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D) 412,D),False,False,False,Wrong->Wrong,True,0,0,0.32184508303180337,0.10216900000000351,7,eos,38,0
+natural,replay32,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,static,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A) 105,A),False,False,False,Wrong->Wrong,True,0,0,0.31930370908230543,0.11207799999999679,7,eos,10,3
+natural,replay32,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,static,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.1871340828947723,0.0653909999999982,3,eos,41,2
+natural,replay32,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,static,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C) 315,C),False,False,False,Wrong->Wrong,True,0,0,0.3274793329183012,0.10806699999999836,7,eos,25,2
+natural,replay32,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,static,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A) 819,A),False,False,False,Wrong->Wrong,True,0,0,0.33203370799310505,0.12488799999999856,7,eos,18,2
+natural,replay32,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,static,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,0,0.28733483399264514,0.09785700000000475,6,eos,24,2
+natural,replay32,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,static,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A) 67,A),False,False,False,Wrong->Wrong,True,0,0,0.30175504204817116,0.10291499999999587,6,eos,58,2
+natural,replay32,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,static,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C) Nemi30110,C,False,False,False,Wrong->Wrong,True,0,0,0.449069791007787,0.16871000000000436,10,eos,33,3
+natural,replay32,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,static,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B),B,False,False,False,Wrong->Wrong,True,0,0,0.19565087486989796,0.06059000000000481,3,eos,4,3
+natural,replay32,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,static,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C,C),False,False,True,Wrong->Wrong,True,0,0,0.14616991602815688,0.04430899999999838,2,eos,6,0
+natural,replay32,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,static,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,0,0.23166258400306106,0.025677000000001726,5,eos,41,3
+natural,replay32,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,static,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,0,0.16849883296526968,0.05730199999999286,2,eos,17,1
+natural,replay32,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,static,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B) 43,B),False,False,False,Wrong->Wrong,True,0,0,0.2835292499512434,0.09286899999999321,6,eos,2,1
+natural,replay32,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,static,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D) 412,D),False,False,False,Wrong->Wrong,True,0,0,0.2932112910784781,0.03550100000001066,7,eos,37,2
+natural,replay32,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,static,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A) 105,A),False,False,False,Wrong->Wrong,True,0,0,0.32211179099977016,0.11251799999999434,7,eos,22,3
+natural,replay32,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,static,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,0,0.1692805839702487,0.02010199999999429,3,eos,40,0
+natural,replay32,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,static,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C) 315,C),False,False,False,Wrong->Wrong,True,0,0,0.3210068750195205,0.11380200000000684,7,eos,35,0
+natural,replay32,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,dlr,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19361770804971457,0.06908200000000164,3,eos,57,2
+natural,replay32,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,dlr,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.3106159169692546,0.10917400000000121,6,eos,0,2
+natural,replay32,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,dlr,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.1960948328487575,0.07313800000000015,3,eos,59,1
+natural,replay32,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,dlr,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16925600008107722,0.052692000000000405,2,eos,56,2
+natural,replay32,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,dlr,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.1695487080141902,0.051700999999997777,2,eos,14,3
+natural,replay32,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,dlr,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1787347919307649,0.019553999999999405,3,eos,34,0
+natural,replay32,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,dlr,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.24585495796054602,0.025688000000002376,5,eos,41,2
+natural,replay32,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,dlr,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1607028329744935,0.01645700000000261,2,eos,47,0
+natural,replay32,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,dlr,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.17745550000108778,0.019064999999997667,3,eos,42,0
+natural,replay32,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,dlr,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.19920470798388124,0.0433520000000005,3,eos,3,0
+natural,replay32,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,dlr,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.18181866686791182,0.024328000000004124,3,eos,43,2
+natural,replay32,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,dlr,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19366145809181035,0.06566600000000022,3,eos,31,1
+natural,replay32,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,dlr,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.17906950018368661,0.01823899999999412,3,eos,51,1
+natural,replay32,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,dlr,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.20365216699428856,0.07293500000000108,3,eos,28,3
+natural,replay32,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,dlr,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.3143473749514669,0.10529100000000113,6,eos,3,1
+natural,replay32,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,dlr,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.1919585419818759,0.06539899999999932,3,eos,17,1
+natural,replay32,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,dlr,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16080808290280402,0.0183889999999991,2,eos,44,0
+natural,replay32,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,dlr,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.17304270807653666,0.058669999999999334,2,eos,2,0
+natural,replay32,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,dlr,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19391945796087384,0.06802299999999661,3,eos,52,0
+natural,replay32,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,dlr,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.2715282919816673,0.09034000000000475,5,eos,9,3
+natural,replay32,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,dlr,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1648210419807583,0.01471300000000042,2,eos,45,1
+natural,replay32,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,dlr,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.17777925007976592,0.01803099999999347,3,eos,63,2
+natural,replay32,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,dlr,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.1943182498216629,0.06693100000000385,3,eos,38,1
+natural,replay32,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,dlr,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19220570800825953,0.06530099999999806,3,eos,10,1
+natural,replay32,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,dlr,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19638395798392594,0.0626010000000008,3,eos,41,0
+natural,replay32,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,dlr,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19803591701202095,0.07284099999999682,3,eos,25,0
+natural,replay32,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,dlr,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.2000121669843793,0.07117199999999002,3,eos,18,1
+natural,replay32,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,dlr,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.3289229581132531,0.12226800000000537,6,eos,24,3
+natural,replay32,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,dlr,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.20472991606220603,0.06340499999998883,3,eos,58,0
+natural,replay32,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,dlr,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.17095729103311896,0.051019000000010806,2,eos,33,1
+natural,replay32,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,dlr,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.16965658403933048,0.05454000000000292,2,eos,4,0
+natural,replay32,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,dlr,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1960242090281099,0.06788600000000145,3,eos,6,1
+natural,replay32,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,dlr,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.24707904201932251,0.026274000000000797,5,eos,41,1
+natural,replay32,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,dlr,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1786206248216331,0.06193200000001298,2,eos,17,3
+natural,replay32,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,dlr,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.1944163329899311,0.06328800000000001,3,eos,2,3
+natural,replay32,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,dlr,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.17919487482868135,0.01941199999998844,3,eos,37,1
+natural,replay32,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,dlr,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19524037512019277,0.06654999999999234,3,eos,22,2
+natural,replay32,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,dlr,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.17869020882062614,0.019145999999992114,3,eos,40,1
+natural,replay32,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,dlr,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.192424250068143,0.06588899999999853,3,eos,35,1
+natural,replay32,1,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,conservative,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19632991682738066,0.06918500000000449,3,eos,57,0
+natural,replay32,1,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,conservative,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.30970320804044604,0.10647699999999993,6,eos,0,0
+natural,replay32,1,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,conservative,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.1960377909708768,0.07233699999999743,3,eos,59,2
+natural,replay32,1,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,conservative,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16729929205030203,0.05610500000000229,2,eos,56,1
+natural,replay32,1,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,conservative,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.16749308281578124,0.04818999999999818,2,eos,14,0
+natural,replay32,1,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,conservative,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.17854741704650223,0.018155000000000143,3,eos,34,3
+natural,replay32,1,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,conservative,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.2460701670497656,0.02604199999999679,5,eos,41,1
+natural,replay32,1,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,conservative,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.160370958968997,0.015088999999996133,2,eos,47,3
+natural,replay32,1,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,conservative,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.17746029188856483,0.0186649999999986,3,eos,42,1
+natural,replay32,1,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,conservative,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.1902144169434905,0.05178999999999867,3,eos,3,3
+natural,replay32,1,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,conservative,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.17899595806375146,0.01969400000000121,3,eos,43,3
+natural,replay32,1,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,conservative,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1922977091744542,0.06326699999999974,3,eos,31,3
+natural,replay32,1,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,conservative,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1767089171335101,0.027701999999997895,3,eos,51,0
+natural,replay32,2,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,conservative,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19583162502385676,0.06470500000000357,3,eos,28,2
+natural,replay32,2,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,conservative,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.3206435409374535,0.11426900000000018,6,eos,3,0
+natural,replay32,2,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,conservative,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19062212482094765,0.06592200000000048,3,eos,17,0
+natural,replay32,2,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,conservative,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1600153329782188,0.015681000000000722,2,eos,44,3
+natural,replay32,2,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,conservative,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.17184474994428456,0.05140100000000558,2,eos,2,2
+natural,replay32,2,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,conservative,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19510929216630757,0.06729599999999891,3,eos,52,2
+natural,replay32,2,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,conservative,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.27074379194527864,0.0924140000000051,5,eos,9,1
+natural,replay32,2,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,conservative,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.2421705408487469,0.034482000000011226,2,eos,45,2
+natural,replay32,2,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,conservative,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.1786177500616759,0.018231999999997583,3,eos,63,3
+natural,replay32,2,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,conservative,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.19466695794835687,0.06506100000000004,3,eos,38,3
+natural,replay32,2,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,conservative,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.1958669580053538,0.06879800000000103,3,eos,10,2
+natural,replay32,2,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,conservative,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1987064580898732,0.06233399999999989,3,eos,41,1
+natural,replay32,2,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,conservative,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19952345895580947,0.061740999999997825,3,eos,25,3
+natural,replay32,3,58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7,conservative,arithmetic,"Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?
+A) 819
+B) 371
+C) 117
+D) 483
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.20307733304798603,0.07733300000001009,3,eos,18,0
+natural,replay32,3,9cb19895265cec1727a061bef9254acfcec01e726b0c82d47116a16440ef1403,conservative,arithmetic,"In ledger 30105, an account starts at 38, receives 54, then pays 15. What is its balance?
+A) -31
+B) -1
+C) 107
+D) 77
+Return only the option letter.",D,A) -31,A) -31,False,False,False,Wrong->Wrong,False,0,20,0.31690291594713926,0.1299589999999995,6,eos,24,0
+natural,replay32,3,60b04817914e345b4f7e237468f6f09db55fc20710df0572b1ff8f2ebf470a25,conservative,arithmetic,"A tray contains 11 red and 54 blue beads. After removing 2 red beads, how many beads remain?
+A) 67
+B) 65
+C) 9
+D) 63
+Return only the option letter.",D,A),A),False,False,False,Wrong->Wrong,False,0,8,0.20228245807811618,0.058188999999998714,3,eos,58,3
+natural,replay32,3,48aa4ed2456433df87f189398adc1b6e940ba8646368900cab2f6c336e34c424,conservative,logic,"Queue 30110: Nemi30110 stands immediately before Pavo30110, and Pavo30110 immediately before Selu30110. The queue contains only these three people. Who is in the middle?
+A) Selu30110
+B) Pavo30110
+C) Nemi30110
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.17020920803770423,0.05367699999999331,2,eos,33,0
+natural,replay32,3,d27a3269158ba0768b86d0b92b29888cb2d83c7cdab270a224627598269c3c12,conservative,logic,"Queue 30104: Nemi30104 stands immediately before Pavo30104, and Pavo30104 immediately before Selu30104. The queue contains only these three people. Who is in the middle?
+A) Nemi30104
+B) Selu30104
+C) Pavo30104
+D) Cannot be determined
+Return only the option letter.",C,B,B,False,False,True,Wrong->Wrong,False,0,4,0.17010404192842543,0.05176500000000317,2,eos,4,1
+natural,replay32,3,025d8b77d517ac94b81dea7a2d0eba724749ade59ab83e2180a7b2e948e5657c,conservative,coding,"Python snippet 30100:
+```python
+x = [45, 11, 20]
+x.append(2)
+print(len(x))
+```
+What is printed?
+A) Error
+B) 4
+C) 5
+D) 3
+Return only the option letter.",B,C),C),False,False,False,Wrong->Wrong,False,0,8,0.19546037493273616,0.06414999999999793,3,eos,6,3
+natural,replay32,3,e9f60e56912d19862e18af5d0033d213cccd4d436781a5044fa392f85d790151,conservative,arithmetic,"In ledger 30108, an account starts at 38, receives 21, then pays 23. What is its balance?
+A) 82
+B) 36
+C) -6
+D) 40
+Return only the option letter.",B,C) -6,C) -6,False,False,False,Wrong->Wrong,False,0,16,0.2475940000731498,0.02633799999999553,5,eos,41,2
+natural,replay32,3,a5faf3663bfb15fb8016870169488e6a463b8c81aad2d073db78e189e3647aee,conservative,logic,"Queue 30106: Nemi30106 stands immediately before Pavo30106, and Pavo30106 immediately before Selu30106. The queue contains only these three people. Who is in the middle?
+A) Selu30106
+B) Cannot be determined
+C) Nemi30106
+D) Pavo30106
+Return only the option letter.",D,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1826814590021968,0.06735399999999458,2,eos,17,0
+natural,replay32,3,985fe097601b8f025c6c41798781da2ff5edf093e00b9f2725394574b806d621,conservative,arithmetic,"A tray contains 45 red and 11 blue beads. After removing 2 red beads, how many beads remain?
+A) 54
+B) 43
+C) 58
+D) 56
+Return only the option letter.",A,B),B),False,False,False,Wrong->Wrong,False,0,8,0.18833550019189715,0.053817999999992594,3,eos,2,2
+natural,replay32,3,022c8a94efe101fdf26536aed853600a904b5a3cdd7ef74003b1ece3f13ee1bf,conservative,arithmetic,"Parcel 30101 contains 4 packs of 43 cards and 60 loose cards. What is the total?
+A) 232
+B) 103
+C) 112
+D) 412
+Return only the option letter.",A,D),D),False,False,False,Wrong->Wrong,False,0,8,0.17868508282117546,0.021028000000001157,3,eos,37,0
+natural,replay32,3,01f6b79e131be5b17f851e731bd334d41aa0a0de2fadec5d7eb2d18ad6e9167c,conservative,coding,"Python snippet 30111:
+```python
+x = [44, 61, 35]
+print(x[0] + x[2])
+```
+What is printed?
+A) 105
+B) 79
+C) 96
+D) 140
+Return only the option letter.",B,A),A),False,False,False,Wrong->Wrong,False,0,8,0.19498699996620417,0.06454000000000804,3,eos,22,1
+natural,replay32,3,5d9704c4a0ef5bc3b49799b11a22a4ada3c9e0b6e7c15dac24d6031ad532ef96,conservative,coding,"Python snippet 30106:
+```python
+x = [45, 13, 25]
+x.append(3)
+print(len(x))
+```
+What is printed?
+A) 4
+B) Error
+C) 5
+D) 3
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.17937741708010435,0.018951000000001272,3,eos,40,2
+natural,replay32,3,1fb01adada6cae4084dbec5745c51ccf9ccb3a9f78c1eacc949b005a10b2622c,conservative,arithmetic,"Parcel 30104 contains 7 packs of 11 cards and 34 loose cards. What is the total?
+A) 111
+B) 43
+C) 315
+D) 45
+Return only the option letter.",A,C),C),False,False,False,Wrong->Wrong,False,0,8,0.1955187499988824,0.06910699999998826,3,eos,35,2
+natural,fresh32,1,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,baseline,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.29366029100492597,0.09643999999999764,6,eos,5,1
+natural,fresh32,1,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,baseline,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,0,0.1864800420589745,0.0585969999999989,3,eos,21,3
+natural,fresh32,1,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,baseline,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.3347384170629084,0.04228200000000015,8,eos,45,1
+natural,fresh32,1,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,baseline,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.23908325005322695,0.02864900000000148,5,eos,33,1
+natural,fresh32,1,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,baseline,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.1639399160631001,0.04466899999999896,2,eos,20,3
+natural,fresh32,2,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,baseline,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.29435212491080165,0.10276199999999847,6,eos,58,0
+natural,fresh32,2,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,baseline,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,0,0.1865198330488056,0.05816899999999947,3,eos,15,3
+natural,fresh32,2,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,baseline,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.36313595809042454,0.12912900000000604,8,eos,7,1
+natural,fresh32,2,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,baseline,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.23899654112756252,0.02853400000000761,5,eos,61,3
+natural,fresh32,2,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,baseline,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.16645341692492366,0.04972800000000177,2,eos,39,0
+natural,fresh32,3,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,baseline,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.2713349999394268,0.032235000000000014,6,eos,9,2
+natural,fresh32,3,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,baseline,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,0,0.1860094158910215,0.056343000000012466,3,eos,29,2
+natural,fresh32,3,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,baseline,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.35109629202634096,0.06962900000000616,8,eos,63,0
+natural,fresh32,3,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,baseline,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.2774589171167463,0.08752699999999436,5,eos,61,2
+natural,fresh32,3,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,baseline,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,0,0.1668129579629749,0.052909999999997126,2,eos,1,1
+natural,fresh32,1,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,static,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.289415875216946,0.10182900000000217,6,eos,5,0
+natural,fresh32,1,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,static,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.324529874837026,0.045085000000000264,8,eos,45,0
+natural,fresh32,1,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,static,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.23200037516653538,0.0276689999999995,5,eos,33,3
+natural,fresh32,2,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,static,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.28560458309948444,0.09831599999999696,6,eos,58,2
+natural,fresh32,2,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,static,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.3548399170394987,0.12374499999999955,8,eos,7,2
+natural,fresh32,2,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,static,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.23160929116420448,0.029734000000004812,5,eos,61,1
+natural,fresh32,3,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,static,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,0,0.2619071670342237,0.032679999999999154,6,eos,9,0
+natural,fresh32,3,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,static,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,0,0.3365807910449803,0.055940999999990026,8,eos,63,1
+natural,fresh32,3,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,static,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,0,0.28040079097263515,0.09256799999999998,5,eos,61,0
+natural,fresh32,1,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,dlr,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.30938729201443493,0.10869599999999835,6,eos,5,2
+natural,fresh32,1,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,dlr,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.19338824995793402,0.06542199999999809,3,eos,21,2
+natural,fresh32,1,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,dlr,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.3525491252075881,0.039337000000003286,8,eos,45,2
+natural,fresh32,1,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,dlr,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.2503700419329107,0.035726999999997844,5,eos,33,0
+natural,fresh32,1,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,dlr,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16865787492133677,0.05154600000000187,2,eos,20,2
+natural,fresh32,2,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,dlr,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.3115603330079466,0.11700000000000443,6,eos,58,1
+natural,fresh32,2,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,dlr,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.19475208409130573,0.06533599999999495,3,eos,15,0
+natural,fresh32,2,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,dlr,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.3867426251526922,0.14055299999999704,8,eos,7,3
+natural,fresh32,2,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,dlr,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.2475960000883788,0.03511500000000467,5,eos,61,0
+natural,fresh32,2,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,dlr,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1730817079078406,0.0559159999999963,2,eos,39,1
+natural,fresh32,3,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,dlr,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.2814329999964684,0.031504999999995675,6,eos,9,3
+natural,fresh32,3,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,dlr,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.1944771248381585,0.06997200000000703,3,eos,29,1
+natural,fresh32,3,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,dlr,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.36322862515226007,0.061613000000008356,8,eos,63,3
+natural,fresh32,3,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,dlr,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.30474041611887515,0.1059540000000112,5,eos,61,1
+natural,fresh32,3,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,dlr,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16107245907187462,0.019597000000004527,2,eos,1,0
+natural,fresh32,1,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,conservative,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.30607579182833433,0.10468399999999889,6,eos,5,3
+natural,fresh32,1,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,conservative,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.19496895908378065,0.06841000000000008,3,eos,21,1
+natural,fresh32,1,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,conservative,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.35221541696228087,0.039108999999996286,8,eos,45,3
+natural,fresh32,1,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,conservative,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.24693120806477964,0.026822000000002788,5,eos,33,2
+natural,fresh32,1,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,conservative,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1668812921270728,0.050752000000002795,2,eos,20,1
+natural,fresh32,2,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,conservative,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.3129239999689162,0.11161500000000046,6,eos,58,3
+natural,fresh32,2,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,conservative,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.19303433410823345,0.06327299999999525,3,eos,15,2
+natural,fresh32,2,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,conservative,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.39712612493894994,0.1643669999999986,8,eos,7,0
+natural,fresh32,2,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,conservative,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.24732904112897813,0.027557000000001608,5,eos,61,2
+natural,fresh32,2,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,conservative,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.1710525827948004,0.04724999999999824,2,eos,39,3
+natural,fresh32,3,0295790742712e83995287f33ecc381b65586bfc56d69b6654ef1f8a4ca4bbeb,conservative,arithmetic,"Parcel ledger 64102: a shelf contains 51 parcels and receives 38 more. How many are there now?
+A) 13
+B) 90
+C) 89
+D) 1938
+Return only the option letter.",C,B) 90,B) 90,False,False,False,Wrong->Wrong,False,0,20,0.2813772920053452,0.03186700000000542,6,eos,9,1
+natural,fresh32,3,ef489944eb6789ace36b2dd8d6fec4fa93cbf392cabb4e7f2f55a6fc6077fe7c,conservative,arithmetic,"Parcel ledger 64100: a shelf contains 55 parcels and receives 86 more. How many are there now?
+A) 4730
+B) 142
+C) -31
+D) 141
+Return only the option letter.",D,B),B),False,False,False,Wrong->Wrong,False,0,8,0.1936667920090258,0.062244999999990114,3,eos,29,3
+natural,fresh32,3,e25887094dce10a0e68dd33aa239d209a4031201561d270959f52d90c7994eed,conservative,arithmetic,"Parcel ledger 64103: a shelf contains 37 parcels and receives 64 more. How many are there now?
+A) -27
+B) 2368
+C) 101
+D) 102
+Return only the option letter.",C,B) 2368,B) 2368,False,False,False,Wrong->Wrong,False,0,28,0.37057879217900336,0.05836099999999078,8,eos,63,2
+natural,fresh32,3,9714db2b7d4c8435c74b052110f77c987bc6919ec635cd7994accb8b0ff78b6e,conservative,coding,"Trace card 64105: Python executes x = [84, 71, 7]; print(x[-2]). What is printed?
+A) 155
+B) 7
+C) 84
+D) 71
+Return only the option letter.",D,B) 7,B) 7,False,False,False,Wrong->Wrong,False,0,16,0.28430112497881055,0.07299700000000087,5,eos,61,3
+natural,fresh32,3,f137c208dcf5900f618139f63355a65d1f869eddf9ee2a342cc2b7060ecf8357,conservative,logic,"Queue note 64108: Vena64108 precedes Wori64108, and Wori64108 precedes Xelu64108. Who is last?
+A) Wori64108
+B) Xelu64108
+C) Vena64108
+D) Cannot be determined
+Return only the option letter.",B,C,C,False,False,True,Wrong->Wrong,False,0,4,0.16943241702392697,0.04416299999999751,2,eos,1,3

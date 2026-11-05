@@ -1,0 +1,33 @@
+model,dataset,method,cost_axis,accuracy,measured_mean_cost,dominated_by,on_observed_frontier,scope
+qwen2.5:1.5b,replay150,baseline,measured_cpu_seconds,0.6266666666666667,14.347679400000011,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,baseline,verification_wall_seconds,0.6266666666666667,24.804755600309,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,selective,measured_cpu_seconds,0.7333333333333333,4.108016599999982,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,selective,verification_wall_seconds,0.7333333333333333,6.52994179870002,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,rcav,measured_cpu_seconds,0.7533333333333333,0.004937399999997538,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,rcav,verification_wall_seconds,0.7533333333333333,0.004942057561129332,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,improved,measured_cpu_seconds,0.7733333333333333,0.8201775999999883,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,replay150,improved,verification_wall_seconds,0.7733333333333333,1.0304680503439159,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,baseline,measured_cpu_seconds,0.4973333333333333,28.583101999999993,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,baseline,verification_wall_seconds,0.4973333333333333,47.95376329896972,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,selective,measured_cpu_seconds,0.576,10.126961000000007,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,selective,verification_wall_seconds,0.576,18.22792142299004,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,rcav,measured_cpu_seconds,0.62,0.012523200000001334,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,rcav,verification_wall_seconds,0.62,0.010544117772951722,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,improved,measured_cpu_seconds,0.6233333333333333,1.6852400000000145,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:1.5b,fresh300,improved,verification_wall_seconds,0.6233333333333333,2.342290750006214,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,baseline,measured_cpu_seconds,0.48,10.982940599999985,"[""selective""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,baseline,verification_wall_seconds,0.48,8.50153688355349,"[""selective""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,selective,measured_cpu_seconds,0.4866666666666667,5.9634087999999945,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,selective,verification_wall_seconds,0.4866666666666667,4.9431328909471635,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,rcav,measured_cpu_seconds,0.47333333333333333,1.0620368000000053,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,rcav,verification_wall_seconds,0.47333333333333333,0.7341810488607734,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,improved,measured_cpu_seconds,0.47333333333333333,1.1014511999999936,"[""rcav""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,replay150,improved,verification_wall_seconds,0.47333333333333333,0.8056064416654408,"[""rcav""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,baseline,measured_cpu_seconds,0.41333333333333333,37.3244196,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,baseline,verification_wall_seconds,0.41333333333333333,24.308451074687763,"[""selective"", ""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,selective,measured_cpu_seconds,0.4166666666666667,27.040426200000066,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,selective,verification_wall_seconds,0.4166666666666667,16.470783599466085,"[""rcav"", ""improved""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,rcav,measured_cpu_seconds,0.4166666666666667,0.5955617999999785,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,rcav,verification_wall_seconds,0.4166666666666667,0.4407299757003784,[],True,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,improved,measured_cpu_seconds,0.4166666666666667,1.7117801999999807,"[""rcav""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.
+qwen2.5:0.5b,fresh300,improved,verification_wall_seconds,0.4166666666666667,0.9997553746215999,"[""rcav""]",False,Four observed points only; ignores inference uncertainty and is not proof of success.

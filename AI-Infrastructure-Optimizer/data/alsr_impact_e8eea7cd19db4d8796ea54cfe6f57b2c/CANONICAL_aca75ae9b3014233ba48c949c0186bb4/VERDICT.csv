@@ -1,0 +1,7 @@
+method,quality_point_within_target,speed10_confident,true_skips_and_estimated_compute_reduction,promising,population_1pp_noninferiority_proven
+adaptive_sketch,False,False,True,False,False
+static,False,False,True,False,False
+random,False,False,True,False,False
+stable1,False,False,True,False,False
+random1,False,False,True,False,False
+prelayer_gate,True,False,False,False,False

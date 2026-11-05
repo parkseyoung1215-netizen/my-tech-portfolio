@@ -1,0 +1,7 @@
+{
+  "real_requests": 960,
+  "new_requests": 0,
+  "elapsed_seconds": 0.5633276249282062,
+  "export": "./data/dlr_5a4656b8d37f48dd8a55a0e82b647b37/EXPORT_d0cc266d2e0b4c918bc72dcfead387f5",
+  "model_load_and_warmup_in_primary_per_request_metrics": false
+}

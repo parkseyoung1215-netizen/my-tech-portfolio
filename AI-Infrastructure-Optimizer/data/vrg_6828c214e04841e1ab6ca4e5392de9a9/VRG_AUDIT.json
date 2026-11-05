@@ -1,0 +1,18 @@
+{
+  "preserved_files_unchanged": 494,
+  "frozen_inputs_verified": true,
+  "previous_question_stems": 2222,
+  "fresh_calibration_test_past_overlap": 0,
+  "train_validation_test_disjoint": true,
+  "previous_evaluation_not_used_for_training": true,
+  "profiles_refitted_from_training_validation_only": true,
+  "same_initial_outputs": true,
+  "all_acceptance_decisions_reconstructed": true,
+  "all_prompts_and_grades_reconstructed": true,
+  "actual_verification_calls": 10500,
+  "actual_rows": 15000,
+  "oracle_rows_analysis_only": 3000,
+  "api_errors": 0,
+  "varying_candidate_requests": 0,
+  "scope": "Repeated frozen primaries are not independent questions. Semantic/template overlap remains."
+}

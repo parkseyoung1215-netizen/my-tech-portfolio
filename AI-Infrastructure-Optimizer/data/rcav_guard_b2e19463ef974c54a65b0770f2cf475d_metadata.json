@@ -1,0 +1,17 @@
+{
+  "run_id": "b2e19463ef974c54a65b0770f2cf475d",
+  "prefix_name": "rcav_guard_b2e19463ef974c54a65b0770f2cf475d",
+  "real_inference": true,
+  "manifest_sha256": "1cafd51bf0b78c59d9bce2ce40392e48074c8bdfb9f85b27858207f616905ea2",
+  "guard_profile_sha256": "a0d1dd5f4465e142b21611149c06d57ae6aec35983e413d6ec3cb4d46f70af3b",
+  "preserved_files_checked": 254,
+  "preserved_unchanged": true,
+  "evaluation_seconds": 194.08635016717017,
+  "calibration_seconds": 18.403508000075817,
+  "new_calibration_calls": 180,
+  "recheck_seconds": 1.6657663329970092,
+  "diagnostic_recheck_calls": 33,
+  "evaluation_rows": 2700,
+  "actual_evaluation_calls": 2595,
+  "cost_status": "unmeasured"
+}

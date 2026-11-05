@@ -1,0 +1,9 @@
+model,method,accuracy,stage_cpu_mean,dominated_by,on_observed_frontier,scope
+qwen2.5:1.5b,none,0.6133333333333333,0.003461000000001846,[],True,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:1.5b,full,0.54,29.92180920000001,"[""none"", ""selective"", ""pvcg""]",False,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:1.5b,selective,0.6366666666666667,10.020855599999997,[],True,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:1.5b,pvcg,0.6133333333333333,0.008330199999999621,"[""none""]",False,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:0.5b,none,0.37666666666666665,0.0037852000000011543,[],True,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:0.5b,full,0.366,43.67522059999999,"[""none"", ""selective"", ""pvcg""]",False,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:0.5b,selective,0.37066666666666664,31.388932000000015,"[""none"", ""pvcg""]",False,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."
+qwen2.5:0.5b,pvcg,0.37666666666666665,0.01160919999999983,"[""none""]",False,"Observed points only, not significance guarantee; initial shared cost shift does not alter dominance."

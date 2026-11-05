@@ -1,0 +1,6 @@
+dataset,method,requests,old_official_accuracy,old_selected_answer_content_accuracy,old_selected_answer_format_compliance,interpretation
+historical_single_run,baseline,150,0.58,0.5866666666666667,0.9933333333333333,"Old selected final responses only, not a replay of changed verification adoption; no timing resimulation."
+historical_single_run,early_exit,150,0.6666666666666666,0.6733333333333333,0.9933333333333333,"Old selected final responses only, not a replay of changed verification adoption; no timing resimulation."
+historical_single_run,selective,150,0.6466666666666666,0.6733333333333333,0.9733333333333334,"Old selected final responses only, not a replay of changed verification adoption; no timing resimulation."
+historical_single_run,budget_cap,150,0.5866666666666667,0.5933333333333334,0.9933333333333333,"Old selected final responses only, not a replay of changed verification adoption; no timing resimulation."
+historical_single_run,batch_verify,150,0.6733333333333333,0.7,0.9733333333333334,"Old selected final responses only, not a replay of changed verification adoption; no timing resimulation."

@@ -1,0 +1,14 @@
+{
+  "python": "3.14.6",
+  "platform": "macOS-15.7.4-arm64-arm-64bit-Mach-O",
+  "memory_size_from_actual_metal_load": 17179869184,
+  "sysctl_recheck": "Sandbox denied; no independent repeated sysctl measurement claimed.",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "numpy": "2.5.4",
+    "transformers": "5.22.1"
+  },
+  "model_all_file_hashes_match_original_setup": true,
+  "existing_files_verified": 729
+}

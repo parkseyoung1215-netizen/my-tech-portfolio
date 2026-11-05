@@ -1,0 +1,20 @@
+{
+  "preserved_files_unchanged": true,
+  "preserved_files_checked": 311,
+  "fresh_questions": 300,
+  "old_question_keys_checked": 1522,
+  "fresh_overlap_old": 0,
+  "shared_initial_entries": 900,
+  "all_methods_used_identical_initial_answers": true,
+  "primary_regeneration_during_verification": 0,
+  "actual_primary_calls": 720,
+  "actual_verification_calls": 7325,
+  "all_verification_prompts_reconstructed": true,
+  "outcome_rows": 18000,
+  "summaries_reconstructed": true,
+  "schedule_and_positions_verified": true,
+  "runner_resets_observed": 10,
+  "runner_reset_attempts": 10,
+  "verification_api_errors": 0,
+  "limits": "Sampled RSS only; intra-repeat cache hits, power, GPU FLOPs and monetary costs unmeasured. Statistical inference conditional on frozen primaries."
+}

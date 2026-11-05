@@ -1,0 +1,13 @@
+method,workload,ratio,ci95_low,ci95_high,scope,measurement
+adaptive_sketch,natural,0.9432316814207911,0.8202016602731517,1.0672164235185528,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+prelayer_gate,natural,0.9382450316913366,0.8108276110353754,1.079376975901899,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+random,natural,1.2430968733791152,1.0328634293009782,1.5252861167963574,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+random1,natural,1.0249290892709184,0.8668757787793023,1.249090672505559,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+stable1,natural,1.134071832075171,0.9648477475264763,1.3429917636156703,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+static,natural,1.1727212878915863,0.9424733413902018,1.459401266470448,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+adaptive_sketch,fixed,0.9592154674525624,0.8553398705577397,1.0402449178311897,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+prelayer_gate,fixed,1.0167438738636276,0.914817905254265,1.1696245206750182,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+random,fixed,0.8574719853402958,0.7592902356556479,0.9490534596170712,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+random1,fixed,0.9769670189765387,0.9451365941041552,1.0250694969989926,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+stable1,fixed,0.9779303055505195,0.915473308712078,1.1513799930228503,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"
+static,fixed,0.8874040070502067,0.850752626950317,0.9399218494664775,Paired question and repetition resampling; same inputs kept together.,"Python process CPU time, not GPU/device total compute"

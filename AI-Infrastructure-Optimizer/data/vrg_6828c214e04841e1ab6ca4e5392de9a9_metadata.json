@@ -1,0 +1,16 @@
+{
+  "run_id": "6828c214e04841e1ab6ca4e5392de9a9",
+  "models": [
+    "qwen2.5:1.5b",
+    "qwen2.5:0.5b"
+  ],
+  "repeats": 5,
+  "real_inference": true,
+  "verification_calls": 10500,
+  "primary_calls": 480,
+  "calibration_calls": 360,
+  "verification_loop_seconds": 1344.5632927909028,
+  "raw_rows": 15000,
+  "preserved_files": 494,
+  "power_gpu_money": "unmeasured"
+}

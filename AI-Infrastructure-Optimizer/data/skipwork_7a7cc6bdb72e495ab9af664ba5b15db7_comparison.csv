@@ -1,0 +1,5 @@
+method,accuracy_delta,answer_rate_delta,model_call_delta,input_token_delta,output_token_delta,processing_seconds_delta,mean_latency_delta,correct_to_wrong,wrong_to_correct,quality_non_degradation_observed,lower_latency_observed,lower_processing_time_observed,interpretation
+early_exit,0.08666666666666667,0.0,-30,-2248,-150,1.562545750522986,0.03375414523761722,0,13,True,False,False,"Calls and tokens are measured workload indicators, not FLOPs or money"
+selective,0.06666666666666665,-0.019999999999999907,-60,-5111,-211,-3.2903075399808586,-0.04477061389790227,3,13,False,True,True,"Calls and tokens are measured workload indicators, not FLOPs or money"
+budget_cap,0.00666666666666671,0.0,0,0,0,4.027215207694098,0.07191808556827411,0,1,True,False,False,"Calls and tokens are measured workload indicators, not FLOPs or money"
+batch_verify,0.09333333333333338,-0.019999999999999907,-110,-4736,1460,32.08043000055477,1.099250026877659,13,27,False,False,False,"Calls and tokens are measured workload indicators, not FLOPs or money"

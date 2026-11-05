@@ -1,0 +1,5 @@
+{
+  "matplotlib": "3.11.2",
+  "data": "VRG_RESULTS.csv",
+  "oracle_cost": "unmeasured; no bar"
+}

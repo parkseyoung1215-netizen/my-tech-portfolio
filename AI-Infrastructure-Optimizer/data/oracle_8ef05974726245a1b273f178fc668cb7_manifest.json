@@ -1,0 +1,305 @@
+{
+  "datasets": {
+    "replay8": [
+      {
+        "task_id": "6819637d51747c90b760ef37e116a698e85aaab0d042c75c5c35d5c8bbc852d1",
+        "question": "Rules for set 30107: All daxes are merins. No merin is blue. Object Nemi30107 is a dax. Which conclusion follows?\nA) Nemi30107 is not blue\nB) Nothing follows\nC) Nemi30107 is blue\nD) Nemi30107 is not a merin\nReturn only the option letter.",
+        "reference": "A",
+        "category": "logic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "2207cab965ecf5f0fd1aae3365b88131e72735b465f63420fad3f6be8f1ef5ff",
+        "question": "Log 30101: A package arrives on Tuesday. Nemi30101 stores it until Friday, when Pavo30101 collects it. On which day is it collected?\nA) Friday\nB) Saturday\nC) Wednesday\nD) Tuesday\nReturn only the option letter.",
+        "reference": "A",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "58e58948bcf61243b25f8b5c235f73cc5bebeac5b0b6c01b10d6965bb719f6c7",
+        "question": "Parcel 30110 contains 7 packs of 61 cards and 56 loose cards. What is the total?\nA) 819\nB) 371\nC) 117\nD) 483\nReturn only the option letter.",
+        "reference": "D",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "a19a8fbe27f244152dbcf42502600981339fbe1bea0f1ae0744c328ce2fdd730",
+        "question": "Python snippet 30103:\n```python\nx = [11, 54, 67]\nx.append(2)\nprint(len(x))\n```\nWhat is printed?\nA) 4\nB) 5\nC) Error\nD) 3\nReturn only the option letter.",
+        "reference": "A",
+        "category": "coding",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "0a8d2cf244076e576c6cf7a4ce31b45ad946d1fae135a5dd7dc764b18b884724",
+        "question": "Memo 30104: Nemi30104 owns a silver compass. Nemi30104 lends the compass to Pavo30104 for one day; ownership does not change. Who owns the compass during that day?\nA) Nobody\nB) Nemi30104\nC) Selu30104\nD) Pavo30104\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "4bead11d7ae1175d4857524b169f1bba1f3186792f42b6788894559ff54eae67",
+        "question": "Log 30107: A package arrives on Tuesday. Nemi30107 stores it until Friday, when Pavo30107 collects it. On which day is it collected?\nA) Tuesday\nB) Friday\nC) Wednesday\nD) Saturday\nReturn only the option letter.",
+        "reference": "B",
+        "category": "reading",
+        "score_kind": "choice",
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "13315d7efd3bd07aa866f006a2ffc2cb58ceceaddb879cc309901cba75f67a59",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30200; enabled is false. Return only JSON.",
+        "reference": "{\"label\":\"unit30200\",\"enabled\":false}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30200",
+          "enabled": false
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      },
+      {
+        "task_id": "3e2df56dff67455bd964bc9d1564344fab8f590b4bd0b83114e3bd95b7366bcd",
+        "question": "Encode this as JSON with exactly label and enabled: label is unit30203; enabled is true. Return only JSON.",
+        "reference": "{\"label\":\"unit30203\",\"enabled\":true}",
+        "category": "structured_output",
+        "score_kind": "json",
+        "expected_object": {
+          "label": "unit30203",
+          "enabled": true
+        },
+        "difficulty": "unrated",
+        "token_cap": 32
+      }
+    ],
+    "fresh8": [
+      {
+        "task_id": "ec647fc5fc10277e69bd900e7791aec2b63d80eef39719d9561ec3ba53543aae",
+        "question": "Oracle study Python record 78101: x=[46, 19]; print(x[0]). What is printed?\nA) 65\nB) 46\nC) Error\nD) 19\nReturn only the option letter.",
+        "category": "coding",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "fd421a01cd5fbf926c2d39ee63d2d336b649ac77d5c0b6e6c3f0cbcadf9d3b3b",
+        "question": "Oracle study clothing record 80300: There is a scarf, and its color is blue. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "blue",
+        "token_cap": 32,
+        "aliases": [
+          "blue"
+        ]
+      },
+      {
+        "task_id": "3c37eadc2fe6445e8fdf8669480c31c0d2a8e6f8c8ea23f4907809a03498740c",
+        "question": "Oracle study queue 78102: Yera78102 is before Zobi78102. Zobi78102 is before Aven78102. Who is first?\nA) Aven78102\nB) Yera78102\nC) Zobi78102\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "logic",
+        "score_kind": "choice",
+        "reference": "B",
+        "token_cap": 32
+      },
+      {
+        "task_id": "b4d17639b26375f1f94579003d901bbd58e9d6ba5284ed0aab91bc1320c2c140",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"oracle79200\", quantity=41.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"oracle79200\", \"quantity\": 41}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "oracle79200",
+          "quantity": 41
+        }
+      },
+      {
+        "task_id": "be8ee0714ad9046b38b0422163ff9baa73ecf7de427a87c7f423eccecaaaa93a",
+        "question": "Oracle study parcel record 78100: 37 parcels are placed beside 86 parcels. How many parcels are there in total?\nA) 123\nB) 3182\nC) -49\nD) 124\nReturn only the option letter.",
+        "category": "arithmetic",
+        "score_kind": "choice",
+        "reference": "A",
+        "token_cap": 32
+      },
+      {
+        "task_id": "cdcffc53de7ece2f4d025c87780ec5dc6e86fd5da956b05726579030b3c68149",
+        "question": "Oracle study handover 78103: Benu78103 gives a key to Ciro78103, who keeps it. Who now holds the key?\nA) Nobody\nB) Benu78103\nC) Ciro78103\nD) Cannot be determined\nReturn only the option letter.",
+        "category": "reading",
+        "score_kind": "choice",
+        "reference": "C",
+        "token_cap": 32
+      },
+      {
+        "task_id": "952f03606e0a68e2746892208e9a575e42a9aa05590513221317539ae0257aad",
+        "question": "Return only a JSON object with keys code and quantity. Values: code=\"oracle79201\", quantity=42.",
+        "category": "structured_output",
+        "score_kind": "json",
+        "reference": "{\"code\": \"oracle79201\", \"quantity\": 42}",
+        "token_cap": 32,
+        "expected_object": {
+          "code": "oracle79201",
+          "quantity": 42
+        }
+      },
+      {
+        "task_id": "bbcbe34e55a7e9e52f3f9e6849c8996c3129341d8fdfda1c6053b42ddf545a08",
+        "question": "Oracle study clothing record 80301: There is a scarf, and its color is green. What color is the scarf? Return only the color word.",
+        "category": "reading_short",
+        "score_kind": "short",
+        "reference": "green",
+        "token_cap": 32,
+        "aliases": [
+          "green"
+        ]
+      }
+    ],
+    "long4": [
+      {
+        "task_id": "bcc38c52c9b99a51066c4a1b9eaf5aaf70e1099529dc161530d81691091f1f4e",
+        "question": "Oracle study transcription 81400. Copy exactly these 24 words in the same order, separated by single spaces, without explanation:\nbeep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep",
+        "category": "long_repetitive",
+        "score_kind": "copy_words",
+        "reference": "beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep",
+        "token_cap": 64,
+        "target_words": [
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep",
+          "beep"
+        ]
+      },
+      {
+        "task_id": "7e8475b8cbeee8f684ab068154715b5c0bd66825fcf8e2d87e2bc9f3925491af",
+        "question": "Oracle study transcription 81401. Copy exactly these 24 words in the same order, separated by single spaces, without explanation:\nla la la la la la la la la la la la la la la la la la la la la la la la",
+        "category": "long_repetitive",
+        "score_kind": "copy_words",
+        "reference": "la la la la la la la la la la la la la la la la la la la la la la la la",
+        "token_cap": 64,
+        "target_words": [
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la",
+          "la"
+        ]
+      },
+      {
+        "task_id": "29929a268a5ea802fc67aef73a7dc1c9ed1a94fd8636657f2e614aca99f882be",
+        "question": "Oracle study transcription 81402. Copy exactly these 24 words in the same order, separated by single spaces, without explanation:\nruby stone tide vale wood zeal ruby stone tide vale wood zeal ruby stone tide vale wood zeal ruby stone tide vale wood zeal",
+        "category": "long_varied",
+        "score_kind": "copy_words",
+        "reference": "ruby stone tide vale wood zeal ruby stone tide vale wood zeal ruby stone tide vale wood zeal ruby stone tide vale wood zeal",
+        "token_cap": 64,
+        "target_words": [
+          "ruby",
+          "stone",
+          "tide",
+          "vale",
+          "wood",
+          "zeal",
+          "ruby",
+          "stone",
+          "tide",
+          "vale",
+          "wood",
+          "zeal",
+          "ruby",
+          "stone",
+          "tide",
+          "vale",
+          "wood",
+          "zeal",
+          "ruby",
+          "stone",
+          "tide",
+          "vale",
+          "wood",
+          "zeal"
+        ]
+      },
+      {
+        "task_id": "1f29f55b719d1c93ed02eaa751834c1b22e7d65d49132e7118e49d99dd6dcba1",
+        "question": "Oracle study transcription 81403. Copy exactly these 24 words in the same order, separated by single spaces, without explanation:\nacorn brook cloud dove fern gate acorn brook cloud dove fern gate acorn brook cloud dove fern gate acorn brook cloud dove fern gate",
+        "category": "long_varied",
+        "score_kind": "copy_words",
+        "reference": "acorn brook cloud dove fern gate acorn brook cloud dove fern gate acorn brook cloud dove fern gate acorn brook cloud dove fern gate",
+        "token_cap": 64,
+        "target_words": [
+          "acorn",
+          "brook",
+          "cloud",
+          "dove",
+          "fern",
+          "gate",
+          "acorn",
+          "brook",
+          "cloud",
+          "dove",
+          "fern",
+          "gate",
+          "acorn",
+          "brook",
+          "cloud",
+          "dove",
+          "fern",
+          "gate",
+          "acorn",
+          "brook",
+          "cloud",
+          "dove",
+          "fern",
+          "gate"
+        ]
+      }
+    ]
+  },
+  "manifest": "./data/oracle_8ef05974726245a1b273f178fc668cb7/MANIFEST.json"
+}

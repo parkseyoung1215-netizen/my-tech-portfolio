@@ -1,0 +1,21 @@
+{
+  "all_original_files_unchanged": true,
+  "preserved_files_checked": 154,
+  "frozen_manifest_profile_plans_unchanged": true,
+  "reconstructed_all_scores_and_formats": true,
+  "reconstructed_summaries_aggregates_pairs": true,
+  "exact_runtime_prompts_contain_only_questions_and_actual_candidates": true,
+  "calibration_only_profile_reconstructed": true,
+  "calibration_evaluation_overlap": 0,
+  "unique_questions": 150,
+  "repeats": 3,
+  "evaluated_rows": 2250,
+  "unique_actual_evaluation_calls": 3450,
+  "shared_calls_not_duplicated": true,
+  "request_hashes_valid": true,
+  "batch_envelopes_actual_calls": {
+    "fenced": 120
+  },
+  "api_errors": 0,
+  "limits": "Replayed tasks, not independent holdout; gold-independent interpretable content scoring is not arbitrary prose adjudication."
+}

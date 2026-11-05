@@ -22,3 +22,15 @@ __pycache__/
 *.bin
 models/
 *.log
+
+# Research update: retain measurements, exclude local execution artifacts
+.alsr-venv/
+.cache/
+.mypy_cache/
+node_modules/
+*.lock
+*.tmp
+*.tmp.*
+.ipynb_checkpoints/
+.idea/
+.vscode/

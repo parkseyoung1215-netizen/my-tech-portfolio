@@ -1,0 +1,3 @@
+wall_seconds,cpu_seconds,prefill_forward_passes,gpu_seconds,scope,model,phase
+9.763279790990055,4.426698999999999,204,,Offline train/threshold calibration; no test labels or model weight training.,Qwen/Qwen2.5-0.5B-Instruct,postrun_auxiliary_recheck_only
+25.32412154204212,4.842920999999999,204,,Offline train/threshold calibration; no test labels or model weight training.,Qwen/Qwen2.5-1.5B-Instruct,postrun_auxiliary_recheck_only

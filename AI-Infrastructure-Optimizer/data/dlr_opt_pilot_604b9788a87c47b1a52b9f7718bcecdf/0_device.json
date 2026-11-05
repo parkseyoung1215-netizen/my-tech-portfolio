@@ -1,0 +1,713 @@
+{
+  "attention_calls": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "mlp_calls": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "reused_mlp_calls": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "work_shapes": [
+    [
+      40,
+      40,
+      28,
+      28
+    ],
+    [
+      1,
+      41,
+      28,
+      28
+    ],
+    [
+      1,
+      42,
+      28,
+      28
+    ],
+    [
+      1,
+      43,
+      28,
+      28
+    ],
+    [
+      1,
+      44,
+      28,
+      28
+    ],
+    [
+      1,
+      45,
+      28,
+      28
+    ],
+    [
+      1,
+      46,
+      28,
+      28
+    ],
+    [
+      1,
+      47,
+      28,
+      28
+    ],
+    [
+      1,
+      48,
+      28,
+      28
+    ],
+    [
+      1,
+      49,
+      28,
+      28
+    ],
+    [
+      1,
+      50,
+      28,
+      28
+    ],
+    [
+      1,
+      51,
+      28,
+      28
+    ],
+    [
+      1,
+      52,
+      28,
+      28
+    ],
+    [
+      1,
+      53,
+      28,
+      28
+    ],
+    [
+      1,
+      54,
+      28,
+      28
+    ],
+    [
+      1,
+      55,
+      28,
+      28
+    ]
+  ],
+  "gate_queries": 60,
+  "gate_wall_seconds": 0.0,
+  "gate_cpu_seconds": 0.0,
+  "gate_graph_host_wall_seconds": 0.0003146685194224119,
+  "gate_graph_host_cpu_seconds": 0.0003219999999961587,
+  "id_comparisons": 0,
+  "gate_elements": 92160,
+  "input_tokens": 40,
+  "answer": "```json\n{\n  \"x\": 6,\n  \"y\": ",
+  "token_ids": [
+    73594,
+    2236,
+    198,
+    515,
+    220,
+    330,
+    87,
+    788,
+    220,
+    21,
+    345,
+    220,
+    330,
+    88,
+    788,
+    220
+  ],
+  "predicted_token_ids": [
+    73594,
+    2236,
+    198,
+    515,
+    220,
+    330,
+    87,
+    788,
+    220,
+    21,
+    345,
+    220,
+    330,
+    88,
+    788,
+    220
+  ],
+  "output_tokens": 16,
+  "completion_reason": "max_tokens",
+  "kv_offsets": [
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55,
+    55
+  ],
+  "wall_seconds": 0.5565222080331296,
+  "cpu_seconds": 0.07776099999999975,
+  "model_wall_seconds": 0.5551045013125986,
+  "model_cpu_seconds": 0.07586099999999973,
+  "model_calls": 1,
+  "analytical_matmul_flops": 151988600832,
+  "gate_arithmetic_estimate": 461040,
+  "gate_selection_element_count": 184440,
+  "limited_net_arithmetic_proxy": 151989061872,
+  "events": [
+    {
+      "step": 1,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0189447402954102
+    },
+    {
+      "step": 1,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9999894499778748
+    },
+    {
+      "step": 1,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9742963910102844
+    },
+    {
+      "step": 1,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9920744299888611
+    },
+    {
+      "step": 2,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.1680479049682617
+    },
+    {
+      "step": 2,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.265897512435913
+    },
+    {
+      "step": 2,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.1526037454605103
+    },
+    {
+      "step": 2,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0769282579421997
+    },
+    {
+      "step": 3,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.1530470848083496
+    },
+    {
+      "step": 3,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.027828574180603
+    },
+    {
+      "step": 3,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0040283203125
+    },
+    {
+      "step": 3,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0562318563461304
+    },
+    {
+      "step": 4,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9485376477241516
+    },
+    {
+      "step": 4,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.786417543888092
+    },
+    {
+      "step": 4,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7653273940086365
+    },
+    {
+      "step": 4,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9786885976791382
+    },
+    {
+      "step": 5,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8839300870895386
+    },
+    {
+      "step": 5,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8082519173622131
+    },
+    {
+      "step": 5,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7754470109939575
+    },
+    {
+      "step": 5,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8431714773178101
+    },
+    {
+      "step": 6,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.833004355430603
+    },
+    {
+      "step": 6,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7186716794967651
+    },
+    {
+      "step": 6,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.640522301197052
+    },
+    {
+      "step": 6,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0596295595169067
+    },
+    {
+      "step": 7,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.1528377532958984
+    },
+    {
+      "step": 7,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.051759958267212
+    },
+    {
+      "step": 7,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9277146458625793
+    },
+    {
+      "step": 7,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0204912424087524
+    },
+    {
+      "step": 8,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0671294927597046
+    },
+    {
+      "step": 8,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9160772562026978
+    },
+    {
+      "step": 8,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8847031593322754
+    },
+    {
+      "step": 8,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9908909797668457
+    },
+    {
+      "step": 9,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.834506094455719
+    },
+    {
+      "step": 9,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7903624773025513
+    },
+    {
+      "step": 9,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7769841551780701
+    },
+    {
+      "step": 9,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8523076176643372
+    },
+    {
+      "step": 10,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9389920830726624
+    },
+    {
+      "step": 10,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8424874544143677
+    },
+    {
+      "step": 10,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9074123501777649
+    },
+    {
+      "step": 10,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0489050149917603
+    },
+    {
+      "step": 11,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9114927053451538
+    },
+    {
+      "step": 11,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8410075306892395
+    },
+    {
+      "step": 11,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8608115911483765
+    },
+    {
+      "step": 11,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9880674481391907
+    },
+    {
+      "step": 12,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7723873853683472
+    },
+    {
+      "step": 12,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.6434086561203003
+    },
+    {
+      "step": 12,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.645812451839447
+    },
+    {
+      "step": 12,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8380560278892517
+    },
+    {
+      "step": 13,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7168065905570984
+    },
+    {
+      "step": 13,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.7609056830406189
+    },
+    {
+      "step": 13,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.736170768737793
+    },
+    {
+      "step": 13,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.094408392906189
+    },
+    {
+      "step": 14,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.01637864112854
+    },
+    {
+      "step": 14,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.916938304901123
+    },
+    {
+      "step": 14,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8880467414855957
+    },
+    {
+      "step": 14,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.0546964406967163
+    },
+    {
+      "step": 15,
+      "layer": 8,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 1.091093897819519
+    },
+    {
+      "step": 15,
+      "layer": 12,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9189942479133606
+    },
+    {
+      "step": 15,
+      "layer": 16,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.8777115941047668
+    },
+    {
+      "step": 15,
+      "layer": 24,
+      "reused": false,
+      "gpu_projection_mac_branches": 3,
+      "distance": 0.9767737984657288
+    }
+  ],
+  "gate_host_scalar_reads": 0,
+  "explicit_pre_gate_evals": 0,
+  "device_gate_gpu_seconds": null,
+  "device_counter_read_batches": 1,
+  "device_custom_projection_calls": 180,
+  "pre_gate_sync_wall_seconds": 0.0,
+  "mlx_peak_bytes": 3162631492,
+  "mlx_active_bytes": 3095122192,
+  "process_lifetime_rss_peak_bytes": 3138289664,
+  "fixed_work": false,
+  "gpu_time_flops_power_money": null,
+  "gate_included_in_wall": true,
+  "method": "device",
+  "index": 0,
+  "question": "Return only a JSON object with keys x and y. Values: x=6, y=8."
+}
